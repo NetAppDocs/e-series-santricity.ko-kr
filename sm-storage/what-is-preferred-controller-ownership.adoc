@@ -1,0 +1,18 @@
+---
+permalink: sm-storage/what-is-preferred-controller-ownership.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, preferred, controller, ownership 
+summary: 선호 컨트롤러 소유권은 볼륨의 소유 또는 주 컨트롤러로 지정된 컨트롤러를 정의합니다. 
+---
+= 선호하는 컨트롤러 소유권은 무엇입니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+선호 컨트롤러 소유권은 볼륨의 소유 또는 주 컨트롤러로 지정된 컨트롤러를 정의합니다.
+
+컨트롤러 소유권은 매우 중요하며 신중하게 계획해야 합니다. 전체 I/O에 대해 컨트롤러를 최대한 균형 조정해야 합니다.
+
+예를 들어, 하나의 컨트롤러가 주로 대규모 순차 데이터 블록을 읽고 다른 컨트롤러에 빈번한 읽기 및 쓰기 작업을 수행하는 작은 데이터 블록이 있으면 로드가 매우 달라집니다. 어떤 볼륨에 어떤 데이터 유형이 포함되어 있는지 이해하면 두 컨트롤러 모두에서 I/O 전송 균형을 동일하게 유지할 수 있습니다.

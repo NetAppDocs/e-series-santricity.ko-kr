@@ -1,0 +1,22 @@
+---
+permalink: sm-storage/snapshot-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, snapshot, volumes 
+summary: '스냅샷 데이터를 읽거나 쓰려면 스냅샷 볼륨을 생성하여 호스트에 할당할 수 있습니다. 스냅샷 볼륨은 기본 볼륨(RAID 레벨, I/O 특성 등)과 동일한 특성을 공유합니다.' 
+---
+= Snapshot 볼륨
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스냅샷 데이터를 읽거나 쓰려면 스냅샷 볼륨을 생성하여 호스트에 할당할 수 있습니다. 스냅샷 볼륨은 기본 볼륨(RAID 레벨, I/O 특성 등)과 동일한 특성을 공유합니다.
+
+스냅샷 볼륨을 생성할 때 해당 볼륨을 __read-onl__y 또는 _read-write Accessible_로 지정할 수 있습니다.
+
+읽기 전용 스냅샷 볼륨을 생성할 때 예약된 용량을 추가할 필요가 없습니다. 읽기-쓰기 스냅샷 볼륨을 생성할 때 쓰기 액세스를 제공하려면 예약된 용량을 추가해야 합니다.
+
+image::../media/sam1130-dwg-snapshots-volumes-overview.gif[sam1130 DWG 스냅샷 볼륨 개요]
+
+^1^기본 볼륨;^2^호스트;^3^읽기 전용 스냅샷 볼륨;^4^읽기-쓰기 스냅샷 볼륨;^5^ 예약된 용량

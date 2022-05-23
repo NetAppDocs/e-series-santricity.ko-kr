@@ -1,0 +1,27 @@
+---
+permalink: sm-storage/view-snapshot-image-settings.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, view, snapshot, image, settings 
+summary: 각 스냅샷 이미지에 할당된 속성, 상태, 예약된 용량 및 관련 객체를 볼 수 있습니다. 
+---
+= 스냅샷 이미지 설정을 봅니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+각 스냅샷 이미지에 할당된 속성, 상태, 예약된 용량 및 관련 객체를 볼 수 있습니다.
+
+스냅샷 이미지와 관련된 객체에는 이 스냅샷 이미지가 복원 지점인 기본 볼륨 또는 스냅샷 정합성 보장 그룹, 연결된 스냅샷 그룹 및 스냅샷 이미지에서 생성된 모든 스냅샷 볼륨이 포함됩니다. 스냅샷 설정을 사용하여 스냅샷 이미지를 복제할지 또는 변환할지를 결정합니다.
+
+.단계
+. 스토리지 [스냅샷] 메뉴를 선택합니다.
+. 스냅샷 이미지 * 탭을 클릭합니다.
+. 보려는 스냅샷 이미지를 선택한 다음 * 설정 보기 * 를 클릭합니다.
++
+스냅샷 이미지 설정 대화 상자가 나타납니다.
+
+. 스냅샷 이미지에 대한 설정을 봅니다.
+

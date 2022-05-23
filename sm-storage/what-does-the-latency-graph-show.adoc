@@ -1,0 +1,21 @@
+---
+permalink: sm-storage/what-does-the-latency-graph-show.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, latency, graph, show, statistics, 
+summary: '지연 시간 그래프는 볼륨, 볼륨 그룹, 풀에 대한 지연 시간 통계(밀리초(ms))를 워크로드에 적합합니다. 이 그래프는 Logical View, Physical View 및 Applications & 워크로드 보기 탭에 나타납니다.' 
+---
+= 지연 시간 그래프는 무엇을 표시합니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+지연 시간 그래프는 볼륨, 볼륨 그룹, 풀에 대한 지연 시간 통계(밀리초(ms))를 워크로드에 적합합니다. 이 그래프는 Logical View, Physical View 및 Applications & 워크로드 보기 탭에 나타납니다.
+
+지연 시간은 데이터가 읽기 또는 쓰일 때 발생하는 지연을 나타냅니다. 그래프의 한 지점 위로 커서를 가져가면 해당 시점에 대한 다음 값(밀리초(ms))이 표시됩니다.
+
+* 읽기 시간.
+* 쓰기 시간.
+* 평균 I/O 크기
+

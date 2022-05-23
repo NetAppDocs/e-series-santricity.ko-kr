@@ -1,0 +1,44 @@
+---
+permalink: sm-interface/set-default-units-for-capacity-values.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, capacity values 
+summary: 'System Manager는 용량 값을 기비바이트(GiB) 또는 테비바이트(TiB) 단위로 표시할 수 있습니다.' 
+---
+= 용량 값의 기본 단위를 설정합니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager는 용량 값을 기비바이트(GiB) 또는 테비바이트(TiB) 단위로 표시할 수 있습니다.
+
+기본 설정은 브라우저의 로컬 저장소에 저장되므로 모든 사용자가 고유한 설정을 가질 수 있습니다.
+
+.단계
+. 메뉴 선택: 기본 설정 [기본 설정 설정 설정].
+. 기비바이트 * 또는 * 테비바이트 * 의 라디오 단추를 클릭하고 작업을 수행할지 확인합니다.
++
+약어 및 값은 다음 표를 참조하십시오.
+
++
+[cols="1a,1a"]
+|===
+| 약어 | 값 
+
+
+ a| 
+GiB
+ a| 
+1,024^3^바이트
+
+
+
+ a| 
+TiB
+ a| 
+1,024^4^바이트
+
+|===
+

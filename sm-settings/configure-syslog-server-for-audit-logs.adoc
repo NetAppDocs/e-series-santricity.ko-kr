@@ -1,0 +1,50 @@
+---
+permalink: sm-settings/configure-syslog-server-for-audit-logs.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, syslog, server, audit, logs, 
+summary: 감사 로그를 외부 syslog 서버에 보관하려는 경우 해당 서버와 스토리지 시스템 간의 통신을 구성할 수 있습니다. 연결이 설정되면 감사 로그가 syslog 서버에 자동으로 저장됩니다. 
+---
+= 감사 로그를 위해 syslog 서버를 구성합니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+감사 로그를 외부 syslog 서버에 보관하려는 경우 해당 서버와 스토리지 시스템 간의 통신을 구성할 수 있습니다. 연결이 설정되면 감사 로그가 syslog 서버에 자동으로 저장됩니다.
+
+.시작하기 전에
+* 보안 관리자 권한이 포함된 사용자 프로필로 로그인해야 합니다. 그렇지 않으면 Access Management 기능이 나타나지 않습니다.
+* syslog 서버 주소, 프로토콜 및 포트 번호를 사용할 수 있어야 합니다. 서버 주소는 정규화된 도메인 이름, IPv4 주소 또는 IPv6 주소일 수 있습니다.
+* 서버에서 보안 프로토콜(예: TLS)을 사용하는 경우 로컬 시스템에서 인증 기관(CA) 인증서를 사용할 수 있어야 합니다. CA 인증서는 서버와 클라이언트 간의 보안 연결을 위해 웹 사이트 소유자를 식별합니다.
+
+
+.단계
+. 메뉴: 설정 [Access Management](액세스 관리)를 선택합니다.
+. 감사 로그 탭에서 * Syslog 서버 구성 * 을 선택합니다.
++
+Configure Syslog Servers 대화 상자가 열립니다.
+
+. 추가 * 를 클릭합니다.
++
+Add Syslog Server 대화 상자가 열립니다.
+
+. 서버에 대한 정보를 입력한 다음 * 추가 * 를 클릭합니다.
++
+** * 서버 주소 * -- 정규화된 도메인 이름, IPv4 주소 또는 IPv6 주소를 입력합니다.
+** * 프로토콜 * -- 드롭다운 목록에서 프로토콜을 선택합니다(예: TLS, UDP 또는 TCP).
+** * 인증서 업로드(선택 사항) * -- TLS 프로토콜을 선택했지만 아직 서명된 CA 인증서를 업로드하지 않은 경우 * 찾아보기 * 를 클릭하여 인증서 파일을 업로드합니다. 감사 로그는 신뢰할 수 있는 인증서가 없는 syslog 서버에 보관되지 않습니다.
++
+[NOTE]
+====
+나중에 인증서가 유효하지 않게 되면 TLS 핸드셰이크가 실패합니다. 따라서 오류 메시지가 감사 로그에 게시되고 메시지가 더 이상 syslog 서버로 전송되지 않습니다. 이 문제를 해결하려면 syslog 서버의 인증서를 수정한 다음 설정 [감사 로그 > Syslog 서버 구성 > 모두 테스트] 메뉴로 이동해야 합니다.
+
+====
+** * Port * -- syslog 수신기의 포트 번호를 입력합니다. Add * 를 클릭하면 Configure Syslog Servers 대화 상자가 열리고 구성된 syslog 서버가 페이지에 표시됩니다.
+
+
+. 스토리지 배열과의 서버 연결을 테스트하려면 * Test All * 을 선택합니다.
+
+
+구성 후 모든 새 감사 로그가 syslog 서버로 전송됩니다. 이전 로그는 전송되지 않습니다.

@@ -1,0 +1,29 @@
+---
+permalink: sm-storage/rtv-why-dont-i-see-all-my-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, volumes, destination, array 
+summary: 원격 스토리지 기능에 대한 가져오기를 구성할 때 블록 크기, 용량 또는 볼륨 가용성 때문에 일부 볼륨이 대상 후보 목록에 나타나지 않을 수 있습니다. 
+---
+= 대상 어레이에 내 볼륨이 모두 표시되지 않는 이유는 무엇입니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+원격 스토리지 기능에 대한 가져오기를 구성할 때 블록 크기, 용량 또는 볼륨 가용성 때문에 일부 볼륨이 대상 후보 목록에 나타나지 않을 수 있습니다.
+
+목록에 표시하려면 볼륨 후보:
+
+* 원격 볼륨과 같거나 큰 용량입니다.
+* 원격 볼륨과 동일한 블록 크기
+* 현재 최적 상태입니다.
+
+
+다음과 같은 경우 목록에서 볼륨 후보가 제외됩니다.
+
+* 볼륨 복사본, 스냅샷 또는 미러링과 같은 모든 관계
+* 재구성 작업이 진행 중입니다.
+* 다른 디바이스(호스트 또는 호스트 클러스터)에 매핑
+* 읽기 플래시 캐시가 설정되었습니다.
+

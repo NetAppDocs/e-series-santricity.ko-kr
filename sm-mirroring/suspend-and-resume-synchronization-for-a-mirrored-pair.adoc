@@ -1,0 +1,38 @@
+---
+permalink: sm-mirroring/suspend-and-resume-synchronization-for-a-mirrored-pair.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, suspend, resume, synchronization, mirrored, pair, 
+summary: 일시 중지 옵션과 재개 옵션을 사용하여 운영 볼륨의 데이터와 미러링된 쌍의 보조 볼륨의 데이터를 동기화할 시기를 제어할 수 있습니다. 
+---
+= 미러링된 쌍의 동기화를 일시 중지하고 다시 시작합니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+일시 중지 옵션과 재개 옵션을 사용하여 운영 볼륨의 데이터와 미러링된 쌍의 보조 볼륨의 데이터를 동기화할 시기를 제어할 수 있습니다.
+
+미러링된 쌍이 수동으로 일시 중지된 경우 미러링된 쌍이 수동으로 재개될 때까지 동기화되지 않습니다.
+
+.단계
+. 스토리지 [동기식 미러링] 메뉴를 선택합니다.
+. 일시 중단 또는 재개할 미러링된 쌍을 선택한 다음 More [Suspend](자세히) 또는 menu: More [Resume](자세히 [재개]) 중 하나를 선택합니다.
++
+확인 메시지가 표시됩니다.
+
+. 예 * 를 선택하여 확인합니다.
+
+
+System Manager는 다음 작업을 수행합니다.
+
+* 미러 관계를 제거하지 않고 미러링된 쌍 간에 데이터 전송을 일시 중단하거나 재개합니다.
+* Suspended_Mirrored 쌍의 경우:
++
+** 미러링된 쌍 테이블에 * Suspended * 를 표시합니다.
+** 동기화가 일시 중단된 동안 미러링된 쌍의 기본 볼륨에 기록된 모든 데이터를 기록합니다.
+
+
+* _refned_mirrored 쌍의 경우, 동기화가 재개될 때 미러링된 쌍의 보조 볼륨에 데이터를 자동으로 씁니다. 전체 동기화가 필요하지 않습니다.
+

@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/maximum-number-of-luns.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, maximum, luns 
+summary: '스토리지 어레이에는 각 호스트에 사용할 수 있는 최대 LUN(Logical Unit Number)이 있습니다.' 
+---
+= 최대 LUN 수입니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 어레이에는 각 호스트에 사용할 수 있는 최대 LUN(Logical Unit Number)이 있습니다.
+
+최대 수는 호스트의 운영 체제에 따라 다릅니다. 스토리지 시스템은 사용된 LUN 수를 추적합니다. 최대 LUN 수를 초과하는 호스트에 볼륨을 할당하려고 하면 호스트가 볼륨을 액세스할 수 없습니다.

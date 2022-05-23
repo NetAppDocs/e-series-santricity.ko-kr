@@ -1,0 +1,19 @@
+---
+permalink: sm-hardware/change-view-order-of-shelves.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, change, view, order, shelves 
+summary: 캐비닛에 있는 쉘프의 물리적 순서에 맞게 하드웨어 페이지에 표시되는 쉘프 순서를 변경할 수 있습니다. 
+---
+= 쉘프의 보기 순서를 변경합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+캐비닛에 있는 쉘프의 물리적 순서에 맞게 하드웨어 페이지에 표시되는 쉘프 순서를 변경할 수 있습니다.
+
+.단계
+. 하드웨어 * 를 선택합니다.
+. 쉘프 보기의 오른쪽 위에서 위쪽 또는 아래쪽 화살표를 선택하여 하드웨어 페이지에 표시된 쉘프의 순서를 재정렬합니다.
+

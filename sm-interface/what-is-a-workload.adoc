@@ -1,0 +1,18 @@
+---
+permalink: sm-interface/what-is-a-workload.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, workload 
+summary: '네트워크의 일부 애플리케이션(예: SQL Server 또는 Exchange)에서 해당 애플리케이션에 맞게 스토리지를 최적화하는 워크로드를 정의할 수 있습니다.' 
+---
+= 워크로드란?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+네트워크의 일부 애플리케이션(예: SQL Server 또는 Exchange)에서 해당 애플리케이션에 맞게 스토리지를 최적화하는 워크로드를 정의할 수 있습니다.
+
+워크로드는 애플리케이션을 지원하는 스토리지 객체입니다. 애플리케이션별로 하나 이상의 워크로드 또는 인스턴스를 정의할 수 있습니다. 일부 애플리케이션의 경우 시스템에서 기본 볼륨 특성이 비슷한 볼륨을 포함하도록 워크로드를 구성합니다. 이러한 볼륨 특성은 워크로드가 지원하는 애플리케이션 유형에 따라 최적화됩니다. 예를 들어, Microsoft SQL Server 애플리케이션을 지원하는 워크로드를 생성한 다음 해당 워크로드에 대한 볼륨을 생성하는 경우 기본 볼륨 특성은 Microsoft SQL Server를 지원하도록 최적화되어 있습니다.
+
+볼륨을 생성하는 동안 시스템에서 워크로드 사용에 대한 질문에 답하라는 메시지를 표시합니다. 예를 들어 Microsoft Exchange용 볼륨을 만드는 경우 필요한 메일박스 수, 평균 메일박스 용량 요구 사항, 원하는 데이터베이스 복제본 수를 묻는 메시지가 표시됩니다. 시스템에서는 이 정보를 사용하여 최적의 볼륨 구성을 생성합니다. 이 구성은 필요에 따라 편집할 수 있습니다.

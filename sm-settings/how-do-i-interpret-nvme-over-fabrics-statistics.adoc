@@ -1,0 +1,20 @@
+---
+permalink: sm-settings/how-do-i-interpret-nvme-over-fabrics-statistics.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, interpret, nvme, over, Fabrics, statistics, 
+summary: NVMe over Fabrics 통계 보기 대화 상자에는 NVMe 하위 시스템과 RDMA 인터페이스에 대한 통계가 표시됩니다. 모든 통계는 읽기 전용이며 설정할 수 없습니다. 
+---
+= NVMe over Fabrics 통계를 어떻게 해석합니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NVMe over Fabrics 통계 보기 대화 상자에는 NVMe 하위 시스템과 RDMA 인터페이스에 대한 통계가 표시됩니다. 모든 통계는 읽기 전용이며 설정할 수 없습니다.
+
+* * NVMe 하위 시스템 통계 * -- NVMe 컨트롤러 및 해당 대기열에 대한 통계를 표시합니다. NVMe 컨트롤러는 스토리지 배열의 네임스페이스와 호스트 간의 액세스 경로를 제공합니다. 연결 실패, 재설정 및 종료 같은 항목에 대한 NVMe 하위 시스템 통계를 검토할 수 있습니다. 이러한 통계에 대한 자세한 내용을 보려면 * 표 제목에 대한 범례 보기 * 를 클릭하십시오.
+* RDMA 인터페이스 통계 * -- RDMA 인터페이스의 모든 NVMe over Fabrics 포트에 대한 통계를 제공하며, 여기에는 각 스위치 포트에 연결된 성능 통계 및 링크 오류 정보가 포함됩니다. 이 탭은 NVMe over Fabrics 포트를 사용할 수 있을 때만 나타납니다. 통계에 대한 자세한 내용을 보려면 * 표 제목에 대한 범례 보기 * 를 클릭합니다.
+
+
+각 통계를 원시 통계 또는 기준 통계로 볼 수 있습니다. 원시 통계는 컨트롤러가 시작된 이후 수집된 모든 통계입니다. 기준 통계는 기준 시간을 설정한 후 수집된 시점 통계입니다.

@@ -1,0 +1,59 @@
+---
+permalink: sm-mirroring/overview-mirroring-sync.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, RVM, synchronous, mirroring, controllers, 
+summary: 동기 미러링 기능은 원격 사이트 간에 스토리지 어레이 간에 온라인, 실시간 데이터 복제를 제공합니다. 
+---
+= 동기 미러링 개요
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+동기 미러링 기능은 원격 사이트 간에 스토리지 어레이 간에 온라인, 실시간 데이터 복제를 제공합니다.
+
+[NOTE]
+====
+EF600 또는 EF300 스토리지 시스템에서는 이 기능을 사용할 수 없습니다.
+
+====
+
+
+== 동기식 미러링이란 무엇입니까?
+
+_Synchronous 미러링_ 데이터 볼륨을 실시간으로 복제하여 지속적인 가용성을 보장합니다. 스토리지 어레이 컨트롤러는 미러링 작업을 관리하는데, 이 작업은 호스트 시스템과 소프트웨어 애플리케이션에 영향을 미치지 않습니다.
+
+이러한 유형의 미러링은 재해 복구와 같은 비즈니스 연속성 목적으로 이상적입니다.
+
+자세한 내용:
+
+* link:how-asynchronous-mirroring-works.html["동기 미러링의 작동 방식"]
+* link:synchronous-mirroring-terminology.html["동기 미러링 용어"]
+* link:synchronous-mirroring-status.html["동기 미러링 상태"]
+* link:volume-ownership-sync.html["볼륨 소유권"]
+* link:role-change-of-volumes-in-a-mirrored-pair.html["미러링된 쌍의 볼륨 간 역할 변경"]
+
+
+
+
+== 동기식 미러링은 어떻게 구성합니까?
+
+Unified Manager 인터페이스를 사용하여 어레이 간 초기 미러링 구성을 수행해야 합니다. 구성이 완료되면 System Manager에서 미러링된 쌍을 관리할 수 있습니다.
+
+자세한 내용:
+
+* link:requirements-for-using-synchronous-mirroring.html["동기 미러링 사용에 대한 요구 사항"]
+* link:workflow-for-mirroring-a-volume-synchronously.html["볼륨을 동기식으로 미러링하기 위한 워크플로우"]
+* link:../um-manage/create-synchronous-mirrored-pair-um.html["동기식 미러링 쌍 생성(Unified Manager에서)"]
+
+
+
+
+== 관련 정보
+
+동기식 미러링과 관련된 개념에 대해 자세히 알아보십시오.
+
+* link:synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html["대칭 복사 쌍을 만들기 전에 알아야 할 사항"]
+* link:how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-async.html["비동기식 미러링과 동기식 미러링의 차이점"]
+

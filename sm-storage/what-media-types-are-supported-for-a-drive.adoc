@@ -1,0 +1,14 @@
+---
+permalink: sm-storage/what-media-types-are-supported-for-a-drive.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, media, types, supported, hdd, hard disk, ssd 
+summary: '지원되는 미디어 유형은 하드 디스크 드라이브(HDD) 및 솔리드 스테이트 디스크(SSD)입니다.' 
+---
+= 드라이브에 지원되는 미디어 유형은 무엇입니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+지원되는 미디어 유형은 하드 디스크 드라이브(HDD) 및 솔리드 스테이트 디스크(SSD)입니다.

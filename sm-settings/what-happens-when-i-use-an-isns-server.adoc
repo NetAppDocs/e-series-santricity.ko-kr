@@ -1,0 +1,16 @@
+---
+permalink: sm-settings/what-happens-when-i-use-an-isns-server.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, isns, server, registration, 
+summary: 'iSNS(Internet Storage Name Service) 서버 정보를 사용하는 경우 iSNS 서버를 쿼리하여 타겟(컨트롤러)에서 정보를 검색하도록 호스트(이니시에이터)를 구성할 수 있습니다.' 
+---
+= 등록을 위해 iSNS 서버를 사용하면 어떻게 됩니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+iSNS(Internet Storage Name Service) 서버 정보를 사용하는 경우 iSNS 서버를 쿼리하여 타겟(컨트롤러)에서 정보를 검색하도록 호스트(이니시에이터)를 구성할 수 있습니다.
+
+이 등록을 통해 iSNS 서버에 컨트롤러의 IQN(iSCSI Qualified Name) 및 포트 정보를 제공하고 이니시에이터(iSCSI 호스트)와 타겟(컨트롤러) 간의 쿼리를 허용합니다.

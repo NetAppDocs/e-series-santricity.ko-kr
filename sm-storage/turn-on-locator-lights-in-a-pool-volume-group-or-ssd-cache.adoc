@@ -1,0 +1,24 @@
+---
+permalink: sm-storage/turn-on-locator-lights-in-a-pool-volume-group-or-ssd-cache.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, lights, LEDs 
+summary: 드라이브를 찾아 선택한 풀, 볼륨 그룹 또는 SSD Cache를 구성하는 모든 드라이브를 물리적으로 식별할 수 있습니다. 선택한 풀, 볼륨 그룹 또는 SSD Cache의 각 드라이브에 LED 표시등이 켜집니다. 
+---
+= 풀, 볼륨 그룹 또는 SSD Cache에서 로케이터 표시등을 켭니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+드라이브를 찾아 선택한 풀, 볼륨 그룹 또는 SSD Cache를 구성하는 모든 드라이브를 물리적으로 식별할 수 있습니다. 선택한 풀, 볼륨 그룹 또는 SSD Cache의 각 드라이브에 LED 표시등이 켜집니다.
+
+.단계
+. 스토리지 [풀 및 볼륨 그룹] 메뉴를 선택합니다.
+. 찾을 풀, 볼륨 그룹 또는 SSD Cache를 선택한 다음 menu:More [Turn on locator Lights](메뉴 켜기: 로케이터 라이트)를 클릭합니다.
++
+선택한 풀, 볼륨 그룹 또는 SSD Cache를 구성하는 드라이브의 표시등이 켜져 있음을 나타내는 대화 상자가 나타납니다.
+
+. 드라이브를 찾은 후 * 끄기 * 를 클릭합니다.
+

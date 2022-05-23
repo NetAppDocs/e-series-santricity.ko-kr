@@ -1,0 +1,22 @@
+---
+permalink: sm-interface/set-default-time-frame-for-performance-graphs.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, time, graphs 
+summary: 성능 그래프에 표시되는 기본 기간을 변경할 수 있습니다. 
+---
+= 성능 그래프의 기본 기간을 설정합니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+성능 그래프에 표시되는 기본 기간을 변경할 수 있습니다.
+
+홈 페이지 및 성능 페이지에 표시되는 성능 그래프는 처음에 1시간의 시간 프레임을 표시합니다. 기본 설정은 브라우저의 로컬 저장소에 저장되므로 모든 사용자가 고유한 설정을 가질 수 있습니다.
+
+.단계
+. 메뉴 선택: 기본 설정 [기본 설정 설정 설정].
+. 드롭다운 목록에서 * 5분 *, * 1시간 *, * 8시간 *, * 1일 * 또는 * 7일 * 중 하나를 선택합니다. 작업을 수행할지 확인합니다.
+

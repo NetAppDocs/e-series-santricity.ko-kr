@@ -1,0 +1,39 @@
+---
+permalink: sm-support/collect-support-data-manually.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, collect, support, data, manually 
+summary: 단일 파일에서 스토리지 어레이에 대한 다양한 유형의 인벤토리, 상태 및 성능 데이터를 수집할 수 있습니다. 기술 지원 부서에서는 이 파일을 사용하여 문제 해결 및 추가 분석을 수행할 수 있습니다. 
+---
+= 지원 데이터를 수동으로 수집합니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+단일 파일에서 스토리지 어레이에 대한 다양한 유형의 인벤토리, 상태 및 성능 데이터를 수집할 수 있습니다. 기술 지원 부서에서는 이 파일을 사용하여 문제 해결 및 추가 분석을 수행할 수 있습니다.
+
+++++
+
+[NOTE]
+====
+AutoSupport 기능이 활성화된 경우 * AutoSupport * 탭으로 이동하여 * AutoSupport 디스패치 전송 * 을 선택하여 이 데이터를 수집할 수도 있습니다.
+
+====
+한 번에 하나의 수집 작업만 실행할 수 있습니다. 다른 작업을 시작하려고 하면 오류 메시지가 나타납니다.
+
+[NOTE]
+====
+기술 지원 부서에서 지시한 경우에만 이 작업을 수행하십시오.
+
+====
+.단계
+. 지원 [지원 센터 > 진단] 탭을 선택합니다.
+. 지원 데이터 수집 * 을 선택합니다.
+. 수집 * 을 클릭합니다.
++
+이 파일은 브라우저의 다운로드 폴더에 'upport-data.7z'라는 이름으로 저장됩니다. 선반에 서랍이 있는 경우 해당 선반에 대한 진단 데이터가 "tray-component-state-capture.7z"라는 별도의 압축 파일에 보관됩니다.
+
+. 기술 지원 부서에서 제공하는 지침에 따라 파일을 보냅니다.
+

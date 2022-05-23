@@ -1,0 +1,103 @@
+---
+permalink: sm-support/what-else-do-i-need-to-do-to-configure-or-diagnose-iscsi.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, diagnose, iscsi 
+summary: iSCSI 세션은 비동기 미러 관계의 호스트 또는 원격 스토리지 시스템에서 발생할 수 있습니다. 다음 표에서는 이러한 iSCSI 세션을 구성 및 관리하는 데 사용할 수 있는 System Manager 기능을 보여 줍니다. 
+---
+= iSCSI를 구성하거나 진단하려면 어떻게 해야 합니까?
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+iSCSI 세션은 비동기 미러 관계의 호스트 또는 원격 스토리지 시스템에서 발생할 수 있습니다. 다음 표에서는 이러한 iSCSI 세션을 구성 및 관리하는 데 사용할 수 있는 System Manager 기능을 보여 줍니다.
+
+[NOTE]
+====
+iSCSI 설정은 스토리지 배열이 iSCSI를 지원하는 경우에만 사용할 수 있습니다.
+
+====
+
+
+== iSCSI를 구성합니다
+
+[cols="1a,1a"]
+|===
+| 조치 | 위치 
+
+
+ a| 
+iSCSI 설정을 관리합니다
+ a| 
+. 설정 [시스템] 메뉴를 선택합니다.
+. 모든 관리 기능을 보려면 * iSCSI 설정 * 으로 스크롤합니다.
+
+
+
+
+ a| 
+iSCSI 포트를 구성합니다
+ a| 
+. 하드웨어 * 를 선택합니다.
+. Show back of shelf * 를 선택합니다.
+. 컨트롤러를 선택합니다.
+. iSCSI 포트 구성 * 을 선택합니다.
+
+
+
+
+ a| 
+호스트 CHAP 암호를 설정합니다
+ a| 
+. 설정 [시스템] 메뉴를 선택합니다.
+. iSCSI 설정 * 으로 스크롤한 다음 * 인증 구성 * 을 선택합니다.
+
+
+또는
+
+. 스토리지 [호스트] 메뉴를 선택합니다.
+. 호스트 구성원을 선택합니다.
+. 메뉴: 설정 보기/편집 [호스트 포트] 탭을 클릭합니다.
+
+
+|===
+
+
+== iSCSI를 진단합니다
+
+[cols="1a,1a"]
+|===
+| 조치 | 위치 
+
+
+ a| 
+iSCSI 세션을 보거나 종료합니다
+ a| 
+. 설정 [시스템] 메뉴를 선택합니다.
+. iSCSI 설정 * 으로 스크롤한 다음 * iSCSI 세션 보기/종료 * 를 선택합니다.
+
+
+또는
+
+. 지원 [지원 센터 > 진단] 탭을 선택합니다.
+. iSCSI 세션 보기/종료 * 를 선택합니다.
+
+
+
+
+ a| 
+iSCSI 통계를 봅니다
+ a| 
+. 설정 [시스템] 메뉴를 선택합니다.
+. iSCSI 설정 * 으로 스크롤한 다음 * iSCSI 통계 패키지 보기 * 를 선택합니다.
+
+
+또는
+
+. 지원 [지원 센터 > 진단] 탭을 선택합니다.
+. iSCSI 통계 패키지 보기 * 를 선택합니다.
+
+
+|===

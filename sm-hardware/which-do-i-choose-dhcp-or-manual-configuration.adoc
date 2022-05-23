@@ -1,0 +1,14 @@
+---
+permalink: sm-hardware/which-do-i-choose-dhcp-or-manual-configuration.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, dhcp, manual, configuration, protocol, 
+summary: '네트워크 구성의 기본 방법은 DHCP(Dynamic Host Configuration Protocol)입니다. 네트워크에 DHCP 서버가 없는 경우 항상 이 옵션을 사용하십시오.' 
+---
+= DHCP 또는 수동 구성 중 어떤 것을 선택합니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+네트워크 구성의 기본 방법은 DHCP(Dynamic Host Configuration Protocol)입니다. 네트워크에 DHCP 서버가 없는 경우 항상 이 옵션을 사용하십시오.

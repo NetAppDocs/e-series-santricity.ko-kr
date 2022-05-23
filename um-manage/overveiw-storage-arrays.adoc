@@ -1,0 +1,42 @@
+---
+permalink: um-manage/overview-storage-arrays.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, discover, storage, arrays 
+summary: 스토리지 리소스를 관리하려면 먼저 네트워크에서 스토리지 어레이를 검색해야 합니다. 
+---
+= 검색 개요
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 리소스를 관리하려면 먼저 네트워크에서 스토리지 어레이를 검색해야 합니다.
+
+
+
+== 어레이를 어떻게 검색합니까?
+
+추가/검색 페이지를 사용하여 조직의 네트워크에서 관리할 스토리지 어레이를 찾아서 추가합니다. 여러 어레이를 검색할 수도 있고 단일 어레이를 검색할 수도 있습니다. 이렇게 하려면 네트워크 IP 주소를 입력한 다음 Unified Manager가 해당 범위의 각 IP 주소에 대한 개별 연결을 시도합니다.
+
+자세한 내용:
+
+* link:considerations-for-discovering-arrays.html["스토리지 검색 시 고려 사항"]
+* link:discover-multiple-arrays.html["여러 스토리지 시스템을 검색합니다"]
+* link:discover-single-array.html["단일 스토리지를 검색합니다"]
+
+
+
+
+== 어레이를 어떻게 관리해야 합니까?
+
+어레이를 검색하고 나면 * Manage - All * 페이지로 이동합니다. 이 페이지에서는 네트워크에서 검색된 스토리지 배열의 목록을 스크롤하고, 해당 상태를 보고, 단일 배열 또는 어레이 그룹에서 작업을 수행할 수 있습니다.
+
+단일 어레이를 관리하려면 어레이를 선택하고 System Manager를 열 수 있습니다.
+
+자세한 내용:
+
+* link:launch-considerations.html["System Manager 액세스에 대한 고려 사항"]
+* link:launch-system-manager.html["개별 스토리지 어레이를 관리합니다"]
+* link:storage-array-status.html["스토리지 배열 상태를 봅니다"]
+

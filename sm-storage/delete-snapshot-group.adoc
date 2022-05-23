@@ -1,0 +1,34 @@
+---
+permalink: sm-storage/delete-snapshot-group.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, delete, snapshot, group 
+summary: 스냅샷 그룹은 해당 데이터를 영구적으로 삭제하고 시스템에서 제거하려는 경우 삭제됩니다. 스냅샷 그룹을 삭제하면 풀 또는 볼륨 그룹에서 재사용하기 위해 예약된 용량이 재확보됩니다. 
+---
+= 스냅샷 그룹을 삭제합니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스냅샷 그룹은 해당 데이터를 영구적으로 삭제하고 시스템에서 제거하려는 경우 삭제됩니다. 스냅샷 그룹을 삭제하면 풀 또는 볼륨 그룹에서 재사용하기 위해 예약된 용량이 재확보됩니다.
+
+스냅샷 그룹이 삭제되면 그룹의 모든 스냅샷 이미지도 삭제됩니다.
+
+.단계
+. 스토리지 [풀 및 볼륨 그룹] 메뉴를 선택합니다.
+. 예약된 용량 * 탭을 클릭합니다.
+. 삭제할 스냅샷 그룹을 선택한 다음 메뉴(Uncommon Tasks[Delete snapshot group])를 클릭합니다.
++
+스냅샷 그룹 삭제 확인 대화 상자가 나타납니다.
+
+. '삭제'를 입력하여 확인합니다.
+
+
+System Manager는 다음 작업을 수행합니다.
+
+* 스냅샷 그룹과 연결된 모든 스냅샷 이미지를 삭제합니다.
+* 스냅샷 그룹의 이미지와 연결된 스냅샷 볼륨을 비활성화합니다.
+* 스냅샷 그룹에 대해 존재하는 예약된 용량을 삭제합니다.
+

@@ -1,0 +1,37 @@
+---
+permalink: sm-settings/configure-nvme-over-infiniband-ports-system.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, nvme, over, InfiniBand, ports, 
+summary: 컨트롤러에 InfiniBand 연결을 통한 NVMe가 포함된 경우 시스템 페이지에서 NVMe 포트 설정을 구성할 수 있습니다. 
+---
+= InfiniBand 포트를 통해 NVMe를 구성합니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+컨트롤러에 InfiniBand 연결을 통한 NVMe가 포함된 경우 시스템 페이지에서 NVMe 포트 설정을 구성할 수 있습니다.
+
+.시작하기 전에
+* 컨트롤러에서 NVMe over InfiniBand 호스트 포트를 포함해야 합니다. 그렇지 않으면 System Manager에서 NVMe over InfiniBand 설정을 사용할 수 없습니다.
+* 호스트 연결의 IP 주소를 알아야 합니다.
+
+
+[NOTE]
+====
+NVMe over InfiniBand 설정 및 기능은 스토리지 어레이 컨트롤러에 NVMe over InfiniBand 포트가 포함된 경우에만 표시됩니다.
+
+====
+.단계
+. 설정 [시스템] 메뉴를 선택합니다.
+. InfiniBand를 통한 NVMe 설정 * 에서 * InfiniBand 포트를 통한 NVMe 구성 * 을 선택합니다.
+. 구성할 NVMe over InfiniBand 포트가 있는 컨트롤러를 선택합니다. 다음 * 을 클릭합니다.
+. 드롭다운 목록에서 구성할 HIC 포트를 선택한 다음 IP 주소를 입력합니다.
++
+200GB 사용 HIC를 포함하는 EF600 스토리지 어레이를 구성하는 경우 이 대화 상자에 물리적 포트(외부)용 IP 주소 필드와 가상 포트(내부)용 IP 주소 필드가 2개 표시됩니다. 두 포트에 대해 고유한 IP 주소를 할당해야 합니다. 이러한 설정을 통해 호스트는 각 포트 간에 경로를 설정하고 HIC는 최대 성능을 달성할 수 있습니다. IP 주소를 가상 포트에 할당하지 않으면 HIC는 약 절반 수준의 속도로 실행됩니다.
+
+. 마침 * 을 클릭합니다.
+. Yes * 를 클릭하여 NVMe over InfiniBand 포트를 재설정합니다.
+

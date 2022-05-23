@@ -1,0 +1,34 @@
+---
+permalink: sm-settings/enable-or-disable-legacy-management-interface.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, enable, disable, legacy, management, interface, 
+summary: '스토리지 배열과 관리 클라이언트 간의 통신 방법인 레거시 관리 인터페이스(기호)를 설정하거나 해제할 수 있습니다.' 
+---
+= 레거시 관리 인터페이스를 활성화 또는 비활성화합니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 배열과 관리 클라이언트 간의 통신 방법인 레거시 관리 인터페이스(기호)를 설정하거나 해제할 수 있습니다.
+
+기본적으로 레거시 관리 인터페이스는 켜져 있습니다. 이 기능을 해제하면 스토리지 어레이와 관리 클라이언트에서 더욱 안전한 통신 방법(https를 통한 REST API)을 사용합니다. 그러나 특정 툴 및 작업이 비활성화된 경우 영향을 받을 수 있습니다.
+
+[NOTE]
+====
+EF600 스토리지 시스템의 경우 이 기능은 기본적으로 비활성화되어 있습니다.
+
+====
+이 설정은 다음과 같은 작업에 영향을 줍니다.
+
+* * On * (기본값) -- CLI 및 OCI 어댑터와 같은 다른 툴을 사용하여 미러링을 구성하는 데 필요한 설정입니다.
+* * Off * -- 스토리지 어레이와 관리 클라이언트 간 통신에서 기밀성을 강화하고 외부 도구에 액세스하는 데 필요한 설정입니다. LDAP(Directory Server)를 구성할 때 권장되는 설정입니다.
+
+
+.단계
+. 설정 [시스템] 메뉴를 선택합니다.
+. 아래로 스크롤하여 * 추가 설정 * 을 선택한 다음 * 관리 인터페이스 변경 * 을 클릭합니다.
+. 대화 상자에서 * 예 * 를 클릭하여 계속합니다.
+

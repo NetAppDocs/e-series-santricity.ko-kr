@@ -1,0 +1,42 @@
+---
+permalink: um-manage/upgrade-considerations.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, upgrade, considerations 
+summary: Unified Manager를 사용하여 여러 스토리지 어레이를 업그레이드하기 전에 계획의 일환으로 주요 고려 사항을 검토하십시오. 
+---
+= 업그레이드 고려 사항
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager를 사용하여 여러 스토리지 어레이를 업그레이드하기 전에 계획의 일환으로 주요 고려 사항을 검토하십시오.
+
+
+
+== 현재 버전
+
+검색된 각 스토리지 시스템에 대해 Unified Manager의 관리 페이지에서 현재 SANtricity OS 소프트웨어 버전을 확인할 수 있습니다. 이 버전은 SANtricity OS 소프트웨어 열에 표시됩니다. 각 행에서 SANtricity OS 버전을 클릭하면 컨트롤러 펌웨어 및 NVSRAM 정보를 팝업 대화 상자에서 사용할 수 있습니다.
+
+
+
+== 업그레이드가 필요한 기타 구성 요소
+
+업그레이드 프로세스 중에 호스트가 컨트롤러와 올바르게 상호 작용할 수 있도록 호스트의 다중 경로/페일오버 드라이버 또는 HBA 드라이버를 업그레이드해야 할 수도 있습니다.
+
+호환성 정보는 을 참조하십시오 https://imt.netapp.com/matrix/#welcome["NetApp 상호 운용성 매트릭스"^]. 또한 운영 체제의 Express Guide에 있는 절차를 참조하십시오. Express 가이드는 에서 사용할 수 있습니다 https://docs.netapp.com/us-en/e-series/index.html["E-Series 및 SANtricity 설명서"^].
+
+
+
+== 듀얼 컨트롤러
+
+스토리지 어레이에 2개의 컨트롤러가 포함되어 있고 다중 경로 드라이버가 설치되어 있는 경우, 업그레이드가 진행되는 동안 스토리지 어레이에서 I/O를 계속 처리할 수 있습니다. 업그레이드 중에 다음 프로세스가 발생합니다.
+
+. 컨트롤러 A는 모든 LUN을 컨트롤러 B로 페일오버합니다
+. 컨트롤러 A에서 업그레이드가 발생합니다
+. 컨트롤러 A는 LUN과 모든 컨트롤러 B의 LUN을 백업합니다.
+. 컨트롤러 B에서 업그레이드가 발생합니다
+
+
+업그레이드가 완료된 후 컨트롤러 간에 볼륨을 수동으로 재배포하여 볼륨이 올바른 소유 컨트롤러로 돌아가도록 해야 할 수 있습니다.

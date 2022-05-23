@@ -1,0 +1,26 @@
+---
+permalink: sm-storage/why-would-i-create-a-snapshot-consistency-group.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, create, snapshot, consistency, group 
+summary: 스냅샷 정합성 보장 그룹은 여러 볼륨에서 동시에 스냅샷 이미지를 생성하려는 경우에 생성됩니다. 
+---
+= 스냅샷 정합성 보장 그룹을 생성하는 이유는 무엇입니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스냅샷 정합성 보장 그룹은 여러 볼륨에서 동시에 스냅샷 이미지를 생성하려는 경우에 생성됩니다.
+
+예를 들어, 복구를 위해 일관성을 유지해야 하는 여러 볼륨으로 구성된 데이터베이스의 경우 모든 볼륨의 조정된 스냅샷을 수집하여 전체 데이터베이스를 복원하는 데 사용하려면 스냅샷 정합성 보장 그룹이 필요합니다.
+
+스냅샷 정합성 보장 그룹에 포함된 볼륨을 _member volumes_라고 합니다.
+
+스냅샷 정합성 보장 그룹에 대해 다음 스냅샷 작업을 수행할 수 있습니다.
+
+* 구성원 볼륨의 동시 이미지를 가져올 스냅샷 정합성 보장 그룹의 스냅샷 이미지를 생성합니다.
+* 구성원 볼륨의 주기적인 동시 이미지를 자동으로 캡처할 스냅샷 정합성 보장 그룹의 스케줄을 생성합니다.
+* 스냅샷 정합성 보장 그룹 이미지의 호스트 액세스 가능 스냅샷 볼륨을 생성합니다.
+* 스냅샷 정합성 보장 그룹에 대해 롤백 작업을 수행합니다.
+

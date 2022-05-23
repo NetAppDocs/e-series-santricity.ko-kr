@@ -1,0 +1,23 @@
+---
+permalink: um-manage/launch-system-manager.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, individual, storage, array 
+summary: 실행 옵션을 사용하면 관리 작업을 수행하려는 경우 하나 이상의 스토리지 어레이에 대한 브라우저 기반 SANtricity System Manager를 열 수 있습니다. 
+---
+= 개별 스토리지 어레이를 관리합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+실행 옵션을 사용하면 관리 작업을 수행하려는 경우 하나 이상의 스토리지 어레이에 대한 브라우저 기반 System Manager를 열 수 있습니다.
+
+.단계
+. 관리 페이지에서 관리할 스토리지 어레이를 하나 이상 선택합니다.
+. 시작 * 을 클릭합니다.
++
+새 창이 열리고 System Manager 로그인 페이지가 표시됩니다.
+
+. 사용자 이름과 암호를 입력한 다음 * 로그인 * 을 클릭합니다.
+

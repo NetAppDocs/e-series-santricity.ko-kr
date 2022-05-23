@@ -1,0 +1,55 @@
+---
+permalink: sm-hardware/overview-hardware.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, hardware, page, 
+summary: 하드웨어 페이지에서 구성 요소 상태를 확인하고 이러한 구성 요소와 관련된 일부 기능을 수행할 수 있습니다. 
+---
+= 하드웨어 구성 요소 개요
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+하드웨어 페이지에서 구성 요소 상태를 확인하고 이러한 구성 요소와 관련된 일부 기능을 수행할 수 있습니다.
+
+
+
+== 관리할 수 있는 구성 요소는 무엇입니까?
+
+구성 요소 상태를 확인하고 이러한 구성 요소와 관련된 일부 기능을 수행할 수 있습니다.
+
+* ** 쉘프** -- A_shelf_는 스토리지 어레이(컨트롤러, 전원/팬 캐니스터 및 드라이브)용 하드웨어가 포함된 구성 요소입니다. 쉘프는 최대 12, 24 또는 60개의 드라이브를 수용할 수 있도록 3가지 크기로 제공됩니다.
+* ** 컨트롤러** -- A_controller_는 스토리지 배열 및 관리 기능을 구현하는 결합된 하드웨어 및 펌웨어입니다. 여기에는 캐시 메모리, 드라이브 지원 및 호스트 연결용 포트가 포함됩니다.
+* ** 드라이브** -- A_drive_는 하드 디스크 드라이브(HDD) 또는 솔리드 스테이트 드라이브(SSD)일 수 있습니다. 쉘프 크기에 따라 최대 12, 24 또는 60개의 드라이브를 쉘프에 설치할 수 있습니다.
+
+
+자세한 내용:
+
+* link:hardware-page-overview.html["하드웨어 페이지"]
+* link:hardware-terminology.html["하드웨어 용어"]
+
+
+
+
+== 하드웨어 구성 요소는 어떻게 볼 수 있습니까?
+
+스토리지 시스템의 물리적 구성 요소를 그래픽으로 보여 주는 하드웨어 페이지로 이동합니다. 쉘프 보기의 오른쪽 위에서 * 쉘프 뒷면 표시 * 또는 * 쉘프 전면 표시 * 를 선택하여 어레이 쉘프의 전면 및 후면 보기로 전환할 수 있습니다.
+
+자세한 내용:
+
+* link:view-shelf-component-status-and-settings.html["쉘프 구성요소 상태 및 설정을 확인합니다"]
+* link:view-controller-settings.html["컨트롤러 설정을 봅니다"]
+* link:view-drive-status-and-settings.html["드라이브 상태 및 설정을 봅니다"]
+
+
+
+
+= 관련 정보
+
+하드웨어와 관련된 개념에 대해 자세히 알아보기:
+
+* link:controller-states.html["컨트롤러 상태"]
+* link:drive-states.html["드라이브 상태"]
+* link:what-is-shelf-loss-protection-and-drawer-loss-protection.html["선반 손실 방지 및 서랍 손실 방지"]
+

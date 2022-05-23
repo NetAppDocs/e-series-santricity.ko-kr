@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/rtv-why-am-i-being-prompted-to-clean-up-my-remote-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, remove, remote, volumes 
+summary: 최대 원격 볼륨 수에 도달하면 스토리지 시스템이 사용되지 않는 원격 볼륨을 자동으로 감지하여 제거하라는 메시지를 표시합니다. 
+---
+= 원격 볼륨을 제거하라는 메시지가 표시되는 이유는 무엇입니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+최대 원격 볼륨 수에 도달하면 스토리지 시스템이 사용되지 않는 원격 볼륨을 자동으로 감지하여 제거하라는 메시지를 표시합니다.
+
+생성 프로세스 중에 사용되지 않는 원격 볼륨이 정리되지 않는 경우가 있습니다. 추가 가져오기 작업을 시작하기 전에 시스템이 최적이고 네트워크 연결이 안정적인지 확인하십시오.

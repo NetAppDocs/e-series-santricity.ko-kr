@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/workflow-for-creating-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, workflow, create, volumes 
+summary: SANtricity 시스템 관리자에서 다음 단계를 수행하여 볼륨을 생성할 수 있습니다. 
+---
+= 볼륨 생성을 위한 워크플로우
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager에서 다음 단계를 수행하여 볼륨을 생성할 수 있습니다.
+
+image::../media/sam1130-flw-volumes-create.gif[sam1130 Flw 볼륨 생성]

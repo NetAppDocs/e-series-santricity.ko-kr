@@ -1,0 +1,16 @@
+---
+permalink: sm-hardware/where-do-i-get-the-network-configuration.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, network, configuration, internet, protocol, 
+summary: '네트워크 관리자로부터 IP(인터넷 프로토콜) 주소, 서브네트워크 마스크(서브넷 마스크) 및 게이트웨이 정보를 얻을 수 있습니다.' 
+---
+= 네트워크 구성은 어디에서 얻을 수 있습니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+네트워크 관리자로부터 IP(인터넷 프로토콜) 주소, 서브네트워크 마스크(서브넷 마스크) 및 게이트웨이 정보를 얻을 수 있습니다.
+
+컨트롤러에서 포트를 구성할 때 이 정보가 필요합니다.

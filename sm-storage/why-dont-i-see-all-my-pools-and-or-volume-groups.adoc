@@ -1,0 +1,21 @@
+---
+permalink: sm-storage/why-dont-i-see-all-my-pools-and-or-volume-groups.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, pools, volume groups 
+summary: 볼륨을 이동할 수 없는 풀 또는 볼륨 그룹이 목록에 표시되지 않습니다. 
+---
+= 내 풀 및/또는 볼륨 그룹이 모두 표시되지 않는 이유는 무엇입니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+볼륨을 이동할 수 없는 풀 또는 볼륨 그룹이 목록에 표시되지 않습니다.
+
+풀 또는 볼륨 그룹은 다음과 같은 이유로 적합하지 않습니다.
+
+* 풀 또는 볼륨 그룹 풀의 DA(Data Assurance) 기능이 일치하지 않습니다.
+* 풀 또는 볼륨 그룹이 최적화되지 않은 상태입니다.
+* 풀 또는 볼륨 그룹의 용량이 너무 작습니다.
+

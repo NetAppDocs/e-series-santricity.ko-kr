@@ -1,0 +1,60 @@
+---
+permalink: sm-mirroring/overview-mirroring-async.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, ARVM, asynchronous, mirroring, firmware, 
+summary: 비동기 미러링 기능은 로컬 스토리지 어레이와 원격 스토리지 시스템 간의 데이터 복제를 위한 컨트롤러 수준의 펌웨어 기반 메커니즘을 제공합니다. 
+---
+= 비동기식 미러링 개요
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+비동기 미러링 기능은 로컬 스토리지 어레이와 원격 스토리지 시스템 간의 데이터 복제를 위한 컨트롤러 수준의 펌웨어 기반 메커니즘을 제공합니다.
+
+[NOTE]
+====
+EF600 또는 EF300 스토리지 시스템에서는 이 기능을 사용할 수 없습니다.
+
+====
+
+
+== 비동기식 미러링이란 무엇입니까?
+
+_Asynchronous Mirroring_ 는 특정 시점에 기본 볼륨의 상태를 캡처하고 마지막 이미지 캡처 이후 변경된 데이터만 복사합니다. 운영 사이트를 즉시 업데이트할 수 있으며 대역폭이 허용할 경우 보조 사이트를 업데이트할 수 있습니다. 네트워크 리소스를 사용할 수 있게 되면 정보가 캐시되어 나중에 전송됩니다.
+
+비동기 미러링은 볼륨별로 생성되지만 그룹 수준에서 관리되므로 특정 스토리지 배열의 운영 볼륨과 별도의 원격 미러링된 볼륨을 연결할 수 있습니다. 이러한 유형의 미러링은 무중단 운영에 대한 요구를 충족하는 데 이상적이며 일반적으로 정기적인 프로세스에 대해 훨씬 더 네트워크 효율적입니다.
+
+자세한 내용:
+
+* link:how-synchronous-mirroring-works.html["비동기식 미러링의 작동 방식"]
+* link:asynchronous-terminology.html["비동기식 미러링 용어"]
+* link:asynchronous-mirror-status.html["비동기식 미러 상태입니다"]
+* link:volume-ownership-sync.html["볼륨 소유권"]
+* link:role-change-of-a-mirror-consistency-group.html["미러 정합성 보장 그룹의 역할 변경"]
+
+
+
+
+== 비동기식 미러링을 구성하려면 어떻게 합니까?
+
+Unified Manager 인터페이스를 사용하여 어레이 간 초기 미러링 구성을 수행해야 합니다. 구성이 완료되면 System Manager에서 미러링된 쌍과 일관성 그룹을 관리할 수 있습니다.
+
+자세한 내용:
+
+* link:requirements-for-using-asynchronous-mirroring.html["비동기 미러링 사용에 대한 요구 사항"]
+* link:workflow-for-mirroring-a-volume-asynchronously.html["볼륨을 비동기적으로 미러링하는 워크플로"]
+* link:../um-manage/create-asynchronous-mirrored-pair-um.html["Unified Manager에서 비동기 미러링된 쌍 생성"]
+
+
+
+
+== 관련 정보
+
+비동기 미러링과 관련된 개념에 대해 자세히 알아보십시오.
+
+* link:what-do-i-need-to-know-before-creating-a-mirror-consistency-group.html["미러 정합성 보장 그룹을 생성하기 전에 알아야 할 사항"]
+* link:asynchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html["대칭 복사 쌍을 만들기 전에 알아야 할 사항"]
+* link:how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-async.html["비동기식 미러링과 동기식 미러링의 차이점"]
+

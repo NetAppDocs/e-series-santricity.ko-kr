@@ -1,0 +1,21 @@
+---
+permalink: sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-my-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, asynchronous, volumes 
+summary: 미러링된 쌍의 기본 볼륨을 선택하면 목록에 모든 적격 볼륨이 표시됩니다. 
+---
+= 비동기식 미러링 - 모든 볼륨이 표시되지 않는 이유는 무엇입니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+미러링된 쌍의 기본 볼륨을 선택하면 목록에 모든 적격 볼륨이 표시됩니다.
+
+사용할 수 없는 볼륨은 해당 목록에 표시되지 않습니다. 볼륨은 다음과 같은 이유로 적합하지 않을 수 있습니다.
+
+* 볼륨이 최적이 아닙니다.
+* 볼륨이 이미 미러링 관계에 있습니다.
+* 씬 볼륨의 경우 자동 확장이 활성화되어야 합니다.
+

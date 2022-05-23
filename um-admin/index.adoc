@@ -1,0 +1,12 @@
+---
+permalink: um-admin/index.html 
+sidebar: sidebar 
+keywords: santricity, unified, manager 5 
+summary: SANtricity 유니파이드 관리자 5 
+---
+= SANtricity 유니파이드 관리자 5
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+

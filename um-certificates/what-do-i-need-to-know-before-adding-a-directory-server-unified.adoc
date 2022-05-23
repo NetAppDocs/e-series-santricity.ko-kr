@@ -1,0 +1,19 @@
+---
+permalink: um-certificates/what-do-i-need-to-know-before-adding-a-directory-server-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, adding, directory, server 
+summary: Access Management에서 디렉터리 서버를 추가하기 전에 특정 요구 사항을 충족해야 합니다. 
+---
+= 디렉토리 서버를 추가하기 전에 알아야 할 사항은 무엇입니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Access Management에서 디렉터리 서버를 추가하기 전에 특정 요구 사항을 충족해야 합니다.
+
+* 사용자 그룹은 디렉토리 서비스에 정의되어 있어야 합니다.
+* 도메인 이름, 서버 URL, 그리고 선택적으로 바인딩 계정 사용자 이름 및 암호를 포함하여 LDAP 서버 자격 증명을 사용할 수 있어야 합니다.
+* 보안 프로토콜을 사용하는 LDAPS 서버의 경우 로컬 시스템에 LDAP 서버의 인증서 체인을 설치해야 합니다.
+

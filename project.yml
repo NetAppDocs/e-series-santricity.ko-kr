@@ -1,0 +1,1442 @@
+---
+settings:
+  name: SANtricity 11.7
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw
+sidebar:
+  entries:
+  - title: SANtricity 11.7 문서
+    url: "/index.html"
+  - title: 릴리스 정보
+    entries:
+    - title: 새로운 소식
+      url: "/whats-new.html"
+    - title: 릴리스 정보
+      url: "/known-issues.html"
+  - title: 시작하십시오
+    entries:
+    - title: 개요
+      url: "/san-getstarted/santricity-overview.html"
+    - title: 지원되는 브라우저 및 OS
+      url: "/san-getstarted/supported-browsers-os.html"
+    - title: System Manager 설정
+      entries:
+      - title: System Manager에 액세스합니다
+        url: "/san-getstarted/access-sam.html"
+      - title: 설정 마법사 개요
+        url: "/sm-interface/setup-wizard-overview.html"
+      - title: FAQ 를 참조하십시오
+        entries:
+        - title: 내 하드웨어 구성 요소가 모두 표시되지 않으면 어떻게 합니까?
+          url: "/sm-interface/what-if-i-dont-see-all-of-my-hardware-components.html"
+        - title: 모든 호스트가 표시되지 않으면 어떻게 합니까?
+          url: "/sm-interface/what-if-i-dont-see-all-of-my-hosts.html"
+        - title: 애플리케이션을 식별하면 스토리지 어레이를 관리하는 데 어떤 도움이 됩니까?
+          url: "/sm-interface/how-does-identifying-applications-help-me-manage-my-storage-array.html"
+        - title: 워크로드란?
+          url: "/sm-interface/what-is-a-workload.html"
+        - title: AutoSupport에 대한 전달 방법을 구성하려면 어떻게 합니까?
+          url: "/sm-interface/how-do-i-configure-the-delivery-method-for-autosupport-new.html"
+        - title: 권장 풀 구성을 수락해야 하는지 어떻게 알 수 있습니까?
+          url: "/sm-interface/how-do-i-know-if-i-should-accept-the-recommended-pool-configuration.html"
+        - title: System Manager에서 호스트를 검색하지 못했습니다. 어떻게 해야 합니까?
+          url: "/sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html"
+    - title: Unified Manager 설정
+      entries:
+      - title: Unified Manager를 설치합니다
+        url: "/san-getstarted/install-um.html"
+      - title: Unified Manager에 액세스합니다
+        url: "/san-getstarted/login-um.html"
+  - title: 시스템 관리자
+    url: "/system-manager/index.html"
+    entries:
+    - title: 기본 인터페이스
+      entries:
+      - title: System Manager 인터페이스 개요
+        url: "/sm-interface/overview-interface-sam.html"
+      - title: 성능 데이터를 봅니다
+        entries:
+        - title: 개요
+          url: "/sm-storage/overview-performance.html"
+        - title: 성능 그래프 및 지침
+          url: "/sm-storage/performance-graphs-guidelines.html"
+        - title: 성능 용어
+          url: "/sm-storage/performance-terminology.html"
+        - title: 그래픽 성능 데이터를 봅니다
+          url: "/sm-storage/view-performance-data-graphical.html"
+        - title: 표 형식의 성능 데이터를 보고 저장합니다
+          url: "/sm-storage/view-and-save-performance-data-tabular.html"
+        - title: 성능 데이터를 해석합니다
+          url: "/sm-storage/interpret-performance-data.html"
+      - title: 스토리지 계층 구조 보기
+        url: "/sm-interface/view-storage-hierarchy.html"
+      - title: 인터페이스 설정을 관리합니다
+        entries:
+        - title: 암호 보호를 관리합니다
+          url: "/sm-interface/administrator-password-protection.html"
+        - title: 기본 용량 값을 설정합니다
+          url: "/sm-interface/set-default-units-for-capacity-values.html"
+        - title: 성능 그래프의 기본값을 설정합니다
+          url: "/sm-interface/set-default-time-frame-for-performance-graphs.html"
+        - title: 로그인 배너를 구성합니다
+          url: "/sm-settings/configure-login-banner.html"
+        - title: 세션 시간 제한을 관리합니다
+          url: "/sm-settings/manage-session-timeouts-sam.html"
+      - title: 알림을 관리합니다
+        entries:
+        - title: 문제 알림 개요
+          url: "/sm-interface/problem-notification.html"
+        - title: 진행 중인 작업을 보고 수행합니다
+          url: "/sm-interface/view-and-act-on-operations-in-progress.html"
+        - title: Recovery Guru를 사용하여 문제를 해결합니다
+          url: "/sm-interface/recover-from-problems-using-recovery-guru.html"
+      - title: FAQ 를 참조하십시오
+        entries:
+        - title: 지원되는 브라우저는 무엇입니까?
+          url: "/sm-interface/what-are-the-supported-browsers.html"
+        - title: 키보드 바로 가기는 무엇입니까?
+          url: "/sm-interface/what-are-the-keyboard-shortcuts.html"
+        - title: 개별 볼륨의 성능 통계가 총합과 어떤 관련이 있습니까?
+          url: "/sm-storage/how-do-performance-statistics-for-individual-volumes-relate-to-the-total.html"
+        - title: 데이터가 그래프 및 테이블에 0으로 표시되는 이유는 무엇입니까?
+          url: "/sm-storage/why-does-the-data-display-as-zero-in-the-graphs-and-table.html"
+        - title: 지연 시간 그래프는 무엇을 표시합니까?
+          url: "/sm-storage/what-does-the-latency-graph-show.html"
+        - title: IOPS 그래프에 표시되는 것은 무엇입니까?
+          url: "/sm-storage/what-does-the-iops-graph-show.html"
+        - title: MiB/s 그래프는 무엇을 표시합니까?
+          url: "/sm-storage/what-does-the-mib-s-graph-show.html"
+        - title: CPU 그래프는 무엇을 표시합니까?
+          url: "/sm-storage/what-does-the-cpu-graph-show.html"
+        - title: 여유 공간 그래프에 표시되는 것은 무엇입니까?
+          url: "/sm-storage/what-does-the-headroom-graph-show.html"
+        - title: 디스플레이 기본 설정에 대한 자세한 정보는 어디에서 찾을 수 있습니까?
+          url: "/sm-interface/where-can-i-find-more-information-about-display-preferences.html"
+    - title: 풀 및 볼륨 그룹
+      entries:
+      - title: 개요
+        url: "/sm-storage/overview-pools-volume-groups.html"
+      - title: 개념
+        entries:
+        - title: 풀 및 볼륨 그룹의 작동 방식
+          url: "/sm-storage/how-pools-and-volume-groups-work.html"
+        - title: 약관
+          url: "/sm-storage/capacity-terminology.html"
+        - title: 풀 또는 볼륨 그룹 선택
+          url: "/sm-storage/decide-to-use-a-pool-or-volume-group.html"
+        - title: 자동 및 수동 풀 생성
+          url: "/sm-storage/automatic-versus-manual-pool-creation.html"
+      - title: 스토리지를 구성합니다
+        entries:
+        - title: 풀을 자동으로 생성합니다
+          url: "/sm-storage/create-pool-automatically.html"
+        - title: 풀을 수동으로 생성합니다
+          url: "/sm-storage/create-pool-manually.html"
+        - title: 볼륨 그룹을 생성합니다
+          url: "/sm-storage/create-volume-group.html"
+        - title: 풀 또는 볼륨 그룹에 용량을 추가합니다
+          url: "/sm-storage/add-capacity-to-a-pool-or-volume-group.html"
+      - title: 스토리지 관리
+        entries:
+        - title: 볼륨 중복성을 확인합니다
+          url: "/sm-storage/check-volume-redundancy.html"
+        - title: 풀 또는 볼륨 그룹을 삭제합니다
+          url: "/sm-storage/delete-pool-or-volume-group.html"
+        - title: 볼륨 그룹의 여유 용량을 통합합니다
+          url: "/sm-storage/consolidate-volume-group-free-capacity.html"
+        - title: 볼륨 그룹 내보내기/가져오기
+          url: "/sm-storage/export-import-volume-groups.html"
+        - title: 저장에 사용되는 드라이브를 찾습니다
+          url: "/sm-storage/turn-on-locator-lights-in-a-pool-volume-group-or-ssd-cache.html"
+        - title: 용량을 제거합니다
+          url: "/sm-storage/remove-capacity-from-a-pool-or-ssd-cache.html"
+      - title: 풀 및 그룹 설정을 수정합니다
+        entries:
+        - title: 풀의 구성 설정을 변경합니다
+          url: "/sm-storage/change-configuration-settings-for-a-pool.html"
+        - title: 볼륨 그룹의 구성 설정을 변경합니다
+          url: "/sm-storage/change-configuration-settings-for-a-volume-group.html"
+        - title: 리소스 프로비저닝(기존 볼륨) 사용 또는 사용 안 함
+          url: "/sm-storage/disable-resource-provisioning-on-existing-volumes.html"
+        - title: 리소스 프로비저닝 활성화 또는 비활성화(새 볼륨)
+          url: "/sm-settings/enable-or-disable-resource-provisioning-for-new-volumes.html"
+        - title: 보안 설정
+          url: "/sm-storage/enable-security.html"
+      - title: SSD 캐시를 관리합니다
+        entries:
+        - title: SSD Cache의 작동 방식
+          url: "/sm-storage/how-ssd-cache-works.html"
+        - title: SSD 캐시 제한 사항
+          url: "/sm-storage/ssd-cache-restrictions.html"
+        - title: SSD Cache 생성
+          url: "/sm-storage/create-ssd-cache.html"
+        - title: SSD 캐시 설정을 변경합니다
+          url: "/sm-storage/change-ssd-cache-settings.html"
+        - title: SSD Cache 통계를 확인합니다
+          url: "/sm-storage/view-ssd-cache-statistics.html"
+      - title: 예약된 용량을 관리합니다
+        entries:
+        - title: 예약 용량 작동 방식
+          url: "/sm-storage/how-reserved-capacity-works.html"
+        - title: 용량 증가
+          url: "/sm-storage/increase-reserved-capacity.html"
+        - title: 용량 감소
+          url: "/sm-storage/decrease-reserved-capacity.html"
+        - title: 스냅샷 그룹의 용량을 변경합니다
+          url: "/sm-storage/change-the-reserved-capacity-settings-for-a-snapshot-group.html"
+        - title: 스냅샷 볼륨의 용량을 변경합니다
+          url: "/sm-storage/change-the-reserved-capacity-settings-for-a-snapshot-volume.html"
+        - title: 용량 정합성 보장 그룹 구성원 볼륨을 변경합니다
+          url: "/sm-storage/change-the-reserved-capacity-settings-for-a-consistency-group-member-volume.html"
+        - title: 미러링된 쌍 볼륨의 용량 설정을 변경합니다
+          url: "/sm-storage/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html"
+        - title: 보류 중인 스냅샷 이미지를 취소합니다
+          url: "/sm-storage/cancel-pending-snapshot-image.html"
+        - title: 스냅샷 그룹을 삭제합니다
+          url: "/sm-storage/delete-snapshot-group.html"
+      - title: FAQ 를 참조하십시오
+        entries:
+        - title: 볼륨 그룹이란 무엇입니까?
+          url: "/sm-storage/what-is-a-volume-group.html"
+        - title: 풀이란?
+          url: "/sm-storage/what-is-a-pool.html"
+        - title: 예약 용량이란?
+          url: "/sm-storage/what-is-reserved-capacity.html"
+        - title: FDE/FIPS 보안이란 무엇입니까?
+          url: "/sm-storage/what-is-fde-fips-security.html"
+        - title: 중복 검사란?
+          url: "/sm-storage/what-is-redundancy-check.html"
+        - title: 풀과 볼륨 그룹의 차이점은 무엇입니까?
+          url: "/sm-storage/what-are-the-differences-between-pools-and-volume-groups.html"
+        - title: 풀을 수동으로 구성하는 이유는 무엇입니까?
+          url: "/sm-storage/why-would-i-want-to-manually-configure-a-pool.html"
+        - title: 용량 알림이 중요한 이유는 무엇입니까?
+          url: "/sm-storage/why-are-capacity-alerts-important.html"
+        - title: 보존 용량을 늘릴 수 없는 이유는 무엇입니까?
+          url: "/sm-storage/why-cant-i-increase-my-preservation-capacity.html"
+        - title: 풀에서 제거할 수 있는 드라이브 수에 제한이 있습니까?
+          url: "/sm-storage/is-there-a-limit-on-the-number-of-drives-i-can-remove-from-a-pool.html"
+        - title: 드라이브에 지원되는 미디어 유형은 무엇입니까?
+          url: "/sm-storage/what-media-types-are-supported-for-a-drive.html"
+        - title: 일부 드라이브가 표시되지 않는 이유는 무엇입니까?
+          url: "/sm-storage/why-are-some-drives-not-showing-up.html"
+        - title: 선반/서랍 손실 방지 기능을 어떻게 유지합니까?
+          url: "/sm-storage/how-do-i-maintain-shelf-drawer-loss-protection.html"
+        - title: 풀 및 볼륨 그룹에 가장 적합한 드라이브 포지셔닝은 무엇입니까?
+          url: "/sm-storage/what-is-the-optimal-drive-positioning-for-pools-and-volume-groups.html"
+        - title: 애플리케이션에 가장 적합한 RAID 레벨은 무엇입니까?
+          url: "/sm-storage/what-raid-level-is-best-for-my-application.html"
+        - title: Data Assurance란 무엇입니까?
+          url: "/sm-storage/what-is-data-assurance.html"
+        - title: 보안 기능(드라이브 보안)이란 무엇입니까?
+          url: "/sm-storage/what-is-security-capable-drive-security.html"
+        - title: 예약된 용량 증가에 대해 알아야 할 사항은 무엇입니까?
+          url: "/sm-storage/what-do-i-need-to-know-about-increasing-reserved-capacity.html"
+        - title: 감량할 다른 금액을 선택할 수 없는 이유는 무엇입니까?
+          url: "/sm-storage/why-cant-i-choose-another-amount-to-decrease-by.html"
+        - title: 각 구성원 볼륨에 대해 예약된 용량이 필요한 이유는 무엇입니까?
+          url: "/sm-storage/why-do-i-need-reserved-capacity-for-every-member-volume.html"
+        - title: 모든 SSD Cache 통계를 보고 해석하려면 어떻게 해야 합니까?
+          url: "/sm-storage/how-do-i-view-and-interpret-all-ssd-cache-statistics.html"
+        - title: 풀의 최적화 용량은 얼마입니까?
+          url: "/sm-storage/what-is-optimization-capacity-pools.html"
+        - title: 볼륨 그룹의 최적화 용량은 무엇입니까?
+          url: "/sm-storage/what-is-optimization-capacity-volume-groups.html"
+        - title: 리소스 프로비저닝 기능은 무엇입니까?
+          url: "/sm-storage/what-is-resource-provisioning-capable.html"
+        - title: 리소스 프로비저닝된 볼륨 기능에 대해 알아야 할 내용은 무엇입니까?
+          url: "/sm-settings/what-do-i-need-to-know-about-the-resource-provisioned-volumes-feature.html"
+    - title: 볼륨 및 워크로드
+      entries:
+      - title: 개요
+        url: "/sm-storage/overview-volumes.html"
+      - title: 개념
+        entries:
+        - title: 볼륨 작동 방식
+          url: "/sm-storage/how-volumes-work.html"
+        - title: 작업 부하 작동 방식
+          url: "/sm-storage/how-workloads-work.html"
+        - title: 약관
+          url: "/sm-storage/volume-terminology.html"
+        - title: 볼륨 생성을 위한 워크플로우
+          url: "/sm-storage/workflow-for-creating-volumes.html"
+        - title: 데이터 무결성 및 데이터 보안
+          url: "/sm-storage/data-integrity-and-data-security-for-volumes.html"
+        - title: SSD Cache 및 볼륨
+          url: "/sm-storage/ssd-cache-and-volumes.html"
+        - title: 볼륨에 대해 수행할 수 있는 작업입니다
+          url: "/sm-storage/actions-you-can-perform-on-volumes.html"
+        - title: 볼륨에 대한 용량입니다
+          url: "/sm-storage/capacity-for-volumes.html"
+        - title: 씬 볼륨 모니터링
+          url: "/sm-storage/thin-volume-monitoring.html"
+        - title: 일반 볼륨과 씬 볼륨 비교
+          url: "/sm-storage/comparison-between-thick-volumes-and-thin-volumes.html"
+      - title: 스토리지를 구성합니다
+        entries:
+        - title: 워크로드 생성
+          url: "/sm-storage/create-workloads.html"
+        - title: 볼륨 생성
+          url: "/sm-storage/create-volumes.html"
+        - title: 워크로드에 추가하십시오
+          url: "/sm-storage/add-to-workload.html"
+      - title: 볼륨 관리
+        entries:
+        - title: 용량 증가
+          url: "/sm-storage/increase-capacity-of-a-volume.html"
+        - title: 볼륨 초기화
+          url: "/sm-storage/initialize-volumes.html"
+        - title: 볼륨을 재배포합니다
+          url: "/sm-storage/redistribute-volumes.html"
+        - title: 컨트롤러 소유권을 변경합니다
+          url: "/sm-storage/change-controller-ownership-of-a-volume.html"
+        - title: 볼륨을 삭제합니다
+          url: "/sm-storage/delete-volume.html"
+        - title: 씬 볼륨에 할당된 용량을 변경합니다
+          url: "/sm-storage/change-allocated-capacity-limit-for-a-thin-volume.html"
+      - title: 설정을 관리합니다
+        entries:
+        - title: 볼륨 설정을 변경합니다
+          url: "/sm-storage/change-settings-for-a-volume.html"
+        - title: 워크로드 설정을 변경합니다
+          url: "/sm-storage/change-workload-settings.html"
+        - title: 캐시 설정을 변경합니다
+          url: "/sm-storage/change-cache-settings.html"
+        - title: 미디어 스캔 설정을 변경합니다
+          url: "/sm-storage/change-media-scan-settings.html"
+      - title: 복사 서비스를 사용합니다
+        entries:
+        - title: 볼륨 복사 기능
+          url: "/sm-storage/copy-volume-function.html"
+        - title: 작업 유형
+          url: "/sm-storage/types-of-copy-volume-operations.html"
+        - title: 볼륨 복사
+          url: "/sm-storage/copy-volume.html"
+        - title: 운영 관리
+          url: "/sm-storage/take-action-on-a-copy-volume-operation.html"
+      - title: FAQ 를 참조하십시오
+        entries:
+        - title: 볼륨이란 무엇입니까?
+          url: "/sm-storage/what-is-a-volume.html"
+        - title: 볼륨 그룹에 볼륨을 생성할 충분한 가용 용량이 있는 경우 용량 초과 할당 오류가 발생하는 이유는 무엇입니까?
+          url: "/sm-storage/why-am-i-seeing-a-capacity-over-allocation-error-when-i-have-enough-free-capacity-in-a-volume-group-to-create-volumes.html"
+        - title: 선택한 워크로드가 볼륨 생성에 어떤 영향을 미칩니까?
+          url: "/sm-storage/how-does-my-selected-workload-impact-volume-creation.html"
+        - title: 이러한 볼륨이 워크로드와 관련이 없는 이유는 무엇입니까?
+          url: "/sm-storage/why-arent-these-volumes-associated-with-a-workload.html"
+        - title: 선택한 워크로드를 삭제할 수 없는 이유는 무엇입니까?
+          url: "/sm-storage/why-cant-i-delete-the-selected-workload.html"
+        - title: 애플리케이션별 워크로드를 사용하면 스토리지 어레이를 관리하는 데 어떤 도움이 됩니까?
+          url: "/sm-storage/how-do-application-specific-workloads-help-me-manage-my-storage-array.html"
+        - title: 이 정보를 제공하면 스토리지를 생성하는 데 어떤 도움이 됩니까?
+          url: "/sm-storage/how-does-providing-this-information-help-create-storage.html"
+        - title: 확장된 용량을 인식하려면 어떻게 해야 합니까?
+          url: "/sm-storage/what-do-i-need-to-do-to-recognize-the-expanded-capacity.html"
+        - title: 내 풀 및/또는 볼륨 그룹이 모두 표시되지 않는 이유는 무엇입니까?
+          url: "/sm-storage/why-dont-i-see-all-my-pools-and-or-volume-groups.html"
+        - title: 세그먼트 크기란?
+          url: "/sm-storage/what-is-segment-sizing.html"
+        - title: 선호하는 컨트롤러 소유권은 무엇입니까?
+          url: "/sm-storage/what-is-preferred-controller-ownership.html"
+        - title: 나중에 호스트 할당 선택 항목을 언제 사용하시겠습니까?
+          url: "/sm-storage/when-would-i-want-to-use-the-assign-host-later-selection.html"
+        - title: 호스트 블록 크기 요구 사항에 대해 알아야 할 내용은 무엇입니까?
+          url: "/sm-storage/what-do-i-need-to-know-about-host-block-size-requirements.html"
+    - title: 호스트 및 호스트 클러스터
+      entries:
+      - title: 개요
+        url: "/sm-storage/overview-hosts.html"
+      - title: 개념
+        entries:
+        - title: 약관
+          url: "/sm-storage/host-terminology.html"
+        - title: 호스트 생성 및 볼륨 할당을 위한 워크플로우
+          url: "/sm-storage/workflow-for-creating-hosts-and-assigning-volumes.html"
+        - title: 자동 및 수동 호스트 생성
+          url: "/sm-storage/automatic-versus-manual-host-creation.html"
+        - title: 볼륨이 할당되는 방법입니다
+          url: "/sm-storage/how-volumes-are-assigned-to-hosts-and-host-clusters.html"
+        - title: 볼륨에 액세스합니다
+          url: "/sm-storage/access-volumes.html"
+        - title: 최대 LUN 수입니다
+          url: "/sm-storage/maximum-number-of-luns.html"
+        - title: 기본 호스트 운영 체제 유형입니다
+          url: "/sm-settings/default-host-operating-system-type.html"
+      - title: 호스트 액세스를 구성합니다
+        entries:
+        - title: 호스트를 자동으로 생성합니다
+          url: "/sm-storage/create-host-automatically.html"
+        - title: 호스트를 수동으로 생성합니다
+          url: "/sm-storage/create-host-manually.html"
+        - title: 호스트 클러스터를 생성합니다
+          url: "/sm-storage/create-host-cluster.html"
+        - title: 호스트에 볼륨을 할당합니다
+          url: "/sm-storage/assign-volumes.html"
+      - title: 호스트 및 클러스터 관리
+        entries:
+        - title: 기본 호스트 유형을 변경합니다
+          url: "/sm-settings/change-default-host-type.html"
+        - title: 볼륨 할당 해제
+          url: "/sm-storage/unassign-volumes.html"
+        - title: 호스트 또는 호스트 클러스터를 삭제합니다
+          url: "/sm-storage/delete-host-or-host-cluster.html"
+        - title: 호스트 연결 보고를 설정합니다
+          url: "/sm-settings/set-host-connectivity-reporting.html"
+      - title: 설정을 관리합니다
+        entries:
+        - title: 호스트 설정을 변경합니다
+          url: "/sm-storage/change-the-settings-for-a-host.html"
+        - title: 호스트 클러스터의 설정을 변경합니다
+          url: "/sm-storage/change-the-settings-for-a-host-cluster.html"
+        - title: 호스트의 호스트 포트 식별자를 변경합니다
+          url: "/sm-storage/change-host-port-identifiers-for-a-host.html"
+      - title: FAQ 를 참조하십시오
+        entries:
+        - title: 호스트 및 호스트 클러스터란 무엇입니까?
+          url: "/sm-storage/what-are-hosts-and-host-clusters.html"
+        - title: 호스트 클러스터를 생성해야 하는 이유는 무엇입니까?
+          url: "/sm-storage/why-would-i-need-to-create-a-host-cluster.html"
+        - title: 어떤 호스트 운영 체제 유형이 올바른지 어떻게 알 수 있습니까?
+          url: "/sm-storage/how-do-i-know-which-host-operating-system-type-is-correct.html"
+        - title: HBA와 어댑터 포트란 무엇입니까?
+          url: "/sm-storage/what-are-hbas-and-adapter-ports.html"
+        - title: 호스트 포트를 호스트에 일치시키려면 어떻게 해야 합니까?
+          url: "/sm-storage/how-do-i-match-the-host-ports-to-a-host.html"
+        - title: CHAP 암호를 생성하려면 어떻게 해야 합니까?
+          url: "/sm-storage/how-do-i-create-chap-secrets.html"
+        - title: 기본 클러스터는 무엇입니까?
+          url: "/sm-storage/what-is-the-default-cluster.html"
+        - title: 호스트 연결 보고란 무엇입니까?
+          url: "/sm-settings/what-is-host-connectivity-reporting.html"
+    - title: 스냅샷 수
+      entries:
+      - title: 개요
+        url: "/sm-storage/overview-snapshots.html"
+      - title: 개념
+        entries:
+        - title: 스냅샷 스토리지의 작동 방식
+          url: "/sm-storage/how-snapshot-storage-works.html"
+        - title: 약관
+          url: "/sm-storage/snapshot-terminology.html"
+        - title: 스냅샷 이미지 및 볼륨 생성을 위한 워크플로우
+          url: "/sm-storage/workflow-for-creating-snapshot-images-and-snapshot-volumes.html"
+        - title: 요구 사항
+          url: "/sm-storage/requirements-and-guidelines-for-snapshots.html"
+        - title: 기본 볼륨, 예약 용량 및 스냅샷 그룹
+          url: "/sm-storage/base-volumes-reserved-capacity-and-snapshot-groups.html"
+        - title: 스냅샷 스케줄 및 스냅샷 정합성 보장 그룹
+          url: "/sm-storage/snapshot-schedules-and-snapshot-consistency-groups.html"
+        - title: Snapshot 볼륨
+          url: "/sm-storage/snapshot-volumes.html"
+        - title: 스냅샷 롤백
+          url: "/sm-storage/snapshot-rollback.html"
+      - title: 스냅샷 및 스냅샷 객체를 생성합니다
+        entries:
+        - title: 스냅샷 이미지를 생성합니다
+          url: "/sm-storage/create-snapshot-image.html"
+        - title: 스냅샷 이미지를 예약합니다
+          url: "/sm-storage/schedule-snapshot-images.html"
+        - title: 스냅샷 정합성 보장 그룹을 생성합니다
+          url: "/sm-storage/create-snapshot-consistency-group.html"
+        - title: 스냅샷 볼륨을 생성합니다
+          url: "/sm-storage/create-snapshot-volume.html"
+      - title: 스냅샷 스케줄을 관리합니다
+        entries:
+        - title: 설정을 변경합니다
+          url: "/sm-storage/change-the-settings-for-a-snapshot-schedule.html"
+        - title: 활성화 및 일시 중지
+          url: "/sm-storage/activate-or-suspend-snapshot-schedule.html"
+        - title: 스냅샷 스케줄을 삭제합니다
+          url: "/sm-storage/delete-snapshot-schedule.html"
+      - title: 스냅샷 이미지를 관리합니다
+        entries:
+        - title: 스냅샷 이미지 설정을 봅니다
+          url: "/sm-storage/view-snapshot-image-settings.html"
+        - title: 기본 볼륨에 대한 스냅샷 이미지 롤백을 시작합니다
+          url: "/sm-storage/start-snapshot-image-rollback-for-base-volume.html"
+        - title: 스냅샷 정합성 보장 그룹 구성원 볼륨에 대한 스냅샷 이미지 롤백을 시작합니다
+          url: "/sm-storage/start-snapshot-image-rollback-for-consistency-group-member-volumes.html"
+        - title: 스냅샷 이미지 롤백을 재개합니다
+          url: "/sm-storage/resume-snapshot-image-rollback.html"
+        - title: 스냅샷 이미지 롤백을 취소합니다
+          url: "/sm-storage/cancel-snapshot-image-rollback.html"
+        - title: 스냅샷 이미지를 삭제합니다
+          url: "/sm-storage/delete-snapshot-image.html"
+      - title: 스냅샷 정합성 보장 그룹을 관리합니다
+        entries:
+        - title: 구성원 볼륨을 추가합니다
+          url: "/sm-storage/add-member-volumes-to-a-snapshot-consistency-group.html"
+        - title: 구성원 볼륨을 제거합니다
+          url: "/sm-storage/remove-member-volumes-from-a-consistency-group.html"
+        - title: 설정을 변경합니다
+          url: "/sm-storage/change-the-settings-for-a-snapshot-consistency-group.html"
+        - title: 스냅샷 정합성 보장 그룹을 삭제합니다
+          url: "/sm-storage/delete-snapshot-consistency-group.html"
+      - title: 스냅샷 볼륨 관리
+        entries:
+        - title: 스냅샷 볼륨을 읽기-쓰기 모드로 변환합니다
+          url: "/sm-storage/convert-a-snapshot-volume-to-read-write-mode.html"
+        - title: 스냅샷 볼륨의 볼륨 설정을 변경합니다
+          url: "/sm-storage/change-the-settings-for-a-snapshot-volume.html"
+        - title: 스냅샷 볼륨을 복사합니다
+          url: "/sm-storage/copy-snapshot-volume.html"
+        - title: 스냅샷 볼륨을 다시 생성합니다
+          url: "/sm-storage/re-create-snapshot-volume.html"
+        - title: 스냅샷 볼륨을 비활성화합니다
+          url: "/sm-storage/disable-snapshot-volume.html"
+        - title: 스냅샷 볼륨을 삭제합니다
+          url: "/sm-storage/delete-snapshot-volume.html"
+      - title: FAQ 를 참조하십시오
+        entries:
+        - title: 내 볼륨, 호스트 또는 호스트 클러스터가 모두 표시되지 않는 이유는 무엇입니까?
+          url: "/sm-storage/why-dont-i-see-all-my-volumes-hosts-or-host-clusters.html"
+        - title: 스냅샷 이미지란 무엇입니까?
+          url: "/sm-storage/what-is-a-snapshot-image.html"
+        - title: 스냅샷 이미지를 사용하는 이유
+          url: "/sm-storage/why-use-snapshot-images.html"
+        - title: 스냅숏에 사용할 수 있는 볼륨의 종류는 무엇입니까?
+          url: "/sm-storage/what-kind-of-volumes-can-be-used-for-snapshots.html"
+        - title: 스냅샷 정합성 보장 그룹을 생성하는 이유는 무엇입니까?
+          url: "/sm-storage/why-would-i-create-a-snapshot-consistency-group.html"
+        - title: 스냅샷 볼륨이란 무엇이며 예약 용량은 언제 필요합니까?
+          url: "/sm-storage/what-is-a-snapshot-volume-and-when-does-it-need-reserved-capacity.html"
+        - title: 스냅샷 그룹이란 무엇입니까?
+          url: "/sm-storage/what-is-a-snapshot-group.html"
+        - title: 스냅샷 볼륨을 사용하지 않도록 설정하는 이유는 무엇입니까?
+          url: "/sm-storage/why-would-i-disable-a-snapshot-volume.html"
+        - title: 사용 안 함 상태란 무엇입니까?
+          url: "/sm-storage/what-is-the-disabled-state.html"
+        - title: 스냅샷 스케줄을 일시 중지하는 이유는 무엇입니까?
+          url: "/sm-storage/why-would-i-suspend-a-snapshot-schedule.html"
+    - title: 미러링
+      entries:
+      - title: 개요
+        entries:
+        - title: 비동기 미러링
+          url: "/sm-mirroring/overview-mirroring-async.html"
+        - title: 미러링 동기화
+          url: "/sm-mirroring/overview-mirroring-sync.html"
+      - title: 비동기 개념
+        entries:
+        - title: 비동기식 미러링의 작동 방식
+          url: "/sm-mirroring/how-asynchronous-mirroring-works.html"
+        - title: 약관
+          url: "/sm-mirroring/asynchronous-terminology.html"
+        - title: 워크플로우
+          url: "/sm-mirroring/workflow-for-mirroring-a-volume-asynchronously.html"
+        - title: 요구 사항
+          url: "/sm-mirroring/requirements-for-using-asynchronous-mirroring.html"
+        - title: 비동기식 미러 상태입니다
+          url: "/sm-mirroring/asynchronous-mirror-status.html"
+        - title: 볼륨 소유권
+          url: "/sm-mirroring/volume-ownership-async.html"
+        - title: 미러 정합성 보장 그룹의 역할 변경
+          url: "/sm-mirroring/role-change-of-a-mirror-consistency-group.html"
+      - title: 동기화 개념
+        entries:
+        - title: 동기 미러링의 작동 방식
+          url: "/sm-mirroring/how-synchronous-mirroring-works.html"
+        - title: 약관
+          url: "/sm-mirroring/synchronous-mirroring-terminology.html"
+        - title: 워크플로우
+          url: "/sm-mirroring/workflow-for-mirroring-a-volume-synchronously.html"
+        - title: 요구 사항
+          url: "/sm-mirroring/requirements-for-using-synchronous-mirroring.html"
+        - title: 동기 미러링 상태
+          url: "/sm-mirroring/synchronous-mirroring-status.html"
+        - title: 볼륨 소유권
+          url: "/sm-mirroring/volume-ownership-sync.html"
+        - title: 미러링된 쌍의 볼륨 간 역할 변경
+          url: "/sm-mirroring/role-change-of-volumes-in-a-mirrored-pair.html"
+      - title: 비동기식 미러 정합성 보장 그룹을 관리합니다
+        entries:
+        - title: 통신 테스트
+          url: "/sm-mirroring/test-communication-for-mirror-consistency-groups.html"
+        - title: 동기화를 일시 중지하거나 다시 시작합니다
+          url: "/sm-mirroring/suspend-or-resume-mirror-consistency-group.html"
+        - title: 동기화 설정을 변경합니다
+          url: "/sm-mirroring/change-synchronization-settings-for-a-mirror-consistency-group.html"
+        - title: 미러 정합성 보장 그룹을 다시 동기화하십시오
+          url: "/sm-mirroring/re-synchronize-mirror-consistency-group-manually.html"
+        - title: 동기화되지 않은 데이터 양을 봅니다
+          url: "/sm-mirroring/view-unsynchronized-data-amount-between-mirror-consistency-groups.html"
+        - title: 원격 IP 주소를 업데이트합니다
+          url: "/sm-mirroring/update-remote-ip-address.html"
+        - title: 미러 정합성 보장 그룹 역할을 변경합니다
+          url: "/sm-mirroring/change-mirror-consistency-group-role-to-primary-or-secondary.html"
+        - title: 미러 정합성 보장 그룹을 삭제합니다
+          url: "/sm-mirroring/delete-mirror-consistency-group.html"
+      - title: 비동기 미러링 쌍을 관리합니다
+        entries:
+        - title: 비동기 미러 관계를 제거합니다
+          url: "/sm-mirroring/remove-mirrored-pair.html"
+        - title: 예약된 용량을 늘립니다
+          url: "/sm-mirroring/increase-reserved-capacity.html"
+        - title: 미러링된 쌍 볼륨에 대한 예약 용량을 변경합니다
+          url: "/sm-mirroring/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html"
+        - title: 기존 시스템에서 생성된 운영 볼륨에 대해 완전한 미러링 쌍을 제공합니다
+          url: "/sm-mirroring/complete-mirrored-pair-for-primary-volumes-created-on-legacy-system.html"
+      - title: 동기화 미러링 페어를 관리합니다
+        entries:
+        - title: 통신 테스트
+          url: "/sm-mirroring/test-communication-for-synchronous-mirroring.html"
+        - title: 동기화를 일시 중지하고 다시 시작합니다
+          url: "/sm-mirroring/suspend-and-resume-synchronization-for-a-mirrored-pair.html"
+        - title: 볼륨 간 역할 변경
+          url: "/sm-mirroring/change-role-between-volumes-in-a-mirrored-pair.html"
+        - title: 동기화 설정을 변경합니다
+          url: "/sm-mirroring/change-synchronization-settings-for-a-mirrored-pair.html"
+        - title: 미러 관계를 제거합니다
+          url: "/sm-mirroring/remove-synchronous-mirror-relationship.html"
+      - title: 미러링을 비활성화합니다
+        entries:
+        - title: 비동기식 미러링을 비활성화합니다
+          url: "/sm-mirroring/deactivate-asynchronous-mirroring.html"
+        - title: 동기식 미러링을 비활성화합니다
+          url: "/sm-mirroring/deactivate-synchronous-mirroring.html"
+      - title: Async FAQ를 참조하십시오
+        entries:
+        - title: 비동기식 미러링은 동기식 미러링과 어떻게 다릅니까?
+          url: "/sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-async.html"
+        - title: 선택한 미러링 기능에 액세스할 수 없는 이유는 무엇입니까?
+          url: "/sm-mirroring/why-cant-i-access-my-chosen-mirroring-feature.html"
+        - title: 미러 정합성 보장 그룹을 생성하기 전에 알아야 할 내용은 무엇입니까?
+          url: "/sm-mirroring/what-do-i-need-to-know-before-creating-a-mirror-consistency-group.html"
+        - title: 비동기 미러링 - 미러링된 쌍을 만들기 전에 알아야 할 것은 무엇입니까?
+          url: "/sm-mirroring/asynchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html"
+        - title: 미러링된 쌍 볼륨에서 예약된 용량을 증가시키기 전에 무엇을 알아야 합니까?
+          url: "/sm-mirroring/what-do-i-need-to-know-before-increasing-my-reserved-capacity-on-a-mirrored-pair-volume.html"
+        - title: 요청한 용량으로 예약된 용량을 늘릴 수 없는 이유는 무엇입니까?
+          url: "/sm-mirroring/why-cant-i-increase-reserved-capacity-with-my-requested-amount.html"
+        - title: 이 비율을 변경하는 이유는 무엇입니까?
+          url: "/sm-mirroring/why-would-i-change-this-percentage.html"
+        - title: 예약된 용량이 두 개 이상 표시되는 이유는 무엇입니까?
+          url: "/sm-mirroring/why-do-i-see-more-than-one-reserved-capacity-candidate.html"
+        - title: 테이블에 사용할 수 없는 값이 표시되는 이유는 무엇입니까?
+          url: "/sm-mirroring/why-do-i-see-not-available-values-displayed-in-the-table.html"
+        - title: 내 풀 및 볼륨 그룹이 모두 표시되지 않는 이유는 무엇입니까?
+          url: "/sm-mirroring/why-dont-i-see-all-of-my-pools-and-volume-groups.html"
+        - title: 비동기식 미러링 - 모든 볼륨이 표시되지 않는 이유는 무엇입니까?
+          url: "/sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-my-volumes.html"
+        - title: 비동기 미러링 - 원격 스토리지 배열의 모든 볼륨을 볼 수 없는 이유는 무엇입니까?
+          url: "/sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html"
+        - title: 원격 스토리지 어레이의 IP 주소를 업데이트하는 이유는 무엇입니까?
+          url: "/sm-mirroring/why-would-i-update-my-remote-storage-arrays-ip-address.html"
+      - title: 동기화 FAQ
+        entries:
+        - title: 동기식 미러링과 비동기식 미러링의 차이점은 무엇입니까?
+          url: "/sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-sync.html"
+        - title: 동기 미러링 - 내 볼륨을 모두 볼 수 없는 이유는 무엇입니까?
+          url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-my-volumes.html"
+        - title: 동기 미러링 - 원격 스토리지 어레이의 모든 볼륨이 표시되지 않는 이유는 무엇입니까?
+          url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html"
+        - title: 동기식 미러링 - 미러링된 쌍을 만들기 전에 알아야 할 것은 무엇입니까?
+          url: "/sm-mirroring/synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html"
+        - title: 동기화 우선 순위가 동기화 속도에 어떤 영향을 미칩니까?
+          url: "/sm-mirroring/what-impact-does-synchronization-priority-have-on-synchronization-rates.html"
+        - title: 수동 동기화 정책을 사용하는 것이 권장되는 이유는 무엇입니까?
+          url: "/sm-mirroring/why-is-it-recommended-to-use-a-manual-synchronization-policy.html"
+    - title: 원격 스토리지
+      entries:
+      - title: 개요
+        url: "/sm-storage/overview-remote-storage.html"
+      - title: 개념
+        entries:
+        - title: 원격 스토리지의 작동 방식
+          url: "/sm-storage/rtv-how-remote-storage-works.html"
+        - title: 약관
+          url: "/sm-storage/rtv-terminology.html"
+        - title: 피처 요구 사항
+          url: "/sm-storage/rtv-remote-storage-requirements.html"
+        - title: 볼륨 요구 사항
+          url: "/sm-storage/rtv-remote-storage-volume-requirements.html"
+      - title: 원격 스토리지 관리
+        entries:
+        - title: 원격 저장소 가져오기
+          url: "/sm-storage/rtv-import-remote-storage.html"
+        - title: 원격 스토리지 가져오기 진행률을 관리합니다
+          url: "/sm-storage/rtv-manage-progress-of-remote-volume-import.html"
+        - title: 원격 스토리지에 대한 접속 설정을 수정합니다
+          url: "/sm-storage/rtv-modify-connection-settings-for-remote-storage.html"
+        - title: 원격 스토리지 객체를 제거합니다
+          url: "/sm-storage/rtv-remove-remote-storage.html"
+      - title: FAQ 를 참조하십시오
+        entries:
+        - title: 원격 스토리지 접속을 생성하기 전에 알아야 할 사항은 무엇입니까?
+          url: "/sm-storage/rtv-what-do-i-need-to-know-before-creating-a-remote-storage.html"
+        - title: 원격 볼륨을 제거하라는 메시지가 표시되는 이유는 무엇입니까?
+          url: "/sm-storage/rtv-why-am-i-being-prompted-to-clean-up-my-remote-volumes.html"
+        - title: 대상 어레이에 내 볼륨이 모두 표시되지 않는 이유는 무엇입니까?
+          url: "/sm-storage/rtv-why-dont-i-see-all-my-volumes.html"
+        - title: 가져오기 시 원격 볼륨에 대해 알아야 할 사항은 무엇입니까?
+          url: "/sm-storage/rtv-what-do-i-need-to-know-about-the-remote-device-in-an-import.html"
+        - title: 원격 스토리지 가져오기를 시작하기 전에 알아야 할 내용은 무엇입니까?
+          url: "/sm-storage/rtv-what-do-i-need-to-know-before-starting-a-remote-storage-import.html"
+    - title: 하드웨어 구성 요소
+      entries:
+      - title: 개요
+        url: "/sm-hardware/overview-hardware.html"
+      - title: 개념
+        entries:
+        - title: 하드웨어 페이지
+          url: "/sm-hardware/hardware-page-overview.html"
+        - title: 약관
+          url: "/sm-hardware/hardware-terminology.html"
+      - title: 쉘프 구성요소 관리
+        entries:
+        - title: 하드웨어 구성 요소 보기
+          url: "/sm-hardware/view-hardware-components.html"
+        - title: 부품 상태를 표시하거나 숨깁니다
+          url: "/sm-hardware/show-or-hide-component-status.html"
+        - title: 전면과 후면 보기 사이를 전환합니다
+          url: "/sm-hardware/switch-between-front-and-back-views.html"
+        - title: 쉘프의 보기 순서를 변경합니다
+          url: "/sm-hardware/change-view-order-of-shelves.html"
+        - title: 선반 로케이터 조명을 켭니다
+          url: "/sm-hardware/turn-on-shelf-locator-light.html"
+        - title: 쉘프 ID를 변경합니다
+          url: "/sm-hardware/change-shelf-ids.html"
+        - title: 쉘프 구성요소 상태 및 설정을 확인합니다
+          url: "/sm-hardware/view-shelf-component-status-and-settings.html"
+        - title: 배터리 학습 주기를 업데이트합니다
+          url: "/sm-hardware/update-battery-learn-cycles.html"
+      - title: 컨트롤러 관리
+        entries:
+        - title: 컨트롤러 상태
+          url: "/sm-hardware/controller-states.html"
+        - title: IP 주소 할당 고려 사항
+          url: "/sm-hardware/considerations-for-assigning-ip-addresses.html"
+        - title: 관리 포트를 구성합니다
+          url: "/sm-hardware/configure-management-ports.html"
+        - title: NTP 서버 주소를 구성합니다
+          url: "/sm-hardware/configure-ntp-server-addresses.html"
+        - title: DNS 서버 주소를 구성합니다
+          url: "/sm-hardware/configure-dns-server-addresses.html"
+        - title: 컨트롤러 설정을 봅니다
+          url: "/sm-hardware/view-controller-settings.html"
+        - title: 원격 로그인 허용
+          url: "/sm-hardware/allow-remote-login.html"
+        - title: 컨트롤러를 온라인으로 설정합니다
+          url: "/sm-hardware/place-controller-online.html"
+        - title: 컨트롤러를 오프라인으로 전환합니다
+          url: "/sm-hardware/place-controller-offline.html"
+        - title: 컨트롤러를 서비스 모드로 전환합니다
+          url: "/sm-hardware/place-controller-in-service-mode.html"
+        - title: 컨트롤러를 재설정(재부팅)합니다
+          url: "/sm-hardware/reset-reboot-controller.html"
+      - title: iSCSI 포트를 관리합니다
+        entries:
+        - title: iSCSI 포트를 구성합니다
+          url: "/sm-hardware/configure-iscsi-ports-hardware.html"
+        - title: iSCSI 인증을 구성합니다
+          url: "/sm-settings/configure-iscsi-authentication.html"
+        - title: iSCSI 검색 설정을 활성화합니다
+          url: "/sm-settings/enable-iscsi-discovery-settings.html"
+        - title: iSCSI 통계 패키지를 봅니다
+          url: "/sm-support/view-iscsi-statistics-packages-support.html"
+        - title: iSCSI 세션을 봅니다
+          url: "/sm-settings/view-iscsi-sessions-system.html"
+        - title: iSCSI 세션을 종료합니다
+          url: "/sm-settings/end-iscsi-session-system.html"
+        - title: InfiniBand 포트를 통해 iSER 구성
+          url: "/sm-hardware/configure-iser-over-infiniband-ports-hardware.html"
+        - title: InfiniBand 통계를 통해 iSER 보기
+          url: "/sm-settings/view-iser-over-infiniband-statistics-system.html"
+      - title: NVMe 포트 관리
+        entries:
+        - title: NVMe 개요
+          url: "/sm-settings/nvme-overview.html"
+        - title: InfiniBand 포트를 통해 NVMe를 구성합니다
+          url: "/sm-hardware/configure-nvme-over-infiniband-ports-hardware.html"
+        - title: NVMe over RoCE 포트를 구성합니다
+          url: "/sm-hardware/configure-nvme-over-roce-ports-hardware.html"
+        - title: NVMe over Fabrics 통계 보기
+          url: "/sm-settings/view-nvme-over-fabrics-statistics-system.html"
+      - title: 드라이브 관리
+        entries:
+        - title: 드라이브 상태
+          url: "/sm-hardware/drive-states.html"
+        - title: SSD(Solid State Disk)
+          url: "/sm-hardware/solid-state-disks-ssds.html"
+        - title: 드라이브 보기를 제한합니다
+          url: "/sm-hardware/limit-the-drive-view.html"
+        - title: 드라이브 로케이터 표시등을 켭니다
+          url: "/sm-hardware/turn-on-drive-locator-light.html"
+        - title: 드라이브 상태 및 설정을 봅니다
+          url: "/sm-hardware/view-drive-status-and-settings.html"
+        - title: 드라이브를 논리적으로 교체합니다
+          url: "/sm-hardware/replace-drive-logically-hardware.html"
+        - title: 드라이브를 수동으로 재구성합니다
+          url: "/sm-hardware/reconstruct-drive-manually.html"
+        - title: 드라이브를 초기화(포맷)합니다
+          url: "/sm-hardware/initialize-format-drive.html"
+        - title: 드라이브 오류
+          url: "/sm-hardware/fail-drive.html"
+        - title: 드라이브를 지웁니다
+          url: "/sm-hardware/erase-drive.html"
+        - title: 잠긴 NVMe 또는 FIPS 드라이브의 잠금을 해제하거나 재설정합니다
+          url: "/sm-hardware/unlock-or-reset-a-locked-nvme-drive.html"
+      - title: 핫 스페어 관리
+        entries:
+        - title: 핫 스페어 드라이브 개요
+          url: "/sm-hardware/hot-spare-drives.html"
+        - title: 핫 스페어를 할당합니다
+          url: "/sm-hardware/assign-hot-spares-hardware.html"
+        - title: 핫 스페어 할당을 취소합니다
+          url: "/sm-hardware/unassign-hot-spares.html"
+      - title: 쉘프 FAQ
+        entries:
+        - title: 선반 손실 방지 및 서랍 손실 방지란 무엇입니까?
+          url: "/sm-hardware/what-is-shelf-loss-protection-and-drawer-loss-protection.html"
+        - title: 배터리 학습 사이클이란 무엇입니까?
+          url: "/sm-hardware/what-are-battery-learn-cycles.html"
+      - title: 컨트롤러 FAQ
+        entries:
+        - title: 자동 협상이란 무엇입니까?
+          url: "/sm-hardware/what-is-auto-negotiation.html"
+        - title: IPv6 상태 비저장 주소 자동 구성이란 무엇입니까?
+          url: "/sm-hardware/what-is-ipv6-stateless-address-auto-configuration.html"
+        - title: DHCP 또는 수동 구성 중 어떤 것을 선택합니까?
+          url: "/sm-hardware/which-do-i-choose-dhcp-or-manual-configuration.html"
+        - title: DHCP 서버란 무엇입니까?
+          url: "/sm-hardware/what-is-a-dhcp-server.html"
+        - title: DHCP 서버를 어떻게 구성합니까?
+          url: "/sm-hardware/how-do-i-configure-my-dhcp-server.html"
+        - title: 컨트롤러 네트워크 구성을 변경해야 하는 이유는 무엇입니까?
+          url: "/sm-hardware/why-do-i-need-to-change-the-controller-network-configuration.html"
+        - title: 네트워크 구성은 어디에서 얻을 수 있습니까?
+          url: "/sm-hardware/where-do-i-get-the-network-configuration.html"
+        - title: ICMP ping 응답이란?
+          url: "/sm-hardware/what-are-icmp-ping-responses.html"
+        - title: 포트 구성을 언제 새로 고침해야 합니까?
+          url: "/sm-hardware/when-should-i-refresh-the-port-configuration-or-the-isns-server-from-the-dhcp-server.html"
+        - title: 관리 포트를 구성한 후에는 어떻게 해야 합니까?
+          url: "/sm-hardware/what-should-i-do-after-configuring-the-management-ports.html"
+        - title: 스토리지 시스템이 최적화되지 않은 모드인 이유는 무엇입니까?
+          url: "/sm-hardware/why-is-the-storage-system-in-non-optimal-mode.html"
+      - title: iSCSI FAQ
+        entries:
+        - title: 등록을 위해 iSNS 서버를 사용하면 어떻게 됩니까?
+          url: "/sm-settings/what-happens-when-i-use-an-isns-server.html"
+        - title: iSCSI에 대해 자동으로 지원되는 등록 방법은 무엇입니까?
+          url: "/sm-settings/which-registration-methods-are-automatically-supported-for-iscsi.html"
+        - title: InfiniBand 통계를 통해 iSER을 어떻게 해석합니까?
+          url: "/sm-settings/how-do-i-interpret-iser-over-infiniband-statistics.html"
+        - title: InfiniBand를 통해 iSER을 구성하거나 진단하려면 어떻게 해야 합니까?
+          url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-iser-over-infiniband.html"
+        - title: iSCSI를 구성하거나 진단하려면 어떻게 해야 합니까?
+          url: "/sm-support/what-else-do-i-need-to-do-to-configure-or-diagnose-iscsi.html"
+      - title: NVMe FAQ를 참조하십시오
+        entries:
+        - title: NVMe over Fabrics 통계를 어떻게 해석합니까?
+          url: "/sm-settings/how-do-i-interpret-nvme-over-fabrics-statistics.html"
+        - title: InfiniBand를 통해 NVMe를 구성하거나 진단하려면 어떻게 해야 합니까?
+          url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-infiniband.html"
+        - title: NVMe over RoCE를 구성 또는 진단하려면 어떻게 해야 합니까?
+          url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-roce.html"
+        - title: 하나의 물리적 포트에 대해 두 개의 IP 주소가 있는 이유는 무엇입니까?
+          url: "/sm-settings/why-are-there-two-ip-addresses-for-one-physical-port.html"
+        - title: 물리적 포트 하나에 대해 두 개의 매개 변수 세트가 있는 이유는 무엇입니까?
+          url: "/sm-settings/why-are-there-two-sets-of-parameters-for-one-physical-port.html"
+      - title: 드라이브 FAQ
+        entries:
+        - title: 핫 스페어 드라이브란 무엇입니까?
+          url: "/sm-storage/what-is-a-hot-spare-drive.html"
+        - title: 보존 용량이란?
+          url: "/sm-hardware/what-is-preservation-capacity.html"
+        - title: 드라이브를 논리적으로 교체하는 이유는 무엇입니까?
+          url: "/sm-hardware/why-would-i-logically-replace-a-drive.html"
+        - title: 재구성 중인 드라이브의 상태는 어디에서 확인할 수 있습니까?
+          url: "/sm-hardware/where-can-i-view-the-status-of-a-drive-undergoing-reconstruction.html"
+    - title: 경고
+      entries:
+      - title: 개요
+        url: "/sm-settings/overview-alerts.html"
+      - title: 개념
+        entries:
+        - title: 알림의 작동 방식
+          url: "/sm-settings/how-alerts-work.html"
+        - title: 약관
+          url: "/sm-settings/alerts-terminology.html"
+      - title: 이메일 알림을 관리합니다
+        entries:
+        - title: 메일 서버 및 수신자를 구성합니다
+          url: "/sm-settings/configure-mail-server-and-recipients-for-alerts.html"
+        - title: 이메일 주소를 편집합니다
+          url: "/sm-settings/edit-alert-email-addresses.html"
+        - title: 이메일 주소를 추가합니다
+          url: "/sm-settings/add-alert-email-addresses.html"
+        - title: 메일 서버 또는 이메일 주소를 삭제합니다
+          url: "/sm-settings/delete-alert-email-addresses.html"
+        - title: 메일 서버를 편집합니다
+          url: "/sm-settings/edit-mail-server-for-alerts.html"
+      - title: SNMP 경고를 관리합니다
+        entries:
+        - title: SNMP 경고를 구성합니다
+          url: "/sm-settings/configure-snmp-alerts.html"
+        - title: 트랩 대상을 추가합니다
+          url: "/sm-settings/add-trap-destinations-for-snmp-alerts.html"
+        - title: SNMP MIB 변수를 구성합니다
+          url: "/sm-settings/configure-snmp-mib-variables.html"
+        - title: 커뮤니티를 편집합니다
+          url: "/sm-settings/edit-community-names-for-snmp-traps.html"
+        - title: 사용자 설정을 편집합니다
+          url: "/sm-settings/edit-user-names-for-snmp-traps.html"
+        - title: 커뮤니티를 추가합니다
+          url: "/sm-settings/add-community-names-for-snmp-traps.html"
+        - title: 사용자 추가
+          url: "/sm-settings/add-user-names-for-snmp-traps.html"
+        - title: 커뮤니티를 제거합니다
+          url: "/sm-settings/remove-community-name-for-snmp-traps.html"
+        - title: 사용자를 제거합니다
+          url: "/sm-settings/remove-user-for-snmp-traps.html"
+        - title: 트랩 대상을 삭제합니다
+          url: "/sm-settings/delete-trap-destinations.html"
+      - title: syslog 알림을 관리합니다
+        entries:
+        - title: syslog 서버를 구성합니다
+          url: "/sm-settings/configure-syslog-server-for-alerts.html"
+        - title: syslog 서버를 편집합니다
+          url: "/sm-settings/edit-syslog-servers-for-alerts.html"
+        - title: syslog 서버를 추가합니다
+          url: "/sm-settings/add-syslog-servers-for-alerts.html"
+        - title: syslog 서버를 삭제합니다
+          url: "/sm-settings/delete-syslog-servers-for-alerts.html"
+      - title: FAQ 를 참조하십시오
+        entries:
+        - title: 경고가 비활성화되면 어떻게 합니까?
+          url: "/sm-settings/what-if-alerts-are-disabled.html"
+        - title: SNMP 또는 syslog 알림을 구성하려면 어떻게 합니까?
+          url: "/sm-settings/how-do-i-configure-snmp-or-syslog-alerts.html"
+        - title: 타임스탬프가 스토리지와 알림 간에 일치하지 않는 이유는 무엇입니까?
+          url: "/sm-settings/why-are-timestamps-inconsistent-between-the-array-and-alerts.html"
+    - title: 배열 설정
+      entries:
+      - title: 설정 개요
+        url: "/sm-settings/overview-settings.html"
+      - title: 개념
+        entries:
+        - title: 캐시 설정 및 성능
+          url: "/sm-settings/cache-settings-and-performance.html"
+        - title: 자동 로드 밸런싱 개요
+          url: "/sm-settings/automatic-load-balancing-overview.html"
+      - title: 스토리지 설정을 구성합니다
+        entries:
+        - title: 스토리지 배열 이름을 편집합니다
+          url: "/sm-settings/edit-storage-array-name.html"
+        - title: 스토리지 배열 로케이터 표시등을 켭니다
+          url: "/sm-settings/turn-on-storage-array-locator-lights.html"
+        - title: 스토리지 배열 클록을 동기화합니다
+          url: "/sm-settings/synchronize-storage-array-clocks.html"
+        - title: 스토리지 배열 구성을 저장합니다
+          url: "/sm-settings/save-storage-array-configuration.html"
+        - title: 스토리지 배열 구성을 지웁니다
+          url: "/sm-settings/clear-storage-array-configuration.html"
+        - title: 캐시 설정을 변경합니다
+          url: "/sm-settings/change-cache-settings-for-storage-array.html"
+        - title: 자동 로드 밸런싱을 설정합니다
+          url: "/sm-settings/set-automatic-load-balancing.html"
+        - title: 레거시 관리 인터페이스를 활성화 또는 비활성화합니다
+          url: "/sm-settings/enable-or-disable-legacy-management-interface.html"
+      - title: 애드온 기능을 구성합니다
+        entries:
+        - title: 애드온 기능의 작동 방식
+          url: "/sm-settings/how-add-on-features-work.html"
+        - title: 추가 기능 용어
+          url: "/sm-settings/add-on-feature-terminology.html"
+        - title: 기능 키 파일을 가져옵니다
+          url: "/sm-settings/obtain-a-feature-key-file.html"
+        - title: 프리미엄 기능 지원
+          url: "/sm-settings/enable-premium-feature.html"
+        - title: 기능 팩을 활성화합니다
+          url: "/sm-settings/enable-feature-pack.html"
+      - title: CLI 다운로드
+        url: "/sm-settings/download-cli.html"
+      - title: FAQ 를 참조하십시오
+        entries:
+        - title: 자동 로드 밸런싱이란 무엇입니까?
+          url: "/sm-storage/what-is-automatic-load-balancing.html"
+        - title: 컨트롤러 캐시란 무엇입니까?
+          url: "/sm-settings/what-is-controller-cache.html"
+        - title: 캐시 플러싱이란 무엇입니까?
+          url: "/sm-settings/what-is-cache-flushing.html"
+        - title: 캐시 블록 크기란 무엇입니까?
+          url: "/sm-settings/what-is-cache-block-size.html"
+        - title: 스토리지 배열 클록은 언제 동기화해야 합니까?
+          url: "/sm-settings/when-should-i-synchronize-storage-array-clocks.html"
+    - title: 드라이브 보안
+      entries:
+      - title: 개요
+        url: "/sm-settings/overview-drive-security.html"
+      - title: 개념
+        entries:
+        - title: 드라이브 보안 기능의 작동 방식
+          url: "/sm-settings/how-the-drive-security-feature-works.html"
+        - title: 보안 키 관리의 작동 방식
+          url: "/sm-settings/how-security-key-management-works.html"
+        - title: 약관
+          url: "/sm-settings/drive-security-terminology.html"
+      - title: 보안 키를 구성합니다
+        entries:
+        - title: 내부 보안 키를 생성합니다
+          url: "/sm-settings/create-internal-security-key.html"
+        - title: 외부 보안 키를 만듭니다
+          url: "/sm-settings/create-external-security-key.html"
+      - title: 보안 키 관리
+        entries:
+        - title: 보안 키를 변경합니다
+          url: "/sm-settings/change-security-key.html"
+        - title: 외부에서 내부 키 관리로 전환합니다
+          url: "/sm-settings/switch-from-external-to-internal-key-management.html"
+        - title: 키 관리 서버 설정을 편집합니다
+          url: "/sm-settings/edit-key-management-server-settings.html"
+        - title: 보안 키를 백업합니다
+          url: "/sm-settings/back-up-security-key.html"
+        - title: 보안 키를 확인합니다
+          url: "/sm-settings/validate-security-key.html"
+        - title: 내부 키 관리 사용 시 드라이브 잠금을 해제합니다
+          url: "/sm-settings/unlock-drives-using-an-internal-security-key.html"
+        - title: 외부 키 관리 사용 시 드라이브 잠금을 해제합니다
+          url: "/sm-settings/unlock-drives-using-an-external-security-key.html"
+      - title: FAQ 를 참조하십시오
+        entries:
+        - title: 보안 키를 생성하기 전에 알아야 할 사항은 무엇입니까?
+          url: "/sm-settings/what-do-i-need-to-know-before-creating-a-security-key.html"
+        - title: 암호문을 정의해야 하는 이유는 무엇입니까?
+          url: "/sm-settings/why-do-i-need-to-define-a-pass-phrase.html"
+        - title: 보안 키 정보를 기록하는 것이 중요한 이유는 무엇입니까?
+          url: "/sm-settings/why-is-it-important-to-record-security-key-information.html"
+        - title: 보안 키를 백업하기 전에 알아야 할 내용은 무엇입니까?
+          url: "/sm-settings/what-do-i-need-to-know-before-backing-up-a-security-key.html"
+        - title: 보안 드라이브를 잠금 해제하기 전에 알아야 할 사항은 무엇입니까?
+          url: "/sm-settings/what-do-i-need-to-know-before-unlocking-secure-drives.html"
+        - title: 읽기/쓰기 접근성이란 무엇입니까?
+          url: "/sm-settings/what-is-read-write-accessibility.html"
+        - title: 보안 키 유효성 검사에 대해 알아야 할 내용은 무엇입니까?
+          url: "/sm-settings/what-do-i-need-to-know-about-validating-the-security-key.html"
+        - title: 내부 보안 키와 외부 보안 키 관리의 차이점은 무엇입니까?
+          url: "/sm-settings/what-is-the-difference-between-internal-security-key-and-external-security-key-management.html"
+    - title: 액세스 관리
+      entries:
+      - title: 개요
+        url: "/sm-settings/overview-access-management.html"
+      - title: 개념
+        entries:
+        - title: 액세스 관리 작동 방식
+          url: "/sm-settings/how-access-management-works.html"
+        - title: 약관
+          url: "/sm-settings/access-management-terminology.html"
+        - title: 매핑된 역할에 대한 권한
+          url: "/sm-settings/permissions-for-mapped-roles.html"
+        - title: 로컬 사용자 역할
+          url: "/sm-settings/access-management-with-local-user-roles.html"
+        - title: 디렉터리 서비스
+          url: "/sm-settings/access-management-with-directory-services.html"
+        - title: SAML
+          url: "/sm-settings/access-management-with-saml.html"
+      - title: 로컬 사용자 역할을 사용합니다
+        entries:
+        - title: 로컬 사용자 역할을 봅니다
+          url: "/sm-settings/view-local-user-roles.html"
+        - title: 암호를 변경합니다
+          url: "/sm-settings/change-passwords.html"
+        - title: 로컬 사용자 암호 설정을 변경합니다
+          url: "/sm-settings/change-local-user-passwords-settings.html"
+      - title: 디렉토리 서비스를 사용합니다
+        entries:
+        - title: 디렉토리 서버를 추가합니다
+          url: "/sm-settings/add-directory-server.html"
+        - title: 디렉토리 서버 설정 및 역할 매핑을 편집합니다
+          url: "/sm-settings/edit-directory-server-settings.html"
+        - title: 디렉토리 서버를 제거합니다
+          url: "/sm-settings/remove-directory-server.html"
+      - title: SAML을 사용합니다
+        entries:
+        - title: SAML을 구성합니다
+          url: "/sm-settings/configure-saml.html"
+        - title: SAML 역할 매핑을 변경합니다
+          url: "/sm-settings/change-saml-role-mappings.html"
+        - title: SAML 서비스 공급자 파일을 내보냅니다
+          url: "/sm-settings/export-saml-service-provider-files.html"
+      - title: syslog를 관리합니다
+        entries:
+        - title: 감사 로그 활동을 봅니다
+          url: "/sm-settings/view-audit-log-activity.html"
+        - title: 감사 로그 정책을 정의합니다
+          url: "/sm-settings/define-log-policies.html"
+        - title: 감사 로그에서 이벤트를 삭제합니다
+          url: "/sm-settings/delete-events-from-the-audit-log.html"
+        - title: 감사 로그를 위해 syslog 서버를 구성합니다
+          url: "/sm-settings/configure-syslog-server-for-audit-logs.html"
+        - title: 감사 로그 레코드에 대한 syslog 서버 설정을 편집합니다
+          url: "/sm-settings/edit-syslog-server-settings-for-audit-log-records.html"
+      - title: FAQ 를 참조하십시오
+        entries:
+        - title: 로그인할 수 없는 이유는 무엇입니까?
+          url: "/sm-settings/why-cant-i-log-in.html"
+        - title: 디렉토리 서버를 추가하기 전에 알아야 할 사항은 무엇입니까?
+          url: "/sm-settings/what-do-i-need-to-know-before-adding-a-directory-server.html"
+        - title: 스토리지 어레이 역할에 매핑하는 방법에 대해 알아야 할 내용은 무엇입니까?
+          url: "/sm-settings/what-do-i-need-to-know-about-mapping-storage-array-roles.html"
+        - title: 이 변경의 영향을 받을 수 있는 외부 관리 도구는 무엇입니까?
+          url: "/sm-settings/which-external-management-tools-may-be-affected-by-this-change.html"
+        - title: SAML을 구성 및 활성화하기 전에 알아야 할 내용은 무엇입니까?
+          url: "/sm-settings/what-do-i-need-to-know-before-configuring-and-enabling-saml.html"
+        - title: 감사 로그에 기록되는 이벤트 유형은 무엇입니까?
+          url: "/sm-settings/what-types-of-events-are-recorded-in-the-audit-log.html"
+        - title: syslog 서버를 구성하기 전에 알아야 할 내용은 무엇입니까?
+          url: "/sm-settings/what-do-i-need-to-know-before-configuring-a-syslog-server.html"
+        - title: syslog 서버가 더 이상 감사 로그를 수신하지 않습니다. 어떻게 해야 합니까?
+          url: "/sm-settings/the-syslog-server-is-no-longer-receiving-audit-logs-what-do-i-do.html"
+    - title: 인증서
+      entries:
+      - title: 개요
+        url: "/sm-settings/overview-certificates.html"
+      - title: 개념
+        entries:
+        - title: 인증서 작동 방식
+          url: "/sm-settings/how-certificates-work-sam.html"
+        - title: 약관
+          url: "/sm-settings/certificate-terminology.html"
+      - title: 인증서를 사용합니다
+        entries:
+        - title: 컨트롤러에 CA 서명 인증서를 사용합니다
+          url: "/sm-settings/use-ca-signed-certificates-for-controllers.html"
+        - title: 관리 인증서를 재설정합니다
+          url: "/sm-settings/reset-management-certificates.html"
+        - title: 가져온 인증서 정보를 봅니다
+          url: "/sm-settings/view-imported-certificates.html"
+        - title: 클라이언트로 작동할 때 컨트롤러의 인증서를 가져옵니다
+          url: "/sm-settings/import-trusted-certificates-for-controllers-acting-as-client.html"
+        - title: 인증서 해지 확인을 사용합니다
+          url: "/sm-settings/enable-certificate-revocation-checking.html"
+        - title: 신뢰할 수 있는 인증서를 삭제합니다
+          url: "/sm-settings/delete-trusted-certificates.html"
+        - title: 인증 서버에 CA 서명 인증서를 사용합니다
+          url: "/sm-settings/use-ca-signed-certificates-for-authentication-with-a-key-management-server.html"
+        - title: 키 관리 서버 인증서를 내보냅니다
+          url: "/sm-settings/export-key-management-certificates.html"
+      - title: FAQ 를 참조하십시오
+        entries:
+        - title: 다른 컨트롤러에 액세스할 수 없음 대화 상자가 나타나는 이유는 무엇입니까?
+          url: "/sm-settings/why-does-the-cannot-access-other-controller-dialog-appear.html"
+        - title: 외부 키 관리를 위해 System Manager에 업로드해야 하는 인증서를 어떻게 알 수 있습니까?
+          url: "/sm-settings/how-do-i-know-what-certificates-need-to-be-uploaded-to-system-manager.html"
+        - title: 인증서 해지 확인에 대해 알아야 할 사항은 무엇입니까?
+          url: "/sm-settings/what-do-i-need-to-know-about-certificate-revocation-checking.html"
+        - title: 어떤 유형의 서버에 대해 해지 확인을 사용할 수 있습니까?
+          url: "/sm-settings/what-types-of-servers-will-revocation-checking-be-enabled-for.html"
+    - title: 지원
+      entries:
+      - title: 개요
+        url: "/sm-support/overview-support.html"
+      - title: 정보 및 진단 정보를 봅니다
+        entries:
+        - title: 스토리지 배열 프로파일을 봅니다
+          url: "/sm-support/view-storage-array-profile.html"
+        - title: 소프트웨어 및 펌웨어 인벤토리를 봅니다
+          url: "/sm-support/view-software-and-firmware-inventory.html"
+      - title: 진단 데이터를 수집합니다
+        entries:
+        - title: 지원 데이터를 수동으로 수집합니다
+          url: "/sm-support/collect-support-data-manually.html"
+        - title: 구성 데이터를 수집합니다
+          url: "/sm-support/collect-configuration-data.html"
+        - title: 복구 지원 파일을 검색합니다
+          url: "/sm-support/retrieve-recovery-support-files.html"
+        - title: 추적 버퍼를 검색합니다
+          url: "/sm-support/retrieve-trace-buffers.html"
+        - title: 입출력 경로 통계를 수집합니다
+          url: "/sm-support/collect-i-o-path-statistics.html"
+        - title: 상태 이미지를 검색합니다
+          url: "/sm-support/retrieve-health-image.html"
+      - title: 복구 작업을 수행합니다
+        entries:
+        - title: 읽을 수 없는 섹터 로그를 봅니다
+          url: "/sm-support/view-unreadable-sectors-log.html"
+        - title: 드라이브 포트를 다시 활성화합니다
+          url: "/sm-support/re-enable-drive-ports.html"
+        - title: 복구 모드를 해제합니다
+          url: "/sm-support/clear-recovery-mode.html"
+      - title: AutoSupport 관리
+        entries:
+        - title: AutoSupport 기능 개요
+          url: "/sm-support/autosupport-feature-overview.html"
+        - title: AutoSupport 기능의 워크플로
+          url: "/sm-support/workflow-for-autosupport.html"
+        - title: AutoSupport 기능을 활성화 또는 비활성화합니다
+          url: "/sm-support/enable-or-disable-autosupport-features.html"
+        - title: AutoSupport 전달 방법을 구성합니다
+          url: "/sm-support/configure-autosupport-delivery-method.html"
+        - title: AutoSupport 디스패치를 예약합니다
+          url: "/sm-support/schedule-autosupport-dispatches.html"
+        - title: AutoSupport 디스패치를 보냅니다
+          url: "/sm-support/send-autosupport-dispatches.html"
+        - title: AutoSupport 상태를 봅니다
+          url: "/sm-support/view-autosupport-status.html"
+        - title: AutoSupport 로그를 봅니다
+          url: "/sm-support/view-autosupport-log.html"
+        - title: AutoSupport 유지 관리 창을 활성화합니다
+          url: "/sm-support/enable-autosupport-maintenance-window.html"
+        - title: AutoSupport 유지 보수 창을 비활성화합니다
+          url: "/sm-support/disable-autosupport-maintenance-window.html"
+      - title: 이벤트를 봅니다
+        entries:
+        - title: 이벤트 로그 개요
+          url: "/sm-support/overview-event-log.html"
+        - title: 이벤트 로그를 봅니다
+          url: "/sm-support/view-events-using-the-event-log.html"
+      - title: 업그레이드 관리
+        entries:
+        - title: 개요
+          url: "/sm-support/overview-upgrade-center.html"
+        - title: 소프트웨어 및 펌웨어를 업그레이드합니다
+          url: "/sm-support/upgrade-controller-software-and-firmware.html"
+        - title: 컨트롤러 소프트웨어 및 펌웨어를 활성화합니다
+          url: "/sm-support/activate-controller-software-and-firmware.html"
+        - title: 드라이브 펌웨어를 업그레이드합니다
+          url: "/sm-support/upgrade-drive-firmware.html"
+        - title: 가능한 소프트웨어 및 펌웨어 업그레이드 오류를 검토합니다
+          url: "/sm-support/review-the-possible-software-and-firmware-upgrade-errors.html"
+      - title: FAQ 를 참조하십시오
+        entries:
+        - title: 어떤 데이터를 수집하고 있습니까?
+          url: "/sm-support/which-data-am-i-collecting-in-a-customer-support-bundle.html"
+        - title: 읽을 수 없는 섹터 데이터는 무엇을 보여 줍니까?
+          url: "/sm-support/what-does-unreadable-sectors-data-show-me.html"
+        - title: 건강 이미지란 무엇입니까?
+          url: "/sm-support/what-is-a-health-image.html"
+        - title: AutoSupport 기능은 어떤 기능을 합니까?
+          url: "/sm-support/what-do-the-autosupport-features-do.html"
+        - title: AutoSupport 기능을 통해 수집되는 데이터 유형은 무엇입니까?
+          url: "/sm-support/what-type-of-data-is-collected-through-autosupport.html"
+        - title: AutoSupport 기능의 전달 방법을 구성하려면 어떻게 합니까?
+          url: "/sm-support/how-do-i-configure-the-delivery-method-for-autosupport.html"
+        - title: 구성 데이터란 무엇입니까?
+          url: "/sm-support/what-is-configuration-data.html"
+        - title: SANtricity OS 소프트웨어를 업그레이드하기 전에 알아야 할 내용은 무엇입니까?
+          url: "/sm-support/what-do-i-need-to-know-before-upgrading-the-santricity-os-software.html"
+        - title: IOM 자동 동기화를 일시 중단하기 전에 알아야 할 내용은 무엇입니까?
+          url: "/sm-support/what-do-i-need-to-know-before-suspending-iom-auto-synchronization.html"
+        - title: 펌웨어 업그레이드가 너무 느리게 진행되는 이유는 무엇입니까?
+          url: "/sm-support/why-is-my-firmware-upgrade-progressing-so-slowly.html"
+        - title: 드라이브 펌웨어를 업그레이드하기 전에 알아야 할 내용은 무엇입니까?
+          url: "/sm-support/what-do-i-need-to-know-before-upgrading-drive-firmware.html"
+        - title: 수행할 업그레이드 유형을 선택하려면 어떻게 해야 합니까?
+          url: "/sm-support/how-do-i-choose-which-type-of-upgrade-to-perform.html"
+  - title: Unified Manager를 참조하십시오
+    url: "/unified-manager/index.html"
+    entries:
+    - title: 기본 인터페이스
+      entries:
+      - title: Unified Manager 인터페이스 개요
+        url: "/um-admin/overview-interface-unified.html"
+      - title: 지원되는 브라우저
+        url: "/um-admin/supported-browsers-unified.html"
+      - title: 관리자 암호 보호를 설정합니다
+        url: "/um-admin/administrator-password-protection-unified.html"
+      - title: admin 암호를 변경합니다
+        url: "/um-admin/change-admin-password-unified.html"
+      - title: 세션 시간 제한을 관리합니다
+        url: "/um-admin/manage-session-timeouts-unified.html"
+    - title: 지원합니다
+      entries:
+      - title: 개요
+        url: "/um-manage/overview-storage-arrays.html"
+      - title: 개념
+        entries:
+        - title: 스토리지 검색 시 고려 사항
+          url: "/um-manage/considerations-for-discovering-arrays.html"
+        - title: System Manager 액세스에 대한 고려 사항
+          url: "/um-manage/launch-considerations.html"
+      - title: 스토리지를 검색합니다
+        entries:
+        - title: 여러 스토리지 시스템을 검색합니다
+          url: "/um-manage/discover-multiple-arrays.html"
+        - title: 단일 스토리지를 검색합니다
+          url: "/um-manage/discover-single-array.html"
+      - title: 스토리지 관리
+        entries:
+        - title: 배열 상태를 봅니다
+          url: "/um-manage/storage-array-status.html"
+        - title: System Manager를 시작합니다
+          url: "/um-manage/launch-system-manager.html"
+        - title: 스토리지 암호를 변경합니다
+          url: "/um-admin/change-storage-array-passwords.html"
+        - title: 뷰에서 배열을 제거합니다
+          url: "/um-manage/remove-storage-array.html"
+    - title: 설정을 가져옵니다
+      entries:
+      - title: 개요
+        url: "/um-manage/overview-import-settings.html"
+      - title: 개념
+        entries:
+        - title: 가져오기 설정 작동 방식
+          url: "/um-manage/how-import-settings-works.html"
+        - title: 스토리지 구성 복제 요구 사항
+          url: "/um-manage/requirements-for-replicating-storage-configurations.html"
+      - title: 일괄 가져오기를 사용합니다
+        entries:
+        - title: 알림 설정을 가져옵니다
+          url: "/um-manage/import-alert-settings.html"
+        - title: AutoSupport 설정을 가져옵니다
+          url: "/um-manage/import-autosupport-settings.html"
+        - title: 디렉터리 서비스 설정을 가져옵니다
+          url: "/um-manage/import-directory-services-settings.html"
+        - title: 시스템 설정을 가져옵니다
+          url: "/um-manage/import-system-settings.html"
+        - title: 스토리지 구성 설정을 가져옵니다
+          url: "/um-manage/import-storage-configuration-settings.html"
+      - title: FAQ 를 참조하십시오
+        entries:
+        - title: 가져올 설정은 무엇입니까?
+          url: "/um-manage/what-settings-will-be-imported.html"
+        - title: 내 스토리지 어레이가 모두 보이지 않는 이유는 무엇입니까?
+          url: "/um-manage/why-dont-i-see-all-of-my-storage-arrays.html"
+    - title: 스토리지 그룹
+      entries:
+      - title: 개요
+        url: "/um-manage/overview-manage-groups.html"
+      - title: 그룹을 구성합니다
+        url: "/um-manage/create-storage-array-group.html"
+      - title: 그룹에서 어레이를 제거합니다
+        url: "/um-manage/remove-storage-arrays-from-group.html"
+      - title: 그룹을 삭제합니다
+        url: "/um-manage/delete-storage-array-group.html"
+      - title: 그룹 이름을 바꿉니다
+        url: "/um-manage/rename-storage-array-group.html"
+    - title: 업그레이드
+      entries:
+      - title: 개요
+        url: "/um-manage/overview-upgrade-center-um.html"
+      - title: 소프트웨어 및 펌웨어를 업그레이드합니다
+        entries:
+        - title: 업그레이드 전 상태 점검을 수행합니다
+          url: "/um-manage/perform-pre-upgrade-health-check.html"
+        - title: SANtricity OS를 업그레이드합니다
+          url: "/um-manage/upgrade-controller-firmware.html"
+        - title: 스테이징된 OS 소프트웨어를 활성화합니다
+          url: "/um-manage/activate-pending-firmware.html"
+        - title: 소프트웨어 저장소를 관리합니다
+          url: "/um-manage/manage-repository.html"
+        - title: 스테이징된 OS 소프트웨어를 지웁니다
+          url: "/um-manage/clear-staged-os-software.html"
+    - title: 미러링
+      entries:
+      - title: 개요
+        url: "/um-manage/overview-mirroring-um.html"
+      - title: 개념
+        entries:
+        - title: 미러링의 작동 방식
+          url: "/um-manage/mirroring-overview.html"
+        - title: 구성 워크플로우
+          url: "/um-manage/mirroring-configuration-workflow.html"
+        - title: 약관
+          url: "/um-manage/mirroring-terminology.html"
+        - title: 요구 사항
+          url: "/um-manage/requirements-for-using-mirroring.html"
+      - title: 미러링을 구성합니다
+        entries:
+        - title: 비동기 미러링 쌍을 생성합니다
+          url: "/um-manage/create-asynchronous-mirrored-pair-um.html"
+        - title: 동기식 미러링 쌍을 생성합니다
+          url: "/um-manage/create-synchronous-mirrored-pair-um.html"
+      - title: FAQ 를 참조하십시오
+        entries:
+        - title: 미러 정합성 보장 그룹을 생성하기 전에 알아야 할 내용은 무엇입니까?
+          url: "/um-manage/what-do-i-need-to-know-before-creating-a-mirror-consistency-group-um.html"
+        - title: 미러링된 쌍을 만들기 전에 알아야 할 내용은 무엇입니까?
+          url: "/um-manage/what-do-i-need-to-know-before-creating-a-mirrored-pair-um.html"
+        - title: 이 비율을 변경하는 이유는 무엇입니까?
+          url: "/um-manage/why-would-i-change-this-percentage-um.html"
+        - title: 예약된 용량이 두 개 이상 표시되는 이유는 무엇입니까?
+          url: "/um-manage/why-do-i-see-more-than-one-reserved-capacity-candidate-um.html"
+        - title: 내 볼륨이 모두 표시되지 않는 이유는 무엇입니까?
+          url: "/um-manage/why-dont-i-see-all-my-volumes-um.html"
+        - title: 원격 스토리지 어레이에 볼륨이 모두 표시되지 않는 이유는 무엇입니까?
+          url: "/um-manage/why-dont-i-see-all-the-volumes-on-the-remote-storage-array-um.html"
+        - title: 동기화 우선 순위가 동기화 속도에 어떤 영향을 미칩니까?
+          url: "/um-manage/what-impact-does-synchronization-priority-have-on-synchronization-rates-um.html"
+        - title: 수동 동기화 정책을 사용하는 것이 권장되는 이유는 무엇입니까?
+          url: "/um-manage/why-is-it-recommended-to-use-a-manual-synchronization-policy-um.html"
+    - title: 인증서
+      entries:
+      - title: 개요
+        url: "/um-certificates/overview-certificates-um.html"
+      - title: 개념
+        entries:
+        - title: 인증서 작동 방식
+          url: "/um-certificates/how-certificates-work-unified.html"
+        - title: 약관
+          url: "/um-certificates/certificate-terminology-unified.html"
+      - title: 관리 호스트 인증서를 사용합니다
+        url: "/um-certificates/use-ca-signed-certificate-um.html"
+      - title: 관리 인증서를 재설정합니다
+        url: "/um-certificates/reset-management-certificates-unified.html"
+      - title: 스토리지 인증서를 사용합니다
+        entries:
+        - title: 스토리지에 대한 인증서를 가져옵니다
+          url: "/um-certificates/import-array-certificates-unified.html"
+        - title: 신뢰할 수 있는 인증서를 삭제합니다
+          url: "/um-certificates/delete-trusted-certificates-unified.html"
+        - title: 신뢰할 수 없는 인증서를 확인합니다
+          url: "/um-certificates/resolve-untrusted-certificates-certificate-page.html"
+      - title: 인증서를 관리합니다
+        entries:
+        - title: 인증서를 봅니다
+          url: "/um-certificates/view-certificates-unified.html"
+        - title: 인증서를 내보냅니다
+          url: "/um-certificates/export-certificates-unified.html"
+    - title: 액세스 관리
+      entries:
+      - title: 개요
+        url: "/um-certificates/overview-access-management-um.html"
+      - title: 개념
+        entries:
+        - title: 액세스 관리 작동 방식
+          url: "/um-certificates/how-access-management-works-unified.html"
+        - title: 약관
+          url: "/um-certificates/access-management-terminology-unified.html"
+        - title: 매핑된 역할에 대한 권한
+          url: "/um-certificates/permissions-for-mapped-roles-unified.html"
+        - title: 로컬 사용자 역할
+          url: "/um-certificates/access-management-with-local-user-roles-unified.html"
+        - title: 디렉터리 서비스
+          url: "/um-certificates/access-management-with-directory-services-unified.html"
+      - title: 로컬 사용자 역할을 사용합니다
+        entries:
+        - title: 로컬 사용자 역할을 봅니다
+          url: "/um-certificates/view-local-user-roles-unified.html"
+        - title: 암호를 변경합니다
+          url: "/um-certificates/change-passwords-unified.html"
+        - title: 로컬 사용자 암호 설정을 변경합니다
+          url: "/um-certificates/change-local-user-passwords-settings-unified.html"
+      - title: 디렉토리 서비스를 사용합니다
+        entries:
+        - title: 디렉토리 서버를 추가합니다
+          url: "/um-certificates/add-directory-server-unified.html"
+        - title: 디렉토리 서버 설정 및 역할 매핑을 편집합니다
+          url: "/um-certificates/edit-directory-server-settings-unified.html"
+        - title: 디렉토리 서버를 제거합니다
+          url: "/um-certificates/remove-directory-server-unified.html"
+      - title: FAQ 를 참조하십시오
+        entries:
+        - title: 로그인할 수 없는 이유는 무엇입니까?
+          url: "/um-certificates/why-cant-i-log-in-unified.html"
+        - title: 디렉토리 서버를 추가하기 전에 알아야 할 사항은 무엇입니까?
+          url: "/um-certificates/what-do-i-need-to-know-before-adding-a-directory-server-unified.html"
+        - title: 스토리지 어레이 역할에 매핑하는 방법에 대해 알아야 할 내용은 무엇입니까?
+          url: "/um-certificates/what-do-i-need-to-know-about-mapping-storage-array-roles-unified.html"
+        - title: 로컬 사용자는 무엇입니까?
+          url: "/um-certificates/what-are-the-local-users.html"
+  - title: 이전 버전
+    url: "/early-versions.html"
+  - title: 법적 고지
+    url: "/legal-notices.html"
+product-family:
+  name: E-Series
+  repo: e-series-family

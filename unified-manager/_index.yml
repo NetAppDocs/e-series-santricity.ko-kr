@@ -1,0 +1,41 @@
+---
+indexpage:
+  tiles:
+  - title: 설정
+    links:
+    - title: Unified Manager 인터페이스 개요
+      url: "../um-admin/overview-interface-unified.html"
+    - title: 관리자 암호를 설정합니다
+      url: "../um-admin/administrator-password-protection-unified.html"
+  - title: 스토리지를 검색합니다
+    links:
+    - title: 검색 고려 사항
+      url: "../um-manage/considerations-for-discovering-arrays.html"
+    - title: 단일 스토리지
+      url: "../um-manage/discover-single-array.html"
+    - title: 다중 어레이
+      url: "../um-manage/discover-multiple-arrays.html"
+  - title: 스토리지 관리
+    links:
+    - title: 스토리지 시스템 그룹
+      url: "../um-manage/overview-manage-groups.html"
+    - title: 스토리지 배열 상태입니다
+      url: "../um-manage/storage-array-status.html"
+    - title: 소프트웨어 업그레이드
+      url: "../um-manage/upgrade-controller-firmware.html"
+  - title: 액세스 관리
+    links:
+    - title: 사용자 액세스
+      url: "../um-certificates/how-access-management-works-unified.html"
+    - title: 인증서
+      url: "../um-certificates/how-certificates-work-unified.html"
+    - title: 디렉터리 서비스
+      url: "../um-certificates/access-management-with-directory-services-unified.html"
+  - title: 설정을 관리합니다
+    links:
+    - title: 설정을 가져옵니다
+      url: "../um-manage/how-import-settings-works.html"
+    - title: 암호 설정을 변경합니다
+      url: "../um-certificates/change-local-user-passwords-settings-unified.html"
+    - title: Directory Server 설정을 변경합니다
+      url: "../um-certificates/edit-directory-server-settings-unified.html"

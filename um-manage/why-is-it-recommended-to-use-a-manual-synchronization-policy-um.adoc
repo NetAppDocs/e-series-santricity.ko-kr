@@ -1,0 +1,16 @@
+---
+permalink: um-manage/why-is-it-recommended-to-use-a-manual-synchronization-policy-um.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, manual, synchronization, policy 
+summary: 수동 재동기화는 재동기화 프로세스를 관리하여 데이터를 복구할 수 있는 최적의 기회를 제공하기 때문에 권장됩니다. 
+---
+= 수동 동기화 정책을 사용하는 것이 권장되는 이유는 무엇입니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+수동 재동기화는 재동기화 프로세스를 관리하여 데이터를 복구할 수 있는 최적의 기회를 제공하기 때문에 권장됩니다.
+
+자동 재동기화 정책을 사용하고 재동기화 중에 간헐적인 통신 문제가 발생하는 경우 보조 볼륨의 데이터가 일시적으로 손상될 수 있습니다. 재동기화가 완료되면 데이터가 수정됩니다.

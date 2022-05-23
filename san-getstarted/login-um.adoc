@@ -1,0 +1,36 @@
+---
+permalink: san-getstarted/login-um.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, log in Unified Manager 
+summary: Unified Manager에 액세스 및 로그인합니다. 
+---
+= Unified Manager에 액세스합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+웹 서비스 프록시를 설치한 후 Unified Manager에 액세스하여 웹 기반 인터페이스에서 여러 스토리지 시스템을 관리할 수 있습니다.
+
+
+NOTE: 지원되는 브라우저는 를 참조하십시오 link:supported-browsers-os.html["지원되는 브라우저 및 운영 체제"].
+
+.단계
+. 브라우저를 열고 다음 URL을 입력합니다.
++
+'+http[s]://<server>:<port>/um+'
+
++
+이 URL에서 "<server>"는 웹 서비스 프록시가 설치된 서버의 IP 주소 또는 FQDN을 나타내며 "<port>"는 수신 대기 포트 번호를 나타냅니다(기본값은 HTTP의 경우 8080, HTTPS의 경우 8443입니다).
+
++
+Unified Manager 로그인 페이지가 열립니다.
+
+. 처음 로그인하는 경우 사용자 이름에 admin을 입력한 다음 admin 사용자의 암호를 설정 및 확인합니다.
++
+암호는 최대 30자까지 입력할 수 있습니다.
+
+
+
+사용자 및 암호에 대한 자세한 내용은 을 참조하십시오 link:../um-certificates/how-access-management-works-unified.html["액세스 관리 작동 방식"].

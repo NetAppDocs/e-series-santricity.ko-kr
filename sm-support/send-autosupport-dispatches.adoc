@@ -1,0 +1,28 @@
+---
+permalink: sm-support/send-autosupport-dispatches.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, send, autosupport, dispatches 
+summary: System Manager를 사용하면 예약된 디스패치를 기다리지 않고 AutoSupport 디스패치를 기술 지원 부서에 보낼 수 있습니다. 
+---
+= AutoSupport 디스패치를 보냅니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager를 사용하면 예약된 디스패치를 기다리지 않고 AutoSupport 디스패치를 기술 지원 부서에 보낼 수 있습니다.
+
+AutoSupport 기능을 활성화해야 합니다. AutoSupport 페이지에서 활성화되어 있는지 여부를 확인할 수 있습니다.
+
+이 작업은 지원 데이터를 수집하여 기술 지원 부서에 자동으로 전송하므로 문제를 해결할 수 있습니다.
+
+.단계
+. 지원 [지원 센터 > AutoSupport] 탭을 선택합니다.
+. Send AutoSupport Dispatch(디스패치 전송) * 를 선택합니다.
++
+AutoSupport 디스패치 보내기 대화 상자가 나타납니다.
+
+. Send * 를 선택하여 작업을 확인합니다.
+

@@ -1,0 +1,30 @@
+---
+permalink: sm-storage/access-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, access volumes 
+summary: '액세스 볼륨은 스토리지 어레이에서 호스트 I/O 연결을 통해 스토리지 어레이 및 호스트와 통신하는 데 사용되는 공장 구성 볼륨입니다. 액세스 볼륨에는 LUN(Logical Unit Number)이 필요합니다.' 
+---
+= 볼륨에 액세스합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+액세스 볼륨은 스토리지 어레이에서 호스트 I/O 연결을 통해 스토리지 어레이 및 호스트와 통신하는 데 사용되는 공장 구성 볼륨입니다. 액세스 볼륨에는 LUN(Logical Unit Number)이 필요합니다.
+
+액세스 볼륨은 다음 두 가지 경우에 사용됩니다.
+
+* * 자동 호스트 생성 * -- 호스트 자동 생성을 위해 호스트 컨텍스트 에이전트(HCA) 유틸리티에서 호스트 정보(이름, 포트, 호스트 유형)를 System Manager로 푸시하는 데 액세스 볼륨이 사용됩니다.
+* * 대역내 관리 * -- 스토리지 배열을 관리하기 위해 대역내 연결에 액세스 볼륨을 사용합니다. CLI(Command Line Interface)를 사용하여 스토리지 어레이를 관리하는 경우에만 이 작업을 수행할 수 있습니다.
++
+[NOTE]
+====
+EF600 또는 EF300 스토리지 시스템에서는 대역 내 관리를 사용할 수 없습니다.
+
+====
+
+
+볼륨을 호스트에 처음 할당할 때 액세스 볼륨이 자동으로 생성됩니다. 예를 들어, 호스트에 Volume_1 및 Volume_2를 할당할 경우 해당 할당 결과를 볼 때 세 개의 볼륨(Volume_1, Volume_2 및 Access)이 표시됩니다.
+
+CLI를 사용하여 호스트를 자동으로 생성하거나 스토리지 배열을 대역 내에서 관리하지 않는 경우, 액세스 볼륨이 필요하지 않으며 액세스 볼륨을 삭제하여 LUN을 확보할 수 있습니다. 이렇게 하면 볼륨 대 LUN 할당과 호스트에 대한 대역 내 관리 연결이 제거됩니다.

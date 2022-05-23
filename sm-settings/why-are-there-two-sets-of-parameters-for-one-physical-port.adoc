@@ -1,0 +1,18 @@
+---
+permalink: sm-settings/why-are-there-two-sets-of-parameters-for-one-physical-port.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, parameters, physical, port, 
+summary: EF600 스토리지 어레이에는 2개의 HIC, 즉 외부 스토리지와 내부 HIC가 포함될 수 있습니다. 
+---
+= 물리적 포트 하나에 대해 두 개의 매개 변수 세트가 있는 이유는 무엇입니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+EF600 스토리지 어레이에는 2개의 HIC, 즉 외부 스토리지와 내부 HIC를 각각 하나씩 포함할 수 있습니다.
+
+이 구성에서는 외부 HIC를 내부 보조 HIC에 연결합니다. 외부 HIC에서 액세스할 수 있는 각 물리적 포트에는 내부 HIC에서 연결된 가상 포트가 있습니다.
+
+최대 200GB 성능을 얻으려면 호스트가 각 포트에 대한 연결을 설정할 수 있도록 물리적 포트와 가상 포트 모두에 대해 매개 변수를 할당해야 합니다. 가상 포트에 매개 변수를 할당하지 않으면 HIC는 약 절반 수준의 속도로 실행됩니다.

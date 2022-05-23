@@ -1,0 +1,40 @@
+---
+permalink: sm-support/view-autosupport-log.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, view, autosupport, log 
+summary: AutoSupport 로그는 AutoSupport 디스패치 제공 중 발생한 상태, 디스패치 기록 및 오류에 대한 정보를 제공합니다. 
+---
+= AutoSupport 로그를 봅니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+AutoSupport 로그는 AutoSupport 디스패치 제공 중 발생한 상태, 디스패치 기록 및 오류에 대한 정보를 제공합니다.
+
+여러 로그 파일이 있을 수 있습니다. 현재 로그 파일이 200KB에 도달하면 보관되고 새 로그 파일이 생성됩니다. 아카이빙된 로그 파일 이름은 ASUPMessages.n으로, 여기서 _n_은 1에서 9 사이의 정수입니다. 로그 파일이 여러 개 있는 경우 최신 로그 또는 이전 로그를 보도록 선택할 수 있습니다.
+
+* * 현재 로그 * -- 최근 캡처된 이벤트 목록을 표시합니다.
+* * Archived log * -- 이전 이벤트 목록을 표시합니다.
+
+
+.단계
+. 지원 [지원 센터 > AutoSupport] 탭을 선택합니다.
+. AutoSupport 로그 보기 * 를 선택합니다.
++
+현재 AutoSupport 로그를 나열하는 대화 상자가 나타납니다.
+
+. 이전 AutoSupport 로그를 보려면 * Archived * 라디오 버튼을 선택한 다음 * AutoSupport 로그 선택 * 드롭다운 목록에서 로그를 선택합니다.
++
+아카이브된 로그는 스토리지 배열에 있는 경우에만 Archived(보관됨) 옵션이 나타납니다.
+
++
+선택한 AutoSupport 로그가 대화 상자에 나타납니다.
+
+. * 선택 사항: * AutoSupport 로그를 검색하려면 * 찾기 * 상자에 용어를 입력하고 * 찾기 * 를 클릭합니다.
++
+검색어를 추가로 검색하려면 * 찾기 * 를 다시 클릭합니다.
+
+

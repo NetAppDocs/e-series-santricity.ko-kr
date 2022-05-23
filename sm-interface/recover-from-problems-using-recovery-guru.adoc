@@ -1,0 +1,41 @@
+---
+permalink: sm-interface/recover-from-problems-using-recovery-guru.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, Recovery Guru 
+summary: Recovery Guru는 System Manager의 구성 요소로, 스토리지 배열 문제를 진단하고 문제 해결을 위한 복구 절차를 권장합니다. 
+---
+= Recovery Guru를 사용하여 문제를 해결합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Recovery Guru는 System Manager의 구성 요소로, 스토리지 배열 문제를 진단하고 문제 해결을 위한 복구 절차를 권장합니다.
+
+.단계
+. Home * 을 선택합니다.
+. 창 상단의 * Recover from_n_problems * 링크를 클릭합니다.
++
+Recovery Guru 대화 상자가 나타납니다.
+
+. 요약 목록에 표시된 첫 번째 문제를 선택한 다음 복구 절차의 지침에 따라 문제를 해결하십시오. 필요한 경우 교체 지침을 사용하여 장애가 발생한 구성 요소를 교체합니다. 나열된 각 문제에 대해 이 단계를 반복합니다.
++
+스토리지 시스템 내의 여러 문제를 연결할 수 있습니다. 이 경우 문제가 해결된 순서는 결과에 영향을 줄 수 있습니다. 요약 목록에 나열된 순서대로 문제를 선택하고 수정합니다.
+
++
+전원 공급 장치 캐니스터에 대한 여러 오류가 그룹화되어 요약 목록에 하나의 문제로 나열됩니다. 하나의 팬 캐니스터에 대한 여러 개의 실패도 하나의 문제로 표시됩니다.
+
+. 복구 절차가 성공적으로 수행되었는지 확인하려면 * 재검사 * 를 클릭합니다.
++
+비동기 미러 그룹 또는 비동기 미러 그룹의 구성원에 대한 문제를 선택한 경우 * Clear * 를 먼저 클릭하여 컨트롤러에서 오류를 지운 다음 * Recheck * 를 클릭하여 Recovery Guru에서 이벤트를 제거합니다.
+
++
+모든 문제가 해결되면 스토리지 배열 아이콘이 결국 주의 필요 에서 최적 으로 전환됩니다. 일부 문제의 경우 재구성 등의 작업이 진행 중인 동안 수정 아이콘이 나타납니다.
+
+. *선택 사항:* Recovery Guru 정보를 파일에 저장하려면 *저장* 아이콘을 클릭하십시오.
++
+이 파일은 브라우저의 다운로드 폴더에 'recovery-guru-failure-yyyy-mm-dd-hh-mm-ss-mmm.html'이라는 이름으로 저장됩니다.
+
+. Recovery Guru 정보를 인쇄하려면 * 인쇄 * 아이콘을 클릭하십시오.
+

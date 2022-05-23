@@ -1,0 +1,27 @@
+---
+permalink: sm-storage/why-am-i-seeing-a-capacity-over-allocation-error-when-i-have-enough-free-capacity-in-a-volume-group-to-create-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, capacity, over-allocation, error, 
+summary: 선택한 볼륨 그룹에 하나 이상의 사용 가능한 용량 영역이 있을 수 있습니다. 사용 가능한 용량 영역은 볼륨 삭제 또는 볼륨 생성 중 사용 가능한 모든 용량을 사용하지 않함으로 인해 발생할 수 있는 사용 가능한 용량입니다. 
+---
+= 볼륨 그룹에 볼륨을 생성할 충분한 가용 용량이 있는 경우 용량 초과 할당 오류가 발생하는 이유는 무엇입니까?
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+선택한 볼륨 그룹에 하나 이상의 사용 가능한 용량 영역이 있을 수 있습니다. 사용 가능한 용량 영역은 볼륨 삭제 또는 볼륨 생성 중 사용 가능한 모든 용량을 사용하지 않함으로 인해 발생할 수 있는 사용 가능한 용량입니다.
+
+하나 이상의 사용 가능한 용량 영역이 있는 볼륨 그룹에서 볼륨을 생성할 때 볼륨의 용량은 해당 볼륨 그룹에서 가장 큰 사용 가능한 용량 영역으로 제한됩니다. 예를 들어, 볼륨 그룹의 사용 가능한 용량이 총 15GiB이고 사용 가능한 최대 용량 영역이 10GiB인 경우 생성할 수 있는 최대 볼륨은 10GiB입니다.
+
+볼륨 그룹에 사용 가능한 용량 영역이 있는 경우 볼륨 그룹 그래프에는 기존 사용 가능한 용량 영역의 수를 나타내는 링크가 포함되어 있습니다. 링크를 선택하면 각 영역의 용량을 나타내는 팝업 창이 표시됩니다.
+
+여유 용량을 통합하면 볼륨 그룹의 최대 사용 가능 용량에서 추가 볼륨을 생성할 수 있습니다. 다음 방법 중 하나를 사용하여 선택한 볼륨 그룹에서 기존 사용 가능한 용량을 통합할 수 있습니다.
+
+* 볼륨 그룹에 대해 사용 가능한 용량 영역이 하나 이상 감지되면 알림 영역의 홈 페이지에 "사용 가능한 용량 통합" 권장 사항이 표시됩니다. 무료 용량 통합 * 링크를 클릭하여 대화 상자를 시작합니다.
+* Pools & Volume Groups [Uncommon Tasks > Consolidate volume group free capacity] 메뉴를 선택하여 대화 상자를 시작할 수도 있습니다.
+
+
+최대 가용 용량 영역이 아닌 특정 가용 용량 영역을 사용하려면 CLI(Command Line Interface)를 사용합니다.

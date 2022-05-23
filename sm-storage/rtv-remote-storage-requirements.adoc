@@ -1,0 +1,61 @@
+---
+permalink: sm-storage/rtv-remote-storage-requirements.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, remote, storage, requirements 
+summary: 원격 스토리지 기능을 사용하기 전에 다음 요구 사항 및 제한 사항을 검토하십시오. 
+---
+= 원격 스토리지 기능 요구 사항
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+원격 스토리지 기능을 사용하기 전에 다음 요구 사항 및 제한 사항을 검토하십시오.
+
+
+
+== 지원되는 프로토콜
+
+지원되는 프로토콜은 다음과 같습니다.
+
+* iSCSI
+* IPv4
+
+
+최신 E-Series 지원 및 구성 정보는 를 참조하십시오 https://imt.netapp.com/matrix/#welcome["NetApp 상호 운용성 매트릭스 툴"^].
+
+
+
+== 하드웨어 요구 사항
+
+E-Series 스토리지 시스템에는 다음이 포함되어야 합니다.
+
+* 컨트롤러 2개(이중 모드)
+* 하나 이상의 iSCSI 연결을 통해 두 E-Series 컨트롤러가 원격 스토리지 시스템과 통신할 수 있도록 지원합니다
+* SANtricity OS 11.71 이상
+* 하위 모델 ID(SMID)에서 활성화된 원격 스토리지 기능
+
+
+원격 시스템은 E-Series 스토리지 시스템이거나 다른 공급업체의 시스템일 수 있습니다. 여기에는 다음이 포함되어야 합니다.
+
+* iSCSI 지원 인터페이스
+
+
+
+
+== 제한 사항
+
+원격 스토리지 기능에는 다음과 같은 제한 사항이 있습니다.
+
+* 미러링이 비활성화되어야 합니다.
+* E-Series 시스템의 타겟 볼륨에 스냅샷이 없어야 합니다.
+* 가져오기를 시작하기 전에 E-Series 시스템의 타겟 볼륨을 호스트에 매핑해서는 안 됩니다.
+* E-Series 시스템의 타겟 볼륨에 리소스 프로비저닝이 비활성화되어 있어야 합니다.
+* 원격 스토리지 볼륨을 호스트나 여러 호스트에 직접 매핑하지 않습니다.
+* 웹 서비스 프록시는 지원되지 않습니다.
+* iSCSI CHAP 암호는 지원되지 않습니다.
+* SMcli는 지원되지 않습니다.
+* VMware 데이터 저장소는 지원되지 않습니다.
+* 가져오기 페어가 있는 경우 관계/가져오기 페어에 있는 스토리지 시스템 하나만 한 번에 업그레이드할 수 있습니다.
+

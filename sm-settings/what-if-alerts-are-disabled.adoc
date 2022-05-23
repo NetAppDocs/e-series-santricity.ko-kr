@@ -1,0 +1,16 @@
+---
+permalink: sm-settings/what-if-alerts-are-disabled.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, alerts, disabled, 
+summary: 관리자가 스토리지 어레이에서 발생하는 중요한 이벤트에 대한 알림을 받도록 하려면 경고 방법을 구성해야 합니다. 
+---
+= 경고가 비활성화되면 어떻게 합니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+관리자가 스토리지 어레이에서 발생하는 중요한 이벤트에 대한 알림을 받도록 하려면 경고 방법을 구성해야 합니다.
+
+SANtricity System Manager로 관리되는 스토리지 어레이의 경우 경고 페이지에서 경고를 구성합니다. 경고 알림은 이메일, SNMP 트랩 또는 syslog 메시지를 통해 보낼 수 있습니다. 또한 초기 설정 마법사에서 이메일 경고를 구성할 수도 있습니다.

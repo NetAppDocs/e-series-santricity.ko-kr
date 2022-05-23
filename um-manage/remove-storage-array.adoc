@@ -1,0 +1,28 @@
+---
+permalink: um-manage/remove-storage-array.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, remove, storage, arrays, 
+summary: SANtricity Unified Manager에서 더 이상 스토리지 어레이를 관리하지 않으려는 경우 하나 이상의 스토리지 어레이를 제거할 수 있습니다. 
+---
+= SANtricity Unified Manager에서 스토리지 어레이를 제거합니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager에서 더 이상 스토리지 어레이를 관리하지 않으려는 경우 하나 이상의 스토리지 어레이를 제거할 수 있습니다.
+
+제거하는 스토리지 시스템은 액세스할 수 없습니다. 그러나 브라우저를 IP 주소 또는 호스트 이름에 직접 연결하여 제거된 스토리지 배열에 대한 연결을 설정할 수 있습니다.
+
+스토리지 배열을 제거해도 스토리지 배열 또는 해당 데이터에는 어떤 식으로든 영향을 주지 않습니다. 스토리지 배열이 실수로 제거된 경우 다시 추가할 수 있습니다.
+
+.단계
+. Manage * 페이지를 선택합니다.
+. 제거할 스토리지 배열을 하나 이상 선택합니다.
+. Uncommon Tasks [Remove storage array] 메뉴를 선택합니다.
++
+스토리지 어레이가 SANtricity Unified Manager의 모든 보기에서 제거됩니다.
+
+

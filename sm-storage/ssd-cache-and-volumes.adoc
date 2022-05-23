@@ -1,0 +1,44 @@
+---
+permalink: sm-storage/ssd-cache-and-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, ssd, cache, volumes 
+summary: '읽기 전용 성능을 개선하기 위해 SSD Cache에 볼륨을 추가할 수 있습니다. SSD Cache는 스토리지 어레이에서 논리적으로 함께 그룹화하는 SSD(Solid State Disk) 드라이브 세트로 구성됩니다.' 
+---
+= SSD Cache 및 볼륨
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+읽기 전용 성능을 개선하기 위해 SSD Cache에 볼륨을 추가할 수 있습니다. SSD Cache는 스토리지 어레이에서 논리적으로 함께 그룹화하는 SSD(Solid State Disk) 드라이브 세트로 구성됩니다.
+
+[NOTE]
+====
+EF600 또는 EF300 스토리지 시스템에서는 이 기능을 사용할 수 없습니다.
+
+====
+
+
+== 볼륨
+
+간단한 볼륨 I/O 메커니즘을 사용하여 데이터를 SSD Cache로 이동하거나 SSD Cache에서 이동할 수 있습니다. 데이터를 SSD에 캐싱하고 저장한 후에는 SSD Cache에서 해당 데이터의 후속 읽기가 수행되므로 HDD 볼륨에 액세스할 필요가 없습니다.
+
+SSD Cache는 컨트롤러의 동적 DRAM(Random Access Memory)의 기본 캐시와 함께 사용되는 보조 캐시입니다.
+
+* 운영 캐시에서 데이터는 호스트 읽기 후 DRAM에 저장됩니다.
+* SSD Cache에서는 데이터가 볼륨에서 복사되어 두 개의 내부 RAID 볼륨(컨트롤러당 1개)에 저장됩니다. SSD Cache는 사용자가 SSD Cache를 생성할 때 자동으로 생성됩니다.
+
+
+내부 RAID 볼륨은 내부 캐시 처리를 위해 사용됩니다. 이러한 볼륨은 사용자 인터페이스에 액세스하거나 표시할 수 없습니다. 그러나 이러한 두 볼륨은 스토리지 어레이에서 허용되는 총 볼륨 수에 대해 계산됩니다.
+
+[NOTE]
+====
+컨트롤러의 SSD Cache를 사용하도록 할당된 볼륨은 자동 로드 밸런싱 전송을 지원하지 않습니다.
+
+====
+
+
+== 드라이브 보안 기능
+
+또한 Drive Security(보안 활성화)를 사용하는 볼륨에서 SSD Cache를 사용하려면 볼륨과 SSD Cache의 드라이브 보안 기능이 일치해야 합니다. 일치하지 않으면 볼륨이 보안 활성화되지 않습니다.

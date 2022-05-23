@@ -1,0 +1,59 @@
+---
+permalink: sm-settings/overview-access-management.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, access, management, 
+summary: '액세스 관리는 SANtricity 시스템 관리자에서 사용자 인증을 설정하는 방법입니다. 인증 방법에는 RBAC(역할 기반 액세스 제어), 디렉터리 서비스 및 SAML(Security Assertion Markup Language) 2.0이 있습니다.' 
+---
+= 액세스 관리 개요
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Access Management는 System Manager에서 사용자 인증을 설정하는 방법입니다.
+
+
+
+== 어떤 인증 방법을 사용할 수 있습니까?
+
+인증 방법에는 RBAC(역할 기반 액세스 제어), 디렉터리 서비스 및 SAML(Security Assertion Markup Language)이 포함됩니다.
+
+* * RBAC/로컬 사용자 역할 * -- 스토리지 어레이에 적용된 RBAC 기능을 통해 인증이 관리됩니다. 로컬 사용자 역할에는 미리 정의된 사용자 프로필과 특정 액세스 권한이 있는 역할이 포함됩니다.
+* * 디렉터리 서비스 * -- 인증은 LDAP(Lightweight Directory Access Protocol) 서버 및 Microsoft의 Active Directory와 같은 디렉터리 서비스를 통해 관리됩니다.
+* * SAML * -- 인증은 SAML 2.0을 사용하여 ID 공급자(IDP)를 통해 관리됩니다.
+
+
+자세한 내용:
+
+* link:how-access-management-works.html["액세스 관리 작동 방식"]
+* link:access-management-terminology.html["Access Management(액세스 관리) 용어"]
+* link:permissions-for-mapped-roles.html["매핑된 역할에 대한 권한"]
+* link:access-management-with-local-user-roles.html["로컬 사용자 역할"]
+* link:access-management-with-directory-services.html["디렉터리 서비스"]
+* link:access-management-with-saml.html["SAML"]
+
+
+
+
+== 인증을 구성하려면 어떻게 합니까?
+
+스토리지 어레이는 RBAC 기능이 구현된 로컬 사용자 역할을 사용하도록 사전 구성되어 있습니다. 다른 방법을 구성하려면 설정 [Access Management] 메뉴로 이동합니다.
+
+자세한 내용:
+
+* link:add-directory-server.html["LDAP 디렉토리 서버를 추가합니다"]
+* link:configure-saml.html["SAML을 구성합니다"]
+
+
+
+
+== 관련 정보
+
+액세스 관리 관련 작업에 대해 자세히 알아보십시오.
+
+* link:change-passwords.html["암호를 변경합니다"]
+* link:view-audit-log-activity.html["감사 로그 활동을 봅니다"]
+* link:configure-syslog-server-for-audit-logs.html["감사 로그를 위해 syslog 서버를 구성합니다"]
+

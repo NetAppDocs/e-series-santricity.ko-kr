@@ -1,0 +1,20 @@
+---
+permalink: sm-settings/how-do-i-interpret-iser-over-infiniband-statistics.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, interpret, iser, over, infiniband, statistics, 
+summary: 'View iSER over InfiniBand Statistics(InfiniBand를 통한 iSER 통계 보기) 대화 상자에는 로컬 타겟(프로토콜) 통계와 iSER over InfiniBand(IB) 인터페이스 통계가 표시됩니다. 모든 통계는 읽기 전용이며 설정할 수 없습니다.' 
+---
+= InfiniBand 통계를 통해 iSER을 어떻게 해석합니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+View iSER over InfiniBand Statistics(InfiniBand를 통한 iSER 통계 보기) 대화 상자에는 로컬 타겟(프로토콜) 통계와 iSER over InfiniBand(IB) 인터페이스 통계가 표시됩니다. 모든 통계는 읽기 전용이며 설정할 수 없습니다.
+
+* * 로컬 타겟(프로토콜) 통계 * -- InfiniBand 타겟에 대한 iSER 통계를 제공하며, 이 통계는 스토리지 미디어에 대한 블록 레벨 액세스를 보여줍니다.
+* InfiniBand 인터페이스 통계 * 를 통한 * iSER -- InfiniBand 인터페이스의 InfiniBand 포트를 통해 모든 iSER에 대한 통계를 제공하며, 여기에는 각 스위치 포트와 관련된 성능 통계 및 링크 오류 정보가 포함됩니다.
+
+
+각 통계를 원시 통계 또는 기준 통계로 볼 수 있습니다. 원시 통계는 컨트롤러가 시작된 이후 수집된 모든 통계입니다. 기준 통계는 기준 시간을 설정한 후 수집된 시점 통계입니다.

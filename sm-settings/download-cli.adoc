@@ -1,0 +1,31 @@
+---
+permalink: sm-settings/download-cli.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, download, command line interface, CLI, 
+summary: 'System Manager에서 CLI(Command Line Interface) 패키지를 다운로드할 수 있습니다.' 
+---
+= CLI(Command Line Interface) 다운로드
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager에서 CLI(Command Line Interface) 패키지를 다운로드할 수 있습니다.
+
+CLI는 스토리지 시스템을 구성하고 모니터링하기 위한 텍스트 기반 방법을 제공합니다. https를 통해 통신하며 외부에서 설치된 관리 소프트웨어 패키지에서 사용할 수 있는 CLI와 동일한 구문을 사용합니다. CLI를 다운로드하는 데 키가 필요하지 않습니다.
+
+CLI 명령을 실행하려는 관리 시스템에서 Java Runtime Environment(JRE) 버전 8 이상을 사용할 수 있어야 합니다.
+
+.단계
+. 설정 [시스템] 메뉴를 선택합니다.
+. 추가 기능 * 에서 * 명령줄 인터페이스 * 를 선택합니다.
++
+ZIP 패키지가 브라우저로 다운로드됩니다.
+
+. ZIP 파일을 스토리지 배열에 대한 CLI 명령을 실행할 관리 시스템에 저장한 다음 파일의 압축을 풉니다.
++
+이제 DOS C: 프롬프트와 같은 운영 체제 프롬프트에서 CLI 명령을 실행할 수 있습니다. CLI 명령 참조는 System Manager 사용자 인터페이스 오른쪽 위의 도움말 메뉴에서 사용할 수 있습니다.
+
+

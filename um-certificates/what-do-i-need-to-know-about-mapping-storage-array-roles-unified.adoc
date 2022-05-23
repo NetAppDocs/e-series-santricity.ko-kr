@@ -1,0 +1,33 @@
+---
+permalink: um-certificates/what-do-i-need-to-know-about-mapping-storage-array-roles-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, mapping, storage, array, roles 
+summary: 그룹을 역할에 매핑하기 전에 지침을 검토하십시오. 
+---
+= 스토리지 어레이 역할에 매핑하는 방법에 대해 알아야 할 내용은 무엇입니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+그룹을 역할에 매핑하기 전에 지침을 검토하십시오.
+
+RBAC(역할 기반 액세스 제어) 기능에는 다음 역할이 포함됩니다.
+
+* * 스토리지 관리자 * -- 스토리지의 스토리지 객체에 대한 전체 읽기/쓰기 액세스이지만 보안 구성에 대한 액세스는 없습니다.
+* * 보안 관리자 * -- 액세스 관리 및 인증서 관리에서 보안 구성에 액세스합니다.
+* * 지원 관리자 * -- 스토리지 배열, 오류 데이터 및 MEL 이벤트의 모든 하드웨어 리소스에 액세스합니다. 스토리지 객체 또는 보안 구성에 대한 액세스 권한이 없습니다.
+* * Monitor * -- 모든 스토리지 객체에 대한 읽기 전용 액세스이지만 보안 구성에 대한 액세스는 없습니다.
+
+
+[NOTE]
+====
+Monitor 역할은 관리자를 포함한 모든 사용자에게 필요합니다.
+
+====
+LDAP(Lightweight Directory Access Protocol) 서버 및 디렉터리 서비스를 사용하는 경우 다음 사항을 확인하십시오.
+
+* 관리자가 디렉토리 서비스에 사용자 그룹을 정의했습니다.
+* LDAP 사용자 그룹의 그룹 도메인 이름을 알고 있습니다.
+

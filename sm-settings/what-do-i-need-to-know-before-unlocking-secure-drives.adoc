@@ -1,0 +1,22 @@
+---
+permalink: sm-settings/what-do-i-need-to-know-before-unlocking-secure-drives.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, unlocking, secure, drives, 
+summary: 보안 지원 드라이브에서 데이터의 잠금을 해제하려면 해당 보안 키를 가져와야 합니다. 
+---
+= 보안 드라이브를 잠금 해제하기 전에 알아야 할 사항은 무엇입니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+보안 지원 드라이브에서 데이터의 잠금을 해제하려면 해당 보안 키를 가져와야 합니다.
+
+보안 지원 드라이브를 잠금 해제하기 전에 다음 지침을 염두에 두십시오.
+
+* 스토리지 배열에 이미 보안 키가 있어야 합니다. 마이그레이션된 드라이브는 대상 스토리지 배열에 다시 연결됩니다.
+* 마이그레이션하는 드라이브의 경우 보안 키 식별자와 보안 키 파일에 해당하는 암호 구문을 알아야 합니다.
+* 보안 키 파일은 관리 클라이언트(System Manager 액세스에 사용되는 브라우저가 있는 시스템)에서 사용할 수 있어야 합니다.
+* 잠긴 NVMe 드라이브를 재설정하는 경우 드라이브의 보안 ID를 입력해야 합니다. 보안 ID를 찾으려면 드라이브를 물리적으로 제거하고 드라이브 레이블에서 PSID 문자열(최대 32자)을 찾아야 합니다. 작업을 시작하기 전에 드라이브를 다시 설치해야 합니다.
+

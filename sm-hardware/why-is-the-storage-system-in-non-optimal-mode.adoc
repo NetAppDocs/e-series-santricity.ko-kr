@@ -1,0 +1,22 @@
+---
+permalink: sm-hardware/why-is-the-storage-system-in-non-optimal-mode.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, non-optimal, mode, 
+summary: 최적화되지 않은 모드의 스토리지 시스템은 잘못된 시스템 구성 상태로 인해 발생합니다. 이 상태에도 불구하고 기존 볼륨에 대한 정상적인 I/O 액세스가 완벽하게 지원되지만 System Manager에서는 일부 작업을 금지합니다. 
+---
+= 스토리지 시스템이 최적화되지 않은 모드인 이유는 무엇입니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+최적화되지 않은 모드의 스토리지 시스템은 잘못된 시스템 구성 상태로 인해 발생합니다. 이 상태에도 불구하고 기존 볼륨에 대한 정상적인 I/O 액세스가 완벽하게 지원되지만 System Manager에서는 일부 작업을 금지합니다.
+
+다음 이유 중 하나로 스토리지 시스템이 잘못된 시스템 구성으로 전환될 수 있습니다.
+
+* 컨트롤러가 규정 준수 범위를 벗어났을 수 있습니다. 이는 잘못된 SMID(Submodel ID) 코드를 가지고 있거나 프리미엄 기능 제한을 초과했기 때문일 수 있습니다.
+* 드라이브 펌웨어 다운로드와 같은 내부 서비스 작업이 진행 중입니다.
+* 컨트롤러가 패리티 오류 임계값을 초과하고 잠금을 시작했습니다.
+* 일반 잠금 조건이 발생했습니다.
+

@@ -1,0 +1,41 @@
+---
+permalink: um-manage/overview-import-settings.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, import, settings 
+summary: 알림, AutoSupport 및 디렉토리 서비스를 비롯한 스토리지 시스템 간에 설정을 가져올 수 있습니다. 
+---
+= 설정 가져오기 개요
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+설정 가져오기 기능을 사용하면 한 어레이에서 여러 어레이로 설정을 가져오기 위한 일괄 작업을 수행할 수 있습니다. 이 기능을 사용하면 네트워크에서 여러 어레이를 구성해야 하는 시간을 절약할 수 있습니다.
+
+
+
+== 가져올 수 있는 설정은 무엇입니까?
+
+알림 방법, AutoSupport 구성, 디렉토리 서비스 구성, 스토리지 구성(예: 볼륨 그룹 및 풀) 및 시스템 설정(예: 자동 로드 밸런싱)을 가져올 수 있습니다.
+
+자세한 내용:
+
+* link:how-import-settings-works.html["가져오기 설정 작동 방식"]
+* link:requirements-for-replicating-storage-configurations.html["스토리지 구성 복제 요구 사항"]
+
+
+
+
+== 일괄 불러오기는 어떻게 수행합니까?
+
+소스로 사용할 스토리지 배열에서 System Manager를 열고 원하는 설정을 구성합니다. 그런 다음 Unified Manager에서 관리 페이지로 이동하여 설정을 하나 이상의 어레이로 가져옵니다.
+
+자세한 내용:
+
+* link:import-alert-settings.html["알림 설정을 가져옵니다"]
+* link:import-autosupport-settings.html["AutoSupport 설정을 가져옵니다"]
+* link:import-directory-services-settings.html["디렉터리 서비스 설정을 가져옵니다"]
+* link:import-storage-configuration-settings.html["스토리지 구성 설정을 가져옵니다"]
+* link:import-system-settings.html["시스템 설정을 가져옵니다"]
+

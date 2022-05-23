@@ -1,0 +1,31 @@
+---
+permalink: sm-hardware/place-controller-online.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, place, controller, online 
+summary: 컨트롤러가 오프라인 상태 또는 서비스 모드인 경우 다시 온라인 상태로 전환할 수 있습니다. 
+---
+= 컨트롤러를 온라인으로 설정합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+컨트롤러가 오프라인 상태 또는 서비스 모드인 경우 다시 온라인 상태로 전환할 수 있습니다.
+
+.단계
+. 하드웨어 * 를 선택합니다.
+. 그래픽에 드라이브가 표시되면 * 쉘프 뒷면 표시 * 를 클릭합니다.
++
+그래픽이 변경되어 드라이브 대신 컨트롤러가 표시됩니다.
+
+. 오프라인 상태 또는 서비스 모드에 있는 컨트롤러를 클릭합니다.
++
+컨트롤러의 상황에 맞는 메뉴가 나타납니다.
+
+. 온라인으로 전환 * 을 선택하고 작업을 수행할지 확인합니다.
+
+
+다중 경로 드라이버로 복원된 기본 경로를 검색하는 데 최대 10분이 걸릴 수 있습니다.
+
+각 볼륨에 대한 I/O 요청이 수신되면 이 컨트롤러가 원래 소유했던 볼륨이 자동으로 컨트롤러로 다시 이동됩니다. 경우에 따라 * redistribute volumes * 명령을 사용하여 볼륨을 수동으로 재배포해야 할 수도 있습니다.

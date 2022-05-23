@@ -1,0 +1,38 @@
+---
+permalink: um-certificates/overview-certificates-um.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, certificate management 
+summary: '인증서 관리를 사용하면 CSR(인증서 서명 요청)을 생성하고 인증서를 가져오고 기존 인증서를 관리할 수 있습니다.' 
+---
+= 인증서 개요
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+인증서 관리를 사용하면 CSR(인증서 서명 요청)을 생성하고 인증서를 가져오고 기존 인증서를 관리할 수 있습니다.
+
+
+
+== 인증서란 무엇입니까?
+
+_Certificates_는 인터넷 보안 통신을 위해 웹 사이트 및 서버와 같은 온라인 엔터티를 식별하는 디지털 파일입니다. 인증서 유형에는 두 가지가 있습니다. CA(인증 기관)에서 _signed certificate_를 검증하고, 타사 대신 엔터티의 소유자가 _self-signed certificate_를 확인합니다.
+
+자세한 내용:
+
+* link:how-certificates-work-unified.html["인증서 작동 방식"]
+* link:certificate-terminology-unified.html["인증서 용어"]
+
+
+
+
+== 인증서를 구성하려면 어떻게 합니까?
+
+인증서 관리에서 Unified Manager를 호스팅하는 관리 스테이션에 대한 인증서를 구성하고 스토리지 시스템의 컨트롤러에 대한 인증서를 가져올 수 있습니다.
+
+자세한 내용:
+
+* link:use-ca-signed-certificate-um.html["관리 시스템에 CA 서명 인증서를 사용합니다"]
+* link:import-array-certificates-unified.html["스토리지에 대한 인증서를 가져옵니다"]
+

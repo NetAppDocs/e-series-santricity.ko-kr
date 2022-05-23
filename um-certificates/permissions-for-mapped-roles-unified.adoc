@@ -1,0 +1,24 @@
+---
+permalink: um-certificates/permissions-for-mapped-roles-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, permissions, mapped, roles 
+summary: 'RBAC(역할 기반 액세스 제어) 기능에는 하나 이상의 역할이 매핑된 사전 정의된 사용자가 포함됩니다. 각 역할에는 SANtricity Unified Manager의 작업에 액세스할 수 있는 권한이 포함되어 있습니다.' 
+---
+= 매핑된 역할에 대한 권한
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+RBAC(역할 기반 액세스 제어) 기능에는 하나 이상의 역할이 매핑된 사전 정의된 사용자가 포함됩니다. 각 역할에는 Unified Manager의 작업에 액세스할 수 있는 권한이 포함됩니다.
+
+역할은 다음과 같이 작업에 대한 사용자 액세스를 제공합니다.
+
+* * 스토리지 관리자 * -- 스토리지의 스토리지 객체에 대한 전체 읽기/쓰기 액세스이지만 보안 구성에 대한 액세스는 없습니다.
+* * 보안 관리자 * -- 액세스 관리 및 인증서 관리에서 보안 구성에 액세스합니다.
+* * 지원 관리자 * -- 스토리지 배열, 오류 데이터 및 MEL 이벤트의 모든 하드웨어 리소스에 액세스합니다. 스토리지 객체 또는 보안 구성에 대한 액세스 권한이 없습니다.
+* * Monitor * -- 모든 스토리지 객체에 대한 읽기 전용 액세스이지만 보안 구성에 대한 액세스는 없습니다.
+
+
+사용자에게 특정 기능에 대한 권한이 없는 경우 해당 기능을 선택할 수 없거나 사용자 인터페이스에 표시되지 않습니다.

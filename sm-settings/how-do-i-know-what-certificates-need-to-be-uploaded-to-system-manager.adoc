@@ -1,0 +1,18 @@
+---
+permalink: sm-settings/how-do-i-know-what-certificates-need-to-be-uploaded-to-system-manager.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, certificates, external, key, management, 
+summary: 외부 키 관리의 경우 두 엔터티가 서로 신뢰할 수 있도록 스토리지 배열과 키 관리 서버 간에 인증을 위해 두 가지 유형의 인증서를 가져옵니다. 
+---
+= 외부 키 관리를 위해 System Manager에 업로드해야 하는 인증서를 어떻게 알 수 있습니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+외부 키 관리의 경우 두 엔터티가 서로 신뢰할 수 있도록 스토리지 배열과 키 관리 서버 간에 인증을 위해 두 가지 유형의 인증서를 가져옵니다.
+
+클라이언트 인증서는 스토리지 어레이 컨트롤러의 유효성을 검사하므로 키 관리 서버가 KMIP(Key Management Interoperability Protocol) 요청을 신뢰할 수 있습니다. 클라이언트 인증서를 얻으려면 System Manager를 사용하여 스토리지 배열에 대한 CSR을 완료합니다. 그런 다음 CSR을 키 관리 서버에 업로드하고 여기서 클라이언트 인증서를 생성할 수 있습니다. 클라이언트 인증서가 있으면 해당 파일을 System Manager에 액세스할 호스트에 복사합니다.
+
+키 관리 서버 인증서는 키 관리 서버의 유효성을 검사하므로 스토리지 배열이 해당 IP 주소를 신뢰할 수 있습니다. 키 관리 서버에서 서버 인증서 파일을 가져온 다음 System Manager에 액세스하는 호스트로 해당 파일을 복사합니다.

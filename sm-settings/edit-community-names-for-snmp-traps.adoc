@@ -1,0 +1,29 @@
+---
+permalink: sm-settings/edit-community-names-for-snmp-traps.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, edit, communities, smpv2c, traps, 
+summary: SNMPv2c 트랩에 대한 커뮤니티 이름을 편집할 수 있습니다. 
+---
+= SNMPv2c 트랩에 대한 커뮤니티를 편집합니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SNMPv2c 트랩에 대한 커뮤니티 이름을 편집할 수 있습니다.
+
+커뮤니티 이름을 만들어야 합니다.
+
+.단계
+. 메뉴: [Alerts](경고) 설정 을 선택합니다.
+. SNMP * 탭을 선택합니다.
++
+트랩 대상 및 커뮤니티 이름이 테이블에 나타납니다.
+
+. 커뮤니티 구성 * 을 선택합니다.
+. 새 커뮤니티 이름을 입력한 다음 * 저장 * 을 클릭합니다. 커뮤니티 이름은 인쇄 가능한 ASCII 문자만 포함할 수 있습니다.
+
+
+Alerts 페이지의 SNMP 탭에 업데이트된 커뮤니티 이름이 표시됩니다.

@@ -1,0 +1,21 @@
+---
+permalink: sm-storage/what-does-the-mib-s-graph-show.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, mibs, graph, 
+summary: MiB/s 그래프는 전송 속도 통계를 초당 메비바이트 단위로 표시합니다. 홈 페이지에서 이 그래프는 스토리지 배열에 대한 통계를 표시합니다. Logical View, Physical View, Applications & 워크로드 성능 타일의 보기 탭에서 이 그래프는 스토리지, 볼륨, 볼륨 그룹, 풀, 애플리케이션에 대한 통계를 표시합니다. 보장합니다. 
+---
+= MiB/s 그래프는 무엇을 표시합니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+MiB/s 그래프는 전송 속도 통계를 초당 메비바이트 단위로 표시합니다. 홈 페이지에서 이 그래프는 스토리지 배열에 대한 통계를 표시합니다. Logical View, Physical View, Applications & 워크로드 성능 타일의 보기 탭에서 이 그래프는 스토리지, 볼륨, 볼륨 그룹, 풀, 애플리케이션에 대한 통계를 표시합니다. 보장합니다.
+
+MIB/s는 초당 _mebytes_ 또는 1,048,576바이트의 약어입니다. 그래프의 한 지점 위로 커서를 가져가면 해당 시점에 대한 다음 값을 볼 수 있습니다.
+
+* 읽은 데이터의 양
+* 기록된 데이터의 양
+* 읽고 쓴 데이터의 총 양입니다.
+

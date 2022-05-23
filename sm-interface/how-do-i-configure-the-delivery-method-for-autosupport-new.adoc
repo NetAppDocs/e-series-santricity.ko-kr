@@ -1,0 +1,17 @@
+---
+permalink: sm-interface/how-do-i-configure-the-delivery-method-for-autosupport-new.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, AutoSupport, ASUP 
+summary: AutoSupport 제공 방법에 대한 구성 작업에 액세스하려면 지원 > 지원 센터 로 이동한 다음 AutoSupport 탭을 클릭합니다. 
+---
+= AutoSupport에 대한 전달 방법을 구성하려면 어떻게 합니까?
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+AutoSupport 제공 방법에 대한 구성 작업에 액세스하려면 지원 [지원 센터] 메뉴로 이동한 다음 * AutoSupport * 탭을 클릭합니다.
+
+HTTPS, HTTP 및 SMTP 프로토콜이 지원됩니다.

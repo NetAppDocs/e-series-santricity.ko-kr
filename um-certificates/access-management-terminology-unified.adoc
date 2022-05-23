@@ -1,0 +1,75 @@
+---
+permalink: um-certificates/access-management-terminology-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, access management, terminology 
+summary: 액세스 관리 용어가 SANtricity Unified Manager에 어떻게 적용되는지 알아보십시오. 
+---
+= Access Management(액세스 관리) 용어
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager에 액세스 관리 용어가 어떻게 적용되는지 알아보십시오.
+
+[cols="25h,~"]
+|===
+| 기간 | 설명 
+
+
+ a| 
+Active Directory를 클릭합니다
+ a| 
+AD(Active Directory)는 Windows 도메인 네트워크에 LDAP를 사용하는 Microsoft 디렉터리 서비스입니다.
+
+
+
+ a| 
+바인딩
+ a| 
+바인딩 작업은 클라이언트를 디렉토리 서버에 인증하는 데 사용됩니다. 일반적으로 바인딩에는 계정 및 암호 자격 증명이 필요하지만 일부 서버에서는 익명 바인딩 작업을 허용합니다.
+
+
+
+ a| 
+CA
+ a| 
+CA(인증 기관)는 인터넷 보안을 위해 디지털 인증서라는 전자 문서를 발급하는 신뢰할 수 있는 엔터티입니다. 이러한 인증서는 클라이언트와 서버 간의 보안 연결을 허용하는 웹사이트 소유자를 식별합니다.
+
+
+
+ a| 
+인증서
+ a| 
+인증서는 보안 목적으로 사이트의 소유자를 식별하므로 공격자가 사이트를 가장할 수 없습니다. 인증서에는 사이트 소유자에 대한 정보와 이 정보를 인증(서명)한 신뢰할 수 있는 엔터티의 ID가 포함되어 있습니다.
+
+
+
+ a| 
+LDAP를 지원합니다
+ a| 
+LDAP(Lightweight Directory Access Protocol)는 분산 디렉터리 정보 서비스에 액세스하고 유지 관리하기 위한 애플리케이션 프로토콜입니다. 이 프로토콜을 사용하면 다양한 응용 프로그램 및 서비스를 LDAP 서버에 연결하여 사용자의 유효성을 검사할 수 있습니다.
+
+
+
+ a| 
+RBAC
+ a| 
+역할 기반 액세스 제어(RBAC)는 개별 사용자의 역할에 따라 컴퓨터 또는 네트워크 리소스에 대한 액세스를 제어하는 방법입니다. Unified Manager에는 사전 정의된 역할이 포함되어 있습니다.
+
+
+
+ a| 
+SSO
+ a| 
+SSO(Single Sign-On)는 하나의 로그인 자격 증명 세트로 여러 응용 프로그램에 액세스할 수 있는 인증 서비스입니다.
+
+
+
+ a| 
+웹 서비스 프록시
+ a| 
+표준 HTTPS 메커니즘을 통해 액세스를 제공하는 웹 서비스 프록시를 사용하면 관리자가 스토리지 시스템에 대한 관리 서비스를 구성할 수 있습니다. 프록시는 Windows 또는 Linux 호스트에 설치할 수 있습니다. Unified Manager 인터페이스는 웹 서비스 프록시에서 사용할 수 있습니다.
+
+|===

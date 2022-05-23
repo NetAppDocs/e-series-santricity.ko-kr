@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/what-is-reserved-capacity.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, reserved, capacity 
+summary: 예약된 용량은 스냅샷 이미지, 정합성 보장 그룹 구성원 볼륨 및 미러링된 쌍 볼륨과 같은 복제 서비스 개체에 대한 데이터를 저장하는 물리적으로 할당된 용량입니다. 
+---
+= 예약 용량이란?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+예약된 용량은 스냅샷 이미지, 정합성 보장 그룹 구성원 볼륨 및 미러링된 쌍 볼륨과 같은 복제 서비스 개체에 대한 데이터를 저장하는 물리적으로 할당된 용량입니다.
+
+복제 서비스 작업과 연결된 예약된 용량 볼륨은 풀 또는 볼륨 그룹에 상주합니다. 풀 또는 볼륨 그룹에서 예약된 용량을 생성합니다.

@@ -1,0 +1,14 @@
+---
+permalink: sm-storage/what-is-security-capable-drive-security.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, secure-capable, drive, security 
+summary: '드라이브 보안은 스토리지 어레이에서 제거할 때 보안이 설정된 드라이브의 데이터에 대한 무단 액세스를 방지하는 기능입니다. 이러한 드라이브는 FDE(전체 디스크 암호화) 드라이브 또는 FIPS(Federal Information Processing Standard) 드라이브일 수 있습니다.' 
+---
+= 보안 기능(드라이브 보안)이란 무엇입니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+드라이브 보안은 스토리지 어레이에서 제거할 때 보안이 설정된 드라이브의 데이터에 대한 무단 액세스를 방지하는 기능입니다. 이러한 드라이브는 FDE(전체 디스크 암호화) 드라이브 또는 FIPS(Federal Information Processing Standard) 드라이브일 수 있습니다.

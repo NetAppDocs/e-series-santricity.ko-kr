@@ -1,0 +1,41 @@
+---
+permalink: sm-settings/manage-session-timeouts-sam.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, manage, session, timeouts, 
+summary: SANtricity 시스템 관리자에서 시간 초과를 구성하여 지정된 시간 후에 비활성 세션의 연결이 끊길 수 있습니다. 
+---
+= 세션 시간 제한을 관리합니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager에서 시간 제한을 구성하여 지정된 시간 이후에 비활성 세션의 연결을 끊을 수 있습니다.
+
+기본적으로 System Manager의 세션 제한 시간은 30분입니다. 이 시간을 조정하거나 세션 시간 초과를 모두 비활성화할 수 있습니다.
+
+[NOTE]
+====
+스토리지에 포함된 SAML(Security Assertion Markup Language) 기능을 사용하여 액세스 관리를 구성하는 경우 사용자의 SSO 세션이 최대 제한에 도달하면 세션 시간 초과가 발생할 수 있습니다. 이 문제는 System Manager 세션 시간이 초과되기 전에 발생할 수 있습니다.
+
+====
+.단계
+. 설정 [시스템] 메뉴를 선택합니다.
+. 일반 섹션에서 * 세션 제한 시간 활성화/비활성화 * 를 선택합니다.
++
+Enable/Disable Session Timeout(세션 시간 제한 활성화/비활성화) 대화 상자가 열립니다.
+
+. 스피너 컨트롤을 사용하여 시간을 분 단위로 늘리거나 줄입니다.
++
+System Manager에 대해 설정할 수 있는 최소 시간 초과는 15분입니다.
+
++
+[NOTE]
+====
+세션 시간 초과를 비활성화하려면 * Set the length of time... * 확인란을 선택 취소합니다.
+
+====
+. 저장 * 을 클릭합니다.
+

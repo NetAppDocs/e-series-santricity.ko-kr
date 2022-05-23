@@ -1,0 +1,61 @@
+---
+permalink: sm-interface/what-are-the-supported-browsers.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, browser support 
+summary: System Manager는 이러한 브라우저 버전을 지원합니다. 
+---
+= 지원되는 브라우저는 무엇입니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager는 이러한 브라우저 버전을 지원합니다.
+
+[cols="1a,1a"]
+|===
+| 브라우저 | 최소 버전 
+
+
+ a| 
+Google Chrome
+ a| 
+79
+
+
+
+ a| 
+Mozilla Firefox
+ a| 
+70
+
+
+
+ a| 
+사파리
+ a| 
+12
+
+
+
+ a| 
+Microsoft Edge를 참조하십시오
+ a| 
+79
+
+
+
+ a| 
+Microsoft Edge Legacy
+ a| 
+18
+
+
+
+ a| 
+Microsoft Internet Explorer(MSIE)
+ a| 
+11
+
+|===

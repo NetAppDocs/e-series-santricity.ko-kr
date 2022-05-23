@@ -1,0 +1,18 @@
+---
+permalink: sm-interface/where-can-i-find-more-information-about-display-preferences.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, display preferences 
+summary: 다음 도움말 항목에서 사용 가능한 표시 옵션에 대한 정보를 찾을 수 있습니다. 
+---
+= 디스플레이 기본 설정에 대한 자세한 정보는 어디에서 찾을 수 있습니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+사용 가능한 표시 옵션에 대한 정보를 찾으려면
+
+* 용량 값을 표시하는 기본 단위에 대한 자세한 내용은 을 참조하십시오 link:set-default-units-for-capacity-values.html["용량 값의 기본 단위를 설정합니다"].
+* 성능 그래프 표시를 위한 기본 기간에 대한 자세한 내용은 을 참조하십시오 link:set-default-time-frame-for-performance-graphs.html["성능 그래프의 기본 기간을 설정합니다"].
+

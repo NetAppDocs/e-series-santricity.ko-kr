@@ -1,0 +1,16 @@
+---
+permalink: sm-hardware/why-do-i-need-to-change-the-controller-network-configuration.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, controller, network, configuration, gateway, 
+summary: '대역외 관리를 사용하는 경우 각 컨트롤러의 IP(인터넷 프로토콜) 주소, 서브네트워크 마스크(서브넷 마스크) 및 게이트웨이 등의 네트워크 구성을 설정해야 합니다.' 
+---
+= 컨트롤러 네트워크 구성을 변경해야 하는 이유는 무엇입니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+대역외 관리를 사용하는 경우 각 컨트롤러의 네트워크 구성(IP(인터넷 프로토콜) 주소, 서브네트워크 마스크(서브넷 마스크) 및 게이트웨이)을 설정해야 합니다.
+
+DHCP(Dynamic Host Configuration Protocol) 서버를 사용하여 네트워크 구성을 설정할 수 있습니다. DHCP 서버를 사용하지 않는 경우 네트워크 구성을 수동으로 입력해야 합니다.

@@ -1,0 +1,16 @@
+---
+permalink: sm-support/which-data-am-i-collecting-in-a-customer-support-bundle.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, data, collection, autosupport, ASUP 
+summary: AutoSupport 기능 및 수동 지원 데이터 수집 기능은 고객 지원 번들에서 데이터를 수집하는 방법을 제공하여 기술 지원 팀의 원격 문제 해결 및 문제 분석을 지원합니다. 
+---
+= 어떤 데이터를 수집하고 있습니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+AutoSupport 기능 및 수동 지원 데이터 수집 기능은 고객 지원 번들에서 데이터를 수집하는 방법을 제공하여 기술 지원 팀의 원격 문제 해결 및 문제 분석을 지원합니다.
+
+고객 지원 번들은 스토리지 어레이에 대한 모든 유형의 정보를 압축된 단일 파일로 수집합니다. 수집되는 정보에는 물리적 구성, 논리적 구성, 버전 정보, 이벤트, 로그 파일, 성능 데이터입니다. 이 정보는 기술 지원 부서에서 스토리지 어레이 관련 문제를 해결하는 데 사용됩니다.

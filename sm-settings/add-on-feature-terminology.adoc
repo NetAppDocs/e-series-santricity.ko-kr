@@ -1,0 +1,47 @@
+---
+permalink: sm-settings/add-on-feature-terminology.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, add-on, feature, terms 
+summary: 애드온 기능 조건이 스토리지 어레이에 적용되는 방식에 대해 알아보십시오. 
+---
+= 애드온 기능 용어
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+애드온 기능 조건이 스토리지 어레이에 적용되는 방식에 대해 알아보십시오.
+
+[cols="25h,~"]
+|===
+| 기간 | 설명 
+
+
+ a| 
+기능 활성화 식별자
+ a| 
+Feature Enable Identifier는 특정 스토리지 배열을 식별하는 고유한 문자열입니다. 이 식별자는 프리미엄 기능을 사용할 때 특정 스토리지 어레이에만 연결되도록 합니다. 이 문자열은 시스템 페이지의 추가 기능 아래에 표시됩니다.
+
+
+
+ a| 
+피처 키 파일
+ a| 
+기능 키 파일은 프리미엄 기능 또는 기능 팩의 잠금 해제 및 활성화를 위해 제공되는 파일입니다.
+
+
+
+ a| 
+기능 팩
+ a| 
+기능 팩은 스토리지 배열 속성을 변경하는 번들(예: 프로토콜을 Fibre Channel에서 iSCSI로 변경)입니다. 기능 팩을 사용하려면 특수 키가 필요합니다.
+
+
+
+ a| 
+프리미엄 기능
+ a| 
+프리미엄 기능은 추가 옵션으로, 이를 활성화하려면 키가 필요합니다. System Manager의 표준 구성에는 포함되어 있지 않습니다.
+
+|===

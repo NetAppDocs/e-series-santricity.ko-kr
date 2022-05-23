@@ -1,0 +1,21 @@
+---
+permalink: sm-support/view-autosupport-status.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, view, autosupport, status 
+summary: AutoSupport 페이지에는 AutoSupport 기능 및 개별 AutoSupport 기능이 현재 활성화되어 있는지 여부가 표시됩니다. 
+---
+= AutoSupport 상태를 봅니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+AutoSupport 페이지에는 AutoSupport 기능 및 개별 AutoSupport 기능이 현재 활성화되어 있는지 여부가 표시됩니다.
+
+.단계
+. 지원 [지원 센터 > AutoSupport] 탭을 선택합니다.
+. 탭 바로 아래의 페이지 오른쪽에서 기본 AutoSupport 기능이 활성화되어 있는지 확인합니다.
+. 커서를 물음표 위로 가져가면 개별 AutoSupport 기능이 활성화되었는지 확인할 수 있습니다.
+

@@ -1,0 +1,51 @@
+---
+permalink: sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-iser-over-infiniband.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, diagnose, iser, infiniBand, 
+summary: 다음 표에는 InfiniBand 세션을 통해 iSER을 구성 및 관리하는 데 사용할 수 있는 System Manager 기능이 나와 있습니다. 
+---
+= InfiniBand를 통해 iSER을 구성하거나 진단하려면 어떻게 해야 합니까?
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+다음 표에는 InfiniBand 세션을 통해 iSER을 구성 및 관리하는 데 사용할 수 있는 System Manager 기능이 나와 있습니다.
+
+[NOTE]
+====
+InfiniBand를 통한 iSER 설정은 스토리지 어레이의 컨트롤러에 InfiniBand 호스트 관리 포트를 통한 iSER이 포함된 경우에만 사용할 수 있습니다.
+
+====
+[cols="35h,~"]
+|===
+| 조치 | 위치 
+
+
+ a| 
+InfiniBand 포트를 통해 iSER 구성
+ a| 
+. 하드웨어 * 를 선택합니다.
+. Show back of shelf * 를 선택합니다.
+. 컨트롤러를 선택합니다.
+. InfiniBand 포트를 통해 iSER 구성 * 을 선택합니다.
+
+
+또는
+
+. 설정 [시스템] 메뉴를 선택합니다.
+. InfiniBand 설정을 통해 * iSER * 로 스크롤한 다음 * InfiniBand 포트를 통해 iSER 구성 * 을 선택합니다.
+
+
+
+
+ a| 
+InfiniBand 통계를 통해 iSER 보기
+ a| 
+. 설정 [시스템] 메뉴를 선택합니다.
+. InfiniBand 설정 * 을 통해 * iSER로 스크롤한 다음 * InfiniBand 통계 * 를 통해 iSER 보기 * 를 선택합니다.
+
+
+|===

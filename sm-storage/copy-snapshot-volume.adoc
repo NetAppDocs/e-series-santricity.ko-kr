@@ -1,0 +1,30 @@
+---
+permalink: sm-storage/copy-snapshot-volume.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, copy, snapshot, volume 
+summary: 스냅샷 볼륨 또는 스냅샷 정합성 보장 그룹 스냅샷 볼륨에서 볼륨 복제 프로세스를 수행할 수 있습니다. 
+---
+= 스냅샷 볼륨을 복사합니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스냅샷 볼륨 또는 스냅샷 정합성 보장 그룹 스냅샷 볼륨에서 볼륨 복제 프로세스를 수행할 수 있습니다.
+
+일반 볼륨 복사 작업에서 수행하는 것처럼 스냅샷 볼륨을 타겟 볼륨에 복사할 수 있습니다. 그러나 복제 볼륨 프로세스 중에는 스냅샷 볼륨을 온라인 상태로 유지할 수 없습니다.
+
+.단계
+. 스토리지 [스냅샷] 메뉴를 선택합니다.
+. Snapshot Volumes * 탭을 선택합니다.
++
+Snapshot Volumes 테이블이 나타나고 스토리지 어레이와 연결된 모든 스냅샷 볼륨이 표시됩니다.
+
+. 복사할 스냅샷 볼륨을 선택한 다음 * 볼륨 복사 * 를 선택합니다.
++
+Copy Volume(볼륨 복사) 대화 상자가 나타나고 대상을 선택하라는 메시지가 나타납니다.
+
+. 복사 대상으로 사용할 타겟 볼륨을 선택한 다음 * 마침 * 을 클릭합니다.
+

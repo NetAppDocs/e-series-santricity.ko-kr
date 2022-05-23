@@ -1,0 +1,43 @@
+---
+permalink: um-certificates/overview-access-management-um.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, access management, authentication 
+summary: 액세스 관리는 SANtricity Unified Manager에서 사용자 인증을 구성하는 방법입니다. 
+---
+= 액세스 관리 개요
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Access Management는 Unified Manager에서 사용자 인증을 구성하는 방법입니다.
+
+
+
+== 어떤 인증 방법을 사용할 수 있습니까?
+
+다음과 같은 인증 방법을 사용할 수 있습니다.
+
+* * 로컬 사용자 역할 * -- 인증은 RBAC(역할 기반 액세스 제어) 기능을 통해 관리됩니다. 로컬 사용자 역할에는 미리 정의된 사용자 프로필과 특정 액세스 권한이 있는 역할이 포함됩니다.
+* * 디렉터리 서비스 * -- 인증은 LDAP(Lightweight Directory Access Protocol) 서버 및 Microsoft의 Active Directory와 같은 디렉터리 서비스를 통해 관리됩니다.
+
+
+자세한 내용:
+
+* link:how-access-management-works-unified.html["액세스 관리 작동 방식"]
+* link:access-management-terminology-unified.html["Access Management(액세스 관리) 용어"]
+* link:permissions-for-mapped-roles-unified.html["매핑된 역할에 대한 권한"]
+
+
+
+
+== 액세스 관리를 구성하려면 어떻게 합니까?
+
+SANtricity 소프트웨어는 로컬 사용자 역할을 사용하도록 사전 구성되어 있습니다. LDAP를 사용하려면 액세스 관리 페이지에서 LDAP를 구성할 수 있습니다.
+
+자세한 내용:
+
+* link:access-management-with-local-user-roles-unified.html["로컬 사용자 역할을 사용하여 액세스 관리"]
+* link:access-management-with-directory-services-unified.html["디렉토리 서비스를 통한 액세스 관리"]
+

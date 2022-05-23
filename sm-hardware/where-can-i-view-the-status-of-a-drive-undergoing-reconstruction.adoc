@@ -1,0 +1,18 @@
+---
+permalink: sm-hardware/where-can-i-view-the-status-of-a-drive-undergoing-reconstruction.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, drive, reconstruction, 
+summary: Operations In Progress 대시보드에서 드라이브 재구성 상태를 볼 수 있습니다. 
+---
+= 재구성 중인 드라이브의 상태는 어디에서 확인할 수 있습니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Operations In Progress 대시보드에서 드라이브 재구성 상태를 볼 수 있습니다.
+
+홈 페이지에서 오른쪽 상단의 * View Operations in Progress * 링크를 클릭합니다.
+
+드라이브에 따라 전체 재구성에 상당한 시간이 걸릴 수 있습니다. 볼륨 소유권이 변경된 경우 신속한 재구성 대신 전체 재구성이 이루어질 수 있습니다.

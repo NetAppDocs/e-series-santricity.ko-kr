@@ -1,0 +1,14 @@
+---
+permalink: sm-settings/what-types-of-servers-will-revocation-checking-be-enabled-for.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, servers, revocation, checking, 
+summary: '스토리지 시스템은 AutoSupport 서버, EKMS(외부 키 관리 서버), LDAPS(Lightweight Directory Access Protocol over SSL) 서버 또는 Syslog 서버에 연결할 때마다 해지 확인을 수행합니다.' 
+---
+= 어떤 유형의 서버에 대해 해지 확인을 사용할 수 있습니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 시스템은 AutoSupport 서버, EKMS(외부 키 관리 서버), LDAPS(Lightweight Directory Access Protocol over SSL) 서버 또는 Syslog 서버에 연결할 때마다 해지 확인을 수행합니다.

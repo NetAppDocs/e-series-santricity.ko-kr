@@ -1,0 +1,16 @@
+---
+permalink: sm-support/what-is-a-health-image.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, health, images, controller, memory, processor 
+summary: 상태 이미지는 기술 지원 부서에서 컨트롤러 문제를 진단하는 데 사용할 수 있는 컨트롤러 프로세서 메모리의 원시 데이터 덤프입니다. 
+---
+= 건강 이미지란 무엇입니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+상태 이미지는 기술 지원 부서에서 컨트롤러 문제를 진단하는 데 사용할 수 있는 컨트롤러 프로세서 메모리의 원시 데이터 덤프입니다.
+
+펌웨어는 특정 오류를 감지하면 자동으로 상태 이미지를 생성합니다. 특정 문제 해결 시나리오에서 기술 지원 부서에서는 사용자가 상태 이미지 파일을 검색하여 해당 파일로 보내도록 요청할 수 있습니다.

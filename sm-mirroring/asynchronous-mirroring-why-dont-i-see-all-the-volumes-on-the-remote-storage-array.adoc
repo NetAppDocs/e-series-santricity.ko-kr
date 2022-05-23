@@ -1,0 +1,27 @@
+---
+permalink: sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, volumes, remote, storage, array, mirrored, pair, 
+summary: 원격 스토리지 어레이에서 보조 볼륨을 선택할 경우 목록에 해당 미러링된 쌍에 대해 적합한 볼륨이 모두 표시됩니다. 
+---
+= 비동기 미러링 - 원격 스토리지 배열의 모든 볼륨을 볼 수 없는 이유는 무엇입니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+원격 스토리지 어레이에서 보조 볼륨을 선택할 경우 목록에 해당 미러링된 쌍에 대해 적합한 볼륨이 모두 표시됩니다.
+
+사용할 수 없는 볼륨은 해당 목록에 표시되지 않습니다. 볼륨은 다음과 같은 이유로 적합하지 않을 수 있습니다.
+
+* 볼륨이 최적이 아닙니다.
+* 볼륨이 이미 미러링 관계에 있습니다.
+* 운영 볼륨과 2차 볼륨 사이의 씬 볼륨 속성이 일치하지 않습니다.
+* DA(Data Assurance)를 사용하는 경우 운영 볼륨과 보조 볼륨의 DA 설정이 동일해야 합니다.
++
+** 운영 볼륨이 DA를 사용하는 경우 보조 볼륨은 DA를 활성화해야 합니다.
+** 운영 볼륨이 DA를 사용하지 않는 경우 보조 볼륨을 DA로 설정하지 않아야 합니다.
+
+
+

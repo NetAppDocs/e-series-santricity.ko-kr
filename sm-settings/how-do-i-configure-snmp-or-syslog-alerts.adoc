@@ -1,0 +1,17 @@
+---
+permalink: sm-settings/how-do-i-configure-snmp-or-syslog-alerts.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, snmp, syslog, alerts, 
+summary: 'e-메일 알림 외에도 SNMP(Simple Network Management Protocol) 트랩 또는 syslog 메시지를 통해 보낼 알림을 구성할 수 있습니다.' 
+---
+= SNMP 또는 syslog 알림을 구성하려면 어떻게 합니까?
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+e-메일 알림 외에도 SNMP(Simple Network Management Protocol) 트랩 또는 syslog 메시지를 통해 보낼 알림을 구성할 수 있습니다.
+
+SNMP 또는 syslog 알림을 구성하려면 설정 [경고] 메뉴로 이동합니다.

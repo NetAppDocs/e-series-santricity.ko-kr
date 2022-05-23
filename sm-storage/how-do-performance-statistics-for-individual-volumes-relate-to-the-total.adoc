@@ -1,0 +1,18 @@
+---
+permalink: sm-storage/how-do-performance-statistics-for-individual-volumes-relate-to-the-total.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, performance, statistics, 
+summary: 풀 및 볼륨 그룹에 대한 통계는 예약된 용량 볼륨을 비롯한 모든 볼륨을 집계하여 계산합니다. 
+---
+= 개별 볼륨의 성능 통계가 총합과 어떤 관련이 있습니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+풀 및 볼륨 그룹에 대한 통계는 예약된 용량 볼륨을 비롯한 모든 볼륨을 집계하여 계산합니다.
+
+예약된 용량은 스토리지 시스템에서 씬 볼륨, 스냅샷 및 비동기 미러링을 지원하기 위해 내부적으로 사용되며 I/O 호스트에는 표시되지 않습니다. 따라서 풀, 컨트롤러 및 스토리지 어레이 통계가 볼 수 있는 볼륨의 합으로 합산되지 않을 수 있습니다.
+
+그러나 애플리케이션 및 워크로드 통계의 경우 표시되는 볼륨만 집계됩니다.

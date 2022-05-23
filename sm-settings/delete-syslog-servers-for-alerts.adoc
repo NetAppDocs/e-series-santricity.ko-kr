@@ -1,0 +1,27 @@
+---
+permalink: sm-settings/delete-syslog-servers-for-alerts.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, delete, syslog, servers, alerts, 
+summary: 더 이상 경고를 받지 않도록 syslog 서버를 삭제할 수 있습니다. 
+---
+= 경고를 위해 syslog 서버를 삭제합니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+더 이상 경고를 받지 않도록 syslog 서버를 삭제할 수 있습니다.
+
+.단계
+. 설정 [알림] 메뉴를 선택합니다.
+. Syslog * 탭을 선택합니다.
+. syslog 서버 주소를 선택한 다음 오른쪽 위에서 * 제거 * 를 클릭합니다.
++
+Confirm Delete Syslog Server(Syslog 서버 삭제 확인) 대화 상자가 열립니다.
+
+. 작업을 확인한 다음 * 삭제 * 를 클릭합니다.
+
+
+제거한 서버는 더 이상 이벤트 모니터로부터 경고를 받지 않습니다.

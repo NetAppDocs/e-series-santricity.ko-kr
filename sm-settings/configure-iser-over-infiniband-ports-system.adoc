@@ -1,0 +1,29 @@
+---
+permalink: sm-settings/configure-iser-over-infiniband-ports-system.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, iser, over, infiniband, ports, 
+summary: 컨트롤러에 InfiniBand 포트를 통한 iSER이 포함된 경우 호스트에 대한 네트워크 연결을 구성할 수 있습니다. 
+---
+= InfiniBand 포트를 통해 iSER 구성
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+컨트롤러에 InfiniBand 포트를 통한 iSER이 포함된 경우 호스트에 대한 네트워크 연결을 구성할 수 있습니다.
+
+.시작하기 전에
+* 컨트롤러에 InfiniBand 포트를 통한 iSER이 포함되어야 합니다. 그렇지 않으면 InfiniBand를 통한 iSER 설정을 System Manager에서 사용할 수 없습니다.
+* 호스트 연결의 IP 주소를 알아야 합니다.
+
+
+.단계
+. 설정 [시스템] 메뉴를 선택합니다.
+. iSER over InfiniBand settings * 에서 * Configure iSER over InfiniBand ports * 를 선택합니다.
+. 구성하려는 InfiniBand 포트를 통해 iSER이 있는 컨트롤러를 클릭합니다. 다음 * 을 클릭합니다.
+. 드롭다운 목록에서 구성할 HIC 포트를 선택한 다음 호스트의 IP 주소를 입력합니다.
+. 마침 * 을 클릭합니다.
+. iSER을 InfiniBand 포트로 재설정하려면 * 예 * 를 클릭합니다.
+

@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/what-is-the-disabled-state.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, disabled, state 
+summary: 사용 안 함 상태의 스냅샷 볼륨은 현재 스냅샷 이미지에 할당되어 있지 않습니다. 스냅샷 볼륨을 활성화하려면 다시 생성 작업을 사용하여 비활성화된 스냅샷 볼륨에 새 스냅샷 이미지를 할당해야 합니다. 
+---
+= 사용 안 함 상태란 무엇입니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+사용 안 함 상태의 스냅샷 볼륨은 현재 스냅샷 이미지에 할당되어 있지 않습니다. 스냅샷 볼륨을 활성화하려면 다시 생성 작업을 사용하여 비활성화된 스냅샷 볼륨에 새 스냅샷 이미지를 할당해야 합니다.
+
+스냅샷 볼륨 특성은 할당된 스냅샷 이미지에 의해 정의됩니다. 읽기-쓰기 작업은 비활성화 상태의 스냅샷 볼륨에서 일시 중단됩니다.

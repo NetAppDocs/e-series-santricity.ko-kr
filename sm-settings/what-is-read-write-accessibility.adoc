@@ -1,0 +1,17 @@
+---
+permalink: sm-settings/what-is-read-write-accessibility.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, read/write, accessibility, 
+summary: 드라이브 설정 창에는 드라이브 보안 속성에 대한 정보가 포함되어 있습니다. 읽기/쓰기 액세스 가능은 드라이브의 데이터가 잠겨 있는지 여부를 표시하는 속성 중 하나입니다. 
+---
+= 읽기/쓰기 접근성이란 무엇입니까?
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+드라이브 설정 창에는 드라이브 보안 속성에 대한 정보가 포함되어 있습니다. "읽기/쓰기 액세스 가능"은 드라이브의 데이터가 잠겨 있는지 여부를 표시하는 속성 중 하나입니다.
+
+드라이브 보안 속성을 보려면 하드웨어 페이지로 이동합니다. 드라이브를 선택하고 * 설정 보기 * 를 클릭한 다음 * 추가 설정 표시 * 를 클릭합니다. 드라이브의 잠금이 해제될 때 페이지 하단에서 읽기/쓰기 액세스 가능 속성 값은 * 예 * 입니다. 읽기/쓰기 액세스 가능 속성 값은 드라이브가 잠겨 있을 때 * 아니오, 유효하지 않은 보안 키 * 입니다. 보안 키를 가져와 보안 드라이브의 잠금을 해제할 수 있습니다(설정 [시스템 > 보안 드라이브 잠금 해제] 메뉴로 이동).

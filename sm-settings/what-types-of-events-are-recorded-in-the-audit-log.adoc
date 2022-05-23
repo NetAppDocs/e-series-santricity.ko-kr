@@ -1,0 +1,20 @@
+---
+permalink: sm-settings/what-types-of-events-are-recorded-in-the-audit-log.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, events, recorded, audit, log, 
+summary: 감사 로그는 수정 이벤트 또는 수정 이벤트와 읽기 전용 이벤트를 모두 기록할 수 있습니다. 
+---
+= 감사 로그에 기록되는 이벤트 유형은 무엇입니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+감사 로그는 수정 이벤트 또는 수정 이벤트와 읽기 전용 이벤트를 모두 기록할 수 있습니다.
+
+정책 설정에 따라 다음과 같은 유형의 이벤트가 표시됩니다.
+
+* * 수정 이벤트 * -- 시스템 변경(예: 스토리지 프로비저닝)이 포함된 System Manager 내 사용자 조치.
+* * 수정 및 읽기 전용 이벤트 * -- 볼륨 할당 보기와 같은 정보 보기 또는 다운로드와 관련된 이벤트뿐만 아니라 시스템에 대한 변경 사항을 포함하는 사용자 작업입니다.
+

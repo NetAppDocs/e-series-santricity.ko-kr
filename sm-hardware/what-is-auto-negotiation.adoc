@@ -1,0 +1,22 @@
+---
+permalink: sm-hardware/what-is-auto-negotiation.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, auto, negotiation, network, interface, 
+summary: '자동 협상은 네트워크 인터페이스가 다른 네트워크 인터페이스와 자체 연결 매개변수(속도 및 이중 모드)를 자동으로 조정하는 기능입니다.' 
+---
+= 자동 협상이란 무엇입니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+자동 협상은 네트워크 인터페이스가 다른 네트워크 인터페이스와 자체 연결 매개변수(속도 및 이중 모드)를 자동으로 조정하는 기능입니다.
+
+자동 협상은 일반적으로 관리 포트를 구성하는 데 선호되는 설정입니다. 그러나 협상에 실패하면 네트워크 인터페이스 설정이 일치하지 않으면 네트워크 성능에 심각한 영향을 미칠 수 있습니다. 이 상태가 허용되지 않는 경우 네트워크 인터페이스 설정을 올바른 구성으로 수동으로 설정해야 합니다. 자동 협상은 컨트롤러의 이더넷 관리 포트에 의해 수행됩니다. iSCSI 호스트 버스 어댑터가 자동 협상을 수행하지 않습니다.
+
+[NOTE]
+====
+자동 협상이 실패할 경우 컨트롤러는 최소 공통 분모인 10BASE-T 반이중 모드로 연결을 시도합니다.
+
+====

@@ -1,0 +1,24 @@
+---
+permalink: sm-settings/why-does-the-cannot-access-other-controller-dialog-appear.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, Cannot, Access, Other, Controller 
+summary: 인증서 가져오기 등의 CA 인증서와 관련된 특정 작업을 수행할 때 두 번째 컨트롤러에 대해 자체 서명된 인증서를 수락하라는 대화 상자가 나타날 수 있습니다. 
+---
+= 다른 컨트롤러에 액세스할 수 없음 대화 상자가 나타나는 이유는 무엇입니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+인증서 가져오기 등의 CA 인증서와 관련된 특정 작업을 수행할 때 두 번째 컨트롤러에 대해 자체 서명된 인증서를 수락하라는 대화 상자가 나타날 수 있습니다.
+
+두 개의 컨트롤러가 있는 스토리지 배열(이중 구성)에서 이 대화 상자는 SANtricity 시스템 관리자가 두 번째 컨트롤러와 통신할 수 없거나 브라우저가 특정 작업 중에 인증서를 수락할 수 없는 경우에 나타납니다.
+
+이 대화 상자가 열리면 * 자체 서명된 인증서 수락 * 을 클릭하여 계속 진행합니다. 암호를 묻는 다른 대화 상자가 나타나면 System Manager 액세스에 사용되는 관리자 암호를 입력합니다.
+
+이 대화 상자가 다시 나타나고 인증서 작업을 완료할 수 없는 경우 다음 절차 중 하나를 수행합니다.
+
+* 다른 브라우저 유형을 사용하여 이 컨트롤러에 액세스하고, 인증서를 수락하고, 계속합니다.
+* System Manager에서 두 번째 컨트롤러에 액세스하고, 자체 서명된 인증서를 수락한 다음 첫 번째 컨트롤러로 돌아가 계속합니다.
+

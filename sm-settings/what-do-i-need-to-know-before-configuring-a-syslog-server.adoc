@@ -1,0 +1,23 @@
+---
+permalink: sm-settings/what-do-i-need-to-know-before-configuring-a-syslog-server.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configuring, syslog, server, 
+summary: 외부 syslog 서버에 감사 로그를 보관할 수 있습니다. 
+---
+= syslog 서버를 구성하기 전에 알아야 할 내용은 무엇입니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+외부 syslog 서버에 감사 로그를 보관할 수 있습니다.
+
+syslog 서버를 구성하기 전에 다음 지침을 염두에 두십시오.
+
+* 서버 주소, 프로토콜 및 포트 번호를 알고 있어야 합니다. 서버 주소는 정규화된 도메인 이름, IPv4 주소 또는 IPv6 주소일 수 있습니다.
+* 서버에서 보안 프로토콜(예: TLS)을 사용하는 경우 로컬 시스템에서 인증 기관(CA) 인증서를 사용할 수 있어야 합니다. CA 인증서는 서버와 클라이언트 간의 보안 연결을 위해 웹 사이트 소유자를 식별합니다.
+* 구성 후 모든 새 감사 로그가 syslog 서버로 전송됩니다. 이전 로그는 전송되지 않습니다.
+* 덮어쓰기 정책 설정(* 보기/편집 설정 * 에서 사용 가능)은 syslog 서버 구성을 사용하여 로그를 관리하는 방법에 영향을 주지 않습니다.
+* 감사 로그는 RFC 5424 메시징 형식을 따릅니다.
+

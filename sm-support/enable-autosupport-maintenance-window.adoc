@@ -1,0 +1,34 @@
+---
+permalink: sm-support/enable-autosupport-maintenance-window.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, enable, autosupport, ASUP, maintenance window 
+summary: AutoSupport 유지 관리 창을 활성화하여 오류 이벤트 시 티켓 자동 생성을 억제합니다. 정상 작동 모드에서 스토리지 어레이는 AutoSupport를 사용하여 문제가 있는 경우 지원 케이스를 엽니다. 
+---
+= AutoSupport 유지 관리 창을 활성화합니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+AutoSupport 유지 관리 창을 활성화하여 오류 이벤트 시 티켓 자동 생성을 억제합니다. 정상 작동 모드에서 스토리지 어레이는 AutoSupport를 사용하여 문제가 있는 경우 지원 케이스를 엽니다.
+
+.단계
+. 지원 [지원 센터 > AutoSupport] 탭을 선택합니다.
+. AutoSupport 유지 관리 창 활성화 * 를 선택합니다.
+. 유지보수 윈도우 요청이 처리되었다는 확인 메시지를 받으려면 이메일 주소를 입력하십시오.
++
+구성에 따라 최대 5개의 이메일 주소를 입력할 수 있습니다. 둘 이상의 주소를 추가하려면 * 다른 이메일 추가 * 를 선택하여 다른 필드를 엽니다.
+
+. 유지 보수 창을 활성화할 기간(시간)을 지정합니다.
++
+최대 지원 시간은 72시간입니다.
+
+. 예 * 를 클릭합니다.
++
+오류 이벤트에 대한 AutoSupport 자동 티켓 생성이 지정된 기간 동안 일시적으로 억제됩니다.
+
+
+
+스토리지 어레이의 요청이 AutoSupport 서버에 의해 처리될 때까지 유지보수 윈도우가 시작되지 않습니다. 스토리지 시스템에서 유지 관리 작업을 수행하기 전에 확인 이메일을 받을 때까지 기다립니다.

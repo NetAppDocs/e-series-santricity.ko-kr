@@ -1,0 +1,46 @@
+---
+permalink: sm-mirroring/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, change, reserved, capacity, settings, mirrored, pair, volume, 
+summary: 미러링된 쌍 볼륨에 대한 설정을 변경하여 미러링된 쌍 볼륨의 예약된 용량이 거의 꽉 찰 때 System Manager에서 경고 알림을 보내는 백분율 지점을 조정할 수 있습니다. 
+---
+= 미러링된 페어 볼륨에 대한 예약된 용량 설정을 변경합니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+미러링된 쌍 볼륨에 대한 설정을 변경하여 미러링된 쌍 볼륨의 예약된 용량이 거의 꽉 찰 때 System Manager에서 경고 알림을 보내는 백분율 지점을 조정할 수 있습니다.
+
+.단계
+. 스토리지 [풀 및 볼륨 그룹] 메뉴를 선택합니다.
+. Reserved Capacity * 탭을 선택합니다.
+. 편집할 미러링된 쌍 볼륨을 선택한 다음 * 설정 보기/편집 * 을 클릭합니다.
++
+Mirrored Pair Volume Reserved Capacity Settings(미러링된 볼륨 예비 용량 설정) 대화 상자가 나타납니다.
+
+. 미러링된 페어 볼륨에 대한 예약된 용량 설정을 적절하게 변경합니다.
++
+.필드 상세정보
+====
+[cols="25h,~"]
+|===
+| 설정 | 설명 
+
+
+ a| 
+다음 경우에 알림:
+ a| 
+미러링 쌍의 예약된 용량이 거의 꽉 찼을 때 System Manager에서 경고 알림을 보내는 백분율 지점을 Spinner 상자를 사용하여 조정합니다.
+
+미러링된 쌍의 예약된 용량이 지정된 임계값을 초과하면 System Manager에서 경고를 보내, 예약된 용량을 늘릴 수 있도록 합니다.
+
+
+NOTE: 미러링된 한 쌍의 경고 설정을 변경하면 동일한 미러 정합성 보장 그룹에 속한 모든 미러링된 쌍에 대한 경고 설정이 변경됩니다.
+
+|===
+====
+. 변경 사항을 적용하려면 * 저장 * 을 클릭합니다.
+

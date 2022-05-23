@@ -1,0 +1,21 @@
+---
+permalink: sm-storage/what-does-the-iops-graph-show.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, iops, graph, show 
+summary: IOPS 그래프에는 초당 입출력 작업에 대한 통계가 표시됩니다. 홈 페이지에서 이 그래프는 스토리지 배열에 대한 통계를 표시합니다. Logical View, Physical View, Applications & 워크로드 성능 타일의 보기 탭에서 이 그래프는 스토리지, 볼륨, 볼륨 그룹, 풀, 애플리케이션에 대한 통계를 표시합니다. 보장합니다. 
+---
+= IOPS 그래프에 표시되는 것은 무엇입니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+IOPS 그래프에는 초당 입출력 작업에 대한 통계가 표시됩니다. 홈 페이지에서 이 그래프는 스토리지 배열에 대한 통계를 표시합니다. Logical View, Physical View, Applications & 워크로드 성능 타일의 보기 탭에서 이 그래프는 스토리지, 볼륨, 볼륨 그룹, 풀, 애플리케이션에 대한 통계를 표시합니다. 보장합니다.
+
+IOPS는 초당 _INPUT/OUTPUT(I/O) 작업의 약어입니다. 그래프의 한 지점 위로 커서를 가져가면 해당 시점에 대한 다음 값을 볼 수 있습니다.
+
+* 읽기 작업 수입니다.
+* 쓰기 작업 수입니다.
+* 총 읽기 및 쓰기 작업이 결합되었습니다.
+

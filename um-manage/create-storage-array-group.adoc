@@ -1,0 +1,43 @@
+---
+permalink: um-manage/create-storage-array-group.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, create, storage, array, group 
+summary: 스토리지 그룹을 생성한 다음 스토리지 시스템을 그룹에 추가합니다. 스토리지 그룹은 볼륨을 구성하는 스토리지를 제공하는 드라이브를 정의합니다. 
+---
+= 스토리지 어레이 그룹을 구성합니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 그룹을 생성한 다음 스토리지 시스템을 그룹에 추가합니다.
+
+그룹 구성은 2단계 절차입니다.
+
+
+
+== 1단계: 그룹 만들기
+
+먼저 그룹을 만듭니다. 스토리지 그룹은 볼륨을 구성하는 스토리지를 제공하는 드라이브를 정의합니다.
+
+.단계
+. 관리 페이지에서 메뉴 관리 그룹 [스토리지 그룹 생성]을 선택합니다.
+. 이름 * 필드에 새 그룹의 이름을 입력합니다.
+. 새 그룹에 추가할 스토리지 배열을 선택합니다.
+. Create * 를 클릭합니다.
+
+
+
+
+== 2단계: 스토리지 배열을 그룹에 추가합니다
+
+사용자가 생성한 그룹에 하나 이상의 스토리지 어레이를 추가할 수 있습니다.
+
+.단계
+. 기본 보기에서 * 관리 * 를 선택한 다음 스토리지 배열을 추가할 그룹을 선택합니다.
+. 메뉴: Manage Groups [Add storage arrays to group]를 선택합니다.
+. 그룹에 추가할 스토리지 배열을 선택합니다.
+. 추가 * 를 클릭합니다
+

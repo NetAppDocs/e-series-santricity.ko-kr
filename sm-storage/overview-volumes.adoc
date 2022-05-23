@@ -1,0 +1,55 @@
+---
+permalink: sm-storage/overview-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, volumes 
+summary: 애플리케이션, 데이터베이스 및 파일 시스템에서 데이터를 저장하는 컨테이너로 볼륨을 생성할 수 있습니다. 볼륨을 생성할 때 특정 애플리케이션의 스토리지 어레이 구성을 사용자 지정할 워크로드도 선택합니다. 
+---
+= 볼륨 및 워크로드 개요
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+애플리케이션, 데이터베이스 및 파일 시스템에서 데이터를 저장하는 컨테이너로 볼륨을 생성할 수 있습니다. 볼륨을 생성할 때 특정 애플리케이션의 스토리지 어레이 구성을 사용자 지정할 워크로드도 선택합니다.
+
+
+
+== 볼륨 및 워크로드란?
+
+a_volume_은 호스트가 액세스할 수 있도록 특정 용량으로 생성된 논리적 구성 요소입니다. 볼륨이 두 개 이상의 드라이브로 구성될 수 있지만 볼륨은 호스트에 하나의 논리적 구성 요소로 나타납니다. 볼륨이 정의되면 워크로드에 추가할 수 있습니다. 워크로드 _ 는 SQL Server 또는 Exchange와 같은 애플리케이션을 지원하는 스토리지 오브젝트로서, 이 스토리지 객체를 사용하여 해당 애플리케이션에 대한 스토리지를 최적화할 수 있습니다.
+
+자세한 내용:
+
+* link:how-volumes-work.html["볼륨 작동 방식"]
+* link:how-workloads-work.html["작업 부하 작동 방식"]
+* link:volume-terminology.html["볼륨 용어"]
+* link:capacity-for-volumes.html["볼륨에 용량을 할당하는 방법입니다"]
+* link:actions-you-can-perform-on-volumes.html["볼륨에 대해 수행할 수 있는 작업입니다"]
+
+
+
+
+== 볼륨 및 워크로드를 어떻게 생성합니까?
+
+먼저, 워크로드를 생성합니다. 메뉴: 스토리지 [볼륨] 으로 이동하여 단계를 안내하는 마법사를 엽니다. 그런 다음 풀 또는 볼륨 그룹에서 사용할 수 있는 용량으로 볼륨을 생성한 다음 생성한 워크로드를 할당합니다.
+
+자세한 내용:
+
+* link:workflow-for-creating-volumes.html["볼륨 생성을 위한 워크플로우"]
+* link:create-workloads.html["워크로드 생성"]
+* link:create-volumes.html["볼륨 생성"]
+* link:add-to-workload.html["워크로드에 볼륨 추가"]
+
+
+
+
+== 관련 정보
+
+볼륨과 관련된 개념에 대해 자세히 알아보기:
+
+* link:data-integrity-and-data-security-for-volumes.html["볼륨에 대한 데이터 무결성 및 데이터 보안"]
+* link:ssd-cache-and-volumes.html["SSD Cache 및 볼륨"]
+* link:thin-volume-monitoring.html["씬 볼륨 모니터링"]
+

@@ -1,0 +1,56 @@
+---
+permalink: sm-storage/overview-hosts.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, hosts 
+summary: 스토리지 시스템과 데이터 서버 간의 접속을 정의하는 호스트 및 호스트 클러스터를 구성할 수 있습니다. 
+---
+= 호스트 및 호스트 클러스터 개요
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 시스템과 데이터 서버 간의 접속을 정의하는 호스트 및 호스트 클러스터를 구성할 수 있습니다.
+
+
+
+== 호스트 및 호스트 클러스터란 무엇입니까?
+
+a_host_는 스토리지 배열의 볼륨에 입출력을 전송하는 서버입니다. host cluster_는 동일한 볼륨을 여러 호스트에 할당하기 위해 생성할 수 있는 호스트 그룹입니다.
+
+자세한 내용:
+
+* link:host-terminology.html["호스트 용어"]
+* link:access-volumes.html["볼륨에 액세스합니다"]
+* link:maximum-number-of-luns.html["최대 LUN 수입니다"]
+
+
+
+
+== 호스트 및 호스트 클러스터를 구성하려면 어떻게 합니까?
+
+호스트 접속을 정의하려면 HCA(Host Context Agent)가 호스트를 자동으로 감지하도록 허용하거나 스토리지 [호스트] 메뉴로 이동하여 호스트를 수동으로 구성할 수 있습니다. 두 개 이상의 호스트가 동일한 볼륨 세트에 대한 액세스를 공유하도록 하려면 클러스터를 정의하고 해당 클러스터에 볼륨을 할당할 수 있습니다.
+
+자세한 내용:
+
+* link:automatic-versus-manual-host-creation.html["자동 및 수동 호스트 생성"]
+* link:how-volumes-are-assigned-to-hosts-and-host-clusters.html["호스트 및 호스트 클러스터에 볼륨을 할당하는 방법"]
+* link:workflow-for-creating-hosts-and-assigning-volumes.html["호스트 생성 및 볼륨 할당을 위한 워크플로우"]
+* link:create-host-automatically.html["호스트를 자동으로 생성합니다"]
+* link:create-host-manually.html["호스트를 수동으로 생성합니다"]
+* link:create-host-cluster.html["호스트 클러스터를 생성합니다"]
+* link:assign-volumes.html["호스트에 볼륨을 할당합니다"]
+
+
+
+
+== 관련 정보
+
+호스트 관련 작업에 대해 자세히 알아보기:
+
+* link:../sm-settings/set-automatic-load-balancing.html["자동 로드 밸런싱을 설정합니다"]
+* link:../sm-settings/set-host-connectivity-reporting.html["호스트 연결 보고를 설정합니다"]
+* link:../sm-settings/change-default-host-type.html["기본 호스트 유형을 변경합니다"]
+

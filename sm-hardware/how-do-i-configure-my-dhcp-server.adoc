@@ -1,0 +1,18 @@
+---
+permalink: sm-hardware/how-do-i-configure-my-dhcp-server.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, dhcp, server, static, internet, protocol, 
+summary: '스토리지 배열의 컨트롤러에 대해 고정 IP(인터넷 프로토콜) 주소를 사용하려면 DHCP(동적 호스트 구성 프로토콜) 서버를 구성해야 합니다.' 
+---
+= DHCP 서버를 어떻게 구성합니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 배열의 컨트롤러에 대해 고정 IP(인터넷 프로토콜) 주소를 사용하려면 DHCP(동적 호스트 구성 프로토콜) 서버를 구성해야 합니다.
+
+DHCP 서버가 할당하는 IP 주소는 일반적으로 동적이며 임대 기간이 만료되므로 변경할 수 있습니다. 서버 및 라우터와 같은 일부 장치는 정적 주소를 사용해야 합니다. 스토리지 어레이의 컨트롤러에도 고정 IP 주소가 필요합니다.
+
+정적 주소를 할당하는 방법에 대한 자세한 내용은 DHCP 서버 설명서를 참조하십시오.

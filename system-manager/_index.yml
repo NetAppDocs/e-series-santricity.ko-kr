@@ -1,0 +1,63 @@
+---
+indexpage:
+  tiles:
+  - title: 배열을 설정합니다
+    links:
+    - title: 초기 설정
+      url: "../sm-interface/setup-wizard-overview.html"
+    - title: 관리자 암호입니다
+      url: "../sm-interface/administrator-password-protection.html"
+    - title: 경고
+      url: "../sm-settings/how-alerts-work.html"
+    - title: AutoSupport
+      url: "../sm-support/autosupport-feature-overview.html"
+  - title: 스토리지 생성
+    links:
+    - title: 풀
+      url: "../sm-storage/create-pool-manually.html"
+    - title: 볼륨 그룹
+      url: "../sm-storage/create-volume-group.html"
+    - title: SSD 캐시
+      url: "../sm-storage/create-ssd-cache.html"
+    - title: 볼륨
+      url: "../sm-storage/create-volumes.html"
+  - title: 하드웨어 관리
+    links:
+    - title: 쉘프
+      url: "../sm-hardware/hardware-page-overview.html"
+    - title: 컨트롤러
+      url: "../sm-hardware/controller-states.html"
+    - title: 드라이브
+      url: "../sm-hardware/drive-states.html"
+    - title: 인증서
+      url: "../sm-settings/how-certificates-work-sam.html"
+  - title: 미러링, 스냅샷, 원격 스토리지
+    links:
+    - title: 비동기 미러링
+      url: "../sm-mirroring/how-asynchronous-mirroring-works.html"
+    - title: 미러링 동기화
+      url: "../sm-mirroring/how-synchronous-mirroring-works.html"
+    - title: 스냅샷 스토리지
+      url: "../sm-storage/overview-of-snapshot-storage.html"
+    - title: 원격 스토리지
+      url: "../sm-storage/rtv-how-remote-storage-works.html"
+  - title: 진단
+    links:
+    - title: 지원 데이터를 수집합니다
+      url: "../sm-support/collect-support-data-manually.html"
+    - title: 업그레이드 오류를 검토합니다
+      url: "../sm-support/review-the-possible-software-and-firmware-upgrade-errors.html"
+    - title: 문제 알림
+      url: "../sm-interface/problem-notification.html"
+    - title: 작업이 진행 중입니다
+      url: "../sm-interface/view-and-act-on-operations-in-progress.html"
+  - title: 복구 및 이벤트
+    links:
+    - title: Unredable sectors(교정 불가능한 섹터) 로그
+      url: "../sm-support/view-unreadable-sectors-log.html"
+    - title: Recovery Guru를 클릭합니다
+      url: "../sm-interface/recover-from-problems-using-recovery-guru.html"
+    - title: 이벤트 로그
+      url: "../sm-support/overview-event-log.html"
+    - title: 복구 지원 파일
+      url: "../sm-support/retrieve-recovery-support-files.html"

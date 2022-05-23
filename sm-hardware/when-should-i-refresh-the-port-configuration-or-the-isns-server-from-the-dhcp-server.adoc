@@ -1,0 +1,22 @@
+---
+permalink: sm-hardware/when-should-i-refresh-the-port-configuration-or-the-isns-server-from-the-dhcp-server.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, port, configuration, isns, server, dhcp, server, 
+summary: 서버를 수정하거나 업그레이드할 때마다 DHCP 서버를 새로 고치고, 현재 스토리지 어레이와 사용할 스토리지 배열에 관련된 DHCP 정보가 변경되었습니다. 
+---
+= DHCP 서버에서 포트 구성 또는 iSNS 서버를 언제 새로 고쳐야 합니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+서버를 수정하거나 업그레이드할 때마다 DHCP 서버를 새로 고치고, 현재 스토리지 어레이와 사용할 스토리지 배열에 관련된 DHCP 정보가 변경되었습니다.
+
+특히 DHCP 서버가 다른 주소를 할당할 것이라는 사실을 알고 있을 때 DHCP 서버에서 포트 구성 또는 iSNS 서버를 새로 고칩니다.
+
+[NOTE]
+====
+포트 구성을 새로 고치면 해당 포트의 모든 iSCSI 연결이 손상될 수 있습니다.
+
+====

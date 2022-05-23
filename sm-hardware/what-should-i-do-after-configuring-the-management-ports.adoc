@@ -1,0 +1,19 @@
+---
+permalink: sm-hardware/what-should-i-do-after-configuring-the-management-ports.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, management, ports, 
+summary: 스토리지 어레이의 IP 주소를 변경한 경우 SANtricity Unified Manager에서 글로벌 어레이 보기를 업데이트할 수 있습니다. 
+---
+= 관리 포트를 구성한 후에는 어떻게 해야 합니까?
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 어레이의 IP 주소를 변경한 경우 Unified Manager에서 글로벌 어레이 보기를 업데이트할 수 있습니다.
+
+Unified Manager에서 글로벌 어레이 보기를 업데이트하려면 인터페이스를 열고 관리 [검색] 메뉴로 이동합니다.
+
+SANtricity 저장소 관리자를 계속 사용하는 경우 EMW(엔터프라이즈 관리 창)로 이동하여 새 IP 주소를 제거하고 다시 추가해야 합니다.

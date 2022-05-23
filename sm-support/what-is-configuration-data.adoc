@@ -1,0 +1,16 @@
+---
+permalink: sm-support/what-is-configuration-data.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configuration, data, collect, database 
+summary: 구성 데이터 수집 을 선택하면 시스템이 RAID 구성 데이터베이스의 현재 상태를 저장합니다. 
+---
+= 구성 데이터란 무엇입니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+구성 데이터 수집 을 선택하면 시스템이 RAID 구성 데이터베이스의 현재 상태를 저장합니다.
+
+RAID 구성 데이터베이스에는 컨트롤러의 볼륨 그룹 및 디스크 풀에 대한 모든 데이터가 포함됩니다. 구성 데이터 수집 기능은 'Save storageArray dbmDatabase'에 대한 CLI 명령과 동일한 정보를 저장합니다.

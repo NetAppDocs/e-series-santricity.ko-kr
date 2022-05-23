@@ -1,0 +1,36 @@
+---
+permalink: um-certificates/import-array-certificates-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, import, certificates, arrays 
+summary: '필요한 경우 스토리지 시스템에 대한 인증서를 가져와 SANtricity Unified Manager를 호스팅하는 시스템에서 인증할 수 있습니다. 인증서는 CA(인증 기관)에서 서명할 수도 있고 자체 서명할 수도 있습니다.' 
+---
+= 스토리지에 대한 인증서를 가져옵니다
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+필요한 경우 Unified Manager를 호스팅하는 시스템에서 인증할 수 있도록 스토리지 어레이에 대한 인증서를 가져올 수 있습니다. 인증서는 CA(인증 기관)에서 서명할 수도 있고 자체 서명할 수도 있습니다.
+
+.시작하기 전에
+* 보안 관리자 권한이 포함된 사용자 프로필로 로그인해야 합니다. 그렇지 않으면 인증서 기능이 나타나지 않습니다.
+* 신뢰할 수 있는 인증서를 가져오는 경우 System Manager를 사용하여 스토리지 배열 컨트롤러에 대한 인증서를 가져와야 합니다.
+
+
+.단계
+. 인증서 관리 * 를 선택합니다.
+. 신뢰할 수 있는 * 탭을 선택합니다.
++
+이 페이지에는 스토리지 배열에 대해 보고된 모든 인증서가 표시됩니다.
+
+. [인증서] 가져오기 메뉴를 선택하여 CA 인증서를 가져오거나 메뉴: 자체 서명된 [스토리지 배열 인증서] 가져오기 를 선택하여 자체 서명된 인증서를 가져옵니다.
++
+보기를 제한하려면 * Show certificates that are... * filtering 필드를 사용하거나 열 머리글 중 하나를 클릭하여 인증서 행을 정렬할 수 있습니다.
+
+. 대화 상자에서 인증서를 선택한 다음 * 가져오기 * 를 클릭합니다.
++
+인증서가 업로드 및 검증됩니다.
+
+

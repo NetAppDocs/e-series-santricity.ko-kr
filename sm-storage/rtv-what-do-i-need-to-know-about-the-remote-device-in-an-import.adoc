@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/rtv-what-do-i-need-to-know-about-the-remote-device-in-an-import.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, remote, volume, import 
+summary: 원격 스토리지 기능을 사용할 때는 원격 볼륨이 데이터를 가져온 소스라는 점에 유의해야 합니다. 
+---
+= 가져오기 시 원격 볼륨에 대해 알아야 할 사항은 무엇입니까?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+원격 스토리지 기능을 사용할 때는 원격 볼륨이 데이터를 가져온 소스라는 점에 유의해야 합니다.
+
+가져오기가 진행 중이면 데이터가 원격 볼륨에서 대상 스토리지 시스템의 타겟 볼륨으로 전송됩니다. 이러한 두 볼륨의 블록 크기가 일치해야 합니다.
