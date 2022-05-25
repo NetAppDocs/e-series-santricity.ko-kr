@@ -38,7 +38,7 @@ indexpage:
     - title: 미러링 동기화
       url: "../sm-mirroring/how-synchronous-mirroring-works.html"
     - title: 스냅샷 스토리지
-      url: "../sm-storage/overview-of-snapshot-storage.html"
+      url: "../sm-storage/overview-snapshots.html"
     - title: 원격 스토리지
       url: "../sm-storage/rtv-how-remote-storage-works.html"
   - title: 진단
