@@ -15,6 +15,6 @@ summary: 원격 스토리지 기능을 구성하려면 iSCSI를 통해 원격 �
 
 iSCSI 시스템 연결을 설정하려면 다음을 참조하십시오.
 
-* link:..sm-hardware/configure-iscsi-ports-hardware.html["iSCSI 포트를 구성합니다"]
+* link:../sm-hardware/configure-iscsi-ports-hardware.html["iSCSI 포트를 구성합니다"]
 * https://www.netapp.com/pdf.html?item=/media/28697-tr-4893-deploy.pdf["원격 스토리지 기술 보고서"^]
 
