@@ -1663,7 +1663,6 @@
   <block id="86d75390633f35f6cb8100c3e237b1a2" category="summary">원격 스토리지 기능을 구성하려면 iSCSI를 통해 원격 디바이스 및 타겟 스토리지 시스템을 직접 연결해야 합니다.</block>
   <block id="ff9116c8f7aa25817035844a4f4785a1" category="doc">원격 스토리지 접속을 생성하기 전에 알아야 할 사항은 무엇입니까?</block>
   <block id="d47e87c00140a7992b8877b00c503146" category="paragraph">iSCSI 시스템 연결을 설정하려면 다음을 참조하십시오.</block>
-  <block id="0c5144319c2d9bb548cf896ded39fe14" category="list-text"><block ref="0c5144319c2d9bb548cf896ded39fe14" category="inline-link-macro-rx"></block></block>
   <block id="5ca67d50838667a4d9f9ad84149f9573" category="inline-link">원격 스토리지 기술 보고서</block>
   <block id="0e412061ac5ad8c98891f85513ca69f8" category="list-text"><block ref="0e412061ac5ad8c98891f85513ca69f8" category="inline-link-rx"></block></block>
   <block id="bf14dd0280604e6a034b2010188b827d" category="summary">스냅샷을 생성 및 사용할 때는 다음 요구 사항 및 지침을 검토하십시오.</block>
@@ -8624,4 +8623,5 @@
   <block id="bc864bcc140c5518082e93d37b396baf" category="sidebar">관리 호스트 인증서를 사용합니다</block>
   <block id="0e695c0c9242624f235546e43dde2e16" category="sidebar">스토리지 인증서를 사용합니다</block>
   <block id="951d3fc54a28f9f46798897467d96a5b" category="sidebar">인증서를 관리합니다</block>
+  <block id="c62c395ffcd8aa3e5d38fe7155d2f510" category="sidebar">SANtricity 소프트웨어</block>
 </blocks>
