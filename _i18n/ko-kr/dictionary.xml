@@ -7323,7 +7323,6 @@
   <block id="6ba3fbf7a6558dc81522aedb59e1d590" category="paragraph">_Synchronous 미러링_ 데이터 볼륨을 실시간으로 복제하여 지속적인 가용성을 보장합니다. 스토리지 어레이 컨트롤러는 미러링 작업을 관리하는데, 이 작업은 호스트 시스템과 소프트웨어 애플리케이션에 영향을 미치지 않습니다.</block>
   <block id="beb80eb40ddf731a8581da9d26fa3fbb" category="paragraph">이러한 유형의 미러링은 재해 복구와 같은 비즈니스 연속성 목적으로 이상적입니다.</block>
   <block id="056f32c2f708736098c46799ad3bd5e2" category="inline-link-macro">동기 미러링의 작동 방식</block>
-  <block id="3f87a6fb2bf2e7a865732ffe4b1863ae" category="list-text"><block ref="3f87a6fb2bf2e7a865732ffe4b1863ae" category="inline-link-macro-rx"></block></block>
   <block id="d1df34d340a8d718208af99317ded277" category="list-text"><block ref="d1df34d340a8d718208af99317ded277" category="inline-link-macro-rx"></block></block>
   <block id="91bd7ce763dd044694ea61889c5d7028" category="inline-link-macro">동기 미러링 상태</block>
   <block id="7ceac40f87530ca4b68fb592e3bf164a" category="list-text"><block ref="7ceac40f87530ca4b68fb592e3bf164a" category="inline-link-macro-rx"></block></block>
@@ -8624,4 +8623,5 @@
   <block id="0e695c0c9242624f235546e43dde2e16" category="sidebar">스토리지 인증서를 사용합니다</block>
   <block id="951d3fc54a28f9f46798897467d96a5b" category="sidebar">인증서를 관리합니다</block>
   <block id="c62c395ffcd8aa3e5d38fe7155d2f510" category="sidebar">SANtricity 소프트웨어</block>
+  <block id="38bc026807a6898c592650e1d72a5852" category="list-text"><block ref="38bc026807a6898c592650e1d72a5852" category="inline-link-macro-rx"></block></block>
 </blocks>

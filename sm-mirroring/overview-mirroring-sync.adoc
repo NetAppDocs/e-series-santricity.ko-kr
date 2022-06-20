@@ -28,7 +28,7 @@ _Synchronous 미러링_ 데이터 볼륨을 실시간으로 복제하여 지속�
 
 자세한 내용:
 
-* link:how-asynchronous-mirroring-works.html["동기 미러링의 작동 방식"]
+* link:how-synchronous-mirroring-works.html["동기 미러링의 작동 방식"]
 * link:synchronous-mirroring-terminology.html["동기 미러링 용어"]
 * link:synchronous-mirroring-status.html["동기 미러링 상태"]
 * link:volume-ownership-sync.html["볼륨 소유권"]
