@@ -28,7 +28,7 @@ _Asynchronous Mirroring_ 는 특정 시점에 기본 볼륨의 상태를 캡처�
 
 자세한 내용:
 
-* link:how-synchronous-mirroring-works.html["비동기식 미러링의 작동 방식"]
+* link:how-asynchronous-mirroring-works.html["비동기식 미러링의 작동 방식"]
 * link:asynchronous-terminology.html["비동기식 미러링 용어"]
 * link:asynchronous-mirror-status.html["비동기식 미러 상태입니다"]
 * link:volume-ownership-sync.html["볼륨 소유권"]

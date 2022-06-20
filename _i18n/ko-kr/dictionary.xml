@@ -7371,7 +7371,6 @@
   <block id="a973f9cd883909c4210fa4a3a2a46a57" category="paragraph">_Asynchronous Mirroring_ 는 특정 시점에 기본 볼륨의 상태를 캡처하고 마지막 이미지 캡처 이후 변경된 데이터만 복사합니다. 운영 사이트를 즉시 업데이트할 수 있으며 대역폭이 허용할 경우 보조 사이트를 업데이트할 수 있습니다. 네트워크 리소스를 사용할 수 있게 되면 정보가 캐시되어 나중에 전송됩니다.</block>
   <block id="40f940a1f2b00ed6e1e16df96cf0cfc1" category="paragraph">비동기 미러링은 볼륨별로 생성되지만 그룹 수준에서 관리되므로 특정 스토리지 배열의 운영 볼륨과 별도의 원격 미러링된 볼륨을 연결할 수 있습니다. 이러한 유형의 미러링은 무중단 운영에 대한 요구를 충족하는 데 이상적이며 일반적으로 정기적인 프로세스에 대해 훨씬 더 네트워크 효율적입니다.</block>
   <block id="d9cb3fe290e19450349d351a42a37ad1" category="inline-link-macro">비동기식 미러링의 작동 방식</block>
-  <block id="4aa0caa4a406c6a3c952fd00f3fcf2a9" category="list-text"><block ref="4aa0caa4a406c6a3c952fd00f3fcf2a9" category="inline-link-macro-rx"></block></block>
   <block id="930384e99f0ce6421c82e7bc4e515d60" category="inline-link-macro">비동기식 미러링 용어</block>
   <block id="b623d7348c01d58bf6b219d1aeb93232" category="list-text"><block ref="b623d7348c01d58bf6b219d1aeb93232" category="inline-link-macro-rx"></block></block>
   <block id="da639e20353d1045ad281327add6c8ee" category="list-text"><block ref="da639e20353d1045ad281327add6c8ee" category="inline-link-macro-rx"></block></block>
@@ -8624,4 +8623,5 @@
   <block id="951d3fc54a28f9f46798897467d96a5b" category="sidebar">인증서를 관리합니다</block>
   <block id="c62c395ffcd8aa3e5d38fe7155d2f510" category="sidebar">SANtricity 소프트웨어</block>
   <block id="38bc026807a6898c592650e1d72a5852" category="list-text"><block ref="38bc026807a6898c592650e1d72a5852" category="inline-link-macro-rx"></block></block>
+  <block id="1eacbdd35fe4fce15ef3bad3fb4e2d4e" category="list-text"><block ref="1eacbdd35fe4fce15ef3bad3fb4e2d4e" category="inline-link-macro-rx"></block></block>
 </blocks>
