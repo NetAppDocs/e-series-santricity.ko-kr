@@ -23,7 +23,7 @@ summary: 프리미엄 기능은 활성화를 위한 키가 필요한 추가 옵�
 
 [NOTE]
 ====
-프리미엄 기능을 비활성화하려면 CLI(Command Line Interface)에서 Disable Storage Array feature 명령( dissable storageArray(featurePack | feature=featureAttributeList))을 사용해야 합니다.
+프리미엄 기능을 해제하려면 스토리지 배열 기능 비활성화 명령을 사용해야 합니다 (`disable storageArray) (featurePack | feature=featureAttributeList`)를 클릭합니다.
 
 ====
 .단계

@@ -36,7 +36,7 @@ summary: 정합성이 보장된 복제본을 유지하려면 스냅샷 정합성
 스냅샷 정합성 보장 그룹 생성 대화 상자가 나타납니다.
 
 . 구성원 볼륨으로 추가할 볼륨을 스냅샷 정합성 보장 그룹에 선택합니다.
-. 다음 * 을 클릭하고 으로 이동합니다 <<Step 2: Reserve capacity for snapshot consistency group>>.
+. 다음 * 을 클릭하고 으로 이동합니다  2: Reserve capacity for snapshot consistency group.
 
 
 
@@ -66,7 +66,7 @@ summary: 정합성이 보장된 복제본을 유지하려면 스냅샷 정합성
 
 
 . * 선택 사항: * 기본 예약된 용량 설정을 변경하는 경우 * 후보 새로 고침 * 을 클릭하여 지정한 예약된 용량에 대한 후보 목록을 새로 고칩니다.
-. 다음 * 을 클릭하고 으로 이동합니다 <<Step 3: Edit settings for snapshot consistency group>>.
+. 다음 * 을 클릭하고 으로 이동합니다  3: Edit settings for snapshot consistency group.
 
 
 

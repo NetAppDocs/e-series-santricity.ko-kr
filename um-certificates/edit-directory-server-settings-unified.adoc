@@ -50,7 +50,7 @@ LDAP 서버의 도메인 이름입니다. 여러 도메인의 경우 쉼표로 �
  a| 
 서버 URL
  a| 
-LDAP 서버 액세스 URL은 "LDAP[s]:// * host *: * port *" 형식입니다.
+의 형식으로 LDAP 서버에 액세스하기 위한 URL입니다 `ldap[s]://host:port`.
 
 
 
@@ -83,7 +83,7 @@ LDAP 서버에 대한 검색 쿼리 및 그룹 내 검색을 위한 읽기 전�
  a| 
 검색 기준 DN
  a| 
-일반적으로 사용자를 검색할 LDAP 컨텍스트는 'CN=Users,DC=copc,DC=local' 형식입니다.
+사용자를 검색하는 LDAP 컨텍스트로, 일반적으로 의 형식입니다 `CN=Users, DC=cpoc, DC=local`.
 
 
 

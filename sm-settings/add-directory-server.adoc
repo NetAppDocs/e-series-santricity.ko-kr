@@ -104,7 +104,7 @@ NOTE: 이 필드는 위에 바인딩 계정을 입력할 때 나타납니다.
  a| 
 검색 기준 DN
  a| 
-사용자를 검색할 LDAP 컨텍스트를 일반적으로 'CN=Users,DC=copc,DC=local' 형식으로 입력합니다.
+LDAP 컨텍스트를 입력하여 사용자를 검색합니다(일반적으로 의 형식) `CN=Users, DC=cpoc, DC=local`.
 
 
 

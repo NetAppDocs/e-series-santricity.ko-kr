@@ -55,7 +55,7 @@ EF600 또는 EF300 스토리지 시스템에서는 이 기능을 사용할 수 �
 동기식 미러링 쌍 생성 마법사가 열립니다.
 
 . 적합한 볼륨 목록에서 미러의 운영 볼륨으로 사용할 볼륨을 선택합니다.
-. Next * 를 선택하고 로 이동합니다 <<Step 2: Select the secondary volume>>.
+. Next * 를 선택하고 로 이동합니다  2: Select the secondary volume.
 
 
 
@@ -84,7 +84,7 @@ EF600 또는 EF300 스토리지 시스템에서는 이 기능을 사용할 수 �
 운영 볼륨보다 큰 용량으로 2차 볼륨을 선택하는 경우 사용 가능한 용량이 운영 볼륨의 크기로 제한됩니다.
 
 ====
-. 다음 * 을 클릭하고 으로 이동합니다 <<Step 3: Select synchronization settings>>.
+. 다음 * 을 클릭하고 으로 이동합니다  3: Select synchronization settings.
 
 
 

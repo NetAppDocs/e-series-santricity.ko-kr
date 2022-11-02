@@ -729,7 +729,7 @@ sidebar:
           url: "/sm-hardware/configure-dns-server-addresses.html"
         - title: 컨트롤러 설정을 봅니다
           url: "/sm-hardware/view-controller-settings.html"
-        - title: 원격 로그인 허용
+        - title: 원격 로그인(SSH) 구성
           url: "/sm-hardware/allow-remote-login.html"
         - title: 컨트롤러를 온라인으로 설정합니다
           url: "/sm-hardware/place-controller-online.html"
@@ -1049,6 +1049,8 @@ sidebar:
           url: "/sm-settings/access-management-with-directory-services.html"
         - title: SAML
           url: "/sm-settings/access-management-with-saml.html"
+        - title: 액세스 토큰
+          url: "/sm-settings/access-management-tokens.html"
       - title: 로컬 사용자 역할을 사용합니다
         entries:
         - title: 로컬 사용자 역할을 봅니다
@@ -1073,6 +1075,14 @@ sidebar:
           url: "/sm-settings/change-saml-role-mappings.html"
         - title: SAML 서비스 공급자 파일을 내보냅니다
           url: "/sm-settings/export-saml-service-provider-files.html"
+      - title: 액세스 토큰을 사용합니다
+        entries:
+        - title: 액세스 토큰을 생성합니다
+          url: "/sm-settings/access-management-tokens-create.html"
+        - title: 액세스 토큰 설정을 편집합니다
+          url: "/sm-settings/access-management-tokens-edit.html"
+        - title: 액세스 토큰을 취소합니다
+          url: "/sm-settings/access-management-tokens-revoke.html"
       - title: syslog를 관리합니다
         entries:
         - title: 감사 로그 활동을 봅니다
