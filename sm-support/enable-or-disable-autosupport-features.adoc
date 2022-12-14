@@ -14,8 +14,10 @@ summary: 초기 설정 중에 AutoSupport 기능 및 개별 AutoSupport 기능�
 [role="lead"]
 초기 설정 중에 AutoSupport 기능 및 개별 AutoSupport 기능을 활성화하거나 나중에 활성화하거나 비활성화할 수 있습니다.
 
+.시작하기 전에
 AutoSupport OnDemand 또는 원격 진단을 활성화하려면 AutoSupport 전송 방법을 HTTPS로 설정해야 합니다.
 
+.이 작업에 대해
 언제든지 AutoSupport 기능을 사용하지 않도록 설정할 수 있지만, 이 기능을 활성 상태로 두는 것이 좋습니다. AutoSupport 기능을 사용하면 스토리지 어레이에서 문제가 발생할 경우 문제 확인 및 해결 속도를 크게 높일 수 있습니다.
 
 AutoSupport 기능은 사용자가 별도로 사용하는 세 가지 개별 기능으로 구성됩니다.

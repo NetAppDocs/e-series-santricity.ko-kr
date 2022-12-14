@@ -14,6 +14,7 @@ summary: 스토리지 어레이에 하드웨어 조건이 적용되는 방법에
 다음 하드웨어 용어가 스토리지 어레이에 적용됩니다.
 
 .일반 하드웨어 용어:
+[%collapsible]
 ====
 [cols="25h,~"]
 |===
@@ -91,6 +92,7 @@ SFP는 SFP(Small Form-factor Pluggable) 트랜시버입니다.
 |===
 ====
 .컨트롤러 용어:
+[%collapsible]
 ====
 [cols="25h,~"]
 |===
@@ -196,6 +198,7 @@ VLAN(Virtual Local Area Network)은 동일한 디바이스(스위치, 라우터 
 |===
 ====
 .드라이브 용어:
+[%collapsible]
 ====
 [cols="25h,~"]
 |===
@@ -294,6 +297,7 @@ SSD(Solid-State Disk)는 데이터를 영구적으로 저장하기 위해 솔리
 |===
 ====
 .iSCSI 용어:
+[%collapsible]
 ====
 [cols="25h,~"]
 |===
@@ -392,6 +396,7 @@ RDMA(Remote Direct Memory Access)는 네트워크 컴퓨터가 두 컴퓨터의 
 |===
 ====
 .NVMe 용어:
+[%collapsible]
 ====
 [cols="25h,~"]
 |===

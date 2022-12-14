@@ -16,6 +16,7 @@ System Manager에서 CLI(Command Line Interface) 패키지를 다운로드할 �
 
 CLI는 스토리지 시스템을 구성하고 모니터링하기 위한 텍스트 기반 방법을 제공합니다. https를 통해 통신하며 외부에서 설치된 관리 소프트웨어 패키지에서 사용할 수 있는 CLI와 동일한 구문을 사용합니다. CLI를 다운로드하는 데 키가 필요하지 않습니다.
 
+.시작하기 전에
 CLI 명령을 실행하려는 관리 시스템에서 Java Runtime Environment(JRE) 버전 8 이상을 사용할 수 있어야 합니다.
 
 .단계

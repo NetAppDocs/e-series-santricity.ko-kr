@@ -19,6 +19,7 @@ summary: 한 스토리지 어레이에서 다른 스토리지 어레이로 디�
 * 대상 스토리지 배열에 대한 기존 구성은 System Manager(시스템 설정) [System(시스템) > Save Storage Array Configuration(스토리지 배열 구성 저장)] 메뉴에서 백업됩니다.
 
 
+.이 작업에 대해
 가져온 설정에는 LDAP(Lightweight Directory Access Protocol) 서버의 도메인 이름과 URL, LDAP 서버의 사용자 그룹에 대한 매핑과 스토리지 배열의 사전 정의된 역할에 대한 URL이 포함됩니다.
 
 .단계

@@ -24,6 +24,7 @@ Snapshot Volume Settings(스냅샷 볼륨 설정) 대화 상자가 나타납니�
 . 스냅샷 볼륨에 대한 설정을 적절히 보거나 편집합니다.
 +
 .필드 상세정보
+[%collapsible]
 ====
 [cols="25h,~"]
 |===

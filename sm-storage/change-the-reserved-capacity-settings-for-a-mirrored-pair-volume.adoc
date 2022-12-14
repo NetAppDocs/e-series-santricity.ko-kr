@@ -24,6 +24,7 @@ Mirrored Pair Volume Reserved Capacity Settings(미러링된 볼륨 예비 용�
 . 미러링된 페어 볼륨에 대한 예약된 용량 설정을 적절하게 변경합니다.
 +
 .필드 상세정보
+[%collapsible]
 ====
 [cols="25h,~"]
 |===
