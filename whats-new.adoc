@@ -12,7 +12,7 @@ summary: SANtricity OS의 새로운 기능
 
 
 [role="lead"]
-다음 표에서는 SANtricity System Manager 11.8x의 새로운 기능에 대해 설명합니다.
+다음 표에서는 SANtricity System Manager 11.8의 새로운 기능에 대해 설명합니다.
 
 
 

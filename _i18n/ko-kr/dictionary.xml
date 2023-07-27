@@ -8681,7 +8681,6 @@
   <block id="25e21eea77a06faadbc2ce2007dfd8fa" category="paragraph">SAML이 활성화되어 있는 동안에는 권한을 제거하지 않도록 주의하십시오. 그렇지 않으면 Unified Manager에 액세스할 수 없게 됩니다.</block>
   <block id="bdf60d91552728cd5d2f943df141631b" category="paragraph">필드를 클릭하고 속성에 매핑할 스토리지 시스템의 역할 중 하나를 선택합니다. 이 그룹에 포함할 각 역할을 개별적으로 선택해야 합니다. Monitor 역할은 Unified Manager에 로그인하기 위한 다른 역할과 함께 필요합니다. 보안 관리자 역할은 하나 이상의 그룹에 할당해야 합니다. 매핑된 역할에는 다음 권한이 포함됩니다.</block>
   <block id="84f60aaee7374184081d849821cae03b" category="doc">SANtricity OS 11.80의 새로운 기능</block>
-  <block id="ee178cd31372157b6b4ef199f32f28e6" category="paragraph">다음 표에서는 SANtricity System Manager 11.8x의 새로운 기능에 대해 설명합니다.</block>
   <block id="b88fbe45e9e75bdd6c5127ce8a22abe1" category="section-title">버전 11.80의 새로운 기능</block>
   <block id="8f407366493ebfbb4a6dec746e7c89f5" category="paragraph">향상된 볼륨 패리티 검사</block>
   <block id="07c3c6708618172f589685373ed71a5d" category="paragraph">이제 REST API 또는 CLI를 통해 볼륨 패리티 검사를 백그라운드 프로세스로 시작할 수 있습니다. 결과 패리티 검사는 스캔 작업을 완료하는 데 필요한 한 백그라운드에서 실행됩니다. 스캔 작업은 컨트롤러 재부팅 및 페일오버 작업에 영향을 줍니다.</block>
@@ -8716,7 +8715,6 @@
   <block id="1c0cc3436484a2d69e30cbe7f637d3ed" category="paragraph">포트 식별자입니다</block>
   <block id="f3623da9f6be936979297f1fa268895c" category="paragraph">이벤트 모니터는 경고 가능 이벤트가 발생할 때마다 syslog 서버에 경고를 보냅니다. 감사 로그에 대한 syslog 설정을 추가로 구성하려면 을 참조하십시오<block ref="8ff4ea61d8cfa4d348011e356d65d49a" category="inline-link-rx"></block>.</block>
   <block id="30af9425adf237457aaff58f7cb21bc9" category="paragraph">구성 후 모든 새 감사 로그가 syslog 서버로 전송됩니다. 이전 로그는 전송되지 않습니다. 경고에 대한 syslog 설정을 추가로 구성하려면 를 참조하십시오<block ref="7b44e3078f5548e67f8cbe8894b93e12" category="inline-link-rx"></block>.</block>
-  <block id="4bc4384815b2cb7cd1edee10550e5472" category="list-text">_TBD, 11.80 릴리스 노트 _</block>
   <block id="c76b2a182c36f1230239bad4c28112a3" category="doc">SANtricity 소프트웨어 설명서 11.80</block>
   <block id="3260e793a72a8ad4c6f8b10665ca25ac" category="doc">Unified Manager 6를 사용하여 다중 어레이 관리</block>
   <block id="8067406a66fe34c09bf78be3e6ae6fc1" category="list-text">System Manager -- 네트워크에서 개별 스토리지 어레이를 관리하는 데 사용되는 웹 기반 인터페이스입니다.</block>
@@ -8725,4 +8723,7 @@
   <block id="f3e5a6d7f7194a35f77d2084efb9ef4f" category="paragraph">드라이브, 컨트롤러 및 구성 요소 보기</block>
   <block id="3354319c9dafbfd43c07abbfb0de1326" category="paragraph">전면 및 후면 쉘프 보기 사이를 전환하려면 맨 오른쪽에서 * 드라이브 * 또는 * 컨트롤러 및 구성 요소 * 를 선택합니다(현재 보기에 따라 표시되는 링크). Drives* 보기에는 드라이브 및 비어 있는 드라이브 베이가 표시됩니다. 컨트롤러 및 구성요소 * 보기에는 컨트롤러 및 모든 IOM(ESM) 모듈, 전원/팬 캐니스터 또는 빈 컨트롤러 베이가 표시됩니다. 페이지 하단에서 * Show all drives * 를 선택할 수도 있습니다.</block>
   <block id="a26b62aaf12a1354ed2f5726f1a44f96" category="sidebar">SANtricity 11.8 문서</block>
+  <block id="d10baea6d3a0d4c1b494ce57d94cdadb" category="paragraph">다음 표에서는 SANtricity System Manager 11.8의 새로운 기능에 대해 설명합니다.</block>
+  <block id="3effdbd16c4bb389ee66095c1d8d2ee9" category="inline-link">11.80 릴리스 정보</block>
+  <block id="b1aa5c2649b826498df008931f57355f" category="list-text"><block ref="b1aa5c2649b826498df008931f57355f" category="inline-link-rx"></block></block>
 </blocks>
