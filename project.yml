@@ -1,6 +1,6 @@
 ---
 settings:
-  name: SANtricity 11.7
+  name: SANtricity 11.8
   internal:
     pdf_enabled: true
   prod:
@@ -10,17 +10,17 @@ settings:
   versions:
   - name: SANtricity 소프트웨어
     url: "/e-series-santricity"
+    version-number: '11.8'
+  - name: SANtricity 소프트웨어
+    url: "/e-series-santricity-117"
     version-number: '11.7'
   - name: SANtricity 소프트웨어
     url: "/e-series-santricity-116"
     version-number: '11.6'
-  - name: SANtricity 소프트웨어
-    url: "/e-series-santricity-115"
-    version-number: '11.5'
   langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
-  - title: SANtricity 11.7 문서
+  - title: SANtricity 11.8 문서
     url: "/index.html"
   - title: 릴리스 정보
     entries:
@@ -1428,6 +1428,8 @@ sidebar:
           url: "/um-certificates/access-management-with-local-user-roles-unified.html"
         - title: 디렉터리 서비스
           url: "/um-certificates/access-management-with-directory-services-unified.html"
+        - title: SAML
+          url: "/um-certificates/access-management-with-saml.html"
       - title: 로컬 사용자 역할을 사용합니다
         entries:
         - title: 로컬 사용자 역할을 봅니다
@@ -1444,6 +1446,14 @@ sidebar:
           url: "/um-certificates/edit-directory-server-settings-unified.html"
         - title: 디렉토리 서버를 제거합니다
           url: "/um-certificates/remove-directory-server-unified.html"
+      - title: SAML을 사용합니다
+        entries:
+        - title: SAML을 구성합니다
+          url: "/um-certificates/configure-saml.html"
+        - title: SAML 역할 매핑을 변경합니다
+          url: "/um-certificates/change-saml-role-mappings.html"
+        - title: SAML 서비스 공급자 파일을 내보냅니다
+          url: "/um-certificates/export-saml-service-provider-files.html"
       - title: FAQ 를 참조하십시오
         entries:
         - title: 로그인할 수 없는 이유는 무엇입니까?
@@ -1452,6 +1462,8 @@ sidebar:
           url: "/um-certificates/what-do-i-need-to-know-before-adding-a-directory-server-unified.html"
         - title: 스토리지 어레이 역할에 매핑하는 방법에 대해 알아야 할 내용은 무엇입니까?
           url: "/um-certificates/what-do-i-need-to-know-about-mapping-storage-array-roles-unified.html"
+        - title: SAML을 구성 및 활성화하기 전에 알아야 할 내용은 무엇입니까?
+          url: "/um-certificates/what-do-i-need-to-know-before-configuring-and-enabling-saml.html"
         - title: 로컬 사용자는 무엇입니까?
           url: "/um-certificates/what-are-the-local-users.html"
   - title: 이전 버전

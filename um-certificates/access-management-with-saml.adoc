@@ -1,0 +1,74 @@
+---
+permalink: um-certificates/access-management-with-saml.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, access management, saml 
+summary: 'Access Management의 경우 관리자는 스토리지에 포함된 SAML(Security Assertion Markup Language) 2.0 기능을 사용할 수 있습니다.' 
+---
+= SAML을 통한 액세스 관리
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Access Management의 경우 관리자는 스토리지에 포함된 SAML(Security Assertion Markup Language) 2.0 기능을 사용할 수 있습니다.
+
+
+
+== 구성 워크플로우
+
+SAML 구성은 다음과 같이 작동합니다.
+
+. 관리자는 보안 관리자 권한이 포함된 사용자 프로필을 사용하여 Unified Manager에 로그인합니다.
++
+[NOTE]
+====
+"admin" 사용자는 System Manager의 모든 기능에 액세스할 수 있습니다.
+
+====
+. 관리자는 액세스 관리 아래의 * SAML * 탭으로 이동합니다.
+. 관리자는 ID 공급자(IDP)와의 통신을 구성합니다. IDP는 사용자의 자격 증명을 요청하고 사용자가 성공적으로 인증되었는지 확인하는 데 사용되는 외부 시스템입니다. 스토리지 시스템과의 통신을 구성하기 위해 관리자는 IDP 시스템에서 IDP 메타데이터 파일을 다운로드한 다음 Unified Manager를 사용하여 파일을 스토리지 어레이에 업로드합니다.
+. 관리자는 서비스 공급자와 IDP 간의 신뢰 관계를 설정합니다. 서비스 공급자는 사용자 인증을 제어합니다. 이 경우 스토리지 배열의 컨트롤러는 서비스 공급자 역할을 합니다. 관리자는 Unified Manager를 사용하여 컨트롤러의 서비스 공급자 메타데이터 파일을 내보내어 통신을 구성합니다. 그런 다음 관리자는 IDP 시스템에서 메타데이터 파일을 IDP로 가져옵니다.
++
+[NOTE]
+====
+또한 관리자는 IDP가 인증 시 이름 ID를 반환하는 기능을 지원하는지 확인해야 합니다.
+
+====
+. 관리자는 스토리지 어레이의 역할을 IDP에 정의된 사용자 속성에 매핑합니다. 이를 위해 관리자는 Unified Manager를 사용하여 매핑을 생성합니다.
+. 관리자는 IDP URL에 대한 SSO 로그인을 테스트합니다. 이 테스트는 스토리지 배열 및 IDP가 통신할 수 있도록 보장합니다.
++
+[CAUTION]
+====
+SAML이 활성화되면 사용자 인터페이스를 통해 이를 _비활성화할 수 없으며 IDP 설정을 편집할 수도 없습니다. SAML 구성을 비활성화하거나 편집해야 하는 경우 기술 지원 부서에 지원을 요청하십시오.
+
+====
+. Unified Manager에서 관리자는 스토리지 어레이에 대해 SAML을 활성화합니다.
+. 사용자는 SSO 자격 증명을 사용하여 시스템에 로그인합니다.
+
+
+
+
+== 관리
+
+인증을 위해 SAML을 사용하는 경우 관리자는 다음 관리 작업을 수행할 수 있습니다.
+
+* 새 역할 매핑을 수정하거나 작성합니다
+* 서비스 공급자 파일을 내보냅니다
+
+
+
+
+== 액세스 제한
+
+SAML이 활성화된 경우 사용자는 기존 Storage Manager 인터페이스에서 해당 스토리지에 대한 스토리지를 검색 또는 관리할 수 없습니다.
+
+또한 다음 클라이언트는 스토리지 서비스 및 리소스에 액세스할 수 없습니다.
+
+* 엔터프라이즈 관리 창(EMW)
+* CLI(Command-Line Interface)
+* SDK(소프트웨어 개발자 키트) 클라이언트
+* 대역내 클라이언트
+* HTTP 기본 인증 REST API 클라이언트
+* 표준 REST API 끝점을 사용하여 로그인합니다
+

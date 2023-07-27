@@ -42,4 +42,4 @@ Add Syslog Server 대화 상자가 열립니다.
 
 
 .결과
-이벤트 모니터는 경고 가능 이벤트가 발생할 때마다 syslog 서버에 경고를 보냅니다.
+이벤트 모니터는 경고 가능 이벤트가 발생할 때마다 syslog 서버에 경고를 보냅니다. 감사 로그에 대한 syslog 설정을 추가로 구성하려면 을 참조하십시오 https://docs.netapp.com/us-en/e-series-santricity/sm-settings/configure-syslog-server-for-audit-logs.html["감사 로그를 위해 syslog 서버를 구성합니다"].

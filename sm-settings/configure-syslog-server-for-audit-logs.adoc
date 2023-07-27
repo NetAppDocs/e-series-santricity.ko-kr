@@ -48,4 +48,4 @@ Add Syslog Server 대화 상자가 열립니다.
 
 
 .결과
-구성 후 모든 새 감사 로그가 syslog 서버로 전송됩니다. 이전 로그는 전송되지 않습니다.
+구성 후 모든 새 감사 로그가 syslog 서버로 전송됩니다. 이전 로그는 전송되지 않습니다. 경고에 대한 syslog 설정을 추가로 구성하려면 를 참조하십시오 https://docs.netapp.com/us-en/e-series-santricity/sm-settings/configure-syslog-server-for-alerts.html["경고에 대한 syslog 서버를 구성합니다"].

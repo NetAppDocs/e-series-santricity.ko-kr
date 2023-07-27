@@ -23,42 +23,28 @@ Unified Manager는 다양한 유형의 브라우저에서 액세스할 수 있�
  a| 
 Google Chrome
  a| 
-79
+89
 
 
 
  a| 
 Mozilla Firefox
  a| 
-70
+80
 
 
 
  a| 
 사파리
  a| 
-12
+14
 
 
 
  a| 
 Microsoft Edge를 참조하십시오
  a| 
-79
-
-
-
- a| 
-Microsoft Edge Legacy
- a| 
-18
-
-
-
- a| 
-Microsoft Internet Explorer(MSIE)
- a| 
-11
+90
 
 |===
 [NOTE]

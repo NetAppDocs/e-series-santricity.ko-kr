@@ -31,6 +31,7 @@ Access Management 구성은 다음과 같이 작동합니다.
 +
 ** * 로컬 사용자 역할 * -- 인증은 RBAC 기능을 통해 관리됩니다. 로컬 사용자 역할에는 특정 액세스 권한을 가진 사전 정의된 사용자 및 역할이 포함됩니다. 관리자는 이러한 로컬 사용자 역할을 단일 인증 방법으로 사용하거나 디렉터리 서비스와 함께 사용할 수 있습니다. 사용자 암호 설정 이외의 구성은 필요하지 않습니다.
 ** * 디렉터리 서비스 * -- 인증은 LDAP(Lightweight Directory Access Protocol) 서버 및 Microsoft의 Active Directory와 같은 디렉터리 서비스를 통해 관리됩니다. 관리자가 LDAP 서버에 연결한 다음 LDAP 사용자를 로컬 사용자 역할에 매핑합니다.
+** * SAML * -- 인증은 SAML(Security Assertion Markup Language) 2.0을 사용하여 ID 공급자(IDP)를 통해 관리됩니다. 관리자는 IdP 시스템과 스토리지 어레이 간의 통신을 설정한 다음 IdP 사용자를 스토리지 어레이에 포함된 로컬 사용자 역할에 매핑합니다.
 
 
 . 관리자는 Unified Manager에 대한 로그인 자격 증명을 제공합니다.
