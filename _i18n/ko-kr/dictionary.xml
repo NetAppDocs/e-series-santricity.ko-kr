@@ -4094,7 +4094,6 @@
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
   <block id="cc1ba14f8dc9bd7ba20e2aa654cde10b" category="inline-link">E-Series/EF-Series SANtricity OS에 대한 알림</block>
-  <block id="2dae7f81af3097152530b0bc519d7eb1" category="paragraph"><block ref="2dae7f81af3097152530b0bc519d7eb1" category="inline-link-rx"></block></block>
   <block id="8c77722d47dc7baa5284da4e4b035b15" category="summary">설치 마법사를 사용하여 하드웨어, 호스트, 애플리케이션, 워크로드 등 스토리지 시스템을 구성합니다. 풀, 알림 및 AutoSupport</block>
   <block id="b991b22614a9cc2b043d061094459745" category="doc">설정 마법사 개요</block>
   <block id="4c4dcdb568c3c0b84220f8a8e9dfe8c7" category="section-title">최초 설정</block>
@@ -8726,4 +8725,6 @@
   <block id="d10baea6d3a0d4c1b494ce57d94cdadb" category="paragraph">다음 표에서는 SANtricity System Manager 11.8의 새로운 기능에 대해 설명합니다.</block>
   <block id="3effdbd16c4bb389ee66095c1d8d2ee9" category="inline-link">11.80 릴리스 정보</block>
   <block id="b1aa5c2649b826498df008931f57355f" category="list-text"><block ref="b1aa5c2649b826498df008931f57355f" category="inline-link-rx"></block></block>
+  <block id="14061ba06990b3ff80809e75e9263c4d" category="admonition">11.80.x 이상으로 업그레이드하려면 시스템에서 SANtricity OS 11.70.5 를 실행해야 합니다.</block>
+  <block id="df9168fd1981b1464f7c0d38b2207c30" category="paragraph"><block ref="df9168fd1981b1464f7c0d38b2207c30" category="inline-link-rx"></block></block>
 </blocks>
