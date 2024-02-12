@@ -8,15 +8,12 @@ settings:
     harmony_enabled: false
   rss_page: whats-new.html
   versions:
-  - name: SANtricity 소프트웨어
+  - version-number: '11.8'
     url: "/e-series-santricity"
-    version-number: '11.8'
-  - name: SANtricity 소프트웨어
+  - version-number: '11.7'
     url: "/e-series-santricity-117"
-    version-number: '11.7'
-  - name: SANtricity 소프트웨어
+  - version-number: '11.6'
     url: "/e-series-santricity-116"
-    version-number: '11.6'
   langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
