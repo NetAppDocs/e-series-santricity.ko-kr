@@ -28,7 +28,7 @@ DHCP(Dynamic Host Configuration Protocol)를 사용하여 스토리지 배열의
 ====
 .단계
 . 하드웨어 * 를 선택합니다.
-. 그래픽에 드라이브가 표시되면 * 쉘프 뒷면 표시 * 를 클릭합니다.
+. 그래픽에 드라이브가 표시되면 * Controllers & Components * 탭을 클릭하십시오.
 +
 그래픽이 변경되어 드라이브 대신 컨트롤러가 표시됩니다.
 

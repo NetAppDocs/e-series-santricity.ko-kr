@@ -28,7 +28,7 @@ InfiniBand를 통한 iSER 설정은 스토리지 어레이의 컨트롤러에 In
 InfiniBand 포트를 통해 iSER 구성
  a| 
 . 하드웨어 * 를 선택합니다.
-. Show back of shelf * 를 선택합니다.
+. 컨트롤러 및 구성 요소 * 탭을 선택합니다.
 . 컨트롤러를 선택합니다.
 . InfiniBand 포트를 통해 iSER 구성 * 을 선택합니다.
 

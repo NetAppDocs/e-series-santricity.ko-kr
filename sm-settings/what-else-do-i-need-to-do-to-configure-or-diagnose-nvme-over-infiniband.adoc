@@ -28,7 +28,7 @@ NVMe over InfiniBand 설정은 스토리지 어레이 컨트롤러에 NVMe over 
 InfiniBand 포트를 통해 NVMe를 구성합니다
  a| 
 . 하드웨어 * 를 선택합니다.
-. Show back of shelf * 를 선택합니다.
+. 컨트롤러 및 구성 요소 * 탭을 선택합니다.
 . 컨트롤러를 선택합니다.
 . Configure NVMe over InfiniBand ports * 를 선택합니다.
 
