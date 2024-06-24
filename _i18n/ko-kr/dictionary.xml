@@ -2311,12 +2311,7 @@
   <block id="442fc72fb02307d7bb547f3a9e330e5f" category="list-text">동일한 드라이브 유형의 풀이 여러 개 있는 경우 System Manager에서 풀에 대한 드라이브를 자동으로 추천할 수 없다는 메시지가 나타납니다. 그러나 기존 풀에 드라이브를 수동으로 추가할 수 있습니다.</block>
   <block id="cfd5addb3d7e99111f81d8aa18f9a5aa" category="paragraph">기존 풀에 드라이브를 수동으로 추가하려면 풀 및 볼륨 그룹 페이지에서 풀을 선택한 다음 * 용량 추가 * 를 클릭합니다.</block>
   <block id="499a0602905ccb67c6d649daa6d57413" category="summary">모든 유형의 애플리케이션에 대한 워크로드를 생성할 수 있습니다.</block>
-  <block id="ef722b0d3f28d401f565985f472c4438" category="paragraph">System Manager에서는 다음 애플리케이션 유형에 대해서만 최적화된 볼륨 구성을 권장합니다.</block>
-  <block id="f2087899e2afadc125d10b2957ade872" category="list-text">비디오 감시</block>
-  <block id="7cfedcca8ce6dbe00da8fe3e6fe966f8" category="list-text">VMware ESXi ™ (가상 머신 파일 시스템과 함께 사용할 볼륨용)</block>
   <block id="53d52e9f5e84c6e320cab61e6c75088f" category="paragraph">다음 지침을 염두에 두십시오.</block>
-  <block id="d5f2262b63d7e86589dbf70c4e5e35b2" category="list-text">_애플리케이션별 워크로드를 사용하는 경우, 시스템은 애플리케이션 워크로드 I/O와 애플리케이션 인스턴스의 기타 트래픽 간의 경합을 최소화하기 위해 최적화된 볼륨 구성을 권장합니다. 볼륨 추가/편집 대화 상자를 사용하여 권장 볼륨 구성을 검토한 다음 시스템 권장 볼륨 및 특성을 편집, 추가 또는 삭제할 수 있습니다.</block>
-  <block id="bf4bffd53bcd7e30e99315e12ac6f419" category="list-text">_ 다른 애플리케이션 유형을 사용할 때 볼륨 추가/편집 대화 상자를 사용하여 수동으로 볼륨 구성을 지정합니다.</block>
   <block id="65d1a857de2802d1a9f3295655aaf36f" category="list-text">메뉴: Create [Workload](워크로드 생성)를 선택합니다.</block>
   <block id="d8b1db89e135bdbc13b725e8d595018b" category="paragraph">애플리케이션 워크로드 생성 대화 상자가 나타납니다.</block>
   <block id="c587f872ee4cedc5f46714cc4a3af851" category="list-text">드롭다운 목록을 사용하여 워크로드를 생성할 애플리케이션 유형을 선택한 다음 워크로드 이름을 입력합니다.</block>
@@ -8737,4 +8732,7 @@
   <block id="71f3dfbf2b051795606c83f3a9eae5ae" category="list-text">드라이브를 보려면 컨트롤러 및 전원/팬 캐니스터 구성 요소가 표시되면 * Drives * 탭을 클릭하십시오.</block>
   <block id="581cfab734318e947b176853c8e56d50" category="paragraph">스토리지 시스템의 물리적 구성 요소를 그래픽으로 보여 주는 하드웨어 페이지로 이동합니다. 쉘프 보기의 오른쪽 상단에서 * Drives * 또는 * Controllers * 탭을 선택하여 어레이 쉘프의 전면 및 후면 보기 사이를 전환할 수 있습니다.</block>
   <block id="c30b45aee772a1884388fa957f41c7d5" category="list-text">* 단일 드라이브 * -- 쉘프 그래픽에서 실제로 어레이에서 찾을 드라이브를 찾습니다. (그림에 컨트롤러가 표시되면 * Drives * 탭을 클릭합니다.) 드라이브를 클릭하여 컨텍스트 메뉴를 표시한 다음 * 로케이터 표시등 켜기 * 를 선택합니다.</block>
+  <block id="043a86bd47391543c74c9ed90a2dde13" category="admonition">한 번에 볼륨 용량을 최대 128TiB까지만 확장할 수 있습니다.</block>
+  <block id="82d00f5ad15a08dba27d16e49e8748f1" category="paragraph">워크로드는 애플리케이션을 지원하는 스토리지 객체입니다. 애플리케이션별로 하나 이상의 워크로드 또는 인스턴스를 정의할 수 있습니다.</block>
+  <block id="056bd960f994268c2245e42ab49c22b9" category="paragraph">애플리케이션은 SQL Server 또는 Exchange와 같은 소프트웨어입니다. 각 애플리케이션을 지원할 워크로드를 하나 이상 정의합니다.</block>
 </blocks>
