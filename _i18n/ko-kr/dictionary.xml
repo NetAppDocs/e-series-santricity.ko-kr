@@ -8698,8 +8698,6 @@
   <block id="907ce89001794064fd8d544a753cf6cf" category="paragraph">이더넷 커널 통계</block>
   <block id="a5302be9e5d09f8d45fab47dcbe1907c" category="inline-link">iSCSI 통계 패키지를 봅니다</block>
   <block id="4f8a241c3cb470ed44d71b0d64d57b80" category="paragraph">이제 System Manager의 iSCSI 통계 패키지 보기 페이지에서 새 이더넷 커널 통계 옵션을 사용할 수 있습니다. 이 새로운 옵션을 사용하면 iSCSI 장치의 플랫폼 커널 드라이버에 대한 통계를 볼 수 있습니다. 자세한 내용은 을 참조하십시오<block ref="fa652b493edb0147d8d73c9bf12a908b" category="inline-link-rx"></block>.</block>
-  <block id="bf4fed8d63aecfc1a30be488a115892c" category="paragraph">System Manager 내에서 할당되지 않은 드라이브 및 보안 활성화 드라이브에 대한 필터링 기능이 향상되었습니다</block>
-  <block id="22d3d7b49042c93caf0303e50dd503e1" category="paragraph">이제 System Manager는 수동 드라이브를 선택할 때 할당되지 않은 드라이브 및 보안된 활성 드라이브를 필터링합니다. 따라서 System Manager 드라이브 선택 횟수가 CLI 및 REST API에 있는 자동 드라이브 선택 후보 목록과 일치합니다. 고유한 아이콘과 호버 텍스트가 이제 System Manager 내의 할당되지 않은 드라이브와 보안 활성화 드라이브에도 적용됩니다.</block>
   <block id="8aa767f8b92cfb3b4eab1f415d112646" category="paragraph">REST API 엔드포인트를 통해 IP 주소를 차단하는 기능이 추가되었습니다</block>
   <block id="676be4f62b5637bef1c26018afa904d4" category="paragraph">이제 사용자는 설정 끝점을 통해 특정 IP 주소를 차단할 수 있습니다 <block ref="4b697cabc8d99483a2ddfc38c4cb6766" prefix="(" category="inline-code"></block>)를 클릭합니다. 설정 엔드포인트를 통해 구성한 후에는 화이트리스트를 통해 지정된 IP 주소만 스토리지 디바이스와 통신할 수 있습니다. 이 새로운 기능은 IPv4 및 IPv6 주소 목록을 지원합니다.</block>
   <block id="85873696abedac8fb70b86eef30b99fe" category="paragraph">vCenter 스토리지 플러그인</block>
@@ -8735,4 +8733,8 @@
   <block id="043a86bd47391543c74c9ed90a2dde13" category="admonition">한 번에 볼륨 용량을 최대 128TiB까지만 확장할 수 있습니다.</block>
   <block id="82d00f5ad15a08dba27d16e49e8748f1" category="paragraph">워크로드는 애플리케이션을 지원하는 스토리지 객체입니다. 애플리케이션별로 하나 이상의 워크로드 또는 인스턴스를 정의할 수 있습니다.</block>
   <block id="056bd960f994268c2245e42ab49c22b9" category="paragraph">애플리케이션은 SQL Server 또는 Exchange와 같은 소프트웨어입니다. 각 애플리케이션을 지원할 워크로드를 하나 이상 정의합니다.</block>
+  <block id="16d708387aba5ea718421175893bd468" category="list-text">운영 볼륨과 2차 볼륨은 동일한 드라이브 유형을 공유해야 합니다. 운영 볼륨과 2차 볼륨 간에 NVMe 및 SAS 드라이브를 혼합할 수 없습니다.</block>
+  <block id="73e974e4615b6eb8c4db3e6a55137a8f" category="list-text">예약된 용량 볼륨은 연결된 미러 볼륨과 동일한 드라이브 유형을 공유해야 합니다.</block>
+  <block id="bf9f60c11f9080af705719592217436d" category="list-text">예약 용량 볼륨이 NVMe 드라이브에 생성된 경우 미러 볼륨도 NVMe 드라이브에 생성해야 합니다.</block>
+  <block id="402b0811b7e491a20af6474c5296c733" category="list-text">예약된 용량 볼륨이 SAS 드라이브에 생성된 경우 미러 볼륨도 SAS 드라이브에 생성해야 합니다.</block>
 </blocks>
