@@ -8741,4 +8741,8 @@
   <block id="5769aac2d83733db3bf7507b56dd86e9" category="paragraph">자체 서명된 새 관리 인증서와 CA 서명 관리 인증서의 키 크기가 늘어납니다.</block>
   <block id="8545f755b4f7a99afe330df57699f365" category="paragraph">SANtricity System Manager 및 Unified Manager 애플리케이션 자체 서명 인증서의 관리 인증서 키 크기 길이가 2048비트에서 3072비트로 수정되었습니다. 변경 사항은 SANtricity 응용 프로그램에서 새로 생성된 자체 서명 및 CA 서명 인증서에 적용됩니다. 키 길이는 고정되어 있으며 NVSRAM의 기본 키 크기 정의에 영향을 받지 않습니다.</block>
   <block id="56ef6aeb1657a77ed998f95bff3a67c0" category="paragraph">ARVM을 비활성화합니다</block>
+  <block id="bb81ad14bd710a498f194a6ac67fea61" category="paragraph">복제 소스 볼륨과 타겟 볼륨의 호스트 주소 지정 가능/논리적 블록 크기(섹터 크기)가 동일해야 합니다.</block>
+  <block id="56ce420df3a94d675f30cc6b382c3082" category="paragraph">보고된 볼륨 블록 크기:</block>
+  <block id="6451d4e0b30d3e2a2b45dc3de85ffe6d" category="list-text">* 기본 블록 크기 * – 볼륨의 블록 크기와 드라이브 블록 크기(512 또는 4K)가 일치합니다.</block>
+  <block id="7de7e0688d2ed2bd02ab78f61c88a723" category="list-text">* Emulated 512 블록 크기 * - 드라이브는 4K이지만 보고된 블록 크기는 512입니다.</block>
 </blocks>
