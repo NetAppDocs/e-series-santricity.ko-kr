@@ -84,22 +84,17 @@
   <block id="0b06dce9e1b3bc7d8372cf18b3a233ff" category="paragraph">풀 또는 볼륨 그룹이 중복성을 지원하고 최적의 경우 Online(온라인) 방법을 사용하여 드라이브 펌웨어를 업그레이드할 수 있습니다. 온라인 메소드는 스토리지 어레이가 I/O를 처리하는 동안 _ 펌웨어를 이러한 드라이브를 사용하여 연결된 볼륨에 다운로드합니다. 이러한 드라이브를 사용하여 연결된 볼륨에 대한 I/O를 중지할 필요가 없습니다. 이러한 드라이브는 드라이브에 연결된 볼륨으로 한 번에 하나씩 업그레이드됩니다. 드라이브가 풀 또는 볼륨 그룹에 할당되지 않은 경우 온라인 또는 오프라인 방법으로 해당 펌웨어를 업데이트할 수 있습니다. 드라이브 펌웨어를 업그레이드하는 온라인 방법을 사용할 경우 시스템 성능에 영향을 줄 수 있습니다.</block>
   <block id="82590f18903227ef866c105265e29c64" category="list-text">* 오프라인 *</block>
   <block id="1b6b2f17142a5a59bae91fead9eea84e" category="paragraph">풀 또는 볼륨 그룹이 이중화(RAID 0)를 지원하지 않거나 성능이 저하된 경우, 드라이브 펌웨어를 업그레이드하려면 오프라인 방법을 사용해야 합니다. Offline 방법은 모든 I/O 작업이 중지되어 있는 동안 _ 펌웨어를 해당 드라이브를 사용하는 연결된 볼륨으로 업그레이드합니다. 이러한 드라이브를 사용하여 연결된 볼륨에 대한 모든 I/O를 중지해야 합니다. 드라이브가 풀 또는 볼륨 그룹에 할당되지 않은 경우 온라인 또는 오프라인 방법으로 해당 펌웨어를 업데이트할 수 있습니다.</block>
-  <block id="3962c67157856b85df4c5309ed0a5d1c" category="summary">AutoSupport 기능은 기술 지원 부서에 디스패치를 제공하기 위해 HTTPS, HTTP 및 SMTP 프로토콜을 지원합니다.</block>
   <block id="37d2d3abeb0c853792589ef5ef3ca6e2" category="doc">AutoSupport 전달 방법을 구성합니다</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">시작하기 전에</block>
   <block id="951f23f38a775d7b989c10f181c6a5fb" category="list-text">AutoSupport 기능을 활성화해야 합니다. AutoSupport 페이지에서 활성화되어 있는지 여부를 확인할 수 있습니다.</block>
   <block id="eafe9700c0de4e0a4bf96ea8a52637c2" category="list-text">네트워크에 DNS 서버가 설치 및 구성되어 있어야 합니다. DNS 서버 주소는 System Manager에서 구성해야 합니다(이 작업은 하드웨어 페이지에서 사용 가능).</block>
   <block id="f869702509af8522ab5a8d9317437a5c" category="paragraph">다양한 프로토콜을 검토합니다.</block>
   <block id="c320b46bad703dba81e017b358d86d07" category="list-text">* HTTPS * -- HTTPS를 사용하여 대상 기술 지원 서버에 직접 연결할 수 있습니다. AutoSupport OnDemand 또는 원격 진단을 활성화하려면 AutoSupport 전송 방법을 HTTPS로 설정해야 합니다.</block>
-  <block id="85f5b44a49dc590cf656c27a9db9e5aa" category="list-text">* HTTP * -- HTTP를 사용하여 대상 기술 지원 서버에 직접 연결할 수 있습니다.</block>
   <block id="5b999ecb8bff8dd3f70944baa491c671" category="list-text">* 이메일 * -- 이메일 서버를 AutoSupport 디스패치 전송 방법으로 사용할 수 있습니다.</block>
-  <block id="4b14e85f50ab6574b52c5f3998e5d090" category="paragraph">* HTTPS/HTTP와 이메일 방법의 차이점 *. SMTP를 사용하는 이메일 전송 방법은 HTTPS 및 HTTP 전송 방법과 몇 가지 중요한 차이점이 있습니다. 먼저, 이메일 방법에 대한 디스패치 크기는 5MB로 제한되며, 이는 일부 ASUP 데이터 수집이 디스패치되지 않음을 의미합니다. 둘째, AutoSupport OnDemand 기능은 HTPP 및 HTTPS 방법에서만 사용할 수 있습니다.</block>
   <block id="ad0299a08f3ae4e0e7821efec30e957c" category="list-text">지원 [지원 센터 &gt; AutoSupport] 탭을 선택합니다.</block>
   <block id="d15ef58f591a31679a31fd6a6870c0f9" category="list-text">AutoSupport 제공 방법 구성 * 을 선택합니다.</block>
   <block id="b0e813c1d02ae767a417776fd8a8e6f9" category="paragraph">디스패치 제공 방법이 나열된 대화 상자가 나타납니다.</block>
   <block id="c143b9caf0caf400d47403e99931103b" category="list-text">원하는 전달 방법을 선택한 다음 해당 전달 방법에 대한 매개 변수를 선택합니다. 다음 중 하나를 수행합니다.</block>
-  <block id="973964a77df9b69b12f27d0b8d26cc36" category="list-text">HTTPS 또는 HTTP를 선택한 경우 다음 전송 매개 변수 중 하나를 선택합니다.</block>
-  <block id="46c1790980160f29ebbcc3dd7c68f99a" category="list-text">* 직접 * -- 이 전달 매개 변수는 기본 선택 항목입니다. 이 옵션을 선택하면 HTTPS 또는 HTTP 프로토콜을 사용하여 대상 기술 지원 시스템에 직접 연결할 수 있습니다.</block>
   <block id="9ba064119aa4adae0694381c00680251" category="list-text">* 프록시 서버를 통해 * -- 이 옵션을 선택하면 대상 기술 지원 시스템과의 연결을 설정하는 데 필요한 HTTP 프록시 서버 세부 정보를 지정할 수 있습니다. 호스트 주소와 포트 번호를 지정해야 합니다. 그러나 필요한 경우 호스트 인증 세부 정보(사용자 이름 및 암호)만 입력하면 됩니다.</block>
   <block id="6a5001d36e6f16c8e2ba0dd5fc89f8de" category="list-text">* 프록시 자동 구성 스크립트(PAC)를 통해 * -- 프록시 자동 구성(PAC) 스크립트 파일의 위치를 지정합니다. PAC 파일을 사용하면 시스템이 대상 기술 지원 시스템과의 연결을 설정할 적절한 프록시 서버를 자동으로 선택할 수 있습니다.</block>
   <block id="88816662b2b289f8f26259414739e64d" category="list-text">이메일 을 선택한 경우 다음 정보를 입력합니다.</block>
@@ -129,9 +124,6 @@
   <block id="e6f2dc3aa8152d09abac598a55e9366f" category="list-text">드라이브가 오프라인 업그레이드만 가능한 경우 드라이브와 연결된 모든 볼륨에 대한 I/O 작업이 중지됩니다.</block>
   <block id="a56e70035fdf4b7df936ab775f083aa4" category="list-text">메뉴 선택: 지원 [업그레이드 센터].</block>
   <block id="27cbc683bae5b0ae674e1f14b28ba85b" category="list-text">Support 사이트에서 관리 클라이언트로 새 파일을 다운로드합니다.</block>
-  <block id="1e85b82464e0b22d88d33677019d1e27" category="list-text">드라이브 펌웨어 업그레이드 에서 * NetApp 지원 * 을 클릭합니다.</block>
-  <block id="7c281e9bad492c4969c4b81a96defe2b" category="list-text">NetApp Support 웹 사이트에서 * Downloads * 탭을 클릭합니다.</block>
-  <block id="15e64f7564367057ae54ac605577e0dc" category="list-text">디스크 드라이브 및 펌웨어 매트릭스 * 를 선택합니다.</block>
   <block id="97ee451d6d95940738f8ea5c329f19b4" category="list-text">나머지 지침을 따릅니다.</block>
   <block id="953a296f7b11258e3941c8cf2edc32a6" category="list-text">드라이브 펌웨어 업그레이드 에서 * 업그레이드 시작 * 을 클릭합니다.</block>
   <block id="dc37cd015f10fb7e350ecaeb555ca0c1" category="paragraph">현재 사용 중인 드라이브 펌웨어 파일이 나열된 대화 상자가 나타납니다.</block>
@@ -290,7 +282,6 @@
   <block id="89e45886f102955a4b94fde5cfd472f2" category="list-text">* 컨트롤러 NVSRAM * -- 컨트롤러 NVSRAM은 컨트롤러의 기본 설정을 지정하는 컨트롤러 파일입니다.</block>
   <block id="9a117d24c5148683876d0d0084de9881" category="list-text">* IOM 펌웨어 * -- I/O 모듈(IOM) 펌웨어는 컨트롤러와 드라이브 쉘프 간의 연결을 관리합니다. 또한 구성 요소의 상태를 모니터링합니다.</block>
   <block id="096ea47ee097c078c09c6a83f880a840" category="list-text">* Supervisor 소프트웨어 * -- Supervisor 소프트웨어는 소프트웨어가 실행되는 컨트롤러의 가상 머신입니다.</block>
-  <block id="672f902afa2aa052ec3b55b9e3e0dfc2" category="image-alt">sam1130 DWG 업그레이드 펌웨어 위치</block>
   <block id="d44c72698d05ea141ed24d5313992baa" category="paragraph">^1^컨트롤러 쉘프;^2^드라이브 쉘프;^3^소프트웨어, 컨트롤러 펌웨어, 컨트롤러 NVSRAM, 감독자 소프트웨어;^4^드라이브 펌웨어;^5^IOM 펌웨어;^6^드라이브 펌웨어</block>
   <block id="f13ad633a10532a718e640963e25ba41" category="paragraph">소프트웨어 및 펌웨어 인벤토리 대화 상자에서 현재 소프트웨어 및 펌웨어 버전을 볼 수 있습니다. 지원 [업그레이드 센터] 메뉴로 이동한 다음 * 소프트웨어 및 펌웨어 인벤토리 * 링크를 클릭합니다.</block>
   <block id="521132bf11403dff3ed68f00e8e5203a" category="inline-link">NetApp 상호 운용성 매트릭스 툴</block>
@@ -467,11 +458,9 @@
   <block id="fb7e65669e5874b9e0b75fbd623f7da4" category="paragraph">드라이브 펌웨어의 온라인 업그레이드 중에 빠른 재구성 프로세스 중에 볼륨 전송이 발생하면 시스템은 전송된 볼륨에서 전체 재구성을 시작합니다. 이 작업에는 상당한 시간이 걸릴 수 있습니다. 실제 전체 재구성 시간은 재구성 작업 중 발생하는 I/O 활동 양, 볼륨 그룹의 드라이브 수, 리빌드 우선순위 설정 및 드라이브 성능 등 여러 요소에 따라 달라집니다.</block>
   <block id="0053cb3da5cd9357da42c9285388e7c5" category="summary">SANtricity 시스템 관리자는 다음 단계를 수행하여 컨트롤러 소프트웨어 및 펌웨어를 업그레이드할 수 있습니다.</block>
   <block id="638e87c9a312fe766009341e23b4dbd4" category="doc">컨트롤러 소프트웨어 및 펌웨어 업그레이드를 위한 워크플로우</block>
-  <block id="361638f3fa2ab614b999cb442c3951ea" category="image-alt">sam1130 Flw 펌웨어 업그레이드</block>
   <block id="53f6e38bfb8737cd78f3afe40356d59e" category="summary">SANtricity 시스템 관리자에서 다음 단계를 수행하여 AutoSupport 기능을 구성합니다.</block>
   <block id="abcd71b1bdd83d175115a06e7bd6993c" category="doc">AutoSupport 기능의 워크플로</block>
   <block id="fa1ad6ca18787ce10b28e8361e9f1ad1" category="paragraph">System Manager에서 다음 단계를 수행하여 AutoSupport 기능을 구성합니다.</block>
-  <block id="3bd2ffe663bb769bb020a0e8f968a73a" category="image-alt">sam1130 Flw는 ASUP 설정을 지원합니다</block>
   <block id="b2d4b96a56de336af6183c3c3ca96077" category="summary">AutoSupport 유지 관리 창을 비활성화하여 오류 이벤트에 대한 티켓 자동 생성을 허용합니다. AutoSupport 유지 관리 창이 비활성화된 경우 스토리지 어레이는 AutoSupport를 사용하여 문제가 있는 경우 지원 케이스를 엽니다.</block>
   <block id="ccc1efeb0dcf8c187a812dfc3c4f8ac1" category="doc">AutoSupport 유지 보수 창을 비활성화합니다</block>
   <block id="0da69218a13ebfac913ebb21ce1861f6" category="list-text">AutoSupport 유지 관리 창 비활성화 * 를 선택합니다.</block>
@@ -602,10 +591,8 @@
   <block id="6b82b68ee8e8a0e879e030cb59f06c65" category="list-text">업그레이드할 파일을 선택하면 파일 이름과 크기가 나타납니다.</block>
   <block id="b4d85d3d8454e416a479e3769d949502" category="list-text">* 선택 사항: * 업그레이드할 SANtricity OS 소프트웨어 파일을 선택한 경우 지금 파일 전송 * 확인란을 선택하여 활성화하지 않고 컨트롤러로 파일을 전송할 수 있습니다(나중에 업그레이드 활성화) *.</block>
   <block id="ea05f78407f270e18e03bc081fe2f071" category="paragraph">업그레이드 전 상태 점검 중에는 작업을 취소할 수 있지만 전송 또는 활성화 중에는 취소할 수 없습니다.</block>
-  <block id="46b89af2910d7de7887ff8b8413a9c3c" category="summary">AutoSupport 기능은 기술 지원 부서에 AutoSupport 디스패치를 제공하기 위한 HTTPS, HTTP 및 SMTP 프로토콜을 지원합니다.</block>
   <block id="bc878a19fc67131e8323da1e755255c2" category="doc">AutoSupport 기능의 전달 방법을 구성하려면 어떻게 합니까?</block>
   <block id="3419a57dc78279b5f8f98de3be93468b" category="list-text">* 선택 사항. 구성 테스트를 수행하려는 경우. * AutoSupport 시스템이 테스트 디스패치를 받을 때 확인을 보내는 이메일 주소입니다.</block>
-  <block id="e35d3866f0babedb61a0f1ba9102cafd" category="doc">SANtricity 시스템 관리자 11.7</block>
   <block id="86a5e8630ff2e8e28a803ee84068ba6d" category="summary">오류 상태의 복구를 위해 수정 조치가 취해졌음을 컨트롤러에 표시할 수 있습니다.</block>
   <block id="78806e8c631b37f7ad8cf035c7be2eac" category="doc">드라이브 포트를 다시 활성화합니다</block>
   <block id="fb3b0604ba7738bb6c94dfbfcd5c4174" category="list-text">드라이브 포트 다시 활성화 * 를 선택하고 작업을 수행할지 확인합니다.</block>
@@ -933,9 +920,7 @@
   <block id="f42ab20723d88e6ffea883aa8f45d665" category="summary">System Manager에서 다음 단계를 수행하여 스냅샷 이미지와 스냅샷 볼륨을 생성할 수 있습니다.</block>
   <block id="b4dcc45d10b6e6d4ae1dc448b727db43" category="doc">스냅샷 이미지 및 스냅샷 볼륨 생성 워크플로우</block>
   <block id="a97efe42ec88f5615739c5ebf0085fd8" category="section-title">스냅샷 이미지 생성 워크플로</block>
-  <block id="ef8bf440f203714f31690f3269f2a3be" category="image-alt">sam1130 Flw 스냅샷은 ss 이미지를 생성합니다</block>
   <block id="bb41f61d9b53608a25e359fed048aa2f" category="section-title">스냅샷 볼륨 생성 워크플로우입니다</block>
-  <block id="12da876cc8c4d30e71fe2566936ae1bc" category="image-alt">sam1130 Flw 스냅샷은 ss 볼륨을 생성합니다</block>
   <block id="c104faa4e49e8bffe70f2b9aac16e76f" category="summary">스토리지 시스템과 데이터 서버 간의 접속을 정의하는 호스트 및 호스트 클러스터를 구성할 수 있습니다.</block>
   <block id="cd811d42b4b9e088e08c83bbb519cbf3" category="doc">호스트 및 호스트 클러스터 개요</block>
   <block id="2db1b7a20809af794fad4aa6fe91958b" category="section-title">호스트 및 호스트 클러스터란 무엇입니까?</block>
@@ -969,7 +954,6 @@
   <block id="2d14e3e7721fd1f9209015ea0e5f0a3d" category="doc">Snapshot 볼륨</block>
   <block id="65ecf2a2337dcf0c18a07aebad2467c3" category="paragraph">스냅샷 볼륨을 생성할 때 해당 볼륨을 __read-onl__y 또는 _read-write Accessible_로 지정할 수 있습니다.</block>
   <block id="6fae9866cf5b41c3c43499004314830d" category="paragraph">읽기 전용 스냅샷 볼륨을 생성할 때 예약된 용량을 추가할 필요가 없습니다. 읽기-쓰기 스냅샷 볼륨을 생성할 때 쓰기 액세스를 제공하려면 예약된 용량을 추가해야 합니다.</block>
-  <block id="0826f71e74c63bde050daa130916d6c1" category="image-alt">sam1130 DWG 스냅샷 볼륨 개요</block>
   <block id="9532d122b8f06dcd16ac244c1dc2cf91" category="paragraph">^1^기본 볼륨;^2^호스트;^3^읽기 전용 스냅샷 볼륨;^4^읽기-쓰기 스냅샷 볼륨;^5^ 예약된 용량</block>
   <block id="0119bd5e8a06e57edb9b364c59ac94ab" category="summary">SSD 드라이브는 용량의 일부가 할당되지 않은 경우 수명이 더 길고 쓰기 성능이 극대화됩니다.</block>
   <block id="f220b79cc4513584ba7d4bae43c90357" category="doc">풀의 최적화 용량은 얼마입니까?</block>
@@ -1284,7 +1268,6 @@
   <block id="0f5df647ca5dab4ee03a26732709068f" category="list-text">풀에서 허용되는 최대 볼륨 수는 스토리지 시스템 모델에 따라 다릅니다.</block>
   <block id="4c54c92d3510c01a7395053d83e94ed9" category="list-text">2,048 볼륨(EF600 및 E5700 시리즈)</block>
   <block id="aff83888aa4f8769518fc32e759fbbe3" category="list-text">1,024개 볼륨(EF300)</block>
-  <block id="bbacc09876e48d4a13adc409b0903156" category="list-text">512 볼륨(E2800 시리즈)</block>
   <block id="05b93f6f166f69fe87a016a1bfa75578" category="list-text">풀 또는 볼륨 그룹에 모든 보안 가능 드라이브가 포함되어 있는 경우, 보안 가능 드라이브의 암호화 기능을 계속 사용할 수 있는 안전한 드라이브만 추가합니다.</block>
   <block id="3cebaa2c5445065ae59be02b02aebe90" category="paragraph">보안이 가능한 드라이브는 FDE(전체 디스크 암호화) 드라이브 또는 FIPS(Federal Information Processing Standard) 드라이브일 수 있습니다.</block>
   <block id="f62b6a7943693e0c4263ed7095ad9c21" category="paragraph">풀의 경우 한 번에 최대 60개의 드라이브를 추가할 수 있습니다. 볼륨 그룹의 경우 한 번에 최대 2개의 드라이브를 추가할 수 있습니다. 최대 드라이브 수보다 많은 드라이브를 추가해야 하는 경우 이 절차를 반복합니다. 풀은 스토리지 시스템의 최대 제한보다 많은 드라이브를 포함할 수 없습니다.</block>
@@ -1534,7 +1517,6 @@
   <block id="cb3a5458bc09e67d6ef6ce205d17d738" category="paragraph">a_base volume_은 스냅샷 이미지의 소스로 사용되는 볼륨입니다. 기본 볼륨은 일반 볼륨이거나 씬 볼륨일 수 있으며 풀 또는 볼륨 그룹에 상주할 수 있습니다.</block>
   <block id="1720719bd157b93b853ddc78630f4791" category="paragraph">기본 볼륨의 스냅샷을 생성하려면 언제든지 인스턴트 이미지를 생성하거나 스냅샷에 대한 정기적인 스케줄을 정의하여 프로세스를 자동화할 수 있습니다.</block>
   <block id="60d9df749d5dab9aa5752ca06b11d535" category="paragraph">다음 그림에서는 스냅샷 개체와 기본 볼륨 간의 관계를 보여 줍니다.</block>
-  <block id="3c42e408027c4d66c652218a672a0fe9" category="image-alt">sam1130 DWG 스냅샷 이미지 개요</block>
   <block id="949c7d49ab9f67bc9d5777be798b8db7" category="paragraph">^1^기본 볼륨;^2^그룹의 스냅샷 개체(이미지 및 예약된 용량);^3^스냅샷 그룹에 예약된 용량입니다.</block>
   <block id="1e6dcc27b41dd29b57867b26a6a96089" category="section-title">예약된 용량 및 스냅샷 그룹</block>
   <block id="26ec84fa5045ca48c0f10d38ca70a090" category="paragraph">System Manager는 스냅샷 이미지를 _ 스냅샷 그룹 _ 으로 구성합니다. System Manager에서 스냅샷 그룹을 설정하면 해당 그룹에 대한 스냅샷 이미지를 유지하고 추가 스냅샷에 대한 후속 변경 사항을 추적하기 위해 associated_reserved capacity_를 자동으로 생성합니다.</block>
@@ -1558,7 +1540,6 @@
   <block id="dc5cedd32cc74ed1dd3f0b48fe2065c3" category="paragraph">풀 및 볼륨 그룹 * 에서 보존 용량을 변경할 수 있습니다. 편집할 풀을 선택합니다. 설정 보기/편집 * 을 클릭한 다음 * 설정 * 탭을 선택합니다.</block>
   <block id="5f1d6366c7ffd99ff1b7c5f05e692914" category="paragraph">보존 용량은 풀의 드라이브에 실제 보존 용량이 분산되어 있더라도 여러 드라이브로 지정됩니다.</block>
   <block id="46c0ce9f7787b7e7378014c3a3284d40" category="summary">다음 그림에서는 호스트 액세스를 구성하는 방법을 보여 줍니다.</block>
-  <block id="5b21f20110107659dd5875988b3409f2" category="image-alt">sam1130 Flw 호스트는 호스트를 생성합니다</block>
   <block id="122f46bed4564e906a8313a3e36d3a7f" category="summary">선택한 볼륨 그룹에 하나 이상의 사용 가능한 용량 영역이 있을 수 있습니다. 사용 가능한 용량 영역은 볼륨 삭제 또는 볼륨 생성 중 사용 가능한 모든 용량을 사용하지 않함으로 인해 발생할 수 있는 사용 가능한 용량입니다.</block>
   <block id="829adcf34027420aed066d1231af1c87" category="doc">볼륨 그룹에 볼륨을 생성할 충분한 가용 용량이 있는 경우 용량 초과 할당 오류가 발생하는 이유는 무엇입니까?</block>
   <block id="5d3f0d326f2cb1c02cf46b35d7f72e22" category="paragraph">하나 이상의 사용 가능한 용량 영역이 있는 볼륨 그룹에서 볼륨을 생성할 때 볼륨의 용량은 해당 볼륨 그룹에서 가장 큰 사용 가능한 용량 영역으로 제한됩니다. 예를 들어, 볼륨 그룹의 사용 가능한 용량이 총 15GiB이고 사용 가능한 최대 용량 영역이 10GiB인 경우 생성할 수 있는 최대 볼륨은 10GiB입니다.</block>
@@ -3367,7 +3348,6 @@
   <block id="ba2db905416fb6910e44524f99d5d8c1" category="doc">씬 볼륨을 모니터링합니다</block>
   <block id="11922e324623e8ee6795b38fc97026aa" category="summary">SANtricity 시스템 관리자에서 다음 단계를 수행하여 볼륨을 생성할 수 있습니다.</block>
   <block id="26eaac99fa3741d6e7305e93cad51def" category="paragraph">System Manager에서 다음 단계를 수행하여 볼륨을 생성할 수 있습니다.</block>
-  <block id="8774cdb9b7bf373fd360b697dfc73074" category="image-alt">sam1130 Flw 볼륨 생성</block>
   <block id="fc6b23d453184949603cbf22152f962e" category="summary">기존 스냅샷 정합성 보장 그룹에 새 구성원 볼륨을 추가할 수 있습니다. 새 구성원 볼륨을 추가할 때 구성원 볼륨에 대한 용량도 예약해야 합니다.</block>
   <block id="01b0c179dae25a98bc7821b695a8f95c" category="doc">스냅샷 정합성 보장 그룹에 구성원 볼륨을 추가합니다</block>
   <block id="a96fdc91a370dc452506e02ceb89f9b7" category="list-text">구성원 볼륨이 최적화되어야 합니다.</block>
@@ -3702,14 +3682,12 @@
   <block id="c256ddae26373a7f962ae46e150c1562" category="list-text">* 스냅샷 정합성 보장 그룹 롤백 * - 하나 이상의 볼륨을 롤백하는 데 사용할 수 있습니다.</block>
   <block id="29012892288d1b7c8f199a16332574cb" category="paragraph">롤백 중에 스냅샷 기능은 그룹의 모든 스냅샷 이미지를 보존합니다. 또한 I/O 작업이 필요한 경우 이 프로세스 중에 호스트가 기본 볼륨에 액세스할 수 있습니다.</block>
   <block id="de283d7a9098bcc219049cc5e14d0cc8" category="paragraph">롤백이 시작되면 백그라운드 프로세스가 기본 볼륨의 LBA(논리 블록 주소)를 스윕한 다음, 롤백 스냅샷 이미지에서 복구할 copy-on-write 데이터를 찾습니다. 기본 볼륨은 읽기 및 쓰기에 대해 호스트에서 액세스할 수 있으며 이전에 기록된 모든 데이터를 즉시 사용할 수 있기 때문에 롤백이 진행되는 동안 모든 변경 사항을 포함할 수 있을 만큼 예약된 용량 볼륨이 커야 합니다. 롤백이 완료될 때까지 데이터 전송은 백그라운드 작업으로 계속됩니다.</block>
-  <block id="5daf01f3f17796b27d7771d6cb582f2c" category="image-alt">sam1130 DWG 스냅샷 롤백 개요</block>
   <block id="743f86d79c37270dc505fe437c1f1c6c" category="paragraph">^1^기본 볼륨;^2^그룹의 스냅샷 개체;^3^스냅샷 그룹의 예약된 용량입니다</block>
   <block id="b351750a3483384d9ab2a934dc160e1e" category="summary">스토리지 용량을 할당하려면 스토리지 어레이에서 사용할 HDD(하드 디스크 드라이브) 또는 SSD(Solid State Disk) 드라이브가 포함될 풀 또는 볼륨 그룹을 생성합니다.</block>
   <block id="b2a1cbc18a64861cce318c44b2aa52f9" category="paragraph">물리적 하드웨어는 논리적 구성 요소로 프로비저닝되므로 데이터를 구성하고 쉽게 검색할 수 있습니다. 지원되는 그룹 유형에는 두 가지가 있습니다.</block>
   <block id="283176e6feb211f8532b2c7c9263cd08" category="list-text">풀</block>
   <block id="90b66a5ef079dd6fe113e4666b593730" category="list-text">RAID 볼륨 그룹</block>
   <block id="6b4c11beddbb9d9050898c59e3a7253a" category="paragraph">풀 및 볼륨 그룹은 스토리지 어레이에서 최상위 스토리지 단위이며, 드라이브 용량을 관리 가능한 여러 사업부로 나눕니다. 이러한 논리적 사업부 내에는 데이터가 저장되는 개별 볼륨 또는 LUN이 있습니다. 다음 그림은 이러한 개념을 보여 줍니다.</block>
-  <block id="bde5bcac86e6435e52adb5ab2ea9b873" category="image-alt">sam1130 DWG 볼륨은 구조 풀 및 볼륨 그룹을 구동합니다</block>
   <block id="102f77a09364193fdbcfe0eb0664ecdb" category="paragraph">^1^호스트 LUN;^2^볼륨;^3^볼륨 그룹 또는 풀;^4^HDD 또는 SSD 드라이브</block>
   <block id="9bb34d4088b730e51b652e6baa391ce1" category="paragraph">스토리지 시스템을 구축할 때 첫 번째 단계는 다음을 통해 사용 가능한 드라이브 용량을 다양한 호스트에 제공하는 것입니다.</block>
   <block id="161f7520d335e2bd5a9c12746d44848c" category="list-text">용량이 충분한 풀 또는 볼륨 그룹 생성</block>
@@ -3780,7 +3758,6 @@
   <block id="cf1d844a7c0925859af01a6a7723042e" category="paragraph">스냅샷이 생성될 때 스냅샷 기능은 다음과 같이 이미지 데이터를 저장합니다.</block>
   <block id="4d597b8796cba4c28f3bbfe445110674" category="list-text">스냅샷 이미지가 생성되면 기본 볼륨과 정확히 일치합니다. 스냅샷 기능은 쓰기 시 복사 기술을 사용합니다. 스냅샷을 생성한 후 기본 볼륨의 블록 또는 블록 세트에 처음으로 데이터를 쓰게 되면 새 데이터를 기본 볼륨에 쓰기 전에 원래 데이터가 예약된 용량으로 복제됩니다.</block>
   <block id="9dacefe95d818773369a9797ff2a929a" category="list-text">후속 스냅샷에는 변경된 데이터 블록만 포함됩니다. 기본 볼륨에서 데이터를 덮어쓰기 전에 스냅샷 기능은 copy-on-write 기술을 사용하여 영향을 받는 섹터의 필요한 이미지를 스냅샷 예약 용량에 저장합니다.</block>
-  <block id="1886962b4901912e6cd5b15cf8ec8801" category="image-alt">sam1130 DWG 스냅샷 COW 개요</block>
   <block id="939b092d6e7a8a3b4a205c55c9e2ae72" category="paragraph">^1^기본 볼륨(물리 디스크 용량);^2^스냅샷(논리적 디스크 용량);^3^예약된 용량(물리 디스크 용량)</block>
   <block id="d47ce171ec06ec6f652ca0dd7e6f39ae" category="list-text">예약된 용량에는 스냅샷을 생성한 후 변경된 기본 볼륨의 일부에 대한 원본 데이터 블록이 저장되며 변경 내용 추적을 위한 인덱스가 포함됩니다. 일반적으로 예약된 용량의 크기는 기본 볼륨의 40%로 기본 설정됩니다. (예약된 용량이 더 필요한 경우 예약된 용량을 늘릴 수 있습니다.)</block>
   <block id="4049e112b53e70c18a06540b7b2c149e" category="list-text">스냅샷 이미지는 타임 스탬프를 기준으로 특정 순서로 저장됩니다. 기본 볼륨의 가장 오래된 스냅샷 이미지만 수동으로 삭제할 수 있습니다.</block>
@@ -3817,7 +3794,6 @@
   <block id="0df2c1ef0ce0fbcc26d3b077b4376a4c" category="paragraph">기본 볼륨에 대한 스냅샷을 자동으로 생성하려는 경우 스케줄을 생성할 수 있습니다. 예를 들어 매주 토요일 자정, 매월 첫째 날 또는 원하는 날짜 및 시간에 스냅샷 이미지를 생성하는 일정을 정의할 수 있습니다. 단일 스케줄에 대해 최대 32개의 스냅샷이 도달하면 예약된 스냅샷을 일시 중지하거나, 예약된 용량을 더 많이 생성하거나, 스냅샷을 삭제할 수 있습니다. 스냅샷은 수동으로 삭제하거나 삭제 프로세스를 자동화하여 삭제할 수 있습니다. 스냅샷 이미지가 삭제된 후에는 재사용을 위해 추가 예약 용량을 사용할 수 있습니다.</block>
   <block id="2698e3159f430fff009f6ab0419d150a" category="paragraph">스냅샷 정합성 보장 그룹은 여러 볼륨에서 동시에 스냅샷 이미지를 생성하려는 경우에 생성됩니다. 스냅샷 이미지 작업은 스냅샷 정합성 보장 그룹 전체에서 수행됩니다. 예를 들어 모든 볼륨의 동기화된 스냅샷을 동일한 타임스탬프로 예약할 수 있습니다. 스냅샷 정합성 보장 그룹은 한 볼륨에 로그를 저장하는 데이터베이스 애플리케이션, 다른 볼륨에 있는 데이터베이스 파일 등 여러 볼륨에 걸쳐 있는 애플리케이션에 이상적입니다.</block>
   <block id="17963740167151a850181d7e3b2adbf4" category="paragraph">스냅샷 정합성 보장 그룹에 포함된 볼륨을 구성원 볼륨이라고 합니다. 볼륨을 일관성 그룹에 추가하면 System Manager에서 해당 구성원 볼륨에 해당하는 예약된 새 용량을 자동으로 생성합니다. 각 구성원 볼륨의 스냅샷 이미지를 자동으로 생성하도록 일정을 정의할 수 있습니다.</block>
-  <block id="6e72b0870329f5e5695688a38e389963" category="image-alt">sam1130 DWG 스냅샷 정합성 보장 그룹 개요</block>
   <block id="6e30b92634e631be134cb29b1703e5d9" category="paragraph">^1^ 예약된 용량;^2^ 멤버 볼륨;^3^ 정합성 보장 그룹 스냅샷 이미지</block>
   <block id="1d4472085ff5c57f99260a8d83a61773" category="summary">일반적으로 볼륨이 잘못된 매개 변수 또는 용량으로 생성되었거나, 스토리지 구성 요구 사항을 더 이상 충족하지 않거나, 백업 또는 애플리케이션 테스트에 더 이상 필요하지 않은 스냅샷 이미지일 경우 볼륨을 삭제합니다.</block>
   <block id="2a5d42c6975b7c52552f8b0c2c053b53" category="doc">볼륨을 삭제합니다</block>
@@ -3952,38 +3928,23 @@
   <block id="0472921e1ddce2239a2bd92ea276d1c2" category="section-title">SANtricity 시스템 관리자</block>
   <block id="12491fe4846acc1919e62f4155149b40" category="paragraph">System Manager는 각 컨트롤러에 내장된 웹 기반 관리 소프트웨어입니다. 사용자 인터페이스에 액세스하려면 브라우저에서 컨트롤러의 IP 주소를 가리킵니다. 설치 마법사를 사용하면 시스템 구성을 시작할 수 있습니다.</block>
   <block id="e6f420d96363bcc9439b0954a152e61f" category="paragraph">System Manager는 다음과 같은 다양한 관리 기능을 제공합니다.</block>
-  <block id="37e0eabe0db7567f83a15c51cfc7f62b" category="paragraph"><block ref="61a24b2f3f51ec993b798d3c93abc9a9" category="inline-image-macro-rx" type="image"></block> * 성능 *</block>
   <block id="49ef72f729cb2500435ef1d7e5672053" category="paragraph">I/O 지연 시간, IOPS, CPU 활용률, 처리량을 비롯하여 최대 30일 성능 데이터를 봅니다.</block>
-  <block id="d077770f6c426b33d25496bb584152ca" category="paragraph"><block ref="2b8e9400dd2a90490b7f2301bce6baac" category="inline-image-macro-rx" type="image"></block> * 스토리지 *</block>
   <block id="987074589fc47a7aa68d608c3464d41a" category="paragraph">풀 또는 볼륨 그룹을 사용하여 스토리지를 프로비저닝하고 애플리케이션 워크로드를 생성합니다.</block>
-  <block id="ef25e758b013c77d331d54b5a937ca65" category="paragraph"><block ref="e82b0a1e1e2827556ee65463ed3047a4" category="inline-image-macro-rx" type="image"></block> * 데이터 보호 *</block>
   <block id="ec407aec27145b4ff02c44781ce9e135" category="paragraph">스냅샷, 볼륨 복사본 및 원격 미러링을 사용하여 백업 및 재해 복구를 수행합니다.</block>
-  <block id="980c8bebfcdb099cc91097e43759f417" category="paragraph"><block ref="1cfcec4b7f25019c12aee363ce7c9444" category="inline-image-macro-rx" type="image"></block> * 하드웨어 *</block>
   <block id="3a6878cac28e93bf631464503ea3e934" category="paragraph">구성 요소 상태를 확인하고 이러한 구성 요소와 관련된 일부 기능(예: 핫 스페어 드라이브 할당)을 수행합니다.</block>
-  <block id="f5c518a85015755d3396b4026585e075" category="paragraph"><block ref="7ff49474879db117ddc1b65a56fce106" category="inline-image-macro-rx" type="image"></block> * 경고 *</block>
   <block id="ddd62c374f39f4ab4e5a47f8712f1c7f" category="paragraph">스토리지 시스템에서 발생하는 중요한 이벤트에 대해 관리자에게 알립니다. 알림은 이메일, SNMP 트랩 및 syslog를 통해 보낼 수 있습니다.</block>
-  <block id="298faae53f1ac6f667f02b9eb9f5db62" category="paragraph"><block ref="8b3d1866c22370963ba5ee92059dde1f" category="inline-image-macro-rx" type="image"></block> * 액세스 관리 *</block>
   <block id="1647e643a86377bf1183456ade80f147" category="paragraph">사용자가 할당된 자격 증명을 사용하여 시스템에 로그인해야 하는 사용자 인증을 구성합니다.</block>
-  <block id="2181e90bce3fbba0064bba8979a73785" category="paragraph"><block ref="d7bb0967f8390bbd248bce2a64a154c4" category="inline-image-macro-rx" type="image"></block> * 시스템 설정 *</block>
   <block id="ad036b77d0c0303ed4cd8909da482696" category="paragraph">SSD 캐시 및 자동 로드 밸런싱과 같은 다른 시스템 성능 기능을 구성합니다.</block>
-  <block id="977cf952b67f04593161910be13ac423" category="paragraph"><block ref="a6a7b63c3e542eaa546ff069c241f75d" category="inline-image-macro-rx" type="image"></block> * 지원 *</block>
   <block id="7c7aa1597492a4229481882a3be47b81" category="paragraph">진단 데이터를 보고, 업그레이드를 관리하고, AutoSupport를 구성하여 스토리지 어레이의 상태를 모니터링하고, 자동 디스패치를 기술 지원 부서에 보냅니다.</block>
   <block id="93abfbfe31ac8cb67502c94e622ee8a8" category="section-title">SANtricity 유니파이드 관리자</block>
   <block id="290c862dcfeff5fefc8c9503485b46d9" category="paragraph">Unified Manager는 웹 서비스 프록시와 함께 관리 서버에 설치됩니다. Unified Manager에 액세스하려면 브라우저를 열고 웹 서비스 프록시가 설치된 서버를 가리키는 URL을 입력합니다.</block>
   <block id="95a409858014f8a46f2239633494b0b4" category="paragraph">Unified Manager는 다음과 같은 다양한 관리 기능을 제공합니다.</block>
-  <block id="ec15df373d2a99afa12ee47320a598ac" category="paragraph"><block ref="8d2259f5e99b0f05cb6565c4c3a18f32" category="inline-image-macro-rx" type="image"></block> * 스토리지 시스템을 검색합니다</block>
   <block id="7f20599d33f14ce1ff7f9b70fb7b73be" category="paragraph">조직의 네트워크에서 관리할 스토리지 어레이를 찾아 추가합니다. 그런 다음 단일 페이지에서 모든 스토리지 어레이의 상태를 볼 수 있습니다.</block>
-  <block id="b75af52589fb3d827f749ab189b58662" category="paragraph"><block ref="89f556efb7ed2a89297bc4c82965906f" category="inline-image-macro-rx" type="image"></block> * 출시 *</block>
   <block id="3fde700fe4a62ce78ac2289fa0a5e46e" category="paragraph">System Manager의 인스턴스를 열어 특정 스토리지 어레이에 대한 개별 관리 작업을 수행합니다.</block>
-  <block id="b6be670ccf213da236af7b81b5bfb3d2" category="paragraph"><block ref="3dffbd5d736527ecd51b6202313920e7" category="inline-image-macro-rx" type="image"></block> * 설정 가져오기 *</block>
   <block id="6343245a56c402a6a6194f98f3011e1c" category="paragraph">경고, AutoSupport 및 디렉토리 서비스에 대한 설정을 포함하여 하나의 스토리지 어레이에서 여러 어레이로 일괄 가져오기를 수행합니다.</block>
-  <block id="6e9864cc30786ef1aa9a05b3bcbc1f77" category="paragraph"><block ref="e82b0a1e1e2827556ee65463ed3047a4" category="inline-image-macro-rx" type="image"></block> * 미러링 *</block>
   <block id="b3bcc5301536e767580cb521ea8a9168" category="paragraph">두 스토리지 시스템 간에 비동기식 또는 동기식 미러링 쌍을 구성합니다.</block>
-  <block id="1bd3e4c10268fad374e342773a76ebe0" category="paragraph"><block ref="264f7a0a6d9627b72e0ff1e75bd955e1" category="inline-image-macro-rx" type="image"></block> * 그룹 관리 *</block>
   <block id="909ebd15eb02815e3d2963dd3edfd9f6" category="paragraph">스토리지 배열을 그룹으로 구성하여 보다 쉽게 관리할 수 있습니다.</block>
-  <block id="5e703a60d5f347789f2f9c95020041b5" category="paragraph"><block ref="948395b1a333fdf5713da99763fb9a82" category="inline-image-macro-rx" type="image"></block> * 업그레이드 센터 *</block>
   <block id="cadb34e6a3f0b6fef8b65f6b4f83fbd0" category="paragraph">여러 스토리지 어레이에서 SANtricity OS 소프트웨어를 업그레이드합니다.</block>
-  <block id="f2debbf0049c9d07a452e7b8f7f8512e" category="paragraph"><block ref="8e9d51ab38f1ad95d1018824362f594b" category="inline-image-macro-rx" type="image"></block> * 인증서 *</block>
   <block id="d4d6f2044fbcdd351a413cab792d2d9c" category="paragraph">CSR(인증서 서명 요청)을 생성하고 인증서를 가져오고 여러 스토리지 어레이에 대한 기존 인증서를 관리합니다.</block>
   <block id="121cd24338b48712373ab15539868779" category="paragraph">할당된 자격 증명을 사용하여 Unified Manager에 로그인해야 하는 사용자 인증을 구성합니다.</block>
   <block id="2267c82d1c72461539c8aaceb4073489" category="summary">SANtricity는 여러 유형의 브라우저 및 운영 체제에서 액세스할 수 있습니다.</block>
@@ -4130,12 +4091,8 @@
   <block id="8f67973007158337346584551b093be8" category="section-title">아이콘</block>
   <block id="e59947ee445b1ddcb1b36e841922561d" category="paragraph">System Manager에서는 이러한 아이콘을 사용하여 스토리지 배열 및 해당 구성 요소의 상태를 표시합니다.</block>
   <block id="817434295a673aed431435658b65d9a7" category="cell">아이콘을 클릭합니다</block>
-  <block id="01e8bed710d86952b17238abf140b392" category="paragraph"><block ref="01e8bed710d86952b17238abf140b392" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2a8cf90c6e77913075cd51690f39183a" category="paragraph"><block ref="2a8cf90c6e77913075cd51690f39183a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e6219fae40a2fc5edda2e7d21837dd11" category="paragraph">최적이 아니거나 실패했습니다</block>
-  <block id="8b05fcd83de6b1289431c5434b4cd1e4" category="paragraph"><block ref="8b05fcd83de6b1289431c5434b4cd1e4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4e5e827d704d9b760ff1b338673a2c44" category="paragraph">주의 또는 고치기 필요</block>
-  <block id="026dd9b4d4767dc7f75d65a335da0f71" category="paragraph"><block ref="026dd9b4d4767dc7f75d65a335da0f71" category="inline-image-macro-rx" type="image"></block></block>
   <block id="764a2caff05993fc0d3eff5de7b225e9" category="paragraph">주의</block>
   <block id="dab64d84f160f1ff1bd1dd11088b61a0" category="paragraph">System Manager는 이러한 아이콘을 다양한 위치에 표시합니다.</block>
   <block id="9acd806686dd3234546b1446cdcad0cf" category="list-text">홈 페이지의 알림 영역에 실패한 아이콘과 메시지가 표시됩니다.</block>
@@ -4203,7 +4160,6 @@
   <block id="38fdb2afc81bf942bd8dcf4208c5c967" category="summary">AutoSupport 제공 방법에 대한 구성 작업에 액세스하려면 지원 &gt; 지원 센터 로 이동한 다음 AutoSupport 탭을 클릭합니다.</block>
   <block id="6d145ddbb4b39d9e20b73518a03bfc4f" category="doc">AutoSupport에 대한 전달 방법을 구성하려면 어떻게 합니까?</block>
   <block id="cf5b6a8826dfd986bff2c61c9d14df01" category="paragraph">AutoSupport 제공 방법에 대한 구성 작업에 액세스하려면 지원 [지원 센터] 메뉴로 이동한 다음 * AutoSupport * 탭을 클릭합니다.</block>
-  <block id="825eddaaf48335688b9a86b051806f05" category="paragraph">HTTPS, HTTP 및 SMTP 프로토콜이 지원됩니다.</block>
   <block id="96830edba2b0d20286d9e38c88f41f0d" category="summary">하드웨어 확인 대화 상자에 모든 하드웨어 구성 요소가 표시되지 않으면 드라이브 쉘프가 올바로 연결되지 않았거나 스토리지 어레이에 호환되지 않는 쉘프가 설치되어 있는 것일 수 있습니다.</block>
   <block id="7a3b89af3b52c55d1f98c18d0f91e932" category="doc">내 하드웨어 구성 요소가 모두 표시되지 않으면 어떻게 합니까?</block>
   <block id="9446f92493638ff7ef1aefbdc315bdba" category="paragraph">하드웨어 확인 대화 상자에 모든 하드웨어 구성 요소가 표시되지 않으면 드라이브 쉘프가 올바로 연결되지 않았거나 스토리지 어레이에 호환되지 않는 쉘프가 설치되어 있는 것일 수 있습니다.</block>
@@ -5261,7 +5217,6 @@
   <block id="4a3f946a5d672e0a36f3e78716d815a7" category="list-text"><block ref="4a3f946a5d672e0a36f3e78716d815a7" category="inline-link-macro-rx"></block></block>
   <block id="a337faa8760a049e5437a14ea0619b53" category="list-text"><block ref="a337faa8760a049e5437a14ea0619b53" category="inline-link-macro-rx"></block></block>
   <block id="6a2301b626e4d2e000e656bf3239c947" category="section-title">서명된 인증서를 구성하려면 어떻게 합니까?</block>
-  <block id="df65c54a9ec9667bc0283e4aa5ad95a8" category="paragraph">먼저 System Manager에서 서명 요청을 생성한 다음 파일을 CA로 보냅니다. CA가 인증서 파일을 반환하면 System Manager를 사용하여 인증서 파일을 가져옵니다.</block>
   <block id="07b1dc7e9a4e74582b63a798f9592f98" category="inline-link-macro">컨트롤러에 CA 서명 인증서를 사용합니다</block>
   <block id="f30ef1f319818cb54733253443bc4c9a" category="list-text"><block ref="f30ef1f319818cb54733253443bc4c9a" category="inline-link-macro-rx"></block></block>
   <block id="b84682914017c3d657e4a2beaf4a9364" category="paragraph">인증서 관련 작업에 대해 자세히 알아보기:</block>
@@ -5470,7 +5425,6 @@
   <block id="3f6d42cf2d512ac8441835feb20c48df" category="list-text">키 서버에 연결 * 에서 다음 필드에 정보를 입력합니다.</block>
   <block id="e65d78a6632588942ba1e69897ae60a7" category="list-text">* 키 관리 포트 번호 * -- KMIP 통신에 사용되는 포트 번호를 입력합니다. 키 관리 서버 통신에 사용되는 가장 일반적인 포트 번호는 5696입니다.</block>
   <block id="faad8801d23a759f57b190bd195325f9" category="list-text">* 클라이언트 인증서 선택 * -- 첫 번째 * 찾아보기 * 버튼을 클릭하여 스토리지 배열 컨트롤러의 인증서 파일을 선택합니다.</block>
-  <block id="d73961b3c6886eb5d1b015bae50f3a4a" category="list-text">* 키 관리 서버의 서버 인증서 선택 * -- 두 번째 * 찾아보기 * 버튼을 클릭하여 키 관리 서버의 인증서 파일을 선택합니다. 키 관리 서버에 대한 루트, 중간 또는 서버 인증서를 선택할 수 있습니다.</block>
   <block id="eb604adb06c0a47290c764815fd73159" category="list-text">Create/Backup Key * 에서 보안을 위해 백업 키를 생성할 수 있습니다.</block>
   <block id="41706d1306339861705180e1825b2d9a" category="list-text">(권장) 백업 키를 만들려면 확인란을 선택한 상태로 두고 암호를 입력하고 확인합니다. 값은 8자에서 32자 사이여야 하며 다음 각 문자를 포함해야 합니다.</block>
   <block id="f8ee8cbfde4d939a5c373bfa17a57502" category="paragraph">* 나중에 사용할 수 있도록 항목을 기록해 두십시오 *. 스토리지 어레이에서 보안 지원 드라이브를 이동해야 하는 경우, 드라이브 데이터를 잠금 해제하려면 암호를 알아야 합니다.</block>
@@ -5587,7 +5541,6 @@
   <block id="a3fabc0295d776f26ee76798f5e7eecb" category="paragraph">먼저 CSR(인증서 서명 요청) 파일을 생성한 다음 CSR을 사용하여 키 관리 서버에서 신뢰할 수 있는 CA(인증 기관)로부터 서명된 클라이언트 인증서를 요청해야 합니다. 다운로드한 CSR 파일을 사용하여 키 관리 서버에서 클라이언트 인증서를 생성하고 다운로드할 수도 있습니다. 클라이언트 인증서는 스토리지 어레이 컨트롤러의 유효성을 검사하므로 키 관리 서버가 KMIP(Key Management Interoperability Protocol) 요청을 신뢰할 수 있습니다.</block>
   <block id="ee0d5d80706867e431096b62cf3c5e2a" category="list-text">키 관리 탭에서 * CSR 완료 * 를 선택합니다.</block>
   <block id="2c80d3f5692bbddd81bc83e7968f3387" category="list-text">다음 정보를 입력합니다.</block>
-  <block id="06c5a678917197769985500f5054ae39" category="list-text">* 공통 이름 * -- 인증서 파일에 표시될 스토리지 배열 이름과 같이 이 CSR을 식별하는 이름입니다.</block>
   <block id="f234c3b12dba6166f60bac9c363f54cc" category="list-text">* 조직 * -- 회사 또는 조직의 전체 법적 이름. Inc. 또는 Corp.와 같은 접미사를 포함합니다</block>
   <block id="69ac902b56aa279ba18618b1e6a972ae" category="list-text">* 조직 단위(선택 사항) * -- 인증서를 처리하는 조직의 사업부입니다.</block>
   <block id="f6a05afe4452342eb12066e4700bb036" category="list-text">* 시/군/구 * -- 조직이 위치한 시/군/구.</block>
@@ -5595,7 +5548,6 @@
   <block id="0210750d504f0f88eaea1d4942a4d806" category="list-text">* 국가 ISO 코드 * -- 귀하의 조직이 위치한 미국과 같은 두 자리 ISO(국제 표준화 기구) 코드입니다.</block>
   <block id="66d341303806090714534fa743e9440f" category="list-text">다운로드 * 를 클릭합니다.</block>
   <block id="9dfff367ea9fa51616b265ac4bd0119b" category="paragraph">CSR 파일이 로컬 시스템에 저장됩니다.</block>
-  <block id="edc5180b61662fc1be0150bd95564929" category="list-text">키 관리 서버에서 신뢰할 수 있는 CA로부터 서명된 클라이언트 인증서를 요청합니다.</block>
   <block id="d95c637329a7d9e40b647471e048deee" category="list-text">클라이언트 인증서가 있는 경우 로 이동합니다 <block ref="1f166b6040d8c5a8d4907b35fb575af0" category="inline-xref-macro-rx"></block>.</block>
   <block id="1603855b9dc7554f1873c8164f918999" category="section-title">2단계: 키 관리 서버의 인증서를 가져옵니다</block>
   <block id="06c92dfc8076f143375a4f0958f180b2" category="paragraph">다음 단계에서는 스토리지 어레이와 키 관리 서버 간에 인증을 위한 인증서를 가져옵니다. 인증서 유형에는 두 가지가 있습니다. 클라이언트 인증서는 스토리지 시스템의 컨트롤러를 검증하는 반면 키 관리 서버 인증서는 서버를 검증합니다. 컨트롤러의 클라이언트 인증서 파일과 키 관리 서버의 서버 인증서 파일을 모두 로드해야 합니다.</block>
@@ -5727,7 +5679,6 @@
   <block id="90370a06b1b0571260a5d4550fabea3e" category="paragraph">SSO(Single Sign-On)는 하나의 로그인 자격 증명 세트로 여러 응용 프로그램에 액세스할 수 있는 인증 서비스입니다.</block>
   <block id="e78959343eccc5753e5a6f69aa17e104" category="summary">외부 키 관리의 경우 두 엔터티가 서로 신뢰할 수 있도록 스토리지 배열과 키 관리 서버 간에 인증을 위해 두 가지 유형의 인증서를 가져옵니다.</block>
   <block id="6bb1fc83f2153c8e3dfddfa5b556e792" category="doc">외부 키 관리를 위해 System Manager에 업로드해야 하는 인증서를 어떻게 알 수 있습니까?</block>
-  <block id="21e61b7b89892f01884cffafc8c86a9c" category="paragraph">클라이언트 인증서는 스토리지 어레이 컨트롤러의 유효성을 검사하므로 키 관리 서버가 KMIP(Key Management Interoperability Protocol) 요청을 신뢰할 수 있습니다. 클라이언트 인증서를 얻으려면 System Manager를 사용하여 스토리지 배열에 대한 CSR을 완료합니다. 그런 다음 CSR을 키 관리 서버에 업로드하고 여기서 클라이언트 인증서를 생성할 수 있습니다. 클라이언트 인증서가 있으면 해당 파일을 System Manager에 액세스할 호스트에 복사합니다.</block>
   <block id="9a4b083823a7c4b7786c0328f4a16e2a" category="paragraph">키 관리 서버 인증서는 키 관리 서버의 유효성을 검사하므로 스토리지 배열이 해당 IP 주소를 신뢰할 수 있습니다. 키 관리 서버에서 서버 인증서 파일을 가져온 다음 System Manager에 액세스하는 호스트로 해당 파일을 복사합니다.</block>
   <block id="6157bc386a497dae1351826703950791" category="summary">감사 로그를 외부 syslog 서버에 보관하려는 경우 해당 서버와 스토리지 시스템 간의 통신을 구성할 수 있습니다. 연결이 설정되면 감사 로그가 syslog 서버에 자동으로 저장됩니다.</block>
   <block id="fbd96b600f11b3fec9c557321a19ac3a" category="list-text">서버에서 보안 프로토콜(예: TLS)을 사용하는 경우 로컬 시스템에서 인증 기관(CA) 인증서를 사용할 수 있어야 합니다. CA 인증서는 서버와 클라이언트 간의 보안 연결을 위해 웹 사이트 소유자를 식별합니다.</block>
@@ -5867,7 +5818,6 @@
   <block id="99bed7435706b520211df81bb3b833a1" category="paragraph">이벤트를 삭제합니다</block>
   <block id="60adb5288f069f5a086cbcc875d0a4de" category="paragraph">페이지에서 이전 이벤트를 제거할 수 있는 대화 상자를 열려면 * 삭제 * 를 선택합니다.</block>
   <block id="9ae16d2c540a91f8169558ca56bb3a04" category="paragraph">열 표시/숨기기</block>
-  <block id="0e5d8c77f64632d6949531c8786c2900" category="paragraph">표시/숨기기 * 열 아이콘을 클릭합니다 <block ref="95c275e82bb68f68f11a49bb34fc239c" category="inline-image-macro-rx" type="image"></block> 테이블에 표시할 추가 열을 선택합니다. 추가 열은 다음과 같습니다.</block>
   <block id="6e66f767222daf4c98d3fd8561adf903" category="list-text">* Method * -- HTTP 메서드(예: POST, GET, DELETE 등).</block>
   <block id="456081dd7e5bfc028ec74475ecf409dc" category="list-text">* CLI 명령 실행됨 * -- Secure CLI 요청에 대해 실행되는 CLI 명령(문법)</block>
   <block id="add1a37a426dc01049dba656a8fa8040" category="list-text">* CLI return Status * -- CLI 상태 코드 또는 클라이언트의 입력 파일 요청입니다.</block>
@@ -5876,9 +5826,7 @@
   <block id="2528c31e6b6280eb42137297929a7451" category="list-text">* SSH 세션 PID * -- SSH 세션의 프로세스 ID 번호입니다.</block>
   <block id="15b03dee8798d7cc05994bcb42c31990" category="list-text">* SSH 세션 지속 시간 * -- 사용자가 로그인한 시간(초)입니다.</block>
   <block id="510092612bcfdb2a09c7d8e879ec8e66" category="paragraph">열 필터를 전환합니다</block>
-  <block id="43608f7f822df1b119fb2f0861752bd0" category="paragraph">토글 * 아이콘을 클릭합니다 <block ref="c402d3ee0f3c0bdb6f04456c65416b8c" category="inline-image-macro-rx" type="image"></block> 각 열의 필터링 필드를 엽니다. 열 필드에 문자를 입력하여 해당 문자로 표시되는 이벤트를 제한합니다. 필터링 필드를 닫으려면 아이콘을 다시 클릭합니다.</block>
   <block id="f15903c586acb55eceb753ce38b6087a" category="paragraph">변경 내용을 취소합니다</block>
-  <block id="8c9faddbe29c40713a51a79ae22b6638" category="paragraph">실행 취소 * 아이콘을 클릭합니다 <block ref="d42b2137813f4ca554a17d50c37e9052" category="inline-image-macro-rx" type="image"></block> 를 눌러 테이블을 기본 구성으로 되돌립니다.</block>
   <block id="0095a9fa74d1713e43e370a7d7846224" category="paragraph">내보내기</block>
   <block id="4f5e62673b0e203ba449b54b3ace5662" category="paragraph">내보내기 * 를 클릭하여 테이블 데이터를 CSV(쉼표로 구분된 값) 파일에 저장합니다.</block>
   <block id="9ceb93faef5937a33e4566da3d171696" category="summary">액세스 관리의 경우 관리자는 스토리지 어레이에 적용된 RBAC(역할 기반 액세스 제어) 기능을 사용할 수 있습니다. 이러한 기능을 로컬 사용자 역할이라고 합니다.</block>
@@ -6236,7 +6184,6 @@
   <block id="ef8d855bb7b58eb13043f4697e633ed7" category="paragraph">컨트롤러가 특정 네트워크 포트에서 DHCP 주소를 얻을 수 없는 경우 기본 IP 주소로 복원되며 이 주소는 최대 3분이 걸릴 수 있습니다. 기본 IP 주소는 다음과 같습니다.</block>
   <block id="9dfbd8583086cdf43b044681817c83b8" category="paragraph">IP 주소 할당 시:</block>
   <block id="798c19059ebbea34781e20114772d59b" category="list-text">고객 지원을 위해 컨트롤러에 포트 2를 예약합니다. 기본 네트워크 설정(DHCP 사용)을 변경하지 마십시오.</block>
-  <block id="85a4e345071b9de80c11ae8d3fd44e88" category="list-text">E2800 및 E5700 컨트롤러의 정적 IP 주소를 설정하려면 SANtricity 시스템 관리자 를 사용합니다. E2700 및 E5600 컨트롤러의 정적 IP 주소를 설정하려면 SANtricity 스토리지 관리자를 사용하십시오. 정적 IP 주소를 구성한 후에는 모든 링크 다운/업 이벤트를 통해 설정된 상태로 유지됩니다.</block>
   <block id="631b8d83c6e19c17a00f6c995f136262" category="list-text">DHCP를 사용하여 컨트롤러의 IP 주소를 할당하려면 컨트롤러를 DHCP 요청을 처리할 수 있는 네트워크에 연결합니다. 영구 DHCP 임대를 사용합니다.</block>
   <block id="f0e8cd249b17b159ca6279e1cb49e5e9" category="paragraph">기본 주소는 링크 다운 이벤트 간에 유지되지 않습니다. 컨트롤러의 네트워크 포트가 DHCP를 사용하도록 설정된 경우 컨트롤러는 케이블 삽입, 재부팅 및 전원 주기를 포함하여 모든 연결 이벤트에서 DHCP 주소를 가져오려고 시도합니다. DHCP 시도가 실패할 때마다 해당 포트의 기본 정적 IP 주소가 사용됩니다.</block>
   <block id="792ded78d469f211955781b362cd4a6c" category="summary">지우기 옵션을 사용하여 시스템에서 제거할 할당되지 않은 드라이브를 준비할 수 있습니다. 이 절차에서는 데이터를 영구적으로 제거하여 데이터를 다시 읽을 수 없도록 합니다.</block>
@@ -6638,7 +6585,6 @@
   <block id="4ed64ffa453acd1e92cad2b525ddd94d" category="paragraph">드라이브에 장애가 발생하기 전에 드라이브의 내용을 복사해야 합니다. 구성에 따라 드라이브의 내용을 먼저 복사하지 않으면 연결된 풀 또는 볼륨 그룹의 모든 데이터 또는 데이터 중복성이 손실될 수 있습니다.</block>
   <block id="586a5fdfcf92424d25f4b58cb312a532" category="paragraph">복사 옵션을 사용하면 재구성 작업보다 더 빠르게 드라이브를 복구할 수 있으며 복사 작업 중에 다른 드라이브에 장애가 발생할 경우 볼륨 장애 가능성이 줄어듭니다.</block>
   <block id="6f82e7d1008117fb1e1468824b0d9db5" category="list-text">드라이브에 오류가 발생할지 확인합니다.</block>
-  <block id="d2f974d9ab2113f12a2d0912cae37b90" category="paragraph">드라이브에 오류가 발생한 후 30초 이상 기다린 후 제거하십시오.</block>
   <block id="0508fea0fd0869ac2976db620ff91876" category="summary">일부 문제는 컨트롤러 재설정(재부팅)이 필요합니다. 컨트롤러에 물리적으로 액세스할 수 없는 경우에도 컨트롤러를 재설정할 수 있습니다.</block>
   <block id="27c04524901764e9aff1f2a6d71b4680" category="doc">컨트롤러를 재설정(재부팅)합니다</block>
   <block id="75d907cbe87bbf0b6955b5a1da1c4aac" category="paragraph">일부 문제는 컨트롤러 재설정(재부팅)이 필요합니다. 컨트롤러에 물리적으로 액세스할 수 없는 경우에도 컨트롤러를 재설정할 수 있습니다.</block>
@@ -7297,7 +7243,6 @@
   <block id="6170b65edb40652e04798be920528567" category="section-title">비동기식 미러링 세션</block>
   <block id="8fb8d903583a69bb2f7020ec24064893" category="paragraph">비동기식 미러링은 특정 시점에 기본 볼륨의 상태를 캡처하고 마지막 이미지 캡처 이후 변경된 데이터만 복사합니다. 비동기식 미러링을 통해 운영 사이트를 즉시 업데이트하고 대역폭이 허용할 경우 2차 사이트를 업데이트할 수 있습니다. 네트워크 리소스를 사용할 수 있게 되면 정보가 캐시되어 나중에 전송됩니다.</block>
   <block id="19b4bf527badd2db202d583a7bd23286" category="paragraph">액티브 비동기식 미러링 세션에는 4가지 기본 단계가 있습니다.</block>
-  <block id="834ed858f1d2c14d8ca3f69c81de7838" category="image-alt">SAM 1130 DWG 비동기 미러링 세션</block>
   <block id="ea9236b1994427da950532ff1ad6ef63" category="list-text">쓰기 작업은 먼저 운영 볼륨의 스토리지 시스템에서 수행됩니다.</block>
   <block id="1d85d4b999c9737e96173727c950997a" category="list-text">작업 상태가 호스트로 반환됩니다.</block>
   <block id="97a3671a1a3bdec2619c9f84dcfc1dcb" category="list-text">운영 볼륨의 모든 변경 사항이 기록되고 추적됩니다.</block>
@@ -7367,7 +7312,6 @@
   <block id="319b2d26a90387684f3c24237199e24b" category="paragraph">동기식 미러링 관계는 운영 볼륨과 별도의 스토리지 어레이의 보조 볼륨으로 구성됩니다. 운영 볼륨이 포함된 스토리지 배열은 대개 운영 사이트에 있으며 활성 호스트를 제공합니다. 보조 볼륨이 포함된 스토리지 배열은 일반적으로 보조 사이트에 있으며 데이터 복제본을 보관합니다. 보조 볼륨은 완전한 정전, 화재 또는 운영 사이트의 하드웨어 장애 등으로 인해 운영 볼륨의 스토리지 어레이를 사용할 수 없는 경우에 사용됩니다.</block>
   <block id="bac2102a46114a248b31ff7c2e7e56c2" category="section-title">동기 미러링 세션</block>
   <block id="e4c003afc3c4a600e425c7d2982c0d93" category="paragraph">동기 미러링 구성 프로세스에는 볼륨을 쌍으로 구성하는 작업이 포함됩니다. 한 스토리지 어레이의 운영 볼륨과 다른 스토리지 어레이의 보조 볼륨으로 구성된 미러링된 쌍을 생성한 후 동기식 미러링을 시작할 수 있습니다. 다음은 동기 미러링의 단계입니다.</block>
-  <block id="15714a7f65c412a1a54f4b69a47c096c" category="image-alt">SAM 1130 DWG 동기화 미러링 세션</block>
   <block id="c491a6ad496588e8cb371fbe517667c6" category="list-text">쓰기가 호스트에서 제공됩니다.</block>
   <block id="f2ad71987234926489fc2a10094f0944" category="list-text">쓰기가 운영 볼륨에 커밋되고 원격 시스템으로 전파된 다음 보조 볼륨으로 커밋됩니다.</block>
   <block id="a6f33bea3a5bd85d4e296fd8831b9442" category="list-text">운영 볼륨의 스토리지 배열은 두 쓰기 작업이 성공적으로 완료된 후 호스트 시스템 _after_에 입출력 완료 메시지를 보냅니다.</block>
@@ -7738,7 +7682,6 @@
   <block id="d2bf6cf91aae10964c05d43904777ddb" category="inline-link-macro">E-Series 하드웨어 개요</block>
   <block id="44a8ec873829128f9b89b9d2c859f732" category="list-text">여기에 나열된 어레이 모델 중 하나: <block ref="c0f66568c89b9be3af203a2398d42823" category="inline-link-macro-rx"></block></block>
   <block id="ec9c3d4f5f976606ad31387919bcffe8" category="list-text">웹 브라우저를 사용하여 네트워크 관리 클라이언트에 대한 대역외 연결.</block>
-  <block id="cc4ea9328a87a53029aea9916fc48ae4" category="image-alt">single2800</block>
   <block id="64ad5e94a74bf470353e65e27ff90866" category="summary">스토리지 리소스를 관리하려면 먼저 네트워크에서 스토리지 어레이를 검색해야 합니다.</block>
   <block id="8c9906e9b68ac5cbea9bc2e08121491c" category="doc">검색 개요</block>
   <block id="9fd8f65508c1b98e29663a63890ced71" category="section-title">어레이를 어떻게 검색합니까?</block>
@@ -8012,7 +7955,6 @@
   <block id="fb725bcb780ec50b3fff7a6fcb931c54" category="list-text"><block ref="fb725bcb780ec50b3fff7a6fcb931c54" category="inline-link-rx"></block></block>
   <block id="effd8867201555d9e878c25e6ac1c734" category="inline-link">EMW(E2700, E5600/EF560) 도움말</block>
   <block id="a0b75c365d2e51a35e74402a2c9667cf" category="list-text"><block ref="a0b75c365d2e51a35e74402a2c9667cf" category="inline-link-rx"></block></block>
-  <block id="90e8ac6688c66ac3fc81de93ba27235a" category="summary">SANtricity 시스템 관리자 및 유니파이드 관리자</block>
   <block id="8a26f9c1af451d8775363a647445ae49" category="summary">액세스 관리는 SANtricity Unified Manager에서 사용자 인증을 구성하는 방법입니다.</block>
   <block id="d1cc45589c0084f17d53b1764541acde" category="paragraph">Access Management는 Unified Manager에서 사용자 인증을 구성하는 방법입니다.</block>
   <block id="41315c44be734de1ba40d7ac966572b8" category="paragraph">다음과 같은 인증 방법을 사용할 수 있습니다.</block>
@@ -8212,28 +8154,6 @@
   <block id="b744a434fdacfde74eb6273b780f3b83" category="list-text"><block ref="b744a434fdacfde74eb6273b780f3b83" category="inline-link-macro-rx"></block></block>
   <block id="78620fb7eda6cb105045681ab3541f53" category="list-text"><block ref="78620fb7eda6cb105045681ab3541f53" category="inline-link-macro-rx"></block></block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
-  <block id="0b008f21f9758b84909b95140b0a532d" category="sidebar">System Manager 인터페이스</block>
-  <block id="29ac086a960081d77daa677c24463af3" category="sidebar">Unified Manager 인터페이스</block>
-  <block id="e95315401141b931451e32ea694b6d92" category="sidebar">SANtricity 소프트웨어 데이터시트입니다</block>
-  <block id="421eeeca306bdf1873654f04f6d8e61e" category="sidebar">E-Series 문서</block>
-  <block id="b00771a05354ff5b2df1b388cfb6c874" category="sidebar">E-Series 시스템 문서</block>
-  <block id="06e7eb701ce804d46bd8c25ab5b395f0" category="sidebar">CLI(Command Line Interface) 참조</block>
-  <block id="8a47162648ffc3ff0cf630036d36f2d6" category="sidebar">SANtricity API</block>
-  <block id="92850b78bdc20bc1df259e9c026d1744" category="sidebar">웹 서비스</block>
-  <block id="e925850eee1d36b9012f5887fe6721da" category="sidebar">vCenter용 플러그인</block>
-  <block id="b7d21f40b4f600f6d264e065bfc2ef45" category="sidebar">SMI-S 공급자</block>
-  <block id="4ad3ac8fcad31828ef9c8a0f6e3612d1" category="sidebar">고성능 애플리케이션 애드온</block>
-  <block id="340bde3d9f9d57bac1774835ed1203cb" category="sidebar">Splunk Enterprise용 SANtricity 앱</block>
-  <block id="a9a95fb3e7f3ac479078e21d446253a8" category="sidebar">SANtricity용 Splunk 기술 애드온</block>
-  <block id="bb86e40f418d08cd8d7bbeec844246ad" category="sidebar">E-Series + Grafana를 사용한 성능 분석기</block>
-  <block id="78108480bada28e46fb2b45e1f33a4db" category="sidebar">E-Series Performance Analyzer에 대한 블로그</block>
-  <block id="958ff83dbf7d0240d610b02eded954cd" category="sidebar">SE용</block>
-  <block id="181d79a3e511e53525d453c7bfd76b1e" category="sidebar">E-Series/EF-Series 기술 교육(로그인 필요)</block>
-  <block id="5274593635fc2a3195c85eefd393e7e6" category="sidebar">EF300 개요 및 기술 세부 정보(로그인 필요)</block>
-  <block id="b7d6c20f0b34e1cb56ec4c6629bb1d94" category="sidebar">NetApp Fusion(로그인 필요)</block>
-  <block id="974ad78dc53c253ebfe5b2b8b376f353" category="sidebar">도구 지원</block>
-  <block id="2bae42f280067110dfd52cc69a468364" category="sidebar">Active IQ(로그인 필요)</block>
-  <block id="54708ac788109e3332a896f8d957e38f" category="sidebar">E-Series/SANtricity 다운로드(로그인 필요)</block>
   <block id="b191593bc602ff910417b3f85bb496ca" category="sidebar">설정</block>
   <block id="ba21515573d28200c3e7eae976812e72" category="sidebar">관리자 암호를 설정합니다</block>
   <block id="80b15187c4cef3c7dc145b12616a0357" category="sidebar">스토리지를 검색합니다</block>
@@ -8570,13 +8490,11 @@
   <block id="f033ab37c30201f73f142449d037028d" category="paragraph">80</block>
   <block id="aab3238922bcc25a6f606eb525ffdc56" category="paragraph">14</block>
   <block id="8613985ec49eb8f757ae6439e879bb2a" category="paragraph">90</block>
-  <block id="1cf9153cf0b1bfe4b703e41b4509763e" category="summary">SANtricity 유니파이드 관리자 6</block>
   <block id="d1b1ed9561d588b34b9b60028f6966b9" category="admonition">스토리지에 포함된 SAML(Security Assertion Markup Language) 기능을 사용하여 액세스 관리를 구성하는 경우 사용자의 SSO 세션이 최대 제한에 도달하면 세션 시간 초과가 발생할 수 있습니다. 이 문제는 System Manager 세션 시간이 초과되기 전에 발생할 수 있습니다.</block>
   <block id="cd038504338f9921b8afe6d5ed6c6232" category="paragraph">EF600 또는 EF300 스토리지 시스템에서는 동기식 미러링을 사용할 수 없습니다.</block>
   <block id="b84bb83d3d8cd48ddc066fe0c6d41ead" category="paragraph">EF600 또는 EF300 스토리지 어레이에서는 동기식 미러링을 사용할 수 없습니다.</block>
   <block id="56bdcfc544aad0bd6521d9f11a6f56dd" category="admonition">EF600 및 EF300 컨트롤러의 경우 비동기식 미러링 쌍의 운영 볼륨과 2차 볼륨이 동일한 프로토콜, 트레이 레벨, 세그먼트 크기, 보안 유형 및 RAID 레벨과 일치해야 합니다. 사용 가능한 볼륨 목록에 비적격한 비동기 미러링 쌍이 나타나지 않습니다.</block>
   <block id="2df1194323f38bb1b30fdb6a9b3d4da3" category="paragraph">EF600 또는 EF300 스토리지 시스템의 동기식 미러링에는 이 기능을 사용할 수 없습니다.</block>
-  <block id="050910c569f1cb9044086ceee795e2f8" category="doc">SANtricity 시스템 관리자 11.8</block>
   <block id="ada2454c6d83cd46018f8d1e49aa4123" category="paragraph">동기식 미러링은 EF300 또는 EF600 스토리지 어레이에서 사용할 수 없습니다.</block>
   <block id="ecd6161dde3044403e9aa37dc3bc6ee3" category="paragraph">예 ^3^</block>
   <block id="770594fef329f8bc4364a508f0a7d73a" category="paragraph">^1^ 타겟 볼륨의 용량이 씬 볼륨에서 보고된 용량과 같거나 커야 합니다.</block>
@@ -8588,7 +8506,6 @@
   <block id="9e6fb4471f8afc13fc87e4a085a3babb" category="admonition">볼륨 설정을 변경하는 동안 일부 작업을 사용할 수 없습니다</block>
   <block id="fd00f06afe550f6cfb8040bc3764c3f4" category="list-text">SSD Cache는 데이터를 캐시에 저장하여 전체 시스템 성능을 향상하는 경우에만 사용됩니다.</block>
   <block id="b2e269fa841df7525e9667d4a248ed9a" category="paragraph">SSD에서 읽기 전용 캐싱을 설정하려면 이 옵션을 선택합니다.</block>
-  <block id="319de80f12a723289ba5d8bb3571caa8" category="doc">System Manager 11.8을 사용한 단일 어레이 관리</block>
   <block id="4da78d22f1b5a94a1c267b5b01354570" category="summary">필요한 경우 스토리지 배열에 대한 서비스 공급자 메타데이터를 내보내고 해당 파일을 IdP(Identity Provider) 시스템으로 다시 가져올 수 있습니다.</block>
   <block id="59fbf0c7e58119d248743b557a6f57e7" category="paragraph">이 작업에서는 컨트롤러에서 메타데이터를 내보냅니다. IDP는 컨트롤러와 신뢰 관계를 설정하고 인증 요청을 처리하기 위해 이 메타데이터가 필요합니다. 이 파일에는 IDP가 요청을 보내는 데 사용할 수 있는 컨트롤러 도메인 이름 또는 IP 주소와 같은 정보가 포함되어 있습니다.</block>
   <block id="7050266ad7bc7b4de9d49fa25a2e04d7" category="list-text">내보내기 * 를 클릭하여 메타데이터 파일을 로컬 시스템에 저장합니다.</block>
@@ -8623,52 +8540,16 @@
   <block id="8fced73c31ae4d255ba5500bd98c8d76" category="paragraph">SAML(Security Assertion Markup Language)은 두 개체 간의 인증 및 승인을 위한 XML 기반 표준입니다. SAML을 사용하면 다중 요소 인증을 수행할 수 있습니다. 사용자는 ID를 입증하기 위해 두 개 이상의 항목(예: 암호 및 지문)을 제공해야 합니다. 스토리지의 내장된 SAML 기능은 ID 어설션, 인증 및 권한 부여에 대해 SAML2.0을 준수합니다.</block>
   <block id="25e21eea77a06faadbc2ce2007dfd8fa" category="paragraph">SAML이 활성화되어 있는 동안에는 권한을 제거하지 않도록 주의하십시오. 그렇지 않으면 Unified Manager에 액세스할 수 없게 됩니다.</block>
   <block id="bdf60d91552728cd5d2f943df141631b" category="paragraph">필드를 클릭하고 속성에 매핑할 스토리지 시스템의 역할 중 하나를 선택합니다. 이 그룹에 포함할 각 역할을 개별적으로 선택해야 합니다. Monitor 역할은 Unified Manager에 로그인하기 위한 다른 역할과 함께 필요합니다. 보안 관리자 역할은 하나 이상의 그룹에 할당해야 합니다. 매핑된 역할에는 다음 권한이 포함됩니다.</block>
-  <block id="84f60aaee7374184081d849821cae03b" category="doc">SANtricity OS 11.80의 새로운 기능</block>
-  <block id="b88fbe45e9e75bdd6c5127ce8a22abe1" category="section-title">버전 11.80의 새로운 기능</block>
-  <block id="8f407366493ebfbb4a6dec746e7c89f5" category="paragraph">향상된 볼륨 패리티 검사</block>
-  <block id="07c3c6708618172f589685373ed71a5d" category="paragraph">이제 REST API 또는 CLI를 통해 볼륨 패리티 검사를 백그라운드 프로세스로 시작할 수 있습니다. 결과 패리티 검사는 스캔 작업을 완료하는 데 필요한 한 백그라운드에서 실행됩니다. 스캔 작업은 컨트롤러 재부팅 및 페일오버 작업에 영향을 줍니다.</block>
-  <block id="b9a173a4a6a7b368e4cd4fde15879372" category="paragraph">Unified Manager에 대한 SAML 지원</block>
-  <block id="dc505118a542aefe283668ff60bf1633" category="paragraph">Unified Manager는 이제 SAML(Security Assertion Markup Language)을 지원합니다. Unified Manager에 대해 SAML이 활성화된 경우 사용자는 ID 공급자에 대해 다중 요소 인증을 사용하여 사용자 인터페이스와 상호 작용해야 합니다. SAML이 Unified Manager에서 활성화된 후에는 IDP를 통해 요청을 인증하지 않고 REST API를 사용할 수 없습니다.</block>
-  <block id="43a12a9165de329d02388e8e878f20ca" category="paragraph">자동 구성 기능</block>
-  <block id="ef6a29a31f9fb810c02278975cd6cd39" category="paragraph">이제 초기 어레이 설정을 위해 자동 구성 기능과 함께 사용할 볼륨 블록 크기 매개 변수를 설정하는 기능이 지원됩니다. 이 기능은 CLI에서만 "blocksize" 매개 변수로 사용할 수 있습니다.</block>
-  <block id="017965dda869643c4d632c18853208a2" category="paragraph">컨트롤러 펌웨어 암호화 서명</block>
-  <block id="f9b1cc083f0890b8fff17a83a0360f47" category="paragraph">컨트롤러 펌웨어가 암호로 서명됩니다. 서명은 초기 다운로드 및 각 컨트롤러 부팅 중에 검사됩니다. 최종 사용자에게 미치는 영향이 예상되지 않습니다. 서명은 CA에서 발급한 Extended Validation 인증서를 통해 백업됩니다.</block>
-  <block id="637780f8b22fe474ce198ef516dd7d6f" category="paragraph">드라이브 펌웨어 암호화 서명</block>
-  <block id="a8c2ab0b22d074faf460a15d6648a3e7" category="paragraph">드라이브 펌웨어가 암호로 서명되었습니다. 서명은 초기 다운로드 중에 확인되며 CA에서 발급한 Extended Validation 인증서를 통해 백업됩니다. 이제 드라이브 펌웨어 컨텐츠가 ZIP 파일로 전달되며, 여기에는 기존의 서명되지 않은 펌웨어와 새로 서명된 펌웨어가 포함됩니다. 사용자는 대상 시스템에서 실행 중인 코드의 릴리스 버전을 기반으로 적절한 파일을 선택해야 합니다.</block>
-  <block id="3c65e3636111523111e45a49a80face3" category="paragraph">외부 키 서버 관리 - 인증서 키 크기</block>
-  <block id="406774a2d5f641d5566318ef7eb88033" category="paragraph">새 기본 인증서 키 크기는 3072비트(2048비트)입니다. 최대 4096비트의 키 크기가 지원됩니다. 기본값이 아닌 키 크기를 지원하려면 NVSRAM 비트를 변경해야 합니다.</block>
-  <block id="9a1c6a24950fba4eade84dc9952a77dd" category="paragraph">최소 브라우저 요구 사항이 충족되지 않으면 System Manager 및 Unified Manager가 실행되지 않습니다</block>
-  <block id="09a616fc9241625ec6003f2da3c0cff9" category="paragraph">System Manager 또는 Unified Manager를 실행하기 전에 브라우저의 최소 버전이 필요합니다. 다음은 지원되는 최소 버전입니다.</block>
-  <block id="6cdb1f943282038a6441359c5c88f812" category="list-text">Firefox 최소 버전 80</block>
-  <block id="773389fc57f11b52dbe4c622adc51a3b" category="list-text">Chrome 최소 버전 89</block>
-  <block id="2ac44b1b15c0ea01cbb812f5c6cf9b1e" category="list-text">모서리 최소 버전 90</block>
-  <block id="3534d42485ecd595e87248bbb2c6fb1b" category="list-text">Safari 최소 버전 14</block>
-  <block id="bb4e0c918ecc32e775e010bc9f6eff59" category="paragraph">FIPS 140-3개 NVMe SSD 드라이브 지원</block>
-  <block id="eca8285b82a553e8fbe1803bfdeced3e" category="paragraph">이제 NetApp 인증 FIPS 140-3의 NVMe SSD 드라이브가 지원됩니다. 스토리지 어레이 프로필 및 System Manager에서 올바르게 식별됩니다.</block>
-  <block id="fb8aaa0a635cb460bcf41d9303fca571" category="paragraph">EF300 및 EF600에서 SSD 읽기 캐시 지원</block>
-  <block id="14d2cdc88c041d0313b6c691ee27338f" category="paragraph">이제 SAS 확장 시 HDD를 사용하는 EF300 및 EF600 컨트롤러에서 SSD 읽기 캐시가 지원됩니다.</block>
-  <block id="8a00db0b101a6946d9caffef7979d8c4" category="paragraph">EF300 및 EF600에서 iSCSI 및 파이버 채널 비동기 원격 미러링 지원</block>
-  <block id="8ea61c04007ddc1b703be50a63a1b3ee" category="paragraph">이제 ARVM(비동기식 원격 미러링)이 NVMe 및 SAS 기반 볼륨을 사용하는 EF300 및 EF600 컨트롤러에서 지원됩니다.</block>
-  <block id="d99731ca7d5c671cea9d584100385335" category="paragraph">기본 트레이에 드라이브 없이 EF300 및 EF600 지원</block>
-  <block id="65c8d39e2e73985a77ff0c8a61c30608" category="paragraph">이제 기본 트레이에 NVMe 드라이브가 없는 EF300 및 EF600 컨트롤러 구성이 지원됩니다.</block>
-  <block id="248bd33e5007bccdca76e9d0459df99c" category="paragraph">모든 플랫폼에 대해 USB 포트가 비활성화되었습니다</block>
-  <block id="3ea3899fea5b85d0cc4b9b3bf6291d51" category="paragraph">이제 모든 플랫폼에서 USB 포트가 비활성화되었습니다.</block>
   <block id="1c0cc3436484a2d69e30cbe7f637d3ed" category="paragraph">포트 식별자입니다</block>
   <block id="f3623da9f6be936979297f1fa268895c" category="paragraph">이벤트 모니터는 경고 가능 이벤트가 발생할 때마다 syslog 서버에 경고를 보냅니다. 감사 로그에 대한 syslog 설정을 추가로 구성하려면 을 참조하십시오<block ref="8ff4ea61d8cfa4d348011e356d65d49a" category="inline-link-rx"></block>.</block>
   <block id="30af9425adf237457aaff58f7cb21bc9" category="paragraph">구성 후 모든 새 감사 로그가 syslog 서버로 전송됩니다. 이전 로그는 전송되지 않습니다. 경고에 대한 syslog 설정을 추가로 구성하려면 를 참조하십시오<block ref="7b44e3078f5548e67f8cbe8894b93e12" category="inline-link-rx"></block>.</block>
-  <block id="c76b2a182c36f1230239bad4c28112a3" category="doc">SANtricity 소프트웨어 설명서 11.80</block>
-  <block id="3260e793a72a8ad4c6f8b10665ca25ac" category="doc">Unified Manager 6를 사용하여 다중 어레이 관리</block>
   <block id="8067406a66fe34c09bf78be3e6ae6fc1" category="list-text">System Manager -- 네트워크에서 개별 스토리지 어레이를 관리하는 데 사용되는 웹 기반 인터페이스입니다.</block>
   <block id="9cd5d105b8b19ef4ba01cc21ecc14cdc" category="admonition">EF600 및 EF300 스토리지 어레이는 동기식 미러링 또는 씬 볼륨을 지원하지 않습니다.</block>
-  <block id="c717e9da08557631ce6af0db7935e837" category="paragraph">Unified Manager는 전체 도메인을 관리하는 데 사용되는 웹 기반 소프트웨어입니다. 중앙 뷰에서 E2800, EF280, EF300, E5700, EF570, 기타 최신 E-Series 및 EF-Series 어레이의 상태를 확인할 수 있습니다. EF600을 지원합니다. 선택한 스토리지 배열에 대해 배치 작업을 수행할 수도 있습니다.</block>
   <block id="f3e5a6d7f7194a35f77d2084efb9ef4f" category="paragraph">드라이브, 컨트롤러 및 구성 요소 보기</block>
   <block id="3354319c9dafbfd43c07abbfb0de1326" category="paragraph">전면 및 후면 쉘프 보기 사이를 전환하려면 맨 오른쪽에서 * 드라이브 * 또는 * 컨트롤러 및 구성 요소 * 를 선택합니다(현재 보기에 따라 표시되는 링크). Drives* 보기에는 드라이브 및 비어 있는 드라이브 베이가 표시됩니다. 컨트롤러 및 구성요소 * 보기에는 컨트롤러 및 모든 IOM(ESM) 모듈, 전원/팬 캐니스터 또는 빈 컨트롤러 베이가 표시됩니다. 페이지 하단에서 * Show all drives * 를 선택할 수도 있습니다.</block>
-  <block id="a26b62aaf12a1354ed2f5726f1a44f96" category="sidebar">SANtricity 11.8 문서</block>
-  <block id="d10baea6d3a0d4c1b494ce57d94cdadb" category="paragraph">다음 표에서는 SANtricity System Manager 11.8의 새로운 기능에 대해 설명합니다.</block>
   <block id="3effdbd16c4bb389ee66095c1d8d2ee9" category="inline-link">11.80 릴리스 정보</block>
   <block id="b1aa5c2649b826498df008931f57355f" category="list-text"><block ref="b1aa5c2649b826498df008931f57355f" category="inline-link-rx"></block></block>
   <block id="14061ba06990b3ff80809e75e9263c4d" category="admonition">11.80.x 이상으로 업그레이드하려면 시스템에서 SANtricity OS 11.70.5 를 실행해야 합니다.</block>
-  <block id="df9168fd1981b1464f7c0d38b2207c30" category="paragraph"><block ref="df9168fd1981b1464f7c0d38b2207c30" category="inline-link-rx"></block></block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
   <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
   <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
@@ -8677,32 +8558,7 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
-  <block id="deab0ae4ee87e153ce15a1182bf91617" category="paragraph">키 크기 선택 값은 다음과 같습니다.</block>
-  <block id="92c9cd6ce879c70c929395d49566fca3" category="list-text">기본값 = 0</block>
-  <block id="91d66be9b353d488558a2fc87f866263" category="list-text">길이 2048 = 1</block>
-  <block id="60f95b27118522aa50716737cc578a39" category="list-text">길이 3072 = 2</block>
-  <block id="46b1448aca55d48c198834955f8e6b6a" category="list-text">길이 4096 = 3</block>
-  <block id="80b104f769b8bbef5d4b39ffe2efd816" category="paragraph">SMcli를 통해 키 크기를 4096으로 변경하려면:</block>
-  <block id="7f1a49e026d5afc827c5a0184af45fe0" category="paragraph"><block ref="53d52ccae7296ad3c52a5cc86881da22" prefix="" category="inline-code"></block><block ref="52baead6a42dd6532784cc33f69d8d94" prefix=" " category="inline-code"></block></block>
-  <block id="ad7ca0ac2dce92cb837bf072818ce860" category="paragraph">키 크기 조회:</block>
-  <block id="dc8f09004148c8853414b2fe2f19c503" category="paragraph"><block ref="5dfae352b2be729a121ea8024c5dc604" prefix="" category="inline-code"></block></block>
-  <block id="32e0b12538b4abe36e648446dbb8723b" category="paragraph">Disk Pool 기능 향상</block>
-  <block id="82faf4161a36aa8a69bd4c363e6b57cc" category="paragraph">11.80 이상을 실행하는 컨트롤러로 생성된 디스크 풀은 _ 버전 0_pool과 달리 _ 버전 1_pool입니다. 버전 1_ 디스크 풀이 있으면 다운그레이드 작업이 제한됩니다.</block>
-  <block id="45e56b98136f4292dd8c522edf38b3b2" category="paragraph">디스크 풀의 버전은 스토리지 배열 프로파일에서 확인할 수 있습니다.</block>
-  <block id="e7ad6d421850c5694f6bdc4321ac3507" category="sidebar">SANtricity 11.80 소프트웨어를 통해 데이터 분석, 비디오 감시, 백업 및 복구처럼 부하가 많이 걸리는 워크로드 애플리케이션에서 E-Series 하이브리드 플래시 및 EF-Series All-Flash 어레이의 성능과 활용률을 최대화할 수 있습니다.</block>
   <block id="f9c81137922296691747f3cff9a92105" category="list-text"><block ref="f9c81137922296691747f3cff9a92105" category="inline-link-rx"></block></block>
-  <block id="07ed085acfb4f203e63427ca4494f863" category="section-title">버전 11.80.1의 새로운 기능</block>
-  <block id="65e6e49c7d0840983a93edfc482a4650" category="paragraph"><block ref="14993f95e0d6fc04f9966b0c368a7ed6" prefix="" category="inline-code"></block> 매개 변수</block>
-  <block id="2b21cb9530a6c7704a66108d45c196a1" category="inline-link">다운로드 가능한 SMcli 명령줄 매개변수</block>
-  <block id="99e522a2649e8eb1047cda09b5e2bbd9" category="paragraph">새로운 소식<block ref="14993f95e0d6fc04f9966b0c368a7ed6" prefix=" " category="inline-code"></block> 이제 SMcli에서 매개 변수를 사용할 수 있습니다. 이 새로운 매개변수를 사용하여 스토리지 배열과 연결된 모든 SCSI 기본 블록 장치를 찾을 수 있습니다. 자세한 내용은 을 참조하십시오<block ref="7e8dc17a50219e17a3bfb2effae73889" category="inline-link-rx"></block>.</block>
-  <block id="907ce89001794064fd8d544a753cf6cf" category="paragraph">이더넷 커널 통계</block>
-  <block id="a5302be9e5d09f8d45fab47dcbe1907c" category="inline-link">iSCSI 통계 패키지를 봅니다</block>
-  <block id="4f8a241c3cb470ed44d71b0d64d57b80" category="paragraph">이제 System Manager의 iSCSI 통계 패키지 보기 페이지에서 새 이더넷 커널 통계 옵션을 사용할 수 있습니다. 이 새로운 옵션을 사용하면 iSCSI 장치의 플랫폼 커널 드라이버에 대한 통계를 볼 수 있습니다. 자세한 내용은 을 참조하십시오<block ref="fa652b493edb0147d8d73c9bf12a908b" category="inline-link-rx"></block>.</block>
-  <block id="8aa767f8b92cfb3b4eab1f415d112646" category="paragraph">REST API 엔드포인트를 통해 IP 주소를 차단하는 기능이 추가되었습니다</block>
-  <block id="676be4f62b5637bef1c26018afa904d4" category="paragraph">이제 사용자는 설정 끝점을 통해 특정 IP 주소를 차단할 수 있습니다 <block ref="4b697cabc8d99483a2ddfc38c4cb6766" prefix="(" category="inline-code"></block>)를 클릭합니다. 설정 엔드포인트를 통해 구성한 후에는 화이트리스트를 통해 지정된 IP 주소만 스토리지 디바이스와 통신할 수 있습니다. 이 새로운 기능은 IPv4 및 IPv6 주소 목록을 지원합니다.</block>
-  <block id="85873696abedac8fb70b86eef30b99fe" category="paragraph">vCenter 스토리지 플러그인</block>
-  <block id="c55dbb17c221990804802e322335dc65" category="paragraph">vCenter Storage 플러그인이 E-Series 11.80.1 릴리즈와의 호환성을 위해 업데이트되었습니다.</block>
-  <block id="b2fe36d045fcd0262e37faca678d17c8" category="paragraph">E-Series 11.80.1 릴리즈와의 호환성을 위해 웹 서비스 프록시가 버전 6.1로 업데이트되었습니다.</block>
   <block id="e6d11ff06b4fbf2dfe6c6c9c235884bd" category="paragraph">액세스 볼륨은 다음과 같은 경우에 사용됩니다.</block>
   <block id="ea37b1fb3ab53a251f6e5cadc36a4c25" category="summary">호스트를 생성하는 것은 스토리지 어레이가 호스트에 연결된 호스트를 파악하고 볼륨에 대한 I/O 액세스를 허용하는 데 필요한 단계 중 하나입니다. 호스트는 수동으로만 생성할 수 있습니다.</block>
   <block id="a3cd72e3a5590e7769cb2590ecd015eb" category="doc">수동 호스트 생성</block>
@@ -8718,7 +8574,6 @@
   <block id="966b5cc0cd53cc056d0a168b8543c134" category="paragraph">호스트가 스토리지 배열의 특정 볼륨에 특정 액세스를 가지도록 하려면 기본 클러스터를 _사용하지_않아야 합니다. 대신 호스트 포트 식별자를 해당 호스트에 연결해야 합니다. 이 작업은 Create Host(호스트 생성) 작업 중에 수동으로 수행할 수 있습니다. 그런 다음 개별 호스트 또는 호스트 클러스터에 볼륨을 할당합니다.</block>
   <block id="a543598a03d2f4a4c65c995fe07c12e1" category="summary">호스트 운영 체제 유형 필드에는 호스트의 운영 체제가 들어 있습니다. 드롭다운 목록에서 권장 호스트 유형을 선택할 수 있습니다.</block>
   <block id="8cb031b774a78de2f6be4db3058da109" category="list-text">운영 체제 특정 유틸리티(타사 공급업체에서 제공)를 실행한 다음 SMcli 명령을 실행합니다<block ref="14993f95e0d6fc04f9966b0c368a7ed6" prefix=" " category="inline-code"></block> 볼륨 이름과 호스트 스토리지 배열 이름을 서로 연관시킵니다.</block>
-  <block id="0af3ac37d01c9873f79f927554ff17b2" category="paragraph">SMcli는 SANtricity System Manager를 통해 직접 사용할 수 있습니다. SMcli의 다운로드 가능한 버전은 EF600, EF300, E5700, EF570, E2800에서 사용할 수 있습니다. EF280 컨트롤러: SANtricity 시스템 관리자 내에서 SMcli를 다운로드하려면 * 설정 * &gt; * 시스템 * 및 * 추가 기능 * &gt; * 명령줄 인터페이스 * 를 선택합니다.</block>
   <block id="0ea0a94f9ade478fd556172383edecad" category="admonition">System Manager에 표시되는 통계 유형은 스토리지 어레이에 사용할 수 있는 통계를 기반으로 합니다.</block>
   <block id="707d82b79d1a69b9d510d00c5aaf1d9e" category="list-text">* 이더넷 커널 통계 * -- iSCSI 장치의 플랫폼 커널 드라이버에 대한 통계를 제공합니다. 커널 통계는 TCP/IP 통계 옵션과 유사한 네트워크 데이터를 표시합니다. 그러나 커널 통계 데이터는 iSCSI 하드웨어에서 직접 수집되지 않고 플랫폼 커널 드라이버에서 수집됩니다.</block>
   <block id="32555c4aebeed331e68820e3e0ef23ce" category="list-text">컨트롤러 및 구성 요소 * 탭을 선택합니다.</block>
@@ -8737,12 +8592,109 @@
   <block id="73e974e4615b6eb8c4db3e6a55137a8f" category="list-text">예약된 용량 볼륨은 연결된 미러 볼륨과 동일한 드라이브 유형을 공유해야 합니다.</block>
   <block id="bf9f60c11f9080af705719592217436d" category="list-text">예약 용량 볼륨이 NVMe 드라이브에 생성된 경우 미러 볼륨도 NVMe 드라이브에 생성해야 합니다.</block>
   <block id="402b0811b7e491a20af6474c5296c733" category="list-text">예약된 용량 볼륨이 SAS 드라이브에 생성된 경우 미러 볼륨도 SAS 드라이브에 생성해야 합니다.</block>
-  <block id="28af2c239fc893bd1a2013f2e8b4b941" category="section-title">버전 11.80.1R1의 새로운 기능</block>
-  <block id="5769aac2d83733db3bf7507b56dd86e9" category="paragraph">자체 서명된 새 관리 인증서와 CA 서명 관리 인증서의 키 크기가 늘어납니다.</block>
-  <block id="8545f755b4f7a99afe330df57699f365" category="paragraph">SANtricity System Manager 및 Unified Manager 애플리케이션 자체 서명 인증서의 관리 인증서 키 크기 길이가 2048비트에서 3072비트로 수정되었습니다. 변경 사항은 SANtricity 응용 프로그램에서 새로 생성된 자체 서명 및 CA 서명 인증서에 적용됩니다. 키 길이는 고정되어 있으며 NVSRAM의 기본 키 크기 정의에 영향을 받지 않습니다.</block>
   <block id="56ef6aeb1657a77ed998f95bff3a67c0" category="paragraph">ARVM을 비활성화합니다</block>
   <block id="bb81ad14bd710a498f194a6ac67fea61" category="paragraph">복제 소스 볼륨과 타겟 볼륨의 호스트 주소 지정 가능/논리적 블록 크기(섹터 크기)가 동일해야 합니다.</block>
   <block id="56ce420df3a94d675f30cc6b382c3082" category="paragraph">보고된 볼륨 블록 크기:</block>
-  <block id="6451d4e0b30d3e2a2b45dc3de85ffe6d" category="list-text">* 기본 블록 크기 * – 볼륨의 블록 크기와 드라이브 블록 크기(512 또는 4K)가 일치합니다.</block>
-  <block id="7de7e0688d2ed2bd02ab78f61c88a723" category="list-text">* Emulated 512 블록 크기 * - 드라이브는 4K이지만 보고된 블록 크기는 512입니다.</block>
+  <block id="a5739ed07187fa97fb95b86ca98419fc" category="inline-link">컨트롤러 업그레이드 가이드 - 레거시 컨트롤러 모델</block>
+  <block id="819e472be532c198f4428448f644516b" category="list-text"><block ref="819e472be532c198f4428448f644516b" category="inline-link-rx"></block></block>
+  <block id="056179e9e794d5023a226430ee4efb8d" category="section-title">SANtricity 릴리스 11.8</block>
+  <block id="d16a613e55f21678f189a2fe147619f8" category="list-text"><block ref="d16a613e55f21678f189a2fe147619f8" category="inline-link-rx"></block></block>
+  <block id="e8b164999d03a57227fb0dc4e31b1f9a" category="list-text"><block ref="e8b164999d03a57227fb0dc4e31b1f9a" category="inline-link-rx"></block></block>
+  <block id="7a2b27b2d95b2db288029dec9f945c50" category="inline-link">11.90 릴리스 정보</block>
+  <block id="a780d55204be966b795f04cc4bf22137" category="list-text"><block ref="a780d55204be966b795f04cc4bf22137" category="inline-link-rx"></block></block>
+  <block id="5e40a8e83b3a3f822534bef7faa8799b" category="paragraph"><block ref="5e40a8e83b3a3f822534bef7faa8799b" category="inline-link-rx"></block></block>
+  <block id="01e0b2ba5ead95d64e3071a148f7dc95" category="paragraph"><block ref="9736d9f6dc9242e38869944fa056dfab" category="inline-image-macro-rx" type="image"></block> * 성능 *</block>
+  <block id="730eaa798c5f8a877db1f1518847a4e4" category="paragraph"><block ref="7671c6425a04efd849fb29c1bc3d6f15" category="inline-image-macro-rx" type="image"></block> * 스토리지 *</block>
+  <block id="21a1e68164f738b8be1dae11d5a694b3" category="inline-image-macro">데이터 보호</block>
+  <block id="48101fc47c99f4be00100bd0e24fa482" category="paragraph"><block ref="cf60c16dfd9a457f7706628c1f3e2cf5" category="inline-image-macro-rx" type="image"></block> * 데이터 보호 *</block>
+  <block id="cc3a54aae413901b7935f06eb0747fb4" category="paragraph"><block ref="6b9b5b4553280096034f55188a5b3e0f" category="inline-image-macro-rx" type="image"></block> * 하드웨어 *</block>
+  <block id="59cb2f7d30c6e815131b958e5caaa07f" category="paragraph"><block ref="4fb44adb8f67b036fd76de34524b3216" category="inline-image-macro-rx" type="image"></block> * 알림 *</block>
+  <block id="5dfe8f7b6636e4f45a5e95a77c0529da" category="paragraph"><block ref="bdb34cfbec72a80b17a14942fe759070" category="inline-image-macro-rx" type="image"></block> * 액세스 관리 *</block>
+  <block id="e4709a73a287a5f033f5b1b5142cb74d" category="inline-image-macro">시스템 설정</block>
+  <block id="de8011abde4e4344c82af51912b3ce19" category="paragraph"><block ref="2bce2265bb1e82bb0d0858adf2dafedf" category="inline-image-macro-rx" type="image"></block> * 시스템 설정 *</block>
+  <block id="9dcfdd4141be874fb7eb13880a5fd525" category="paragraph"><block ref="1cb7eabea009b4b9cfe98093989eadbf" category="inline-image-macro-rx" type="image"></block> * 지원 *</block>
+  <block id="a06a26693ca66f654ff2c2dcecc3e13f" category="paragraph">Unified Manager는 전체 도메인을 관리하는 데 사용되는 웹 기반 소프트웨어입니다. 중앙 뷰에서 E4000, E2800, EF280, EF300, E5700, EF570, EF600과 같은 모든 최신 E-Series 및 EF-Series 어레이의 상태를 확인할 수 있습니다. 선택한 스토리지 배열에 대해 배치 작업을 수행할 수도 있습니다.</block>
+  <block id="bb426997d075117a34b0e82e716e9988" category="inline-image-macro">스토리지 시스템을 검색합니다</block>
+  <block id="49e4791fdcd34bdf6b59ed172268d67f" category="paragraph"><block ref="9ff56b9b0514866913bcdc835ac16829" category="inline-image-macro-rx" type="image"></block> * 스토리지 어레이 검색 *</block>
+  <block id="9506f0fd0f7f1b07960b15b4c9e68d1a" category="inline-image-macro">을 시작합니다</block>
+  <block id="dd5912f8cf835c33b2a3b61d5e141ff0" category="paragraph"><block ref="59d02cad0b7ca821298861a148459521" category="inline-image-macro-rx" type="image"></block> * 시작 *</block>
+  <block id="352a228c155779f9e34542d5c4e945ce" category="inline-image-macro">설정 가져오기</block>
+  <block id="3a7809dfe80b7e55e290a69762b376b0" category="paragraph"><block ref="293657c6f46812024123d05cfacb8f5d" category="inline-image-macro-rx" type="image"></block> * 설정 가져오기 *</block>
+  <block id="e55d5139e241eec51cb53b8725b111ae" category="paragraph"><block ref="1d994cafa90bd8534dce98204298c26f" category="inline-image-macro-rx" type="image"></block> * 미러링 *</block>
+  <block id="aba9f7d7443652e858969bfc280690b1" category="inline-image-macro">그룹 관리</block>
+  <block id="8ab578a8eab9df734659a9bbad8fed32" category="paragraph"><block ref="ed1eedd0a4592b9eb8bd506e1ade1b98" category="inline-image-macro-rx" type="image"></block> * 그룹 관리 *</block>
+  <block id="54f78baeb56f558141400626a8f1d3e3" category="inline-image-macro">업그레이드 센터</block>
+  <block id="0d3ce623d8cdbb3fa0594ad836176dcd" category="paragraph"><block ref="35ec5ccd35af7c00f6a01e92abb155fc" category="inline-image-macro-rx" type="image"></block> * 업그레이드 센터 *</block>
+  <block id="74d5c3d79c00ee94f3d157db1001315d" category="paragraph"><block ref="8fe9c4eb7bbe7403b10e873dc7e654f9" category="inline-image-macro-rx" type="image"></block> *인증서*</block>
+  <block id="db8b7299d08cc04191bf7a98173078ef" category="list-text">E4000, E2800 및 E5700 컨트롤러에 대한 정적 IP 주소를 설정하려면 SANtricity System Manager를 사용합니다. E2700 및 E5600 컨트롤러의 정적 IP 주소를 설정하려면 SANtricity 스토리지 관리자를 사용하십시오. 정적 IP 주소를 구성한 후에는 모든 링크 다운/업 이벤트를 통해 설정된 상태로 유지됩니다.</block>
+  <block id="42004a862976ffc8afcece88d3ed14b7" category="paragraph">드라이브에 오류가 발생한 후 60초 이상 기다린 후 제거하십시오.</block>
+  <block id="27ed3c2f0cc271f3ffd55cef1621928d" category="doc">SANtricity 시스템 관리자 11.9</block>
+  <block id="d85604754e30b3e09626f9f9fdbd8c6f" category="paragraph">지원되는 프로토콜은 HTTPS 및 SMTP입니다.</block>
+  <block id="ab468c035d308f2a8c552c4d5aac08f7" category="paragraph"><block ref="ab468c035d308f2a8c552c4d5aac08f7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2c792e44ea1f01accfca106a5f980c33" category="paragraph"><block ref="2c792e44ea1f01accfca106a5f980c33" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e3ef647d9c4d52f37e6e8692049489f5" category="paragraph"><block ref="e3ef647d9c4d52f37e6e8692049489f5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ae04b8c08989c6922154b7c875f1ed28" category="paragraph"><block ref="ae04b8c08989c6922154b7c875f1ed28" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fa089d11d37f87ad34ea6d956fa1fae8" category="paragraph">SANtricity 시스템 관리자를 통해 비동기식 미러링 및 동기식 미러링을 관리할 수 있습니다.</block>
+  <block id="b3ff8e795b3d80ba68cbe1156469a2cb" category="list-text">* 개인 키 파일 선택 * -- 필요한 경우 두 번째 * 찾아보기 * 버튼을 클릭하여 스토리지 배열의 컨트롤러에 대한 개인 키 파일 파일을 선택합니다.</block>
+  <block id="ee01112415d197728f20c99202d37eb2" category="list-text">* 키 관리 서버의 서버 인증서 선택 * -- 세 번째 * 찾아보기 * 버튼을 클릭하여 키 관리 서버의 인증서 파일을 선택합니다. 키 관리 서버에 대한 루트, 중간 또는 서버 인증서를 선택할 수 있습니다.</block>
+  <block id="54c0574306f4d58143114e2e0861640f" category="paragraph">클라이언트 인증서는 스토리지 어레이 컨트롤러의 유효성을 검사하므로 키 관리 서버가 KMIP(Key Management Interoperability Protocol) 요청을 신뢰할 수 있습니다.</block>
+  <block id="66093664d0d43a7f4fc3ddbad78f691c" category="paragraph">클라이언트 인증서를 얻으려면 System Manager를 사용하여 스토리지 배열에 대한 CSR을 완료합니다. 개인 및 공개 키 쌍을 사용하여 외부에서 CSR을 생성할 수도 있습니다.</block>
+  <block id="ff58caf5069b4eb4a200d0205926b16c" category="paragraph">그런 다음 CSR을 키 관리 서버에 업로드하고 여기서 클라이언트 인증서를 생성할 수 있습니다. 클라이언트 인증서가 있으면 해당 파일을 System Manager에 액세스할 호스트에 복사합니다.</block>
+  <block id="5378e651b013c9c6feff8ff6044d166f" category="list-text">또는 개인 및 공개 키 쌍을 사용하여 외부에서 인증서 서명 요청을 생성할 수 있습니다.</block>
+  <block id="63a0114594ce428e6c9715084a3200f4" category="paragraph">System Manager 또는 외부에서 개인 및 공용 키 쌍을 사용하여 서명 요청을 생성할 수 있습니다. 인증서 파일을 생성하기 위해 서명 요청이 CA로 전송됩니다. CA가 인증서 파일을 반환하면 System Manager를 사용하여 인증서 파일을 가져옵니다.</block>
+  <block id="69d858803139fe61364ff86d43e771de" category="admonition">개인 및 공개 키 쌍을 통해 외부에서 생성된 CSR 파일은 외부 보안 키 만들기 대화 상자를 통해 가져올 수 있습니다. 외부에서 생성된 CSR 파일을 가져오는 방법에 대한 자세한 내용은 을 참조하십시오<block ref="699b0ddfb388ee73fa0bfd41ac82336b" category="inline-link-rx"></block>.</block>
+  <block id="29d1ee766954d56ae8238b1059bfafc4" category="list-text">* 공통 이름 * -- 클라이언트를 식별하는 이름입니다. 일반적으로 클라이언트 인증서 명명 규칙에 대한 KMS 서버의 요구 사항과 공통 이름에 있는 항목을 일치시키는 것이 좋습니다. 공통 이름은 일반적으로 KMS가 핸드셰이크 중에 클라이언트의 인증서가 표시될 때 이를 식별하는 데 도움이 됩니다.</block>
+  <block id="92808c67abdc13e7ad24a7cf2c99f924" category="list-text">키 관리 서버에서 신뢰하는 CA에서 서명된 클라이언트 인증서를 요청합니다.</block>
+  <block id="b40c23ca4af2991caf4a498caf524281" category="admonition">일반적으로 키 관리 서버에는 자체 CA로 기능하므로 서명된 인증서를 직접 생성하는 기능이 있습니다.</block>
+  <block id="5582a122966615aecf1a59ee9608f3ed" category="list-text">개인 및 공개 키 쌍을 사용하여 외부에서 인증서 파일을 생성한 경우 * 개인 키 파일 선택 * 옆에 있는 * 찾아보기 * 버튼을 클릭하여 스토리지 배열의 컨트롤러에 대한 인증서 파일을 선택합니다.</block>
+  <block id="6f3c867468bb7d88038060f63957303e" category="inline-image-macro">열 표시/숨기기</block>
+  <block id="c8624a2d0591434eb4c7d02347e97100" category="paragraph">표시/숨기기 * 열 아이콘을 <block ref="258072d6c284064dc6fedf3bcab73fc0" category="inline-image-macro-rx" type="image"></block> 클릭하여 테이블에 표시할 추가 열을 선택합니다. 추가 열은 다음과 같습니다.</block>
+  <block id="a8875bbe4272c0bdd786cfaaedf77921" category="inline-image-macro">토글</block>
+  <block id="18a403c983fe9e6fd1b3f6e2ed1177f8" category="paragraph">각 열의 필터링 필드를 열려면 * 전환 * 아이콘을 <block ref="90b70f76e2d4e07fe074ad83e4b0a4f3" category="inline-image-macro-rx" type="image"></block>클릭합니다. 열 필드에 문자를 입력하여 해당 문자로 표시되는 이벤트를 제한합니다. 필터링 필드를 닫으려면 아이콘을 다시 클릭합니다.</block>
+  <block id="1cdc076b28f70afac5fcedadf99fa119" category="inline-image-macro">실행 취소</block>
+  <block id="942c04fb3e852a849078bbedc2c563ad" category="paragraph">테이블을 기본 구성으로 되돌리려면 * 실행 취소 * 아이콘을 <block ref="12a3278132f7a92b9e1a0a36d87097d1" category="inline-image-macro-rx" type="image"></block>클릭합니다.</block>
+  <block id="649c33cda48fb6cab9b779732e33f798" category="list-text">512 볼륨(E4000 및 E2800 시리즈)</block>
+  <block id="9bfa157f06e0cd4bf23f4d7c3522a973" category="image-alt">Snapshot 개체 및 기본 볼륨</block>
+  <block id="f1683bd5111055cff52f3434b437bc43" category="admonition">기본 미디어 스캔 기간은 120일로 설정됩니다.</block>
+  <block id="630fb851299f40643b158fbf236a2e8c" category="list-text">* 기본 블록 크기 * – 볼륨의 블록 크기와 드라이브 블록 크기(512 또는 4K)가 일치합니다.</block>
+  <block id="f6c667584c393a129ba0a1a453306311" category="list-text">* Emulated 512 블록 크기 * - 드라이브는 4K이지만 보고된 블록 크기는 512입니다.</block>
+  <block id="478ac1c2fc93cbde8a7f38011e1743e9" category="paragraph">SMcli는 SANtricity System Manager를 통해 직접 사용할 수 있습니다. SMcli의 다운로드 가능한 버전은 E4000, EF600, EF300, E5700, EF570, E2800 및 EF280 컨트롤러에서 사용할 수 있습니다. SANtricity 시스템 관리자 내에서 SMcli를 다운로드하려면 * 설정 * &gt; * 시스템 * 및 * 추가 기능 * &gt; * 명령줄 인터페이스 * 를 선택합니다.</block>
+  <block id="8372cda02b92707718d83873eed70eff" category="image-alt">풀 및 볼륨 그룹 구조</block>
+  <block id="861b7c78b853932749bb7fa53551562a" category="image-alt">스냅샷 개요</block>
+  <block id="454b39575eef78952a66832d854eb9a8" category="paragraph">SANtricity System Manager를 통해 시스템 스토리지를 관리할 수 있습니다.</block>
+  <block id="ae002d1d58a31e011d63e5c65fdaab56" category="admonition">SANtricity 원격 저장소 볼륨은 현재 E4000 시스템에서 지원되지 않습니다.</block>
+  <block id="9b14c33fdc0efe4872fc1eb7154525a9" category="image-alt">스냅샷 롤백 개요</block>
+  <block id="2f0854f7b2eefd5175e0f07fb053bd67" category="image-alt">스냅샷 정합성 보장 그룹 개요</block>
+  <block id="499c45c544b6972f515b13489cac00c4" category="image-alt">스냅샷 볼륨 개요</block>
+  <block id="21bf9a718f1db52f3473f81edb06fb86" category="image-alt">호스트 워크플로우를 구성합니다</block>
+  <block id="6cb1f4545b0ac1779e5099bf499e2257" category="image-alt">스냅샷 이미지 생성 워크플로</block>
+  <block id="d664803ea5bcb8c4b3e5252c810dd7ae" category="image-alt">스냅샷 볼륨 생성 워크플로우</block>
+  <block id="00ae53caaeaab10fa6daf374082ce7c1" category="image-alt">볼륨 생성 워크플로우</block>
+  <block id="8f0db69b076bbcdb3c8760d4e3e98835" category="summary">AutoSupport 기능은 기술 지원 부서에 디스패치를 전달하기 위해 HTTPS 및 SMTP 프로토콜을 지원합니다.</block>
+  <block id="f519381eb9350988ee8b5119c9b920f9" category="paragraph">* HTTPS 및 이메일 방법의 차이점 *. SMTP를 사용하는 이메일 전달 방법은 HTTPS 전달 방법과 몇 가지 중요한 차이가 있습니다. 먼저, 이메일 방법에 대한 디스패치 크기는 5MB로 제한되며, 이는 일부 ASUP 데이터 수집이 디스패치되지 않음을 의미합니다. 둘째, AutoSupport OnDemand 기능은 HTTPS 전달 방법에서만 사용할 수 있습니다.</block>
+  <block id="16ecd48fe399a494ac52761b115bd8e9" category="list-text">HTTPS를 선택한 경우 다음 전달 매개 변수 중 하나를 선택합니다.</block>
+  <block id="0a71943276accb62215252f71d3e55e4" category="list-text">* 직접 * -- 이 전달 매개 변수는 기본 선택 항목입니다. 이 옵션을 선택하면 HTTPS 프로토콜을 사용하여 대상 기술 지원 시스템에 직접 연결할 수 있습니다.</block>
+  <block id="22ec79b8668bcaf4a33eed694079e8b1" category="summary">AutoSupport 기능은 기술 지원에 AutoSupport 디스패치를 전달하기 위한 프로토콜 HTTPS 및 SMTP를 지원합니다.</block>
+  <block id="dd0ab6e042458857b9d76ede295a637e" category="image-alt">펌웨어 위치를 업그레이드합니다</block>
+  <block id="da31bdea5b9fdfa2bf077a70c49a1d66" category="image-alt">AutoSupport 워크플로</block>
+  <block id="0ceabfdc68af97f8a0c7393faf135de8" category="image-alt">컨트롤러 소프트웨어 및 펌웨어 업그레이드 워크플로우</block>
+  <block id="ece14770330886bc2d41238acbfe48aa" category="summary">SANtricity 유니파이드 관리자 7</block>
+  <block id="3cd6f83d0a9a8330c077dfc98649ab8a" category="paragraph">SANtricity Unified Manager를 통해 사용되는 설정을 구성할 수 있습니다.</block>
+  <block id="0be150145c60047c6667d2bfbc4085d9" category="image-alt">웹 브라우저를 사용하여 네트워크 관리 클라이언트에 대한 대역외 연결</block>
+  <block id="3ea0f7b73838fea25dfb4ff6da50f43a" category="doc">SANtricity OS 11.90의 새로운 기능</block>
+  <block id="e6575254726c9c37843a559ef72300fd" category="paragraph">다음 표에서는 SANtricity System Manager 11.9의 새로운 기능에 대해 설명합니다.</block>
+  <block id="a9ce161f80e5e22b8b95f7f9ca5f67ed" category="section-title">버전 11.90의 새로운 기능</block>
+  <block id="0d49c2d5fa6db45e427d9c6ca6839ac7" category="paragraph">새로운 스토리지 시스템 모델 – E4000</block>
+  <block id="f79f2d98fb02cd051399681f3101fbb8" category="paragraph">이 릴리스에는 E4000 저비용 스토리지 시스템이 도입되었습니다. E4000은 12개 및 60개의 드라이브와 컨트롤러당 단일 HIC(호스트 인터페이스 카드)를 지원합니다. 초기 릴리즈의 경우 지원되는 호스트 인터페이스 카드에는 iSCSI 및 Fibre Channel이 포함됩니다. E4000 스토리지 시스템 및 기타 E-Series 스토리지 시스템은 Unified Manager에서 보고 관리할 수 있습니다.</block>
+  <block id="0d05e82ffcabd1bd655a97084285e90d" category="paragraph">Dynamic Disk Pool의 향상된 용량</block>
+  <block id="372fa8b3c2d2e776e7b288a3b8bbd7da" category="paragraph">풀 내의 각 개별 드라이브의 용량이 23TB를 초과할 경우 DDP(동적 디스크 풀)의 용량이 12PB로 증가했습니다. 개별 드라이브 용량 크기가 23TB 미만인 경우 DDP 용량은 6PB입니다.</block>
+  <block id="47366514f1926a1d18e6b7ee9660d7f5" category="paragraph">기본 미디어 스캔 설정이 증가했습니다</block>
+  <block id="9b21ddbc5c4f3b0196cbd88ac900622e" category="paragraph">기본 미디어 스캔 속도가 120일로 증가했습니다.</block>
+  <block id="545cf0306f91cc802f72bee950711b04" category="paragraph">이제 외부 키 관리에 대해 개인 키를 사용할 수 있습니다</block>
+  <block id="45dc1f6fb3b875c733e188121fcc647a" category="paragraph">개인 및 공개 키 쌍을 통해 외부에서 생성된 CSR(인증서 서명 요청) 파일은 이제 System Manager를 통해 가져올 수 있습니다.</block>
+  <block id="c0f4196deec20490ebf6989158642c34" category="paragraph">웹 서비스에서 로그인 잠금 기능을 사용할 수 있습니다</block>
+  <block id="a30347233ec617731633ca56f8f1b923" category="paragraph">REST API를 통해서만 구성할 수 있는 새로운 로그인 잠금 설정은 임베디드 및 프록시 웹 서비스에 사용할 수 있습니다.</block>
+  <block id="877f007e3f321618e24a9962b07e63fa" category="sidebar">System Manager 11.9을 사용한 단일 어레이 관리</block>
+  <block id="9c2cbf0c1a7244ea333628422695d560" category="sidebar">Unified Manager 7를 사용하여 다중 어레이 관리</block>
+  <block id="12256f91aad97dd547dda71e221d63ce" category="sidebar">SANtricity 11.9 문서</block>
 </blocks>

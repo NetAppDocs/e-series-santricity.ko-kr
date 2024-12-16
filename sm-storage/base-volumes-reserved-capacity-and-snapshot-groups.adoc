@@ -23,7 +23,7 @@ a_base volume_은 스냅샷 이미지의 소스로 사용되는 볼륨입니다.
 
 다음 그림에서는 스냅샷 개체와 기본 볼륨 간의 관계를 보여 줍니다.
 
-image::../media/sam1130-dwg-snapshots-images-overview.gif[sam1130 DWG 스냅샷 이미지 개요]
+image::../media/sam1130-dwg-snapshots-images-overview.gif[Snapshot 개체 및 기본 볼륨]
 
 ^1^기본 볼륨;^2^그룹의 스냅샷 개체(이미지 및 예약된 용량);^3^스냅샷 그룹에 예약된 용량입니다.
 

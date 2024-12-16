@@ -25,28 +25,28 @@ System Manager에서는 이러한 아이콘을 사용하여 스토리지 배열 
 
 
  a| 
-image:../media/sam1130-ss-icon-status-success.gif[""]
+image:../media/sam1130-ss-icon-status-success.gif["최적"]
  a| 
 최적
 
 
 
  a| 
-image:../media/sam1130-ss-icon-status-failure.gif[""]
+image:../media/sam1130-ss-icon-status-failure.gif["최적이 아니거나 실패했습니다"]
  a| 
 최적이 아니거나 실패했습니다
 
 
 
  a| 
-image:../media/sam1130-ss-icon-status-service.gif[""]
+image:../media/sam1130-ss-icon-status-service.gif["주의 또는 고치기 필요"]
  a| 
 주의 또는 고치기 필요
 
 
 
  a| 
-image:../media/sam1130-ss-icon-status-caution.gif[""]
+image:../media/sam1130-ss-icon-status-caution.gif["주의"]
  a| 
 주의
 

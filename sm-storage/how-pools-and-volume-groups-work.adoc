@@ -21,7 +21,7 @@ summary: '스토리지 용량을 할당하려면 스토리지 어레이에서 �
 
 풀 및 볼륨 그룹은 스토리지 어레이에서 최상위 스토리지 단위이며, 드라이브 용량을 관리 가능한 여러 사업부로 나눕니다. 이러한 논리적 사업부 내에는 데이터가 저장되는 개별 볼륨 또는 LUN이 있습니다. 다음 그림은 이러한 개념을 보여 줍니다.
 
-image::../media/sam1130-dwg-volumes-drive-structure-pools-and-volume-groups.gif[sam1130 DWG 볼륨은 구조 풀 및 볼륨 그룹을 구동합니다]
+image::../media/sam1130-dwg-volumes-drive-structure-pools-and-volume-groups.gif[풀 및 볼륨 그룹 구조]
 
 ^1^호스트 LUN;^2^볼륨;^3^볼륨 그룹 또는 풀;^4^HDD 또는 SSD 드라이브
 

@@ -13,4 +13,4 @@ summary: SANtricity 시스템 관리자는 다음 단계를 수행하여 컨트�
 [role="lead"]
 SANtricity 시스템 관리자는 다음 단계를 수행하여 컨트롤러 소프트웨어 및 펌웨어를 업그레이드할 수 있습니다.
 
-image::../media/sam1130-flw-firmware-upgrade.gif[sam1130 Flw 펌웨어 업그레이드]
+image::../media/sam1130-flw-firmware-upgrade.gif[컨트롤러 소프트웨어 및 펌웨어 업그레이드 워크플로우]

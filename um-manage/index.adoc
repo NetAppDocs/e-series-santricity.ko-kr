@@ -4,9 +4,11 @@ sidebar: sidebar
 keywords:  
 summary:  
 ---
-= SANtricity 유니파이드 관리자 6
+= SANtricity 유니파이드 관리자 7
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
+[role="lead"]
+SANtricity Unified Manager를 통해 사용되는 설정을 구성할 수 있습니다.

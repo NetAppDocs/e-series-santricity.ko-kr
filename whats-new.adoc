@@ -1,37 +1,22 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: whats new, new features, SANtricity 11.80 
+keywords: whats new, new features, SANtricity 11.90 
 summary: SANtricity OS의 새로운 기능 
 ---
-= SANtricity OS 11.80의 새로운 기능
+= SANtricity OS 11.90의 새로운 기능
 :allow-uri-read: 
 :experimental: 
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 
 [role="lead"]
-다음 표에서는 SANtricity System Manager 11.8의 새로운 기능에 대해 설명합니다.
+다음 표에서는 SANtricity System Manager 11.9의 새로운 기능에 대해 설명합니다.
 
 
 
-== 버전 11.80.1R1의 새로운 기능
-
-[cols="35h,~"]
-|===
-| 새로운 기능 | 설명 
-
-
- a| 
-자체 서명된 새 관리 인증서와 CA 서명 관리 인증서의 키 크기가 늘어납니다.
- a| 
-SANtricity System Manager 및 Unified Manager 애플리케이션 자체 서명 인증서의 관리 인증서 키 크기 길이가 2048비트에서 3072비트로 수정되었습니다. 변경 사항은 SANtricity 응용 프로그램에서 새로 생성된 자체 서명 및 CA 서명 인증서에 적용됩니다. 키 길이는 고정되어 있으며 NVSRAM의 기본 키 크기 정의에 영향을 받지 않습니다.
-
-|===
-
-
-== 버전 11.80.1의 새로운 기능
+== 버전 11.90의 새로운 기능
 
 [cols="35h,~"]
 |===
@@ -39,160 +24,36 @@ SANtricity System Manager 및 Unified Manager 애플리케이션 자체 서명 �
 
 
  a| 
-`-identifyDevices` 매개 변수
+새로운 스토리지 시스템 모델 – E4000
  a| 
-새로운 소식 `-identifyDevices` 이제 SMcli에서 매개 변수를 사용할 수 있습니다. 이 새로운 매개변수를 사용하여 스토리지 배열과 연결된 모든 SCSI 기본 블록 장치를 찾을 수 있습니다. 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/e-series-cli/get-started/downloadable-smcli-parameters.html#identify-Devices["다운로드 가능한 SMcli 명령줄 매개변수"^].
-
-
-
- a| 
-이더넷 커널 통계
- a| 
-이제 System Manager의 iSCSI 통계 패키지 보기 페이지에서 새 이더넷 커널 통계 옵션을 사용할 수 있습니다. 이 새로운 옵션을 사용하면 iSCSI 장치의 플랫폼 커널 드라이버에 대한 통계를 볼 수 있습니다. 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/e-series-santricity/sm-support/view-iscsi-statistics-packages-support.html["iSCSI 통계 패키지를 봅니다"^].
+이 릴리스에는 E4000 저비용 스토리지 시스템이 도입되었습니다. E4000은 12개 및 60개의 드라이브와 컨트롤러당 단일 HIC(호스트 인터페이스 카드)를 지원합니다. 초기 릴리즈의 경우 지원되는 호스트 인터페이스 카드에는 iSCSI 및 Fibre Channel이 포함됩니다. E4000 스토리지 시스템 및 기타 E-Series 스토리지 시스템은 Unified Manager에서 보고 관리할 수 있습니다.
 
 
 
  a| 
-REST API 엔드포인트를 통해 IP 주소를 차단하는 기능이 추가되었습니다
+Dynamic Disk Pool의 향상된 용량
  a| 
-이제 사용자는 설정 끝점을 통해 특정 IP 주소를 차단할 수 있습니다 (`/devmgr/v2/settings`)를 클릭합니다. 설정 엔드포인트를 통해 구성한 후에는 화이트리스트를 통해 지정된 IP 주소만 스토리지 디바이스와 통신할 수 있습니다. 이 새로운 기능은 IPv4 및 IPv6 주소 목록을 지원합니다.
-
-
-
- a| 
-vCenter 스토리지 플러그인
- a| 
-vCenter Storage 플러그인이 E-Series 11.80.1 릴리즈와의 호환성을 위해 업데이트되었습니다.
+풀 내의 각 개별 드라이브의 용량이 23TB를 초과할 경우 DDP(동적 디스크 풀)의 용량이 12PB로 증가했습니다. 개별 드라이브 용량 크기가 23TB 미만인 경우 DDP 용량은 6PB입니다.
 
 
 
  a| 
-웹 서비스 프록시
+기본 미디어 스캔 설정이 증가했습니다
  a| 
-E-Series 11.80.1 릴리즈와의 호환성을 위해 웹 서비스 프록시가 버전 6.1로 업데이트되었습니다.
-
-|===
-
-
-== 버전 11.80의 새로운 기능
-
-[cols="35h,~"]
-|===
-| 새로운 기능 | 설명 
-
-
- a| 
-향상된 볼륨 패리티 검사
- a| 
-이제 REST API 또는 CLI를 통해 볼륨 패리티 검사를 백그라운드 프로세스로 시작할 수 있습니다. 결과 패리티 검사는 스캔 작업을 완료하는 데 필요한 한 백그라운드에서 실행됩니다. 스캔 작업은 컨트롤러 재부팅 및 페일오버 작업에 영향을 줍니다.
+기본 미디어 스캔 속도가 120일로 증가했습니다.
 
 
 
  a| 
-Unified Manager에 대한 SAML 지원
+이제 외부 키 관리에 대해 개인 키를 사용할 수 있습니다
  a| 
-Unified Manager는 이제 SAML(Security Assertion Markup Language)을 지원합니다. Unified Manager에 대해 SAML이 활성화된 경우 사용자는 ID 공급자에 대해 다중 요소 인증을 사용하여 사용자 인터페이스와 상호 작용해야 합니다. SAML이 Unified Manager에서 활성화된 후에는 IDP를 통해 요청을 인증하지 않고 REST API를 사용할 수 없습니다.
-
-
-
- a| 
-자동 구성 기능
- a| 
-이제 초기 어레이 설정을 위해 자동 구성 기능과 함께 사용할 볼륨 블록 크기 매개 변수를 설정하는 기능이 지원됩니다. 이 기능은 CLI에서만 "blocksize" 매개 변수로 사용할 수 있습니다.
+개인 및 공개 키 쌍을 통해 외부에서 생성된 CSR(인증서 서명 요청) 파일은 이제 System Manager를 통해 가져올 수 있습니다.
 
 
 
  a| 
-컨트롤러 펌웨어 암호화 서명
+웹 서비스에서 로그인 잠금 기능을 사용할 수 있습니다
  a| 
-컨트롤러 펌웨어가 암호로 서명됩니다. 서명은 초기 다운로드 및 각 컨트롤러 부팅 중에 검사됩니다. 최종 사용자에게 미치는 영향이 예상되지 않습니다. 서명은 CA에서 발급한 Extended Validation 인증서를 통해 백업됩니다.
-
-
-
- a| 
-드라이브 펌웨어 암호화 서명
- a| 
-드라이브 펌웨어가 암호로 서명되었습니다. 서명은 초기 다운로드 중에 확인되며 CA에서 발급한 Extended Validation 인증서를 통해 백업됩니다. 이제 드라이브 펌웨어 컨텐츠가 ZIP 파일로 전달되며, 여기에는 기존의 서명되지 않은 펌웨어와 새로 서명된 펌웨어가 포함됩니다. 사용자는 대상 시스템에서 실행 중인 코드의 릴리스 버전을 기반으로 적절한 파일을 선택해야 합니다.
-
-
-
- a| 
-외부 키 서버 관리 - 인증서 키 크기
- a| 
-새 기본 인증서 키 크기는 3072비트(2048비트)입니다. 최대 4096비트의 키 크기가 지원됩니다. 기본값이 아닌 키 크기를 지원하려면 NVSRAM 비트를 변경해야 합니다.
-
-키 크기 선택 값은 다음과 같습니다.
-
-* 기본값 = 0
-* 길이 2048 = 1
-* 길이 3072 = 2
-* 길이 4096 = 3
-
-
-SMcli를 통해 키 크기를 4096으로 변경하려면:
-
-`set controller[b] globalnvsrambyte[0xc0]=3;`
-`set controller[a] globalnvsrambyte[0xc0]=3;`
-
-키 크기 조회:
-
-`show allcontrollers globalnvsrambyte[0xc0];`
-
-
-
- a| 
-Disk Pool 기능 향상
- a| 
-11.80 이상을 실행하는 컨트롤러로 생성된 디스크 풀은 _ 버전 0_pool과 달리 _ 버전 1_pool입니다. 버전 1_ 디스크 풀이 있으면 다운그레이드 작업이 제한됩니다.
-
-디스크 풀의 버전은 스토리지 배열 프로파일에서 확인할 수 있습니다.
-
-
-
- a| 
-최소 브라우저 요구 사항이 충족되지 않으면 System Manager 및 Unified Manager가 실행되지 않습니다
- a| 
-System Manager 또는 Unified Manager를 실행하기 전에 브라우저의 최소 버전이 필요합니다. 다음은 지원되는 최소 버전입니다.
-
-* Firefox 최소 버전 80
-* Chrome 최소 버전 89
-* 모서리 최소 버전 90
-* Safari 최소 버전 14
-
-
-
-
- a| 
-FIPS 140-3개 NVMe SSD 드라이브 지원
- a| 
-이제 NetApp 인증 FIPS 140-3의 NVMe SSD 드라이브가 지원됩니다. 스토리지 어레이 프로필 및 System Manager에서 올바르게 식별됩니다.
-
-
-
- a| 
-EF300 및 EF600에서 SSD 읽기 캐시 지원
- a| 
-이제 SAS 확장 시 HDD를 사용하는 EF300 및 EF600 컨트롤러에서 SSD 읽기 캐시가 지원됩니다.
-
-
-
- a| 
-EF300 및 EF600에서 iSCSI 및 파이버 채널 비동기 원격 미러링 지원
- a| 
-이제 ARVM(비동기식 원격 미러링)이 NVMe 및 SAS 기반 볼륨을 사용하는 EF300 및 EF600 컨트롤러에서 지원됩니다.
-
-
-
- a| 
-기본 트레이에 드라이브 없이 EF300 및 EF600 지원
- a| 
-이제 기본 트레이에 NVMe 드라이브가 없는 EF300 및 EF600 컨트롤러 구성이 지원됩니다.
-
-
-
- a| 
-모든 플랫폼에 대해 USB 포트가 비활성화되었습니다
- a| 
-이제 모든 플랫폼에서 USB 포트가 비활성화되었습니다.
+REST API를 통해서만 구성할 수 있는 새로운 로그인 잠금 설정은 임베디드 및 프록시 웹 서비스에 사용할 수 있습니다.
 
 |===

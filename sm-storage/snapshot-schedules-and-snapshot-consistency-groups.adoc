@@ -33,6 +33,6 @@ summary: 스냅샷 이미지 수집에 스케줄을 사용하고 스냅샷 정�
 
 스냅샷 정합성 보장 그룹에 포함된 볼륨을 구성원 볼륨이라고 합니다. 볼륨을 일관성 그룹에 추가하면 System Manager에서 해당 구성원 볼륨에 해당하는 예약된 새 용량을 자동으로 생성합니다. 각 구성원 볼륨의 스냅샷 이미지를 자동으로 생성하도록 일정을 정의할 수 있습니다.
 
-image::../media/sam1130-dwg-snapshots-consistency-groups-overview.gif[sam1130 DWG 스냅샷 정합성 보장 그룹 개요]
+image::../media/sam1130-dwg-snapshots-consistency-groups-overview.gif[스냅샷 정합성 보장 그룹 개요]
 
 ^1^ 예약된 용량;^2^ 멤버 볼륨;^3^ 정합성 보장 그룹 스냅샷 이미지

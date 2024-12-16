@@ -33,7 +33,7 @@ Upgrade Center를 사용하여 최신 소프트웨어 및 펌웨어를 다운로
 * * Supervisor 소프트웨어 * -- Supervisor 소프트웨어는 소프트웨어가 실행되는 컨트롤러의 가상 머신입니다.
 
 
-image::../media/sam1130-dwg-upgrade-firmware-locations.gif[sam1130 DWG 업그레이드 펌웨어 위치]
+image::../media/sam1130-dwg-upgrade-firmware-locations.gif[펌웨어 위치를 업그레이드합니다]
 
 ^1^컨트롤러 쉘프;^2^드라이브 쉘프;^3^소프트웨어, 컨트롤러 펌웨어, 컨트롤러 NVSRAM, 감독자 소프트웨어;^4^드라이브 펌웨어;^5^IOM 펌웨어;^6^드라이브 펌웨어
 

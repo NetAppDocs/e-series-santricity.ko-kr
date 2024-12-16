@@ -4,9 +4,11 @@ sidebar: sidebar
 keywords:  
 summary:  
 ---
-= SANtricity 시스템 관리자 11.8
+= SANtricity 시스템 관리자 11.9
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
+[role="lead"]
+일부 일반 어레이 설정 및 추가 기능에 대해 System Manager를 구성할 수 있습니다.

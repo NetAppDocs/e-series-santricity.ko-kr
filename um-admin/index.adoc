@@ -1,12 +1,14 @@
 ---
 permalink: um-admin/index.html 
 sidebar: sidebar 
-keywords: santricity, unified, manager 6 
-summary: SANtricity 유니파이드 관리자 6 
+keywords: santricity, unified, manager 7 
+summary: SANtricity 유니파이드 관리자 7 
 ---
-= SANtricity 유니파이드 관리자 6
+= SANtricity 유니파이드 관리자 7
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
+[role="lead"]
+Unified Manager는 웹 기반 인터페이스로, 단일 뷰에서 여러 스토리지 어레이를 관리할 수 있습니다.

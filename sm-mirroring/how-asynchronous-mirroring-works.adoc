@@ -30,7 +30,7 @@ summary: 비동기식 미러링은 데이터 볼륨을 필요 시 또는 일정�
 
 액티브 비동기식 미러링 세션에는 4가지 기본 단계가 있습니다.
 
-image::../media/sam-1130-dwg-async-mirroring-session.gif[SAM 1130 DWG 비동기 미러링 세션]
+image::../media/sam-1130-dwg-async-mirroring-session.gif[비동기식 미러링 세션]
 
 . 쓰기 작업은 먼저 운영 볼륨의 스토리지 시스템에서 수행됩니다.
 . 작업 상태가 호스트로 반환됩니다.
