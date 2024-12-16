@@ -8697,4 +8697,29 @@
   <block id="877f007e3f321618e24a9962b07e63fa" category="sidebar">System Manager 11.9을 사용한 단일 어레이 관리</block>
   <block id="9c2cbf0c1a7244ea333628422695d560" category="sidebar">Unified Manager 7를 사용하여 다중 어레이 관리</block>
   <block id="12256f91aad97dd547dda71e221d63ce" category="sidebar">SANtricity 11.9 문서</block>
+  <block id="320344fc6d13f7639d2b2c90f55506fa" category="sidebar">SANtricity 11.90 소프트웨어를 통해 데이터 분석, 비디오 감시, 백업 및 복구처럼 부하가 많이 걸리는 워크로드 애플리케이션에서 E-Series 하이브리드 플래시 및 EF-Series All-Flash 어레이의 성능과 활용률을 최대화할 수 있습니다.</block>
+  <block id="b26c3f1c1c8d9eb65323b2750c4c349d" category="sidebar">SANtricity 소프트웨어 설명서 11.90</block>
+  <block id="90e8ac6688c66ac3fc81de93ba27235a" category="sidebar">SANtricity 시스템 관리자 및 유니파이드 관리자</block>
+  <block id="0b008f21f9758b84909b95140b0a532d" category="sidebar">System Manager 인터페이스</block>
+  <block id="29ac086a960081d77daa677c24463af3" category="sidebar">Unified Manager 인터페이스</block>
+  <block id="e95315401141b931451e32ea694b6d92" category="sidebar">SANtricity 소프트웨어 데이터시트입니다</block>
+  <block id="421eeeca306bdf1873654f04f6d8e61e" category="sidebar">E-Series 문서</block>
+  <block id="b00771a05354ff5b2df1b388cfb6c874" category="sidebar">E-Series 시스템 문서</block>
+  <block id="06e7eb701ce804d46bd8c25ab5b395f0" category="sidebar">CLI(Command Line Interface) 참조</block>
+  <block id="8a47162648ffc3ff0cf630036d36f2d6" category="sidebar">SANtricity API</block>
+  <block id="92850b78bdc20bc1df259e9c026d1744" category="sidebar">웹 서비스</block>
+  <block id="e925850eee1d36b9012f5887fe6721da" category="sidebar">vCenter용 플러그인</block>
+  <block id="b7d21f40b4f600f6d264e065bfc2ef45" category="sidebar">SMI-S 공급자</block>
+  <block id="4ad3ac8fcad31828ef9c8a0f6e3612d1" category="sidebar">고성능 애플리케이션 및 애드온</block>
+  <block id="340bde3d9f9d57bac1774835ed1203cb" category="sidebar">Splunk Enterprise용 SANtricity 앱</block>
+  <block id="a9a95fb3e7f3ac479078e21d446253a8" category="sidebar">SANtricity용 Splunk 기술 애드온</block>
+  <block id="bb86e40f418d08cd8d7bbeec844246ad" category="sidebar">E-Series + Grafana를 사용한 성능 분석기</block>
+  <block id="78108480bada28e46fb2b45e1f33a4db" category="sidebar">E-Series Performance Analyzer에 대한 블로그</block>
+  <block id="958ff83dbf7d0240d610b02eded954cd" category="sidebar">SE용</block>
+  <block id="181d79a3e511e53525d453c7bfd76b1e" category="sidebar">E-Series/EF-Series 기술 교육(로그인 필요)</block>
+  <block id="5274593635fc2a3195c85eefd393e7e6" category="sidebar">EF300 개요 및 기술 세부 정보(로그인 필요)</block>
+  <block id="b7d6c20f0b34e1cb56ec4c6629bb1d94" category="sidebar">NetApp Fusion(로그인 필요)</block>
+  <block id="974ad78dc53c253ebfe5b2b8b376f353" category="sidebar">도구 및 지원</block>
+  <block id="2bae42f280067110dfd52cc69a468364" category="sidebar">Active IQ(로그인 필요)</block>
+  <block id="54708ac788109e3332a896f8d957e38f" category="sidebar">E-Series/SANtricity 다운로드(로그인 필요)</block>
 </blocks>
