@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, Unified Manager installation 
 summary: Unified Manager 설치 개요 
 ---
-= Unified Manager를 설치합니다
+= SANtricity Unified Manager를 설치합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-Unified Manager는 NetApp E-Series 스토리지 시스템을 관리하기 위해 호스트 시스템에 별도로 설치되는 RESTful API 서버인 웹 서비스 프록시에 포함됩니다.
+SANtricity Unified Manager는 NetApp E-Series 스토리지 시스템을 관리할 수 있도록 호스트 시스템에 별도로 설치된 RESTful API 서버인 웹 서비스 프록시와 함께 제공됩니다.
 
 웹 서비스 프록시 및 Unified Manager를 설치하려면 E-Series 및 SANtricity 문서 센터에서 다음 지침을 참조하십시오.
 

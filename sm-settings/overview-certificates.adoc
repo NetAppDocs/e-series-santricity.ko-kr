@@ -11,7 +11,7 @@ summary: 'System Manager를 사용하여 CSR(인증서 서명 요청)을 생성�
 
 
 [role="lead"]
-System Manager를 사용하여 CSR(인증서 서명 요청)을 생성하고 인증서를 가져오고 기존 인증서를 관리할 수 있습니다.
+SANtricity 시스템 관리자를 사용하여 CSR(인증서 서명 요청)을 만들고, 인증서를 가져오고, 기존 인증서를 관리할 수 있습니다.
 
 
 

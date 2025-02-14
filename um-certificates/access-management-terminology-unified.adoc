@@ -11,7 +11,7 @@ summary: 액세스 관리 용어가 SANtricity Unified Manager에 어떻게 적�
 
 
 [role="lead"]
-Unified Manager에 액세스 관리 용어가 어떻게 적용되는지 알아보십시오.
+액세스 관리 용어가 SANtricity Unified Manager에 어떻게 적용되는지 알아보십시오.
 
 [cols="25h,~"]
 |===

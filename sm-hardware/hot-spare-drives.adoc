@@ -11,7 +11,7 @@ summary: 핫 스페어는 System Manager의 RAID 1, RAID 5 또는 RAID 6 볼륨 
 
 
 [role="lead"]
-핫 스페어는 System Manager의 RAID 1, RAID 5 또는 RAID 6 볼륨 그룹에서 대기 드라이브 역할을 합니다.
+핫 스페어는 SANtricity System Manager용 RAID 1, RAID 5 또는 RAID 6 볼륨 그룹에서 대기 드라이브로 작동합니다.
 
 데이터가 없는 완전한 기능을 갖춘 드라이브입니다. 볼륨 그룹에서 드라이브에 장애가 발생하면 컨트롤러는 장애가 발생한 드라이브에서 핫 스페어로 할당된 드라이브로 데이터를 자동으로 재구성합니다.
 

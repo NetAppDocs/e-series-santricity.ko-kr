@@ -12,7 +12,7 @@ summary: 일반적인 스토리지 설정 및 추가 기능에 대해 System Man
 
 
 [role="lead"]
-일부 일반 어레이 설정 및 추가 기능에 대해 System Manager를 구성할 수 있습니다.
+일부 일반적인 어레이 설정 및 추가 기능에 대해 SANtricity 시스템 관리자를 구성할 수 있습니다.
 
 
 

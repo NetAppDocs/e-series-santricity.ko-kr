@@ -12,7 +12,7 @@ summary: System Manager를 사용하면 예약된 디스패치를 기다리지 �
 
 
 [role="lead"]
-System Manager를 사용하면 예약된 디스패치를 기다리지 않고 AutoSupport 디스패치를 기술 지원 부서에 보낼 수 있습니다.
+SANtricity 시스템 관리자를 사용하면 예약된 디스패치가 필요해질 때까지 기다리지 않고 AutoSupport 디스패치를 기술 지원으로 보낼 수 있습니다.
 
 .시작하기 전에
 AutoSupport 기능을 활성화해야 합니다. AutoSupport 페이지에서 활성화되어 있는지 여부를 확인할 수 있습니다.

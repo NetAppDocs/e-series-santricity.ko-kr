@@ -11,7 +11,7 @@ summary: Unified Manager 인터페이스에서 미러링된 쌍을 구성한 다
 
 
 [role="lead"]
-Unified Manager 인터페이스에서 미러링된 쌍을 구성한 다음 System Manager에서 쌍을 관리합니다.
+SANtricity Unified Manager 인터페이스에서 미러링된 쌍을 구성한 다음, SANtricity System Manager에서 쌍을 관리합니다.
 
 대칭 복사 쌍을 만들기 전에 다음 지침을 따릅니다.
 

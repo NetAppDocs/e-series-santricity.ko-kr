@@ -11,7 +11,7 @@ summary: 'System Manager에 표시되는 타임 스탬프가 관리 클라이언
 
 
 [role="lead"]
-System Manager에 표시되는 타임 스탬프가 관리 클라이언트(브라우저를 통해 System Manager에 액세스하는 컴퓨터)에 표시되는 타임 스탬프와 정렬되지 않은 경우 스토리지 어레이에서 컨트롤러 클록을 수동으로 동기화해야 합니다. 이 작업은 System Manager에서 NTP(네트워크 시간 프로토콜)가 활성화되지 않은 경우에만 필요합니다.
+SANtricity 시스템 관리자에 표시된 타임스탬프가 관리 클라이언트(브라우저를 통해 SANtricity System Manager에 액세스하는 컴퓨터)에 표시된 타임스탬프와 일치하지 않는 경우 스토리지 배열의 컨트롤러 시계를 수동으로 동기화해야 합니다. 이 작업은 SANtricity System Manager에서 NTP(네트워크 시간 프로토콜)가 활성화되어 있지 않은 경우에만 필요합니다.
 
 [NOTE]
 ====

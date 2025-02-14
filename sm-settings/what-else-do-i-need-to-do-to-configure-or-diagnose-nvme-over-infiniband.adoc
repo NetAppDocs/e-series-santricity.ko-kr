@@ -12,7 +12,7 @@ summary: 다음 표에는 InfiniBand를 통해 NVMe를 구성하고 관리하는
 
 
 [role="lead"]
-다음 표에는 InfiniBand를 통해 NVMe를 구성하고 관리하는 데 사용할 수 있는 System Manager 기능이 나와 있습니다.
+다음 표에는 InfiniBand 세션을 구성하고 관리하는 데 사용할 수 있는 SANtricity System Manager 기능이 나열되어 있습니다.
 
 [NOTE]
 ====

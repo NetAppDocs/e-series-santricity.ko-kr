@@ -12,7 +12,7 @@ summary: SANtricity System Manager로 관리할 수 없는 기존 스토리지 �
 
 
 [role="lead"]
-System Manager로 관리할 수 없는 기존 스토리지 어레이에서 운영 볼륨을 생성한 경우 System Manager로 이 어레이에 2차 볼륨을 생성할 수 있습니다.
+SANtricity System Manager로 관리할 수 없는 기존 스토리지 어레이에서 운영 볼륨을 생성한 경우 SANtricity System Manager로 이 어레이에 2차 볼륨을 생성할 수 있습니다.
 
 .이 작업에 대해
 다른 인터페이스를 사용하는 기존 어레이와 System Manager에서 관리할 수 있는 최신 어레이 간에 비동기식 미러링을 수행할 수 있습니다.

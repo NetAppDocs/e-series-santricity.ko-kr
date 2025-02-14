@@ -11,7 +11,7 @@ summary: Recovery Guru는 System Manager의 구성 요소로, 스토리지 배�
 
 
 [role="lead"]
-Recovery Guru는 System Manager의 구성 요소로, 스토리지 배열 문제를 진단하고 문제 해결을 위한 복구 절차를 권장합니다.
+Recovery Guru는 스토리지 어레이 문제를 진단하고 문제를 해결하기 위한 복구 절차를 권장하는 SANtricity System Manager의 구성 요소입니다.
 
 .단계
 . Home * 을 선택합니다.

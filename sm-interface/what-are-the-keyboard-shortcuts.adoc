@@ -11,7 +11,7 @@ summary: 키보드만 사용하여 System Manager를 탐색할 수 있습니다.
 
 
 [role="lead"]
-키보드만 사용하여 System Manager를 탐색할 수 있습니다.
+키보드만 사용하여 SANtricity System Manager 주변을 탐색할 수 있습니다.
 
 
 

@@ -11,7 +11,7 @@ summary: Unified Manager에서 비동기식 또는 동기식 미러링을 구성
 
 
 [role="lead"]
-Unified Manager에서 비동기식 또는 동기식 미러링을 구성한 다음 System Manager를 사용하여 동기화를 관리합니다.
+SANtricity Unified Manager에서 비동기식 또는 동기식 미러링을 구성한 다음 SANtricity System Manager를 사용하여 동기화를 관리합니다.
 
 
 

@@ -11,7 +11,7 @@ summary: System Manager는 드라이브의 다양한 상태를 보고합니다.
 
 
 [role="lead"]
-System Manager는 드라이브의 다양한 상태를 보고합니다.
+SANtricity System Manager에서 드라이브의 다양한 상태를 보고합니다.
 
 
 

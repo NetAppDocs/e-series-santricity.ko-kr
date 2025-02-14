@@ -11,7 +11,7 @@ summary: 액세스 관리를 사용하여 SANtricity Unified Manager에서 사�
 
 
 [role="lead"]
-Access Management를 사용하여 Unified Manager에서 사용자 인증을 설정합니다.
+액세스 관리를 사용하여 SANtricity Unified Manager에서 사용자 인증을 설정합니다.
 
 
 

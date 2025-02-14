@@ -11,7 +11,7 @@ summary: System Manager에서는 스토리지 어레이에 문제가 있음을 �
 
 
 [role="lead"]
-System Manager에서는 스토리지 어레이에 문제가 있음을 알리기 위해 아이콘과 다른 여러 방법을 사용합니다.
+SANtricity System Manager에서는 아이콘과 여러 가지 다른 방법을 사용하여 스토리지 어레이에 문제가 있음을 알립니다.
 
 
 

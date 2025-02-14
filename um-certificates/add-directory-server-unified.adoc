@@ -11,7 +11,7 @@ summary: 액세스 관리에 대한 인증을 구성하려면 SANtricity Unified
 
 
 [role="lead"]
-액세스 관리에 대한 인증을 구성하려면 Unified Manager용 웹 서비스 프록시를 실행하는 호스트와 LDAP 서버 간의 통신을 설정해야 합니다. 그런 다음 LDAP 사용자 그룹을 로컬 사용자 역할에 매핑합니다.
+액세스 관리에 대한 인증을 구성하려면 SANtricity Unified Manager용 웹 서비스 프록시를 실행하는 호스트와 LDAP 서버 간의 통신을 설정해야 합니다. 그런 다음 LDAP 사용자 그룹을 로컬 사용자 역할에 매핑합니다.
 
 .시작하기 전에
 * 보안 관리자 권한이 포함된 사용자 프로필로 로그인해야 합니다. 그렇지 않으면 Access Management 기능이 나타나지 않습니다.

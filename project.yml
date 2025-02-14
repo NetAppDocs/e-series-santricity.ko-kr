@@ -31,9 +31,9 @@ sidebar:
       url: "/san-getstarted/santricity-overview.html"
     - title: 지원되는 브라우저 및 OS
       url: "/san-getstarted/supported-browsers-os.html"
-    - title: System Manager 설정
+    - title: SANtricity 시스템 관리자 설정
       entries:
-      - title: System Manager에 액세스합니다
+      - title: SANtricity 시스템 관리자에 액세스합니다
         url: "/san-getstarted/access-sam.html"
       - title: 설정 마법사 개요
         url: "/sm-interface/setup-wizard-overview.html"
@@ -51,20 +51,20 @@ sidebar:
           url: "/sm-interface/how-do-i-configure-the-delivery-method-for-autosupport-new.html"
         - title: 권장 풀 구성을 수락해야 하는지 어떻게 알 수 있습니까?
           url: "/sm-interface/how-do-i-know-if-i-should-accept-the-recommended-pool-configuration.html"
-        - title: System Manager에서 호스트를 검색하지 못했습니다. 어떻게 해야 합니까?
+        - title: SANtricity 시스템 관리자가 호스트를 감지하지 못했습니다. 어떻게 해야 합니까?
           url: "/sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html"
-    - title: Unified Manager 설정
+    - title: SANtricity Unified Manager 설정
       entries:
-      - title: Unified Manager를 설치합니다
+      - title: SANtricity Unified Manager를 설치합니다
         url: "/san-getstarted/install-um.html"
-      - title: Unified Manager에 액세스합니다
+      - title: SANtricity Unified Manager에 액세스합니다
         url: "/san-getstarted/login-um.html"
-  - title: 시스템 관리자
+  - title: SANtricity 시스템 관리자
     url: "/system-manager/index.html"
     entries:
     - title: 기본 인터페이스
       entries:
-      - title: System Manager 인터페이스 개요
+      - title: SANtricity System Manager 인터페이스 개요
         url: "/sm-interface/overview-interface-sam.html"
       - title: 성능 데이터를 봅니다
         entries:
@@ -1140,7 +1140,7 @@ sidebar:
         entries:
         - title: 다른 컨트롤러에 액세스할 수 없음 대화 상자가 나타나는 이유는 무엇입니까?
           url: "/sm-settings/why-does-the-cannot-access-other-controller-dialog-appear.html"
-        - title: 외부 키 관리를 위해 System Manager에 업로드해야 하는 인증서를 어떻게 알 수 있습니까?
+        - title: 외부 키 관리를 위해 SANtricity System Manager에 업로드해야 하는 인증서는 어떻게 알 수 있습니까?
           url: "/sm-settings/how-do-i-know-what-certificates-need-to-be-uploaded-to-system-manager.html"
         - title: 인증서 해지 확인에 대해 알아야 할 사항은 무엇입니까?
           url: "/sm-settings/what-do-i-need-to-know-about-certificate-revocation-checking.html"
@@ -1244,12 +1244,12 @@ sidebar:
           url: "/sm-support/what-do-i-need-to-know-before-upgrading-drive-firmware.html"
         - title: 수행할 업그레이드 유형을 선택하려면 어떻게 해야 합니까?
           url: "/sm-support/how-do-i-choose-which-type-of-upgrade-to-perform.html"
-  - title: Unified Manager를 참조하십시오
+  - title: SANtricity 유니파이드 관리자
     url: "/unified-manager/index.html"
     entries:
     - title: 기본 인터페이스
       entries:
-      - title: Unified Manager 인터페이스 개요
+      - title: SANtricity Unified Manager 인터페이스 개요
         url: "/um-admin/overview-interface-unified.html"
       - title: 지원되는 브라우저
         url: "/um-admin/supported-browsers-unified.html"
@@ -1267,7 +1267,7 @@ sidebar:
         entries:
         - title: 스토리지 검색 시 고려 사항
           url: "/um-manage/considerations-for-discovering-arrays.html"
-        - title: System Manager 액세스에 대한 고려 사항
+        - title: SANtricity 시스템 관리자에 액세스할 때의 고려 사항
           url: "/um-manage/launch-considerations.html"
       - title: 스토리지를 검색합니다
         entries:
@@ -1279,7 +1279,7 @@ sidebar:
         entries:
         - title: 배열 상태를 봅니다
           url: "/um-manage/storage-array-status.html"
-        - title: System Manager를 시작합니다
+        - title: 개별 스토리지 어레이를 관리합니다
           url: "/um-manage/launch-system-manager.html"
         - title: 스토리지 암호를 변경합니다
           url: "/um-admin/change-storage-array-passwords.html"

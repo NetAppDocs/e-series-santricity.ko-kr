@@ -11,7 +11,7 @@ summary: 액세스 관리는 SANtricity 시스템 관리자에서 사용자 인�
 
 
 [role="lead"]
-Access Management는 System Manager에서 사용자 인증을 설정하는 방법입니다.
+액세스 관리는 SANtricity 시스템 관리자에서 사용자 인증을 설정하는 방법입니다.
 
 구성 및 사용자 인증은 다음과 같이 작동합니다.
 

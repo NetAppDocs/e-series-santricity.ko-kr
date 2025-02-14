@@ -460,7 +460,6 @@
   <block id="638e87c9a312fe766009341e23b4dbd4" category="doc">컨트롤러 소프트웨어 및 펌웨어 업그레이드를 위한 워크플로우</block>
   <block id="53f6e38bfb8737cd78f3afe40356d59e" category="summary">SANtricity 시스템 관리자에서 다음 단계를 수행하여 AutoSupport 기능을 구성합니다.</block>
   <block id="abcd71b1bdd83d175115a06e7bd6993c" category="doc">AutoSupport 기능의 워크플로</block>
-  <block id="fa1ad6ca18787ce10b28e8361e9f1ad1" category="paragraph">System Manager에서 다음 단계를 수행하여 AutoSupport 기능을 구성합니다.</block>
   <block id="b2d4b96a56de336af6183c3c3ca96077" category="summary">AutoSupport 유지 관리 창을 비활성화하여 오류 이벤트에 대한 티켓 자동 생성을 허용합니다. AutoSupport 유지 관리 창이 비활성화된 경우 스토리지 어레이는 AutoSupport를 사용하여 문제가 있는 경우 지원 케이스를 엽니다.</block>
   <block id="ccc1efeb0dcf8c187a812dfc3c4f8ac1" category="doc">AutoSupport 유지 보수 창을 비활성화합니다</block>
   <block id="0da69218a13ebfac913ebb21ce1861f6" category="list-text">AutoSupport 유지 관리 창 비활성화 * 를 선택합니다.</block>
@@ -3347,7 +3346,6 @@
   <block id="8707cd376e4a4e2b7f02a71e6a1b1009" category="summary">씬 볼륨에서 공간을 모니터링하고 적절한 경고를 생성하여 용량 부족 상태를 방지할 수 있습니다.</block>
   <block id="ba2db905416fb6910e44524f99d5d8c1" category="doc">씬 볼륨을 모니터링합니다</block>
   <block id="11922e324623e8ee6795b38fc97026aa" category="summary">SANtricity 시스템 관리자에서 다음 단계를 수행하여 볼륨을 생성할 수 있습니다.</block>
-  <block id="26eaac99fa3741d6e7305e93cad51def" category="paragraph">System Manager에서 다음 단계를 수행하여 볼륨을 생성할 수 있습니다.</block>
   <block id="fc6b23d453184949603cbf22152f962e" category="summary">기존 스냅샷 정합성 보장 그룹에 새 구성원 볼륨을 추가할 수 있습니다. 새 구성원 볼륨을 추가할 때 구성원 볼륨에 대한 용량도 예약해야 합니다.</block>
   <block id="01b0c179dae25a98bc7821b695a8f95c" category="doc">스냅샷 정합성 보장 그룹에 구성원 볼륨을 추가합니다</block>
   <block id="a96fdc91a370dc452506e02ceb89f9b7" category="list-text">구성원 볼륨이 최적화되어야 합니다.</block>
@@ -3824,7 +3822,6 @@
   <block id="7dfb3cdb10c11c047007d5ba193bc8ec" category="list-text">총 읽기 및 쓰기 작업이 결합되었습니다.</block>
   <block id="8f2804311a0084d47f6c63f97e6d6ced" category="summary">SANtricity Unified Manager에서 스토리지 어레이를 보고 액세스하는 데 사용되는 암호를 업데이트할 수 있습니다.</block>
   <block id="2aebbeed1009439a37c2d8cc2d3c3b8c" category="doc">스토리지 배열 암호를 변경합니다</block>
-  <block id="56384fe256eff96c1a56aee05a2e3fbb" category="paragraph">Unified Manager에서 스토리지 어레이를 보고 액세스하는 데 사용되는 암호를 업데이트할 수 있습니다.</block>
   <block id="3e06700262909cb379674ee849478971" category="list-text">스토리지 관리자 권한이 포함된 사용자 프로필로 로그인해야 합니다.</block>
   <block id="6200b57bba4734c357cfd4a38fa16a12" category="list-text">System Manager에서 설정된 스토리지 어레이의 현재 암호를 알아야 합니다.</block>
   <block id="5d0efaa3695cc3970597a53c9f03654a" category="paragraph">이 작업에서는 Unified Manager에서 스토리지 어레이에 액세스할 수 있도록 스토리지 어레이의 현재 암호를 입력합니다. System Manager에서 어레이 암호를 변경했으므로 이제는 Unified Manager에서 어레이 암호를 변경해야 할 수도 있습니다.</block>
@@ -3833,7 +3830,6 @@
   <block id="b6deb366a7ea029beae2c06ae5edbee7" category="list-text">각 스토리지 배열의 암호 또는 암호를 입력한 다음 * 저장 * 을 클릭합니다.</block>
   <block id="2e427df5c1b5f1934e9cdd88bb2c3cb2" category="summary">SANtricity Unified Manager는 다양한 유형의 브라우저에서 액세스할 수 있습니다.</block>
   <block id="6d84e3718084e0db779da4ff8791a2f2" category="doc">지원되는 브라우저</block>
-  <block id="6d5a07028844be42740ba8ef0ebc030a" category="paragraph">Unified Manager는 다양한 유형의 브라우저에서 액세스할 수 있습니다.</block>
   <block id="726e62b65e8dfa097c99ac497e95cf5c" category="paragraph">다음 브라우저 및 버전이 지원됩니다.</block>
   <block id="ef15fd2f45e6bb5ce57587895ba64f93" category="cell">브라우저</block>
   <block id="d0a2e00895462c37efe5227c5b94faae" category="cell">최소 버전</block>
@@ -3844,7 +3840,6 @@
   <block id="24bfb1beabc66d9a6a219a39706480f0" category="paragraph">웹 서비스 프록시는 설치되어 브라우저에서 사용할 수 있어야 합니다.</block>
   <block id="c905ab540cd89c88f522731c7c764a87" category="summary">SANtricity Unified Manager에 액세스하는 데 사용되는 admin 암호를 변경할 수 있습니다.</block>
   <block id="644a1b99d39f24449d49b931a61fc964" category="doc">admin 암호를 변경합니다</block>
-  <block id="f33a46d17adbb22063054d82821f25b7" category="paragraph">Unified Manager에 액세스하는 데 사용되는 admin 암호를 변경할 수 있습니다.</block>
   <block id="cd6788558cc7e0923a1c2358b16319f3" category="list-text">루트 관리자 권한이 포함된 로컬 관리자로 로그인해야 합니다.</block>
   <block id="bd6118611ef18d79d9e7eedceea12308" category="list-text">현재 관리자 암호를 알아야 합니다.</block>
   <block id="52cf81d6fc3cf681001f06708a450dec" category="paragraph">암호를 선택할 때는 다음 지침을 염두에 두십시오.</block>
@@ -3862,7 +3857,6 @@
   <block id="4210c9f98a5dc1ea45fd7d0d2dee8ef2" category="list-text">이 작업을 확인하려면 로컬 관리자 암호를 입력한 다음 * 변경 * 을 클릭합니다.</block>
   <block id="c5140ae7574b7c90722120fd0af36a50" category="summary">관리자 암호를 사용하여 SANtricity Unified Manager를 무단 액세스로부터 보호해야 합니다.</block>
   <block id="c68c69204222cbaf698768923068a3c1" category="doc">관리자 암호 보호를 설정합니다</block>
-  <block id="eeba445787fc95d90b8233e19693857b" category="paragraph">관리자 암호를 사용하여 Unified Manager를 구성하여 무단 액세스로부터 보호해야 합니다.</block>
   <block id="1115a6e562080201b09b1af0e9c4f13a" category="section-title">관리자 암호 및 사용자 프로필</block>
   <block id="95bd4ed85be27a910b2d6e09c064718e" category="paragraph">Unified Manager를 처음 시작하면 관리자 암호를 설정하라는 메시지가 표시됩니다. admin 암호를 가진 모든 사용자는 스토리지 배열에 대한 구성을 변경할 수 있습니다.</block>
   <block id="2832434af291fd456a913710178e09e2" category="inline-link-macro">액세스 관리 작동 방식</block>
@@ -3877,7 +3871,6 @@
   <block id="d08a3e1e92c08c9907f0557b4e28da7a" category="inline-link-macro">세션 시간 제한을 관리합니다</block>
   <block id="2f8dca464fb973f09d9647570e912987" category="paragraph">세션 시간 초과를 조정하거나 세션 시간 초과를 모두 비활성화할 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="491ec1fb8cfb51b8b30aff1b660d5fdc" category="inline-link-macro-rx"></block>.</block>
   <block id="a1f94f83462c2ceebb1aef9832402037" category="summary">SANtricity Unified Manager에 대한 시간 초과를 구성하여 지정된 시간 이후에 사용자의 비활성 세션의 연결을 끊을 수 있습니다.</block>
-  <block id="8ad7e04aaecd791134a5e260a985aa04" category="paragraph">Unified Manager에 대한 시간 초과를 구성하여 지정된 시간 이후에 비활성 세션의 연결을 끊을 수 있습니다.</block>
   <block id="90bc078771cba1fa174144730e743ae1" category="paragraph">기본적으로 Unified Manager의 세션 제한 시간은 30분입니다. 이 시간을 조정하거나 세션 시간 초과를 모두 비활성화할 수 있습니다.</block>
   <block id="5cdc5e794d92075b65fddab1a4df3b77" category="list-text">메뉴 표시줄에서 사용자 로그인 이름 옆에 있는 드롭다운 화살표를 선택합니다.</block>
   <block id="dc5fab46b780f9174c45cb0a79e538b6" category="list-text">Enable/Disable session timeout * 을 선택합니다.</block>
@@ -3886,7 +3879,6 @@
   <block id="b4be680c3d2ca05c238f23cda8f483c5" category="paragraph">설정할 수 있는 최소 시간 초과는 15분입니다.</block>
   <block id="e9e6b18af35988c38b404cb9db9dab71" category="paragraph">세션 시간 초과를 비활성화하려면 * 시간 길이 설정... * 확인란의 선택을 취소합니다.</block>
   <block id="1b89afe60c3c3728ebb581ee0aac3506" category="summary">Unified Manager는 웹 기반 인터페이스로, 단일 뷰에서 여러 스토리지 어레이를 관리할 수 있습니다.</block>
-  <block id="4dce3cdc79e2e44c19e0286c8128e182" category="doc">Unified Manager 인터페이스 개요</block>
   <block id="8f8d2783d036ec8dbe4b6b9c1d0fed0d" category="section-title">기본 페이지</block>
   <block id="edab0a6bffc866b3b3e060784eab4d6a" category="paragraph">Unified Manager에 로그인하면 기본 페이지가 열리고 * Manage - All * 가 표시됩니다. 이 페이지에서는 네트워크에서 검색된 스토리지 배열의 목록을 스크롤하고, 해당 상태를 보고, 단일 배열 또는 어레이 그룹에서 작업을 수행할 수 있습니다.</block>
   <block id="bdb2999f28589aad2b040c21930c86dc" category="section-title">탐색 사이드바</block>
@@ -3910,8 +3902,6 @@
   <block id="216b0b121e6f2408241a848b4595c30c" category="paragraph">사용자 및 암호에 대한 자세한 내용은 다음을 참조하십시오.</block>
   <block id="dab914db541126686bbe7301f26a031b" category="list-text"><block ref="dab914db541126686bbe7301f26a031b" category="inline-link-macro-rx"></block></block>
   <block id="d424dbef08902607fe74ce66143ded85" category="summary">Unified Manager에 액세스 및 로그인합니다.</block>
-  <block id="935157885838ef2e13b906dc3cfa3504" category="doc">Unified Manager에 액세스합니다</block>
-  <block id="0fe8e078d723310c7a025dbb49b053a2" category="paragraph">웹 서비스 프록시를 설치한 후 Unified Manager에 액세스하여 웹 기반 인터페이스에서 여러 스토리지 시스템을 관리할 수 있습니다.</block>
   <block id="d6ccab2da5107baf9a74bf70fd30ac64" category="inline-link-macro">지원되는 브라우저 및 운영 체제</block>
   <block id="0a638be7984a916271be0d85fa354c61" category="admonition">지원되는 브라우저는 를 참조하십시오 <block ref="0d80156806b92a254389d706e3039498" category="inline-link-macro-rx"></block>.</block>
   <block id="75ac65baa63f90887df8eeedf86752f4" category="list-text">브라우저를 열고 다음 URL을 입력합니다.</block>
@@ -3966,8 +3956,6 @@
   <block id="3d945423f8e9496c429a5d8c65b4604f" category="paragraph">우분투</block>
   <block id="f93164fdf3a453327bceab4df38f5ead" category="paragraph">18.04, 20.04/64비트</block>
   <block id="cdee3f665be88669170bda11b2f06c93" category="summary">Unified Manager 설치 개요</block>
-  <block id="65747c74d7b2e455833a7211d404378f" category="doc">Unified Manager를 설치합니다</block>
-  <block id="34d9a59f7d7e5ba2b6d37af87522f26b" category="paragraph">Unified Manager는 NetApp E-Series 스토리지 시스템을 관리하기 위해 호스트 시스템에 별도로 설치되는 RESTful API 서버인 웹 서비스 프록시에 포함됩니다.</block>
   <block id="cbdedeba7d21b6ec4e131a86b76662c6" category="paragraph">웹 서비스 프록시 및 Unified Manager를 설치하려면 E-Series 및 SANtricity 문서 센터에서 다음 지침을 참조하십시오.</block>
   <block id="a18485577a4748889b9322afa1d6eadc" category="inline-link">설치 및 업그레이드 요구 사항 검토</block>
   <block id="192c70ae7442b1e297e8288370c5d9a7" category="list-text"><block ref="192c70ae7442b1e297e8288370c5d9a7" category="inline-link-rx"></block></block>
@@ -4104,7 +4092,6 @@
   <block id="9e6b49710a50785bf46a03031fcae538" category="list-text">하드웨어의 서비스 작업 필요 LED가 켜집니다.</block>
   <block id="fa1b63c4bafe790f2b625d05b15735d8" category="paragraph">문제에 대한 알림을 받으면 Recovery Guru를 사용하여 문제를 해결하십시오. 필요한 경우 복구 단계와 함께 하드웨어 설명서를 사용하여 장애가 발생한 구성 요소를 교체합니다.</block>
   <block id="3d371728a27bfe9492e0557bfd5069d2" category="summary">연결된 호스트가 표시되지 않으면 자동 감지에 실패했거나, 호스트가 잘못 연결되었거나, 현재 접속된 호스트가 없는 것입니다.</block>
-  <block id="e5455040d4a9ede58061022a5ec57985" category="doc">System Manager에서 호스트를 검색하지 못했습니다. 어떻게 해야 합니까?</block>
   <block id="f7ff4c91fa7860bce0649b5e3d3793d8" category="list-text">스토리지 [호스트] 메뉴로 이동하여 호스트를 수동으로 생성하고 적절한 호스트 포트 식별자를 연결할 수 있습니다. 수동으로 생성된 호스트는 * 초기 설정 * 마법사에도 표시됩니다.</block>
   <block id="50f6912c5df4e3e02e724cdec96987cf" category="list-text">호스트와 호스트는 호스트 포트 유형(예: iSCSI 또는 NVMe over RoCE)에 맞게 구성해야 하며 자동 탐지 기능이 작동되기 전에 설정된 스토리지에 대한 세션도 구성해야 합니다.</block>
   <block id="c5a4e56bb338a4a15f84855c89874dcb" category="summary">홈 페이지는 스토리지 시스템의 일일 관리를 위한 대시보드 보기를 제공합니다. System Manager에 로그인하면 홈 페이지가 첫 번째 화면으로 표시됩니다.</block>
@@ -4201,8 +4188,6 @@
   <block id="35add11daa03126332ded679a471057a" category="list-text">볼륨 복사 작업이 완료되면 * Clear * 를 선택하여 목록에서 제거할 수 있습니다.</block>
   <block id="0cfd3bc55947c6b31d655ec407a2f71f" category="paragraph">작업이 완료되면 홈 페이지 상단에 정보 메시지와 노란색 렌치 아이콘이 나타납니다. 이 메시지에는 작업 진행 중 페이지에서 작업을 지울 수 있는 링크가 포함되어 있습니다.</block>
   <block id="3412f4f9996db44d85e9a7ddb64f8fc2" category="summary">기본 인터페이스를 탐색하여 System Manager 기능 및 작업에 액세스합니다.</block>
-  <block id="42ff625aa5c914a15cc639fd05aa3bfb" category="doc">System Manager 인터페이스 개요</block>
-  <block id="bb62a2f52038b073396f3df591dfc864" category="paragraph">System Manager는 단일 뷰에서 스토리지 어레이를 관리할 수 있는 웹 기반 인터페이스입니다.</block>
   <block id="a274f4d4670213a9045ce258c6c56b80" category="paragraph">알림</block>
   <block id="9446a98ad14416153cc4d45ab8b531bf" category="paragraph">성능</block>
   <block id="fbc25e9c092c98f7b43c32748a412668" category="paragraph">스토리지 계층 구조입니다</block>
@@ -4682,7 +4667,6 @@
   <block id="f6de1d0bce3350f9520d85df5dd89a15" category="paragraph">디렉토리 서버 구성 설정, 권한 설정 및 역할 매핑이 제거됩니다. 사용자는 더 이상 이 서버의 자격 증명으로 로그인할 수 없습니다.</block>
   <block id="c73b1b4d687800d408f419f0f0df3f39" category="summary">NTP(네트워크 시간 프로토콜)가 활성화되지 않은 경우 컨트롤러의 시계를 수동으로 설정하여 관리 클라이언트(SANtricity 시스템 관리자에 액세스하는 브라우저를 실행하는 데 사용되는 시스템)와 동기화할 수 있습니다.</block>
   <block id="98ab351cb9c5d5c191ae7f2acc9960e7" category="doc">스토리지 배열 클록을 동기화합니다</block>
-  <block id="3a7965dd150006ce04e7d23d6db0b1a0" category="paragraph">NTP(네트워크 시간 프로토콜)가 활성화되어 있지 않으면 컨트롤러의 시계를 수동으로 설정하여 관리 클라이언트(System Manager에 액세스하는 브라우저를 실행하는 데 사용되는 시스템)와 동기화할 수 있습니다.</block>
   <block id="5686e4a1839427d3f101f1242524feeb" category="paragraph">동기화는 이벤트 로그의 이벤트 타임 스탬프가 호스트 로그 파일에 기록된 타임 스탬프와 일치하도록 합니다. 동기화 프로세스 중에도 컨트롤러는 사용 가능하고 정상적으로 작동합니다.</block>
   <block id="fdcb6fda8360a631ef2730c06e89ae28" category="paragraph">System Manager에서 NTP가 활성화되어 있는 경우 이 옵션을 사용하여 시계를 동기화하지 마십시오. 대신 NTP는 SNTP(Simple Network Time Protocol)를 사용하여 외부 호스트와 시계를 자동으로 동기화합니다.</block>
   <block id="187a2d7806202a5a575270922290f2a4" category="paragraph">동기화 후 성능 통계가 손실되거나 비뚤어지거나, 일정(ASUP, 스냅샷 등)이 영향을 받고, 로그 데이터의 타임스탬프가 비뚤어지는 것을 확인할 수 있습니다. NTP를 사용하면 이 문제가 방지됩니다.</block>
@@ -4858,13 +4842,11 @@
   <block id="5961aa9528f652b687b47fcb649c5893" category="paragraph">200GB 사용 HIC를 포함하는 EF600 스토리지 어레이를 구성하는 경우 이 대화 상자에 물리적 포트(외부)용 IP 주소 필드와 가상 포트(내부)용 IP 주소 필드가 2개 표시됩니다. 두 포트에 대해 고유한 IP 주소를 할당해야 합니다. 이러한 설정을 통해 호스트는 각 포트 간에 경로를 설정하고 HIC는 최대 성능을 달성할 수 있습니다. IP 주소를 가상 포트에 할당하지 않으면 HIC는 약 절반 수준의 속도로 실행됩니다.</block>
   <block id="4edd604de641cbb90cf573dc0f68458f" category="list-text">Yes * 를 클릭하여 NVMe over InfiniBand 포트를 재설정합니다.</block>
   <block id="4bdba401227da38e05e805640bc07392" category="summary">스토리지 어레이에 적용된 RBAC(역할 기반 액세스 제어) 기능에는 하나 이상의 역할이 매핑된 사전 정의된 사용자 프로필이 포함됩니다. 각 역할에는 SANtricity 시스템 관리자의 작업에 액세스할 수 있는 권한이 포함되어 있습니다.</block>
-  <block id="2f9b4deb9315aed582af1e2cad742214" category="paragraph">스토리지 어레이에 적용된 RBAC(역할 기반 액세스 제어) 기능에는 하나 이상의 역할이 매핑된 사전 정의된 사용자 프로필이 포함됩니다. 각 역할에는 System Manager의 작업에 액세스할 수 있는 권한이 포함되어 있습니다.</block>
   <block id="4af88e993472ad0efbe148c3d71082f9" category="paragraph">사용자 프로필 및 매핑된 역할은 System Manager의 사용자 인터페이스에서 설정 [액세스 관리 &gt; 로컬 사용자 역할] 메뉴에서 액세스할 수 있습니다.</block>
   <block id="536f38e388f0e686eaac049b4bfaf373" category="paragraph">역할은 다음과 같이 작업에 대한 사용자 액세스를 제공합니다.</block>
   <block id="730a090cd84a0ce605e346fc4d569c15" category="paragraph">사용자에게 특정 작업에 대한 권한이 없는 경우 해당 작업은 회색으로 표시되거나 사용자 인터페이스에 표시되지 않습니다.</block>
   <block id="981aaa3b1d8f5d256493b92b6b493e0a" category="summary">SANtricity System Manager에서 세션을 설정하기 전에 사용자에게 표시되는 로그인 배너를 생성할 수 있습니다. 배너에는 권고 통지 및 동의 메시지가 포함될 수 있습니다.</block>
   <block id="8efb09501bad8ce68b1a1bc93afb135d" category="doc">로그인 배너를 구성합니다</block>
-  <block id="69bfc5b49cdbb5ecfe1a3226439e05f5" category="paragraph">System Manager에서 세션을 설정하기 전에 사용자에게 표시되는 로그인 배너를 생성할 수 있습니다. 배너에는 권고 통지 및 동의 메시지가 포함될 수 있습니다.</block>
   <block id="7335dfb2a6a5b54076e56c28f64c1b27" category="paragraph">배너를 만들면 대화 상자의 로그인 화면 앞에 나타납니다.</block>
   <block id="715a220c50a620ae5a87b5d1e1719b4e" category="list-text">일반 섹션에서 * 로그인 배너 구성 * 을 선택합니다.</block>
   <block id="795b64a6f7aa721a8a5c6f7bcdb2da8b" category="paragraph">로그인 배너 구성 대화 상자가 열립니다.</block>
@@ -5181,7 +5163,6 @@
   <block id="30f8e0c6ba6693951068d665bf2d3173" category="list-text">* UDP 포트 * -- 일반적으로 syslog에 대한 UDP 포트는 514입니다. 구성된 syslog 서버가 테이블에 표시됩니다.</block>
   <block id="85d48bc46b15b6483d2233aa0f95dca0" category="list-text">서버 주소로 테스트 알림을 보내려면 * 모든 Syslog 서버 테스트 * 를 선택합니다.</block>
   <block id="ae8f19f0991a75dbac99ee6e45ba300b" category="summary">SANtricity 시스템 관리자에서 시간 초과를 구성하여 지정된 시간 후에 비활성 세션의 연결이 끊길 수 있습니다.</block>
-  <block id="0d08d54101084156343832dde6b77679" category="paragraph">System Manager에서 시간 제한을 구성하여 지정된 시간 이후에 비활성 세션의 연결을 끊을 수 있습니다.</block>
   <block id="7e21334170926970f8d92b45e8391954" category="paragraph">기본적으로 System Manager의 세션 제한 시간은 30분입니다. 이 시간을 조정하거나 세션 시간 초과를 모두 비활성화할 수 있습니다.</block>
   <block id="e535d8be0b5cae9eeaf63966afda7bde" category="paragraph">스토리지에 포함된 SAML(Security Assertion Markup Language) 기능을 사용하여 액세스 관리를 구성하는 경우 사용자의 SSO 세션이 최대 제한에 도달하면 세션 시간 초과가 발생할 수 있습니다. 이 문제는 System Manager 세션 시간이 초과되기 전에 발생할 수 있습니다.</block>
   <block id="5303e6808de2e1eb2cd0b535241f849f" category="list-text">일반 섹션에서 * 세션 제한 시간 활성화/비활성화 * 를 선택합니다.</block>
@@ -5271,7 +5252,6 @@
   <block id="3040397b3aa3ed9f7b0a276c2146f2b4" category="paragraph">드라이브 보안의 암호를 스토리지 배열의 관리자 암호와 혼동해서는 안 됩니다. Drive Security의 암호 구문은 보안 키의 백업을 보호합니다. 관리자 암호를 사용하면 전체 스토리지 시스템이 무단으로 액세스하지 못하도록 보호할 수 있습니다.</block>
   <block id="e938a1906cdb8c9484393d955b24416e" category="list-text">백업 보안 키 파일이 관리 클라이언트에 다운로드됩니다. 다운로드한 파일의 경로는 브라우저의 기본 다운로드 위치에 따라 다를 수 있습니다. 보안 키 정보가 저장된 위치를 기록해 두십시오.</block>
   <block id="6ca00ca15079ef4d4e240986dacffa79" category="summary">액세스 관리는 SANtricity 시스템 관리자에서 사용자 인증을 설정하는 방법입니다.</block>
-  <block id="09802636c4ae135257f67339b6132e62" category="paragraph">Access Management는 System Manager에서 사용자 인증을 설정하는 방법입니다.</block>
   <block id="8fb2f6e415dce0ffc2a42ed7de73d08d" category="paragraph">구성 및 사용자 인증은 다음과 같이 작동합니다.</block>
   <block id="70d4f4d0018e0331ccbe2f6327c363ec" category="paragraph">처음 로그인하는 경우 사용자 이름 admin이 자동으로 표시되며 변경할 수 없습니다. admin 사용자는 시스템의 모든 기능에 액세스할 수 있습니다.</block>
   <block id="0f8888851116618073d1ec0b2125cb99" category="list-text">관리자는 사용자 인터페이스에서 Access Management(액세스 관리)로 이동합니다. 스토리지 어레이는 RBAC(역할 기반 액세스 제어) 기능을 구현하는 로컬 사용자 역할을 사용하도록 사전 구성됩니다.</block>
@@ -5678,7 +5658,6 @@
   <block id="46fd54ea2401d27e9da8c70f78b70f28" category="paragraph">SSO</block>
   <block id="90370a06b1b0571260a5d4550fabea3e" category="paragraph">SSO(Single Sign-On)는 하나의 로그인 자격 증명 세트로 여러 응용 프로그램에 액세스할 수 있는 인증 서비스입니다.</block>
   <block id="e78959343eccc5753e5a6f69aa17e104" category="summary">외부 키 관리의 경우 두 엔터티가 서로 신뢰할 수 있도록 스토리지 배열과 키 관리 서버 간에 인증을 위해 두 가지 유형의 인증서를 가져옵니다.</block>
-  <block id="6bb1fc83f2153c8e3dfddfa5b556e792" category="doc">외부 키 관리를 위해 System Manager에 업로드해야 하는 인증서를 어떻게 알 수 있습니까?</block>
   <block id="9a4b083823a7c4b7786c0328f4a16e2a" category="paragraph">키 관리 서버 인증서는 키 관리 서버의 유효성을 검사하므로 스토리지 배열이 해당 IP 주소를 신뢰할 수 있습니다. 키 관리 서버에서 서버 인증서 파일을 가져온 다음 System Manager에 액세스하는 호스트로 해당 파일을 복사합니다.</block>
   <block id="6157bc386a497dae1351826703950791" category="summary">감사 로그를 외부 syslog 서버에 보관하려는 경우 해당 서버와 스토리지 시스템 간의 통신을 구성할 수 있습니다. 연결이 설정되면 감사 로그가 syslog 서버에 자동으로 저장됩니다.</block>
   <block id="fbd96b600f11b3fec9c557321a19ac3a" category="list-text">서버에서 보안 프로토콜(예: TLS)을 사용하는 경우 로컬 시스템에서 인증 기관(CA) 인증서를 사용할 수 있어야 합니다. CA 인증서는 서버와 클라이언트 간의 보안 연결을 위해 웹 사이트 소유자를 식별합니다.</block>
@@ -5788,7 +5767,6 @@
   <block id="b19fe3a2a20f338166ef8a5d0758b53a" category="list-text">아래로 스크롤하여 * NVMe over InfiniBand settings * 를 선택한 다음 * View NVMe over Fabrics Statistics * 를 선택합니다.</block>
   <block id="3c625277723f7e35643a56ecccb51d80" category="summary">System Manager에서 CLI(Command Line Interface) 패키지를 다운로드할 수 있습니다.</block>
   <block id="b44398f4857f5ee9b5b3372c0d3a83ac" category="doc">CLI(Command Line Interface) 다운로드</block>
-  <block id="934757b9623717972adcc349e85d6283" category="paragraph">System Manager에서 CLI(Command Line Interface) 패키지를 다운로드할 수 있습니다.</block>
   <block id="f0edcadd28eaa53b81b22a31b44b45b9" category="paragraph">CLI는 스토리지 시스템을 구성하고 모니터링하기 위한 텍스트 기반 방법을 제공합니다. https를 통해 통신하며 외부에서 설치된 관리 소프트웨어 패키지에서 사용할 수 있는 CLI와 동일한 구문을 사용합니다. CLI를 다운로드하는 데 키가 필요하지 않습니다.</block>
   <block id="75842716a65060950b20cba161cbac95" category="paragraph">CLI 명령을 실행하려는 관리 시스템에서 Java Runtime Environment(JRE) 버전 8 이상을 사용할 수 있어야 합니다.</block>
   <block id="bd5b00551ee618ada817137a1272291f" category="list-text">추가 기능 * 에서 * 명령줄 인터페이스 * 를 선택합니다.</block>
@@ -5918,7 +5896,6 @@
   <block id="1298ddb9c50bbd0f7326abb668f694eb" category="list-text">캐시 프리페치가 설정된 경우 순차적 읽기 액세스가 최적화됩니다. 캐시 프리페치를 사용하면 디스크에서 데이터를 읽는 대신 캐시에서 데이터를 더 많이 찾을 수 있습니다.</block>
   <block id="b36030520bf6fb6f82f2952d906f0dd4" category="summary">일반적인 스토리지 설정 및 추가 기능에 대해 System Manager를 구성할 수 있습니다.</block>
   <block id="c7f8006a54ae70968da2a44d61c94f4c" category="doc">설정 개요</block>
-  <block id="2161120ac2f277c69a937d29896bb757" category="paragraph">일부 일반 어레이 설정 및 추가 기능에 대해 System Manager를 구성할 수 있습니다.</block>
   <block id="f01afbc659c3b1d4c71bba9b1a9ce3ea" category="section-title">구성할 수 있는 설정은 무엇입니까?</block>
   <block id="92a98c57d8dff609da2fceddaeac27a4" category="paragraph">배열 설정에는 다음이 포함됩니다.</block>
   <block id="9f6081850e27326c653ce13711fd1f40" category="list-text"><block ref="9f6081850e27326c653ce13711fd1f40" category="inline-link-macro-rx"></block></block>
@@ -6103,7 +6080,6 @@
   <block id="3799da0d6e5f0f1fd40261a10dc360b0" category="paragraph">DHCP를 사용하지 않으면 네트워크 관리자가 이러한 IP 주소를 수동으로 입력합니다. DHCP를 사용하는 경우 클라이언트가 TCP/IP 작업을 시작해야 할 때 클라이언트는 주소 정보 요청을 브로드캐스트합니다. DHCP 서버는 요청을 받고, 임대 기간이라는 지정된 시간 동안 새 주소를 할당하고, 클라이언트에 주소를 보냅니다. DHCP를 사용하면 장치가 네트워크에 연결될 때마다 다른 IP 주소를 가질 수 있습니다. 일부 시스템에서는 장치가 연결되어 있는 동안에도 장치의 IP 주소가 변경될 수 있습니다.</block>
   <block id="9a10dfa4820362278c75541e0d1eed8b" category="summary">핫 스페어는 System Manager의 RAID 1, RAID 5 또는 RAID 6 볼륨 그룹에서 대기 드라이브 역할을 합니다.</block>
   <block id="276a13903d824739180cb574a8b6063a" category="doc">핫 스페어 드라이브 개요</block>
-  <block id="e4fa5d6edf084bd88f0cdd23e75bb932" category="paragraph">핫 스페어는 System Manager의 RAID 1, RAID 5 또는 RAID 6 볼륨 그룹에서 대기 드라이브 역할을 합니다.</block>
   <block id="bb3d0b1d00371907893169044379dc18" category="paragraph">데이터가 없는 완전한 기능을 갖춘 드라이브입니다. 볼륨 그룹에서 드라이브에 장애가 발생하면 컨트롤러는 장애가 발생한 드라이브에서 핫 스페어로 할당된 드라이브로 데이터를 자동으로 재구성합니다.</block>
   <block id="44fc683d36bd75431aa319eb657eee3d" category="paragraph">핫 스페어는 특정 볼륨 그룹 전용이 아닙니다. 핫 스페어와 드라이브가 다음 속성을 공유하는 한 스토리지 배열의 모든 장애 드라이브에 사용할 수 있습니다.</block>
   <block id="4cb8bf730ded016e3d4d1c1557bceadb" category="list-text">동일한 용량(또는 핫 스페어의 더 큰 용량)</block>
@@ -6458,7 +6434,6 @@
   <block id="28a1f079174ccf89f395f1d4715eb87c" category="paragraph">이제 드라이브를 다른 볼륨 그룹 또는 디스크 풀 또는 다른 스토리지 어레이에서 사용할 수 있습니다.</block>
   <block id="260143c2df7ae0ce4b9a6b4e5820e5bb" category="summary">스토리지 어레이의 IP 주소를 변경한 경우 SANtricity Unified Manager에서 글로벌 어레이 보기를 업데이트할 수 있습니다.</block>
   <block id="cc9d5e6a39247b7ae502a7f1e633c4f7" category="doc">관리 포트를 구성한 후에는 어떻게 해야 합니까?</block>
-  <block id="33be6721ee47ba737121b0b61fc7ccb1" category="paragraph">스토리지 어레이의 IP 주소를 변경한 경우 Unified Manager에서 글로벌 어레이 보기를 업데이트할 수 있습니다.</block>
   <block id="67b52d0dd0552f62756981b7d04e334a" category="paragraph">Unified Manager에서 글로벌 어레이 보기를 업데이트하려면 인터페이스를 열고 관리 [검색] 메뉴로 이동합니다.</block>
   <block id="3f79a5cd8daf0ba8a2623f690e8ad45d" category="paragraph">SANtricity 저장소 관리자를 계속 사용하는 경우 EMW(엔터프라이즈 관리 창)로 이동하여 새 IP 주소를 제거하고 다시 추가해야 합니다.</block>
   <block id="4a2833218ca50e72920f4fc85ded87b5" category="doc">드라이브를 논리적으로 교체하는 이유는 무엇입니까?</block>
@@ -7212,7 +7187,6 @@
   <block id="e162c795f41b2f54f4cc4318a9da4a18" category="list-text">씬 볼륨의 경우 자동 확장이 활성화되어야 합니다.</block>
   <block id="7f29556c75106b05f3d2b4179dcc2406" category="summary">SANtricity System Manager로 관리할 수 없는 기존 스토리지 어레이에서 운영 볼륨을 생성한 경우, System Manager로 이 어레이에 2차 볼륨을 생성할 수 있습니다.</block>
   <block id="87b4e06d5443a380cc83c83c3d590d35" category="doc">기존 시스템에서 생성된 운영 볼륨에 대해 완전한 미러링 쌍을 제공합니다</block>
-  <block id="abe482b981924f3c0e95f1bdc14f29dc" category="paragraph">System Manager로 관리할 수 없는 기존 스토리지 어레이에서 운영 볼륨을 생성한 경우 System Manager로 이 어레이에 2차 볼륨을 생성할 수 있습니다.</block>
   <block id="380f85f6054e74968d72b39236e80732" category="paragraph">다른 인터페이스를 사용하는 기존 어레이와 System Manager에서 관리할 수 있는 최신 어레이 간에 비동기식 미러링을 수행할 수 있습니다.</block>
   <block id="33560e79148fad52472bc34df24ac293" category="list-text">System Manager를 사용하는 두 스토리지 어레이 간에 미러링할 경우 미러링된 쌍의 생성 순서에 따라 이미 완료된 것이므로 이 작업을 건너뛸 수 있습니다.</block>
   <block id="d680891c022a8b76135d7b350bcfef66" category="list-text">원격 스토리지 시스템에서 이 작업을 수행합니다.</block>
@@ -7560,7 +7534,6 @@
   <block id="7ade41b7f837575cf3bc9cf9c6db860c" category="list-text"><block ref="7ade41b7f837575cf3bc9cf9c6db860c" category="inline-link-macro-rx"></block></block>
   <block id="d18c8b00e80b505406982d1c60493e63" category="summary">SANtricity Unified Manager에서 더 이상 스토리지 어레이를 관리하지 않으려는 경우 하나 이상의 스토리지 어레이를 제거할 수 있습니다.</block>
   <block id="bc54c8923d2e900bc8b88d98dcd843d0" category="doc">SANtricity Unified Manager에서 스토리지 어레이를 제거합니다</block>
-  <block id="0c9f801d60084ecd96df66d961171ed0" category="paragraph">Unified Manager에서 더 이상 스토리지 어레이를 관리하지 않으려는 경우 하나 이상의 스토리지 어레이를 제거할 수 있습니다.</block>
   <block id="46da89f7644863b59a53669234ecf705" category="paragraph">제거하는 스토리지 시스템은 액세스할 수 없습니다. 그러나 브라우저를 IP 주소 또는 호스트 이름에 직접 연결하여 제거된 스토리지 배열에 대한 연결을 설정할 수 있습니다.</block>
   <block id="928414d532f3a0bd88fe01efa33e49cc" category="paragraph">스토리지 배열을 제거해도 스토리지 배열 또는 해당 데이터에는 어떤 식으로든 영향을 주지 않습니다. 스토리지 배열이 실수로 제거된 경우 다시 추가할 수 있습니다.</block>
   <block id="c0906399540cc4c4cd2789192cf8a8b0" category="list-text">Manage * 페이지를 선택합니다.</block>
@@ -7629,14 +7602,12 @@
   <block id="9a2322dec60d95a72c3020f689531591" category="list-text"><block ref="9a2322dec60d95a72c3020f689531591" category="inline-link-macro-rx"></block></block>
   <block id="bd5c1b4a761c6f196221f804787289cb" category="summary">실행 옵션을 사용하면 관리 작업을 수행하려는 경우 하나 이상의 스토리지 어레이에 대한 브라우저 기반 SANtricity System Manager를 열 수 있습니다.</block>
   <block id="c911e68fc2d0d4330e7c34bd2941a90f" category="doc">개별 스토리지 어레이를 관리합니다</block>
-  <block id="8911f9d4a79da70f2e2f26cc33ada8aa" category="paragraph">실행 옵션을 사용하면 관리 작업을 수행하려는 경우 하나 이상의 스토리지 어레이에 대한 브라우저 기반 System Manager를 열 수 있습니다.</block>
   <block id="dc81e35ba70439bdea73c9ca731dedc7" category="list-text">관리 페이지에서 관리할 스토리지 어레이를 하나 이상 선택합니다.</block>
   <block id="3eab8ee0f45fd9624973c05ec4303d5a" category="list-text">시작 * 을 클릭합니다.</block>
   <block id="a269bd71b079afa7d2ec900d0f51428d" category="paragraph">새 창이 열리고 System Manager 로그인 페이지가 표시됩니다.</block>
   <block id="ed52458bc28c3fb69da9d3d643b9c4bb" category="list-text">사용자 이름과 암호를 입력한 다음 * 로그인 * 을 클릭합니다.</block>
   <block id="7671664858be05fdbfc7ebd9e330e072" category="summary">Unified Manager가 스토리지 리소스를 표시하고 관리하기 전에 조직의 네트워크에서 관리하려는 스토리지 어레이를 검색해야 합니다. 여러 어레이를 검색할 수도 있고 단일 어레이를 검색할 수도 있습니다.</block>
   <block id="072bbf879ecafdb82ab2e4349cfd42b5" category="doc">스토리지 검색 시 고려 사항</block>
-  <block id="9b4ac681029804460c9ba68ebc344819" category="paragraph">Unified Manager가 스토리지 리소스를 표시하고 관리하기 전에 먼저 조직의 네트워크에서 관리할 스토리지 어레이를 검색해야 합니다. 여러 어레이를 검색할 수도 있고 단일 어레이를 검색할 수도 있습니다.</block>
   <block id="d316240204769eb0f31faba6852de25e" category="section-title">여러 스토리지 시스템을 검색하는 중입니다</block>
   <block id="c1180fcf0651dd21fc1fde9763788bc7" category="paragraph">여러 어레이를 검색하도록 선택한 경우 네트워크 IP 주소 범위를 입력한 다음 Unified Manager가 해당 범위의 각 IP 주소에 대한 개별 연결을 시도합니다. 성공적으로 도달한 스토리지 배열이 검색 페이지에 표시되고 관리 도메인에 추가될 수 있습니다.</block>
   <block id="429de7c9197491bab6d29f7b2cb5f688" category="section-title">단일 스토리지 시스템 검색</block>
@@ -7665,7 +7636,6 @@
   <block id="50e72c7eca8fd15d183c63b71f5f7331" category="list-text">선택적으로 System Manager에서 동기화 설정을 변경할 수 있습니다.</block>
   <block id="4fe5208fe8ba8110b56b8acc0c96d17e" category="summary">설정 가져오기 기능은 하나의 스토리지 어레이에서 여러 스토리지 어레이로 구성을 로드하는 일괄 작업입니다. 이 작업 중에 가져온 설정은 SANtricity 시스템 관리자에서 소스 스토리지 배열이 구성된 방식에 따라 다릅니다.</block>
   <block id="d77d1605f41e6be3f550ae05cfaca17d" category="doc">가져올 설정은 무엇입니까?</block>
-  <block id="c7f22d49f002f26198a719f2496c2e98" category="paragraph">설정 가져오기 기능은 하나의 스토리지 어레이에서 여러 스토리지 어레이로 구성을 로드하는 일괄 작업입니다. 이 작업 중에 가져오는 설정은 소스 스토리지 배열이 System Manager에 구성된 방식에 따라 다릅니다.</block>
   <block id="eb66762bbeb3f99c598499dad7ab6419" category="paragraph">다음 설정을 여러 스토리지 어레이로 가져올 수 있습니다.</block>
   <block id="25e8a6fd63ed997760d824ab39cd4591" category="list-text">* 이메일 경고 * -- 설정에는 메일 서버 주소와 경고 받는 사람의 이메일 주소가 포함됩니다.</block>
   <block id="6dad188816c45ced8208980247910468" category="list-text">* Syslog alerts * -- 설정에는 syslog 서버 주소와 UDP 포트가 포함됩니다.</block>
@@ -7676,7 +7646,6 @@
   <block id="1aa660524e4f7281ec5e49498a4718df" category="list-text">* 시스템 설정 * -- 구성에는 볼륨에 대한 미디어 스캔 설정, 컨트롤러에 대한 SSD 캐시, 자동 로드 밸런싱(호스트 연결 보고 제외)이 포함됩니다.</block>
   <block id="bcd2040d9a3029641d27c34b32354648" category="summary">스토리지 어레이를 구성 및 관리하려는 경우 하나 이상의 스토리지 어레이를 선택하고 시작 옵션을 사용하여 SANtricity System Manager를 엽니다.</block>
   <block id="c95d46d93ad992222d3d7452ede68ef3" category="doc">System Manager 액세스에 대한 고려 사항</block>
-  <block id="625735d117f75d6e7141cef378902859" category="paragraph">스토리지 어레이를 구성 및 관리하려는 경우 하나 이상의 스토리지 어레이를 선택하고 시작 옵션을 사용하여 System Manager를 엽니다.</block>
   <block id="e2de2b40f2bec701c57fd2fbde183531" category="paragraph">System Manager는 이더넷 관리 포트를 통해 네트워크에 연결되는 컨트롤러에 내장된 애플리케이션입니다. 모든 스토리지 기반 기능이 포함되어 있습니다.</block>
   <block id="97c771fec542c151941358c9507e1818" category="paragraph">System Manager에 액세스하려면 다음이 있어야 합니다.</block>
   <block id="d2bf6cf91aae10964c05d43904777ddb" category="inline-link-macro">E-Series 하드웨어 개요</block>
@@ -7956,7 +7925,6 @@
   <block id="effd8867201555d9e878c25e6ac1c734" category="inline-link">EMW(E2700, E5600/EF560) 도움말</block>
   <block id="a0b75c365d2e51a35e74402a2c9667cf" category="list-text"><block ref="a0b75c365d2e51a35e74402a2c9667cf" category="inline-link-rx"></block></block>
   <block id="8a26f9c1af451d8775363a647445ae49" category="summary">액세스 관리는 SANtricity Unified Manager에서 사용자 인증을 구성하는 방법입니다.</block>
-  <block id="d1cc45589c0084f17d53b1764541acde" category="paragraph">Access Management는 Unified Manager에서 사용자 인증을 구성하는 방법입니다.</block>
   <block id="41315c44be734de1ba40d7ac966572b8" category="paragraph">다음과 같은 인증 방법을 사용할 수 있습니다.</block>
   <block id="d49c4941abd4cbf48ddd6db7bbbb59b9" category="list-text">* 로컬 사용자 역할 * -- 인증은 RBAC(역할 기반 액세스 제어) 기능을 통해 관리됩니다. 로컬 사용자 역할에는 미리 정의된 사용자 프로필과 특정 액세스 권한이 있는 역할이 포함됩니다.</block>
   <block id="aad50f908f47b2bf0ef42647f8e94a63" category="list-text">* 디렉터리 서비스 * -- 인증은 LDAP(Lightweight Directory Access Protocol) 서버 및 Microsoft의 Active Directory와 같은 디렉터리 서비스를 통해 관리됩니다.</block>
@@ -7969,7 +7937,6 @@
   <block id="5e2b2b6f8333b56b53fc5e3216758819" category="list-text"><block ref="5e2b2b6f8333b56b53fc5e3216758819" category="inline-link-macro-rx"></block></block>
   <block id="34919a9493354af06c60b6a7efe26f66" category="summary">액세스 관리에 대한 인증을 구성하려면 SANtricity Unified Manager용 웹 서비스 프록시를 실행하는 호스트와 LDAP 서버 간의 통신을 설정해야 합니다. 그런 다음 LDAP 사용자 그룹을 로컬 사용자 역할에 매핑합니다.</block>
   <block id="b828924e6cb61c82f7d84db873261628" category="doc">디렉토리 서버를 추가합니다</block>
-  <block id="4414343c3416e84cd36e3cad4675e6cf" category="paragraph">액세스 관리에 대한 인증을 구성하려면 Unified Manager용 웹 서비스 프록시를 실행하는 호스트와 LDAP 서버 간의 통신을 설정해야 합니다. 그런 다음 LDAP 사용자 그룹을 로컬 사용자 역할에 매핑합니다.</block>
   <block id="b53df6d7d04b2e16a801c386e5491e43" category="paragraph">디렉토리 서버를 추가하는 과정은 2단계로 이루어집니다. 먼저 도메인 이름과 URL을 입력합니다. 서버에서 보안 프로토콜을 사용하는 경우 비표준 서명 기관이 서명한 경우 인증을 위해 CA 인증서도 업로드해야 합니다. 바인딩 계정에 대한 자격 증명이 있는 경우 사용자 계정 이름 및 암호를 입력할 수도 있습니다. 다음으로 LDAP 서버의 사용자 그룹을 로컬 사용자 역할에 매핑합니다.</block>
   <block id="062bd96c08dfa22823465cc5da09e38b" category="list-text">액세스 관리 * 를 선택합니다.</block>
   <block id="983f7148d2276d9ec50cb88b8a839197" category="list-text">디렉터리 서비스 * 탭에서 * 디렉터리 서버 추가 * 를 선택합니다.</block>
@@ -7996,10 +7963,8 @@
   <block id="4184d6ac97aa74061d28478ab8dbe8d0" category="list-text">* rw * (읽기/쓰기) -- 이 사용자는 스토리지 관리자, 지원 관리자 및 모니터 역할을 포함합니다. 이 계정은 암호를 설정할 때까지 비활성화됩니다.</block>
   <block id="12f62570f7b21772e82a534ca6dde3d5" category="list-text">* ro * (읽기 전용) -- 이 사용자는 Monitor 역할만 포함합니다. 이 계정은 암호를 설정할 때까지 비활성화됩니다.</block>
   <block id="7f5fc7f5a6cfd2d629daa43027091634" category="summary">RBAC(역할 기반 액세스 제어) 기능에는 하나 이상의 역할이 매핑된 사전 정의된 사용자가 포함됩니다. 각 역할에는 SANtricity Unified Manager의 작업에 액세스할 수 있는 권한이 포함되어 있습니다.</block>
-  <block id="b6d27003498a8efabd89c3632f305a38" category="paragraph">RBAC(역할 기반 액세스 제어) 기능에는 하나 이상의 역할이 매핑된 사전 정의된 사용자가 포함됩니다. 각 역할에는 Unified Manager의 작업에 액세스할 수 있는 권한이 포함됩니다.</block>
   <block id="ff3d7efd683a99e8ca518db8c7f93585" category="paragraph">사용자에게 특정 기능에 대한 권한이 없는 경우 해당 기능을 선택할 수 없거나 사용자 인터페이스에 표시되지 않습니다.</block>
   <block id="5d5b10ce79f5c0dc539334629d62d864" category="summary">액세스 관리를 사용하여 SANtricity Unified Manager에서 사용자 인증을 설정합니다.</block>
-  <block id="44e7f9b14d94f37d603139d60643ff98" category="paragraph">Access Management를 사용하여 Unified Manager에서 사용자 인증을 설정합니다.</block>
   <block id="f40760940eef8069f0bcacc614829c32" category="paragraph">Access Management 구성은 다음과 같이 작동합니다.</block>
   <block id="80cebe0082fb9e9d2629ddbf03a45e94" category="list-text">관리자는 보안 관리자 권한이 포함된 사용자 프로필을 사용하여 Unified Manager에 로그인합니다.</block>
   <block id="2ff565b6d3ae8906f3c4fac50daf31d4" category="paragraph">처음 로그인하는 경우 사용자 이름 admin이 자동으로 표시되며 변경할 수 없습니다. admin 사용자는 시스템의 모든 기능에 액세스할 수 있습니다. 암호는 처음 로그인할 때 설정해야 합니다.</block>
@@ -8023,7 +7988,6 @@
   <block id="0d976dc17b4640ed74e2e82306ff7154" category="paragraph">시스템에서 서버에서 자체 서명된 인증서를 사용하도록 되돌립니다. 따라서 사용자가 세션에 대해 자체 서명된 인증서를 수동으로 수락하라는 메시지가 표시됩니다.</block>
   <block id="6537b14ab86690459051b15913eed344" category="summary">신뢰할 수 없는 인증서는 스토리지 어레이에서 SANtricity Unified Manager에 대한 보안 연결을 설정하려고 시도하지만 연결이 보안으로 확인하지 못할 때 발생합니다.</block>
   <block id="57978b55e3a3b1f8e477379b56230f8e" category="doc">신뢰할 수 없는 인증서를 확인합니다</block>
-  <block id="06ae56054017bbf48392ef1bea4dfe7b" category="paragraph">신뢰할 수 없는 인증서는 스토리지 어레이에서 Unified Manager에 대한 보안 연결을 설정하려고 시도하지만 연결이 보안으로 확인하지 못할 때 발생합니다.</block>
   <block id="235d7e3807db91d7961342f6d13f3e3b" category="paragraph">인증서 페이지에서는 스토리지 배열에서 자체 서명된 인증서를 가져오거나 신뢰할 수 있는 타사에서 발급한 CA(인증 기관) 인증서를 가져와 신뢰할 수 없는 인증서를 확인할 수 있습니다.</block>
   <block id="951e2883c6a23f655f16e49f82ab2244" category="list-text">CA 서명 인증서를 가져올 계획인 경우:</block>
   <block id="f1260c6add938f658d4fa1c233c69f76" category="list-text">스토리지 배열의 각 컨트롤러에 대한 인증서 서명 요청(.csr 파일)을 생성하여 CA로 보냈습니다.</block>
@@ -8087,13 +8051,11 @@
   <block id="ad1a4bcf3a61df607c20affd4b584d31" category="paragraph">\.[]{}() &lt;&gt; * +-=!?^$|</block>
   <block id="405a45882ab1bcdb0bc7b8f838ce10d1" category="paragraph">그룹 DN에 매핑할 역할입니다. 이 그룹에 포함할 각 역할을 개별적으로 선택해야 합니다. SANtricity Unified Manager에 로그인하려면 Monitor 역할이 다른 역할과 함께 필요합니다. 역할은 다음과 같습니다.</block>
   <block id="e1b68ee4aa4066c82dae8c2b6a7bd2c7" category="summary">액세스 관리 용어가 SANtricity Unified Manager에 어떻게 적용되는지 알아보십시오.</block>
-  <block id="64aa268315e67fd45e17bcf91ff30bab" category="paragraph">Unified Manager에 액세스 관리 용어가 어떻게 적용되는지 알아보십시오.</block>
   <block id="86492ff57bfb48a1cfe6863d646e4e37" category="paragraph">역할 기반 액세스 제어(RBAC)는 개별 사용자의 역할에 따라 컴퓨터 또는 네트워크 리소스에 대한 액세스를 제어하는 방법입니다. Unified Manager에는 사전 정의된 역할이 포함되어 있습니다.</block>
   <block id="e536634a787591dd23dbc618cd207ba6" category="paragraph">웹 서비스 프록시</block>
   <block id="431e34c6a97c9d5d28df130a10fa0c0a" category="paragraph">표준 HTTPS 메커니즘을 통해 액세스를 제공하는 웹 서비스 프록시를 사용하면 관리자가 스토리지 시스템에 대한 관리 서비스를 구성할 수 있습니다. 프록시는 Windows 또는 Linux 호스트에 설치할 수 있습니다. Unified Manager 인터페이스는 웹 서비스 프록시에서 사용할 수 있습니다.</block>
   <block id="8e2a365bae244df40d20169523b4c250" category="summary">필요한 경우 스토리지 시스템에 대한 인증서를 가져와 SANtricity Unified Manager를 호스팅하는 시스템에서 인증할 수 있습니다. 인증서는 CA(인증 기관)에서 서명할 수도 있고 자체 서명할 수도 있습니다.</block>
   <block id="d308d3a2d458b8934e1a336510dd05c0" category="doc">스토리지에 대한 인증서를 가져옵니다</block>
-  <block id="e6170c93eb142fb01923e9f9b0ef39f7" category="paragraph">필요한 경우 Unified Manager를 호스팅하는 시스템에서 인증할 수 있도록 스토리지 어레이에 대한 인증서를 가져올 수 있습니다. 인증서는 CA(인증 기관)에서 서명할 수도 있고 자체 서명할 수도 있습니다.</block>
   <block id="35bc59ae8725a73f71e22d5b7e2eda45" category="list-text">신뢰할 수 있는 인증서를 가져오는 경우 System Manager를 사용하여 스토리지 배열 컨트롤러에 대한 인증서를 가져와야 합니다.</block>
   <block id="2f3bb55cd5666e46843ed94b99f1cc9c" category="list-text">[인증서] 가져오기 메뉴를 선택하여 CA 인증서를 가져오거나 메뉴: 자체 서명된 [스토리지 배열 인증서] 가져오기 를 선택하여 자체 서명된 인증서를 가져옵니다.</block>
   <block id="3ebb85ccf545d068b56aa6242e5d9739" category="list-text">대화 상자에서 인증서를 선택한 다음 * 가져오기 * 를 클릭합니다.</block>
@@ -8116,7 +8078,6 @@
   <block id="818d28e7b7b11b8d0de393cdf2bad961" category="list-text">인증서 뷰어 응용 프로그램에서 파일을 엽니다.</block>
   <block id="ff35c3e3725af39a06df8c1a8972f5c3" category="summary">Access Management에서 디렉터리 서버를 추가하기 전에 특정 요구 사항을 충족해야 합니다.</block>
   <block id="061e64cad01b4cd81351026b626d0e7e" category="summary">관리자는 SANtricity Unified Manager에서 적용된 RBAC(역할 기반 액세스 제어) 기능을 사용할 수 있습니다. 이러한 기능을 로컬 사용자 역할이라고 합니다.</block>
-  <block id="ba501c87876b2abc6f333f2281c9b0d8" category="paragraph">관리자는 Unified Manager에서 적용된 RBAC(역할 기반 액세스 제어) 기능을 사용할 수 있습니다. 이러한 기능을 "로컬 사용자 역할"이라고 합니다.</block>
   <block id="8605565fad22723762c246b949a49067" category="paragraph">로컬 사용자 역할은 시스템에서 사전 구성됩니다. 로컬 사용자 역할을 인증에 사용하려면 관리자가 다음을 수행할 수 있습니다.</block>
   <block id="76edcf550ca5e5e83180ce7ac7c7acf4" category="summary">모든 신규 또는 업데이트된 로컬 사용자 암호에 필요한 최소 길이를 설정할 수 있습니다. 또한 로컬 사용자가 암호를 입력하지 않고 시스템에 액세스하도록 허용할 수 있습니다.</block>
   <block id="fbd6d481bdaa8213e0cdb2807836fbbc" category="list-text">설정을 변경해도 기존 로컬 사용자 암호에는 영향을 주지 않습니다.</block>
@@ -8136,7 +8097,6 @@
   <block id="f131afe2eabed5b381e5517af0e2e91e" category="paragraph">트러스토어</block>
   <block id="cf93328a82ffe3d054899b90fbfeed65" category="paragraph">Truststore는 CA와 같이 신뢰할 수 있는 타사의 인증서가 포함된 저장소입니다.</block>
   <block id="b9cba881bdd58bf9df0da788dc1b2941" category="summary">로컬 사용자 역할 탭에서 기본 역할에 대한 사용자 매핑을 볼 수 있습니다. 이러한 매핑은 SANtricity Unified Manager용 웹 서비스 프록시에 적용된 RBAC(역할 기반 액세스 제어)의 일부입니다.</block>
-  <block id="a0363d5fd0c0b077d52f4784dbe2bec9" category="paragraph">로컬 사용자 역할 탭에서 기본 역할에 대한 사용자 매핑을 볼 수 있습니다. 이러한 매핑은 Unified Manager용 웹 서비스 프록시에 적용된 RBAC(역할 기반 액세스 제어)의 일부입니다.</block>
   <block id="73ac0b03481ca2066ed032fc9c2875c2" category="paragraph">사용자 및 매핑을 변경할 수 없습니다. 암호만 수정할 수 있습니다.</block>
   <block id="c5c570ddef1c2b01ec882c74deba2a55" category="paragraph">사용자는 다음 표에 나와 있습니다.</block>
   <block id="2bf59aca4b70fb1e276f68737ab54888" category="list-text">* admin * -- 시스템의 모든 기능에 액세스할 수 있는 슈퍼 관리자. 이 사용자는 모든 역할을 포함합니다.</block>
@@ -8198,8 +8158,6 @@
   <block id="483a5da192f46e3cfe8391d3ef234fc4" category="sidebar">FAQ 를 참조하십시오</block>
   <block id="3023481996e16c0dd27c1aeeab45a6c4" category="sidebar">내 하드웨어 구성 요소가 모두 표시되지 않으면 어떻게 합니까?</block>
   <block id="4f77fb4cfa40635f17d21979b6692c01" category="sidebar">모든 호스트가 표시되지 않으면 어떻게 합니까?</block>
-  <block id="009fd64f93ff18102999ecfeee8b7573" category="sidebar">Unified Manager 설정</block>
-  <block id="26ed02718973e705cd69ee6e109400e0" category="sidebar">시스템 관리자</block>
   <block id="93af28c8ab635f0e7d402547ab0c929d" category="sidebar">기본 인터페이스</block>
   <block id="fc78fae55edd9650c6455e58681d3aae" category="sidebar">성능 데이터를 봅니다</block>
   <block id="76cf11d4db12b1a45f4d62797b620d5e" category="sidebar">인터페이스 설정을 관리합니다</block>
@@ -8364,7 +8322,6 @@
   <block id="045d1e9a94278a8386d71e58e81fd7a1" category="sidebar">업그레이드 관리</block>
   <block id="8d94d37b5905d67ccf22b375e3bf5c6e" category="sidebar">소프트웨어 및 펌웨어를 업그레이드합니다</block>
   <block id="f446e3c0eca28983e35e282214782584" category="sidebar">배열 상태를 봅니다</block>
-  <block id="835b7ac0eaf285552b7ec179de33d014" category="sidebar">System Manager를 시작합니다</block>
   <block id="8ebeac47d02da19c4d1cd88ab9d7cca8" category="sidebar">스토리지 암호를 변경합니다</block>
   <block id="a0a3f20685c328a00474bb00b7d35fd5" category="sidebar">뷰에서 배열을 제거합니다</block>
   <block id="15fc53829e4c837f62e15647e031089c" category="sidebar">설정을 가져옵니다</block>
@@ -8694,14 +8651,10 @@
   <block id="45dc1f6fb3b875c733e188121fcc647a" category="paragraph">개인 및 공개 키 쌍을 통해 외부에서 생성된 CSR(인증서 서명 요청) 파일은 이제 System Manager를 통해 가져올 수 있습니다.</block>
   <block id="c0f4196deec20490ebf6989158642c34" category="paragraph">웹 서비스에서 로그인 잠금 기능을 사용할 수 있습니다</block>
   <block id="a30347233ec617731633ca56f8f1b923" category="paragraph">REST API를 통해서만 구성할 수 있는 새로운 로그인 잠금 설정은 임베디드 및 프록시 웹 서비스에 사용할 수 있습니다.</block>
-  <block id="877f007e3f321618e24a9962b07e63fa" category="sidebar">System Manager 11.9을 사용한 단일 어레이 관리</block>
-  <block id="9c2cbf0c1a7244ea333628422695d560" category="sidebar">Unified Manager 7를 사용하여 다중 어레이 관리</block>
   <block id="12256f91aad97dd547dda71e221d63ce" category="sidebar">SANtricity 11.9 문서</block>
   <block id="320344fc6d13f7639d2b2c90f55506fa" category="sidebar">SANtricity 11.90 소프트웨어를 통해 데이터 분석, 비디오 감시, 백업 및 복구처럼 부하가 많이 걸리는 워크로드 애플리케이션에서 E-Series 하이브리드 플래시 및 EF-Series All-Flash 어레이의 성능과 활용률을 최대화할 수 있습니다.</block>
   <block id="b26c3f1c1c8d9eb65323b2750c4c349d" category="sidebar">SANtricity 소프트웨어 설명서 11.90</block>
   <block id="90e8ac6688c66ac3fc81de93ba27235a" category="sidebar">SANtricity 시스템 관리자 및 유니파이드 관리자</block>
-  <block id="0b008f21f9758b84909b95140b0a532d" category="sidebar">System Manager 인터페이스</block>
-  <block id="29ac086a960081d77daa677c24463af3" category="sidebar">Unified Manager 인터페이스</block>
   <block id="e95315401141b931451e32ea694b6d92" category="sidebar">SANtricity 소프트웨어 데이터시트입니다</block>
   <block id="421eeeca306bdf1873654f04f6d8e61e" category="sidebar">E-Series 문서</block>
   <block id="b00771a05354ff5b2df1b388cfb6c874" category="sidebar">E-Series 시스템 문서</block>
@@ -8722,4 +8675,71 @@
   <block id="974ad78dc53c253ebfe5b2b8b376f353" category="sidebar">도구 및 지원</block>
   <block id="2bae42f280067110dfd52cc69a468364" category="sidebar">Active IQ(로그인 필요)</block>
   <block id="54708ac788109e3332a896f8d957e38f" category="sidebar">E-Series/SANtricity 다운로드(로그인 필요)</block>
+  <block id="511bc26995332ccd1bc373f2533ac9e7" category="doc">SANtricity 시스템 관리자에 액세스합니다</block>
+  <block id="d5eb7087909dec2e661624440883bfe3" category="paragraph">SANtricity System Manager 사용자 인터페이스에 액세스하려면 브라우저에서 컨트롤러의 IP 주소를 지정하면 됩니다. 설치 마법사를 사용하면 시스템 구성을 시작할 수 있습니다.</block>
+  <block id="df45899b1d870d205c92f531b2f9cbca" category="doc">SANtricity Unified Manager를 설치합니다</block>
+  <block id="c37a83a89674fde8ffeaf12ba00d2af5" category="paragraph">SANtricity Unified Manager는 NetApp E-Series 스토리지 시스템을 관리할 수 있도록 호스트 시스템에 별도로 설치된 RESTful API 서버인 웹 서비스 프록시와 함께 제공됩니다.</block>
+  <block id="0a9898b156851883b0c35a15776338c8" category="doc">SANtricity Unified Manager에 액세스합니다</block>
+  <block id="6def903cf56aa77e14dd50ebb8fe2719" category="paragraph">웹 서비스 프록시를 설치한 후 SANtricity Unified Manager에 액세스하여 웹 기반 인터페이스에서 여러 스토리지 시스템을 관리할 수 있습니다.</block>
+  <block id="ef256c4d218c47a2c04a18d10165ac0f" category="paragraph">SANtricity System Manager에서 드라이브의 다양한 상태를 보고합니다.</block>
+  <block id="00cffad3ca607922a6c706858259b403" category="paragraph">핫 스페어는 SANtricity System Manager용 RAID 1, RAID 5 또는 RAID 6 볼륨 그룹에서 대기 드라이브로 작동합니다.</block>
+  <block id="f1a4437045c85126e53d06d8e40fd021" category="paragraph">최적화되지 않은 모드의 스토리지 시스템은 잘못된 시스템 구성 상태로 인해 발생합니다. 이러한 상태에도 불구하고 기존 볼륨에 대한 일반 I/O 액세스는 완벽하게 지원되지만 SANtricity System Manager에서는 일부 작업을 금지합니다.</block>
+  <block id="4c1548b517bea01f9959a884be8575f3" category="paragraph">홈 페이지는 스토리지 시스템의 일일 관리를 위한 대시보드 보기를 제공합니다. SANtricity System Manager에 로그인하면 홈 페이지가 첫 번째 화면이 표시됩니다.</block>
+  <block id="23d5a32d5d5e34af0ae01167c84aee80" category="paragraph">애플리케이션이 있는 경우 SANtricity System Manager에서는 애플리케이션 유형에 따라 스토리지를 최적화하는 볼륨 구성을 자동으로 권장합니다.</block>
+  <block id="37ab8a55610b93d738f7d12e13b2cbe8" category="paragraph">SANtricity System Manager는 스토리지 어레이를 단일 뷰에서 관리할 수 있는 웹 기반 인터페이스입니다.</block>
+  <block id="533d0451d27fab44f457ddccee791402" category="doc">SANtricity System Manager 인터페이스 개요</block>
+  <block id="1d4af631b6959ddfabcf268d07e5d112" category="paragraph">SANtricity System Manager에서는 아이콘과 여러 가지 다른 방법을 사용하여 스토리지 어레이에 문제가 있음을 알립니다.</block>
+  <block id="eca296c53d8021e175c9233b22d536a5" category="paragraph">Recovery Guru는 스토리지 어레이 문제를 진단하고 문제를 해결하기 위한 복구 절차를 권장하는 SANtricity System Manager의 구성 요소입니다.</block>
+  <block id="1eccb12b6beaa3afa33d88e6dbe96f3e" category="paragraph">SANtricity System Manager에서는 용량 값을 기비바이트(GiB) 또는 테비바이트(TiB)로 표시할 수 있습니다.</block>
+  <block id="a9eafd95e4debe4d6c9e953b2123621f" category="doc">SANtricity 시스템 관리자가 호스트를 감지하지 못했습니다. 어떻게 해야 합니까?</block>
+  <block id="784bf5e8aec03bc0a910429232366bbb" category="paragraph">키보드만 사용하여 SANtricity System Manager 주변을 탐색할 수 있습니다.</block>
+  <block id="31c67a5a03f932bcfb7ec2e8acde1918" category="paragraph">SANtricity System Manager에서는 이러한 브라우저 버전을 지원합니다.</block>
+  <block id="06c1a3efc270606698185f701855e68d" category="paragraph">SANtricity Unified Manager 인터페이스에서 미러링된 쌍을 구성한 다음, SANtricity System Manager에서 쌍을 관리합니다.</block>
+  <block id="74b085142e307db471b1f86d42eaa7f6" category="paragraph">미러링된 페어 볼륨의 설정을 변경하여 미러링된 페어 볼륨의 예약된 용량이 거의 꽉 찼을 때 SANtricity 시스템 관리자가 알림 메시지를 보내는 백분율 지점을 조정할 수 있습니다.</block>
+  <block id="f16e62f612f383ccc4993fccf8164eb5" category="paragraph">SANtricity System Manager로 관리할 수 없는 기존 스토리지 어레이에서 운영 볼륨을 생성한 경우 SANtricity System Manager로 이 어레이에 2차 볼륨을 생성할 수 있습니다.</block>
+  <block id="e8335355b809680a7a07946df0f22a21" category="paragraph">미러링은 SANtricity Unified Manager 인터페이스에서 구성됩니다.</block>
+  <block id="3e8940a07dc6e6fcfaeb8f76e0e95d98" category="paragraph">SANtricity System Manager에서 CLI(Command Line Interface) 패키지를 다운로드할 수 있습니다.</block>
+  <block id="e3c6215a209a5d287059d476946fe408" category="paragraph">추가 기능은 SANtricity System Manager의 표준 구성에 포함되지 않는 기능으로, 활성화하려면 키가 필요할 수 있습니다. 애드온 기능은 단일 프리미엄 기능 또는 번들 기능 팩일 수 있습니다.</block>
+  <block id="97d42caaa63b71f8c24b9a49d4dd3cad" category="doc">외부 키 관리를 위해 SANtricity System Manager에 업로드해야 하는 인증서는 어떻게 알 수 있습니까?</block>
+  <block id="2808e7b4862302de005363e8d7a9298b" category="paragraph">일부 일반적인 어레이 설정 및 추가 기능에 대해 SANtricity 시스템 관리자를 구성할 수 있습니다.</block>
+  <block id="ed6a026f78a1a9d6f206a0aac76aae36" category="paragraph">SANtricity System Manager에서 시간 초과를 구성하여 지정된 시간 이후에 비활성 세션의 연결을 끊을 수 있습니다.</block>
+  <block id="7b5a3ab486c3b4b2ccfc9a760315a3ea" category="paragraph">이메일, SNMP 트랩 및 syslog 메시지를 통해 스토리지 어레이에 대한 경고를 보내도록 SANtricity 시스템 관리자를 구성할 수 있습니다.</block>
+  <block id="04dfac63eb6f5f22800fa898350089ee" category="paragraph">SANtricity 시스템 관리자를 사용하여 CSR(인증서 서명 요청)을 만들고, 인증서를 가져오고, 기존 인증서를 관리할 수 있습니다.</block>
+  <block id="37292b1d6269336dad0fc27c14cc50e6" category="paragraph">자동 로드 밸런싱 기능은 호스트로부터 들어오는 I/O 트래픽이 두 컨트롤러 간에 동적으로 관리 및 균형 조정되도록 합니다. 이 기능은 기본적으로 사용하도록 설정되어 있지만 SANtricity System Manager에서 사용하지 않도록 설정할 수 있습니다.</block>
+  <block id="d446eaf3c37a2d1b64761e41e0d4c396" category="paragraph">SANtricity System Manager에 액세스하는 데 사용되는 컨트롤러와 브라우저 간에 안전한 통신을 위해 CA 서명 인증서를 얻을 수 있습니다.</block>
+  <block id="71922c71c5f29b0c629529ba400ef998" category="paragraph">SANtricity 시스템 관리자를 사용하면 CRL(인증서 해지 목록)을 업로드하는 대신 OCSP(온라인 인증서 상태 프로토콜) 서버를 사용하여 해지된 인증서를 확인할 수 있습니다.</block>
+  <block id="d901918c71190564252df1392b4512b5" category="paragraph">다음 표에는 InfiniBand 세션을 통해 iSER을 구성 및 관리하는 데 사용할 수 있는 SANtricity 시스템 관리자 기능이 나와 있습니다.</block>
+  <block id="97eb7f10d621b518571460a8d1bccf8b" category="paragraph">다음 표에는 InfiniBand 세션을 구성하고 관리하는 데 사용할 수 있는 SANtricity System Manager 기능이 나열되어 있습니다.</block>
+  <block id="09cab99fec7e2be20fb90f16f896325b" category="paragraph">SANtricity 시스템 관리자에 표시된 타임스탬프가 관리 클라이언트(브라우저를 통해 SANtricity System Manager에 액세스하는 컴퓨터)에 표시된 타임스탬프와 일치하지 않는 경우 스토리지 배열의 컨트롤러 시계를 수동으로 동기화해야 합니다. 이 작업은 SANtricity System Manager에서 NTP(네트워크 시간 프로토콜)가 활성화되어 있지 않은 경우에만 필요합니다.</block>
+  <block id="a96d9e965e10c639f6190acfe6a05114" category="paragraph">관리 인터페이스 전환이나 인증 방법을 위해 SAML을 사용하는 등 SANtricity System Manager에서 특정 변경 사항을 적용하면 일부 외부 툴과 기능의 사용이 제한될 수 있습니다.</block>
+  <block id="e89611f534bae4fdefd815eda302ac53" category="paragraph">SANtricity 시스템 관리자에 로그인하려고 할 때 오류가 발생하면 가능한 원인을 검토하십시오.</block>
+  <block id="e07e1a01ada9b7dffd6f47c6fec15822" category="paragraph">정합성 보장 그룹 구성원 볼륨의 설정을 변경하여 구성원 볼륨의 예약된 용량이 거의 가득 차면 SANtricity 시스템 관리자가 알림 알림을 보내는 백분율 지점을 조정하고 예약된 용량이 정의된 최대 비율에 도달할 때 사용할 정책을 변경할 수 있습니다.</block>
+  <block id="5565955fb75572cd15d1180cd1e84891" category="paragraph">스냅샷 그룹의 설정을 변경하여 이름, 자동 삭제 설정, 허용되는 최대 스냅샷 이미지 수, SANtricity System Manager에서 예약된 용량 알림 알림을 보내는 백분율 지점 또는 예약된 용량이 정의된 최대 백분율에 도달할 때 사용할 정책을 변경할 수 있습니다.</block>
+  <block id="f387ebe48cc5271f2c7b7a6d62f5e151" category="paragraph">풀 생성은 SANtricity 시스템 관리자가 스토리지 시스템에서 할당되지 않은 드라이브를 감지하면 자동으로 시작됩니다. 자동 풀 생성을 사용하여 스토리지 어레이에서 할당되지 않은 모든 드라이브를 하나의 풀로 쉽게 구성하고 기존 풀에 드라이브를 추가할 수 있습니다.</block>
+  <block id="167c625a6715ae3c7e8f536806a65484" category="paragraph">SANtricity System Manager는 풀에서 제거할 수 있는 드라이브 수에 대한 제한을 설정합니다.</block>
+  <block id="c37cb57fbf471d09e0a0c473b1af4395" category="paragraph">용량 알림은 풀에 드라이브를 추가할 시점을 나타냅니다. 스토리지 배열 작업을 성공적으로 수행하려면 풀에 충분한 가용 용량이 필요합니다. 풀의 사용 가능한 용량이 지정된 비율에 도달하거나 초과될 때 알림을 보내도록 SANtricity 시스템 관리자를 구성하여 이러한 작업이 중단되지 않도록 할 수 있습니다.</block>
+  <block id="c3ef549f921f9931ee4e54e5a9176597" category="paragraph">SANtricity 시스템 관리자에서 다음 단계를 수행하여 스냅샷 이미지 및 스냅샷 볼륨을 생성할 수 있습니다.</block>
+  <block id="e96cf8b7e66ac097facaf28c82d66aa1" category="paragraph">기술 지원 부서에서는 복구 지원 파일을 사용하여 문제를 해결할 수 있습니다. SANtricity 시스템 관리자는 이러한 파일을 자동으로 저장합니다.</block>
+  <block id="fcaba1806566990b101abb2ccb59a73f" category="paragraph">SANtricity System Manager에서 AutoSupport 디스패치에 대한 기본 일정을 자동으로 생성합니다. 원하는 경우 자신의 일정을 지정할 수 있습니다.</block>
+  <block id="d8d7d1838ede45a15d34d278b1c7dc22" category="paragraph">SANtricity 시스템 관리자를 사용하면 예약된 디스패치가 필요해질 때까지 기다리지 않고 AutoSupport 디스패치를 기술 지원으로 보낼 수 있습니다.</block>
+  <block id="da1743923a3a0458c608ee2a3312d293" category="paragraph">iSCSI 세션은 비동기 미러 관계의 호스트 또는 원격 스토리지 시스템에서 발생할 수 있습니다. 다음 표에는 이러한 iSCSI 세션을 구성하고 관리하는 데 사용할 수 있는 SANtricity 시스템 관리자 기능이 나열되어 있습니다.</block>
+  <block id="3ec40952f7ff71ab9d51f1f50e2e10a2" category="paragraph">SANtricity Unified Manager는 여러 스토리지 어레이를 단일 뷰에서 관리할 수 있는 웹 기반 인터페이스입니다.</block>
+  <block id="5f7016e066403d9d218a874cedc63541" category="paragraph">SANtricity Unified Manager의 시간 제한을 구성하여 지정된 시간이 지나면 사용자 비활성 세션의 연결을 끊을 수 있습니다.</block>
+  <block id="82a77b13aa8d00eca6e71aa5af7098d6" category="doc">SANtricity Unified Manager 인터페이스 개요</block>
+  <block id="553b07cb69b9906d0f4d1c0b2c97bdae" category="paragraph">관리자는 SANtricity Unified Manager에서 적용된 RBAC(역할 기반 액세스 제어) 기능을 사용할 수 있습니다. 이러한 기능을 "로컬 사용자 역할"이라고 합니다.</block>
+  <block id="f0254fcd04a8e1df1dc8c778e6189b01" category="paragraph">SANtricity Unified Manager를 호스팅하는 관리 시스템에 안전하게 액세스하기 위해 CA 서명 인증서를 얻고 가져올 수 있습니다.</block>
+  <block id="c5f9375676cadbc97263ea339c65e0df" category="paragraph">SANtricity Unified Manager가 스토리지 리소스를 표시하고 관리하기 전에 먼저 조직의 네트워크에서 관리할 스토리지 어레이를 검색해야 합니다. 여러 어레이를 검색할 수도 있고 단일 어레이를 검색할 수도 있습니다.</block>
+  <block id="8205965c706fda540f0df394d1fd7df5" category="paragraph">SANtricity Unified Manager를 사용하여 한 스토리지 어레이에서 여러 스토리지 어레이로 설정을 가져올 수 있습니다. 설정 가져오기 기능은 네트워크에 여러 어레이를 구성해야 할 때 시간을 절약할 수 있는 일괄 작업입니다.</block>
+  <block id="2b8e903f9231328c5dd4ac194fe0ed99" category="paragraph">SANtricity Unified Manager를 사용하여 동일한 유형의 여러 스토리지 어레이에서 새로운 버전으로 SANtricity OS 소프트웨어를 업그레이드할 수 있습니다.</block>
+  <block id="c5cdef1d414ec599aa9b2d1f28c67d4b" category="doc">SANtricity 시스템 관리자에 액세스할 때의 고려 사항</block>
+  <block id="cdaae564ece8b6f3561a5e657337c464" category="paragraph">SANtricity Unified Manager에서 비동기식 또는 동기식 미러링을 구성한 다음 SANtricity System Manager를 사용하여 동기화를 관리합니다.</block>
+  <block id="69ffe5f70c823700a785fa58e3fbca15" category="paragraph">SANtricity Unified Manager에는 SANtricity 미러링 기능을 위한 구성 옵션이 포함되어 있어 관리자가 데이터 보호를 위해 두 스토리지 어레이 간에 데이터를 복제할 수 있습니다.</block>
+  <block id="bf29ed0b212c99188f3c0d2b5992aeee" category="paragraph">SANtricity Unified Manager는 검색된 각 스토리지 어레이의 상태를 표시합니다.</block>
+  <block id="99e207225cad4e6c8aa147bb693de2fe" category="paragraph">SANtricity Unified Manager를 사용하여 여러 스토리지 어레이를 업그레이드하기 전에 계획의 주요 고려 사항을 검토하십시오.</block>
+  <block id="48003406c3332bb90497a98f2d79b26a" category="sidebar">SANtricity 시스템 관리자 인터페이스</block>
+  <block id="b4baa7fdabc903993aebeaaa5980c455" category="sidebar">SANtricity Unified Manager 인터페이스</block>
+  <block id="447d926e847ba6e7316f7c54ac601bab" category="sidebar">SANtricity System Manager 11.9를 사용한 단일 어레이 관리</block>
+  <block id="4895fd90ba99a1644bbfaaa77bf80a43" category="sidebar">SANtricity Unified Manager 7을 통한 다중 어레이 관리</block>
+  <block id="3089984c7abf64387bdc035943beae57" category="sidebar">SANtricity 시스템 관리자 설정</block>
+  <block id="61ed698df3699989d8d782fe430d2755" category="sidebar">SANtricity Unified Manager 설정</block>
 </blocks>

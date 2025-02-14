@@ -11,7 +11,7 @@ summary: 액세스 관리는 SANtricity Unified Manager에서 사용자 인증�
 
 
 [role="lead"]
-Access Management는 Unified Manager에서 사용자 인증을 구성하는 방법입니다.
+액세스 관리는 SANtricity Unified Manager에서 사용자 인증을 구성하는 방법입니다.
 
 
 

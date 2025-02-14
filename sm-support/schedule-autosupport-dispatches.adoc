@@ -12,7 +12,7 @@ summary: System Manager는 AutoSupport 디스패치에 대한 기본 일정을 �
 
 
 [role="lead"]
-System Manager는 AutoSupport 디스패치에 대한 기본 일정을 자동으로 생성합니다. 원하는 경우 자신의 일정을 지정할 수 있습니다.
+SANtricity System Manager에서 AutoSupport 디스패치에 대한 기본 일정을 자동으로 생성합니다. 원하는 경우 자신의 일정을 지정할 수 있습니다.
 
 .시작하기 전에
 AutoSupport 기능을 활성화해야 합니다. AutoSupport 페이지에서 활성화되어 있는지 여부를 확인할 수 있습니다.

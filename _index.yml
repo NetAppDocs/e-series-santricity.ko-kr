@@ -9,9 +9,9 @@ indexpage:
   tiles:
   - title: 시작하십시오
     links:
-    - title: System Manager 인터페이스
+    - title: SANtricity 시스템 관리자 인터페이스
       url: /sm-interface/overview-interface-sam.html"
-    - title: Unified Manager 인터페이스
+    - title: SANtricity Unified Manager 인터페이스
       url: "/um-admin/overview-interface-unified.html"
     - title: SANtricity 소프트웨어 데이터시트입니다
       url: https://www.netapp.com/pdf.html?item=/media/7676-ds-3891.pdf

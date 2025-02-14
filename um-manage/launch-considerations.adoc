@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, considerations, access system manager 
 summary: 스토리지 어레이를 구성 및 관리하려는 경우 하나 이상의 스토리지 어레이를 선택하고 시작 옵션을 사용하여 SANtricity System Manager를 엽니다. 
 ---
-= System Manager 액세스에 대한 고려 사항
+= SANtricity 시스템 관리자에 액세스할 때의 고려 사항
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-스토리지 어레이를 구성 및 관리하려는 경우 하나 이상의 스토리지 어레이를 선택하고 시작 옵션을 사용하여 System Manager를 엽니다.
+스토리지 어레이를 구성 및 관리하려는 경우 하나 이상의 스토리지 어레이를 선택하고 시작 옵션을 사용하여 SANtricity System Manager를 엽니다.
 
 System Manager는 이더넷 관리 포트를 통해 네트워크에 연결되는 컨트롤러에 내장된 애플리케이션입니다. 모든 스토리지 기반 기능이 포함되어 있습니다.
 

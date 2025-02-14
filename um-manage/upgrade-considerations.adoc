@@ -11,7 +11,7 @@ summary: Unified Manager를 사용하여 여러 스토리지 어레이를 업그
 
 
 [role="lead"]
-Unified Manager를 사용하여 여러 스토리지 어레이를 업그레이드하기 전에 계획의 일환으로 주요 고려 사항을 검토하십시오.
+SANtricity Unified Manager를 사용하여 여러 스토리지 어레이를 업그레이드하기 전에 계획의 주요 고려 사항을 검토하십시오.
 
 
 
