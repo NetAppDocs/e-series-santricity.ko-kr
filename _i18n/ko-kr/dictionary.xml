@@ -911,7 +911,6 @@
   <block id="02d56cf7754ce16d7ce0193fbca7c90a" category="paragraph">캐싱</block>
   <block id="01875a0a0c6c489daebdf2da47822bf8" category="paragraph">에는 볼륨의 전체 I/O 성능에 영향을 미치기 위해 변경할 수 있는 캐싱 설정이 나와 있습니다.</block>
   <block id="f7fad94692941472b9a76c2ba57c020c" category="paragraph">SSD 캐시</block>
-  <block id="04bbd2c132c1093db28e447b3653bb4f" category="admonition">EF600 또는 EF300 스토리지 시스템에서는 이 기능을 사용할 수 없습니다.</block>
   <block id="0ac6cd8987ecb9501395a6c2fed923c4" category="paragraph">에는 SSD 캐시 설정이 나와 있습니다. 이 설정은 호환 볼륨에서 읽기 전용 성능을 향상하는 방법으로 활성화할 수 있습니다. 동일한 드라이브 보안 및 Data Assurance 기능을 공유하는 볼륨은 호환됩니다.</block>
   <block id="d0c8df7335fd09690d17fec5d12d8ec8" category="paragraph">* SSD 캐시 기능은 하나 또는 여러 개의 SSD(Solid State Disk)를 사용하여 읽기 캐시를 구현합니다 *. SSD의 읽기 시간이 더 빨라지므로 애플리케이션 성능이 향상됩니다. 읽기 캐시가 스토리지 배열에 있기 때문에, 캐시는 스토리지 배열을 사용하는 모든 응용 프로그램에서 공유됩니다. 캐시하려는 볼륨을 선택한 다음 캐싱은 자동으로 이루어지며 동적 볼륨입니다.</block>
   <block id="f106bbc08b77d5e3fe5f9f78801fa7d1" category="paragraph">System Manager는 선택에 따라 볼륨 설정을 변경합니다.</block>
@@ -1314,7 +1313,6 @@
   <block id="2b6dfac4c2ee1e0fccb3ed18c1e9e715" category="list-text">씬 볼륨이 할당된 최대 용량 제한에 근접할 때 홈 페이지의 알림 영역에 경고(경고 임계값 초과)가 전송되는 백분율 지점을 설정합니다.</block>
   <block id="641704c0841951140a62999ce85bfaeb" category="paragraph">씬 볼륨의 용량을 늘리려면 보고된 용량을 늘리십시오.</block>
   <block id="b427c469cec42cd76c840d0e5107a920" category="paragraph">System Manager에서는 씬 볼륨을 생성하는 옵션을 제공하지 않습니다. 씬 볼륨을 생성하려면 CLI(Command Line Interface)를 사용합니다.</block>
-  <block id="5b48e77fd7668c15e4d278280b54ae19" category="paragraph">EF600 또는 EF300 스토리지 시스템에서는 씬 볼륨을 사용할 수 없습니다.</block>
   <block id="50d09ee94af23ca7be0ea0bd72392ef1" category="summary">호스트는 스토리지 배열의 볼륨에 입출력을 전송하는 서버입니다. 호스트 클러스터는 호스트 그룹입니다. 호스트 클러스터를 생성하여 동일한 볼륨을 여러 호스트에 쉽게 할당할 수 있습니다.</block>
   <block id="72180ea1a91065ba958b5dd4237a8c86" category="paragraph">호스트를 별도로 정의합니다. 독립적인 엔티티이거나 호스트 클러스터에 추가할 수 있습니다. 개별 호스트에 볼륨을 할당하거나 호스트 클러스터의 다른 호스트와 하나 이상의 볼륨에 대한 액세스를 공유하는 호스트 클러스터의 일부가 될 수 있습니다.</block>
   <block id="e4fe3b05ff25fac2ac46ef009d413f46" category="paragraph">호스트 클러스터는 SANtricity System Manager에서 생성한 논리적 엔터티입니다. 볼륨을 할당하려면 먼저 호스트를 호스트 클러스터에 추가해야 합니다.</block>
@@ -1570,7 +1568,6 @@
   <block id="c840c0758e533a8d2471360454925ac2" category="paragraph">드라이브 보안 기능을 사용하면 스토리지 배열의 보안 지원 드라이브와 컨트롤러 간에 공유되는 보안 키를 만들 수 있습니다. 드라이브 전원을 껐다가 켤 때마다 보안 활성 드라이브는 컨트롤러가 보안 키를 적용할 때까지 보안 잠금 상태로 변경됩니다.</block>
   <block id="8a815b2a47535f1623438fab12c61953" category="summary">액세스 볼륨은 스토리지 어레이에서 호스트 I/O 연결을 통해 스토리지 어레이 및 호스트와 통신하는 데 사용되는 공장 구성 볼륨입니다. 액세스 볼륨에는 LUN(Logical Unit Number)이 필요합니다.</block>
   <block id="da5b269ce13f310ea60da5646f66f4df" category="list-text">* 대역내 관리 * -- 스토리지 배열을 관리하기 위해 대역내 연결에 액세스 볼륨을 사용합니다. CLI(Command Line Interface)를 사용하여 스토리지 어레이를 관리하는 경우에만 이 작업을 수행할 수 있습니다.</block>
-  <block id="b07f190bd057ec5ae997cb6fe0661683" category="paragraph">EF600 또는 EF300 스토리지 시스템에서는 대역 내 관리를 사용할 수 없습니다.</block>
   <block id="c77cfe09f0da7405a83c73fb323b653d" category="paragraph">볼륨을 호스트에 처음 할당할 때 액세스 볼륨이 자동으로 생성됩니다. 예를 들어, 호스트에 Volume_1 및 Volume_2를 할당할 경우 해당 할당 결과를 볼 때 세 개의 볼륨(Volume_1, Volume_2 및 Access)이 표시됩니다.</block>
   <block id="1f7334c99cc83f3bab939dd30e1ec973" category="paragraph">CLI를 사용하여 호스트를 자동으로 생성하거나 스토리지 배열을 대역 내에서 관리하지 않는 경우, 액세스 볼륨이 필요하지 않으며 액세스 볼륨을 삭제하여 LUN을 확보할 수 있습니다. 이렇게 하면 볼륨 대 LUN 할당과 호스트에 대한 대역 내 관리 연결이 제거됩니다.</block>
   <block id="728d21c326005f9487f28f6b53df62a5" category="summary">세그먼트는 스토리지 어레이가 스트라이프의 다음 드라이브(RAID 그룹)로 이동하기 전에 드라이브에 저장되는 데이터의 양(KB)입니다. 세그먼트 크기는 풀이 아닌 볼륨 그룹에만 적용됩니다.</block>
@@ -1752,7 +1749,6 @@
   <block id="497f98df0a65d45702bbb213f94ad2f9" category="paragraph">선반 손실 방지</block>
   <block id="583c0f2e390971cb9f4ba4ce9747868e" category="paragraph">쉘프 손실 방지 기능이 사용 가능한지 여부를 표시합니다. 쉘프 손실 보호는 쉘프에 대한 통신이 완전히 손실되는 경우 볼륨 그룹의 볼륨에 있는 데이터에 액세스할 수 있도록 보장합니다.</block>
   <block id="ccadd3c23eb718337466208415f3437d" category="paragraph">서랍 손실 방지</block>
-  <block id="fd12b513859f856de91f86c6941047de" category="paragraph">드로어 손실 보호가 사용 가능한지 여부를 표시합니다. 이 보호 기능은 드로어가 포함된 드라이브 쉘프를 사용하는 경우에만 제공됩니다. 드로어 손실 방지 기능은 드라이브 쉘프의 단일 드로어에서 전체 통신 장애가 발생할 경우 볼륨 그룹의 볼륨에 있는 데이터에 액세스할 수 있도록 보장합니다.</block>
   <block id="26fd2333265af0bb99ce6e49214a7444" category="paragraph">지원되는 볼륨 블록 크기(EF300 및 EF600만 해당)</block>
   <block id="145bb60ec8160f7c202bcdea28c6a17a" category="paragraph">에는 그룹의 볼륨에 대해 생성할 수 있는 블록 크기가 나와 있습니다.</block>
   <block id="71c479418a6ac59e90760be894a1c19b" category="list-text">512n -- 512바이트 네이티브</block>
@@ -2397,7 +2393,6 @@
   <block id="23509c39f2453599ca0877d32956ae09" category="list-text">볼륨을 생성할 때 일반 볼륨의 용량이 할당됩니다.</block>
   <block id="5310bc5e64d1f64e025eb1c642e2bba8" category="list-text">씬 볼륨의 용량은 볼륨에 쓸 때 데이터로 할당됩니다.</block>
   <block id="059801af7cde1a87cf3c098887a187f9" category="paragraph">씬 프로비저닝은 낭비되는 할당 용량을 방지하고 초기 스토리지 비용을 줄여 줍니다. 그러나 일반 볼륨이 생성될 때 모든 스토리지가 한 번에 할당되므로 전체 프로비저닝의 이점은 지연 시간이 줄어듭니다.</block>
-  <block id="e2b8fbf01b4ff47fbb96c92ac379ea78" category="paragraph">EF600 및 EF300 스토리지 시스템은 씬 프로비저닝을 지원하지 않습니다.</block>
   <block id="089e479d3dc64139ab1266d151b32d32" category="section-title">볼륨의 특성</block>
   <block id="796dfd432b6f644d61e91352515bb6d2" category="paragraph">풀 또는 볼륨 그룹의 각 볼륨은 어떤 유형의 데이터가 저장되어 있는지 기준으로 고유한 개별 특성을 가질 수 있습니다. 이러한 특징에는 다음이 포함됩니다.</block>
   <block id="7c1d052253e33c65465a5eb406bb3dc2" category="list-text">* 세그먼트 크기 * -- 세그먼트는 스토리지 어레이가 스트라이프의 다음 드라이브(RAID 그룹)로 이동하기 전에 드라이브에 저장되는 데이터의 양(KB)입니다. 세그먼트 크기는 볼륨 그룹의 용량과 같거나 그보다 작습니다. 세그먼트 크기가 고정되어 풀의 경우 변경할 수 없습니다.</block>
@@ -5826,8 +5821,6 @@
   <block id="2ab0aa4e6f963bdda6156f57930e7a34" category="list-text">System Manager에서 섀시 일련 번호를 찾아 기록합니다. 지원 센터 타일에 마우스를 올려 놓으면 이 일련 번호를 볼 수 있습니다.</block>
   <block id="d8ab4f4f4bd758e305ce24ae089739e7" category="list-text">System Manager에서 Enable Identifier 기능을 찾습니다. 설정 [시스템] 메뉴로 이동한 다음 아래로 스크롤하여 * 추가 기능 * 으로 이동합니다. Feature Enable Identifier * 를 찾습니다. 기능 식별자 활성화 의 번호를 기록합니다.</block>
   <block id="1e892535381bacc3eae14862eb515b1a" category="list-text">기능 활성화를 위한 코드를 찾아 기록합니다. 기능 팩의 경우 이 코드는 변환을 수행하기 위한 적절한 지침에 나와 있습니다.</block>
-  <block id="b7c76db9b2472e615129452598c32a70" category="inline-link">NetApp E-Series 시스템 설명서 센터 를 참조하십시오</block>
-  <block id="19c1dae7ed1abf9eb3b6c5146df9b1d5" category="paragraph">NetApp 지침은 에서 확인할 수 있습니다<block ref="da76044833cc021823434c8291982304" category="inline-link-rx"></block>.</block>
   <block id="ead7d7ce373cd886b6b7a1a60db53284" category="paragraph">프리미엄 기능의 경우 지원 사이트에서 다음과 같이 활성화 코드에 액세스할 수 있습니다.</block>
   <block id="e7626dadbaccf1c6de0466c8e9271bce" category="list-text">에 로그인합니다<block ref="9a6f401ca1e7e89d8a0c29fb0cbe81b7" category="inline-link-rx"></block>.</block>
   <block id="78e85ed9fdf2fdf631f1825f112c9596" category="list-text">사용 중인 제품의 * 소프트웨어 라이선스 * 로 이동합니다.</block>
@@ -8448,11 +8441,7 @@
   <block id="aab3238922bcc25a6f606eb525ffdc56" category="paragraph">14</block>
   <block id="8613985ec49eb8f757ae6439e879bb2a" category="paragraph">90</block>
   <block id="d1b1ed9561d588b34b9b60028f6966b9" category="admonition">스토리지에 포함된 SAML(Security Assertion Markup Language) 기능을 사용하여 액세스 관리를 구성하는 경우 사용자의 SSO 세션이 최대 제한에 도달하면 세션 시간 초과가 발생할 수 있습니다. 이 문제는 System Manager 세션 시간이 초과되기 전에 발생할 수 있습니다.</block>
-  <block id="cd038504338f9921b8afe6d5ed6c6232" category="paragraph">EF600 또는 EF300 스토리지 시스템에서는 동기식 미러링을 사용할 수 없습니다.</block>
-  <block id="b84bb83d3d8cd48ddc066fe0c6d41ead" category="paragraph">EF600 또는 EF300 스토리지 어레이에서는 동기식 미러링을 사용할 수 없습니다.</block>
   <block id="56bdcfc544aad0bd6521d9f11a6f56dd" category="admonition">EF600 및 EF300 컨트롤러의 경우 비동기식 미러링 쌍의 운영 볼륨과 2차 볼륨이 동일한 프로토콜, 트레이 레벨, 세그먼트 크기, 보안 유형 및 RAID 레벨과 일치해야 합니다. 사용 가능한 볼륨 목록에 비적격한 비동기 미러링 쌍이 나타나지 않습니다.</block>
-  <block id="2df1194323f38bb1b30fdb6a9b3d4da3" category="paragraph">EF600 또는 EF300 스토리지 시스템의 동기식 미러링에는 이 기능을 사용할 수 없습니다.</block>
-  <block id="ada2454c6d83cd46018f8d1e49aa4123" category="paragraph">동기식 미러링은 EF300 또는 EF600 스토리지 어레이에서 사용할 수 없습니다.</block>
   <block id="ecd6161dde3044403e9aa37dc3bc6ee3" category="paragraph">예 ^3^</block>
   <block id="770594fef329f8bc4364a508f0a7d73a" category="paragraph">^1^ 타겟 볼륨의 용량이 씬 볼륨에서 보고된 용량과 같거나 커야 합니다.</block>
   <block id="b7c484278db16efdf320efb752c9d501" category="paragraph">^2^ 온라인 복사 작업이 완료될 때까지 스냅샷 볼륨 복사본을 사용할 수 없습니다.</block>
@@ -8501,7 +8490,6 @@
   <block id="f3623da9f6be936979297f1fa268895c" category="paragraph">이벤트 모니터는 경고 가능 이벤트가 발생할 때마다 syslog 서버에 경고를 보냅니다. 감사 로그에 대한 syslog 설정을 추가로 구성하려면 을 참조하십시오<block ref="8ff4ea61d8cfa4d348011e356d65d49a" category="inline-link-rx"></block>.</block>
   <block id="30af9425adf237457aaff58f7cb21bc9" category="paragraph">구성 후 모든 새 감사 로그가 syslog 서버로 전송됩니다. 이전 로그는 전송되지 않습니다. 경고에 대한 syslog 설정을 추가로 구성하려면 를 참조하십시오<block ref="7b44e3078f5548e67f8cbe8894b93e12" category="inline-link-rx"></block>.</block>
   <block id="8067406a66fe34c09bf78be3e6ae6fc1" category="list-text">System Manager -- 네트워크에서 개별 스토리지 어레이를 관리하는 데 사용되는 웹 기반 인터페이스입니다.</block>
-  <block id="9cd5d105b8b19ef4ba01cc21ecc14cdc" category="admonition">EF600 및 EF300 스토리지 어레이는 동기식 미러링 또는 씬 볼륨을 지원하지 않습니다.</block>
   <block id="f3e5a6d7f7194a35f77d2084efb9ef4f" category="paragraph">드라이브, 컨트롤러 및 구성 요소 보기</block>
   <block id="3354319c9dafbfd43c07abbfb0de1326" category="paragraph">전면 및 후면 쉘프 보기 사이를 전환하려면 맨 오른쪽에서 * 드라이브 * 또는 * 컨트롤러 및 구성 요소 * 를 선택합니다(현재 보기에 따라 표시되는 링크). Drives* 보기에는 드라이브 및 비어 있는 드라이브 베이가 표시됩니다. 컨트롤러 및 구성요소 * 보기에는 컨트롤러 및 모든 IOM(ESM) 모듈, 전원/팬 캐니스터 또는 빈 컨트롤러 베이가 표시됩니다. 페이지 하단에서 * Show all drives * 를 선택할 수도 있습니다.</block>
   <block id="3effdbd16c4bb389ee66095c1d8d2ee9" category="inline-link">11.80 릴리스 정보</block>
@@ -8570,7 +8558,6 @@
   <block id="e4709a73a287a5f033f5b1b5142cb74d" category="inline-image-macro">시스템 설정</block>
   <block id="de8011abde4e4344c82af51912b3ce19" category="paragraph"><block ref="2bce2265bb1e82bb0d0858adf2dafedf" category="inline-image-macro-rx" type="image"></block> * 시스템 설정 *</block>
   <block id="9dcfdd4141be874fb7eb13880a5fd525" category="paragraph"><block ref="1cb7eabea009b4b9cfe98093989eadbf" category="inline-image-macro-rx" type="image"></block> * 지원 *</block>
-  <block id="a06a26693ca66f654ff2c2dcecc3e13f" category="paragraph">Unified Manager는 전체 도메인을 관리하는 데 사용되는 웹 기반 소프트웨어입니다. 중앙 뷰에서 E4000, E2800, EF280, EF300, E5700, EF570, EF600과 같은 모든 최신 E-Series 및 EF-Series 어레이의 상태를 확인할 수 있습니다. 선택한 스토리지 배열에 대해 배치 작업을 수행할 수도 있습니다.</block>
   <block id="bb426997d075117a34b0e82e716e9988" category="inline-image-macro">스토리지 시스템을 검색합니다</block>
   <block id="49e4791fdcd34bdf6b59ed172268d67f" category="paragraph"><block ref="9ff56b9b0514866913bcdc835ac16829" category="inline-image-macro-rx" type="image"></block> * 스토리지 어레이 검색 *</block>
   <block id="9506f0fd0f7f1b07960b15b4c9e68d1a" category="inline-image-macro">을 시작합니다</block>
@@ -8615,7 +8602,6 @@
   <block id="f1683bd5111055cff52f3434b437bc43" category="admonition">기본 미디어 스캔 기간은 120일로 설정됩니다.</block>
   <block id="630fb851299f40643b158fbf236a2e8c" category="list-text">* 기본 블록 크기 * – 볼륨의 블록 크기와 드라이브 블록 크기(512 또는 4K)가 일치합니다.</block>
   <block id="f6c667584c393a129ba0a1a453306311" category="list-text">* Emulated 512 블록 크기 * - 드라이브는 4K이지만 보고된 블록 크기는 512입니다.</block>
-  <block id="478ac1c2fc93cbde8a7f38011e1743e9" category="paragraph">SMcli는 SANtricity System Manager를 통해 직접 사용할 수 있습니다. SMcli의 다운로드 가능한 버전은 E4000, EF600, EF300, E5700, EF570, E2800 및 EF280 컨트롤러에서 사용할 수 있습니다. SANtricity 시스템 관리자 내에서 SMcli를 다운로드하려면 * 설정 * &gt; * 시스템 * 및 * 추가 기능 * &gt; * 명령줄 인터페이스 * 를 선택합니다.</block>
   <block id="8372cda02b92707718d83873eed70eff" category="image-alt">풀 및 볼륨 그룹 구조</block>
   <block id="861b7c78b853932749bb7fa53551562a" category="image-alt">스냅샷 개요</block>
   <block id="454b39575eef78952a66832d854eb9a8" category="paragraph">SANtricity System Manager를 통해 시스템 스토리지를 관리할 수 있습니다.</block>
@@ -8742,4 +8728,25 @@
   <block id="3ff0cf51d8c2e66a61c1a36c2258ffb7" category="sidebar">SANtricity 소프트웨어 11.9을 사용하면 데이터 분석, 비디오 감시, 백업 및 복구처럼 부하가 많이 걸리는 워크로드 애플리케이션에서 E-Series 하이브리드 플래시 및 EF-Series All-Flash 어레이의 성능과 활용률을 최대화할 수 있습니다.</block>
   <block id="18ca0e475e67b79b5c1367dc3fece234" category="sidebar">SANtricity 소프트웨어 11.9 설명서</block>
   <block id="1bde2299408b1369159daef73cb92e8b" category="sidebar">SANtricity 소프트웨어 11.9 문서</block>
+  <block id="bea9b4f39c26a537662fed44c4b4ab7e" category="admonition">EF600/EF600C 및 EF300/EF300C 스토리지 어레이는 동기식 미러링 또는 씬 볼륨을 지원하지 않습니다.</block>
+  <block id="07ceb34078b6425ead2bdf25c28b4765" category="paragraph">Unified Manager는 전체 도메인을 관리하는 데 사용되는 웹 기반 소프트웨어입니다. 중앙 뷰에서 E4000, E2800, EF280, EF300, E5700, EF570, EF600, EF300C, EF600C와 같은 모든 최신 E-Series 및 EF-Series 어레이의 상태를 확인할 수 있습니다. 선택한 스토리지 배열에 대해 배치 작업을 수행할 수도 있습니다.</block>
+  <block id="a8d536a226bc5040b931337a7644185d" category="paragraph">EF600/EF600C 또는 EF300/EF300C 스토리지 어레이에서는 동기식 미러링을 사용할 수 없습니다.</block>
+  <block id="68d28abd2b869bd5795d298dfa9e846e" category="paragraph">EF600/EF600C 또는 EF300/EF300C 스토리지 시스템에서는 이 기능을 사용할 수 없습니다.</block>
+  <block id="465143b73392c408d4e639ff6ed7cf18" category="paragraph">EF300/EF300C 또는 EF600/EF600C 스토리지 어레이에서는 동기식 미러링을 사용할 수 없습니다.</block>
+  <block id="c1ef781eafa3554e3ab8e8623b4e5a71" category="paragraph">EF600/EF600C 또는 EF300/EF300C 스토리지 시스템에서는 동기식 미러링을 사용할 수 없습니다.</block>
+  <block id="5a7b6df104eae510976ebef6d294bbc2" category="paragraph">이 기능은 EF600/EF600C 또는 EF300/EF300C 스토리지 시스템의 동기식 미러링에는 사용할 수 없습니다.</block>
+  <block id="b9e88ad6836c4f5d794f382de8f1f2c9" category="admonition">현재 EF300C 또는 EF600C 스토리지 어레이에서는 DULBE가 지원되지 않습니다.</block>
+  <block id="4b8add2dc8ff6506b02ecbd9ce368929" category="summary">리소스 프로비저닝은 EF300, EF300C, EF600 및 EF600C 스토리지 어레이에서 제공되는 기능으로, 백그라운드 초기화 프로세스 없이 볼륨을 즉시 사용할 수 있도록 지원합니다.</block>
+  <block id="90992e53bcf79cefee988e4147be01b6" category="paragraph">E4000, EF600/EF600C 또는 EF300/EF300C 스토리지 시스템에서는 액세스 볼륨을 사용한 대역 내 관리를 사용할 수 없습니다.</block>
+  <block id="16ebf1283fdb23275c2211d15a82e2cd" category="list-text">EF600/EF600C 또는 EF300/EF300C 스토리지 시스템에서는 씬 볼륨을 사용할 수 없습니다.</block>
+  <block id="1ac9fe85275ed11ba0a95e5559f5af80" category="paragraph">드로어 손실 보호가 사용 가능한지 여부를 표시합니다. 이 보호 기능은 드로어가 포함된 드라이브 쉘프를 사용하는 경우에만 제공됩니다. 드로어 손실 방지 기능은 드라이브 쉘프의 단일 드로어에서 전체 통신 장애가 발생할 경우 볼륨 그룹의 볼륨에 있는 데이터에 액세스할 수 있도록 보장합니다.</block>
+  <block id="d1395fc90f77b84babf353a6d9d715db" category="list-text">2,048개 볼륨(EF600, EF600C, E5700 시리즈)</block>
+  <block id="896a61fe313f0f38c6a4575f53d2958d" category="list-text">1,024개 볼륨(EF300 및 EF300C)</block>
+  <block id="61c9873f4f28e9fd9310c86bf6f0e33f" category="paragraph">SMcli는 SANtricity System Manager를 통해 직접 사용할 수 있습니다. SMcli의 다운로드 가능한 버전은 E4000, EF600, EF600C, EF300, EF300C, E5700, EF570, E2800 및 EF280 컨트롤러에서 제공됩니다. SANtricity 시스템 관리자 내에서 SMcli를 다운로드하려면 * 설정 * &gt; * 시스템 * 및 * 추가 기능 * &gt; * 명령줄 인터페이스 * 를 선택합니다.</block>
+  <block id="4f0494c1ee4d34a0be2e413265889dcb" category="paragraph">EF600/EF600C 및 EF300/EF300C 스토리지 시스템은 씬 프로비저닝을 지원하지 않습니다.</block>
+  <block id="baee5b8c18b240b4edfcc1ae3fe154f0" category="section-title">버전 11.90R1의 새로운 기능</block>
+  <block id="efe2c9d7be92af10ac48d790dd8ccfed" category="paragraph">새로운 스토리지 시스템 모델 - EF300C 및 EF600C</block>
+  <block id="0b2fb9383075b5994701c94b27e4b6ee" category="paragraph">이 릴리즈에는 EF300C 및 EF600C All-Flash NVMe 스토리지 시스템이 도입되었습니다. EF300C 및 EF600C는 기존 EF300 및 EF600 스토리지 시스템의 고용량 플래시 버전입니다. EF300C 및 EF600C에서는 30TB 또는 60TB 크기의 대용량 NVMe SSD 드라이브가 지원됩니다. EF300C/EF600C는 레거시 RAID 지원 없이 동적 디스크 풀용으로 호환됩니다.</block>
+  <block id="c4c050a1cbe127eb24c705844a070872" category="paragraph">EF4000에서 12Gb SAS 인터페이스 지원</block>
+  <block id="e8b3561f4b15fa164cdd5717ae511188" category="paragraph">E4000 컨트롤러는 이제 12Gb SAS 호스트 인터페이스 카드를 지원합니다.</block>
 </blocks>

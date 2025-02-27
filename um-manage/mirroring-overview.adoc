@@ -15,7 +15,7 @@ SANtricity Unified Manager에는 SANtricity 미러링 기능을 위한 구성 �
 
 [NOTE]
 ====
-EF600 또는 EF300 스토리지 시스템에서는 동기식 미러링을 사용할 수 없습니다.
+EF600/EF600C 또는 EF300/EF300C 스토리지 시스템에서는 동기식 미러링을 사용할 수 없습니다.
 
 ====
 

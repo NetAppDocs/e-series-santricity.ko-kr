@@ -27,9 +27,6 @@ summary: 스토리지 어레이에서 프리미엄 기능 또는 기능 팩을 �
 . System Manager에서 Enable Identifier 기능을 찾습니다. 설정 [시스템] 메뉴로 이동한 다음 아래로 스크롤하여 * 추가 기능 * 으로 이동합니다. Feature Enable Identifier * 를 찾습니다. 기능 식별자 활성화 의 번호를 기록합니다.
 . 기능 활성화를 위한 코드를 찾아 기록합니다. 기능 팩의 경우 이 코드는 변환을 수행하기 위한 적절한 지침에 나와 있습니다.
 +
-NetApp 지침은 에서 확인할 수 있습니다 https://www.netapp.com/support-and-training/documentation/eseries-santricity/["NetApp E-Series 시스템 설명서 센터 를 참조하십시오"^].
-
-+
 프리미엄 기능의 경우 지원 사이트에서 다음과 같이 활성화 코드에 액세스할 수 있습니다.
 
 +
