@@ -456,8 +456,6 @@
   <block id="a68e42f8ba6fef756332c8e2507bd688" category="summary">펌웨어 업그레이드 진행 상황은 시스템의 전체 로드에 따라 다릅니다.</block>
   <block id="182309e939480b1bc525560bbc942506" category="doc">펌웨어 업그레이드가 너무 느리게 진행되는 이유는 무엇입니까?</block>
   <block id="fb7e65669e5874b9e0b75fbd623f7da4" category="paragraph">드라이브 펌웨어의 온라인 업그레이드 중에 빠른 재구성 프로세스 중에 볼륨 전송이 발생하면 시스템은 전송된 볼륨에서 전체 재구성을 시작합니다. 이 작업에는 상당한 시간이 걸릴 수 있습니다. 실제 전체 재구성 시간은 재구성 작업 중 발생하는 I/O 활동 양, 볼륨 그룹의 드라이브 수, 리빌드 우선순위 설정 및 드라이브 성능 등 여러 요소에 따라 달라집니다.</block>
-  <block id="0053cb3da5cd9357da42c9285388e7c5" category="summary">SANtricity 시스템 관리자는 다음 단계를 수행하여 컨트롤러 소프트웨어 및 펌웨어를 업그레이드할 수 있습니다.</block>
-  <block id="638e87c9a312fe766009341e23b4dbd4" category="doc">컨트롤러 소프트웨어 및 펌웨어 업그레이드를 위한 워크플로우</block>
   <block id="53f6e38bfb8737cd78f3afe40356d59e" category="summary">SANtricity 시스템 관리자에서 다음 단계를 수행하여 AutoSupport 기능을 구성합니다.</block>
   <block id="abcd71b1bdd83d175115a06e7bd6993c" category="doc">AutoSupport 기능의 워크플로</block>
   <block id="b2d4b96a56de336af6183c3c3ca96077" category="summary">AutoSupport 유지 관리 창을 비활성화하여 오류 이벤트에 대한 티켓 자동 생성을 허용합니다. AutoSupport 유지 관리 창이 비활성화된 경우 스토리지 어레이는 AutoSupport를 사용하여 문제가 있는 경우 지원 케이스를 엽니다.</block>
@@ -7394,11 +7392,7 @@
   <block id="78d46085734b1546832159391eb2b467" category="list-text">메뉴: Manage Groups [Add storage arrays to group]를 선택합니다.</block>
   <block id="875510c22480d2f647cff890742474ab" category="list-text">그룹에 추가할 스토리지 배열을 선택합니다.</block>
   <block id="5289185cda6b3fc469161fc0d841232d" category="list-text">추가 * 를 클릭합니다</block>
-  <block id="7d63fa7b66beb048adb4cb5412f78f29" category="summary">Unified Manager를 사용하여 같은 유형의 여러 스토리지 어레이에서 SANtricity OS 소프트웨어를 최신 버전으로 업그레이드할 수 있습니다.</block>
-  <block id="35a02fabedaff63c9eea49354c0479c7" category="doc">업그레이드 작동 방식</block>
   <block id="5b416e1633d16aad217a2e0fc2d097f8" category="section-title">워크플로우 업그레이드</block>
-  <block id="37e1222cab25890a0cd0d01b19f4489d" category="paragraph">다음 단계에서는 소프트웨어 업그레이드를 수행하기 위한 높은 수준의 워크플로우를 제공합니다.</block>
-  <block id="bc2ada3b24f486f7b98ff3159828f426" category="list-text">지원 사이트에서 최신 SANtricity OS 소프트웨어 파일을 다운로드합니다(링크는 * Support * 페이지의 Unified Manager에서 제공). 관리 호스트 시스템(브라우저에서 Unified Manager에 액세스하는 호스트)에 파일을 저장한 다음 파일의 압축을 풉니다.</block>
   <block id="a200f8c4b71a38169e50e4e1757c92f0" category="list-text">Unified Manager에서 SANtricity OS 소프트웨어 파일과 NVSRAM 파일을 리포지토리(파일이 저장되는 웹 서비스 프록시 서버 영역)에 로드합니다. 업그레이드 센터 [SANtricity OS 소프트웨어 업그레이드 또는 업그레이드 센터 &gt; 소프트웨어 저장소 관리] 메뉴에서 파일을 추가할 수 있습니다.</block>
   <block id="d1ba3ebc5172c097a542cb59c46118f4" category="list-text">저장소에 파일이 로드되면 업그레이드에 사용할 파일을 선택할 수 있습니다. SANtricity OS 소프트웨어 업그레이드 페이지(메뉴: 업그레이드 센터 [SANtricity OS 소프트웨어 업그레이드])에서 SANtricity OS 소프트웨어 파일과 NVSRAM 파일을 선택합니다. 소프트웨어 파일을 선택하면 호환되는 스토리지 배열 목록이 이 페이지에 표시됩니다. 그런 다음 새 소프트웨어로 업그레이드할 스토리지 어레이를 선택합니다. (호환되지 않는 어레이는 선택할 수 없습니다.)</block>
   <block id="d07fed7a91e9b5ecf1b7a376a13d3c4e" category="list-text">그런 다음 즉시 소프트웨어 전송 및 활성화를 시작하거나 나중에 활성화할 파일을 준비하도록 선택할 수 있습니다. 업그레이드 프로세스 중에 Unified Manager는 다음 작업을 수행합니다.</block>
@@ -8620,7 +8614,6 @@
   <block id="22ec79b8668bcaf4a33eed694079e8b1" category="summary">AutoSupport 기능은 기술 지원에 AutoSupport 디스패치를 전달하기 위한 프로토콜 HTTPS 및 SMTP를 지원합니다.</block>
   <block id="dd0ab6e042458857b9d76ede295a637e" category="image-alt">펌웨어 위치를 업그레이드합니다</block>
   <block id="da31bdea5b9fdfa2bf077a70c49a1d66" category="image-alt">AutoSupport 워크플로</block>
-  <block id="0ceabfdc68af97f8a0c7393faf135de8" category="image-alt">컨트롤러 소프트웨어 및 펌웨어 업그레이드 워크플로우</block>
   <block id="ece14770330886bc2d41238acbfe48aa" category="summary">SANtricity 유니파이드 관리자 7</block>
   <block id="3cd6f83d0a9a8330c077dfc98649ab8a" category="paragraph">SANtricity Unified Manager를 통해 사용되는 설정을 구성할 수 있습니다.</block>
   <block id="0be150145c60047c6667d2bfbc4085d9" category="image-alt">웹 브라우저를 사용하여 네트워크 관리 클라이언트에 대한 대역외 연결</block>
@@ -8713,7 +8706,6 @@
   <block id="f0254fcd04a8e1df1dc8c778e6189b01" category="paragraph">SANtricity Unified Manager를 호스팅하는 관리 시스템에 안전하게 액세스하기 위해 CA 서명 인증서를 얻고 가져올 수 있습니다.</block>
   <block id="c5f9375676cadbc97263ea339c65e0df" category="paragraph">SANtricity Unified Manager가 스토리지 리소스를 표시하고 관리하기 전에 먼저 조직의 네트워크에서 관리할 스토리지 어레이를 검색해야 합니다. 여러 어레이를 검색할 수도 있고 단일 어레이를 검색할 수도 있습니다.</block>
   <block id="8205965c706fda540f0df394d1fd7df5" category="paragraph">SANtricity Unified Manager를 사용하여 한 스토리지 어레이에서 여러 스토리지 어레이로 설정을 가져올 수 있습니다. 설정 가져오기 기능은 네트워크에 여러 어레이를 구성해야 할 때 시간을 절약할 수 있는 일괄 작업입니다.</block>
-  <block id="2b8e903f9231328c5dd4ac194fe0ed99" category="paragraph">SANtricity Unified Manager를 사용하여 동일한 유형의 여러 스토리지 어레이에서 새로운 버전으로 SANtricity OS 소프트웨어를 업그레이드할 수 있습니다.</block>
   <block id="c5cdef1d414ec599aa9b2d1f28c67d4b" category="doc">SANtricity 시스템 관리자에 액세스할 때의 고려 사항</block>
   <block id="cdaae564ece8b6f3561a5e657337c464" category="paragraph">SANtricity Unified Manager에서 비동기식 또는 동기식 미러링을 구성한 다음 SANtricity System Manager를 사용하여 동기화를 관리합니다.</block>
   <block id="69ffe5f70c823700a785fa58e3fbca15" category="paragraph">SANtricity Unified Manager에는 SANtricity 미러링 기능을 위한 구성 옵션이 포함되어 있어 관리자가 데이터 보호를 위해 두 스토리지 어레이 간에 데이터를 복제할 수 있습니다.</block>
@@ -8749,4 +8741,7 @@
   <block id="0b2fb9383075b5994701c94b27e4b6ee" category="paragraph">이 릴리즈에는 EF300C 및 EF600C All-Flash NVMe 스토리지 시스템이 도입되었습니다. EF300C 및 EF600C는 기존 EF300 및 EF600 스토리지 시스템의 고용량 플래시 버전입니다. EF300C 및 EF600C에서는 30TB 또는 60TB 크기의 대용량 NVMe SSD 드라이브가 지원됩니다. EF300C/EF600C는 레거시 RAID 지원 없이 동적 디스크 풀용으로 호환됩니다.</block>
   <block id="c4c050a1cbe127eb24c705844a070872" category="paragraph">EF4000에서 12Gb SAS 인터페이스 지원</block>
   <block id="e8b3561f4b15fa164cdd5717ae511188" category="paragraph">E4000 컨트롤러는 이제 12Gb SAS 호스트 인터페이스 카드를 지원합니다.</block>
+  <block id="bd720a6ead0034815d9206b7292e06e5" category="section-title">버전 11.90R2의 새로운 기능</block>
+  <block id="15829e6cc8b585193d8f6910a672107c" category="inline-link">E-Series 11.90 릴리즈 노트</block>
+  <block id="a4c34f83987821dd1d99ef73febdd962" category="paragraph">이 버전에는 사소한 변경 사항만 포함되어 있고 새로운 기능은 없습니다. 이 릴리스의 변경 사항에 대한 자세한 내용은 을<block ref="1f7d7124974a1c2e3017c1729625e686" category="inline-link-rx"></block>참조하십시오.</block>
 </blocks>
