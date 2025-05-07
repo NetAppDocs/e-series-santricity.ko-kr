@@ -66,9 +66,17 @@ SAML이 활성화된 경우 사용자는 Unified Manager 또는 기존 Storage M
 또한 다음 클라이언트는 스토리지 서비스 및 리소스에 액세스할 수 없습니다.
 
 * 엔터프라이즈 관리 창(EMW)
-* CLI(Command-Line Interface)
 * SDK(소프트웨어 개발자 키트) 클라이언트
 * 대역내 클라이언트
-* HTTP 기본 인증 REST API 클라이언트
 * 표준 REST API 끝점을 사용하여 로그인합니다
+
+
+
+
+=== SAML이 활성화된 상태로 연결이 제한됩니다
+
+SAML을 사용할 때마다 JSON Web Token 인증을 통해 연결이 제한되는 스토리지 시스템 기능은 다음과 같습니다.
+
+* CLI(Command-Line Interface)
+* HTTP 기본 인증 REST API 클라이언트
 

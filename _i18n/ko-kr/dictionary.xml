@@ -8744,4 +8744,6 @@
   <block id="bd720a6ead0034815d9206b7292e06e5" category="section-title">버전 11.90R2의 새로운 기능</block>
   <block id="15829e6cc8b585193d8f6910a672107c" category="inline-link">E-Series 11.90 릴리즈 노트</block>
   <block id="a4c34f83987821dd1d99ef73febdd962" category="paragraph">이 버전에는 사소한 변경 사항만 포함되어 있고 새로운 기능은 없습니다. 이 릴리스의 변경 사항에 대한 자세한 내용은 을<block ref="1f7d7124974a1c2e3017c1729625e686" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="9f9aad17803bf869c53f2fdb3d1834b0" category="section-title">SAML이 활성화된 상태로 연결이 제한됩니다</block>
+  <block id="0961bfa4d0f83cb13b7f923407264db9" category="paragraph">SAML을 사용할 때마다 JSON Web Token 인증을 통해 연결이 제한되는 스토리지 시스템 기능은 다음과 같습니다.</block>
 </blocks>
