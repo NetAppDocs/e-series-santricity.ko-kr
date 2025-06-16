@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, volume 
 summary: 일반적으로 볼륨이 잘못된 매개 변수 또는 용량으로 생성되었거나, 스토리지 구성 요구 사항을 더 이상 충족하지 않거나, 백업 또는 애플리케이션 테스트에 더 이상 필요하지 않은 스냅샷 이미지일 경우 볼륨을 삭제합니다. 
 ---
-= 볼륨을 삭제합니다
+= SANtricity System Manager에서 볼륨 삭제
 :allow-uri-read: 
 :experimental: 
 :icons: font

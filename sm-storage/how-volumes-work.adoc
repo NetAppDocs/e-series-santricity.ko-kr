@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volume, copy, 
 summary: 볼륨은 스토리지 어레이에서 스토리지 공간을 관리하고 구성하는 데이터 컨테이너입니다. 
 ---
-= 볼륨 작동 방식
+= SANtricity 소프트웨어에서 볼륨이 작동하는 방식
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access management, terms 
 summary: 액세스 관리 용어가 스토리지 어레이에 어떻게 적용되는지 알아보십시오. 
 ---
-= Access Management(액세스 관리) 용어
+= SANtricity 소프트웨어의 액세스 관리 용어에 대해 알아보세요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

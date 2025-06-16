@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, ssd, cache, restrictions 
 summary: 스토리지 어레이에서 SSD Cache를 사용할 때의 제한 사항에 대해 알아보십시오. 
 ---
-= SSD 캐시 제한 사항
+= SANtricity 소프트웨어의 SSD 캐시 제한 사항에 대해 알아보세요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

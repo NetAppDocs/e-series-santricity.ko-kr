@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, storage hierarchy 
 summary: 기본 인터페이스의 스토리지 계층 구조는 스토리지 배열에 의해 관리되는 다양한 하드웨어 구성 요소 및 스토리지 개체에 대한 조직화된 보기를 제공합니다. 
 ---
-= 스토리지 계층 구조 보기
+= SANtricity System Manager에서 스토리지 계층 보기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remove, asynchronous, mirror, relationship, 
 summary: 미러 쌍을 제거하여 로컬 스토리지 배열의 운영 볼륨과 원격 스토리지 배열의 보조 볼륨에서 미러 관계를 제거합니다. 
 ---
-= 비동기식 미러 관계를 제거합니다
+= SANtricity System Manager에서 비동기 미러 관계 제거
 :allow-uri-read: 
 :experimental: 
 :icons: font

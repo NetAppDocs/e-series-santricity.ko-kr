@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, obtain, feature, key, file, 
 summary: 스토리지 어레이에서 프리미엄 기능 또는 기능 팩을 활성화하려면 먼저 기능 키 파일을 구해야 합니다. 키는 하나의 스토리지 배열에만 연결됩니다. 
 ---
-= 기능 키 파일을 가져옵니다
+= SANtricity System Manager에서 기능 키 파일을 가져옵니다.
 :allow-uri-read: 
 :experimental: 
 :icons: font

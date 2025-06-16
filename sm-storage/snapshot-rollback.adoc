@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshot, rollback 
 summary: 롤백 작업은 기본 볼륨을 선택한 스냅샷에 의해 결정된 이전 상태로 되돌립니다. 
 ---
-= 스냅샷 롤백
+= SANtricity 소프트웨어의 스냅샷 롤백에 대해 알아보세요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

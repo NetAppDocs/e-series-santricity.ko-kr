@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access, management, 
 summary: '액세스 관리는 SANtricity 시스템 관리자에서 사용자 인증을 설정하는 방법입니다. 인증 방법에는 RBAC(역할 기반 액세스 제어), 디렉터리 서비스 및 SAML(Security Assertion Markup Language) 2.0이 있습니다.' 
 ---
-= 액세스 관리 개요
+= SANtricity System Manager의 액세스 관리에 대해 알아보세요
 :allow-uri-read: 
 :experimental: 
 :icons: font

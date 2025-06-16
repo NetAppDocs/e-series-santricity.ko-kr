@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, capacity values 
 summary: 'System Manager는 용량 값을 기비바이트(GiB) 또는 테비바이트(TiB) 단위로 표시할 수 있습니다.' 
 ---
-= 용량 값의 기본 단위를 설정합니다
+= SANtricity System Manager에서 용량 값의 기본 단위를 설정합니다.
 :allow-uri-read: 
 :experimental: 
 :icons: font

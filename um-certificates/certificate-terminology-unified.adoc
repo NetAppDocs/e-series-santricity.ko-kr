@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, certificate, terminology 
 summary: 다음 용어는 인증서 관리에 적용됩니다. 
 ---
-= 인증서 용어
+= SANtricity Unified Manager의 인증서 용어에 대해 알아보세요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

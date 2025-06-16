@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access volumes 
 summary: '액세스 볼륨은 스토리지 어레이에서 호스트 I/O 연결을 통해 스토리지 어레이 및 호스트와 통신하는 데 사용되는 공장 구성 볼륨입니다. 액세스 볼륨에는 LUN(Logical Unit Number)이 필요합니다.' 
 ---
-= 볼륨에 액세스합니다
+= SANtricity System Manager에서 볼륨 액세스
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

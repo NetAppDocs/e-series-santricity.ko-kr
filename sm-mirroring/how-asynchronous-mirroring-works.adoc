@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, asynchronous, mirroring, 
 summary: 비동기식 미러링은 데이터 볼륨을 필요 시 또는 일정에 따라 복제하여 데이터 손상 또는 손실로 인한 다운타임을 최소화 또는 방지합니다. 
 ---
-= 비동기식 미러링의 작동 방식
+= SANtricity System Manager에서 비동기 미러링이 작동하는 방식
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

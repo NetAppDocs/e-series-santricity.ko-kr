@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access management, directory services, 
 summary: '액세스 관리의 경우 관리자는 LDAP(Lightweight Directory Access Protocol) 서버와 Microsoft의 Active Directory와 같은 디렉터리 서비스를 사용할 수 있습니다.' 
 ---
-= 디렉토리 서비스를 통한 액세스 관리
+= SANtricity System Manager에서 디렉토리 서비스를 사용하여 액세스 관리 구성
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

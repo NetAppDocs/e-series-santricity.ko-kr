@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, enable, feature, pack, 
 summary: '기능 팩은 스토리지 배열 속성을 변경하는 번들(예: 프로토콜을 Fibre Channel에서 iSCSI로 변경)입니다. 기능 팩에는 지원을 위한 특수 키가 필요합니다.' 
 ---
-= 기능 팩을 활성화합니다
+= SANtricity System Manager에서 기능 팩 활성화
 :allow-uri-read: 
 :experimental: 
 :icons: font

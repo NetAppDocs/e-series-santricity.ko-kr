@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, drive, states, 
 summary: System Manager는 드라이브의 다양한 상태를 보고합니다. 
 ---
-= 드라이브 상태
+= SANtricity System Manager의 드라이브 상태에 대해 알아보세요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

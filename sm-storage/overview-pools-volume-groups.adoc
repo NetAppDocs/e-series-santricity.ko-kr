@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, pools, volume groups 
 summary: 스토리지 어레이의 할당되지 않은 드라이브 서브셋에서 논리적 스토리지 용량을 생성할 수 있습니다. 이 논리적 용량은 환경의 요구 사항에 따라 풀 또는 볼륨 그룹의 형태를 취할 수 있습니다. 
 ---
-= 풀 및 볼륨 그룹 개요
+= SANtricity System Manager의 풀 및 볼륨 그룹에 대해 알아보세요.
 :allow-uri-read: 
 :experimental: 
 :icons: font

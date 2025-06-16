@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, ca-signed, certificates, authentication, key, management, server, 
 summary: 키 관리 서버와 스토리지 어레이 컨트롤러 간의 보안 통신을 위해 적절한 인증서 세트를 구성해야 합니다. 
 ---
-= 키 관리 서버에서 인증에 CA 서명 인증서를 사용합니다
+= SANtricity System Manager에서 키 관리 서버 인증을 위해 CA 서명 인증서 사용
 :allow-uri-read: 
 :experimental: 
 :icons: font

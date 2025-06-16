@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, clear, staged, os, software 
 summary: 대기 중인 버전이 나중에 실수로 활성화되지 않도록 스테이징된 OS 소프트웨어를 제거할 수 있습니다. 스테이징된 OS 소프트웨어를 제거해도 스토리지 어레이에서 실행 중인 현재 버전에는 영향을 주지 않습니다. 
 ---
-= 스테이징된 OS 소프트웨어를 지웁니다
+= SANtricity Unified Manager에서 스테이지된 OS 소프트웨어 정리
 :allow-uri-read: 
 :experimental: 
 :icons: font

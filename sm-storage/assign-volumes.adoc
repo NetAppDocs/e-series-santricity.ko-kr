@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, assign volumes 
 summary: I/O 작업에 사용할 수 있도록 호스트 또는 호스트 클러스터에 볼륨을 할당해야 합니다. 이 할당은 스토리지 배열에 있는 하나 이상의 볼륨에 호스트 또는 호스트 클러스터 액세스 권한을 부여합니다. 
 ---
-= 호스트에 볼륨을 할당합니다
+= SANtricity System Manager에서 호스트에 볼륨 할당
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, unlock, reset, locked, fips, nvme, drives, 
 summary: '하나 이상의 잠긴 NVMe 또는 FIPS 드라이브를 스토리지 어레이에 삽입하면 드라이브와 연결된 보안 키 파일을 추가하여 드라이브 데이터의 잠금을 해제할 수 있습니다. 보안 키가 없는 경우 PSID(Physical Security ID)를 입력하여 잠긴 각 드라이브에서 재설정을 수행하여 보안 속성을 재설정하고 드라이브 데이터를 지울 수 있습니다.' 
 ---
-= 잠긴 NVMe 또는 FIPS 드라이브의 잠금을 해제하거나 재설정합니다
+= SANtricity System Manager에서 잠긴 NVMe 또는 FIPS 드라이브 잠금 해제 또는 재설정
 :allow-uri-read: 
 :experimental: 
 :icons: font

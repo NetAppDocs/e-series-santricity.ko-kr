@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, media scan settings, volume 
 summary: 미디어 검사는 볼륨의 모든 데이터 및 중복 정보를 검사하는 백그라운드 작업입니다. 하나 이상의 볼륨에 대한 미디어 스캔 설정을 활성화 또는 비활성화하거나 스캔 기간을 변경하려면 이 옵션을 사용합니다. 
 ---
-= 볼륨에 대한 미디어 스캔 설정을 변경합니다
+= SANtricity System Manager에서 볼륨의 미디어 스캔 설정 변경
 :allow-uri-read: 
 :experimental: 
 :icons: font

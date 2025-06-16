@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, ssd cache, 
 summary: 'SSD Cache 기능은 컨트롤러 기반 솔루션으로, 가장 자주 액세스하는 데이터("핫" 데이터)를 지연 시간이 짧은 SSD(Solid State Drive)에 캐싱하여 시스템 성능을 동적으로 향상합니다. SSD Cache는 호스트 읽기에만 사용됩니다.' 
 ---
-= SSD Cache의 작동 방식
+= SANtricity 소프트웨어에서 SSD 캐시가 작동하는 방식
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

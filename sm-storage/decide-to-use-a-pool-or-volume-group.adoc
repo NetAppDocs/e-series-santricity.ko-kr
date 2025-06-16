@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, pool, volume group 
 summary: 풀 또는 볼륨 그룹을 사용하여 볼륨을 생성할 수 있습니다. 최적의 선택은 주로 예상되는 I/O 워크로드, 성능 요구 사항 및 데이터 보호 요구 사항과 같은 주요 스토리지 요구 사항에 따라 달라집니다. 
 ---
-= 풀 또는 볼륨 그룹을 사용할지 여부를 결정합니다
+= SANtricity 소프트웨어의 풀 및 볼륨 그룹에 대해 알아보세요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

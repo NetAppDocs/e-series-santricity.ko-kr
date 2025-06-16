@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, suspend, resume, synchronization, mirrored, pair, 
 summary: 일시 중지 옵션과 재개 옵션을 사용하여 운영 볼륨의 데이터와 미러링된 쌍의 보조 볼륨의 데이터를 동기화할 시기를 제어할 수 있습니다. 
 ---
-= 미러링된 쌍의 동기화를 일시 중지하고 다시 시작합니다
+= SANtricity System Manager에서 미러링된 쌍에 대한 동기화 일시 중지 및 재개
 :allow-uri-read: 
 :experimental: 
 :icons: font

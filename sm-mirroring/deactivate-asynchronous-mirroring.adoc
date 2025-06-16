@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, deactivate, asynchronous, mirroring, remote, 
 summary: 로컬 및 원격 스토리지 시스템에서 비동기식 미러링을 비활성화하여 스토리지 시스템에서 전용 포트를 정상적으로 사용하도록 다시 설정할 수 있습니다. 
 ---
-= 비동기식 미러링을 비활성화합니다
+= SANtricity System Manager에서 비동기 미러링 비활성화
 :allow-uri-read: 
 :experimental: 
 :icons: font

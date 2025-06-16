@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, trusted, certificates, 
 summary: 신뢰할 수 있는 탭에서 이전에 가져온 사용자 설치 인증서를 삭제할 수 있습니다. 
 ---
-= 신뢰할 수 있는 인증서를 삭제합니다
+= SANtricity System Manager에서 신뢰할 수 있는 인증서 삭제
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, role, change, between, volume, mirrored, pair, 
 summary: 미러링된 쌍의 볼륨 간에 역할을 변경할 수 있습니다. 이 작업은 운영 볼륨을 보조 역할로 하향 이동하거나 보조 볼륨을 기본 역할로 상향 이동하여 수행할 수 있습니다. 
 ---
-= 미러링된 쌍의 볼륨 간 역할 변경
+= SANtricity 소프트웨어에서 미러링된 쌍의 볼륨 역할 변경에 대해 알아보세요.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

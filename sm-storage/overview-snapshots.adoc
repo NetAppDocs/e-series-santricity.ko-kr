@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshots 
 summary: 스냅샷 기능을 사용하면 백업 또는 테스트에 사용할 스토리지 어레이 볼륨의 시점 이미지를 생성할 수 있습니다. 
 ---
-= 스냅샷 개요
+= SANtricity System Manager의 스냅샷에 대해 알아보세요
 :allow-uri-read: 
 :experimental: 
 :icons: font

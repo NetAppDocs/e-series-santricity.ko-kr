@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, mirroring, configuration, workflow 
 summary: Unified Manager에서 비동기식 또는 동기식 미러링을 구성한 다음 System Manager를 사용하여 동기화를 관리합니다. 
 ---
-= 미러링 구성 워크플로우
+= 미러 SANtricity 구성 워크플로
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

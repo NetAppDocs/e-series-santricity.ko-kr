@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remove, users, snmpv3, traps, 
 summary: SNMPv3 트랩에 대한 사용자를 제거할 수 있습니다. 
 ---
-= SNMPv3 트랩을 위해 사용자를 제거합니다
+= SANtricity System Manager에서 SNMPv3 트랩에 대한 사용자 제거
 :allow-uri-read: 
 :experimental: 
 :icons: font

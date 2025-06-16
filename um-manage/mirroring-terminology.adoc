@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, mirroring, terminology 
 summary: 미러링 조건이 스토리지 어레이에 어떻게 적용되는지 알아보십시오. 
 ---
-= 미러링 용어
+= SANtricity Unified Manager의 미러링 용어에 대해 알아보세요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

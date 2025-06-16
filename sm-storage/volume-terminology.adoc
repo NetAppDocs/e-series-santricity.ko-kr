@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volume, terms 
 summary: 볼륨 조건이 스토리지 어레이에 적용되는 방식에 대해 알아보십시오. 
 ---
-= 볼륨 용어
+= SANtricity 소프트웨어의 볼륨 용어에 대해 알아보세요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

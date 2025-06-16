@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, requirements, replicating, storage, configurations 
 summary: 스토리지 시스템 간에 스토리지 구성을 가져오기 전에 요구 사항 및 지침을 검토하십시오. 
 ---
-= 스토리지 구성 복제 요구 사항
+= SANtricity Unified Manager에서 스토리지 어레이 구성을 복제하기 위한 요구 사항
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

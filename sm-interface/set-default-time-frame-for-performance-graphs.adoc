@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, time, graphs 
 summary: 성능 그래프에 표시되는 기본 기간을 변경할 수 있습니다. 
 ---
-= 성능 그래프의 기본 기간을 설정합니다
+= SANtricity System Manager에서 성능 그래프의 기본 시간 프레임을 설정합니다.
 :allow-uri-read: 
 :experimental: 
 :icons: font

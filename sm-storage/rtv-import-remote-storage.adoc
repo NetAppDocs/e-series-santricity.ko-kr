@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, import, remote, storage 
 summary: 원격 시스템에서 로컬 E-Series 스토리지 시스템으로 스토리지 가져오기를 시작하려면 원격 스토리지 가져오기 마법사를 사용합니다. 
 ---
-= 원격 저장소 가져오기
+= SANtricity System Manager에서 원격 스토리지 가져오기
 :allow-uri-read: 
 :experimental: 
 :icons: font

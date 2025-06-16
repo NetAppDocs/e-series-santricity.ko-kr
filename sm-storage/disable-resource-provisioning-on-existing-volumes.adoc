@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, disable, resource provisioning, 
 summary: 기존 풀 또는 볼륨 그룹에서 리소스 프로비저닝을 설정하거나 해제할 수 있습니다. 
 ---
-= 기존 볼륨 그룹 및 풀에서 리소스 프로비저닝을 설정하거나 해제합니다
+= SANtricity System Manager에서 기존 볼륨 그룹 및 풀에 대한 리소스 프로비저닝을 활성화하거나 비활성화합니다.
 :allow-uri-read: 
 :experimental: 
 :icons: font

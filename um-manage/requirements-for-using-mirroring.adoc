@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, requirements, using, mirroring 
 summary: 미러링을 구성하려는 경우 다음 요구사항을 염두에 두십시오. 
 ---
-= 미러링 사용에 대한 요구사항
+= SANtricity Unified Manager에서 미러링을 사용하기 위한 요구 사항
 :allow-uri-read: 
 :experimental: 
 :icons: font

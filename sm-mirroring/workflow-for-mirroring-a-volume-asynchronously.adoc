@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, workflow, mirroring, asynchronously, 
 summary: 다음 워크플로우를 사용하여 비동기식 미러링을 구성합니다. 
 ---
-= 볼륨을 비동기적으로 미러링하는 워크플로
+= SANtricity 소프트웨어에서 볼륨을 비동기적으로 미러링합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

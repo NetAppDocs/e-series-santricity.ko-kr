@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, shelf, locator, light, LED 
 summary: 하드웨어 페이지에 표시된 선반의 물리적 위치를 찾으려면 선반의 로케이터 표시등을 켜면 됩니다. 
 ---
-= 선반 로케이터 조명을 켭니다
+= SANtricity System Manager에서 선반 위치 표시등 켜기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

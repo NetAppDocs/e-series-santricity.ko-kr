@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, delete, storage, array, group 
 summary: 더 이상 필요하지 않은 스토리지 그룹을 하나 이상 제거할 수 있습니다. 
 ---
-= 스토리지 어레이 그룹을 삭제합니다
+= SANtricity Unified Manager에서 스토리지 어레이 그룹 삭제
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, security, key, 
 summary: 언제든지 보안 키를 새 키로 바꿀 수 있습니다. 회사에서 보안 위반이 발생할 가능성이 있으며 권한이 없는 직원이 드라이브의 데이터에 액세스하지 못하도록 하려면 보안 키를 변경해야 할 수 있습니다. 
 ---
-= 보안 키를 변경합니다
+= SANtricity System Manager에서 보안 키 변경
 :allow-uri-read: 
 :experimental: 
 :icons: font

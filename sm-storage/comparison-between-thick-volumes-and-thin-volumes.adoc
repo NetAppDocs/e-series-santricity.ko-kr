@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, comparison, thick volumes, thin volumes 
 summary: 일반 볼륨은 항상 완전히 프로비저닝되므로 볼륨을 생성할 때 모든 용량이 할당됩니다. 씬 볼륨은 항상 씬 프로비저닝됩니다. 즉, 데이터가 볼륨에 쓰일 때 용량이 할당됩니다. 
 ---
-= 일반 볼륨과 씬 볼륨 비교
+= SANtricity 소프트웨어에서 두꺼운 볼륨과 얇은 볼륨에 대해 알아보세요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

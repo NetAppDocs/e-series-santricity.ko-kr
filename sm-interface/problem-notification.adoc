@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, notifications 
 summary: System Manager에서는 스토리지 어레이에 문제가 있음을 알리기 위해 아이콘과 다른 여러 방법을 사용합니다. 
 ---
-= 문제 알림 개요
+= SANtricity System Manager 문제 알림에 대해 알아보세요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

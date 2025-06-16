@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshot, storage 
 summary: '스냅샷 기능은 COW(Copy-on-Write) 기술을 사용하여 스냅샷 이미지를 저장하고 할당된 예약 용량을 사용합니다.' 
 ---
-= 스냅샷 스토리지의 작동 방식
+= SANtricity 소프트웨어에서 스냅샷 스토리지가 작동하는 방식
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, limit, drive, view, 
 summary: '스토리지 배열에 서로 다른 유형의 물리적 및 논리적 속성이 있는 드라이브가 포함되어 있는 경우 Hardware(하드웨어) 페이지에서는 드라이브 보기를 제한하고 특정 드라이브를 찾는 데 도움이 되는 필터 필드를 제공합니다.' 
 ---
-= 드라이브 보기를 제한합니다
+= SANtricity System Manager에서 드라이브 보기 필터링
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

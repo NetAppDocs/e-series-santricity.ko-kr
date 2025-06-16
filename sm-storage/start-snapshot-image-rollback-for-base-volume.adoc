@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, start, snapshot, image, rollback, base, volume 
 summary: 롤백 작업을 수행하여 스냅샷 이미지에 저장된 컨텐츠와 일치하도록 기본 볼륨의 콘텐츠를 변경할 수 있습니다. 롤백 작업은 기본 볼륨과 연결된 스냅샷 이미지의 콘텐츠를 변경하지 않습니다. 
 ---
-= 기본 볼륨에 대한 스냅샷 이미지 롤백을 시작합니다
+= SANtricity System Manager에서 기본 볼륨에 대한 스냅샷 이미지 롤백을 시작합니다.
 :allow-uri-read: 
 :experimental: 
 :icons: font

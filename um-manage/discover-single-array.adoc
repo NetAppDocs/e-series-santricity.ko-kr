@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, discover, single, array 
 summary: 단일 스토리지 배열 추가/검색 옵션을 사용하여 조직의 네트워크에 단일 스토리지 배열을 수동으로 검색하고 추가합니다. 
 ---
-= 단일 스토리지를 검색합니다
+= SANtricity Unified Manager에서 단일 어레이를 검색하세요
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, requirements, synchronous, mirroring, 
 summary: 동기식 미러링을 사용하려는 경우 다음 요구사항을 염두에 두십시오. 
 ---
-= 동기 미러링 사용에 대한 요구 사항
+= SANtricity 소프트웨어에서 동기식 미러링을 사용하기 위한 요구 사항
 :allow-uri-read: 
 :experimental: 
 :icons: font

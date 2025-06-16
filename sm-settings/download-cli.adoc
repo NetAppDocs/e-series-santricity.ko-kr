@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, download, command line interface, CLI, 
 summary: 'System Manager에서 CLI(Command Line Interface) 패키지를 다운로드할 수 있습니다.' 
 ---
-= CLI(Command Line Interface) 다운로드
+= SANtricity 명령줄 인터페이스(CLI) 다운로드
 :allow-uri-read: 
 :experimental: 
 :icons: font

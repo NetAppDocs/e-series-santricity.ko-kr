@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, synchronous, mirroring, 
 summary: 동기식 미러링은 데이터 볼륨을 실시간으로 복제하여 지속적인 가용성을 보장합니다. 
 ---
-= 동기 미러링의 작동 방식
+= SANtricity System Manager에서 동기식 미러링이 작동하는 방식
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

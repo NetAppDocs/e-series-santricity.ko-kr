@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, application, workloads, volume, 
 summary: 볼륨을 생성할 때 특정 애플리케이션에 대한 스토리지 어레이 구성을 사용자 지정할 워크로드를 선택합니다. 
 ---
-= 작업 부하 작동 방식
+= SANtricity 소프트웨어에서 워크로드가 작동하는 방식
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

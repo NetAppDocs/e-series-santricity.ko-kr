@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, autosupport, log 
 summary: AutoSupport 로그는 AutoSupport 디스패치 제공 중 발생한 상태, 디스패치 기록 및 오류에 대한 정보를 제공합니다. 
 ---
-= AutoSupport 로그를 봅니다
+= SANtricity System Manager에서 AutoSupport 로그 보기
 :allow-uri-read: 
 :experimental: 
 :icons: font

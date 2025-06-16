@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, hot, spare, drives, raid1, raid6, raid5 
 summary: 핫 스페어는 System Manager의 RAID 1, RAID 5 또는 RAID 6 볼륨 그룹에서 대기 드라이브 역할을 합니다. 
 ---
-= 핫 스페어 드라이브 개요
+= SANtricity System Manager의 핫 스페어 드라이브에 대해 알아보세요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

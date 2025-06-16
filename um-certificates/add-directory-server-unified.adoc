@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, add, directory, server 
 summary: 액세스 관리에 대한 인증을 구성하려면 SANtricity Unified Manager용 웹 서비스 프록시를 실행하는 호스트와 LDAP 서버 간의 통신을 설정해야 합니다. 그런 다음 LDAP 사용자 그룹을 로컬 사용자 역할에 매핑합니다. 
 ---
-= 디렉토리 서버를 추가합니다
+= SANtricity Unified Manager에 디렉토리 서버 추가
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshot, volumes 
 summary: '스냅샷 데이터를 읽거나 쓰려면 스냅샷 볼륨을 생성하여 호스트에 할당할 수 있습니다. 스냅샷 볼륨은 기본 볼륨(RAID 레벨, I/O 특성 등)과 동일한 특성을 공유합니다.' 
 ---
-= Snapshot 볼륨
+= SANtricity 소프트웨어의 스냅샷 볼륨에 대해 알아보세요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

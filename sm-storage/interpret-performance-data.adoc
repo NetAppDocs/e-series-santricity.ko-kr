@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, interpret, performance data 
 summary: 성능 데이터를 통해 스토리지 어레이의 성능을 튜닝할 수 있습니다. 
 ---
-= 성능 데이터를 해석합니다
+= SANtricity System Manager에서 성능 데이터 해석
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, synchronous, mirroring, status, 
 summary: 동기식 미러링 쌍의 상태는 운영 볼륨과 보조 볼륨의 데이터가 동기화되었는지 여부를 나타냅니다. 미러 상태는 미러링된 쌍에 있는 볼륨의 구성 요소 상태와 무관합니다. 
 ---
-= 동기 미러링 상태
+= SANtricity System Manager의 동기식 미러링 상태에 대해 알아보세요.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

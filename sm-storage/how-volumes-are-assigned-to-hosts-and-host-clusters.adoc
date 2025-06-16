@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volumes, assigned, hosts, clusters 
 summary: 호스트 또는 호스트 클러스터에서 볼륨에 I/O를 보내려면 볼륨을 호스트 또는 호스트 클러스터에 할당해야 합니다. 
 ---
-= 호스트 및 호스트 클러스터에 볼륨을 할당하는 방법
+= SANtricity 소프트웨어에서 볼륨이 호스트 및 호스트 클러스터에 할당되는 방식
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

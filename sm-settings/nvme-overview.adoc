@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, nvme, 
 summary: '일부 컨트롤러에는 패브릭을 통해 NVMe(비휘발성 메모리 익스프레스)를 구현하기 위한 포트가 포함되어 있습니다. NVMe를 사용하면 호스트와 스토리지 어레이 간에 고성능 통신이 가능합니다.' 
 ---
-= NVMe 개요
+= NVMe 및 SANtricity 소프트웨어에 대해 알아보세요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

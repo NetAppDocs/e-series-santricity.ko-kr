@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, erase, drives, removal, 
 summary: 지우기 옵션을 사용하여 시스템에서 제거할 할당되지 않은 드라이브를 준비할 수 있습니다. 이 절차에서는 데이터를 영구적으로 제거하여 데이터를 다시 읽을 수 없도록 합니다. 
 ---
-= 드라이브를 지웁니다
+= SANtricity System Manager에서 드라이브 지우기
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, controller, states, 
 summary: 컨트롤러를 온라인, 오프라인 및 서비스 모드의 세 가지 상태로 둘 수 있습니다. 
 ---
-= 컨트롤러 상태
+= SANtricity System Manager의 컨트롤러 상태에 대해 알아보세요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

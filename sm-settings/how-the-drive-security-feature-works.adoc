@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, Drive Security, 
 summary: '드라이브 보안은 FDE(전체 디스크 암호화) 드라이브 또는 FIPS(Federal Information Processing Standard) 드라이브를 통해 추가 보안 계층을 제공하는 스토리지 어레이 기능입니다.' 
 ---
-= 드라이브 보안 기능의 작동 방식
+= SANtricity System Manager에서 드라이브 보안 기능이 작동하는 방식
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

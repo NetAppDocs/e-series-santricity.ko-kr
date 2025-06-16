@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, storage, array, profile 
 summary: 스토리지 배열 프로파일은 스토리지 배열의 모든 구성 요소와 속성에 대한 설명을 제공합니다. 
 ---
-= 스토리지 배열 프로파일을 봅니다
+= SANtricity System Manager에서 스토리지 어레이 프로필 보기
 :allow-uri-read: 
 :experimental: 
 :icons: font

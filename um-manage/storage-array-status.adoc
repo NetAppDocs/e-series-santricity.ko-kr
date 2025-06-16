@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, storage, array, status, communication, 
 summary: Unified Manager는 검색된 각 스토리지 시스템의 상태를 표시합니다. 
 ---
-= 스토리지 배열 상태를 봅니다
+= SANtricity Unified Manager에서 스토리지 어레이 상태 보기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

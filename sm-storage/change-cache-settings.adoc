@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, cache settings 
 summary: 읽기 캐시 및 쓰기 캐시 설정을 변경하여 볼륨의 전체 I/O 성능에 영향을 줄 수 있습니다. 
 ---
-= 볼륨의 캐시 설정을 변경합니다
+= SANtricity System Manager에서 볼륨의 캐시 설정 변경
 :allow-uri-read: 
 :experimental: 
 :icons: font

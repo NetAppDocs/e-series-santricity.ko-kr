@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, host, cluster 
 summary: 두 개 이상의 호스트에서 동일한 볼륨에 대한 I/O 액세스가 필요한 경우 호스트 클러스터를 생성합니다. 
 ---
-= 호스트 클러스터를 생성합니다
+= SANtricity System Manager에서 호스트 클러스터를 만듭니다.
 :allow-uri-read: 
 :experimental: 
 :icons: font

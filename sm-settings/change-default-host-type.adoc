@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, default, host, type, 
 summary: 기본 호스트 운영 체제 변경 설정을 사용하여 스토리지 어레이 레벨에서 기본 호스트 유형을 변경합니다. 일반적으로 호스트를 스토리지 어레이에 접속하거나 추가 호스트를 접속할 때 기본 호스트 유형을 변경합니다. 
 ---
-= 기본 호스트 유형을 변경합니다
+= SANtricity System Manager에서 기본 호스트 유형 변경
 :allow-uri-read: 
 :experimental: 
 :icons: font

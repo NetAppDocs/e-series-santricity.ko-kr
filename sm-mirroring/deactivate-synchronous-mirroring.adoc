@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, deactivate, synchronous, mirroring, adapter, host, bus, 
 summary: '스토리지 어레이에서 동기 미러링 기능을 비활성화하여 미러 데이터 전송용으로 예약된 HBA(호스트 버스 어댑터) 호스트 포트 4의 정상적인 사용을 다시 설정할 수 있습니다.' 
 ---
-= 동기 미러링을 비활성화합니다
+= SANtricity System Manager에서 동기식 미러링 비활성화
 :allow-uri-read: 
 :experimental: 
 :icons: font

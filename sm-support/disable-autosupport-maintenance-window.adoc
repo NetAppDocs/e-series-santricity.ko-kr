@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, disable, autosupport, ASUP, maintenance window 
 summary: AutoSupport 유지 관리 창을 비활성화하여 오류 이벤트에 대한 티켓 자동 생성을 허용합니다. AutoSupport 유지 관리 창이 비활성화된 경우 스토리지 어레이는 AutoSupport를 사용하여 문제가 있는 경우 지원 케이스를 엽니다. 
 ---
-= AutoSupport 유지 보수 창을 비활성화합니다
+= SANtricity System Manager에서 AutoSupport 유지 관리 창 비활성화
 :allow-uri-read: 
 :experimental: 
 :icons: font

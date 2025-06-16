@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, autosupport, ASUP 
 summary: AutoSupport 기능은 스토리지 배열의 상태를 모니터링하고 자동 디스패치를 기술 지원 부서에 보냅니다. 
 ---
-= AutoSupport 기능 개요
+= E-Series용 AutoSupport에 대해 알아보세요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

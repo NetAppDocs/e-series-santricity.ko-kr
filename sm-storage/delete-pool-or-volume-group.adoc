@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, pool, volume, group 
 summary: 풀 또는 볼륨 그룹을 삭제하여 할당되지 않은 용량을 더 많이 생성할 수 있습니다. 이 용량을 재구성하여 애플리케이션 스토리지의 요구사항을 충족할 수 있습니다. 
 ---
-= 풀 또는 볼륨 그룹을 삭제합니다
+= SANtricity System Manager에서 풀 또는 볼륨 그룹 삭제
 :allow-uri-read: 
 :experimental: 
 :icons: font

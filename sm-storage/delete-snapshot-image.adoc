@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, snapshot, image 
 summary: 스냅샷 이미지를 삭제하여 스냅샷 그룹 또는 스냅샷 정합성 보장 그룹에서 가장 오래된 스냅샷 이미지를 정리합니다. 
 ---
-= 스냅샷 이미지를 삭제합니다
+= SANtricity System Manager에서 스냅샷 이미지 삭제
 :allow-uri-read: 
 :experimental: 
 :icons: font

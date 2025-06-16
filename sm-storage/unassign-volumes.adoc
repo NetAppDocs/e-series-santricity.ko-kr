@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, unassign, volumes 
 summary: 호스트 또는 호스트 클러스터에서 해당 볼륨에 대한 I/O 액세스가 더 이상 필요하지 않은 경우 호스트 또는 호스트 클러스터에서 볼륨을 할당 해제합니다. 
 ---
-= 볼륨 할당 해제
+= SANtricity System Manager에서 볼륨 할당 해제
 :allow-uri-read: 
 :experimental: 
 :icons: font

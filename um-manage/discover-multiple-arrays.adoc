@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, discover, multiple, storage, arrays 
 summary: 여러 어레이를 검색하여 관리 서버가 있는 서브넷에서 모든 스토리지 어레이를 검색하고 검색된 어레이를 관리 도메인에 자동으로 추가합니다. 
 ---
-= 여러 스토리지 시스템을 검색합니다
+= SANtricity Unified Manager에서 여러 스토리지 어레이를 검색하세요
 :allow-uri-read: 
 :experimental: 
 :icons: font

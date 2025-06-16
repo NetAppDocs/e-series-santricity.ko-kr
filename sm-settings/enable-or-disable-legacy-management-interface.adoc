@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, enable, disable, legacy, management, interface, 
 summary: '스토리지 배열과 관리 클라이언트 간의 통신 방법인 레거시 관리 인터페이스(기호)를 설정하거나 해제할 수 있습니다.' 
 ---
-= 레거시 관리 인터페이스를 활성화 또는 비활성화합니다
+= SANtricity System Manager에서 레거시 관리 인터페이스 활성화 또는 비활성화
 :allow-uri-read: 
 :experimental: 
 :icons: font

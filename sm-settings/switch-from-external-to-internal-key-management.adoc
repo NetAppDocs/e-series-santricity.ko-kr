@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, switch, external, internal, key, management, 
 summary: 외부 키 서버에서 스토리지 배열에 사용되는 내부 방법으로 Drive Security의 관리 방법을 변경할 수 있습니다. 그런 다음 외부 키 관리를 위해 이전에 정의된 보안 키를 내부 키 관리에 사용합니다. 
 ---
-= 외부에서 내부 키 관리로 전환합니다
+= SANtricity System Manager에서 외부 키 관리에서 내부 키 관리로 전환
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, fail, drive, 
 summary: 그렇게 하라는 지시가 있으면 드라이브를 수동으로 실패할 수 있습니다. 
 ---
-= 드라이브 오류
+= SANtricity 시스템 관리자에서 수동으로 드라이브 실패
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

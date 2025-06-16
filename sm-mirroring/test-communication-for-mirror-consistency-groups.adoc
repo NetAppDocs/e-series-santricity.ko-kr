@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, test, communication, mirror, consistency, groups, 
 summary: 통신 링크를 테스트하여 로컬 스토리지 시스템과 미러 정합성 보장 그룹에 연결된 원격 스토리지 시스템 간의 통신 문제를 진단할 수 있습니다. 
 ---
-= 미러 정합성 보장 그룹에 대한 통신을 테스트합니다
+= SANtricity System Manager의 미러 일관성 그룹에 대한 테스트 통신
 :allow-uri-read: 
 :experimental: 
 :icons: font

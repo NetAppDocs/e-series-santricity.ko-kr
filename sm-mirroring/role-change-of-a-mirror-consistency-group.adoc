@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, role, change, mirror, consistency, group, secondary, mirror, consistency, group, 
 summary: 미러 정합성 보장 그룹에서 미러링된 페어 간에 역할을 변경할 수 있습니다. 이 작업은 운영 미러 정합성 보장 그룹을 보조 역할로 하향 이동하거나 보조 미러 정합성 보장 그룹을 운영 역할로 상향 이동하여 수행할 수 있습니다. 
 ---
-= 미러 정합성 보장 그룹의 역할 변경
+= SANtricity 소프트웨어에서 미러 일관성 그룹 역할 변경
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

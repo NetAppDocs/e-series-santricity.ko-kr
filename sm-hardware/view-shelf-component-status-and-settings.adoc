@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, shelf, component, status, settings, 
 summary: 하드웨어 페이지에서는 전원 공급 장치, 팬 및 배터리를 포함한 쉘프 구성 요소의 상태와 설정을 제공합니다. 
 ---
-= 쉘프 구성요소 상태 및 설정을 확인합니다
+= SANtricity System Manager에서 선반 구성 요소 상태 및 설정 보기
 :allow-uri-read: 
 :experimental: 
 :icons: font

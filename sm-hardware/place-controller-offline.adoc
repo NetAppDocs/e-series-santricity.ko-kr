@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, place, controller, offline, 
 summary: 그렇게 하라는 지시가 있으면 컨트롤러를 오프라인으로 설정할 수 있습니다. 
 ---
-= 컨트롤러를 오프라인으로 전환합니다
+= SANtricity System Manager에서 컨트롤러를 오프라인으로 전환
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

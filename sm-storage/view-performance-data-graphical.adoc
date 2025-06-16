@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, graphical, performance, 
 summary: 논리적 오브젝트, 물리적 오브젝트, 애플리케이션 및 워크로드의 그래픽 성능 데이터를 볼 수 있습니다. 
 ---
-= 그래픽 성능 데이터를 봅니다
+= SANtricity System Manager에서 그래픽 성능 데이터 보기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

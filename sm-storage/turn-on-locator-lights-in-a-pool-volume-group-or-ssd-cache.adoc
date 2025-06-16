@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, lights, LEDs 
 summary: 드라이브를 찾아 선택한 풀, 볼륨 그룹 또는 SSD Cache를 구성하는 모든 드라이브를 물리적으로 식별할 수 있습니다. 선택한 풀, 볼륨 그룹 또는 SSD Cache의 각 드라이브에 LED 표시등이 켜집니다. 
 ---
-= 풀, 볼륨 그룹 또는 SSD Cache에서 로케이터 표시등을 켭니다
+= SANtricity 시스템 관리자에서 풀, 볼륨 그룹 또는 SSD 캐시의 로케이터 표시등 켜기
 :allow-uri-read: 
 :experimental: 
 :icons: font

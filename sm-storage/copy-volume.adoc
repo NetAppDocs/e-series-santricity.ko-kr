@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, copy volume 
 summary: '동일한 스토리지 배열의 한 볼륨에서 다른 볼륨으로 데이터를 복사하고 소스 볼륨의 물리적 시점 중복(클론)을 생성할 수 있습니다.' 
 ---
-= 볼륨 복사
+= SANtricity System Manager에서 볼륨 복사
 :allow-uri-read: 
 :experimental: 
 :icons: font

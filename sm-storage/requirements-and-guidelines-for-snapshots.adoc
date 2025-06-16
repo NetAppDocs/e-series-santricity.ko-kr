@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, requirements, guidelines, snapshots 
 summary: 스냅샷을 생성 및 사용할 때는 다음 요구 사항 및 지침을 검토하십시오. 
 ---
-= 스냅샷 요구 사항 및 지침
+= SANtricity System Manager의 스냅샷에 대한 요구 사항 및 지침
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

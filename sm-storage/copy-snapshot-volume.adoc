@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, copy, snapshot, volume 
 summary: 스냅샷 볼륨 또는 스냅샷 정합성 보장 그룹 스냅샷 볼륨에서 볼륨 복제 프로세스를 수행할 수 있습니다. 
 ---
-= 스냅샷 볼륨을 복사합니다
+= SANtricity System Manager에서 스냅샷 볼륨 복사
 :allow-uri-read: 
 :experimental: 
 :icons: font

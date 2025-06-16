@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, perform, pre-upgrade, health, check 
 summary: 상태 점검은 업그레이드 프로세스의 일부로 실행되지만 시작하기 전에 상태 점검을 별도로 실행할 수도 있습니다. 상태 점검을 통해 스토리지 시스템의 구성 요소를 평가하여 업그레이드를 진행할 수 있는지 확인합니다. 
 ---
-= 업그레이드 전 상태 점검을 수행합니다
+= SANtricity Unified Manager에서 사전 업그레이드 상태 점검 수행
 :allow-uri-read: 
 :experimental: 
 :icons: font

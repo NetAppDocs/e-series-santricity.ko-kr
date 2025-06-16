@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, discover, storage, arrays 
 summary: 스토리지 리소스를 관리하려면 먼저 네트워크에서 스토리지 어레이를 검색해야 합니다. 
 ---
-= 검색 개요
+= SANtricity Unified Manager에서의 검색에 대해 알아보세요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

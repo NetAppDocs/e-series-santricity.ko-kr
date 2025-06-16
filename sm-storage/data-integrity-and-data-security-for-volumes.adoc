@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, data, integrity, security, volumes 
 summary: '볼륨에서 DA(Data Assurance) 기능 및 드라이브 보안 기능을 사용하도록 설정할 수 있습니다. 이러한 기능은 풀 및 볼륨 그룹 레벨에서 제공됩니다.' 
 ---
-= 볼륨에 대한 데이터 무결성 및 데이터 보안
+= SANtricity 소프트웨어의 볼륨에 대한 데이터 무결성 및 데이터 보안에 대해 알아보세요.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

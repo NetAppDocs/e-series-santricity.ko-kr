@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, export, certificates 
 summary: 인증서를 내보내 전체 세부 정보를 볼 수 있습니다. 
 ---
-= 인증서를 내보냅니다
+= SANtricity Unified Manager에서 인증서 내보내기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

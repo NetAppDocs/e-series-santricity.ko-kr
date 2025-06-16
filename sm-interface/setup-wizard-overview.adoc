@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, setup wizard 
 summary: 설치 마법사를 사용하여 하드웨어, 호스트, 애플리케이션, 워크로드 등 스토리지 시스템을 구성합니다. 풀, 알림 및 AutoSupport 
 ---
-= 설정 마법사 개요
+= SANtricity System Manager 설치 마법사에 대해 알아보세요
 :allow-uri-read: 
 :experimental: 
 :icons: font

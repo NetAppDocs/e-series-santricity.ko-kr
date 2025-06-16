@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, ARVM, asynchronous, mirroring, firmware, 
 summary: 비동기 미러링 기능은 로컬 스토리지 어레이와 원격 스토리지 시스템 간의 데이터 복제를 위한 컨트롤러 수준의 펌웨어 기반 메커니즘을 제공합니다. 
 ---
-= 비동기식 미러링 개요
+= SANtricity 소프트웨어의 비동기 미러링에 대해 알아보세요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

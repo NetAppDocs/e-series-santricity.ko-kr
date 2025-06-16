@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, cancel, snapshot, image, rollback 
 summary: '진행 중인 활성 롤백(활성 데이터 복사), 보류 중인 롤백(리소스 시작을 기다리는 대기 중인 대기 중인 대기열) 또는 오류로 인해 일시 중지된 롤백을 취소할 수 있습니다.' 
 ---
-= 스냅샷 이미지 롤백을 취소합니다
+= SANtricity System Manager에서 스냅샷 이미지 롤백 취소
 :allow-uri-read: 
 :experimental: 
 :icons: font

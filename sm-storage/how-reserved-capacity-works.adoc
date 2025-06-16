@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, reserved, capacity, 
 summary: 볼륨에 대해 스냅샷 또는 비동기식 미러링 작업과 같은 복제 서비스 작업이 제공되면 예약된 용량이 자동으로 생성됩니다. 
 ---
-= 예약 용량 작동 방식
+= SANtricity 소프트웨어에서 예약된 용량이 작동하는 방식
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

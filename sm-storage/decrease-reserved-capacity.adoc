@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, decrease, reserved, capacity 
 summary: 용량 감소 옵션을 사용하면 스냅샷 그룹, 스냅샷 볼륨 및 정합성 보장 그룹 구성원 볼륨과 같은 스토리지 객체에 대해 예약된 용량을 줄일 수 있습니다. 예약된 용량을 늘리는 데 사용한 양으로만 감소시킬 수 있습니다. 
 ---
-= 예약 용량을 줄입니다
+= SANtricity System Manager에서 예약된 용량 감소
 :allow-uri-read: 
 :experimental: 
 :icons: font

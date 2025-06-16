@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add, syslog, servers, alerts, 
 summary: syslog 알림에 최대 5개의 서버를 추가할 수 있습니다. 
 ---
-= 경고에 대한 syslog 서버를 추가합니다
+= SANtricity System Manager에서 경고를 위한 syslog 서버 추가
 :allow-uri-read: 
 :experimental: 
 :icons: font

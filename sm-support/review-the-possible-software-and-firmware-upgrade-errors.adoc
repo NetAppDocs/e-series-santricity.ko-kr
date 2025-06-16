@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, software, firmware, upgrade, errors 
 summary: 컨트롤러 소프트웨어 업그레이드 또는 드라이브 펌웨어 업그레이드 중에 오류가 발생할 수 있습니다. 
 ---
-= 가능한 소프트웨어 및 펌웨어 업그레이드 오류를 검토합니다
+= SANtricity 소프트웨어 및 펌웨어 업그레이드 오류에 대해 알아보세요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, create, storage, array, group 
 summary: 스토리지 그룹을 생성한 다음 스토리지 시스템을 그룹에 추가합니다. 스토리지 그룹은 볼륨을 구성하는 스토리지를 제공하는 드라이브를 정의합니다. 
 ---
-= 스토리지 어레이 그룹을 구성합니다
+= SANtricity Unified Manager에서 스토리지 어레이 그룹 구성
 :allow-uri-read: 
 :experimental: 
 :icons: font

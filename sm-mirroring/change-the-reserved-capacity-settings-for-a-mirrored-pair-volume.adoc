@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, reserved, capacity, settings, mirrored, pair, volume, 
 summary: 미러링된 쌍 볼륨에 대한 설정을 변경하여 미러링된 쌍 볼륨의 예약된 용량이 거의 꽉 찰 때 System Manager에서 경고 알림을 보내는 백분율 지점을 조정할 수 있습니다. 
 ---
-= 미러링된 페어 볼륨에 대한 예약된 용량 설정을 변경합니다
+= SANtricity System Manager에서 미러링된 쌍 볼륨에 대한 예약된 용량 설정 변경
 :allow-uri-read: 
 :experimental: 
 :icons: font

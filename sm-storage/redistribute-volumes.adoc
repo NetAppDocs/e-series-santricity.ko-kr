@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, redistribute, volumes 
 summary: 볼륨을 재배포하여 볼륨을 기본 컨트롤러 소유자에게 다시 옮깁니다. 일반적으로 다중 경로 드라이버는 호스트 및 스토리지 어레이 사이의 데이터 경로에 문제가 발생할 경우 원하는 컨트롤러 소유자로부터 볼륨을 이동합니다. 
 ---
-= 볼륨을 재배포합니다
+= SANtricity System Manager에서 볼륨 재분배
 :allow-uri-read: 
 :experimental: 
 :icons: font

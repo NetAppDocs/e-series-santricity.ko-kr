@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add, directory, server, 
 summary: 액세스 관리에 대한 인증을 구성하려면 스토리지 어레이와 LDAP 서버 간의 통신을 설정한 다음 LDAP 사용자 그룹을 스토리지의 사전 정의된 역할에 매핑할 수 있습니다. 
 ---
-= LDAP 디렉토리 서버를 추가합니다
+= SANtricity System Manager에 LDAP 디렉토리 서버 추가
 :allow-uri-read: 
 :experimental: 
 :icons: font

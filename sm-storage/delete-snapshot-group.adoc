@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, snapshot, group 
 summary: 스냅샷 그룹은 해당 데이터를 영구적으로 삭제하고 시스템에서 제거하려는 경우 삭제됩니다. 스냅샷 그룹을 삭제하면 풀 또는 볼륨 그룹에서 재사용하기 위해 예약된 용량이 재확보됩니다. 
 ---
-= 스냅샷 그룹을 삭제합니다
+= SANtricity System Manager에서 스냅샷 그룹 삭제
 :allow-uri-read: 
 :experimental: 
 :icons: font

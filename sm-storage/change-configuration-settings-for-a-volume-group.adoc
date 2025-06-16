@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configuration settings, volume group 
 summary: 이름 및 RAID 레벨을 포함하여 볼륨 그룹의 설정을 편집할 수 있습니다. 
 ---
-= 볼륨 그룹의 구성 설정을 변경합니다
+= SANtricity System Manager에서 볼륨 그룹에 대한 구성 설정 변경
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, locator, lights, 
 summary: '캐비닛에서 스토리지 배열의 물리적 위치를 찾으려면 해당 로케이터(LED) 표시등을 켜면 됩니다.' 
 ---
-= 스토리지 배열 로케이터 표시등을 켭니다
+= SANtricity System Manager에서 스토리지 어레이 로케이터 표시등 켜기
 :allow-uri-read: 
 :experimental: 
 :icons: font

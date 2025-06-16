@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
   <block id="d61bdae6b2aeb5c287102c8d9569da95" category="summary">지원 센터를 사용하여 기술 지원 부서에서 요청할 수 있는 진단, 복구 및 정보 수집 작업을 수행합니다.</block>
-  <block id="9852644c4378fe1c292ec7f7c830685e" category="doc">지원 개요</block>
   <block id="ec20c5bdec49e7bf8220a764bf8308f8" category="paragraph">지원 페이지에서는 기술 지원 리소스에 액세스할 수 있습니다.</block>
   <block id="fe4495fbc98f543d58b2992973cab2a5" category="section-title">어떤 지원 작업을 사용할 수 있습니까?</block>
   <block id="fd22b478e0779c1faf10bbfeb4b2d9c3" category="paragraph">지원 에서 기술 지원 연락처를 보고, 진단을 수행하고, AutoSupport를 구성하고, 이벤트 로그를 보고, 소프트웨어 업그레이드를 수행할 수 있습니다.</block>
@@ -332,7 +331,6 @@
   <block id="885ebf97ecde4b9932e7e13cf4bfb89d" category="list-text">* 주별 디스패치 * -- 사용자가 구성할 수 있는 시간 간격 및 일 동안 매주 한 번 발송됩니다. 구성 및 시스템 상태 정보를 포함합니다.</block>
   <block id="a6c4aa53de15f85413261c13ee0e36bf" category="list-text">* AutoSupport OnDemand 및 원격 진단 디스패치 *</block>
   <block id="9bfa3639bc53d9fb06b3d5a34dd361ba" category="summary">스토리지 배열의 각 구성 요소에 대한 스토리지 배열 프로파일 및 펌웨어 버전을 볼 수 있습니다.</block>
-  <block id="c679b506735784c7add4a25b6870f8ab" category="doc">스토리지 배열 정보를 봅니다</block>
   <block id="c4ce7d01b79eaee9292daa129a642307" category="paragraph">스토리지 배열의 각 구성 요소에 대한 스토리지 배열 프로파일 및 펌웨어 버전을 볼 수 있습니다.</block>
   <block id="4abeb578b363f44144000527bdaabd0d" category="summary">컨트롤러의 소프트웨어 및 펌웨어를 업그레이드하기 전에 이러한 항목을 숙지하십시오.</block>
   <block id="5c7e6b00e34ca5a9745761f8b63dd9f3" category="doc">SANtricity OS 소프트웨어를 업그레이드하기 전에 알아야 할 내용은 무엇입니까?</block>
@@ -369,7 +367,6 @@
   <block id="c0a9b28d11d68616fb79e051fb5e09ff" category="doc">IOM 자동 동기화를 일시 중단하기 전에 알아야 할 내용은 무엇입니까?</block>
   <block id="26459f8e39f6f9c5a61209c666270f09" category="paragraph">일반적으로 컨트롤러 소프트웨어 및 IOM 펌웨어는 번들로 업그레이드됩니다. 인클로저에 보존하려는 IOM 펌웨어의 특수 빌드를 가지고 있는 경우 IOM 자동 동기화를 일시 중지할 수 있습니다. 그렇지 않으면 다음 번에 컨트롤러 소프트웨어 업그레이드를 수행할 때 컨트롤러 소프트웨어와 함께 번들로 제공되는 IOM 펌웨어로 되돌아갑니다.</block>
   <block id="9bff0a52d07123acc65d79466ad99166" category="summary">읽을 수 없는 섹터 로그를 검토하고, 드라이브 포트를 다시 활성화하고, 복구 모드를 지우면 현재 스토리지 배열의 상태에 대한 조치를 취할 수 있습니다.</block>
-  <block id="7ca3e291db0767443f0a1deecc6e4357" category="doc">스토리지 배열 상태에 대한 복구 작업을 수행합니다</block>
   <block id="47c365409e53a20cd64997e83455ba87" category="paragraph">읽을 수 없는 섹터 로그를 검토하고, 드라이브 포트를 다시 활성화하고, 복구 모드를 지우면 현재 스토리지 배열의 상태에 대한 조치를 취할 수 있습니다.</block>
   <block id="9963750fa29cf1c51603894979061ccd" category="summary">스토리지 어레이에 대한 NVMe over Fabrics 연결에 대한 데이터를 볼 수 있습니다.</block>
   <block id="073c45d3e9123012b597c98a659c03cf" category="doc">NVMe over Fabrics 통계 보기</block>
@@ -563,7 +560,6 @@
   <block id="a8fdcab87c50d1c3326d999ec15dd4d9" category="list-text">Send * 를 선택하여 작업을 확인합니다.</block>
   <block id="e35fea426d01b061b9410a2b28b185d7" category="doc">AutoSupport 기능은 어떤 기능을 합니까?</block>
   <block id="80b1c491a2f0b6a862407e5388529f37" category="summary">스토리지 어레이의 소프트웨어 및 선택적으로 IOM 펌웨어 및 NVSRAM(Nonvolatile Static Random Access Memory)을 업그레이드하여 최신 기능 및 버그 수정을 확인할 수 있습니다.</block>
-  <block id="b151384749d99be9519acbb3ad2c2b88" category="doc">컨트롤러 소프트웨어 및 펌웨어를 업그레이드합니다</block>
   <block id="d6bd09aab8b7ead5f95174655184e159" category="paragraph">스토리지 어레이의 소프트웨어 및 선택적으로 IOM 펌웨어 및 NVSRAM(Nonvolatile Static Random Access Memory)을 업그레이드하여 최신 기능 및 버그 수정을 가할 수 있습니다.</block>
   <block id="481afbfd60141becd23d9826b22cd01c" category="paragraph">일반적으로 모든 구성 요소를 동시에 업그레이드해야 합니다. 하지만 SANtricity OS 소프트웨어 업그레이드의 일부로 업그레이드하지 않으려는 경우 또는 기술 지원 부서에서 IOM 펌웨어를 다운그레이드하도록 지시한 경우(명령줄 인터페이스를 사용하여 펌웨어를 다운그레이드할 수만 있음) IOM 펌웨어를 업그레이드하지 않을 수도 있습니다.</block>
   <block id="d39fe55fd710f94de48358cb3a9684a9" category="list-text">지금 또는 나중에 OS 업그레이드를 활성화할지 여부를 알 수 있습니다.</block>
@@ -647,7 +643,6 @@
   <block id="075e5f5e3effee4ba8e827827c488091" category="list-text">종료할 세션을 선택합니다</block>
   <block id="bd6a44ecaf818d9ed042334cbe10542c" category="list-text">세션 종료 * 를 클릭하고 작업을 수행할지 확인합니다.</block>
   <block id="690752e5e5c1eec2845ab13481f63056" category="summary">스토리지 어레이에서 발생한 이벤트의 기록 레코드를 제공하는 이벤트 로그를 볼 수 있습니다.</block>
-  <block id="19e7e9857ac1181d5199cfeeca027e31" category="doc">이벤트 로그를 사용하여 이벤트를 봅니다</block>
   <block id="f935bb769c237afb304f2eb94055b212" category="list-text">메뉴 선택: 지원 [이벤트 로그].</block>
   <block id="6711a7f27c9fa223bbe0e85b65da8385" category="paragraph">이벤트 로그 페이지가 나타납니다.</block>
   <block id="b45b43dbc109060db4497aaa37ef5e72" category="example-title">페이지 세부 정보</block>
@@ -736,7 +731,6 @@
   <block id="e278e6437347ba1b8b43475dafb1ed84" category="inline-link">11.50 릴리스 정보</block>
   <block id="7d69ef318412295725664b5711e60b81" category="list-text"><block ref="7d69ef318412295725664b5711e60b81" category="inline-link-rx"></block></block>
   <block id="563af0d23fd85448336d877b26d56bcc" category="summary">스냅샷 스케줄의 경우 자동 수집 시간 또는 수집 빈도를 변경할 수 있습니다.</block>
-  <block id="2e9f67d336204b527f0e5c0482695e84" category="doc">스냅샷 스케줄의 설정을 변경합니다</block>
   <block id="c770e0557e37eec1175c5e132b5573ad" category="paragraph">기존 스냅샷 스케줄에서 설정을 가져오거나 필요에 따라 설정을 수정할 수 있습니다.</block>
   <block id="abcf9709de55788d69010451f394baa5" category="paragraph">스냅샷 스케줄은 스냅샷 그룹 또는 스냅샷 정합성 보장 그룹에 연결되기 때문에 예약된 용량은 스케줄 설정 변경의 영향을 받을 수 있습니다.</block>
   <block id="f9f5e05fdd7630083b26cd44a4934403" category="list-text">스토리지 [스냅샷] 메뉴를 선택합니다.</block>
@@ -812,7 +806,6 @@
   <block id="01ce1e5eb2298600379f23c5d99bf65e" category="paragraph">* 추가 최적화 용량 * (EF600 및 EF300 어레이만 해당) -- 풀을 생성할 때 사용 가능한 용량과 성능 및 드라이브 마모 수명 간의 균형을 제공하는 권장 최적화 용량이 생성됩니다. 사용 가능한 용량 증가를 희생하여 성능 및 드라이브 마모 수명을 개선하려면 슬라이더를 오른쪽으로 이동하거나 성능 및 드라이브 마모 수명을 연장하여 사용 가능한 용량을 늘리기 위해 슬라이더를 왼쪽으로 이동하면 이러한 균형을 조정할 수 있습니다.</block>
   <block id="27b4db9e4e549f9fa6783d94bcc723e0" category="paragraph">SSD 드라이브는 용량의 일부가 할당되지 않은 경우 수명이 더 길고 쓰기 성능이 극대화됩니다. 풀과 연결된 드라이브의 경우 할당되지 않은 용량은 풀의 보존 용량, 사용 가능한 용량(볼륨에서 사용하지 않는 용량), 추가 최적화 용량으로 남겨 둔 사용 가능한 용량의 일부로 구성됩니다. 추가 최적화 용량은 사용 가능한 용량을 줄여 최적화 용량을 최소화하므로 볼륨 생성에 사용할 수 없습니다.</block>
   <block id="0835be6e2acd3996689e567944a98681" category="summary">성능 페이지를 사용하면 스토리지 배열의 성능을 쉽게 모니터링할 수 있습니다.</block>
-  <block id="f264455563ca8b26d0daffb627e42c00" category="doc">성능 개요</block>
   <block id="64b261aec0cde83064ccb3ba601ea7f3" category="section-title">성능 데이터로부터 배울 수 있는 것은 무엇입니까?</block>
   <block id="ebe09fa67ff6dd58475ee86e46acd288" category="paragraph">성능 그래프와 표는 성능 데이터를 거의 실시간으로 보여 주며, 이를 통해 스토리지 어레이에 문제가 있는지 여부를 확인할 수 있습니다. 성능 데이터를 저장하여 스토리지 배열의 기간별 뷰를 구성하고 문제가 시작된 시기 또는 문제가 발생한 원인을 파악할 수도 있습니다.</block>
   <block id="d21d53b8aa24ab7ba645bc9127a88d36" category="inline-link-macro">성능 그래프 및 지침</block>
@@ -832,7 +825,6 @@
   <block id="0df991de7620dc5a14fb4b20b2af6425" category="paragraph">CPU 그래프는 각 컨트롤러(컨트롤러 A 및 컨트롤러 B)에 대한 처리 용량 통계를 표시합니다. CPU는 _ 중앙 처리 장치 _ 의 약어입니다. 홈 페이지에서 이 그래프는 스토리지 배열에 대한 통계를 표시합니다. 성능 타일의 Physical View 탭에서 이 그래프는 스토리지 배열 및 드라이브에 대한 통계를 표시합니다.</block>
   <block id="9c34bb79f49d9e803ab6b7dbbd4dfc48" category="paragraph">CPU 그래프는 스토리지의 작업에 사용되는 CPU 처리 용량의 백분율을 보여 줍니다. 외부 I/O가 발생하지 않는 경우에도 스토리지 운영 체제가 백그라운드 작업 및 모니터링을 수행할 수 있으므로 CPU 활용률이 0이 아닐 수 있습니다. 그래프의 한 지점 위로 커서를 가져가면 해당 시점에 사용되는 처리 기능의 백분율을 볼 수 있습니다.</block>
   <block id="ec427217874a4925059f42a4cc0d10c9" category="summary">원격 스토리지 기능을 사용하기 전에 다음 요구 사항 및 제한 사항을 검토하십시오.</block>
-  <block id="61d69856278e90dda2a782558c4d13fc" category="doc">원격 스토리지 기능 요구 사항</block>
   <block id="c84d4278eb32c7a089aea86ebf95ad39" category="section-title">지원되는 프로토콜</block>
   <block id="8967f1758ff8784982c669fc54020cd1" category="paragraph">지원되는 프로토콜은 다음과 같습니다.</block>
   <block id="e4e1c13bb0b14f6cb7608cbecea948ef" category="list-text">iSCSI</block>
@@ -859,7 +851,6 @@
   <block id="396018b82f5e5162a0d44ba918ce385e" category="list-text">VMware 데이터 저장소는 지원되지 않습니다.</block>
   <block id="93e0cdf967f3e69ef1184bc37a06a347" category="list-text">가져오기 페어가 있는 경우 관계/가져오기 페어에 있는 스토리지 시스템 하나만 한 번에 업그레이드할 수 있습니다.</block>
   <block id="e298ddbac0c7e8b508debaf62613efd2" category="summary">이름, 호스트 할당, 세그먼트 크기, 수정 우선순위, 캐싱 등 볼륨 설정을 변경할 수 있습니다. 등.</block>
-  <block id="0ea9de1cbb76e2ac6dd6551040dc4481" category="doc">볼륨의 설정을 변경합니다</block>
   <block id="8a9d122d42d84ec02591e2da50b53190" category="paragraph">이름, 호스트 할당, 세그먼트 크기, 수정 우선순위, 캐싱 등과 같은 볼륨 설정을 변경할 수 있습니다. 등.</block>
   <block id="b768d698f525e9b46e91718351cad1a3" category="paragraph">변경하려는 볼륨이 최적 상태입니다.</block>
   <block id="bbf46f9beb7cca84a6bd9b9ad7a9d701" category="list-text">Storage [Volumes](저장소 [볼륨]) 메뉴를 선택합니다.</block>
@@ -914,11 +905,9 @@
   <block id="f106bbc08b77d5e3fe5f9f78801fa7d1" category="paragraph">System Manager는 선택에 따라 볼륨 설정을 변경합니다.</block>
   <block id="7d4d06d4d7f18d34e58915011308eea8" category="paragraph">Home[View Operations in Progress] 메뉴를 선택하여 선택한 볼륨에 대해 현재 실행 중인 변경 작업의 진행 상황을 봅니다.</block>
   <block id="f42ab20723d88e6ffea883aa8f45d665" category="summary">System Manager에서 다음 단계를 수행하여 스냅샷 이미지와 스냅샷 볼륨을 생성할 수 있습니다.</block>
-  <block id="b4dcc45d10b6e6d4ae1dc448b727db43" category="doc">스냅샷 이미지 및 스냅샷 볼륨 생성 워크플로우</block>
   <block id="a97efe42ec88f5615739c5ebf0085fd8" category="section-title">스냅샷 이미지 생성 워크플로</block>
   <block id="bb41f61d9b53608a25e359fed048aa2f" category="section-title">스냅샷 볼륨 생성 워크플로우입니다</block>
   <block id="c104faa4e49e8bffe70f2b9aac16e76f" category="summary">스토리지 시스템과 데이터 서버 간의 접속을 정의하는 호스트 및 호스트 클러스터를 구성할 수 있습니다.</block>
-  <block id="cd811d42b4b9e088e08c83bbb519cbf3" category="doc">호스트 및 호스트 클러스터 개요</block>
   <block id="2db1b7a20809af794fad4aa6fe91958b" category="section-title">호스트 및 호스트 클러스터란 무엇입니까?</block>
   <block id="e2def4f23961d4c427b0cdfd416ff103" category="paragraph">a_host_는 스토리지 배열의 볼륨에 입출력을 전송하는 서버입니다. host cluster_는 동일한 볼륨을 여러 호스트에 할당하기 위해 생성할 수 있는 호스트 그룹입니다.</block>
   <block id="d34984bf887ed8157bf3724c05cf6310" category="inline-link-macro">호스트 용어</block>
@@ -957,7 +946,6 @@
   <block id="45c5490b8f9ad55e093507d717bd2f32" category="paragraph">풀을 생성할 때 성능, 드라이브 마모 수명 및 가용 용량의 균형을 제공하는 권장 최적화 용량이 생성됩니다. Pool Settings(풀 설정) 대화 상자에 있는 Additional Optimization Capacity(추가 최적화 용량) 슬라이더를 사용하여 풀의 최적화 용량을 조정할 수 있습니다. 슬라이더를 조정하면 사용 가능한 용량을 희생하여 더 나은 성능과 드라이브 마모 수명을 얻을 수 있고, 성능과 드라이브 마모 수명을 희생하여 사용 가능한 추가 용량을 확보할 수 있습니다.</block>
   <block id="ba85db8eaa03f65889fdd8e78af14efd" category="paragraph">추가 최적화 용량 슬라이더는 EF600 및 EF300 스토리지 시스템에서만 사용할 수 있습니다.</block>
   <block id="2d5e16304d23da14ecd4f0009bac1f3b" category="summary">드라이브를 제거하여 기존 풀 또는 SSD Cache의 용량을 줄일 수 있습니다.</block>
-  <block id="c8f3c0a42a2cd9bb18813868125e869f" category="doc">풀 또는 SSD Cache에서 용량을 제거합니다</block>
   <block id="ac3397ae43dda551f36c38a71bab9e59" category="paragraph">드라이브를 제거한 후에는 풀 또는 SSD Cache의 각 볼륨에 있는 데이터가 나머지 드라이브에 재배포됩니다. 제거된 드라이브는 할당되지 않고 해당 용량은 스토리지 어레이의 총 사용 가능 용량의 일부가 됩니다.</block>
   <block id="99a58673d1a25ca7a256d2223185c373" category="paragraph">용량을 제거할 때 다음 지침을 따르십시오.</block>
   <block id="293009b86e54802418f98f60625ac2a7" category="list-text">SSD Cache를 먼저 삭제하지 않으면 SSD Cache의 마지막 드라이브를 제거할 수 없습니다.</block>
@@ -1012,7 +1000,6 @@
   <block id="624a1dff311bc4d163f1158fdd79e3bb" category="list-text">예약된 용량은 호스트에서 직접 읽거나 쓸 수 없습니다.</block>
   <block id="fa6e0c909e3145f51bfdd46bf738d97b" category="list-text">각 읽기/쓰기 스냅샷 볼륨, 스냅샷 그룹, 정합성 보장 그룹 구성원 볼륨 및 미러링된 쌍 볼륨에 대해 예약된 용량이 있습니다.</block>
   <block id="d8bd7fd2f9375aab50b9c8238587ef00" category="summary">드라이브를 찾아 선택한 풀, 볼륨 그룹 또는 SSD Cache를 구성하는 모든 드라이브를 물리적으로 식별할 수 있습니다. 선택한 풀, 볼륨 그룹 또는 SSD Cache의 각 드라이브에 LED 표시등이 켜집니다.</block>
-  <block id="f07ad8c9bf3a486f836a1089919b0053" category="doc">풀, 볼륨 그룹 또는 SSD Cache에서 로케이터 표시등을 켭니다</block>
   <block id="dd622c0178d6ffaeb6d3c17389a4d397" category="list-text">찾을 풀, 볼륨 그룹 또는 SSD Cache를 선택한 다음 menu:More [Turn on locator Lights](메뉴 켜기: 로케이터 라이트)를 클릭합니다.</block>
   <block id="da01e7e2a730ad7efb5964db19366480" category="paragraph">선택한 풀, 볼륨 그룹 또는 SSD Cache를 구성하는 드라이브의 표시등이 켜져 있음을 나타내는 대화 상자가 나타납니다.</block>
   <block id="7ce5899000f51ae10c4246754e3e2d5f" category="list-text">드라이브를 찾은 후 * 끄기 * 를 클릭합니다.</block>
@@ -1020,7 +1007,6 @@
   <block id="dbade4fd0f8d3ab8fc0fbd0de49aa5f6" category="doc">스냅샷 스케줄을 일시 중지하는 이유는 무엇입니까?</block>
   <block id="d9eb0ca8e7c587d83f931dbc0d686c77" category="paragraph">스냅샷 스케줄이 필요하지 않은 경우 스케줄을 일시 중지하는 대신 삭제해야 합니다.</block>
   <block id="fb40658beb252958ffee2087357c67c7" category="summary">복사 서비스를 사용하여 볼륨을 복사하고 볼륨에 대한 다른 작업을 수행할 수 있습니다.</block>
-  <block id="ef72ce97af4d783504adff7908ef6327" category="doc">복사 서비스 작업</block>
   <block id="c99be05276e49867c3c82a7022f31b32" category="doc">어떤 호스트 운영 체제 유형이 올바른지 어떻게 알 수 있습니까?</block>
   <block id="e13be85800aed175412a62f5b2b23406" category="paragraph">드롭다운 목록에 표시되는 호스트 유형은 스토리지 어레이 모델 및 펌웨어 버전에 따라 다릅니다. 가장 최신 버전은 가장 일반적인 옵션을 먼저 표시하며, 이 옵션이 가장 적절할 가능성이 높습니다. 이 목록의 모양은 옵션이 완전히 지원됨을 의미하지는 않습니다.</block>
   <block id="e5dc6a32612d72253c0fec9ccbb44c04" category="paragraph">호스트 지원에 대한 자세한 내용은 를 참조하십시오<block ref="8a9cbe245fbeb909e401db80fbaa7bad" category="inline-link-rx"></block>.</block>
@@ -1043,8 +1029,6 @@
   <block id="961886d373243f3f3f779b008441b5d2" category="paragraph">ATTO Technology, Inc., 다중 경로 드라이버를 사용하는 Mac OS 버전을 지원합니다.</block>
   <block id="d93a7355c7e5ae529cbbd1c7386ef236" category="paragraph">Windows(ATTO)</block>
   <block id="1cef5a0ae504a39c3c685c81bb227bcc" category="paragraph">ATTO Technology, Inc., 다중 경로 드라이버를 사용하는 Windows 운영 체제를 지원합니다.</block>
-  <block id="fae9863ad38cf7cb4abba55837a6958e" category="paragraph">FlexArray(ALUA)</block>
-  <block id="80a4b6a6aea0733712df8ece7feeb565" category="paragraph">다중 경로에 대해 ALUA를 사용하여 NetApp FlexArray 시스템을 지원합니다.</block>
   <block id="448462a9364fed0f780b5871c1332348" category="paragraph">IBM SVC</block>
   <block id="ba5b374a9253be7b2e7ff414763a91ee" category="paragraph">IBM SAN Volume Controller 구성을 지원합니다.</block>
   <block id="fb83a625e5852c1ba47fe358f2d50ffc" category="paragraph">공장 출하 시 기본값</block>
@@ -1071,7 +1055,6 @@
   <block id="bd7a9717d29c5ddcab1bc175eda1e298" category="paragraph">볼륨</block>
   <block id="5529f79a50b85422a46f2851156e97bf" category="paragraph">데이터가 저장된 컨테이너입니다. 호스트가 데이터를 액세스할 수 있도록 생성되는 논리적 구성 요소입니다.</block>
   <block id="2ff923561cb245799c176b2d77152327" category="summary">호스트 포트 식별자의 사용자 레이블을 변경하거나, 호스트에 새 호스트 포트 식별자를 추가하거나, 호스트에서 호스트 포트 식별자를 삭제하려면 호스트 포트 식별자를 변경합니다.</block>
-  <block id="a308e6a2b194d75951c509482417c35a" category="doc">호스트의 호스트 포트 식별자를 변경합니다</block>
   <block id="60e563cf5063894ea19b6f99c9c3535c" category="paragraph">호스트 포트 식별자를 변경할 때 다음 지침을 염두에 두십시오.</block>
   <block id="a7bff65d0ed51d740a39f731e7d8021b" category="list-text">* 추가 * -- 호스트 포트를 추가하면 스토리지 배열에 연결하기 위해 생성한 호스트에 호스트 포트 식별자를 연결합니다. HBA(호스트 버스 어댑터) 유틸리티를 사용하여 포트 정보를 수동으로 입력할 수 있습니다.</block>
   <block id="f2d3620c344a28c110b23aa6b6f1ce14" category="list-text">* 편집 * -- 호스트 포트를 편집하여 호스트 포트를 다른 호스트로 이동(연결)할 수 있습니다. 호스트 버스 어댑터 또는 iSCSI 이니시에이터를 다른 호스트로 이동했을 수 있으므로 호스트 포트를 새 호스트로 이동(연결)해야 합니다.</block>
@@ -1146,7 +1129,6 @@
   <block id="f77d46565f9ece5538465e8ec4285c4c" category="list-text">* 재개 * -- 중지된 위치에서 중지되거나 실패한 프로세스를 시작하려면 * 재시작 * 을 선택합니다. 그런 다음 Resume 작업에 우선 순위를 적용하고 * OK * 를 클릭합니다. 이 작업은 처음부터 가져오기를 _not_다시 시작합니다. 처음부터 프로세스를 다시 시작하려면 * Disconnect * 를 선택한 다음 원격 저장소 가져오기 마법사를 통해 가져오기를 다시 만들어야 합니다.</block>
   <block id="ec5fafc6d1940ad203fabc6f088db6a7" category="list-text">* Disconnect * -- 중지, 완료 또는 실패한 가져오기 작업을 위해 소스 볼륨과 대상 볼륨 간의 관계를 끊으려면 * Disconnect * 를 선택합니다.</block>
   <block id="28777dded0f4b7a62c3138973e35582c" category="summary">용량 감소 옵션을 사용하면 스냅샷 그룹, 스냅샷 볼륨 및 정합성 보장 그룹 구성원 볼륨과 같은 스토리지 객체에 대해 예약된 용량을 줄일 수 있습니다. 예약된 용량을 늘리는 데 사용한 양으로만 감소시킬 수 있습니다.</block>
-  <block id="fd9b60620868f54114ba56d583ad7b0e" category="doc">예약 용량을 줄입니다</block>
   <block id="115acc53492ff3d71c7e0717c01220a6" category="paragraph">용량 감소 옵션을 사용하면 스냅샷 그룹, 스냅샷 볼륨 및 정합성 보장 그룹 구성원 볼륨과 같은 스토리지 객체에 대해 예약된 용량을 줄일 수 있습니다. 예약된 용량을 늘리는 데 사용한 양으로만 감소시킬 수 있습니다.</block>
   <block id="1d76cca7e5eb092d02723fdb9a2c1272" category="list-text">스토리지 객체에는 둘 이상의 예약된 용량 볼륨이 포함되어야 합니다.</block>
   <block id="7015a6ebdf4b0f5c526b2ffa6971a905" category="list-text">스토리지 객체는 미러링된 쌍 볼륨이 아니어야 합니다.</block>
@@ -1403,7 +1385,6 @@
   <block id="7372bf22ccef83db912c883687d647ff" category="paragraph">RAID 레벨 변경으로 인해 용량이 줄어들거나, 볼륨 중복성이 손실되거나, 쉘프/드로어 손실 보호가 손실되면 확인 대화 상자가 나타납니다. 계속하려면 * 예 * 를 선택하고, 그렇지 않으면 * 아니요 * 를 클릭합니다.</block>
   <block id="4a3f3854fb9436d01f6ec731304fbf88" category="paragraph">볼륨 그룹의 RAID 레벨을 변경하면 System Manager에서 볼륨 그룹을 구성하는 모든 볼륨의 RAID 레벨을 변경합니다. 작업 중에 성능이 약간 영향을 받을 수 있습니다.</block>
   <block id="44102ff30b0cb1313132dfbfa6ab2510" category="summary">풀 또는 볼륨 그룹에 대해 드라이브 보안을 설정하여 풀 또는 볼륨 그룹에 포함된 드라이브의 데이터에 대한 무단 액세스를 방지할 수 있습니다. 드라이브의 읽기 및 쓰기 액세스는 보안 키로 구성된 컨트롤러를 통해서만 사용할 수 있습니다.</block>
-  <block id="1a3d83a11843bc2c9a2b5405af4f8e34" category="doc">풀 또는 볼륨 그룹에 대한 보안을 설정합니다</block>
   <block id="1e98917a750bb72ac7b04ed7333f6e91" category="list-text">드라이브 보안 기능을 활성화해야 합니다.</block>
   <block id="320b2cf951a0d3e1ee72e1da68af376c" category="list-text">보안 키를 만들어야 합니다.</block>
   <block id="c78f7c076825f99339326a7adfb29dab" category="list-text">풀 또는 볼륨 그룹이 Optimal 상태여야 합니다.</block>
@@ -1420,7 +1401,6 @@
   <block id="b84e85e7db7f8a3d2c3833ca5a766938" category="list-text">스냅샷 이미지가 생성되면 기본 볼륨과 정확히 일치합니다. 스냅샷이 생성된 후 기본 볼륨의 블록 또는 블록 세트에 대해 첫 번째 쓰기 요청이 발생하면 새 데이터가 기본 볼륨에 쓰기되기 전에 원래 데이터가 스냅샷 예약 용량에 복사됩니다.</block>
   <block id="15e7467dc499e6bd623850837ffbc81c" category="list-text">후속 스냅샷에는 첫 번째 스냅샷 이미지가 생성된 이후 변경된 데이터 블록만 포함됩니다. 이후의 각 COW(Copy-On-Write) 작업은 새 데이터를 기본 볼륨에 쓰기 전에 기본 볼륨에서 덮어쓰려고 하는 원본 데이터를 스냅샷 예약 용량에 저장합니다.</block>
   <block id="33d4af9dc0c0fc34b7caf0a6ce97ce1c" category="summary">호스트의 이름, 호스트 운영 체제 유형 및 관련 호스트 클러스터를 변경할 수 있습니다.</block>
-  <block id="c9b3985cba1edece3f25972cb1d707fb" category="doc">호스트의 설정을 변경합니다</block>
   <block id="81f7602d508495d45605b46b5bb92187" category="list-text">편집할 호스트를 선택한 다음 * 설정 보기/편집 * 을 클릭합니다.</block>
   <block id="356644152a8ce764e09fdec4e9212fb9" category="list-text">아직 선택하지 않은 경우 * 속성 * 탭을 클릭합니다.</block>
   <block id="dc4c397fe7e85b41f4983bddd8fc0f3d" category="list-text">필요에 따라 설정을 변경합니다.</block>
@@ -1584,7 +1564,6 @@
   <block id="b56a5fd4bbd3253eb632e0d3225c6ba4" category="paragraph">스냅샷 이미지 설정 대화 상자가 나타납니다.</block>
   <block id="3f32c7ad02124299dfc7c01e16cc558b" category="list-text">스냅샷 이미지에 대한 설정을 봅니다.</block>
   <block id="f949e1c1c71d48680d0ee072b23da4ff" category="summary">진행 중인 볼륨 복사 작업을 보거나, 중지하고, 우선 순위를 변경하거나, 다시 복사하거나, 볼륨 복사 작업을 지울 수 있습니다.</block>
-  <block id="d4975b7496eff162cc5471de7875c6f0" category="doc">볼륨 복사 작업에 대한 작업을 수행합니다</block>
   <block id="2a960fa11f5217be7b07c29c966c7d36" category="list-text">Home[View Operations in Progress] 메뉴를 선택합니다.</block>
   <block id="1cab632814d61fafc9d8700dfb3e6bb1" category="paragraph">작업 진행 중 대화 상자가 나타납니다.</block>
   <block id="75324fe07b5254b86eb250d33e9a267f" category="list-text">수행할 볼륨 복사 작업을 찾은 다음 * Actions * 열의 링크를 클릭하여 다음 작업 중 하나를 수행합니다.</block>
@@ -1774,7 +1753,6 @@
   <block id="49787430e749b7be5c4be79c25cd1f33" category="summary">지원되는 미디어 유형은 하드 디스크 드라이브(HDD) 및 솔리드 스테이트 디스크(SSD)입니다.</block>
   <block id="5667801c9d485200cee1dd727cd1ab29" category="doc">드라이브에 지원되는 미디어 유형은 무엇입니까?</block>
   <block id="6460199a09a62534a5d7285029145977" category="summary">기존 풀 또는 볼륨 그룹에서 리소스 프로비저닝을 설정하거나 해제할 수 있습니다.</block>
-  <block id="3ce165f9ea33b7373022aacde38c9ee1" category="doc">기존 볼륨 그룹 및 풀에서 리소스 프로비저닝을 설정하거나 해제합니다</block>
   <block id="45626cd18cb972bec9636194a3ad449c" category="paragraph">모든 DULBE 가능 드라이브의 경우 풀 또는 볼륨 그룹의 기존 볼륨에서 리소스 프로비저닝을 설정하거나 해제할 수 있습니다.</block>
   <block id="af4e386f4a0bfa6defdb867cccb5c066" category="paragraph">리소스 프로비저닝은 EF300 및 EF600 스토리지 어레이에서 사용 가능한 기능으로, 백그라운드 초기화 프로세스 없이 볼륨을 즉시 사용할 수 있도록 지원합니다. 볼륨에 할당된 모든 드라이브 블록이 할당 해제(매핑 해제)되어 SSD 마모 수명을 개선하고 최대 쓰기 성능을 높일 수 있습니다.</block>
   <block id="5c6c27c561cdd8551b9bc0d3f459a366" category="paragraph">기본적으로 드라이브가 DULBE를 지원하는 시스템에서 리소스 프로비저닝이 설정됩니다. 이전에 리소스 프로비저닝을 사용하지 않도록 설정하지 않았다면 리소스 프로비저닝을 설정할 필요가 없습니다.</block>
@@ -1812,7 +1790,6 @@
   <block id="157d8626e7c0e956049c8fc68e4a427c" category="list-text">쓰기 시간.</block>
   <block id="68fa8b7b3ad4153e40edc17f213b5e90" category="list-text">평균 I/O 크기</block>
   <block id="6456c5d9623d0552182ab9c769536295" category="summary">애플리케이션, 데이터베이스 및 파일 시스템에서 데이터를 저장하는 컨테이너로 볼륨을 생성할 수 있습니다. 볼륨을 생성할 때 특정 애플리케이션의 스토리지 어레이 구성을 사용자 지정할 워크로드도 선택합니다.</block>
-  <block id="5f071533fa069e07259fb1f7bf088815" category="doc">볼륨 및 워크로드 개요</block>
   <block id="1a2c232ecac5bfbc4ed165b1096d2713" category="section-title">볼륨 및 워크로드란?</block>
   <block id="5fe500941776af205fa8b309710f70b6" category="paragraph">a_volume_은 호스트가 액세스할 수 있도록 특정 용량으로 생성된 논리적 구성 요소입니다. 볼륨이 두 개 이상의 드라이브로 구성될 수 있지만 볼륨은 호스트에 하나의 논리적 구성 요소로 나타납니다. 볼륨이 정의되면 워크로드에 추가할 수 있습니다. 워크로드 _ 는 SQL Server 또는 Exchange와 같은 애플리케이션을 지원하는 스토리지 오브젝트로서, 이 스토리지 객체를 사용하여 해당 애플리케이션에 대한 스토리지를 최적화할 수 있습니다.</block>
   <block id="23b0f40602cea8fa2a8a698ef1dd5e05" category="inline-link-macro">볼륨 작동 방식</block>
@@ -1904,7 +1881,6 @@
   <block id="88b6d510c50bcb1b16c968fd91477174" category="paragraph">Copy Volume(볼륨 복사) 대화 상자가 나타나고 대상을 선택하라는 메시지가 나타납니다.</block>
   <block id="9427d6397f3d0799cd0eff4c90af378a" category="list-text">복사 대상으로 사용할 타겟 볼륨을 선택한 다음 * 마침 * 을 클릭합니다.</block>
   <block id="3ffd5f0322b1320cb436208a96cd164d" category="summary">호스트 클러스터 이름을 변경하거나 호스트 클러스터에서 호스트를 추가 또는 제거할 수 있습니다.</block>
-  <block id="e5534c43699ab3c35211fa76c37373c6" category="doc">호스트 클러스터의 설정을 변경합니다</block>
   <block id="51d60eae66c9543a949b6c5741bec4c2" category="list-text">편집할 호스트 클러스터를 선택하고 * 설정 보기/편집 * 을 클릭합니다.</block>
   <block id="6e1d2ef0ede0098f422178e7c2f227ef" category="paragraph">현재 호스트 클러스터 설정을 보여 주는 대화 상자가 나타납니다.</block>
   <block id="ea082987b476f935cb21974d95545371" category="list-text">호스트 클러스터에 대한 설정을 적절히 변경합니다.</block>
@@ -1976,7 +1952,6 @@
   <block id="a9757954a2578775621a228a654b9c0d" category="section-title">드라이브 보안 기능</block>
   <block id="d5b07097b4cf49d7e93bb597224de2c3" category="paragraph">또한 Drive Security(보안 활성화)를 사용하는 볼륨에서 SSD Cache를 사용하려면 볼륨과 SSD Cache의 드라이브 보안 기능이 일치해야 합니다. 일치하지 않으면 볼륨이 보안 활성화되지 않습니다.</block>
   <block id="718def83cc27de3ea7c791559cbfb9e4" category="summary">호스트 애플리케이션의 입출력이 새 경로를 통해 진행되도록 볼륨의 기본 컨트롤러 소유권을 변경할 수 있습니다.</block>
-  <block id="8bad42f2b42e9d79e4385df87c170d96" category="doc">볼륨의 컨트롤러 소유권을 변경합니다</block>
   <block id="72b5db057b884e837900cd46506f3406" category="paragraph">다중 경로 드라이버를 사용하지 않는 경우, 현재 볼륨을 사용 중인 모든 호스트 응용 프로그램을 종료해야 합니다. 이렇게 하면 입출력 경로가 변경될 때 응용 프로그램 오류가 발생하지 않습니다.</block>
   <block id="1a193d87a118a7b0ea8d2329908ebc62" category="paragraph">풀 또는 볼륨 그룹에서 하나 이상의 볼륨에 대한 컨트롤러 소유권을 변경할 수 있습니다.</block>
   <block id="055de6d23ba3feacf68acd0dece439fc" category="list-text">볼륨을 선택한 다음 메뉴 추가 [소유권 변경]을 선택합니다.</block>
@@ -1985,7 +1960,6 @@
   <block id="f7465e26f6da9199ea364328d17635d9" category="list-text">System Manager는 볼륨의 컨트롤러 소유권을 변경합니다. 이제 이 I/O 경로를 통해 볼륨에 대한 I/O가 전달됩니다.</block>
   <block id="f42e2811e3ac908eee60f66d1397b5c2" category="list-text">다중 경로 드라이버가 새 경로를 인식하도록 다시 구성하기 전까지 볼륨은 새 I/O 경로를 사용하지 않을 수 있습니다. 이 작업은 일반적으로 5분 이내에 완료됩니다.</block>
   <block id="a4a310633996fa9be3dad1a7e1c6bf6d" category="summary">일반 볼륨은 항상 완전히 프로비저닝되므로 볼륨을 생성할 때 모든 용량이 할당됩니다. 씬 볼륨은 항상 씬 프로비저닝됩니다. 즉, 데이터가 볼륨에 쓰일 때 용량이 할당됩니다.</block>
-  <block id="deb88f045b03680286bbcfe06796807a" category="doc">일반 볼륨과 씬 볼륨 비교</block>
   <block id="fc18634852d4299cd5f8c7ad55ddefbe" category="cell">볼륨 유형입니다</block>
   <block id="69e0ddbfb36c4abd5009e90597425304" category="paragraph">일반 볼륨</block>
   <block id="a77fb91a3a86b9022911d7df936c326c" category="list-text">일반 볼륨의 경우 향후 스토리지 요구 사항을 예상하여 많은 양의 스토리지 공간이 사전에 제공됩니다.</block>
@@ -2032,7 +2006,6 @@
   <block id="c9a9f655057c31cee78def41182ef8f6" category="list-text">스토리지 객체에 하나 이상의 연결된 스냅샷 이미지가 포함되어 있는 경우</block>
   <block id="9945a680db325b61ee52dcb6a86bb0b0" category="paragraph">예약된 용량에 대한 볼륨은 추가된 역순으로 제거할 수 있습니다.</block>
   <block id="54fe116a46ee3e8514431de0788db1c9" category="summary">스냅샷 기능을 사용하면 백업 또는 테스트에 사용할 스토리지 어레이 볼륨의 시점 이미지를 생성할 수 있습니다.</block>
-  <block id="bb4db1d940ba3861734fd6e971f7bb5f" category="doc">스냅샷 개요</block>
   <block id="dac8f68c8cc49e828f74e9df79d8fb47" category="section-title">스냅샷 이미지란 무엇입니까?</block>
   <block id="91fba19e613b7cbd444bf6ea2426015d" category="paragraph">스냅샷 image_는 특정 시점에 캡처된 볼륨 데이터의 논리적 복사본입니다. 복원 지점과 마찬가지로 스냅샷 이미지를 통해 알려진 양호한 데이터 집합으로 롤백할 수 있습니다. 호스트가 스냅샷 이미지를 액세스할 수는 있지만 해당 이미지를 직접 읽거나 쓸 수는 없습니다.</block>
   <block id="c587bef8eac8648f03d8c4557de37bee" category="inline-link-macro">스냅샷 스토리지의 작동 방식</block>
@@ -2151,7 +2124,6 @@
   <block id="00c9f8995e9e372b1b21f15fc0c9001b" category="list-text">할당된 볼륨은 다음으로 사용 가능한 LUN 번호를 받습니다. 호스트는 LUN 번호를 사용하여 볼륨을 액세스합니다.</block>
   <block id="4faf06e0466760e50f45759abdf2041c" category="list-text">사용자 제공 볼륨 이름이 호스트에 연결된 볼륨 목록에 나타납니다. 해당하는 경우 공장 구성 액세스 볼륨이 호스트와 연결된 볼륨 목록에도 표시됩니다.</block>
   <block id="380cbfd4d1cf37c4bcab258a95fa8770" category="summary">스냅샷 그룹의 이름, 자동 삭제 설정, 허용되는 최대 스냅샷 이미지 수, System Manager에서 예약된 용량 알림 알림을 보내는 백분율 지점 또는 예약된 용량이 정의된 최대 비율에 도달할 때 사용할 정책을 변경하도록 스냅샷 그룹의 설정을 변경할 수 있습니다.</block>
-  <block id="c716bcf2eb04bf6a1997371363f29aa7" category="doc">스냅샷 그룹에 대한 예약된 용량 설정을 변경합니다</block>
   <block id="461d4d6aff9437cf486bde4465e94358" category="paragraph">스냅샷 그룹을 생성하는 동안 그룹에 포함된 모든 스냅샷 이미지에 대한 데이터를 저장하기 위해 예약된 용량이 생성됩니다.</block>
   <block id="8c6fc876d654fd1d7f379afba14dabae" category="list-text">편집할 스냅샷 그룹을 선택한 다음 * 설정 보기/편집 * 을 클릭합니다.</block>
   <block id="3726b7f0267ff56f9f5c771bd06c30b7" category="paragraph">스냅샷 그룹 설정 대화 상자가 나타납니다.</block>
@@ -2314,7 +2286,6 @@
   <block id="18747fc1783ea0c8be337cee42135fc8" category="list-text">풀 또는 볼륨 그룹이 최적화되지 않은 상태입니다.</block>
   <block id="a1b139d59112cf92af4c10f50fb6dec0" category="list-text">풀 또는 볼륨 그룹의 용량이 너무 작습니다.</block>
   <block id="129c375677986f0df558d98865d15561" category="summary">볼륨 복사 기능을 사용하면 동일한 스토리지 배열에 소스 볼륨과 타겟 볼륨이라는 두 개의 개별 볼륨을 생성하여 볼륨의 시점 복제본을 생성할 수 있습니다.</block>
-  <block id="cc448d01360c44d3867d40054ad4b2c2" category="doc">볼륨 복사 개요</block>
   <block id="751451b42f5feb38b0ab9a5355f2a886" category="paragraph">이 기능은 소스 볼륨에서 타겟 볼륨으로 바이트 단위 복제를 수행하여 타겟 볼륨의 데이터를 소스 볼륨의 데이터와 동일하게 만듭니다.</block>
   <block id="76227302cc2a921713b76d05f4eb63b5" category="section-title">데이터 복사로 액세스 향상</block>
   <block id="0772a60b3b09eb3a9507aee6a3c3e0e8" category="paragraph">볼륨 변경에 대한 스토리지 요구 사항으로 볼륨 복사 기능을 사용하면 용량이 작은 드라이브를 사용하는 풀 또는 볼륨 그룹에서 용량이 큰 드라이브를 사용하는 풀 또는 볼륨 그룹으로 데이터를 복사할 수 있습니다. 예를 들어, 볼륨 복사 기능을 사용하여 다음을 수행할 수 있습니다.</block>
@@ -2361,7 +2332,6 @@
   <block id="e2b55cbf1da587ab432dea10ed7793a4" category="list-text">볼륨 타일에서 * 애플리케이션 및 워크로드 * 탭을 선택하여 스토리지 어레이의 볼륨을 워크로드별로 그룹화하고 워크로드가 연결된 애플리케이션 유형을 볼 수 있습니다.</block>
   <block id="ac18a6a26f564a918149353f318b2d9d" category="list-text">성능 타일에서 * 애플리케이션 및 워크로드 * 탭을 선택하여 논리적 객체에 대한 성능 메트릭(지연 시간, IOPS 및 MBs)을 볼 수 있습니다. 오브젝트는 애플리케이션 및 관련 워크로드별로 그룹화됩니다. 이 성능 데이터를 정기적으로 수집하면 기준 측정을 설정하고 추세를 분석할 수 있습니다. 이렇게 하면 I/O 성능과 관련된 문제를 조사하는 데 도움이 됩니다.</block>
   <block id="8bc8cf41f208c93a13a5a656ec48608d" category="summary">롤백 작업을 수행하여 스냅샷 이미지에 저장된 컨텐츠와 일치하도록 기본 볼륨의 콘텐츠를 변경할 수 있습니다. 롤백 작업은 기본 볼륨과 연결된 스냅샷 이미지의 콘텐츠를 변경하지 않습니다.</block>
-  <block id="46e96478d0dd921c2f8fadb327d3e23d" category="doc">기본 볼륨에 대한 스냅샷 이미지 롤백을 시작합니다</block>
   <block id="235ad21d209038d7e95be805248f929d" category="paragraph">롤백 작업을 수행하여 스냅샷 이미지에 저장된 컨텐츠와 일치하도록 기본 볼륨의 콘텐츠를 변경할 수 있습니다.</block>
   <block id="e29010bd175ff4270aad98626de4bc9b" category="paragraph">롤백 작업은 기본 볼륨과 연결된 스냅샷 이미지의 콘텐츠를 변경하지 않습니다.</block>
   <block id="353702e361f6771e184a1ca4ac7a6084" category="list-text">롤백 작업을 시작할 수 있는 충분한 예약 용량을 사용할 수 있습니다.</block>
@@ -2401,9 +2371,7 @@
   <block id="cefe54bdb4dc0e23367eaf8ba8f61a93" category="list-text">* 설명적 이름 * - - - 어떤 이름을 원하든 볼륨의 이름을 지정할 수 있지만 이름을 설명하는 것이 좋습니다.</block>
   <block id="5a31ba315f9216d623d8fe03f601e49d" category="paragraph">볼륨 생성 중에 각 볼륨에 용량이 할당되며 이름, 세그먼트 크기(볼륨 그룹만 해당), 컨트롤러 소유권 및 볼륨-호스트 할당이 할당됩니다. 볼륨 데이터는 필요에 따라 컨트롤러 전체에서 자동으로 로드 밸런싱됩니다.</block>
   <block id="88e56411e6f3d7df385eece8002ee7c8" category="summary">애플리케이션과 워크로드를 관리하여 스토리지 어레이의 모든 기존 볼륨을 워크로드 이름 및 애플리케이션 유형별로 그룹화할 수 있습니다. 기존 또는 새 워크로드에 볼륨을 추가하고, 기존 워크로드의 설정을 변경하고, 새 볼륨 및 워크로드를 생성할 수도 있습니다.</block>
-  <block id="9067d3a54424613d49086a0043247788" category="doc">애플리케이션 및 워크로드 관리</block>
   <block id="aff417c0d45c728410c40abfb161ecba" category="summary">오프라인 볼륨 복사 작업 또는 온라인 볼륨 복사 작업을 수행할 수 있습니다. 오프라인 작업은 소스 볼륨에서 데이터를 읽고 타겟 볼륨에 복사합니다. 온라인 작업에서는 스냅샷 볼륨을 소스로 사용하고 해당 데이터를 타겟 볼륨에 복사합니다.</block>
-  <block id="915b7d2a3b458225c1ee16363230c039" category="doc">볼륨 복사 작업의 유형입니다</block>
   <block id="0de58aa88d06dff3650182cac9a226ee" category="paragraph">offline_Copy Volume 작업 또는 _online_Copy Volume 작업을 수행할 수 있습니다. 오프라인 작업은 소스 볼륨에서 데이터를 읽고 타겟 볼륨에 복사합니다. 온라인 작업에서는 스냅샷 볼륨을 소스로 사용하고 해당 데이터를 타겟 볼륨에 복사합니다.</block>
   <block id="9b7155c0a3b16c4282d1395e582dcbc6" category="paragraph">데이터 무결성을 보장하기 위해 타겟 볼륨에 대한 모든 입출력 작업은 볼륨 복사 작업 중 어느 유형이든 일시 중단됩니다. 이 서스펜션은 절차가 완료될 때까지 타겟 볼륨의 데이터 상태가 일관되지 않기 때문에 발생합니다.</block>
   <block id="3606eaf10e2f51e455289fe4dd10c4a2" category="paragraph">오프라인 및 온라인 볼륨 복사 작업은 아래에 설명되어 있습니다.</block>
@@ -2438,7 +2406,6 @@
   <block id="7a3c0387ff8d671f116d2f97ed8afcbc" category="list-text">예약된 용량 볼륨에 원래 데이터의 복사본이 이러한 데이터 블록에 저장되기 때문에 이러한 데이터 블록에 대한 추가 변경 사항은 소스 볼륨에만 기록됩니다.</block>
   <block id="ab36a8aa582f02cd458d8bff21889ed0" category="list-text">예약된 용량 볼륨에 저장된 데이터 블록만이 스냅샷 시간 이후에 변경된 데이터 블록이므로 온라인 복제 작업에서는 전체 물리적 복사본보다 디스크 공간이 적게 사용됩니다.</block>
   <block id="6bb3a46b3932d69f74f52e1d3c942756" category="summary">원격 스토리지 기능이 있는 경우 원격 스토리지 시스템에서 데이터를 가져올 수 있습니다.</block>
-  <block id="18fcb008ceda8b1cf63c0444c17bf801" category="doc">원격 스토리지 기능 개요</block>
   <block id="51bdb07cd734dc156aa5d6485d1ba3b7" category="paragraph">원격 스토리지 기능이 있는 경우 원격 스토리지 시스템에서 스토리지 시스템으로 데이터를 가져올 수 있습니다.</block>
   <block id="bef81a1a0d24aa88775efd48898250b6" category="section-title">원격 스토리지 기능이란 무엇입니까?</block>
   <block id="18d20e16fed95134da8259eee46d6a8c" category="paragraph">원격 스토리지 _ 기능을 사용하면 원격 스토리지 시스템에서 로컬 E-Series 스토리지 시스템으로 데이터를 가져올 수 있습니다. 원격 시스템은 다른 E-Series 시스템일 수도 있고 다른 공급업체의 시스템일 수도 있습니다. 이 기능은 장비를 업그레이드하는 동안 다운타임을 최소화하면서 데이터 마이그레이션을 간소화하려는 경우에 유용합니다.</block>
@@ -2487,7 +2454,6 @@
   <block id="e92822017f1499ec305fe9f75ac19f24" category="list-text">SSD Cache를 SSD 읽기 캐싱을 구현할 볼륨과 연결합니다. 호환 볼륨에서 SSD 캐시를 즉시 활성화하려면 * 호스트에 매핑된 기존 호환 볼륨에서 SSD 캐시 사용 * 확인란을 선택합니다.</block>
   <block id="13d1cd9af96a1d87ee43e665e1d42520" category="paragraph">볼륨은 동일한 드라이브 보안 및 DA 기능을 공유하는 경우 호환됩니다.</block>
   <block id="7329ad3e94c5d71f625111f13a005dd0" category="summary">스냅샷 볼륨 또는 스냅샷 정합성 보장 그룹 스냅샷 볼륨에 대한 설정을 변경하여 스냅샷 볼륨 이름을 바꾸거나, SSD 캐싱을 활성화 또는 비활성화하거나, 호스트, 호스트 클러스터 또는 LUN(Logical Unit Number) 할당을 변경할 수 있습니다.</block>
-  <block id="aa02f147ca4603af8538063bab5ad6f3" category="doc">스냅샷 볼륨의 볼륨 설정을 변경합니다</block>
   <block id="d919aeec90292c7d8f9643574269233b" category="list-text">Snapshot Volumes * 탭을 클릭합니다.</block>
   <block id="39b0b41d458e8522460af500eecf9350" category="list-text">변경할 스냅샷 볼륨을 선택한 다음 * 설정 보기/편집 * 을 클릭합니다.</block>
   <block id="2f9d9b50df8f9db67b6e81d9055d4ed9" category="paragraph">Snapshot Volume Settings(스냅샷 볼륨 설정) 대화 상자가 나타납니다.</block>
@@ -2521,7 +2487,6 @@
   <block id="8c06bc91bc7e972275b25c6600652afc" category="list-text">삭제할 스냅샷 스케줄을 선택하고 작업을 확인합니다.</block>
   <block id="2ca2521bd984988b62fd46e21768a1c2" category="paragraph">기본 볼륨 또는 스냅샷 정합성 보장 그룹에서 모든 스케줄 속성이 제거됩니다.</block>
   <block id="f504b91fc7b2daed13ef594e9760a84e" category="summary">기존 스냅샷 정합성 보장 그룹에서 구성원 볼륨을 제거할 수 있습니다.</block>
-  <block id="6cc9b327f7942c0c8762960f3aafeed1" category="doc">스냅샷 정합성 보장 그룹에서 구성원 볼륨을 제거합니다</block>
   <block id="aedcc7652c31273f99b946fb9bb5a005" category="paragraph">스냅샷 정합성 보장 그룹에서 구성원 볼륨을 제거하면 System Manager는 해당 구성원 볼륨과 연결된 스냅샷 개체를 자동으로 삭제합니다.</block>
   <block id="0eed47d2d90cdb3e448151fdaa730703" category="list-text">스냅샷 정합성 보장 그룹 * 탭을 클릭합니다.</block>
   <block id="b36f040a3cd2052fc1f5b6bbcf96df1b" category="list-text">수정할 스냅샷 정합성 보장 그룹 옆에 있는 더하기 기호(+)를 선택하여 확장합니다.</block>
@@ -2620,7 +2585,6 @@
   <block id="5a4ca6fb7be75476f7fc96c9b0de9ae2" category="paragraph">사용자 데이터 바이트</block>
   <block id="78cad8caffd843a6d8697519b35e65a7" category="paragraph">SSD Cache에서 기본 볼륨의 데이터를 포함하는 할당된 바이트 수입니다. 사용 가능한 바이트, 할당된 바이트 및 사용자 데이터 바이트는 캐시 할당 백분율 및 캐시 사용률 비율을 계산하는 데 사용됩니다.</block>
   <block id="6d9c06e04d17d85325a8e4070ca61f69" category="summary">저장 공간을 절약해야 할 경우 스냅숏 이미지의 예약된 컬렉션을 일시적으로 일시 중지할 수 있습니다. 이 방법은 스냅샷 스케줄을 삭제하고 나중에 다시 생성하는 것보다 더 효율적입니다.</block>
-  <block id="95ed951f7d9cd2c1975eca4c10627134" category="doc">스냅샷 스케줄을 활성화하고 일시 중지합니다</block>
   <block id="02f81331c3946fa42ca877f31aa7f324" category="paragraph">예약된 스냅샷 작업을 재개하려면 * Activate * 옵션을 사용할 때까지 스냅샷 스케줄의 상태가 일시 중지된 상태로 유지됩니다.</block>
   <block id="8d45993d556f77ec18873c6a4b16eb10" category="list-text">아직 표시되지 않은 경우 * Schedules * (일정 *) 탭을 클릭합니다.</block>
   <block id="be49673abd6a2cf7d744954864471e5d" category="paragraph">일정은 페이지에 나와 있습니다.</block>
@@ -2632,7 +2596,6 @@
   <block id="53062af7844d00791beae2fb84050613" category="paragraph">관리자는 풀을 통해 각 호스트의 사용량을 모니터링하여 스토리지 공간이 부족해질 가능성이 있는지 확인하고 기존의 디스크 크기 조정 중단을 방지할 수 있습니다. 풀이 고갈될 경우 운영 중단 없이 풀에 드라이브를 추가할 수 있으며 용량 증가는 호스트에 투명합니다.</block>
   <block id="dd0e8a0621012aa59cfaf7797e25bdec" category="paragraph">풀을 사용하면 균형 상태를 유지하기 위해 데이터가 자동으로 재배포됩니다. 풀 전체에 패리티 정보 및 여유 용량을 분산하여 풀의 모든 드라이브를 장애가 발생한 드라이브를 재구축하는 데 사용할 수 있습니다. 이 방식에서는 전용 핫 스페어 드라이브를 사용하지 않으며 풀 전체에 보존(스페어) 용량이 예약됩니다. 드라이브 장애가 발생하면 다른 드라이브의 세그먼트를 읽어서 데이터를 다시 생성합니다. 그런 다음 새 드라이브를 선택하여 장애 발생 드라이브에 있던 각 세그먼트를 작성함으로써 드라이브 전체의 데이터 분배를 유지합니다.</block>
   <block id="46854b5aaaf89d735acaec0bcdeb09bd" category="summary">필요 시 공간을 할당할 수 있는 씬 볼륨의 경우 씬 볼륨이 자동으로 확장될 수 있는 할당된 용량을 제한하는 제한을 변경할 수 있습니다.</block>
-  <block id="1fbb7853291c978c3052e717082eb546" category="doc">씬 볼륨에 할당된 용량 제한을 변경합니다</block>
   <block id="b961845efa38e1910c96d89f52483649" category="paragraph">씬 볼륨이 할당된 용량 제한에 근접하면 홈 페이지의 알림 영역으로 알림(경고 임계값 초과)이 전송되는 백분율 지점을 변경할 수도 있습니다. 이 경고 알림을 활성화 또는 비활성화할 수 있습니다.</block>
   <block id="07e54d5f26326212e25b6c584bb84fc5" category="paragraph">할당된 용량 제한에 따라 할당된 용량이 자동으로 확장됩니다. 할당된 용량 제한을 사용하면 씬 볼륨의 자동 증가를 보고된 용량 이하로 제한할 수 있습니다. 기록된 데이터의 양이 할당된 용량에 근접하면 할당된 용량 제한을 변경할 수 있습니다.</block>
   <block id="3b0375020af2deacca4406d460303f32" category="paragraph">씬 볼륨의 할당된 용량 한도 및 경고 임계값을 변경할 때는 볼륨의 사용자 데이터와 복제 서비스 데이터 모두에서 사용할 공간을 고려해야 합니다.</block>
@@ -2764,7 +2727,6 @@
   <block id="875e2406f706886f5e31ebae30c66343" category="list-text">선택한 워크로드에 추가할 볼륨을 검토합니다.</block>
   <block id="fc6cffe9c819ec03322fb7efb1566961" category="list-text">워크로드 구성이 만족스러우면 * 마침 * 을 클릭합니다.</block>
   <block id="c48bbb13d6635029a8b99e9a931ff354" category="summary">스냅샷 정합성 보장 그룹의 이름, 자동 삭제 설정 또는 허용되는 최대 스냅샷 이미지 수를 변경하려면 스냅샷 정합성 보장 그룹의 설정을 변경합니다.</block>
-  <block id="9522cd3e7661068ccb781f02a4c49819" category="doc">스냅샷 정합성 보장 그룹의 설정을 변경합니다</block>
   <block id="87445d8a23c0a915645b18393869c861" category="list-text">편집할 스냅샷 정합성 보장 그룹을 선택한 다음 * 설정 보기/편집 * 을 클릭합니다.</block>
   <block id="1b0b0b2ea99e7a5e685e2d755b7587b6" category="paragraph">스냅샷 정합성 보장 그룹 설정 대화 상자가 나타납니다.</block>
   <block id="a5edde860d12a7d25fb1cb5d8673482b" category="list-text">필요에 따라 스냅샷 정합성 보장 그룹의 설정을 변경합니다.</block>
@@ -3065,7 +3027,6 @@
   <block id="36601f5a928c82791cf21ecbc0723503" category="list-text">모든 구성원 스냅샷 볼륨을 삭제합니다(스냅샷 정합성 보장 그룹 스냅샷 볼륨용).</block>
   <block id="a2b27b5d771bd78822a79ed2704060b6" category="list-text">연결된 모든 호스트 할당을 제거합니다.</block>
   <block id="5da2165026df97efab8cfd791810840d" category="summary">스냅샷 볼륨을 생성하여 볼륨 또는 스냅샷 정합성 보장 그룹의 스냅샷 이미지에 대한 호스트 액세스를 제공합니다. 스냅샷 볼륨을 읽기 전용 또는 읽기-쓰기로 지정할 수 있습니다.</block>
-  <block id="358172bf51e596cc00b38fb652fc1cae" category="doc">스냅샷 볼륨을 생성합니다</block>
   <block id="07592b4775149598cb0771e1bcf08ce6" category="paragraph">스냅샷 볼륨 생성 시퀀스를 사용하여 스냅샷 이미지에서 스냅샷 볼륨을 생성하고 볼륨이 읽기/쓰기일 경우 예약된 용량을 할당하는 옵션을 제공합니다. 스냅샷 볼륨은 다음 중 하나로 지정할 수 있습니다.</block>
   <block id="981b97fa3f8db8779eb41f8fdc4f6ac3" category="list-text">읽기 전용 스냅샷 볼륨은 호스트 애플리케이션에 스냅샷 이미지에 포함된 데이터 복제본에 대한 읽기 액세스 권한을 제공하지만 스냅샷 이미지를 수정할 수는 없습니다. 읽기 전용 스냅샷 볼륨에는 연결된 예약 용량이 없습니다.</block>
   <block id="ca5adb3ef8700f58c307c7a7f5de50ba" category="list-text">읽기-쓰기 스냅샷 볼륨은 호스트 애플리케이션에 스냅샷 이미지에 포함된 데이터 복제본에 대한 쓰기 액세스 권한을 제공합니다. 호스트 애플리케이션이 수정한 후속 사항을 참조 스냅샷 이미지에 영향을 주지 않고 기본 볼륨에 저장하는 데 사용되는 고유한 예약 용량을 가지고 있습니다.</block>
@@ -3149,7 +3110,6 @@
   <block id="072001db08ae65e793389aff41f4b0bf" category="list-text">RAID 3 볼륨, RAID 5 볼륨 또는 RAID 6 볼륨의 데이터 블록을 검색한 다음 각 블록의 중복 정보를 확인합니다. (RAID 3은 명령줄 인터페이스를 사용하는 볼륨 그룹에만 할당할 수 있습니다.)</block>
   <block id="022d29d5236acf6a0c4d3252c8c98061" category="list-text">데이터가 컨트롤러 펌웨어와 일치하지 않는 것으로 확인되면 중복 오류를 반환합니다.</block>
   <block id="fde13dc4c7d1b0763b56c795eb2b46f0" category="summary">일관성 그룹 구성원 볼륨에 대한 설정을 변경하여 구성원 볼륨에 대한 예약 용량이 거의 다 찼을 때 System Manager에서 경고 알림을 보내는 백분율 지점을 조정하고 예약 용량이 최대 정의에 도달할 때 사용할 정책을 변경할 수 있습니다 백분율.</block>
-  <block id="e25d069a4234a38f71cfd3676a1aaddd" category="doc">정합성 보장 그룹 구성원 볼륨에 대한 예약된 용량 설정을 변경합니다</block>
   <block id="42d96921ced5ab0fbb41eb81dc92775b" category="paragraph">개별 구성원 볼륨에 대한 예약된 용량 설정을 변경하면 정합성 보장 그룹에 연결된 모든 구성원 볼륨에 대한 예약된 용량 설정도 변경됩니다.</block>
   <block id="23cfe12358ab8744880b94ca23e606a2" category="list-text">편집할 일관성 그룹 구성원 볼륨을 선택한 다음 * 설정 보기/편집 * 을 클릭합니다.</block>
   <block id="e889be2a32c09b0c39094fb6e3b75a28" category="paragraph">구성원 볼륨 예약 용량 설정 대화 상자가 나타납니다.</block>
@@ -3337,10 +3297,8 @@
   <block id="83c7f11da626486e05121420cf17839f" category="doc">스냅샷 볼륨을 사용하지 않도록 설정하는 이유는 무엇입니까?</block>
   <block id="c53922217115bc2415decc6b2d5c447f" category="paragraph">스냅샷 볼륨이나 정합성 보장 그룹 스냅샷 볼륨이 더 이상 필요하지 않고 나중에 다시 생성하지 않으려는 경우 볼륨을 사용하지 않도록 설정하는 대신 삭제해야 합니다.</block>
   <block id="8707cd376e4a4e2b7f02a71e6a1b1009" category="summary">씬 볼륨에서 공간을 모니터링하고 적절한 경고를 생성하여 용량 부족 상태를 방지할 수 있습니다.</block>
-  <block id="ba2db905416fb6910e44524f99d5d8c1" category="doc">씬 볼륨을 모니터링합니다</block>
   <block id="11922e324623e8ee6795b38fc97026aa" category="summary">SANtricity 시스템 관리자에서 다음 단계를 수행하여 볼륨을 생성할 수 있습니다.</block>
   <block id="fc6b23d453184949603cbf22152f962e" category="summary">기존 스냅샷 정합성 보장 그룹에 새 구성원 볼륨을 추가할 수 있습니다. 새 구성원 볼륨을 추가할 때 구성원 볼륨에 대한 용량도 예약해야 합니다.</block>
-  <block id="01b0c179dae25a98bc7821b695a8f95c" category="doc">스냅샷 정합성 보장 그룹에 구성원 볼륨을 추가합니다</block>
   <block id="a96fdc91a370dc452506e02ceb89f9b7" category="list-text">구성원 볼륨이 최적화되어야 합니다.</block>
   <block id="cf3a19215e7df2fb275b6b3c21d48915" category="list-text">스냅샷 정합성 보장 그룹은 최대 허용 볼륨 수보다 작아야 합니다(구성에 정의된 대로).</block>
   <block id="56190e6346f498a50676bb624c6f75f2" category="list-text">예약된 각 용량 볼륨은 연결된 구성원 볼륨과 동일한 DA(Data Assurance) 및 보안 설정을 가져야 합니다.</block>
@@ -3354,7 +3312,6 @@
   <block id="39ced869eb85919b61985a5bc99facb5" category="paragraph">이 권장 옵션을 사용하여 구성원 볼륨에 예약된 용량을 기본 설정으로 할당합니다.</block>
   <block id="c35c2abaa4f0a8645eb9e3cf99b41d28" category="list-text">구성원 볼륨을 추가하려면 * 마침 * 을 클릭합니다.</block>
   <block id="3178f2fce0cfe05b9683b4c79ba0d25d" category="summary">풀 또는 볼륨 그룹에서 사용할 수 있는 가용 용량을 사용하여 볼륨의 보고된 용량(호스트에 보고된 용량)을 늘릴 수 있습니다.</block>
-  <block id="5993d1f87afbdf33ef7997a1099d3924" category="doc">볼륨의 용량을 늘립니다</block>
   <block id="7cf61abe29c59213c314036c21f30dcc" category="list-text">볼륨의 연결된 풀 또는 볼륨 그룹에서 충분한 가용 용량을 사용할 수 있습니다.</block>
   <block id="6a3ddd06148d23567ce3abf9f3ade114" category="list-text">볼륨은 최적이며 수정 상태가 아닙니다.</block>
   <block id="55c07879d5779d730d66f74982752968" category="list-text">씬 볼륨의 보고된 최대 용량 256TiB에 도달하지 않았습니다.</block>
@@ -3370,7 +3327,6 @@
   <block id="8ae12a3324de65c82a5ac7ad0063817b" category="list-text">System Manager는 선택에 따라 볼륨의 용량을 늘립니다.</block>
   <block id="4557785dd414b53e7a78f3927e297868" category="list-text">Home[View Operations in Progress] 메뉴를 선택하여 선택한 볼륨에 대해 현재 실행 중인 용량 증가 작업의 진행률을 확인합니다. 이 작업은 시간이 오래 걸릴 수 있으며 시스템 성능에 영향을 줄 수 있습니다.</block>
   <block id="0af080eb4432df13d727dd507e77884c" category="summary">미러링된 쌍 볼륨에 대한 설정을 변경하여 미러링된 쌍 볼륨의 예약된 용량이 거의 꽉 찰 때 System Manager에서 경고 알림을 보내는 백분율 지점을 조정할 수 있습니다.</block>
-  <block id="e7ef70291c1af1df5f8e0c7b25c4b18a" category="doc">미러링된 페어 볼륨에 대한 예약된 용량 설정을 변경합니다</block>
   <block id="cb2a61edc8e473df065e2a7ce71b2262" category="list-text">편집할 미러링된 쌍 볼륨을 선택한 다음 * 설정 보기/편집 * 을 클릭합니다.</block>
   <block id="20a01fbfbd4cbdbac22c8c5194e23a2a" category="paragraph">Mirrored Pair Volume Reserved Capacity Settings(미러링된 볼륨 예비 용량 설정) 대화 상자가 나타납니다.</block>
   <block id="551f32821ade9970a4092e53eb39a01b" category="list-text">미러링된 페어 볼륨에 대한 예약된 용량 설정을 적절하게 변경합니다.</block>
@@ -3378,7 +3334,6 @@
   <block id="04be1c22ba2d746eea4640f9d00c1cb4" category="paragraph">미러링된 쌍의 예약된 용량이 지정된 임계값을 초과하면 System Manager에서 경고를 보내, 예약된 용량을 늘릴 수 있도록 합니다.</block>
   <block id="464ce565ecc7dfb188c20fcce8d6f3f6" category="admonition">미러링된 한 쌍의 경고 설정을 변경하면 동일한 미러 정합성 보장 그룹에 속한 모든 미러링된 쌍에 대한 경고 설정이 변경됩니다.</block>
   <block id="1f536fe23a59e190feeb33e8ecd98fe8" category="summary">동일한 스토리지 배열의 한 볼륨에서 다른 볼륨으로 데이터를 복사하고 소스 볼륨의 물리적 시점 중복(클론)을 생성할 수 있습니다.</block>
-  <block id="203be19949d87fdda022d7246e69e8ef" category="doc">볼륨 복사</block>
   <block id="bd04500ae279c04533f73dd99effa989" category="list-text">소스 볼륨과 타겟 볼륨에 대한 모든 입출력 작업을 중지해야 합니다.</block>
   <block id="6656a654889546874aa0ab1a423f37c5" category="list-text">소스 볼륨과 타겟 볼륨의 모든 파일 시스템은 마운트 해제해야 합니다.</block>
   <block id="27e98c64528360c8659c6a8d4ec829a8" category="list-text">이전에 볼륨 복사 작업에서 타겟 볼륨을 사용한 경우 해당 데이터가 더 이상 필요하지 않거나 데이터를 백업한 것입니다.</block>
@@ -3448,7 +3403,6 @@
   <block id="ca4985f26b2a7c22b1593e6d3e788a34" category="doc">선호하는 컨트롤러 소유권은 무엇입니까?</block>
   <block id="ea83d1418120e9e91a66317ff177d3e7" category="paragraph">예를 들어, 하나의 컨트롤러가 주로 대규모 순차 데이터 블록을 읽고 다른 컨트롤러에 빈번한 읽기 및 쓰기 작업을 수행하는 작은 데이터 블록이 있으면 로드가 매우 달라집니다. 어떤 볼륨에 어떤 데이터 유형이 포함되어 있는지 이해하면 두 컨트롤러 모두에서 I/O 전송 균형을 동일하게 유지할 수 있습니다.</block>
   <block id="84d58ff791c5fbcc9cb54d00a50888a1" category="summary">스냅샷 볼륨에 대한 설정을 변경하여 스냅샷 볼륨에 대한 예약된 용량이 거의 꽉 찼을 때 시스템에서 경고 알림을 보내는 백분율 지점을 조정할 수 있습니다.</block>
-  <block id="6ef1ef03a9cb47223d884b7236b4d377" category="doc">스냅샷 볼륨에 대한 예약된 용량 설정을 변경합니다</block>
   <block id="98215322bdcac7fbd2c48c18bde56b01" category="list-text">편집할 스냅샷 볼륨을 선택한 다음 * 설정 보기/편집 * 을 클릭합니다.</block>
   <block id="15bf92ab00f4899c0356a7e83271a31e" category="paragraph">Snapshot Volume Reserved Capacity Settings(스냅샷 볼륨 예비 용량 설정) 대화 상자가 나타납니다.</block>
   <block id="f7e34e1b95ad3b2fa36099a9eded3e0e" category="list-text">스냅샷 볼륨에 대한 예약된 용량 설정을 적절하게 변경합니다.</block>
@@ -3509,7 +3463,6 @@
   <block id="d935b7857bb2c4f1f726e074a0257467" category="paragraph">일반적으로 Data Assurance 기능을 사용하면 컨트롤러와 드라이브 사이의 입출력 경로 부분을 확인할 수 있습니다. DA 기능은 풀 및 볼륨 그룹 레벨에서 제공됩니다.</block>
   <block id="0056cb971070f5193e490ed7ab5a3504" category="paragraph">DA가 가능한 입출력 인터페이스를 사용하여 이러한 DA 지원 볼륨을 호스트에 할당해야 합니다. DA를 지원할 수 있는 I/O 인터페이스로는 파이버 채널, SAS, iSCSI over TCP/IP, NVMe/FC, NVMe/IB, InfiniBand를 통한 NVMe/RoCE 및 iSER(RDMA/IB용 iSCSI 확장) DA는 InfiniBand를 통한 SRP에서 지원되지 않습니다.</block>
   <block id="c4dbc322f8fed9347675a66b0b7eded0" category="summary">미디어 검사는 볼륨의 모든 데이터 및 중복 정보를 검사하는 백그라운드 작업입니다. 하나 이상의 볼륨에 대한 미디어 스캔 설정을 활성화 또는 비활성화하거나 스캔 기간을 변경하려면 이 옵션을 사용합니다.</block>
-  <block id="eba02f58bb95b7598b213e615adf7b73" category="doc">볼륨에 대한 미디어 스캔 설정을 변경합니다</block>
   <block id="b36060959ab5d66ad4193551f206d2c9" category="paragraph">다음 사항을 이해합니다.</block>
   <block id="cb059b974bb61025fe4edad6039d467d" category="list-text">미디어 스캔은 스캔 용량 및 스캔 기간에 따라 일정한 속도로 계속 실행됩니다. 백그라운드 스캔은 우선 순위가 더 높은 백그라운드 작업(예: 재구성)에 의해 일시적으로 중단될 수 있지만 동일한 일정한 속도로 재개됩니다.</block>
   <block id="28e0e6fb79d81dae9a7cd88e5491dd77" category="list-text">스캔 중에 복구할 수 없는 매체 오류가 발생하면 중복 정보를 사용하여 데이터가 복구됩니다(가능한 경우).</block>
@@ -3565,7 +3518,6 @@
   <block id="dfad59f259bd19c4bbe8d41389dea242" category="list-text">삭제된 스냅샷 이미지에 대해 존재하는 연결된 모든 스냅샷 볼륨을 비활성화합니다.</block>
   <block id="330b4727b35dfca76c06e8679c323e28" category="list-text">스냅샷 정합성 보장 그룹을 삭제하면 삭제된 스냅샷 이미지와 연결된 구성원 볼륨이 중지됨 상태로 이동합니다.</block>
   <block id="446e9dc96f223018043e91de7859bdc0" category="summary">스토리지 어레이의 할당되지 않은 드라이브 서브셋에서 논리적 스토리지 용량을 생성할 수 있습니다. 이 논리적 용량은 환경의 요구 사항에 따라 풀 또는 볼륨 그룹의 형태를 취할 수 있습니다.</block>
-  <block id="fde7554b5a76754e6a7fb65ca073ef13" category="doc">풀 및 볼륨 그룹 개요</block>
   <block id="bbbc93a5179e0a5db81686a5f04b5dd6" category="section-title">풀 및 볼륨 그룹이란 무엇입니까?</block>
   <block id="aeabd274c18c6c90a45e3413fd087752" category="paragraph">A_POOL_은 논리적으로 그룹화된 드라이브 집합입니다. 볼륨 그룹 _ 은(는) 공유 특성을 가진 볼륨의 컨테이너입니다. 풀 또는 볼륨 그룹을 사용하여 호스트에서 액세스할 수 있는 볼륨을 생성할 수 있습니다.</block>
   <block id="7843d404cc351a960aef89e5b45e876b" category="inline-link-macro">풀 및 볼륨 그룹의 작동 방식</block>
@@ -3700,7 +3652,6 @@
   <block id="fa002b0af386f45f34ae2b96bcffcce3" category="paragraph">다양한 드라이브 기술(HDD 및 SSD 드라이브)을 혼합할 수 없습니다. RAID 3, 5 및 6은 최대 30개의 드라이브로 제한됩니다. RAID 1 및 RAID 10은 미러링을 사용하므로 이러한 볼륨 그룹에는 동일한 수의 디스크가 있어야 합니다.</block>
   <block id="3c2733e7ec6d8837ce8fe0f8a3ca792f" category="paragraph">볼륨 그룹은 볼륨 그룹에 포함된 RAID 1/10, RAID 3, RAID 5 또는 RAID 6 볼륨에서 드라이브에 장애가 발생할 경우 핫 스페어 드라이브를 대기 상태로 사용합니다. 핫 스페어 드라이브에는 데이터가 없으며 스토리지 어레이에 또 다른 수준의 중복성이 추가됩니다.</block>
   <block id="90e9cfe5f85a5320a3128c2e7a0bcd46" category="summary">읽기 캐시 및 쓰기 캐시 설정을 변경하여 볼륨의 전체 I/O 성능에 영향을 줄 수 있습니다.</block>
-  <block id="6b533b182f72d231c83305bb1fa4e9ee" category="doc">볼륨의 캐시 설정을 변경합니다</block>
   <block id="49393d42007c814eb7498554843e9a99" category="paragraph">볼륨에 대한 캐시 설정을 변경할 때 다음 지침을 염두에 두십시오.</block>
   <block id="93513d11c804d486194905555dbcf3f4" category="list-text">캐시 설정 변경 대화 상자를 연 후 선택한 캐시 속성 옆에 아이콘이 표시될 수 있습니다. 이 아이콘은 컨트롤러의 캐싱 작업이 일시적으로 중단되었음을 나타냅니다.</block>
   <block id="cf72f8d286e9d569a846c3b337018393" category="paragraph">이 동작은 새 배터리가 충전 중이거나 컨트롤러가 분리되었거나 컨트롤러에서 캐시 크기가 일치하지 않는 경우 발생할 수 있습니다. 조건이 지워지면 대화 상자에서 선택한 캐시 속성이 활성화됩니다. 선택한 캐시 속성이 활성화되지 않으면 기술 지원 부서에 문의하십시오.</block>
@@ -3814,7 +3765,6 @@
   <block id="dbac463794ca526bfd22ed135f4c5075" category="list-text">쓰기 작업 수입니다.</block>
   <block id="7dfb3cdb10c11c047007d5ba193bc8ec" category="list-text">총 읽기 및 쓰기 작업이 결합되었습니다.</block>
   <block id="8f2804311a0084d47f6c63f97e6d6ced" category="summary">SANtricity Unified Manager에서 스토리지 어레이를 보고 액세스하는 데 사용되는 암호를 업데이트할 수 있습니다.</block>
-  <block id="2aebbeed1009439a37c2d8cc2d3c3b8c" category="doc">스토리지 배열 암호를 변경합니다</block>
   <block id="3e06700262909cb379674ee849478971" category="list-text">스토리지 관리자 권한이 포함된 사용자 프로필로 로그인해야 합니다.</block>
   <block id="6200b57bba4734c357cfd4a38fa16a12" category="list-text">System Manager에서 설정된 스토리지 어레이의 현재 암호를 알아야 합니다.</block>
   <block id="5d0efaa3695cc3970597a53c9f03654a" category="paragraph">이 작업에서는 Unified Manager에서 스토리지 어레이에 액세스할 수 있도록 스토리지 어레이의 현재 암호를 입력합니다. System Manager에서 어레이 암호를 변경했으므로 이제는 Unified Manager에서 어레이 암호를 변경해야 할 수도 있습니다.</block>
@@ -3905,7 +3855,6 @@
   <block id="95226cb0501c56de0568ff86c86bcedc" category="paragraph">암호는 최대 30자까지 입력할 수 있습니다.</block>
   <block id="c921ab82c25550633b7e359a45a16dda" category="paragraph">사용자 및 암호에 대한 자세한 내용은 을 참조하십시오 <block ref="5c922583ae248325086bab7f2768b014" category="inline-link-macro-rx"></block>.</block>
   <block id="33f269cc4cd9098419c158473cffe9e4" category="summary">E-Series 시스템에는 스토리지 프로비저닝 및 기타 작업을 위한 SANtricity 소프트웨어가 포함되어 있습니다.</block>
-  <block id="75a9a7dc8aca16de32b785f0f7b9bc1d" category="doc">SANtricity 소프트웨어 개요</block>
   <block id="ba3a0fdc8434a7821716045b35ac5b56" category="paragraph">이 사이트에서는 다음 SANtricity 관리 인터페이스를 사용하는 방법을 설명합니다.</block>
   <block id="4c8fa256f7bb6a36c0dff2d7c9f2a7d3" category="list-text">Unified Manager -- 네트워크의 모든 스토리지 어레이를 보고 관리하는 데 사용되는 웹 기반 인터페이스입니다.</block>
   <block id="0472921e1ddce2239a2bd92ea276d1c2" category="section-title">SANtricity 시스템 관리자</block>
@@ -4099,7 +4048,6 @@
   <block id="8b266c9fb3238ab21cdfb65ae66f6d31" category="list-text">* 스토리지 계층 *</block>
   <block id="c141888590eec4af951b9533399cbef4" category="paragraph">스토리지 계층 영역은 스토리지 배열에 의해 관리되는 다양한 하드웨어 구성 요소 및 스토리지 개체에 대한 체계적인 보기를 제공합니다. 드롭다운 화살표를 클릭하여 해당 하드웨어 구성 요소 또는 스토리지 개체에 대한 특정 작업을 수행합니다.</block>
   <block id="d77e0997337cdb24d489418a010b13ee" category="summary">작업 진행 중 페이지에서는 현재 실행 중이거나 일시 중단, 중지 또는 실패 상태인 장기 실행 작업 목록을 볼 수 있습니다. 특정 유형의 작업에 대해 조치를 취할 수 있습니다.</block>
-  <block id="f53bb3610199ab61220a8a29d54748a8" category="doc">작업 진행 중 페이지</block>
   <block id="c3008c8558711ff7e85fd87a8cce8608" category="paragraph">장시간 실행하면 시스템 성능에 영향을 줄 수 있습니다. 일부 작업의 경우 중요한 작업이 먼저 완료되도록 작업을 중지하거나 우선 순위를 변경할 수 있습니다.</block>
   <block id="197a8788fa0424578c05d8a3be986388" category="paragraph">진행 중인 작업 페이지에 표시되는 작업은 다음과 같습니다.</block>
   <block id="2a78ed76450c3cb42320882b3e055b31" category="cell">작동</block>
@@ -4278,7 +4226,6 @@
   <block id="c90221339a5b1309cf424327a6bbe8d2" category="list-text">InfiniBand 설정을 통해 * iSER * 로 스크롤한 다음 * InfiniBand 포트를 통해 iSER 구성 * 을 선택합니다.</block>
   <block id="2839d8ea86224b685168d2c05ffce9f3" category="list-text">InfiniBand 설정 * 을 통해 * iSER로 스크롤한 다음 * InfiniBand 통계 * 를 통해 iSER 보기 * 를 선택합니다.</block>
   <block id="ec57f2fa289bc747a7897a18f6547022" category="summary">보안 키 관리는 시스템 페이지에서 사용할 수 있습니다.</block>
-  <block id="37b34993d227de4a91e53824714524f7" category="doc">드라이브 보안 개요</block>
   <block id="897908eea79f29e91d7292b997bc12d1" category="paragraph">보안 키 관리 페이지에서 드라이브 보안 및 키 관리를 구성할 수 있습니다.</block>
   <block id="fec993e10529507628b292e7d6deca91" category="section-title">드라이브 보안이란 무엇입니까?</block>
   <block id="ea7b0217aecb7e56b0a9606cdab88856" category="paragraph">_Drive Security_ 는 스토리지 어레이에서 제거할 때 보안이 설정된 드라이브의 데이터에 대한 무단 액세스를 방지하는 기능입니다. 이러한 드라이브는 FDE(전체 디스크 암호화) 드라이브 또는 FIPS(Federal Information Processing Standard) 드라이브일 수 있습니다. FDE 또는 FIPS 드라이브를 어레이에서 물리적으로 제거할 경우, 해당 드라이브가 다른 어레이에 설치될 때까지 작동할 수 없으며, 이때 올바른 보안 키가 제공될 때까지 드라이브는 보안 잠금 상태가 됩니다. a_security key_는 이러한 유형의 드라이브와 스토리지 배열의 컨트롤러 간에 공유되는 문자의 문자열입니다.</block>
@@ -4309,7 +4256,6 @@
   <block id="a2467421bb681e973079977a499e1d7a" category="inline-link-macro">보안 키를 백업합니다</block>
   <block id="7ec1b2a1590a2956cdb73e6afbd94583" category="list-text"><block ref="7ec1b2a1590a2956cdb73e6afbd94583" category="inline-link-macro-rx"></block></block>
   <block id="2c7fb2471bd7df4416b402b1548cad3c" category="summary">프리미엄 기능은 활성화를 위한 키가 필요한 추가 옵션입니다.</block>
-  <block id="9d0ac4bbba0c69c357757a2cd0500ed1" category="doc">프리미엄 기능 지원</block>
   <block id="3a0270e6dc15e0c2bf5e7d7d192b588b" category="list-text">기능 키를 받았습니다. 필요한 경우 기술 지원 부서에 키를 문의하십시오.</block>
   <block id="bef93897f05cb630cba87e4a70e4c7d5" category="list-text">키 파일을 관리 클라이언트(System Manager 액세스를 위한 브라우저가 있는 시스템)에 로드했습니다.</block>
   <block id="b27ff17d22d04a5e1fb46f1de244ba56" category="paragraph">이 작업에서는 System Manager를 사용하여 프리미엄 기능을 활성화하는 방법을 설명합니다.</block>
@@ -4362,7 +4308,6 @@
   <block id="3ac3febbb07afc0d4f4391a215e8c883" category="paragraph">이 옵션을 선택한 다음 필드에 정적 주소를 입력합니다. (필요한 경우 주소를 잘라내어 필드에 붙여 넣을 수 있습니다.) IPv4의 경우 네트워크 서브넷 마스크 및 게이트웨이를 포함합니다. IPv6의 경우 라우팅 가능한 IP 주소와 라우터 IP 주소를 포함합니다. 200GB 사용 HIC를 포함하는 EF600 스토리지 어레이를 구성하는 경우 이 대화 상자에 네트워크 매개 변수에 대한 두 개의 필드 세트가 물리적 포트(외부)에 대해, 가상 포트(내부)에 대해 하나씩 표시됩니다. 두 포트에 대해 고유한 매개 변수를 할당해야 합니다. 이러한 설정을 통해 호스트는 각 포트 간에 경로를 설정하고 HIC는 최대 성능을 달성할 수 있습니다. IP 주소를 가상 포트에 할당하지 않으면 HIC는 약 절반 수준의 속도로 실행됩니다.</block>
   <block id="1859e92122e266181cafb9c13d7400a0" category="list-text">마침 * 을 클릭합니다.</block>
   <block id="ddb5573c6f39b580321b3833c2d21c1a" category="summary">SNMPv3 트랩에 대한 사용자 정의를 편집할 수 있습니다.</block>
-  <block id="9c5a0af90c3e3ad4fd7235f9a512c375" category="doc">SNMPv3 트랩에 대한 사용자 설정을 편집합니다</block>
   <block id="e6ae1cef6f540818bd9a9f5d26d5b552" category="paragraph">SNMPv3 트랩에 대한 사용자를 생성해야 합니다.</block>
   <block id="4dc1e0718a071b0cde9dafee55e930d8" category="list-text">설정 [알림] 메뉴를 선택합니다.</block>
   <block id="e184a1e2b514901f3669384a849c6dc6" category="list-text">SNMP * 탭을 선택합니다.</block>
@@ -4382,7 +4327,6 @@
   <block id="860fa57c2a839ecf264232c1dc1cc54f" category="list-text">드롭다운 목록에서 구성할 HIC 포트를 선택한 다음 호스트의 IP 주소를 입력합니다.</block>
   <block id="8e736fec560076a8a802b9a2abdd1d1c" category="list-text">iSER을 InfiniBand 포트로 재설정하려면 * 예 * 를 클릭합니다.</block>
   <block id="7a643bfd7d74cfc9288d1a6c4575f766" category="summary">SNMPv2c 트랩에 대해 최대 256개의 커뮤니티 이름을 추가할 수 있습니다.</block>
-  <block id="60924fb1e46ce4c636901833aee8eb00" category="doc">SNMPv2c 트랩에 대한 커뮤니티를 추가합니다</block>
   <block id="1180049f414c1d532d596ff26d6bb31b" category="paragraph">트랩 대상 및 커뮤니티 이름이 테이블에 나타납니다.</block>
   <block id="41aa6c264fff7b9445944dbc3fe04b55" category="list-text">커뮤니티 구성 * 을 선택합니다.</block>
   <block id="12a4520eec64566b7d5dc03c69238b65" category="paragraph">커뮤니티 구성 대화 상자가 열립니다.</block>
@@ -4405,7 +4349,6 @@
   <block id="3d73ecabe16509dfb4f836c89276d92e" category="list-text">볼륨 그룹 및 풀은 전적으로 보안이 가능한 드라이브로 구성되어야 합니다. (FIPS 지원이 필요한 볼륨의 경우 FIPS 드라이브만 사용합니다. 볼륨 그룹 또는 풀에서 FIPS 및 FDE 드라이브를 혼합하면 모든 드라이브가 FDE 드라이브로 처리됩니다. 또한 FDE 드라이브는 All-FIPS 볼륨 그룹 또는 풀에서 스페어로 추가하거나 사용할 수 없습니다.)</block>
   <block id="ace1e3f5e8d6992cf9c192305b9648cb" category="list-text">볼륨 그룹 및 풀이 최적의 상태여야 합니다.</block>
   <block id="90916bbd1b8d2573b5bd4f3d51ce55a9" category="summary">SNMPv2c 트랩에 대한 커뮤니티 이름을 제거할 수 있습니다.</block>
-  <block id="2907ece77f76e4e322a7857f6d0c4d91" category="doc">SNMPv2c 트랩에 대한 커뮤니티를 제거합니다</block>
   <block id="1e756147ce4505bb60ff641cfe702fd6" category="paragraph">트랩 대상 및 커뮤니티 이름이 * Alerts * 페이지에 나타납니다.</block>
   <block id="c1a8313c012bc9367233c0a268384bf5" category="list-text">삭제할 커뮤니티 이름을 선택한 다음 오른쪽 끝에 있는 * 제거 * (X) 아이콘을 클릭합니다.</block>
   <block id="ee9a8270acba54fdc3b4acd21016d46b" category="paragraph">트랩 대상이 이 커뮤니티 이름과 연결된 경우 커뮤니티 제거 확인 대화 상자에 영향을 받는 트랩 대상 주소가 표시됩니다.</block>
@@ -4461,7 +4404,6 @@
   <block id="06d463f1b4468e76ca6ea50d3655ad0d" category="list-text">연결된 호스트의 대부분이 서로 다른 운영 체제를 사용하는 경우 호스트 유형을 공장 출하시 기본값으로 변경합니다.</block>
   <block id="8d7acc04293681c4a5dfb82015b79f68" category="paragraph">예를 들어, 8개의 서로 다른 호스트를 스토리지 시스템에 접속하고 있고 이 중 2개의 호스트가 Windows 운영 체제를 실행 중인 경우 3개는 VMware 운영 체제를 실행하고, 또 다른 3개는 Linux 운영 체제를 실행하고 있으므로 기본 호스트 운영 체제 유형으로 공장 기본값을 선택해야 합니다.</block>
   <block id="9e8302a402f611baf05e75aa5256b369" category="summary">전자 메일 알림을 받는 사람의 전자 메일 주소를 변경할 수 있습니다.</block>
-  <block id="5d96e90268b8dc01886a9903ef24a4ce" category="doc">알림에 대한 이메일 주소를 편집합니다</block>
   <block id="cb31780dfc8015f0a5d6c54c59554fbf" category="paragraph">편집하려는 이메일 주소는 경고 페이지의 이메일 탭에서 정의해야 합니다.</block>
   <block id="60a5a62ee9c308b3343d07931360961b" category="list-text">이메일 * 탭을 선택합니다.</block>
   <block id="e66bc582c9f51271bf48e285b2a48a0d" category="list-text">[전자 메일 주소] * 테이블에서 변경할 주소를 선택한 다음 맨 오른쪽에 있는 * 편집 * (연필) 아이콘을 클릭합니다.</block>
@@ -4568,7 +4510,6 @@
   <block id="8186ebeae82f8ea44af9bbdb7fd857ad" category="list-text">암호를 안전한 위치에 기록한 다음 * 닫기 * 를 클릭합니다.</block>
   <block id="86583299199fa25d2e5f2c718a47ccd3" category="paragraph">백업 보안 키의 유효성을 확인해야 합니다.</block>
   <block id="1cb92a094f657907ebfe15ea818cbde2" category="summary">SNMPv3 트랩에 대한 사용자를 제거할 수 있습니다.</block>
-  <block id="13093ea77b77a3071ebc264547e699e2" category="doc">SNMPv3 트랩을 위해 사용자를 제거합니다</block>
   <block id="f4be2e6b3e26af76d95ad241b79a4b53" category="paragraph">트랩 대상 및 사용자 이름이 경고 페이지에 나타납니다.</block>
   <block id="66522d59029a20235048bc90785a4653" category="list-text">사용자 구성 * 을 선택합니다.</block>
   <block id="aa8f46bfe960559cff7b9631e969d2e7" category="paragraph">SNMPv3 사용자 구성 대화 상자가 열립니다.</block>
@@ -4736,7 +4677,6 @@
   <block id="c2a4e4fe8f441d56f50bdc8ffaeb0b77" category="doc">SNMP 또는 syslog 알림을 구성하려면 어떻게 합니까?</block>
   <block id="062b9a1905e78f03b8da6f29da2a9d7f" category="paragraph">SNMP 또는 syslog 알림을 구성하려면 설정 [경고] 메뉴로 이동합니다.</block>
   <block id="d07cc924ea2d447f0cb70624e22edde6" category="summary">Access Management의 경우 관리자는 스토리지에 포함된 SAML(Security Assertion Markup Language) 2.0 기능을 사용할 수 있습니다.</block>
-  <block id="0fb95b26d48595a0ce2232035938d6a4" category="doc">SAML을 통한 액세스 관리</block>
   <block id="ee4737a99df1f82d6dbc164235a6ae68" category="section-title">구성 워크플로우</block>
   <block id="b1579259042d74dcb20047d27930fa64" category="paragraph">SAML 구성은 다음과 같이 작동합니다.</block>
   <block id="6253fb6ca7c7846b2dee57fe550b9234" category="list-text">관리자는 보안 관리자 권한이 포함된 사용자 프로필을 사용하여 System Manager에 로그인합니다.</block>
@@ -4788,7 +4728,6 @@
   <block id="3d2c8a5d3944c8c3b63ef7f887bb008d" category="list-text">다른 브라우저 유형을 사용하여 이 컨트롤러에 액세스하고, 인증서를 수락하고, 계속합니다.</block>
   <block id="f7fcbeafdbe4f79dff275e0025dd7e03" category="list-text">System Manager에서 두 번째 컨트롤러에 액세스하고, 자체 서명된 인증서를 수락한 다음 첫 번째 컨트롤러로 돌아가 계속합니다.</block>
   <block id="da7d003e1593bb562d551eb1e55a64ea" category="summary">최대 20명의 전자 메일 알림을 받는 사람을 추가할 수 있습니다.</block>
-  <block id="71cb574ff3f32e8696a2fb5eb9584ebe" category="doc">알림에 대한 이메일 주소를 추가합니다</block>
   <block id="f1bed1c4054ab2b65b0f31b051808bc7" category="list-text">빈 필드에 새 이메일 주소를 입력합니다. 둘 이상의 주소를 추가하려면 * 다른 이메일 추가 * 를 선택하여 다른 필드를 엽니다.</block>
   <block id="1257fce62eb03c6b8995e654752c5e22" category="paragraph">경고 페이지의 이메일 탭에는 새 이메일 주소가 표시됩니다.</block>
   <block id="20f880099619c2c57feb8a3562b1b1ad" category="summary">SNMP 알림의 경우 SNMP 트랩에 나타나는 MIB(Management Information Base) 변수를 선택적으로 구성할 수 있습니다. 이러한 변수는 스토리지 배열 이름, 배열 위치 및 담당자를 반환할 수 있습니다.</block>
@@ -4815,7 +4754,6 @@
   <block id="b1b4292f8c54378861577eefdaf3b8d4" category="list-text">* Contact * -- MIB 변수 'SysContact'의 값입니다. 예를 들어 스토리지 시스템을 담당하는 관리자를 입력합니다.</block>
   <block id="f725e6cad4396bb7c44eabb138c4b8c0" category="paragraph">이러한 값은 스토리지 배열 경고에 대한 SNMP 트랩 메시지에 표시됩니다.</block>
   <block id="eb05c3171faac77659ea33cda512ebb3" category="summary">스토리지 배열의 모든 볼륨에 대해 캐시 메모리 설정을 조정하여 플러싱과 블록 크기를 조정할 수 있습니다.</block>
-  <block id="4c33c4ee994a00b2cee56434ebffd95f" category="doc">스토리지 배열에 대한 캐시 설정을 변경합니다</block>
   <block id="9f5b90f341ce11d3d4d32f7059325a23" category="paragraph">캐시 메모리는 컨트롤러의 임시 휘발성 저장 공간으로, 드라이브 미디어보다 액세스 시간이 더 빠릅니다. 캐시 성능을 조정하려면 다음 설정을 조정할 수 있습니다.</block>
   <block id="d9ee8e898e5a26c66bd18ee5b230abca" category="paragraph">요청 캐시 플러싱을 시작합니다</block>
   <block id="cef5629de51936d53c62b360313ecbdb" category="paragraph">Start demand cache flashing은 캐시 플러시(디스크에 쓰기)를 트리거하는 캐시에 기록되지 않은 데이터의 비율을 지정합니다. 기본적으로 캐시 플러싱은 기록되지 않은 데이터가 80% 용량에 도달하면 시작됩니다. 쓰기 작업이 주로 수행되는 환경에서는 더 높은 비율이 적합하므로 새 쓰기 요청은 디스크로 이동할 필요 없이 캐시로 처리될 수 있습니다. 입출력 오류가 발생하는 환경(데이터 버스트 사용)에서 낮은 설정은 더 낫기 때문에 시스템이 데이터 버스트 사이에 캐시를 자주 플러시합니다. 그러나 시작 비율이 80%보다 낮으면 성능이 저하될 수 있습니다.</block>
@@ -4847,7 +4785,6 @@
   <block id="ca73cc8db153dd5b0efaf1565bdbc00e" category="paragraph">HTML이나 다른 태그 태그를 서식 지정에 사용하지 마십시오.</block>
   <block id="3a307fc4bdd3676da308751d9de7980b" category="paragraph">다음에 System Manager에 로그인할 때 대화 상자에서 텍스트가 열립니다. 로그인 화면으로 계속 진행하려면 * OK * 를 클릭해야 합니다.</block>
   <block id="ffbd2cbf28a13c1c03306bc44664af69" category="summary">전자 메일 알림에 사용되는 메일 서버 주소 및 전자 메일 보낸 사람 주소를 변경할 수 있습니다.</block>
-  <block id="94b47ae93998bc943ef52046200ea393" category="doc">알림에 대한 메일 서버를 편집합니다</block>
   <block id="ff152714aa004530881bd00f6af3b073" category="paragraph">변경하고 있는 메일 서버의 주소를 사용할 수 있어야 합니다. 주소는 IPv4 또는 IPv6 주소이거나 정규화된 도메인 이름일 수 있습니다.</block>
   <block id="9127c89ba843a181a8200c1f416d1814" category="list-text">메일 서버 주소, 보낸 사람 정보 및 연락처 정보를 편집합니다.</block>
   <block id="88a41b6ced70f1be2e411b53a29392fa" category="list-text">* 메일 서버 주소 * -- 메일 서버의 정규화된 도메인 이름, IPv4 주소 또는 IPv6 주소를 편집합니다.</block>
@@ -5056,7 +4993,6 @@
   <block id="bec4155c254e8a1ee324fec9a88e4082" category="list-text">여러 번 로그인을 시도했으나 실패하여 잠금 모드가 시작되었습니다. 10분 정도 기다린 후 다시 로그인하십시오.</block>
   <block id="435953d3081ef0990c37ecab65084fce" category="list-text">컨트롤러에 사용된 최대 클라이언트 연결 수에 도달했습니다. 여러 사용자 또는 클라이언트를 확인합니다.</block>
   <block id="a5b14ab0ae015507696b26a4ce8b4466" category="summary">이전에 정의한 메일 서버를 제거하여 알림이 더 이상 이메일 주소로 전송되지 않도록 하거나 개별 이메일 주소를 제거할 수 있습니다.</block>
-  <block id="aa6cbbd3d438ad7442c3b187f2724299" category="doc">알림에 대한 메일 서버 또는 이메일 주소를 삭제합니다</block>
   <block id="3b1afccbf6f27ee23548336b80972c58" category="list-text">테이블에서 다음 중 하나를 수행합니다.</block>
   <block id="a9603b39c08090693785be87b26331a8" category="list-text">알림이 더 이상 전자 메일 주소로 전송되지 않도록 메일 서버를 제거하려면 메일 서버의 행을 선택합니다.</block>
   <block id="aa611d3c0ccadaf84c619f4f49b6f3e5" category="list-text">알림이 더 이상 이 주소로 전송되지 않도록 전자 메일 주소를 제거하려면 삭제할 전자 메일 주소의 행을 선택합니다. 테이블 오른쪽 위에 있는 * Delete * (삭제 *) 버튼을 선택할 수 있습니다.</block>
@@ -5066,7 +5002,6 @@
   <block id="104e995b71d005ce9591fed237349989" category="paragraph">iSNS 방법을 사용하면 이니시에이터(iSCSI 호스트)와 타겟(컨트롤러) 간에 iSNS 검색을 수행할 수 있습니다. iSNS 서버에 컨트롤러의 IQN(iSCSI Qualified Name) 및 포트 정보를 제공하기 위해 타겟 컨트롤러를 등록합니다.</block>
   <block id="86f5e054028caf77425a701d42d4cdfc" category="paragraph">iSNS를 구성하지 않으면 iSCSI 호스트가 iSCSI 검색 세션 중에 대상 보내기 명령을 전송할 수 있습니다. 이에 따라 컨트롤러는 포트 정보(예: 대상 IQN, 포트 IP 주소, 수신 포트 및 대상 포트 그룹)를 반환합니다. iSNS를 사용하는 경우 호스트 이니시에이터가 iSNS 서버에서 대상 IP를 검색할 수 있으므로 이 검색 방법은 필요하지 않습니다.</block>
   <block id="058a7c81942e7505aaa4be7ef91dd0a3" category="summary">SNMP 트랩을 보내기 위해 최대 10대의 서버를 추가할 수 있습니다.</block>
-  <block id="10c9deef8acbf32aa279bc401d72e2bd" category="doc">SNMP 경고에 대한 트랩 대상을 추가합니다</block>
   <block id="b029585d541e79f3acc44c44dd600882" category="list-text">추가하려는 네트워크 서버는 SNMP 서비스 애플리케이션으로 구성되어야 합니다. 이벤트 모니터가 해당 주소로 트랩 메시지를 보낼 수 있도록 이 서버의 네트워크 주소(IPv4 또는 IPv6 주소)가 필요합니다. 둘 이상의 서버를 사용할 수 있습니다(최대 10대의 서버가 허용됨).</block>
   <block id="215cf6beecf479adb3a867d26fc744da" category="list-text">MIB(Management Information Base) 파일이 SNMP 서비스 응용 프로그램을 사용하여 서버에서 복사 및 컴파일되었습니다. 이 MIB 파일은 모니터링 및 관리되는 데이터를 정의합니다.</block>
   <block id="21bfc3076ecd20e3a23a918418d483cc" category="paragraph">MIB 파일이 없는 경우 NetApp Support 사이트에서 얻을 수 있습니다.</block>
@@ -5232,7 +5167,6 @@
   <block id="f0adc5d000173927e6565b7796988e8b" category="doc">InfiniBand 통계를 통해 iSER을 어떻게 해석합니까?</block>
   <block id="594b7f21d6afec5d61bcd2260307666a" category="list-text">InfiniBand 인터페이스 통계 * 를 통한 * iSER -- InfiniBand 인터페이스의 InfiniBand 포트를 통해 모든 iSER에 대한 통계를 제공하며, 여기에는 각 스위치 포트와 관련된 성능 통계 및 링크 오류 정보가 포함됩니다.</block>
   <block id="d7fe3f61b8fba1e2ea84b40274c848f3" category="summary">syslog 알림을 수신하는 데 사용되는 서버 주소를 편집할 수 있습니다.</block>
-  <block id="64562268c827f0db0ec460162eaac269" category="doc">경고를 위해 syslog 서버를 편집합니다</block>
   <block id="2bca2faba0332e87a3a5db7e0da917a4" category="list-text">테이블에서 syslog 서버 주소를 선택한 다음 오른쪽 끝에 있는 * Edit * (연필) 아이콘을 클릭합니다.</block>
   <block id="c0d48f16bbf961ebeb5a2ccf7771595c" category="list-text">서버 주소와 UDP 포트 번호를 편집한 다음 * 저장 * (확인 표시) 아이콘을 클릭합니다.</block>
   <block id="1224cd55e66bf33c9c36c852dce9afca" category="paragraph">업데이트된 서버 주소가 테이블에 나타납니다.</block>
@@ -5477,7 +5411,6 @@
   <block id="12decb6d47cbe5ebea1f00fff603f92c" category="paragraph">신뢰할 수 있는 인증서 삭제 확인 대화 상자가 열립니다.</block>
   <block id="81ef15858bb7abedf63272c9049c38e7" category="list-text">필드에 삭제 를 입력한 다음 * 삭제 * 를 클릭합니다.</block>
   <block id="c2560c880c403f33bc716c921a1ec329" category="summary">더 이상 경고를 받지 않도록 syslog 서버를 삭제할 수 있습니다.</block>
-  <block id="349fec05f43bb6a34ba71c7a20d4dfd5" category="doc">경고를 위해 syslog 서버를 삭제합니다</block>
   <block id="9c6b300fa1de4b841871bf58b17c8809" category="list-text">syslog 서버 주소를 선택한 다음 오른쪽 위에서 * 제거 * 를 클릭합니다.</block>
   <block id="c33bcdfe4272e80436d6b538ab8fb9cf" category="paragraph">Confirm Delete Syslog Server(Syslog 서버 삭제 확인) 대화 상자가 열립니다.</block>
   <block id="4b0847badf4df2f436372c3f65ecd674" category="paragraph">제거한 서버는 더 이상 이벤트 모니터로부터 경고를 받지 않습니다.</block>
@@ -5533,7 +5466,6 @@
   <block id="e4ca0be6435e2cb971783f45129d42f6" category="list-text">가져오기 * 를 클릭합니다.</block>
   <block id="1e4cb43cb642ff327628d52937282424" category="paragraph">파일이 업로드되고 검증됩니다.</block>
   <block id="71f232032bd481ebdb62001be98a76cf" category="summary">애드온 기능 조건이 스토리지 어레이에 적용되는 방식에 대해 알아보십시오.</block>
-  <block id="26463becbcaafd1f526129b3b127c573" category="doc">애드온 기능 용어</block>
   <block id="31b4a364897c36d8d86eb53596e63747" category="paragraph">기능 활성화 식별자</block>
   <block id="f4ecdf07fa67bd4159a126ebe16589cc" category="paragraph">Feature Enable Identifier는 특정 스토리지 배열을 식별하는 고유한 문자열입니다. 이 식별자는 프리미엄 기능을 사용할 때 특정 스토리지 어레이에만 연결되도록 합니다. 이 문자열은 시스템 페이지의 추가 기능 아래에 표시됩니다.</block>
   <block id="71433dcd2b078a8dadba8b448709c553" category="paragraph">피처 키 파일</block>
@@ -5543,7 +5475,6 @@
   <block id="92c7a0b0dc7bd2705e86edc5d4b8e179" category="paragraph">프리미엄 기능</block>
   <block id="911fca3a0018d17235161560de04d3fc" category="paragraph">프리미엄 기능은 추가 옵션으로, 이를 활성화하려면 키가 필요합니다. System Manager의 표준 구성에는 포함되어 있지 않습니다.</block>
   <block id="54d13fdb52c1af4f0ea502e17d746841" category="summary">이전에 리소스 프로비저닝의 기본 기능을 해제한 경우 설정 으로 이동하여 새로 생성한 모든 SSD 볼륨 그룹 또는 풀에 대해 다시 설정할 수 있습니다. 설정을 다시 비활성화할 수도 있습니다.</block>
-  <block id="bb3181b0820e0259475417cded293509" category="doc">새 볼륨 그룹 또는 풀에 대한 리소스 프로비저닝을 설정하거나 해제합니다</block>
   <block id="5d639ec8780dcddc091c86db5b4b6620" category="paragraph">이전에 리소스 프로비저닝을 위한 기본 기능을 비활성화한 경우 새로 생성한 모든 SSD 볼륨 그룹 또는 풀에 대해 다시 설정할 수 있습니다. 설정을 다시 비활성화할 수도 있습니다.</block>
   <block id="9a63d29eb59a567bebc60ad0d414dc51" category="admonition">기본적으로 드라이브가 DULBE를 지원하는 시스템에서 리소스 프로비저닝이 설정됩니다.</block>
   <block id="a38277bd3ef4476562c7f78e16a79230" category="list-text">모든 드라이브에서 NVMe 할당 해제 또는 DULBE(UnWritten Logical Block Error Enable) 오류 복구 기능을 지원하는 SSD 볼륨 그룹 또는 풀이 있어야 합니다.</block>
@@ -5552,7 +5483,6 @@
   <block id="d1d57051db2f0063e28d60e9b8a86053" category="paragraph">설정 설명은 리소스 프로비저닝이 현재 활성화되어 있는지 여부를 나타냅니다.</block>
   <block id="887d69360071ae6164479e435fa40e66" category="paragraph">리소스 프로비저닝을 설정하거나 해제하면 생성한 새 SSD 풀 또는 볼륨 그룹에만 영향을 줍니다. 기존 풀 또는 볼륨 그룹은 변경되지 않습니다.</block>
   <block id="360137c4d8e71902073c583e9c903b6b" category="summary">SNMPv3 트랩을 위해 최대 256명의 사용자를 추가할 수 있습니다.</block>
-  <block id="a756b861ea03f2a916bb96099828d9ef" category="doc">SNMPv3 트랩에 사용자를 추가합니다</block>
   <block id="fa12509cfb8e8ccded16e2a254e988c4" category="list-text">추가 * 를 선택합니다.</block>
   <block id="f336fad62f61742c47732eac6eb13cba" category="list-text">다음 정보를 입력한 다음 * 추가 * 를 클릭합니다.</block>
   <block id="26a9ffa25fc94b0d705e109541130f71" category="summary">액세스 관리에 대한 인증을 구성하려면 스토리지 어레이에 포함된 SAML(Security Assertion Markup Language) 기능을 사용할 수 있습니다. 이 구성은 ID 공급자와 스토리지 공급자 간의 연결을 설정합니다.</block>
@@ -5607,7 +5537,6 @@
   <block id="5426403fa8c8b91049e91083a4befabc" category="list-text">SSO 로그인 테스트에 대한 사용자 자격 증명을 입력합니다.</block>
   <block id="02e136814c7c9eacb4cbd1eac60dba3b" category="paragraph">시스템에서 SAML을 활성화하면 모든 활성 세션이 종료되고 SAML을 통해 사용자 인증이 시작됩니다.</block>
   <block id="19380508f9149606321ac832a3c00e8a" category="summary">액세스 관리는 SANtricity 시스템 관리자에서 사용자 인증을 설정하는 방법입니다. 인증 방법에는 RBAC(역할 기반 액세스 제어), 디렉터리 서비스 및 SAML(Security Assertion Markup Language) 2.0이 있습니다.</block>
-  <block id="8a85e54e2f698ad0de66d093245f2e66" category="doc">액세스 관리 개요</block>
   <block id="ed5fe7f66e9072ed2fe64e1c8ad6737d" category="section-title">어떤 인증 방법을 사용할 수 있습니까?</block>
   <block id="1f5e202c614a1661cfc9d511376773ed" category="paragraph">인증 방법에는 RBAC(역할 기반 액세스 제어), 디렉터리 서비스 및 SAML(Security Assertion Markup Language)이 포함됩니다.</block>
   <block id="4b8217cf8d756a89a1dc65298ed13a9a" category="list-text">* RBAC/로컬 사용자 역할 * -- 스토리지 어레이에 적용된 RBAC 기능을 통해 인증이 관리됩니다. 로컬 사용자 역할에는 미리 정의된 사용자 프로필과 특정 액세스 권한이 있는 역할이 포함됩니다.</block>
@@ -5812,7 +5741,6 @@
   <block id="232702c653cde09c07912e338d3eacd8" category="list-text">암호의 최소 길이를 설정합니다.</block>
   <block id="b19f31a8ba2f57c8e0ce96c8e5fe2bfa" category="list-text">사용자가 암호 없이 로그인할 수 있도록 허용합니다.</block>
   <block id="23c4474ad0e8ba1b6378929ff6dc6eb8" category="summary">스토리지 어레이에서 프리미엄 기능 또는 기능 팩을 활성화하려면 먼저 기능 키 파일을 구해야 합니다. 키는 하나의 스토리지 배열에만 연결됩니다.</block>
-  <block id="8482c34bfd5355d2325c43299e3b4a22" category="doc">기능 키 파일을 가져옵니다</block>
   <block id="01fccb238136cadbbda6282b2738a082" category="paragraph">이 작업에서는 기능에 필요한 정보를 수집한 다음 기능 키 파일에 대한 요청을 보내는 방법을 설명합니다. 필수 정보는 다음과 같습니다.</block>
   <block id="1fe0bc7459693232ff7ad04999b73597" category="list-text">섀시 일련 번호입니다</block>
   <block id="aaa7a3624a97859ee3583f71dde90af3" category="list-text">기능 활성화 코드</block>
@@ -5854,7 +5782,6 @@
   <block id="87d57c85c7f6ca214148876b1643fde9" category="list-text">덮어쓰기 정책 설정(* 보기/편집 설정 * 에서 사용 가능)은 syslog 서버 구성을 사용하여 로그를 관리하는 방법에 영향을 주지 않습니다.</block>
   <block id="07edc16c0199dba3dfc82b49414795e9" category="list-text">감사 로그는 RFC 5424 메시징 형식을 따릅니다.</block>
   <block id="69afef839468847d18d8eadd707e6a28" category="summary">syslog 알림에 최대 5개의 서버를 추가할 수 있습니다.</block>
-  <block id="aac82b32d41c8e77515563d0fe18c57f" category="doc">경고에 대한 syslog 서버를 추가합니다</block>
   <block id="3fcdca939850c517b014f7754b186fbb" category="list-text">syslog 서버의 UDP 포트 번호를 사용할 수 있어야 합니다. 이 포트는 일반적으로 514입니다.</block>
   <block id="eab662577e265093fe68fbab56f250cd" category="list-text">Add Syslog Servers * 를 선택합니다.</block>
   <block id="531dc8110d95adeeb11a6700bb787aab" category="list-text">다른 syslog 서버 추가 * 를 선택합니다.</block>
@@ -5866,7 +5793,6 @@
   <block id="079344e24125661a235311c4af323831" category="doc">리소스 프로비저닝된 볼륨 기능에 대해 알아야 할 내용은 무엇입니까?</block>
   <block id="9742fedd4fc70f86711709c96aad31ad" category="paragraph">드라이브가 DULBE를 지원하는 시스템에서는 리소스 프로비저닝이 기본적으로 사용됩니다. 풀 및 볼륨 그룹 * 에서 기본 설정을 비활성화할 수 있습니다.</block>
   <block id="51a446719a3a2b36bb69b274d84caafe" category="summary">SNMPv2c 트랩에 대한 커뮤니티 이름을 편집할 수 있습니다.</block>
-  <block id="ebfa9a5a9908878d795861499f7a332e" category="doc">SNMPv2c 트랩에 대한 커뮤니티를 편집합니다</block>
   <block id="b87c0a131c7bdafd2d279917218a6018" category="paragraph">커뮤니티 이름을 만들어야 합니다.</block>
   <block id="cbf670d81fafbb8fa880baa729d7866b" category="list-text">메뉴: [Alerts](경고) 설정 을 선택합니다.</block>
   <block id="ab9def0af719c7b8ed09ed8862c29272" category="list-text">새 커뮤니티 이름을 입력한 다음 * 저장 * 을 클릭합니다. 커뮤니티 이름은 인쇄 가능한 ASCII 문자만 포함할 수 있습니다.</block>
@@ -5930,7 +5856,6 @@
   <block id="cd8c3a2f7a727372face69f091644a22" category="paragraph">저장된 스토리지 배열 구성을 다른 스토리지 배열에 로드하려면 "-f" 옵션과 함께 SANtricity 명령줄 인터페이스(SMcli)를 사용하여 ".cfg" 파일을 적용합니다.</block>
   <block id="7e2d04fef276358bb38ed34e48ef401a" category="paragraph">Unified Manager 인터페이스를 사용하여 스토리지 어레이 구성을 다른 스토리지 어레이에 로드할 수도 있습니다(메뉴 선택: 관리 [설정 가져오기]).</block>
   <block id="8976aaeac0280efd1bd19cc334bc43da" category="summary">이메일, SNMP 트랩 및 syslog 메시지를 통해 스토리지 배열 경고를 보내도록 System Manager를 구성할 수 있습니다.</block>
-  <block id="4aee0ec85903fa611e90b218d8118753" category="doc">경고 개요</block>
   <block id="a69dc0934864b8119dbde4916baf39c6" category="section-title">알림이란 무엇입니까?</block>
   <block id="18a2e3de7a2db6968bb6142af86b9d9f" category="paragraph">_Alerts_ 스토리지 시스템에서 발생하는 중요한 이벤트를 관리자에게 알립니다. 이벤트에는 배터리 장애, 최적화에서 오프라인으로 이동하는 구성 요소 또는 컨트롤러의 중복 오류와 같은 문제가 포함될 수 있습니다. 모든 중요 이벤트는 일부 경고 및 정보 이벤트와 함께 "alertable"으로 간주됩니다.</block>
   <block id="546ed1b56927d6cbf8f51ec81e7e7afc" category="inline-link-macro">알림의 작동 방식</block>
@@ -6108,7 +6033,6 @@
   <block id="0182db1190dd0cc7c4a95253b5ac91fb" category="paragraph">후면 뷰에는 컨트롤러/IOM 및 전원 팬 캐니스터가 표시됩니다. 전면 보기에는 드라이브가 표시됩니다.</block>
   <block id="14f5e94d7b72896c2abbcdce16d4f926" category="list-text">선택적으로 페이지 하단에 있는 * Show all front * 또는 * Show all back * 을 선택할 수 있습니다.</block>
   <block id="1e399fb7e0446b765c8a9c5ad88d6886" category="summary">하드웨어 페이지에서는 스토리지 배열의 물리적 구성 요소를 그래픽으로 보여 줍니다. 여기에서 구성 요소 상태를 확인하고 이러한 구성 요소와 관련된 일부 기능을 수행할 수 있습니다.</block>
-  <block id="7c5cb0a97002dad77ccc4f997a12379c" category="doc">하드웨어 페이지 및 구성 요소</block>
   <block id="ba74e32f98742b3a572dc18f74c22928" category="paragraph">하드웨어 페이지에서는 스토리지 시스템의 물리적 구성 요소를 그래픽으로 보여 줍니다. 여기에서 구성 요소 상태를 확인하고 이러한 구성 요소와 관련된 일부 기능을 수행할 수 있습니다.</block>
   <block id="bb53c62475a4f28295dfd71302a53a3d" category="section-title">쉘프</block>
   <block id="27c69af256cdb21fcf9cf6708cce8e21" category="paragraph">쉘프는 스토리지 어레이(컨트롤러, 전원/팬 캐니스터 및 드라이브)용 하드웨어를 포함하는 구성 요소입니다. 쉘프는 다음과 같은 두 가지 유형이 있습니다.</block>
@@ -6430,7 +6354,6 @@
   <block id="4a2833218ca50e72920f4fc85ded87b5" category="doc">드라이브를 논리적으로 교체하는 이유는 무엇입니까?</block>
   <block id="846859675e7484942f2482e86b021b52" category="paragraph">원래 드라이브의 데이터는 교체 드라이브에 복사 또는 재구성됩니다.</block>
   <block id="30902da97f6a0bc1b43189f22930bf3b" category="summary">하드웨어 페이지에서 구성 요소 상태를 확인하고 이러한 구성 요소와 관련된 일부 기능을 수행할 수 있습니다.</block>
-  <block id="46249b2092a182e085410a7b6cba0fcd" category="doc">하드웨어 구성 요소 개요</block>
   <block id="a2e9b38da1058670eeec01bcaf0ff494" category="section-title">관리할 수 있는 구성 요소는 무엇입니까?</block>
   <block id="d040c419785e5dde6f78f0ca7643c722" category="paragraph">구성 요소 상태를 확인하고 이러한 구성 요소와 관련된 일부 기능을 수행할 수 있습니다.</block>
   <block id="d01cd128d6abf4d7933f8a2639098e20" category="list-text">** 쉘프** -- A_shelf_는 스토리지 어레이(컨트롤러, 전원/팬 캐니스터 및 드라이브)용 하드웨어가 포함된 구성 요소입니다. 쉘프는 최대 12, 24 또는 60개의 드라이브를 수용할 수 있도록 3가지 크기로 제공됩니다.</block>
@@ -6674,7 +6597,6 @@
   <block id="f94609c94eb181d6647a3e787902e8f5" category="admonition">IP 주소 구성을 변경하면 스토리지 배열에 대한 관리 경로가 손실됩니다. SANtricity Unified Manager를 사용하여 네트워크의 어레이를 전체적으로 관리하는 경우 사용자 인터페이스를 열고 관리 [Discover] 메뉴로 이동합니다. SANtricity 저장소 관리자를 사용하는 경우 EMW(엔터프라이즈 관리 창)에서 장치를 제거하고 메뉴 편집 [스토리지 배열 추가]를 선택하여 EMW에 다시 추가한 다음 새 IP 주소를 입력해야 합니다.</block>
   <block id="f74ec7352e7eeb86c5de4e638147f9ca" category="paragraph">관리 포트 구성은 컨트롤러 설정, 관리 포트 탭에 표시됩니다.</block>
   <block id="74b96ad1072c9d815991a81d9452df10" category="summary">스토리지 배열에 서로 다른 유형의 물리적 및 논리적 속성이 있는 드라이브가 포함되어 있는 경우 Hardware(하드웨어) 페이지에서는 드라이브 보기를 제한하고 특정 드라이브를 찾는 데 도움이 되는 필터 필드를 제공합니다.</block>
-  <block id="14df5b731d4997d2ee71cdf4bc523bf9" category="doc">드라이브 보기를 제한합니다</block>
   <block id="facdfcb4bee682dfd1eb4f0e17ccc7c2" category="paragraph">드라이브 필터는 특정 논리적 위치(예: 볼륨 그룹 1)에서 특정 보안 속성(예: 보안 가능)을 가진 특정 유형의 물리적 드라이브(예: 모든 SAS)로만 보기를 제한할 수 있습니다. 이러한 필터를 함께 또는 별도로 사용할 수 있습니다.</block>
   <block id="1a87e1a07850c1c707a3888ab74e5f5c" category="paragraph">모든 드라이브가 동일한 물리적 속성을 공유하는 경우 * Show drives that are... * filter 필드가 나타나지 않습니다. 모든 드라이브가 동일한 논리 속성을 공유하는 경우 스토리지 배열 * 필터 필드의 * 아무 곳이나 나타나지 않습니다.</block>
   <block id="c0045c6c284d1fa7245572a2659fa923" category="list-text">첫 번째 필터 필드(* Show drives that are... * 아래)에서 드롭다운 화살표를 클릭하여 사용 가능한 드라이브 유형 및 보안 속성을 표시합니다.</block>
@@ -6717,7 +6639,6 @@
   <block id="be60404b2c56981a6ade529f56c56ade" category="doc">수동 동기화 정책을 사용하는 것이 권장되는 이유는 무엇입니까?</block>
   <block id="203eb3487092f98bd7739657bd0afb70" category="paragraph">자동 재동기화 정책을 사용하고 재동기화 중에 간헐적인 통신 문제가 발생하는 경우 보조 볼륨의 데이터가 일시적으로 손상될 수 있습니다. 재동기화가 완료되면 데이터가 수정됩니다.</block>
   <block id="8201c629dd6551605c1fa4b163a76d37" category="summary">미러 쌍을 제거하여 로컬 스토리지 배열의 운영 볼륨과 원격 스토리지 배열의 보조 볼륨에서 미러 관계를 제거합니다.</block>
-  <block id="1ead2f5a8f8bd71a04f291e529419db7" category="doc">비동기식 미러 관계를 제거합니다</block>
   <block id="1954b1434c37f1e6720d7e7c0db08530" category="paragraph">분리된 미러 쌍에 대한 다음 정보를 검토합니다.</block>
   <block id="a54e8bbbb036b83f8181f0c77eaaf906" category="list-text">분리된 미러링된 쌍은 정합성 보장 미러 그룹의 구성원 볼륨이 한 쪽(로컬 스토리지 어레이 측 또는 원격 스토리지 어레이 측)에서 제거되었지만 다른 쪽에는 제거되지 않은 경우에 존재합니다.</block>
   <block id="250696e24a4e70ab9003d34e160b476c" category="list-text">분리된 미러 쌍은 스토리지 간 통신이 복구되고 미러 구성의 두 측이 미러 매개 변수를 조정할 때 감지됩니다.</block>
@@ -6731,7 +6652,6 @@
   <block id="b6dc45978281b0c6a7a333fdf4706295" category="list-text">운영 볼륨 및 보조 볼륨을 호스트에서 액세스할 수 있고 미러링되지 않은 볼륨으로 반환합니다.</block>
   <block id="4fc9176a629b2df5d3c531937e01e5cc" category="list-text">비동기 미러링 쌍을 제거하여 비동기 미러링 타일을 업데이트합니다.</block>
   <block id="7508e4442d535a8c1b39528432dc19f0" category="summary">로컬 스토리지 시스템의 미러 정합성 보장 그룹과 원격 스토리지 시스템 간에 동기화되지 않은 데이터의 양을 볼 수 있습니다. 미러 정합성 보장 그룹이 동기화되지 않은 상태이면 미러링 작업이 발생하지 않습니다.</block>
-  <block id="2ac29e19a0ce69edb4f3fe082c088a5e" category="doc">미러 정합성 보장 그룹 간에 동기화되지 않은 데이터 양을 봅니다</block>
   <block id="0977cf4a58da9cc581a6745cfcdc48b5" category="paragraph">선택한 미러 정합성 보장 그룹에 미러링 쌍이 포함되어 있고 동기화가 현재 진행 중이 아닌 경우 이 작업을 수행할 수 있습니다.</block>
   <block id="bd65b5e01459a4f61664d873f3e319a3" category="list-text">미러 정합성 보장 그룹 * 탭을 선택합니다.</block>
   <block id="33bb4394bc47c9dcf94b889b4047ed3b" category="paragraph">미러 정합성 보장 그룹 테이블이 나타나고 스토리지 시스템과 연결된 모든 미러 정합성 보장 그룹이 표시됩니다.</block>
@@ -6784,7 +6704,6 @@
   <block id="54abd49eba72d75970404acd8a2a3512" category="list-text">특정 스토리지 오브젝트의 복사 서비스 작업 수명이 매우 긴 경우</block>
   <block id="3b965b7599e93263ee7ae3b2db7bf7ae" category="list-text">입출력 작업이 많은 경우 기본 볼륨에서 데이터 블록의 비율이 크게 변경될 수 있습니다. 기간별 성능 데이터 또는 기타 운영 체제 유틸리티를 사용하여 기본 볼륨에 대한 일반적인 I/O 작업을 결정할 수 있습니다.</block>
   <block id="3e4b41fe7dfdb67ca16165cc983793d6" category="summary">데이터가 처음 동기화될 때 또는 비동기식 미러링 작업 중에 데이터가 다시 동기화될 때 로컬 스토리지 시스템의 미러 정합성 보장 그룹이 사용하는 동기화 설정 및 경고 임계값을 변경할 수 있습니다.</block>
-  <block id="75fd01b8a28d9721b74ead8d141aa67a" category="doc">미러 정합성 보장 그룹의 동기화 설정을 변경합니다</block>
   <block id="f14d90a64d3831669d5b98f32911dcf3" category="paragraph">동기화 설정을 변경하면 미러 정합성 보장 그룹 내의 모든 미러링된 쌍의 동기화 작업에 영향을 줍니다.</block>
   <block id="ad54f4dec93f6fc649f047145fb0821c" category="paragraph">미러링된 정합성 보장 그룹 테이블이 나타나고 스토리지 시스템과 연결된 모든 미러 정합성 보장 그룹이 표시됩니다.</block>
   <block id="065ebbde71ee0c6eaf6ce2c26e199767" category="list-text">편집하려는 미러 정합성 보장 그룹을 선택한 다음 MENU: More [Edit Settings] 를 선택합니다.</block>
@@ -6813,7 +6732,6 @@
   <block id="425a64e0d583694b7183474b36985728" category="list-text">웹 서비스 프록시 및 Unified Manager를 설치했습니다. 미러링된 쌍은 Unified Manager 인터페이스에 구성됩니다.</block>
   <block id="fe99edff93d55843d1bd3a7d39d7dbcd" category="list-text">두 스토리지 어레이가 Unified Manager에서 검색됩니다.</block>
   <block id="a1dc8dcd0ef0c3f9c09c995746bd9eaa" category="summary">관리 목적으로 또는 로컬 스토리지 시스템에 재해가 발생한 경우 동기식 미러링에 참여하는 미러링된 쌍의 두 볼륨 간에 역할 반전을 수행할 수 있습니다.</block>
-  <block id="33e1d4955d1ad338432d061228de9d23" category="doc">미러링된 쌍의 볼륨 간에 역할을 변경합니다</block>
   <block id="82deb6e7c6ccf745d601a8e410473414" category="paragraph">동기식 미러링에 사용되는 미러링된 쌍의 두 볼륨 간에 역할 반전을 수행할 수 있습니다. 이 작업은 관리상의 목적이나 로컬 스토리지 어레이에 재해가 발생하는 경우에 필요할 수 있습니다.</block>
   <block id="a94d228d4ea6bacf24f30d98d435d32e" category="paragraph">운영 볼륨을 보조 역할로 하향 이동하거나 보조 볼륨을 운영 역할로 상향 이동할 수 있습니다. 운영 볼륨에 액세스하는 모든 호스트에는 볼륨에 대한 읽기/쓰기 액세스 권한이 있습니다. 운영 볼륨이 보조 볼륨이 되면 운영 컨트롤러에서 시작한 원격 쓰기만 볼륨에 기록됩니다.</block>
   <block id="ab473df4e0c88c723409554d7d88c823" category="list-text">스토리지 [동기식 미러링] 메뉴를 선택합니다.</block>
@@ -6962,7 +6880,6 @@
   <block id="354f62801910dd1edac18a317f02d0a4" category="doc">테이블에 사용할 수 없는 값이 표시되는 이유는 무엇입니까?</block>
   <block id="352674da3b0347b2fa94309f9852e20b" category="paragraph">원격 스토리지 시스템 데이터를 표시하려면 Unified Manager에서 System Manager를 실행합니다.</block>
   <block id="adfb05f5a886a855a1779bccd4b6cada" category="summary">미러 정합성 보장 그룹 내의 모든 미러링된 쌍에서 데이터 동기화를 일시 중지하거나 다시 시작할 수 있으므로 개별 미러링된 쌍에서 동기화를 일시 중지하거나 다시 시작하는 것보다 효율적입니다.</block>
-  <block id="c879a001efd3881d2569005752912018" category="doc">미러 정합성 보장 그룹에 대한 동기화를 일시 중지하거나 다시 시작합니다</block>
   <block id="9cec334a78447d6e341bcef3c11881ed" category="paragraph">그룹에서 동기화를 일시 중단하고 다시 시작하면 호스트 응용 프로그램에 대한 성능 영향을 줄일 수 있습니다. 이 문제는 로컬 스토리지 배열의 변경된 데이터가 원격 스토리지 배열에 복사되는 동안 발생할 수 있습니다.</block>
   <block id="392f6877a53502f73249bbd61d4efe50" category="paragraph">동기화 작업을 재개하기 위해 Resume 옵션을 사용할 때까지 미러 정합성 보장 그룹 및 미러 페어의 상태가 일시 중지된 상태로 유지됩니다.</block>
   <block id="34c538d2963ff874f6435e6d75fe33df" category="list-text">일시 중단 또는 재개하려는 미러 정합성 보장 그룹을 선택한 다음 More[Suspend] 또는 menu:More[Resume] 메뉴를 선택합니다.</block>
@@ -7002,7 +6919,6 @@
   <block id="03636572249dd9880006378f3c1755fe" category="paragraph">대칭 복사된 쌍을 만들기 전에 다음 지침을 따릅니다.</block>
   <block id="b6287b731648fdf0c4197b5b53ed2e5b" category="list-text">스토리지 시스템에 하나 이상의 미러 정합성 보장 그룹이 있어야 합니다. Unified Manager의 미러링된 쌍 생성 마법사에서 일관성 그룹을 생성합니다.</block>
   <block id="f7282d43a3db8918076ecd180e1a78d6" category="summary">통신 중단 후 미러링된 페어가 재동기화 작업을 완료하는 데 사용하는 동기화 우선 순위 및 재동기화 정책을 변경할 수 있습니다.</block>
-  <block id="7c86ac8b3b5787fd4006c745e9ba0096" category="doc">미러링된 쌍의 동기화 설정을 변경합니다</block>
   <block id="375ffdc3425d89c8ef73212975a6b3e7" category="paragraph">운영 볼륨이 포함된 스토리지 어레이에서만 미러링된 쌍의 동기화 설정을 편집할 수 있습니다.</block>
   <block id="f8931812e14da4f685be124ecc0cc2a6" category="list-text">편집하려는 미러링된 쌍을 선택한 다음, MENU: More [Edit settings](추가 [설정 편집])를 선택합니다.</block>
   <block id="c76c168d6f92b3d43a9c641ff6f6588e" category="paragraph">설정 보기/편집 대화 상자가 표시됩니다.</block>
@@ -7017,7 +6933,6 @@
   <block id="60a8997705970e5b5155e1b481e80795" category="list-text">* 자동 * -- 통신이 미러링된 쌍으로 복구된 후 재동기화를 자동으로 시작하려면 이 옵션을 선택합니다.</block>
   <block id="10492389e94efdebbb66f7b0cd8a1324" category="list-text">저장 * 을 선택합니다.</block>
   <block id="d3f1b71e636e25d3c076afa38de86758" category="summary">일시 중지 옵션과 재개 옵션을 사용하여 운영 볼륨의 데이터와 미러링된 쌍의 보조 볼륨의 데이터를 동기화할 시기를 제어할 수 있습니다.</block>
-  <block id="080ac0ce499cae0f7a11f6aefb54366c" category="doc">미러링된 쌍의 동기화를 일시 중지하고 다시 시작합니다</block>
   <block id="c8d55b18a2a5b14a5326912fac53e808" category="paragraph">미러링된 쌍이 수동으로 일시 중지된 경우 미러링된 쌍이 수동으로 재개될 때까지 동기화되지 않습니다.</block>
   <block id="b1c5adbd547b9b89120cf4881fa399f3" category="list-text">일시 중단 또는 재개할 미러링된 쌍을 선택한 다음 More [Suspend](자세히) 또는 menu: More [Resume](자세히 [재개]) 중 하나를 선택합니다.</block>
   <block id="210b94ecc118560463c7b43e50e61a01" category="list-text">미러 관계를 제거하지 않고 미러링된 쌍 간에 데이터 전송을 일시 중단하거나 재개합니다.</block>
@@ -7043,7 +6958,6 @@
   <block id="94d12e4ecfa0727a21dceabd94e97cb4" category="paragraph">미러링된 쌍의 보조 볼륨은 일반적으로 보조 사이트에 위치하며 데이터 복제본을 보관합니다.</block>
   <block id="454c65346b592d2a6ddcf6e6cd91d9b3" category="paragraph">동기화</block>
   <block id="1b6781f9766328ee7f0960dbe05f98bf" category="paragraph">동기화는 로컬 스토리지와 원격 스토리지 시스템 간의 초기 동기화에서 수행됩니다. 동기화는 통신 중단 후 운영 볼륨과 2차 볼륨의 동기화가 중단된 경우에도 발생합니다. 통신 링크가 다시 작동되면 복제되지 않은 모든 데이터가 보조 볼륨의 스토리지 시스템에 동기화됩니다.</block>
-  <block id="bc514fe3893b353f46136dbb9ea4696a" category="doc">동기식 미러 관계를 제거합니다</block>
   <block id="a04fd3cfecf107e93638020cde5f1c20" category="paragraph">또한 미러링된 쌍을 제거하여 분리된 미러링된 쌍 상태를 수정할 수도 있습니다. 분리된 미러 쌍에 대한 다음 정보를 검토합니다.</block>
   <block id="c2e6998877daef719281db11f254cf4d" category="list-text">구성원 볼륨이 한 쪽(로컬/원격)에서 제거되었지만 다른 쪽에는 제거되지 않은 경우 분리된 미러링된 쌍이 존재합니다.</block>
   <block id="5a667fb8b9ee512c9f723f5ec2645421" category="list-text">어레이 간 통신이 복원되면 분리된 미러링된 쌍이 감지됩니다.</block>
@@ -7079,7 +6993,6 @@
   <block id="d7e48014036e048990b33b96292bcc91" category="paragraph">IP 주소가 변경된 스토리지 배열은 iSCSI 연결을 통해 미러링하도록 구성된 미러 정합성 보장 그룹과 연결된 각 원격 스토리지 배열에 메시지를 보냅니다. 이 메시지를 수신하는 스토리지 어레이는 원격 대상 IP 주소를 자동으로 업데이트합니다.</block>
   <block id="dc1ea033fdb960bfcd0b3b66b9d46b86" category="paragraph">변경된 IP 주소를 가진 스토리지 배열이 원격 스토리지 배열에 배열 간 메시지를 보낼 수 없는 경우, 시스템은 연결 문제에 대한 경고를 보냅니다. 원격 IP 주소 업데이트 옵션을 사용하여 로컬 스토리지 어레이와의 연결을 다시 설정합니다.</block>
   <block id="9298215bd55bd7c3aa8a21b50a88e28e" category="summary">동기 미러링 기능은 원격 사이트 간에 스토리지 어레이 간에 온라인, 실시간 데이터 복제를 제공합니다.</block>
-  <block id="460f1e8c3e603bf77d64ce3d701324a5" category="doc">동기 미러링 개요</block>
   <block id="10d68dbaa5a809daf171f782598d85b7" category="section-title">동기식 미러링이란 무엇입니까?</block>
   <block id="6ba3fbf7a6558dc81522aedb59e1d590" category="paragraph">_Synchronous 미러링_ 데이터 볼륨을 실시간으로 복제하여 지속적인 가용성을 보장합니다. 스토리지 어레이 컨트롤러는 미러링 작업을 관리하는데, 이 작업은 호스트 시스템과 소프트웨어 애플리케이션에 영향을 미치지 않습니다.</block>
   <block id="beb80eb40ddf731a8581da9d26fa3fbb" category="paragraph">이러한 유형의 미러링은 재해 복구와 같은 비즈니스 연속성 목적으로 이상적입니다.</block>
@@ -7120,13 +7033,11 @@
   <block id="3875f01f6cc1fb12c8699d458b4605d5" category="doc">예약된 용량이 두 개 이상 표시되는 이유는 무엇입니까?</block>
   <block id="285f1744664f2e1e4e361e7f0569d4b0" category="paragraph">복사 서비스 작업을 위해 기본 볼륨에 예약할 물리적 드라이브 공간의 비율을 변경하여 권장되는 후보 목록을 새로 고칠 수 있습니다. 선택한 내용에 따라 가장 적합한 후보가 표시됩니다.</block>
   <block id="14c0b5c11cec183cae5b026de83be26c" category="summary">스토리지 어레이에서 동기 미러링 기능을 비활성화하여 미러 데이터 전송용으로 예약된 HBA(호스트 버스 어댑터) 호스트 포트 4의 정상적인 사용을 다시 설정할 수 있습니다.</block>
-  <block id="959b6f8aa08631615c9cc167221f7e2f" category="doc">동기 미러링을 비활성화합니다</block>
   <block id="c50acb6fde75a12cb1d95875bbe42db2" category="paragraph">모든 동기식 미러 관계를 삭제해야 합니다. 미러링된 모든 쌍이 스토리지 배열에서 삭제되었는지 확인합니다.</block>
   <block id="443d8eab9aa73f1f60c6b8ccbb939d68" category="list-text">Uncommon Tasks[Deactivate] 메뉴를 선택합니다.</block>
   <block id="455c19a3e2e0ae204aaae455a94dc139" category="list-text">이제 동기식 미러링 통신 전용의 컨트롤러의 HBA 호스트 포트 4에서 호스트 읽기 및 쓰기 요청을 수락할 수 있습니다.</block>
   <block id="c8795d54a85ef60634d6af6928100837" category="list-text">스토리지 배열의 예약된 용량 볼륨이 삭제됩니다.</block>
   <block id="e01d2c972c8675c34dc83aee38224fdb" category="summary">비동기 미러링 기능은 로컬 스토리지 어레이와 원격 스토리지 시스템 간의 데이터 복제를 위한 컨트롤러 수준의 펌웨어 기반 메커니즘을 제공합니다.</block>
-  <block id="95f005b7a0d89bd52b50e36428f03fa7" category="doc">비동기식 미러링 개요</block>
   <block id="1c8f32949aacae037e67973d36640f81" category="section-title">비동기식 미러링이란 무엇입니까?</block>
   <block id="a973f9cd883909c4210fa4a3a2a46a57" category="paragraph">_Asynchronous Mirroring_ 는 특정 시점에 기본 볼륨의 상태를 캡처하고 마지막 이미지 캡처 이후 변경된 데이터만 복사합니다. 운영 사이트를 즉시 업데이트할 수 있으며 대역폭이 허용할 경우 보조 사이트를 업데이트할 수 있습니다. 네트워크 리소스를 사용할 수 있게 되면 정보가 캐시되어 나중에 전송됩니다.</block>
   <block id="40f940a1f2b00ed6e1e16df96cf0cfc1" category="paragraph">비동기 미러링은 볼륨별로 생성되지만 그룹 수준에서 관리되므로 특정 스토리지 배열의 운영 볼륨과 별도의 원격 미러링된 볼륨을 연결할 수 있습니다. 이러한 유형의 미러링은 무중단 운영에 대한 요구를 충족하는 데 이상적이며 일반적으로 정기적인 프로세스에 대해 훨씬 더 네트워크 효율적입니다.</block>
@@ -7144,7 +7055,6 @@
   <block id="90c1d6c4247630bca80fcc961ffb6449" category="list-text"><block ref="90c1d6c4247630bca80fcc961ffb6449" category="inline-link-macro-rx"></block></block>
   <block id="baba612c4896ebae31a1baa788fda3da" category="list-text"><block ref="baba612c4896ebae31a1baa788fda3da" category="inline-link-macro-rx"></block></block>
   <block id="4591b231c875be60e18e7b60fc60f4f3" category="summary">로컬 및 원격 스토리지 시스템에서 비동기식 미러링을 비활성화하여 스토리지 시스템에서 전용 포트를 정상적으로 사용하도록 다시 설정할 수 있습니다.</block>
-  <block id="65c90a169ddaeb6811b328b7407a851f" category="doc">비동기식 미러링을 비활성화합니다</block>
   <block id="a2d99b2e8addfdbf20505041bd540a00" category="list-text">모든 미러 관계를 삭제해야 합니다. 모든 미러 정합성 보장 그룹 및 미러링된 쌍이 로컬 및 원격 스토리지 시스템에서 삭제되었는지 확인합니다.</block>
   <block id="11f121101dafcc279245e9342d94d033" category="list-text">로컬 스토리지 어레이와 원격 스토리지 시스템은 Fibre Channel 패브릭 또는 iSCSI 인터페이스를 통해 접속되어야 합니다.</block>
   <block id="30d5f99b08c30d1e8e4982b11716da78" category="paragraph">비동기식 미러링을 비활성화하면 로컬 및 원격 스토리지 시스템에서 미러 작업이 수행되지 않습니다.</block>
@@ -7159,7 +7069,6 @@
   <block id="fa98027accb9c3a7375a77d355bbb4d5" category="list-text">운영 볼륨이 DA를 사용하는 경우 보조 볼륨은 DA를 활성화해야 합니다.</block>
   <block id="835f4291909c19a4a71fd5963dcd860e" category="list-text">운영 볼륨이 DA를 사용하지 않는 경우 보조 볼륨을 DA로 설정하지 않아야 합니다.</block>
   <block id="15737c83a1c51b25b3b62b657bafc663" category="summary">관리를 위해 또는 로컬 스토리지 시스템에 재해가 발생한 경우 미러 정합성 보장 그룹 간에 역할을 변경할 수 있습니다.</block>
-  <block id="0c2bc54478b89c06870df9e2e1c1477d" category="doc">미러 정합성 보장 그룹 역할을 운영 또는 2차 역할로 변경합니다</block>
   <block id="b8c2d9c9ed5f27ec4715a24adb21bc4d" category="paragraph">로컬 스토리지 시스템에 생성된 미러 정합성 보장 그룹은 운영 역할을 담당합니다. 원격 스토리지 시스템에 생성된 미러 정합성 보장 그룹은 2차 역할을 수행합니다. 로컬 미러 정합성 보장 그룹을 보조 역할로 하향 이동하거나 원격 미러 정합성 보장 그룹을 운영 역할로 상향 이동할 수 있습니다.</block>
   <block id="1ec9b4e27e4b84ae42787d68143b9a8c" category="list-text">역할을 변경할 미러 정합성 보장 그룹을 선택한 다음 More [Change role to &lt;Primary|Secondary&gt;] *&gt; * 메뉴를 선택합니다.</block>
   <block id="c4a3a534bd315144fdc6a57f6ad7f518" category="list-text">미러 정합성 보장 그룹의 역할을 변경할 것인지 확인한 다음 * 역할 변경 * 을 클릭합니다.</block>
@@ -7167,7 +7076,6 @@
   <block id="a812fe9d2d7e7584ce14a32b80394dd5" category="list-text">미러 정합성 보장 그룹 테이블에는 역할 변경을 진행 중인 미러 정합성 보장 그룹 옆에 "보류 중" 또는 "진행 중" 상태가 표시됩니다. 테이블 셀에 있는 * Cancel * 링크를 클릭하여 보류 중인 역할 변경 작업을 취소할 수 있습니다.</block>
   <block id="322e1ee3a38a8457e7323b149fbb8184" category="list-text">연결된 미러 정합성 보장 그룹에 접속할 수 있으면 미러 정합성 보장 그룹 간의 역할이 변경됩니다. System Manager는 보조 미러 정합성 보장 그룹을 기본 역할로 상향 이동하거나 선택 항목에 따라 기본 미러 정합성 보장 그룹을 보조 역할로 하향 이동합니다. 역할 변경은 선택한 미러 정합성 보장 그룹 내의 모든 미러링된 쌍에 영향을 줍니다.</block>
   <block id="37290e22c9fa8eb0f62c0192041dffed" category="summary">미러 정합성 보장 그룹 내의 모든 미러링된 쌍에 대해 수동으로 재동기화를 시작할 수 있습니다.</block>
-  <block id="d8ce60567538c1954ac3b7c707d1d197" category="doc">미러 정합성 보장 그룹을 수동으로 다시 동기화하십시오</block>
   <block id="527b920dffed09a344bb3e1c877b207f" category="list-text">다시 동기화하려는 미러 정합성 보장 그룹을 선택한 다음 More [Manually resynize] 메뉴를 선택합니다.</block>
   <block id="958b076f7e1539852bedf91e5fe7a516" category="paragraph">시스템은 다음 작업을 수행합니다.</block>
   <block id="3636b9fe2c9d12c05e8f6d081984ef71" category="list-text">선택한 미러 정합성 보장 그룹 내의 모든 미러링된 쌍에서 데이터의 재동기화를 시작합니다.</block>
@@ -7235,7 +7143,6 @@
   <block id="65024c2cda9e330342e42e99eab931fc" category="summary">비동기 미러링 조건이 스토리지 어레이에 어떻게 적용되는지 알아보십시오.</block>
   <block id="cffa7e4fcd460690ec5261eba8312305" category="paragraph">비동기식 미러링에서는 미러링된 쌍이 항상 미러 정합성 보장 그룹에 속합니다. 쓰기 작업은 먼저 운영 볼륨에 대해 수행된 다음 보조 볼륨에 복제됩니다. 미러 정합성 보장 그룹의 미러링된 각 쌍은 동일한 동기화 설정을 공유합니다.</block>
   <block id="e35d546a90affeef6c848766d7755ffe" category="summary">로컬 스토리지 어레이와 원격 스토리지 시스템 간의 통신을 테스트하여 동기 미러링에 참여하는 미러링된 쌍의 통신 문제를 진단할 수 있습니다.</block>
-  <block id="0777661b9ea84c315de5f0180e7f413a" category="doc">동기식 미러링에 대한 통신을 테스트합니다</block>
   <block id="70e0638c198c3a893ece352f33b3be87" category="paragraph">두 가지 테스트가 실행됩니다.</block>
   <block id="7276375972d4aa97011944003f7b649a" category="list-text">* 통신 * -- 두 스토리지 어레이에 통신 경로가 있는지 확인합니다. 통신 테스트에서는 로컬 스토리지 시스템이 원격 스토리지 시스템과 통신할 수 있고 미러링된 페어와 연결된 보조 볼륨이 원격 스토리지 시스템에 있는지 확인합니다.</block>
   <block id="28a3f7ed92b888a430054f2ed5ae29a6" category="list-text">* 지연 시간 * -- SCSI 테스트 유닛 명령을 미러링된 페어와 연결된 원격 스토리지 배열의 보조 볼륨으로 전송하여 최소, 평균 및 최대 지연 시간을 테스트합니다.</block>
@@ -7297,7 +7204,6 @@
   <block id="26777ce8c704996442046f566567fcb0" category="paragraph">구성원 볼륨이 한 쪽(기본 측 또는 보조 측)에서 제거되었지만 다른 쪽에는 제거되지 않은 경우 분리된 미러링된 쌍 볼륨이 존재합니다.</block>
   <block id="3495d24d327284018c764d189eb19ebe" category="doc">동기 미러링 - 원격 스토리지 어레이의 모든 볼륨이 표시되지 않는 이유는 무엇입니까?</block>
   <block id="00488bd7829540f62dd4bd6dfe0f675b" category="summary">통신 링크를 테스트하여 로컬 스토리지 시스템과 미러 정합성 보장 그룹에 연결된 원격 스토리지 시스템 간의 통신 문제를 진단할 수 있습니다.</block>
-  <block id="fbc6a2ea09bb34bc0a93d790d9514315" category="doc">미러 정합성 보장 그룹에 대한 통신을 테스트합니다</block>
   <block id="e68fe7f4465c0b23ebfd3e9388a30c38" category="paragraph">테스트할 미러 정합성 보장 그룹이 로컬 및 원격 스토리지 시스템에 있어야 합니다.</block>
   <block id="4e8203c0bd1e1113b52a2a0fb197d539" category="paragraph">다음 네 가지 테스트를 실행할 수 있습니다.</block>
   <block id="d49d15e557b8dae791f5e3e35d9c3034" category="list-text">* 연결 * -- 두 컨트롤러가 통신 경로를 가지고 있는지 확인합니다. 연결 테스트에서는 스토리지 시스템 간에 스토리지 간 메시지를 보낸 다음 원격 스토리지 시스템에 있는 해당 미러 정합성 보장 그룹이 있는지 확인합니다. 또한 원격 스토리지 시스템에 있는 미러 정합성 보장 그룹의 구성원 볼륨이 로컬 스토리지 시스템에 있는 미러 정합성 보장 그룹의 구성원 볼륨과 일치하는지 확인합니다.</block>
@@ -7321,7 +7227,6 @@
   <block id="a24004d7b0e54b0b506d0ebf5c2c53e6" category="paragraph">통신 테스트가 완료되면 이 대화 상자에 정상 상태, 통과 상태 또는 실패 상태가 표시됩니다.</block>
   <block id="e6d46f3189edf0f711bc9c710e28f8e4" category="paragraph">통신 테스트가 실패 상태를 반환하는 경우 미러 정합성 보장 그룹 간의 통신이 복구될 때까지 이 대화 상자를 닫은 후에도 테스트가 계속 실행됩니다.</block>
   <block id="25be04f8f564d75f005e7d91ec561532" category="summary">미러링 기능을 사용하여 로컬 스토리지 시스템과 원격 스토리지 시스템 간에 데이터를 비동기식으로 또는 동기식으로 복제합니다.</block>
-  <block id="8eaa7d8cc17d8c089c43d2f928c8775f" category="doc">미러링 개요</block>
   <block id="7e5302b1c4eac0373046e5e48d74febc" category="section-title">미러링이란 무엇입니까?</block>
   <block id="b1aebc00c1bc1dfce2ff8962832bfb5c" category="paragraph">SANtricity 애플리케이션에는 두 가지 유형의 미러링, 즉 비동기식과 동기식이 있습니다. 비동기식 미러링은 데이터 볼륨을 필요 시 또는 일정에 따라 복제하여 데이터 손상 또는 손실로 인한 다운타임을 최소화 또는 방지합니다. 동기식 미러링은 데이터 볼륨을 실시간으로 복제하여 지속적인 가용성을 보장합니다.</block>
   <block id="277f48ac3dd713f3c93952544ad55a9e" category="inline-link-macro">미러링의 작동 방식</block>
@@ -7430,7 +7335,6 @@
   <block id="e1cfa79dbec62347a6be30a50cfa9692" category="doc">미러링된 쌍을 만들기 전에 알아야 할 내용은 무엇입니까?</block>
   <block id="afb89ed7edef0cc7dc3ef4d41d3887c2" category="list-text">비동기 미러링은 FC(파이버 채널) 또는 iSCSI 호스트 포트가 있는 컨트롤러에서 지원되며, 동기식 미러링은 FC 호스트 포트가 있는 컨트롤러에서만 지원됩니다.</block>
   <block id="9732d74959a323e59d6e9160b809f0a2" category="summary">Unified Manager를 사용하여 여러 스토리지 어레이를 업그레이드하기 전에 계획의 일환으로 주요 고려 사항을 검토하십시오.</block>
-  <block id="4a77379e9fcc01e35b7933a91b02a2bb" category="doc">업그레이드 고려 사항</block>
   <block id="6371e5ddbbe5c848ab1144dfd8b50449" category="section-title">현재 버전</block>
   <block id="063e4a905654baf6a3df919bc5acac65" category="paragraph">검색된 각 스토리지 시스템에 대해 Unified Manager의 관리 페이지에서 현재 SANtricity OS 소프트웨어 버전을 확인할 수 있습니다. 이 버전은 SANtricity OS 소프트웨어 열에 표시됩니다. 각 행에서 SANtricity OS 버전을 클릭하면 컨트롤러 펌웨어 및 NVSRAM 정보를 팝업 대화 상자에서 사용할 수 있습니다.</block>
   <block id="83a51c77c243b9672984451585e9ad2f" category="section-title">업그레이드가 필요한 기타 구성 요소</block>
@@ -7510,7 +7414,6 @@
   <block id="6d2693ac93f6085397ef92c9a73ba5b5" category="summary">일반적으로 예약된 용량은 비동기식 미러링 작업을 위한 기본 볼륨의 20%입니다. 일반적으로 이 용량이면 충분합니다.</block>
   <block id="039949ec150f284be8ac989b11a63eed" category="paragraph">필요한 용량은 기본 볼륨에 대한 I/O 쓰기의 빈도 및 크기와 스토리지 오브젝트의 복사 서비스 작업을 사용할 기간에 따라 달라집니다. 일반적으로 다음 조건 중 하나 또는 둘 다 존재할 경우 예약된 용량에 더 큰 비율을 선택합니다.</block>
   <block id="c79b141d0d17696705c99b794b11901a" category="summary">Manage Groups 페이지에서 스토리지 어레이 그룹 세트를 생성하여 관리를 간소화할 수 있습니다.</block>
-  <block id="a1279915a8f9251c8e26db088b087beb" category="doc">그룹 개요</block>
   <block id="55c21421b0b49c72e4ecf5d969ddc7ef" category="section-title">어레이 그룹이란 무엇입니까?</block>
   <block id="1f153ce693a76088e1bcf184fb041fda" category="paragraph">스토리지 시스템 세트를 그룹화하여 물리적 인프라와 가상화 인프라를 관리할 수 있습니다. 모니터링 또는 보고 작업을 보다 쉽게 실행할 수 있도록 스토리지 어레이를 그룹화할 수 있습니다.</block>
   <block id="6c17c1b173211258ec0ec9985189d2a5" category="paragraph">두 가지 유형의 그룹이 있습니다.</block>
@@ -7569,7 +7472,6 @@
   <block id="cda4530cc29b73a2848e3ee73549537a" category="paragraph">System Manager로 이동하여 Home [View Operations in Progress] 메뉴를 선택하여 동기 미러링 작업의 진행률을 확인합니다. 이 작업은 시간이 오래 걸릴 수 있으며 시스템 성능에 영향을 줄 수 있습니다.</block>
   <block id="839a15232e75363abd83283c12dccb75" category="summary">풀 또는 볼륨 그룹에 스토리지 객체에 대해 선택한 용량 비율을 충족하는 볼륨이 두 개 이상 있는 경우 여러 후보가 표시됩니다.</block>
   <block id="c80a3b4054f1065c5ed2862c799574d3" category="summary">알림, AutoSupport 및 디렉토리 서비스를 비롯한 스토리지 시스템 간에 설정을 가져올 수 있습니다.</block>
-  <block id="364bdf677eee1ef74394eade4142e858" category="doc">설정 가져오기 개요</block>
   <block id="6d2afd33fd55f01ede09873e95c44962" category="paragraph">설정 가져오기 기능을 사용하면 한 어레이에서 여러 어레이로 설정을 가져오기 위한 일괄 작업을 수행할 수 있습니다. 이 기능을 사용하면 네트워크에서 여러 어레이를 구성해야 하는 시간을 절약할 수 있습니다.</block>
   <block id="1ce28fccbd059af9ebab85e5f644e942" category="section-title">가져올 수 있는 설정은 무엇입니까?</block>
   <block id="c60d96f37d31d58ac863067912c7f98b" category="paragraph">알림 방법, AutoSupport 구성, 디렉토리 서비스 구성, 스토리지 구성(예: 볼륨 그룹 및 풀) 및 시스템 설정(예: 자동 로드 밸런싱)을 가져올 수 있습니다.</block>
@@ -7639,7 +7541,6 @@
   <block id="44a8ec873829128f9b89b9d2c859f732" category="list-text">여기에 나열된 어레이 모델 중 하나: <block ref="c0f66568c89b9be3af203a2398d42823" category="inline-link-macro-rx"></block></block>
   <block id="ec9c3d4f5f976606ad31387919bcffe8" category="list-text">웹 브라우저를 사용하여 네트워크 관리 클라이언트에 대한 대역외 연결.</block>
   <block id="64ad5e94a74bf470353e65e27ff90866" category="summary">스토리지 리소스를 관리하려면 먼저 네트워크에서 스토리지 어레이를 검색해야 합니다.</block>
-  <block id="8c9906e9b68ac5cbea9bc2e08121491c" category="doc">검색 개요</block>
   <block id="9fd8f65508c1b98e29663a63890ced71" category="section-title">어레이를 어떻게 검색합니까?</block>
   <block id="317e394dfc22c08fcca81a40f804affa" category="paragraph">추가/검색 페이지를 사용하여 조직의 네트워크에서 관리할 스토리지 어레이를 찾아서 추가합니다. 여러 어레이를 검색할 수도 있고 단일 어레이를 검색할 수도 있습니다. 이렇게 하려면 네트워크 IP 주소를 입력한 다음 Unified Manager가 해당 범위의 각 IP 주소에 대한 개별 연결을 시도합니다.</block>
   <block id="a308cde70025b17fe6c5cd5adaa155f3" category="list-text"><block ref="a308cde70025b17fe6c5cd5adaa155f3" category="inline-link-macro-rx"></block></block>
@@ -7669,7 +7570,6 @@
   <block id="ea9c669c9aa64371894dddb0505a0325" category="paragraph">스토리지 시스템이 Unified Manager에 추가되고 지정된 경우 선택한 그룹에 추가됩니다.</block>
   <block id="03bc500f3c11ae20134e43b6b586e119" category="paragraph">자동 지원 데이터 수집이 설정된 경우 추가하는 스토리지 배열에 대한 지원 데이터가 자동으로 수집됩니다.</block>
   <block id="f9c9e13a8e7b9326b088117f9ce357a6" category="summary">현재 이름이 더 이상 의미가 없거나 적용할 수 없는 경우 스토리지 어레이 그룹의 이름을 변경할 수 있습니다.</block>
-  <block id="49db6539f30cd17d190fa960d343e280" category="doc">스토리지 그룹 이름을 바꿉니다</block>
   <block id="9f4f8b73149dd133619a2463d69040cb" category="paragraph">이 지침을 염두에 두십시오.</block>
   <block id="7d5522de49a0c89cafe3acd8d5cca909" category="list-text">이름은 문자, 숫자 및 밑줄(_), 하이픈(-) 및 파운드(#)로 구성될 수 있습니다. 다른 문자를 선택하면 오류 메시지가 나타납니다. 다른 이름을 선택하라는 메시지가 표시됩니다.</block>
   <block id="6705fbda2e6abf3c06911a7e187adac6" category="list-text">이름을 30자로 제한합니다. 이름의 선행 및 후행 공백이 삭제됩니다.</block>
@@ -7775,7 +7675,6 @@
   <block id="608bd8a074ef68196b2b16c389892b52" category="section-title">업그레이드하기 전에 알아야 할 사항은 무엇입니까?</block>
   <block id="c62a746e301ad31c4b84a7bf74763687" category="paragraph">여러 스토리지 시스템을 업그레이드하기 전에 계획의 일환으로 주요 고려 사항을 검토하십시오.</block>
   <block id="1f7336346d3723051fe725fd0d8b6f52" category="summary">특정 스토리지 그룹에서 더 이상 관리 대상 스토리지 어레이를 관리하지 않으려는 경우 그룹에서 하나 이상의 관리되는 스토리지 어레이를 제거할 수 있습니다.</block>
-  <block id="81f419d8ee97055bcd7f59cc96299594" category="doc">그룹에서 스토리지 배열을 제거합니다</block>
   <block id="5f482ae5ff29923bd82a3447b4f3b55f" category="paragraph">그룹에서 스토리지 배열을 제거해도 스토리지 배열 또는 해당 데이터에는 어떤 식으로든 영향을 주지 않습니다. System Manager에서 스토리지 어레이를 관리하는 경우에도 브라우저를 사용하여 관리할 수 있습니다. 스토리지 배열이 그룹에서 실수로 제거된 경우 다시 추가할 수 있습니다.</block>
   <block id="9711f8dab32ef33485d895e69337fc1b" category="list-text">관리 페이지에서 메뉴 관리 그룹 [그룹에서 스토리지 배열 제거]를 선택합니다.</block>
   <block id="597fbec95d8471a7f75703abb91ab8df" category="list-text">드롭다운에서 제거할 스토리지 배열이 포함된 그룹을 선택한 다음 그룹에서 제거할 각 스토리지 배열 옆의 확인란을 클릭합니다.</block>
@@ -7845,7 +7744,6 @@
   <block id="64d8b9dd1b95fd9e366edc1b59a6394b" category="paragraph">동기식 미러링은 미러 정합성 보장 그룹을 사용하지 않습니다.</block>
   <block id="fc0fc4bcfa8e77ccbe825eb40749b735" category="paragraph">이러한 볼륨은 컨트롤러가 운영 상태에서 미러링을 유지하는 데 필요한 정보를 지속적으로 저장할 수 있도록 하기 위해 필요합니다. 여기에는 델타 로그 및 쓰기 시 복사 데이터와 같은 정보가 포함됩니다.</block>
   <block id="b64dc90c0d8c8af7e5c1414038e1a206" category="summary">더 이상 필요하지 않은 스토리지 그룹을 하나 이상 제거할 수 있습니다.</block>
-  <block id="1075451261ff01d866ffbf5c0de96768" category="doc">스토리지 어레이 그룹을 삭제합니다</block>
   <block id="8904110eedca9801c2f064ef59eb1b3f" category="paragraph">이 작업은 스토리지 어레이 그룹만 삭제합니다. 삭제된 그룹과 연결된 스토리지 배열은 모두 관리 보기 또는 연결된 다른 그룹을 통해 액세스할 수 있습니다.</block>
   <block id="2d77764408426ef7cc12ec0cb8bab868" category="list-text">관리 페이지에서 메뉴 관리 그룹 [스토리지 어레이 그룹 삭제]를 선택합니다.</block>
   <block id="df88e1007319fd66fb452b699b950fb9" category="list-text">삭제할 스토리지 그룹을 하나 이상 선택합니다.</block>
@@ -8746,4 +8644,410 @@
   <block id="a4c34f83987821dd1d99ef73febdd962" category="paragraph">이 버전에는 사소한 변경 사항만 포함되어 있고 새로운 기능은 없습니다. 이 릴리스의 변경 사항에 대한 자세한 내용은 을<block ref="1f7d7124974a1c2e3017c1729625e686" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="9f9aad17803bf869c53f2fdb3d1834b0" category="section-title">SAML이 활성화된 상태로 연결이 제한됩니다</block>
   <block id="0961bfa4d0f83cb13b7f923407264db9" category="paragraph">SAML을 사용할 때마다 JSON Web Token 인증을 통해 연결이 제한되는 스토리지 시스템 기능은 다음과 같습니다.</block>
+  <block id="afd690b4a6f8f723237e406e691e1994" category="doc">SANtricity 소프트웨어에 대해 알아보십시오</block>
+  <block id="55efb1bea2303063bea2fdc03480bf5d" category="doc">SANtricity 소프트웨어 브라우저 및 운영 체제 지원</block>
+  <block id="e696b5c8159d83bd1e0c9466e8dc6569" category="doc">SANtricity System Manager에서 원격 로그인(SSH) 구성</block>
+  <block id="791192eba5e6ba25fcb3f4d4787bdd42" category="doc">SANtricity System Manager에서 핫 스페어 할당</block>
+  <block id="2a179d4ca17916b1724afc04dabd8796" category="doc">SANtricity System Manager에서 쉘프 ID 변경</block>
+  <block id="3efe7542ac804d872e4cb32668bdcd0b" category="doc">SANtricity System Manager에서 선반 보기 순서 변경</block>
+  <block id="0f25f1493e996ca8c9fe406f75014e5b" category="doc">SANtricity System Manager에서 DNS 서버 주소 구성</block>
+  <block id="6fec971fb5688583e3ae938ea6635252" category="doc">SANtricity System Manager에서 iSCSI 포트 구성</block>
+  <block id="647bd57aa89ba480c449b7af20bcdb4b" category="doc">SANtricity System Manager에서 InfiniBand 포트를 통해 iSER 구성</block>
+  <block id="818b0e2fc3aea06067d74bb4f780f6b9" category="doc">SANtricity System Manager에서 관리 포트 구성</block>
+  <block id="942b826e8bf81247277dd17294833adb" category="doc">SANtricity System Manager에서 NTP 서버 주소 구성</block>
+  <block id="ed71508096ddf105f7a66756aaa909a1" category="doc">SANtricity System Manager에서 NVMe over InfiniBand 포트 구성</block>
+  <block id="139a4bc3ba2ed00c3628e46a02eaec8e" category="doc">SANtricity System Manager에서 NVMe over RoCE 포트 구성</block>
+  <block id="a5b238fa2c3059fafa096070c01245a3" category="doc">E-시리즈 컨트롤러의 IP 주소 할당에 대해 알아보세요</block>
+  <block id="84e1a7e377374cd578c829ac734ca1b1" category="doc">SANtricity System Manager의 컨트롤러 상태에 대해 알아보세요</block>
+  <block id="3e4ca6f5f42e0015e4c9dfee09a5dcc0" category="doc">SANtricity System Manager의 드라이브 상태에 대해 알아보세요</block>
+  <block id="0ff6204b4922a614f054cf74d19b5033" category="doc">SANtricity System Manager에서 드라이브 지우기</block>
+  <block id="4a14bf0b2df804251e27c193a6a0765f" category="doc">SANtricity 시스템 관리자에서 수동으로 드라이브 실패</block>
+  <block id="4e93b8b944e5c04bea9b9d1730a25d24" category="doc">SANtricity System Manager 하드웨어 페이지 및 구성 요소</block>
+  <block id="4dc44f8dbe6ad59382a81af1f307e488" category="doc">SANtricity 소프트웨어에서 사용되는 하드웨어 용어에 대해 알아보세요</block>
+  <block id="acaa93f0c47521f4f2f9398239806b48" category="doc">SANtricity System Manager의 핫 스페어 드라이브에 대해 알아보세요</block>
+  <block id="a4db80cf14327a39f06d517d526b499b" category="doc">SANtricity System Manager에서 드라이브 초기화(포맷)</block>
+  <block id="f59aa10f5efd30da7726822e94f66de3" category="doc">SANtricity System Manager에서 드라이브 보기 필터링</block>
+  <block id="3d1cf52a63b21d443e1cf92f6943bea9" category="doc">SANtricity System Manager에서 하드웨어 구성 요소를 보고 관리합니다.</block>
+  <block id="bc002fb1c00b485cb67eb27376711964" category="doc">SANtricity System Manager에서 컨트롤러를 서비스 모드로 전환합니다.</block>
+  <block id="baa8f21cf13b83a225b1c7853c8625cb" category="doc">SANtricity System Manager에서 컨트롤러를 오프라인으로 전환</block>
+  <block id="d2f436ef9eb00d0e92e11a9d418eadc8" category="doc">SANtricity System Manager에서 컨트롤러를 온라인으로 전환</block>
+  <block id="c3b7a3c7230a12b101d55060d1570cca" category="doc">SANtricity System Manager에서 드라이브를 수동으로 재구성</block>
+  <block id="569a85590c4c73a17007b1bde319b3b8" category="doc">SANtricity System Manager에서 드라이브를 논리적으로 교체</block>
+  <block id="625d3b8a8a0203cf44e0f6efaf6a34ea" category="doc">SANtricity System Manager에서 컨트롤러 재설정(재부팅)</block>
+  <block id="e51433051a984f5e19002bc90747281b" category="doc">SANtricity System Manager에서 구성 요소 상태 표시 또는 숨기기</block>
+  <block id="4e9beac4b22e622f0d3183b6f9575a00" category="doc">SANtricity System Manager에서 SSD(Solid State Disk)에 대해 알아보세요</block>
+  <block id="650a82d4acfd7f1b8552e6a97a27a62b" category="doc">SANtricity System Manager에서 전면 및 후면 보기 표시</block>
+  <block id="fbcb1ff48c181cd2172f9bbafd85feef" category="doc">SANtricity 시스템 관리자에서 드라이브 위치 표시등 켜기</block>
+  <block id="2efbaccdd317d40351cbd3b0078ba4e5" category="doc">SANtricity System Manager에서 선반 위치 표시등 켜기</block>
+  <block id="27524250c330c0c3b3e4d14953ab61ba" category="doc">SANtricity System Manager에서 핫 스페어 할당 해제</block>
+  <block id="006fe7517749b9bc8c427c28d3a5fd5d" category="doc">SANtricity System Manager에서 잠긴 NVMe 또는 FIPS 드라이브 잠금 해제 또는 재설정</block>
+  <block id="af1c7ebf693b4b6f684fcbcf0bad3fe0" category="doc">SANtricity System Manager에서 배터리 학습 주기 업데이트</block>
+  <block id="3b154a12ff75488de9bffb20316dc845" category="doc">SANtricity System Manager에서 컨트롤러 설정 보기</block>
+  <block id="019cd8fdd410c8e21ac8e48aa82391f2" category="doc">SANtricity System Manager에서 드라이브 상태 및 설정 보기</block>
+  <block id="c524d0a4d62606457b777ef541ea9347" category="doc">SANtricity System Manager에서 하드웨어 구성 요소 보기</block>
+  <block id="9e9cedf03a8665e4bad051e08cd66766" category="doc">SANtricity System Manager에서 선반 구성 요소 상태 및 설정 보기</block>
+  <block id="69985995523c2d426b66408d7daed125" category="doc">SANtricity System Manager에서 암호 보호 관리</block>
+  <block id="19f7c1453dbda42210e85ff75ce6eff2" category="doc">SANtricity System Manager 홈페이지에 대해 알아보세요</block>
+  <block id="5c32253d600042425394ed5980d9be38" category="doc">진행 중인 SANtricity System Manager 작업에 대해 알아보세요.</block>
+  <block id="58a34f657d81d7edfbaed6401bb0f515" category="doc">SANtricity System Manager 인터페이스에 대해 알아보세요</block>
+  <block id="33e2da76f04b079e476aa9cac594b266" category="doc">SANtricity System Manager 문제 알림에 대해 알아보세요</block>
+  <block id="84c667f2d1e6dc3b9cfc907f53006d6b" category="doc">SANtricity System Manager Recovery Guru를 사용하여 문제에서 복구</block>
+  <block id="547886ecd6f44d1e94d51c7a824cdf5c" category="doc">SANtricity System Manager에서 성능 그래프의 기본 시간 프레임을 설정합니다.</block>
+  <block id="32fc217fc1fed4d84d398e41c515b71d" category="doc">SANtricity System Manager에서 용량 값의 기본 단위를 설정합니다.</block>
+  <block id="427aa43b9cdc2defe80f26a9b8201921" category="doc">SANtricity System Manager 설치 마법사에 대해 알아보세요</block>
+  <block id="cdc0f9266381611530583b5dbc95a241" category="doc">SANtricity System Manager에서 진행 중인 작업을 보고 조치하세요.</block>
+  <block id="da92aaa9d58d31bf3512ac56ae148a38" category="doc">SANtricity System Manager에서 스토리지 계층 보기</block>
+  <block id="f9b276c09a9e51a75340fb1dfc3ed5b3" category="doc">SANtricity System Manager에서 비동기 미러 상태 보기</block>
+  <block id="b20236a95c5f1bc7346a4ac7f1eebdd7" category="doc">SANtricity 소프트웨어의 비동기 미러링 용어에 대해 알아보세요</block>
+  <block id="27c9d2020a7ee9c9a172785caee2aa42" category="doc">SANtricity System Manager에서 미러 일관성 그룹 역할을 기본 또는 보조로 변경합니다.</block>
+  <block id="17823d78ef73f722cb5ec83d77a0f31e" category="doc">SANtricity System Manager에서 미러링된 쌍의 볼륨 간 역할 변경</block>
+  <block id="e344db326042f633dec679fb389ca0e4" category="doc">SANtricity System Manager에서 미러 일관성 그룹에 대한 동기화 설정 변경</block>
+  <block id="b571c7942921f56e38dc2234119600d8" category="doc">SANtricity System Manager에서 미러링된 쌍에 대한 동기화 설정 변경</block>
+  <block id="af90f6617180555848d0d0edc437d6e1" category="doc">SANtricity System Manager에서 미러링된 쌍 볼륨에 대한 예약된 용량 설정 변경</block>
+  <block id="b052df0a73bcccc6ed7511b3380c1c60" category="doc">SANtricity System Manager에서 레거시 시스템에 생성된 기본 볼륨에 대한 미러링된 쌍을 완료합니다.</block>
+  <block id="5e5c7541af958458f1ac268b6712c5b5" category="doc">SANtricity System Manager에서 비동기 미러링 비활성화</block>
+  <block id="b92bbd05d370531c1aa6532c3519f954" category="doc">SANtricity System Manager에서 동기식 미러링 비활성화</block>
+  <block id="2ce490e8da130e3ad278fad4b8eee537" category="doc">SANtricity System Manager에서 미러 일관성 그룹 삭제</block>
+  <block id="81b2556e4fd871f9ea682e69a232b804" category="doc">SANtricity System Manager에서 비동기 미러링이 작동하는 방식</block>
+  <block id="e9d5efeaff5fce51394bba9ee3af6eac" category="doc">SANtricity System Manager에서 동기식 미러링이 작동하는 방식</block>
+  <block id="026ccf050237d46deb2637acd910f852" category="doc">SANtricity System Manager에서 예약된 용량 늘리기</block>
+  <block id="b2cce2e99d90dba951300d4a07acdb14" category="doc">SANtricity 소프트웨어의 비동기 미러링에 대해 알아보세요</block>
+  <block id="0f972a72bd5aee334d59e1b29c5fab31" category="doc">SANtricity 소프트웨어의 동기식 미러링에 대해 알아보세요</block>
+  <block id="7926a1ac9382d00cfc6590c0c80ef6be" category="doc">SANtricity System Manager에서 미러 일관성 그룹을 수동으로 다시 동기화합니다.</block>
+  <block id="f1c3f1483418f4843025c78102b16af4" category="doc">SANtricity System Manager에서 비동기 미러 관계 제거</block>
+  <block id="288e2c16d3025c5aeb7ddfdcf7e12576" category="doc">SANtricity System Manager에서 동기식 미러 관계 제거</block>
+  <block id="7c24c58ebddc7ce4f60ae6f4686a8cc1" category="doc">SANtricity 소프트웨어에서 비동기 미러링을 사용하기 위한 요구 사항</block>
+  <block id="2d0b5b4cae00ca0b94335defe5fc08fe" category="doc">SANtricity 소프트웨어에서 동기식 미러링을 사용하기 위한 요구 사항</block>
+  <block id="842e6d9c2ca7e55947da010574d7e7c1" category="doc">SANtricity 소프트웨어에서 미러 일관성 그룹 역할 변경</block>
+  <block id="0d1b357841241bc8e28cae55f9a67ffd" category="doc">SANtricity 소프트웨어에서 미러링된 쌍의 볼륨 역할 변경에 대해 알아보세요.</block>
+  <block id="cc26556700cde643f7a4998ca0976a84" category="doc">SANtricity System Manager에서 미러링된 쌍에 대한 동기화 일시 중지 및 재개</block>
+  <block id="792c6be07e358d94fe968a169f79db04" category="doc">SANtricity System Manager에서 미러 일관성 그룹에 대한 동기화를 일시 중지하거나 다시 시작합니다.</block>
+  <block id="9212fc74e3a656c3e279ca35e552e4b8" category="doc">SANtricity System Manager의 동기식 미러링 상태에 대해 알아보세요.</block>
+  <block id="4f8462d7e51cbebb3142f0e3ef3307d5" category="doc">SANtricity 소프트웨어의 동기식 미러링 용어에 대해 알아보세요</block>
+  <block id="43a0f9d96717dc640a9f5807452d5629" category="doc">SANtricity System Manager의 미러 일관성 그룹에 대한 테스트 통신</block>
+  <block id="440e769d8cd1305095a160989cbe81dc" category="doc">SANtricity System Manager에서 동기식 미러링을 위한 테스트 통신</block>
+  <block id="515576da6c365e178e990e12007bd60f" category="doc">SANtricity System Manager에서 원격 스토리지 어레이 IP 주소 업데이트</block>
+  <block id="8d7b05b34155e2c1e475071247cd76bf" category="doc">SANtricity System Manager에서 미러 일관성 그룹 간의 동기화되지 않은 데이터 양을 확인합니다.</block>
+  <block id="2362f7bbc535b1dc6072c22c675c861e" category="doc">SANtricity 소프트웨어의 비동기 미러링에서 볼륨 소유권에 대해 알아보세요.</block>
+  <block id="91eafc3e8b902bfe2e658f3494dadf73" category="doc">SANtricity 소프트웨어의 동기식 미러링에서 볼륨 소유권에 대해 알아보세요.</block>
+  <block id="8a5d4160ce799475585f4a484b087ea4" category="doc">SANtricity 소프트웨어에서 볼륨을 비동기적으로 미러링합니다.</block>
+  <block id="6269a17f543c70330eed460dfbeb80cf" category="doc">SANtricity 소프트웨어에서 볼륨을 동기식으로 미러링합니다.</block>
+  <block id="a8fbfce67e03a9242f79c779433628dd" category="doc">SANtricity 소프트웨어의 액세스 관리 용어에 대해 알아보세요</block>
+  <block id="7e99fcc276ed873dd7e2a3253d7cb578" category="doc">SANtricity System Manager에서 액세스 토큰 생성</block>
+  <block id="bfb6bcf04fa0010ea3a31baca8a4c547" category="doc">SANtricity System Manager에서 액세스 토큰 설정 편집</block>
+  <block id="a8e01fd75b10b5cf4680125403fa6462" category="doc">SANtricity System Manager에서 액세스 토큰 취소</block>
+  <block id="98e180b1b51e3a769b6b400a853b4fee" category="doc">액세스 토큰과 SANtricity 소프트웨어에 대해 알아보세요</block>
+  <block id="12ef56ab57abceebe446bc84df46db66" category="doc">SANtricity System Manager에서 디렉토리 서비스를 사용하여 액세스 관리 구성</block>
+  <block id="651d31373dfaa6016c9970348683a4e2" category="doc">SANtricity System Manager에서 로컬 사용자 역할로 액세스 관리 구성</block>
+  <block id="f89df32ddf89eeb4831e3ce927641b0d" category="doc">SANtricity System Manager에서 SAML을 사용하여 액세스 관리 구성</block>
+  <block id="f385220cdc8e60569df92b9d7eabb4c8" category="doc">SANtricity System Manager에서 알림에 대한 이메일 주소 추가</block>
+  <block id="9f2b00c7fbe58a2fc27cd5892bd6e8e1" category="doc">SANtricity System Manager에서 SNMPv2c 트랩에 대한 커뮤니티 추가</block>
+  <block id="2996b5d1f418841877ba521f22a1ac71" category="doc">SANtricity System Manager에 LDAP 디렉토리 서버 추가</block>
+  <block id="1add2c602a73f70727dcc02ebc0183e3" category="doc">SANtricity 소프트웨어의 추가 기능 용어에 대해 알아보세요</block>
+  <block id="5ed0f81554ae0eabdac354f2903435d3" category="doc">SANtricity System Manager에서 경고를 위한 syslog 서버 추가</block>
+  <block id="b852b03f5700ffec0f5633999d44ad03" category="doc">SANtricity System Manager에서 SNMP 경고에 대한 트랩 대상 추가</block>
+  <block id="a624afafd42ea61e954286a8478cdcb4" category="doc">SANtricity System Manager에서 SNMPv3 트랩에 대한 사용자 추가</block>
+  <block id="1384d2ebe5e4c835b00521b4dd55cb63" category="doc">SANtricity 소프트웨어의 알림 용어에 대해 알아보세요</block>
+  <block id="cde20b00c713a71024aaf6b91fb3a41f" category="doc">SANtricity 소프트웨어의 자동 로드 밸런싱에 대해 알아보세요</block>
+  <block id="de4e7575d8ffa712788e75757d5fa706" category="doc">SANtricity System Manager에서 보안 키 백업</block>
+  <block id="27960f0a7db696fb979bb30c1917b6b0" category="doc">SANtricity 소프트웨어의 인증서 용어에 대해 알아보세요</block>
+  <block id="9133825713be9d2a3ddcdaa373e14c01" category="doc">SANtricity System Manager에서 스토리지 어레이 캐시 설정 변경</block>
+  <block id="bbecc1006f2bb4546d102f8a67203b01" category="doc">SANtricity System Manager에서 기본 호스트 유형 변경</block>
+  <block id="88eb4f592a68d5776107d8c99a7066ce" category="doc">SANtricity System Manager에서 로컬 사용자 암호 설정 변경</block>
+  <block id="51cbce9ae4c6738cdb655b2add2d3463" category="doc">SANtricity System Manager에서 비밀번호 변경</block>
+  <block id="5dc76fd987aab3a3fbf897b0ec2a80aa" category="doc">SANtricity System Manager에서 SAML 역할 매핑 변경</block>
+  <block id="f974f2a8ea64ba654368b13b359c8e80" category="doc">SANtricity System Manager에서 보안 키 변경</block>
+  <block id="c3b02d54822be7ed1b1a37dca62e2a89" category="doc">SANtricity System Manager에서 스토리지 어레이 구성 지우기</block>
+  <block id="d311e680ec4a09af5d99abdf07494585" category="admonition">스토리지 배열이 복구 모드로 전환됩니다. 스토리지 배열을 사용하기 전에 복구 모드를 해제해야 합니다. 자세한 내용은 을<block ref="2001d2a7db4dcda6fdf0cd414d6f8462" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="f907479db49f2301fb89eb887513c6c4" category="doc">SANtricity System Manager에서 iSCSI 인증 구성</block>
+  <block id="9129e2c71e39b1808fe77d677121f39d" category="doc">SANtricity System Manager에서 로그인 배너 구성</block>
+  <block id="c819a7dac222c0c592d7eeaffa79fd13" category="doc">SANtricity System Manager에서 메일 서버 및 알림 수신자 구성</block>
+  <block id="75f3ae3f8c17bc63af094f2dbf71af02" category="doc">SANtricity System Manager에서 SAML 구성</block>
+  <block id="440dec11d54b9a34e0e895e508ec1828" category="doc">SANtricity System Manager에서 SNMP 알림 구성</block>
+  <block id="91edc2da7832cd81e8040e979a904659" category="doc">SANtricity System Manager에서 SNMP MIB 변수 구성</block>
+  <block id="078ea06e0d382d047e720a212443d871" category="doc">SANtricity System Manager에서 경고를 위한 syslog 서버 구성</block>
+  <block id="304d676949c7e0155bcb685b1c2fb796" category="doc">SANtricity System Manager에서 감사 로그에 대한 syslog 서버 구성</block>
+  <block id="c0183ac54c5bccbeed16642ac6b34e07" category="doc">SANtricity System Manager에서 외부 보안 키 생성</block>
+  <block id="6b6193161b48b7cde8c03b98217111a7" category="doc">SANtricity System Manager에서 내부 보안 키 생성</block>
+  <block id="8161c0ee73ae73fc37314c652c79df73" category="doc">SANtricity 소프트웨어의 기본 호스트 운영 체제 유형에 대해 알아보세요.</block>
+  <block id="3613e7f17ca120b9580d1049fd30f81f" category="doc">SANtricity System Manager에서 감사 로그 정책 정의</block>
+  <block id="79a30833cf9264cdbc802ba226109b82" category="doc">SANtricity System Manager에서 알림에 대한 메일 서버 또는 이메일 주소 삭제</block>
+  <block id="cdc405abaf604313bed59282a1203e8c" category="doc">SANtricity System Manager의 감사 로그에서 이벤트 삭제</block>
+  <block id="45537ac2660f470d89198d9cced18fe9" category="doc">SANtricity System Manager에서 경고에 대한 syslog 서버 삭제</block>
+  <block id="4e6256ca8c4fa71022d3eaeee97b3b8c" category="doc">SANtricity System Manager에서 트랩 대상 삭제</block>
+  <block id="f619b095ff69ee2e39492981fab79a75" category="doc">SANtricity System Manager에서 신뢰할 수 있는 인증서 삭제</block>
+  <block id="a51e02ec23d44482ee35f52a6cee39df" category="doc">SANtricity 명령줄 인터페이스(CLI) 다운로드</block>
+  <block id="2f525b8539b39a67b470766447ab5bca" category="doc">SANtricity 소프트웨어의 드라이브 보안 용어에 대해 알아보세요</block>
+  <block id="ccef233b8aa60591e10f80e9a07fa49b" category="doc">SANtricity System Manager에서 알림에 대한 이메일 주소 편집</block>
+  <block id="1f3d1096e329e5b75789b8b8e9ea9a0d" category="doc">SANtricity System Manager에서 SNMPv2c 트랩에 대한 커뮤니티 편집</block>
+  <block id="e4fb8c940c30270291074c679a4c023e" category="doc">SANtricity System Manager에서 디렉토리 서버 설정 및 역할 매핑 편집</block>
+  <block id="578a2b0614cfa178dd5cbacd04b5fb2d" category="doc">SANtricity System Manager에서 키 관리 서버 설정 편집</block>
+  <block id="3823a38109a4335d2c849eec94137fb7" category="doc">SANtricity System Manager에서 알림을 위한 메일 서버 편집</block>
+  <block id="d9542b18a89159e096db1016f8d829c3" category="doc">SANtricity System Manager에서 스토리지 어레이 이름 편집</block>
+  <block id="c9ba2e77e2a82fcac91ea09c7c958050" category="doc">SANtricity System Manager에서 감사 로그 레코드에 대한 syslog 서버 설정 편집</block>
+  <block id="a8119e85bf377d3c639c56a0a32f52ba" category="doc">SANtricity System Manager에서 경고에 대한 syslog 서버 편집</block>
+  <block id="fd73f1b2be5817f542818738ca756ac3" category="doc">SANtricity System Manager에서 SNMPv3 트랩에 대한 사용자 설정 편집</block>
+  <block id="cd6772c520ae61b2688e50ac62b1a1d2" category="doc">SANtricity System Manager에서 인증서 해지 확인 활성화</block>
+  <block id="6dc937bc5628a4386cadff95dc13abbf" category="doc">SANtricity System Manager에서 기능 팩 활성화</block>
+  <block id="a6e39f09e3f79f9b3c4efeca18492765" category="doc">SANtricity System Manager에서 iSCSI 검색 설정 활성화</block>
+  <block id="95d8541a159451a64c0bdb938e4bcf77" category="doc">SANtricity System Manager에서 레거시 관리 인터페이스 활성화 또는 비활성화</block>
+  <block id="10aff6802167a5ac9452c8b14db4242c" category="doc">SANtricity System Manager에서 새 볼륨 그룹 또는 풀에 대한 리소스 프로비저닝을 활성화하거나 비활성화합니다.</block>
+  <block id="0abacd1ccd573c3fe9da6489ccb14a34" category="doc">SANtricity System Manager에서 프리미엄 기능 활성화</block>
+  <block id="d58c9e6d59208ed869a5a6027d70f7f1" category="doc">SANtricity System Manager에서 iSCSI 세션 종료</block>
+  <block id="6f498623a1b6cc1d1ed3a98feb04e6c4" category="doc">SANtricity System Manager에서 키 관리 서버 인증서 내보내기</block>
+  <block id="94637ab9cad9908845d1b9eb4a7a3f5b" category="doc">SANtricity System Manager에서 SAML 서비스 공급자 파일 내보내기</block>
+  <block id="ee5e02e3e6430426582311b05aa6660c" category="doc">SANtricity System Manager에서 액세스 관리가 작동하는 방식</block>
+  <block id="328c77bafebc1309c9997752d43bbd57" category="doc">SANtricity System Manager에서 추가 기능이 작동하는 방식</block>
+  <block id="1d3bc635d79ab3544cca66f6b35fc8a7" category="doc">SANtricity System Manager에서 알림이 작동하는 방식</block>
+  <block id="2d08c425e5df039556cb7f8b1cf9b3ff" category="doc">SANtricity System Manager에서 인증서가 작동하는 방식</block>
+  <block id="27bdf3ead650486aebb952ecf83b0f4a" category="doc">SANtricity System Manager에서 보안 키 관리가 작동하는 방식</block>
+  <block id="0127eb4ceb8184bc8788f2f8e705e869" category="doc">SANtricity System Manager에서 드라이브 보안 기능이 작동하는 방식</block>
+  <block id="a0deb44d63d5f738f7550059d305633f" category="doc">SANtricity System Manager에서 클라이언트로 작동할 때 컨트롤러에 대한 인증서 가져오기</block>
+  <block id="acb821d135d279a55a79fc28435f0e27" category="doc">SANtricity System Manager에서 세션 시간 초과 관리</block>
+  <block id="5f822c60893c9bb2c258abe33195c314" category="doc">NVMe 및 SANtricity 소프트웨어에 대해 알아보세요</block>
+  <block id="90e38527b9b59d98d9e61a2e9b208145" category="doc">SANtricity System Manager에서 기능 키 파일을 가져옵니다.</block>
+  <block id="394c8ed9f3c223f9bcf489a180184e41" category="doc">SANtricity System Manager의 액세스 관리에 대해 알아보세요</block>
+  <block id="e7d845895b4a8391f704543dddac2b30" category="doc">SANtricity System Manager의 알림에 대해 알아보세요</block>
+  <block id="4e0705446c75aaa8c722d01477add263" category="doc">SANtricity System Manager의 인증서에 대해 알아보세요</block>
+  <block id="2cacee96f6e579cecc30bd9716d2b304" category="doc">SANtricity System Manager의 드라이브 보안에 대해 알아보세요</block>
+  <block id="ae48cd923fae951bb620af759c7d55b2" category="doc">SANtricity System Manager의 설정 개요에 대해 알아보세요.</block>
+  <block id="18edfcf681469261c28a2bea1990ea7c" category="doc">SANtricity System Manager에서 매핑된 역할에 대한 권한에 대해 알아보세요.</block>
+  <block id="fbf1a8e12861c428c9880acfae54cb14" category="doc">SANtricity System Manager에서 SNMPv2c 트랩에 대한 커뮤니티 제거</block>
+  <block id="f4e6a2ce83fceea85080a8b1da16b11b" category="doc">SANtricity System Manager에서 디렉토리 서버 제거</block>
+  <block id="0e0b711e14d848611081dd0c7c5bfd84" category="doc">SANtricity System Manager에서 SNMPv3 트랩에 대한 사용자 제거</block>
+  <block id="c93553d53b7594a2f55ac551dee2a7cd" category="doc">SANtricity System Manager에서 관리 인증서 재설정</block>
+  <block id="22df0766fabfc3aa8c477941ae92c9d1" category="doc">SANtricity System Manager에서 스토리지 어레이 구성 저장</block>
+  <block id="9250977b6fc74e450587fba1db99f008" category="doc">SANtricity System Manager에서 자동 부하 분산 설정</block>
+  <block id="4e70ce522d6b7b255672b9f2b7f05e54" category="doc">SANtricity System Manager에서 호스트 연결 보고 설정</block>
+  <block id="00777c3320e115287926e31250ef4795" category="doc">SANtricity System Manager에서 외부 키 관리에서 내부 키 관리로 전환</block>
+  <block id="6920c227f5515cf38df838a7fe711fbb" category="doc">SANtricity System Manager에서 스토리지 어레이 클럭 동기화</block>
+  <block id="d39867f534eecef2c702a868fff1675b" category="doc">SANtricity System Manager에서 스토리지 어레이 로케이터 표시등 켜기</block>
+  <block id="64b2495c2fe314d34754523613020356" category="doc">SANtricity System Manager에서 외부 키 관리를 사용할 때 드라이브 잠금 해제</block>
+  <block id="390e79029af21ff41137881f05857435" category="doc">SANtricity System Manager에서 내부 키 관리를 사용할 때 드라이브 잠금 해제</block>
+  <block id="dab3bfe38b7f2554e1401a2ef31824e9" category="doc">SANtricity System Manager에서 키 관리 서버 인증을 위해 CA 서명 인증서 사용</block>
+  <block id="bdae02098d2024cc99f583c8528a34e0" category="doc">SANtricity System Manager의 컨트롤러에 CA 서명 인증서 사용</block>
+  <block id="ac84474de686243b90bb777f8ce6e019" category="doc">SANtricity System Manager에서 보안 키 검증</block>
+  <block id="838be43bb8157a4382de7c0df9a5848e" category="doc">SANtricity System Manager에서 감사 로그 활동 보기</block>
+  <block id="39362ae8f84d6584f46edbb1ea9c559a" category="doc">SANtricity System Manager에서 가져온 인증서 정보 보기</block>
+  <block id="aff17649c80932061abc5a42b1abbe5f" category="doc">SANtricity System Manager에서 iSCSI 세션 보기</block>
+  <block id="847baa2f24dccef8116075c271dc72e7" category="doc">SANtricity System Manager에서 iSCSI 통계 패키지 보기</block>
+  <block id="6358465b52f1825fa1da1a26df55562a" category="doc">SANtricity System Manager에서 InfiniBand 통계를 통한 iSER 보기</block>
+  <block id="d38bece8b648942330106166d2cdf120" category="doc">SANtricity System Manager에서 로컬 사용자 역할 보기</block>
+  <block id="d5e080d237b212ab36f7152eaca280fe" category="doc">SANtricity System Manager에서 NVMe over Fabrics 통계 보기</block>
+  <block id="3d537bd80e746a786e54f263aba798db" category="doc">SANtricity System Manager에서 볼륨 액세스</block>
+  <block id="7ae0437fb66cb1d11d9ba880d1855d4c" category="doc">SANtricity System Manager에서 볼륨에 수행할 수 있는 작업</block>
+  <block id="ba8875d55ed38186f452f0779c05022c" category="doc">SANtricity System Manager에서 스냅샷 일정 활성화 및 일시 중지</block>
+  <block id="12646556c051d8afb3253ce36273ad1c" category="doc">SANtricity System Manager에서 풀 또는 볼륨 그룹에 용량 추가</block>
+  <block id="c5a40eee53e3a6a046bdea74e93f749f" category="doc">SANtricity System Manager에서 스냅샷 일관성 그룹에 멤버 볼륨 추가</block>
+  <block id="c82d281f4a42668c59b407c5439f7041" category="doc">SANtricity System Manager에서 작업 부하에 볼륨 추가</block>
+  <block id="346683dc1d86ee2232d45a02874e70f6" category="doc">SANtricity System Manager에서 호스트에 볼륨 할당</block>
+  <block id="509488a264daaa2f4c25a1fa7afa1f46" category="doc">SANtricity System Manager에서 자동 풀 생성과 수동 풀 생성에 대해 알아보세요.</block>
+  <block id="80764ae4bac51ce96a179980b0272cd5" category="doc">SANtricity System Manager에서 보류 중인 스냅샷 이미지 취소</block>
+  <block id="a5f504929c631626bde694e07e40402f" category="doc">SANtricity System Manager에서 스냅샷 이미지 롤백 취소</block>
+  <block id="f6451e9b8258e70783f6678ce4a78412" category="doc">SANtricity System Manager에서 볼륨에 대한 용량이 할당되는 방식</block>
+  <block id="a22bf3ba1965f4018179bbe16740c08b" category="doc">SANtricity 소프트웨어의 용량 용어에 대해 알아보세요</block>
+  <block id="9e7606366310838bc01463b6e40b71cf" category="doc">SANtricity System Manager에서 씬 볼륨에 할당된 용량 제한 변경</block>
+  <block id="ba7d755ec0c4f655c206cd6915083206" category="doc">SANtricity System Manager에서 볼륨의 캐시 설정 변경</block>
+  <block id="876346aa2afb1152de2f75b929ce9a97" category="doc">SANtricity System Manager에서 풀의 구성 설정 변경</block>
+  <block id="8771cd1871dc7f6b5ea1555fac615482" category="doc">SANtricity System Manager에서 볼륨 그룹에 대한 구성 설정 변경</block>
+  <block id="5d7ac761a2adcb6471bc2396180e6cd7" category="doc">SANtricity System Manager에서 볼륨의 컨트롤러 소유권 변경</block>
+  <block id="9d0eef6ca8a369214dae3893a569a26d" category="doc">SANtricity System Manager에서 호스트의 호스트 포트 식별자 변경</block>
+  <block id="976d5b100c8bb46a978d025d54df9db7" category="doc">SANtricity System Manager에서 볼륨의 미디어 스캔 설정 변경</block>
+  <block id="32106203ac6ae6e19b181aff1dbd5ed2" category="doc">SANtricity System Manager에서 볼륨 설정 변경</block>
+  <block id="d93ede7c0a9199ba535682cd36adfd6b" category="doc">SANtricity System Manager에서 SSD 캐시 설정 변경</block>
+  <block id="322aaec0ca97fbcb9472361aaa86b9bb" category="doc">SANtricity System Manager에서 일관성 그룹 멤버 볼륨에 대한 예약된 용량 설정 변경</block>
+  <block id="2129449eac2f1abcf7571dadc500ed44" category="doc">SANtricity System Manager에서 스냅샷 그룹의 예약된 용량 설정 변경</block>
+  <block id="1a58763a2cba36bf2c96c197a7468796" category="doc">SANtricity System Manager에서 스냅샷 볼륨에 대한 예약된 용량 설정 변경</block>
+  <block id="ae19203212746b298487caffc894114f" category="doc">SANtricity System Manager에서 호스트 클러스터의 설정 변경</block>
+  <block id="8a7e1ef4bbc2211e7f5a82552f991017" category="doc">SANtricity System Manager에서 호스트 설정 변경</block>
+  <block id="027bd5c8f9103029b8be80e9fbb4c8f8" category="doc">SANtricity System Manager에서 스냅샷 일관성 그룹에 대한 설정 변경</block>
+  <block id="02c61f2208b07fccaf99cf3021683fca" category="doc">SANtricity System Manager에서 스냅샷 일정에 대한 설정 변경</block>
+  <block id="2d7b65b82c1f0b9693bcaec90915566b" category="doc">SANtricity System Manager에서 스냅샷 볼륨의 볼륨 설정 변경</block>
+  <block id="2bbf6db559a55a9597ef3a1331156b4b" category="doc">SANtricity System Manager에서 작업 부하 설정 변경</block>
+  <block id="7b593eeadba9048e035e5e95858a4f3f" category="doc">SANtricity System Manager에서 볼륨 중복성 확인</block>
+  <block id="0097a0f3241434bae78043e2c521dcb5" category="doc">SANtricity 소프트웨어에서 두꺼운 볼륨과 얇은 볼륨에 대해 알아보세요</block>
+  <block id="9483c72f80e16ad2a8994ff6242b6fbf" category="doc">SANtricity System Manager에서 볼륨 그룹의 여유 용량 통합</block>
+  <block id="cebf235e245ac1727a4fb08543606201" category="doc">SANtricity System Manager에서 스냅샷 볼륨을 읽기-쓰기 모드로 변환</block>
+  <block id="94e367453c588ed2953d8cdaf12bd179" category="doc">SANtricity System Manager에서 스냅샷 볼륨 복사</block>
+  <block id="e28693570486edcbf19eae6d1bf4e000" category="doc">SANtricity System Manager에서 볼륨 복사에 대해 알아보세요</block>
+  <block id="cb4d76dfabd71388f81783d1f6683914" category="doc">SANtricity System Manager에서 볼륨 복사</block>
+  <block id="45ee11bb89ac8fecb5fedf3c63bca9ae" category="doc">SANtricity System Manager에서 호스트 클러스터를 만듭니다.</block>
+  <block id="d5a35385e3c41cf9fd9e2f0a4a94c813" category="doc">SANtricity System Manager에서 수동으로 호스트 생성</block>
+  <block id="9469b5d2a997e9b9a4959b3cd44efbda" category="doc">SANtricity System Manager에서 자동으로 풀 생성</block>
+  <block id="f6d986e7a4c8c449c4df2c55a996b739" category="doc">SANtricity System Manager에서 수동으로 풀 생성</block>
+  <block id="385f418e214bdb6723032ee80bc9d225" category="doc">SANtricity System Manager에서 스냅샷 일관성 그룹 생성</block>
+  <block id="96f6bbb92838490ba4cfd5e4fdb34676" category="doc">SANtricity System Manager에서 스냅샷 이미지 생성</block>
+  <block id="092ce361ed9559ba823bac0c5c8c97be" category="doc">SANtricity System Manager에서 스냅샷 볼륨을 생성합니다.</block>
+  <block id="eb3abb20820606d928fae99a14f6f642" category="doc">SANtricity System Manager에서 SSD 캐시 만들기</block>
+  <block id="241d4844735147be96e18c62745d0aba" category="doc">SANtricity System Manager에서 볼륨 그룹 생성</block>
+  <block id="d70d3c3654f0dc1516e419e794c4e634" category="doc">SANtricity System Manager에서 볼륨 생성</block>
+  <block id="ee8139e7a79d1303ae381079df78417a" category="doc">SANtricity System Manager에서 워크로드 생성</block>
+  <block id="9e8f2d62c9dcd77c3af552f4dc422803" category="doc">SANtricity 소프트웨어의 볼륨에 대한 데이터 무결성 및 데이터 보안에 대해 알아보세요.</block>
+  <block id="a972ddc2555e0c0f6f4250942ecf95ce" category="doc">SANtricity 소프트웨어의 풀 및 볼륨 그룹에 대해 알아보세요</block>
+  <block id="37e9db9b7a1415532978e5e59b0e1792" category="doc">SANtricity System Manager에서 예약된 용량 감소</block>
+  <block id="0f065244a3565fda62f0c2976c388d92" category="doc">SANtricity System Manager에서 호스트 또는 호스트 클러스터 삭제</block>
+  <block id="c5c9cf2ee2dcd4d87d04772b62b322f4" category="doc">SANtricity System Manager에서 풀 또는 볼륨 그룹 삭제</block>
+  <block id="09ddd2005bda93faab1279791c1ad740" category="doc">SANtricity System Manager에서 스냅샷 일관성 그룹 삭제</block>
+  <block id="35a797765daa950b34d70d1b300689a5" category="doc">SANtricity System Manager에서 스냅샷 그룹 삭제</block>
+  <block id="9e77eb00cb754a6a026e090b87e2b312" category="doc">SANtricity System Manager에서 스냅샷 이미지 삭제</block>
+  <block id="bed6e6ab9580560abff8902133b2d790" category="doc">SANtricity System Manager에서 스냅샷 일정 삭제</block>
+  <block id="bb911c27080e432d25f5cd8fb82c2f19" category="doc">SANtricity System Manager에서 스냅샷 볼륨 삭제</block>
+  <block id="699d3c8de2c6b58221acff3442153e07" category="doc">SANtricity System Manager에서 볼륨 삭제</block>
+  <block id="eb78bb0efa13b98850811f7037ae0248" category="doc">SANtricity System Manager에서 기존 볼륨 그룹 및 풀에 대한 리소스 프로비저닝을 활성화하거나 비활성화합니다.</block>
+  <block id="1c92a73211bcb188f3b5f2030d1a25ec" category="doc">SANtricity System Manager에서 스냅샷 볼륨 비활성화</block>
+  <block id="acca3d436b0bbe84c91c35c048a92083" category="doc">SANtricity System Manager에서 풀 또는 볼륨 그룹에 대한 보안 활성화</block>
+  <block id="fbca024c709800ed9d79d8d98711710e" category="doc">SANtricity CLI에서 볼륨 그룹 내보내기/가져오기</block>
+  <block id="784971b82053a9ec4e8b050ed269b12e" category="doc">SANtricity 소프트웨어의 호스트 용어에 대해 알아보세요</block>
+  <block id="72a46a8edc58469b2f88fda748ddd4bb" category="doc">SANtricity 소프트웨어에서 풀과 볼륨 그룹이 작동하는 방식</block>
+  <block id="e262c7061ccf9614b315a45f2b000f9e" category="doc">SANtricity 소프트웨어에서 예약된 용량이 작동하는 방식</block>
+  <block id="9266af538e0dac8d3b6cac89f8d44f98" category="doc">SANtricity 소프트웨어에서 스냅샷 스토리지가 작동하는 방식</block>
+  <block id="3238be27f78645ac1292e42c24181394" category="doc">SANtricity 소프트웨어에서 SSD 캐시가 작동하는 방식</block>
+  <block id="c5e2b4d9edd295e4401e7a8af50e8885" category="doc">SANtricity 소프트웨어에서 볼륨이 호스트 및 호스트 클러스터에 할당되는 방식</block>
+  <block id="2cf3377f31335a0a3de5985e36ada500" category="doc">SANtricity 소프트웨어에서 볼륨이 작동하는 방식</block>
+  <block id="b5737f8b0357274da1616dd64fdf26d9" category="doc">SANtricity 소프트웨어에서 워크로드가 작동하는 방식</block>
+  <block id="f9ab1379c579b2393b9bf8aba288559d" category="doc">SANtricity System Manager에서 볼륨 용량 늘리기</block>
+  <block id="fe02b7fc1c3f72ac227996fa4fd0227a" category="doc">SANtricity System Manager에서 볼륨 초기화</block>
+  <block id="9d4b81d6353945511bba44b53f060178" category="doc">SANtricity System Manager에서 성능 데이터 해석</block>
+  <block id="b8f664f5fc973a8d1f414e6e339615b0" category="doc">SANtricity System Manager에서 애플리케이션 및 작업 부하 관리</block>
+  <block id="ad45b02bb613f89a36807319b8b1c991" category="doc">SANtricity System Manager에서 수동 호스트 생성에 대해 알아보세요.</block>
+  <block id="341c80e43a8a914f71a2e7ad4a5f7fda" category="doc">SANtricity 소프트웨어의 최대 LUN 수에 대해 알아보세요</block>
+  <block id="5910120f88b026d84ccb959f3e061afb" category="doc">SANtricity System Manager에서 씬 볼륨 모니터링</block>
+  <block id="dd0d36753dad2d9b708f3e0143f81e15" category="doc">SANtricity 소프트웨어의 호스트 및 호스트 클러스터에 대해 알아보세요</block>
+  <block id="84606dd9cabb3b19867d6f645fd8c8a8" category="doc">SANtricity System Manager의 성능 개요에 대해 알아보세요</block>
+  <block id="6153428cf786fb4d7b2d14144b207d2d" category="doc">SANtricity System Manager의 풀 및 볼륨 그룹에 대해 알아보세요.</block>
+  <block id="31599231d5b8254d0d62975d0cdbf117" category="doc">SANtricity System Manager의 원격 저장소 기능에 대해 알아보세요</block>
+  <block id="c208bf91e8a0df25bb7b48152e8204a5" category="doc">SANtricity System Manager의 스냅샷에 대해 알아보세요</block>
+  <block id="b5a3371dc2d8a29f4873f495b92d247a" category="doc">SANtricity System Manager의 볼륨 및 작업 부하에 대해 알아보세요.</block>
+  <block id="731e43a989aca6062649b6099aea7cd9" category="doc">SANtricity System Manager의 성능 그래프와 지침에 대해 알아보세요.</block>
+  <block id="d3c3d5c671cfe29f288d108c475d0cea" category="doc">SANtricity 소프트웨어의 성능 용어에 대해 알아보세요</block>
+  <block id="e47dd25f85e15805b5f310c947b42bca" category="doc">SANtricity System Manager에서 스냅샷 볼륨을 다시 생성합니다.</block>
+  <block id="70474cf06dc73d58a01a97006cd687ed" category="doc">SANtricity System Manager에서 볼륨 재분배</block>
+  <block id="1f5cc0774a4c5896a1fb25c090efb928" category="doc">SANtricity System Manager에서 풀 또는 SSD 캐시의 용량 제거</block>
+  <block id="da30c6e6de44aadac9f61229e5115658" category="doc">SANtricity System Manager에서 스냅샷 일관성 그룹에서 멤버 볼륨 제거</block>
+  <block id="f2db3cbe9a176b268ceff67072def08d" category="doc">SANtricity System Manager의 스냅샷에 대한 요구 사항 및 지침</block>
+  <block id="532efc960c239d58c30eb4d8254f3ac4" category="doc">SANtricity System Manager에서 스냅샷 이미지 롤백 재개</block>
+  <block id="83e9ff341dfee574c32441ab8b662616" category="doc">SANtricity 소프트웨어에서 원격 스토리지가 작동하는 방식</block>
+  <block id="e6ac89d8f6549854ff238879c90d974e" category="doc">SANtricity System Manager에서 원격 스토리지 가져오기</block>
+  <block id="a5a3cec422c98a6055cafd0fbb1884d1" category="doc">SANtricity System Manager에서 원격 스토리지 가져오기 진행 상황 관리</block>
+  <block id="7f5129743a0f50bc41a8c9a062a8bab5" category="doc">SANtricity System Manager에서 원격 저장소에 대한 연결 설정 수정</block>
+  <block id="2e2d253f7cd81ceb6bcba438c519b2ee" category="doc">SANtricity 소프트웨어의 원격 저장소 기능 요구 사항에 대해 알아보세요.</block>
+  <block id="f7776c2d857931b11f315d9f567809aa" category="doc">SANtricity 소프트웨어의 원격 저장소 볼륨 요구 사항에 대해 알아보세요.</block>
+  <block id="fccbb682788c68809a3443edfb4277e8" category="doc">SANtricity System Manager에서 원격 저장소 개체 제거</block>
+  <block id="9bbd2c41600fb135b12ce4e029570cb3" category="doc">SANtricity 소프트웨어의 원격 저장소 용어에 대해 알아보세요</block>
+  <block id="9995bb9afc99d41ab721f7f8cd86534a" category="doc">SANtricity System Manager에서 스냅샷 이미지 예약</block>
+  <block id="c0b569d8ce87ac810947f22fb4605077" category="doc">SANtricity 소프트웨어의 스냅샷 롤백에 대해 알아보세요</block>
+  <block id="f8e23923415fcce5a7cdcdc2257e6d85" category="doc">SANtricity System Manager의 스냅샷 일정 및 스냅샷 일관성 그룹에 대해 알아보세요.</block>
+  <block id="b69d32f5fb8ab10915adbba619c0017e" category="doc">SANtricity 소프트웨어의 스냅샷 용어에 대해 알아보세요</block>
+  <block id="d1ed0fc7b9cdd69553d3bb787eec62b7" category="doc">SANtricity 소프트웨어의 스냅샷 볼륨에 대해 알아보세요</block>
+  <block id="6e9294ea12dc5399b02d69ef241e9fa9" category="doc">SANtricity 소프트웨어의 SSD 캐시 및 볼륨에 대해 알아보세요</block>
+  <block id="5d33e25c1d367155f7d3cae11424abaa" category="doc">SANtricity 소프트웨어의 SSD 캐시 제한 사항에 대해 알아보세요</block>
+  <block id="77f06e6fcf7554f7eea00f34f27b1301" category="doc">SANtricity System Manager에서 기본 볼륨에 대한 스냅샷 이미지 롤백을 시작합니다.</block>
+  <block id="d598aebdbf681a329fb0199bc184638c" category="doc">SANtricity System Manager에서 스냅샷 일관성 그룹 멤버 볼륨에 대한 스냅샷 이미지 롤백을 시작합니다.</block>
+  <block id="f148978799622908e86625a1be990510" category="doc">SANtricity System Manager에서 볼륨 복사 작업에 대한 조치를 취하세요.</block>
+  <block id="21a1be4e8d1df5431436d38683ed51b8" category="doc">SANtricity 소프트웨어에서 씬 볼륨 모니터링에 대해 알아보세요</block>
+  <block id="70bac6cb7596a1c5682c0b4051f0160e" category="doc">SANtricity 시스템 관리자에서 풀, 볼륨 그룹 또는 SSD 캐시의 로케이터 표시등 켜기</block>
+  <block id="fa7759509da8c7c79ae9fb63775d856a" category="doc">SANtricity 소프트웨어에서 볼륨 복사 작업 유형에 대해 알아보세요.</block>
+  <block id="d6e8360b2cb0d8e3e14484b82709a35a" category="doc">SANtricity System Manager에서 볼륨 할당 해제</block>
+  <block id="83fc0ebc2ad61a3e97ce59f4fb9047f9" category="doc">SANtricity System Manager에서 표 형식의 성능 데이터를 보고 저장합니다.</block>
+  <block id="797fb1139409c1127dd559f83c0bbe6b" category="doc">SANtricity System Manager에서 그래픽 성능 데이터 보기</block>
+  <block id="84d5b685a37be079a60f4b95f43b316a" category="doc">SANtricity System Manager에서 스냅샷 이미지 설정 보기</block>
+  <block id="9b6b546777e9f0c4bf77147600a53b2b" category="doc">SANtricity System Manager에서 SSD 캐시 통계 보기</block>
+  <block id="150d59a7387353231504faf7bf859a37" category="doc">SANtricity 소프트웨어의 볼륨 용어에 대해 알아보세요</block>
+  <block id="03d6e8dbe8844e33147500a449a64865" category="doc">SANtricity System Manager에서 복사 서비스 사용</block>
+  <block id="b39156053f03ed44af37d8f2f50fb255" category="doc">SANtricity System Manager에서 호스트 생성 및 볼륨 할당이 작동하는 방식</block>
+  <block id="718da838e465d1abdbb88f3d4afe63d1" category="doc">SANtricity System Manager에서 스냅샷 이미지 및 스냅샷 볼륨을 생성하는 방법</block>
+  <block id="9d122974ba94e0669b60b1256ad34bfd" category="doc">SANtricity System Manager에서 볼륨 생성이 작동하는 방식</block>
+  <block id="2a6f1c9883df4f32f0e0cce228054d30" category="doc">SANtricity System Manager에서 컨트롤러 소프트웨어 및 펌웨어 활성화</block>
+  <block id="dcc654c03fdd53146e27ae86d2a8d251" category="doc">E-Series용 AutoSupport에 대해 알아보세요</block>
+  <block id="9e2da9890d81f2a3a0fd3c5aa502bbc2" category="doc">SANtricity 소프트웨어에서 복구 모드 지우기</block>
+  <block id="cad307494928a47597a4d3f3f22e0549" category="doc">SANtricity System Manager에서 구성 데이터 수집</block>
+  <block id="4d610ec1d8da57ef3d3cb976ca9964e6" category="doc">SANtricity System Manager에서 I/O 경로 통계 수집</block>
+  <block id="3031fc1b7e95f47d5b6e408a1fe1da82" category="doc">SANtricity System Manager에서 수동으로 지원 데이터 수집</block>
+  <block id="204c361119e43c0e1f9b8100678a1eb8" category="doc">SANtricity System Manager에서 AutoSupport 제공 방법 구성</block>
+  <block id="c533a68f4d1b6bd3604cb9c9d7f3efe6" category="doc">SANtricity System Manager에서 AutoSupport 유지 관리 창 비활성화</block>
+  <block id="ceb37a3d20b732f1e9e18a021af8b44d" category="doc">SANtricity System Manager에서 AutoSupport 유지 관리 창 활성화</block>
+  <block id="e6293a2da1040683d4c217a73bcaded8" category="doc">SANtricity System Manager에서 AutoSupport 기능 활성화 또는 비활성화</block>
+  <block id="03445e0c39174a97cf2215c8d7b43557" category="doc">SANtricity System Manager에서 iSCSI 세션 종료</block>
+  <block id="2ef1bc8a31b44790bfa2373dac614173" category="doc">SANtricity 소프트웨어의 이벤트 로그에 대해 알아보세요</block>
+  <block id="2c3df2acde9fe7176be03c82187c5d37" category="doc">SANtricity System Manager에서 지원 받기</block>
+  <block id="6c247fdcaa3825d5dc1ae46f09e8ee20" category="doc">SANtricity 소프트웨어 업그레이드에 대해 알아봅니다</block>
+  <block id="1df40413268ea802e8842361f2930e29" category="doc">SANtricity System Manager에서 드라이브 포트를 다시 활성화합니다.</block>
+  <block id="7463122a32a40f3e04176a4eb5ff44c2" category="doc">SANtricity System Manager에서 상태 이미지 검색</block>
+  <block id="f030d9e0f32f240f816b1c3efb5a9eb0" category="doc">SANtricity System Manager에서 복구 지원 파일 검색</block>
+  <block id="a4004de8d3a6553f6f7b5a30da919b92" category="doc">SANtricity System Manager에서 추적 버퍼 검색</block>
+  <block id="44a6cbe3df16b1a1e8d0858832567f21" category="doc">SANtricity 소프트웨어 및 펌웨어 업그레이드 오류에 대해 알아보세요</block>
+  <block id="0da414b6db8ea25737e4addb928b7678" category="doc">SANtricity System Manager에서 AutoSupport 디스패치 일정 예약</block>
+  <block id="f11e0d8e9c3ee108d5252105d6b3d146" category="doc">SANtricity System Manager에서 AutoSupport 디스패치 보내기</block>
+  <block id="34b42367166dc58389323853b131ce17" category="doc">SANtricity System Manager에서 스토리지 어레이 상태에 대한 복구 작업 수행</block>
+  <block id="9a7c99285024fd1a971ebff677e7e761" category="doc">SANtricity System Manager에서 컨트롤러 소프트웨어 및 펌웨어 업그레이드</block>
+  <block id="e732b095ef437b5257ca69ef28418fcd" category="doc">SANtricity System Manager에서 드라이브 펌웨어 업그레이드</block>
+  <block id="22874b3b9dac20031165078a5de90f4d" category="doc">SANtricity System Manager에서 AutoSupport 로그 보기</block>
+  <block id="22fa42db986406a5c66610591a3e22dd" category="doc">SANtricity System Manager에서 AutoSupport 상태 보기</block>
+  <block id="8b33eabd8c76e2ac31fa5f17bd0e4fff" category="doc">SANtricity System Manager의 이벤트 로그를 사용하여 이벤트 보기</block>
+  <block id="aa3d88e1e49082ff6c7c1cca8a8eac5d" category="doc">SANtricity System Manager에서 소프트웨어 및 펌웨어 인벤토리 보기</block>
+  <block id="664d03b3e0f7be60fce96082fc9602bd" category="doc">SANtricity System Manager에서 스토리지 어레이 정보 보기</block>
+  <block id="526671aab5a269160910a134da3e3986" category="doc">SANtricity System Manager에서 스토리지 어레이 프로필 보기</block>
+  <block id="f1ff77b3a9e0132d7bc42edd71e852cd" category="doc">SANtricity System Manager에서 읽을 수 없는 섹터 로그 보기</block>
+  <block id="599923004690b0c1117d7b708d7321cb" category="doc">SANtricity System Manager에서 AutoSupport 구성</block>
+  <block id="3cd4b94b1c1fffe404c8c018c1791943" category="doc">SANtricity Unified Manager의 관리자 암호 보호에 대해 알아보세요</block>
+  <block id="464b12e0772bcfed1c42bfa46f879dca" category="doc">SANtricity Unified Manager에서 관리자 비밀번호 변경</block>
+  <block id="3438015d59c89bd0f7e2cad7ee17b809" category="doc">SANtricity Unified Manager에서 스토리지 어레이 암호 변경</block>
+  <block id="1204125f1034038b68d1105bbee4cd9a" category="doc">SANtricity Unified Manager에서 세션 시간 초과 관리</block>
+  <block id="a54710832ee5a423064fca5395cf9042" category="doc">SANtricity Unified Manager에 대해 알아보세요</block>
+  <block id="d8dd5de41b5b3a9fcb4c3b7a0881087b" category="doc">SANtricity Unified Manager에 지원되는 브라우저</block>
+  <block id="d851bcacf6cd800c089a36d64d74a181" category="doc">SANtricity Unified Manager 액세스 관리 용어에 대해 알아보세요</block>
+  <block id="c130faf5f75c80684c1dcc31ac0d6406" category="doc">SANtricity Unified Manager의 디렉토리 서비스를 통한 액세스 관리</block>
+  <block id="82a7b453e318f7a3bdf4692ba422e535" category="doc">SANtricity Unified Manager의 로컬 사용자 역할을 통한 액세스 관리</block>
+  <block id="24656b3bd6cf5e93077f7198a4d813e8" category="doc">SANtricity Unified Manager에서 SAML을 사용한 액세스 관리</block>
+  <block id="955cd4a17806922c8ca0dd3c53f0e180" category="doc">SANtricity Unified Manager에 디렉토리 서버 추가</block>
+  <block id="678fed422fa391c5a10436bb093756a0" category="doc">SANtricity Unified Manager의 인증서 용어에 대해 알아보세요</block>
+  <block id="61127992be34b32f41d73f18997a8364" category="doc">SANtricity Unified Manager에서 로컬 사용자 암호 설정 변경</block>
+  <block id="f7423e9d4df8d8e9084556e1c1ff38d9" category="doc">SANtricity Unified Manager에서 로컬 사용자 프로필의 암호 변경</block>
+  <block id="63476dfab5a207f15f6c7bc98ba041c7" category="doc">SANtricity Unified Manager에서 SAML 역할 매핑 변경</block>
+  <block id="d0a4a6c7d15aa5527d6ff89876367125" category="doc">SANtricity Unified Manager에서 SAML 구성</block>
+  <block id="3dcf9c1dd1b4202a536110fd5cce94a2" category="doc">SANtricity Unified Manager에서 신뢰할 수 있는 인증서 삭제</block>
+  <block id="5a69d2b6ebb82e6f7ad7755f5d37f944" category="doc">SANtricity Unified Manager에서 디렉토리 서버 설정 및 역할 매핑 편집</block>
+  <block id="c15e67f959fadc8aa0624cbde86d1a89" category="doc">SANtricity Unified Manager에서 인증서 내보내기</block>
+  <block id="28af642d77e8f77cd9cbf0e0d8cfa319" category="doc">SANtricity Unified Manager에서 SAML 서비스 공급자 파일 내보내기</block>
+  <block id="20771dd38b257635ef7043fb622c67b8" category="doc">SANtricity Unified Manager에서 액세스 관리가 작동하는 방식</block>
+  <block id="2614871f4374ac34f686ead68cda088f" category="doc">SANtricity Unified Manager에서 인증서가 작동하는 방식</block>
+  <block id="1c355b31500b8b7696a674f8e62e67fc" category="doc">SANtricity Unified Manager의 어레이에 대한 인증서 가져오기</block>
+  <block id="921508962263d063ddb6cce204ce2579" category="doc">SANtricity Unified Manager 액세스 관리에 대해 알아보세요</block>
+  <block id="91e41a40a4eb6b5380197bea8ac2abe6" category="doc">SANtricity Unified Manager에서 스테이징된 OS 소프트웨어 활성화</block>
+  <block id="65c137fb34cd8343c6d0449542e02aa3" category="doc">SANtricity Unified Manager에서 스테이지된 OS 소프트웨어 정리</block>
+  <block id="77b366da5cb379384d566c9e6549b813" category="doc">SANtricity Unified Manager에서 스토리지 어레이 검색에 대해 알아보세요.</block>
+  <block id="44c75ca7aa3ade1a526c6fc1c7801b15" category="doc">SANtricity Unified Manager에서 비동기 미러링 쌍을 만듭니다.</block>
+  <block id="f704e986cac2a5d3d1355ea085884cae" category="doc">SANtricity Unified Manager에서 스토리지 어레이 그룹 구성</block>
+  <block id="c3d5dfbb534fb862e47732fe36583be8" category="doc">SANtricity Unified Manager에서 동기식 미러링 쌍을 생성합니다.</block>
+  <block id="b8721ad259aeca37ccbc3dc6adcbab4f" category="doc">SANtricity Unified Manager에서 스토리지 어레이 그룹 삭제</block>
+  <block id="d64eea73e524455b96174c2f6402dc79" category="doc">SANtricity Unified Manager에서 여러 스토리지 어레이를 검색하세요</block>
+  <block id="200b55ecf44e01b07228d86f14ac18a0" category="doc">SANtricity Unified Manager에서 단일 어레이를 검색하세요</block>
+  <block id="fc93d33343fdfc3c73cfca172ffd6ebf" category="doc">SANtricity Unified Manager에서 여러 스토리지 어레이를 구성하는 방법에 대해 알아보세요.</block>
+  <block id="af25a8f324b7dbf97f90f90c3c71a997" category="doc">SANtricity Unified Manager에서 알림 설정 가져오기</block>
+  <block id="29d52818815ba6dd7c7a7c74d86c558a" category="doc">SANtricity Unified Manager에서 AutoSupport 설정 가져오기</block>
+  <block id="eb3fd545a78e3ee552c4a85ea9ea5aa0" category="doc">SANtricity Unified Manager에서 스토리지 구성 설정 가져오기</block>
+  <block id="83ab137f66017a61135aa46894ec318d" category="doc">SANtricity Unified Manager에서 시스템 설정 가져오기</block>
+  <block id="0a853dc1023f2caadb8bfa27e8ad1273" category="doc">Unified Manager에서 SANtricity System Manager에 액세스하는 방법에 대해 알아보세요.</block>
+  <block id="88f73e2cd5f762edce7e3e3d70975b13" category="doc">SANtricity Unified Manager에서 개별 스토리지 어레이 관리</block>
+  <block id="0397a3a58d5821945f8530d856fc1c18" category="doc">Unified Manager에서 SANtricity 소프트웨어 저장소 관리</block>
+  <block id="dab3ba4d78fb907a2b857b70cff46835" category="doc">미러 SANtricity 구성 워크플로</block>
+  <block id="3c093e9fa11cb83fdb4558d0ecf2443c" category="doc">SANtricity 미러링에 대해 알아보세요</block>
+  <block id="3b359f38e087517c0d02b105333d690f" category="doc">SANtricity Unified Manager의 미러링 용어에 대해 알아보세요</block>
+  <block id="273afb9794fcb75bd1b190680990764e" category="doc">SANtricity Unified Manager에서 스토리지 어레이 설정 가져오기에 대해 알아보세요.</block>
+  <block id="782dea5f0e7d506c6ba4bafc90640252" category="doc">SANtricity Unified Manager의 그룹 개요에 대해 알아보세요.</block>
+  <block id="746efcb7e933a3cf8db78361deec9a15" category="doc">SANtricity Unified Manager의 미러링에 대해 알아보세요</block>
+  <block id="97a8edd259940a20fd1ace7cf0af3dfc" category="doc">SANtricity Unified Manager에서의 검색에 대해 알아보세요</block>
+  <block id="3a486a444a7e994002a2a326de7c9715" category="doc">SANtricity Unified Manager의 업그레이드 센터에 대해 알아보세요</block>
+  <block id="5abc1d0156d65f17f8756eb333623b9a" category="doc">SANtricity Unified Manager에서 사전 업그레이드 상태 점검 수행</block>
+  <block id="f79baa1058b14f4b32dc00bdc8d2ceda" category="doc">SANtricity Unified Manager에서 그룹에서 스토리지 어레이 제거</block>
+  <block id="d63d0c7dfdc8a7552901436cde5658ab" category="doc">SANtricity Unified Manager에서 스토리지 어레이 그룹 이름 바꾸기</block>
+  <block id="a79c2f9262b82d53fa0ea61bc945844c" category="doc">SANtricity Unified Manager에서 스토리지 어레이 구성을 복제하기 위한 요구 사항</block>
+  <block id="fe015c845a17ffd8b3ccded4f1c7ec14" category="doc">SANtricity Unified Manager에서 미러링을 사용하기 위한 요구 사항</block>
+  <block id="ce0f43f0cff59f79cef9d24182d1c24b" category="doc">SANtricity Unified Manager의 스토리지 어레이 그룹에 대해 알아보세요.</block>
+  <block id="76dc6c9aa3960fe34656b2f144f48c06" category="doc">SANtricity Unified Manager에서 스토리지 어레이 상태 보기</block>
+  <block id="9da51a1302e75e343632d510bb4cc161" category="doc">SANtricity Unified Manager를 사용하여 여러 스토리지 어레이를 업그레이드하는 방법에 대해 알아보세요.</block>
+  <block id="de782f8cc63656476de5f5cd91b93ecb" category="doc">SANtricity 운영 체제 업그레이드</block>
+  <block id="a10a0fef1a8b50d16443976fedae1e16" category="section-title">버전 11.90R3의 새로운 기능</block>
+  <block id="c78544d43a065eb825edb9e16bf0e9ad" category="paragraph">IOM12C 및 DCM3에 대한 SANtricity OS 지원</block>
+  <block id="94d90ce4793f949687897ec062d97b9c" category="paragraph">컨트롤러 펌웨어 11.90R3 이상에서 IOM12C 및 DCM3 SAS-3 셸프를 지원합니다. IOM12C 및 DCM3 셸프는 IOM12B 및 DCM2 셸프를 대체합니다.</block>
 </blocks>

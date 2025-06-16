@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, 
 summary: 기본 인터페이스를 탐색하여 System Manager 기능 및 작업에 액세스합니다. 
 ---
-= SANtricity System Manager 인터페이스 개요
+= SANtricity System Manager 인터페이스에 대해 알아보세요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

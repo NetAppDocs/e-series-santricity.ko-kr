@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, authentication, users, roles, access management 
 summary: 액세스 관리를 사용하여 SANtricity Unified Manager에서 사용자 인증을 설정합니다. 
 ---
-= 액세스 관리 작동 방식
+= SANtricity Unified Manager에서 액세스 관리가 작동하는 방식
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

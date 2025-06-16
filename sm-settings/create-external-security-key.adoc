@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, external, security, key, 
 summary: 키 관리 서버에서 드라이브 보안 기능을 사용하려면 스토리지 어레이에서 키 관리 서버와 보안 가능 드라이브가 공유하는 외부 키를 만들어야 합니다. 
 ---
-= 외부 보안 키를 만듭니다
+= SANtricity System Manager에서 외부 보안 키 생성
 :allow-uri-read: 
 :experimental: 
 :icons: font

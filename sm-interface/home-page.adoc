@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, home page 
 summary: 홈 페이지는 스토리지 시스템의 일일 관리를 위한 대시보드 보기를 제공합니다. System Manager에 로그인하면 홈 페이지가 첫 번째 화면으로 표시됩니다. 
 ---
-= 홈 페이지
+= SANtricity System Manager 홈페이지에 대해 알아보세요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

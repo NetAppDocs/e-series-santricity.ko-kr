@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, clear, storage, array, configuration, 
 summary: 스토리지 배열에서 모든 풀, 볼륨 그룹, 볼륨, 호스트 정의 및 호스트 할당을 삭제하려면 구성 지우기 작업을 사용합니다. 
 ---
-= 스토리지 배열 구성을 지웁니다
+= SANtricity System Manager에서 스토리지 어레이 구성 지우기
 :allow-uri-read: 
 :experimental: 
 :icons: font
@@ -108,4 +108,8 @@ X
 .결과
 * 현재 구성이 삭제되어 스토리지 어레이의 기존 데이터가 모두 제거됩니다.
 * 모든 드라이브가 할당되지 않았습니다.
++
+
+NOTE: 스토리지 배열이 복구 모드로 전환됩니다. 스토리지 배열을 사용하기 전에 복구 모드를 해제해야 합니다. 자세한 내용은 을 https://docs.netapp.com/us-en/e-series-santricity/sm-support/clear-recovery-mode.html["복구 모드를 해제합니다"^] 참조하십시오.
+
 

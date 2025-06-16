@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, hardware, components, filtering, 
 summary: 하드웨어 페이지에서는 부품을 쉽게 찾을 수 있는 정렬 및 필터링 기능을 제공합니다. 
 ---
-= 하드웨어 구성 요소 보기
+= SANtricity System Manager에서 하드웨어 구성 요소 보기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

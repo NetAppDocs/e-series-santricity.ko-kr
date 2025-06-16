@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, start, snapshot, image, rollback, snapshot, consistency, group, member, volumes 
 summary: 롤백 작업을 수행하여 스냅샷 정합성 보장 그룹 구성원 볼륨의 콘텐츠를 스냅샷 이미지에 저장된 컨텐츠와 일치하도록 변경할 수 있습니다. 
 ---
-= 스냅샷 정합성 보장 그룹 구성원 볼륨에 대한 스냅샷 이미지 롤백을 시작합니다
+= SANtricity System Manager에서 스냅샷 일관성 그룹 멤버 볼륨에 대한 스냅샷 이미지 롤백을 시작합니다.
 :allow-uri-read: 
 :experimental: 
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, import, system, settings 
 summary: 한 스토리지 어레이에서 다른 스토리지 어레이로 시스템 구성을 가져올 수 있습니다. 이 배치 작업은 네트워크에서 여러 어레이를 구성해야 하는 시간을 절약합니다. 
 ---
-= 시스템 설정을 가져옵니다
+= SANtricity Unified Manager에서 시스템 설정 가져오기
 :allow-uri-read: 
 :experimental: 
 :icons: font

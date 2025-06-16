@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshot, schedules, snapshot, consistency groups 
 summary: 스냅샷 이미지 수집에 스케줄을 사용하고 스냅샷 정합성 보장 그룹을 사용하여 여러 기본 볼륨을 관리합니다. 
 ---
-= 스냅샷 스케줄 및 스냅샷 정합성 보장 그룹
+= SANtricity System Manager의 스냅샷 일정 및 스냅샷 일관성 그룹에 대해 알아보세요.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

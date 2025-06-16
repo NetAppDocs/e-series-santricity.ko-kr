@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, activate, controller, software, firmware 
 summary: 업그레이드 파일을 즉시 활성화하거나 더 편리한 시간이 될 때까지 기다릴 수 있습니다. 
 ---
-= 컨트롤러 소프트웨어 및 펌웨어를 활성화합니다
+= SANtricity System Manager에서 컨트롤러 소프트웨어 및 펌웨어 활성화
 :allow-uri-read: 
 :experimental: 
 :icons: font

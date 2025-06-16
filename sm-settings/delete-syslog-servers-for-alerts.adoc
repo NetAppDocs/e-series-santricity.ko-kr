@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, syslog, servers, alerts, 
 summary: 더 이상 경고를 받지 않도록 syslog 서버를 삭제할 수 있습니다. 
 ---
-= 경고를 위해 syslog 서버를 삭제합니다
+= SANtricity System Manager에서 경고에 대한 syslog 서버 삭제
 :allow-uri-read: 
 :experimental: 
 :icons: font

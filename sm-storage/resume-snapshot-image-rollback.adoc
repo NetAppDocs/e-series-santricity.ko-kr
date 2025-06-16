@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, resume, snapshot, image, rollback 
 summary: 스냅샷 이미지 롤백 작업 중에 오류가 발생하면 작업이 자동으로 일시 중지됩니다. 일시 중지 상태인 롤백 작업을 다시 시작할 수 있습니다. 
 ---
-= 스냅샷 이미지 롤백을 재개합니다
+= SANtricity System Manager에서 스냅샷 이미지 롤백 재개
 :allow-uri-read: 
 :experimental: 
 :icons: font

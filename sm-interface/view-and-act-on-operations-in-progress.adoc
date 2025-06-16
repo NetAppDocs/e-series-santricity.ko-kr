@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, act, operations, progress, 
 summary: 장기 실행 작업을 보고 작업을 실행하려면 작업 진행 중 페이지를 사용합니다. 
 ---
-= 진행 중인 작업을 보고 수행합니다
+= SANtricity System Manager에서 진행 중인 작업을 보고 조치하세요.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

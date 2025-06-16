@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, mirroring 
 summary: 미러링 기능을 사용하여 로컬 스토리지 시스템과 원격 스토리지 시스템 간에 데이터를 비동기식으로 또는 동기식으로 복제합니다. 
 ---
-= 미러링 개요
+= SANtricity Unified Manager의 미러링에 대해 알아보세요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

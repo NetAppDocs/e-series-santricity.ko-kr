@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, increase, reserved, capacity 
 summary: 스토리지 오브젝트의 모든 복제 서비스 작업에 사용되는 물리적으로 할당된 용량인 예약 용량을 늘릴 수 있습니다. 
 ---
-= 예약된 용량을 늘립니다
+= SANtricity System Manager에서 예약된 용량 늘리기
 :allow-uri-read: 
 :experimental: 
 :icons: font

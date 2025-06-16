@@ -84,13 +84,6 @@ ATTO Technology, Inc., 다중 경로 드라이버를 사용하는 Windows 운영
 
 
  a| 
-FlexArray(ALUA)
- a| 
-다중 경로에 대해 ALUA를 사용하여 NetApp FlexArray 시스템을 지원합니다.
-
-
-
- a| 
 IBM SVC
  a| 
 IBM SAN Volume Controller 구성을 지원합니다.

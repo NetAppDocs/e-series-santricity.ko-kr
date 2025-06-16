@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, drive, security, terms, 
 summary: 드라이브 보안 조건이 스토리지 어레이에 적용되는 방식에 대해 알아보십시오. 
 ---
-= 드라이브 보안 용어
+= SANtricity 소프트웨어의 드라이브 보안 용어에 대해 알아보세요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

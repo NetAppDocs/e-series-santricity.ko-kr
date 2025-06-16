@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, snapshot, image, settings 
 summary: 각 스냅샷 이미지에 할당된 속성, 상태, 예약된 용량 및 관련 객체를 볼 수 있습니다. 
 ---
-= 스냅샷 이미지 설정을 봅니다
+= SANtricity System Manager에서 스냅샷 이미지 설정 보기
 :allow-uri-read: 
 :experimental: 
 :icons: font

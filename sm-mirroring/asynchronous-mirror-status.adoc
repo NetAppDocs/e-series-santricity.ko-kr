@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, asynchronous, mirror, status, consistency, group, 
 summary: 미러 상태는 미러 정합성 보장 그룹 및 미러링된 볼륨 쌍의 상태를 정의합니다. 
 ---
-= 비동기식 미러 상태입니다
+= SANtricity System Manager에서 비동기 미러 상태 보기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

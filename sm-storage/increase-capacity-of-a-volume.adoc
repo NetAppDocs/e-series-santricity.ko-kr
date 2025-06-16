@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, increase, capacity, volume 
 summary: '풀 또는 볼륨 그룹에서 사용할 수 있는 가용 용량을 사용하여 볼륨의 보고된 용량(호스트에 보고된 용량)을 늘릴 수 있습니다.' 
 ---
-= 볼륨의 용량을 늘립니다
+= SANtricity System Manager에서 볼륨 용량 늘리기
 :allow-uri-read: 
 :experimental: 
 :icons: font

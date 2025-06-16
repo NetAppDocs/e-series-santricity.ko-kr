@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, workflow, host, creation, volume, assignment 
 summary: 다음 그림에서는 호스트 액세스를 구성하는 방법을 보여 줍니다. 
 ---
-= 호스트 생성 및 볼륨 할당을 위한 워크플로우
+= SANtricity System Manager에서 호스트 생성 및 볼륨 할당이 작동하는 방식
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

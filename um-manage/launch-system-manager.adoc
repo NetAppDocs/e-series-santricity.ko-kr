@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, individual, storage, array 
 summary: 실행 옵션을 사용하면 관리 작업을 수행하려는 경우 하나 이상의 스토리지 어레이에 대한 브라우저 기반 SANtricity System Manager를 열 수 있습니다. 
 ---
-= 개별 스토리지 어레이를 관리합니다
+= SANtricity Unified Manager에서 개별 스토리지 어레이 관리
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

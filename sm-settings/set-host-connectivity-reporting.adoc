@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, set, host, connectivity, reporting, 
 summary: 스토리지 어레이가 컨트롤러와 구성된 호스트 간의 연결을 지속적으로 모니터링하도록 호스트 연결 보고를 설정한 다음 연결이 중단되면 경고를 표시합니다. 이 기능은 기본적으로 활성화되어 있습니다. 
 ---
-= 호스트 연결 보고를 설정합니다
+= SANtricity System Manager에서 호스트 연결 보고 설정
 :allow-uri-read: 
 :experimental: 
 :icons: font

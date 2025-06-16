@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, authentication, users, roles, access, Management, 
 summary: 액세스 관리는 SANtricity 시스템 관리자에서 사용자 인증을 설정하는 방법입니다. 
 ---
-= 액세스 관리 작동 방식
+= SANtricity System Manager에서 액세스 관리가 작동하는 방식
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

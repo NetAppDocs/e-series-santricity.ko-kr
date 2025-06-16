@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, retrieve, health, image 
 summary: 컨트롤러의 상태 이미지를 검토할 수 있습니다. 상태 이미지는 기술 지원 부서에서 컨트롤러 문제를 진단하는 데 사용할 수 있는 컨트롤러 프로세서 메모리의 원시 데이터 덤프입니다. 
 ---
-= 상태 이미지를 검색합니다
+= SANtricity System Manager에서 상태 이미지 검색
 :allow-uri-read: 
 :experimental: 
 :icons: font

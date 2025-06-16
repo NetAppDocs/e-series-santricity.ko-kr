@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, syslog, server, audit, logs, 
 summary: 감사 로그를 외부 syslog 서버에 보관하려는 경우 해당 서버와 스토리지 시스템 간의 통신을 구성할 수 있습니다. 연결이 설정되면 감사 로그가 syslog 서버에 자동으로 저장됩니다. 
 ---
-= 감사 로그를 위해 syslog 서버를 구성합니다
+= SANtricity System Manager에서 감사 로그에 대한 syslog 서버 구성
 :allow-uri-read: 
 :experimental: 
 :icons: font

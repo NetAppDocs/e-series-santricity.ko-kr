@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, edit, syslog, server, settings, audit, log, records, 
 summary: '감사 로그 아카이빙에 사용되는 syslog 서버의 설정을 변경하고 서버에 대한 새 CA(인증 기관) 인증서를 업로드할 수도 있습니다.' 
 ---
-= 감사 로그 레코드에 대한 syslog 서버 설정을 편집합니다
+= SANtricity System Manager에서 감사 로그 레코드에 대한 syslog 서버 설정 편집
 :allow-uri-read: 
 :experimental: 
 :icons: font

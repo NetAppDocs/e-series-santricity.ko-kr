@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, syslog, server, alerts, 
 summary: syslog 알림을 구성하려면 syslog 서버 주소와 UDP 포트를 입력해야 합니다. 최대 5개의 syslog 서버가 허용됩니다. 
 ---
-= 경고에 대한 syslog 서버를 구성합니다
+= SANtricity System Manager에서 경고를 위한 syslog 서버 구성
 :allow-uri-read: 
 :experimental: 
 :icons: font

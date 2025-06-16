@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add, member, volume, snapshot consistency group 
 summary: 기존 스냅샷 정합성 보장 그룹에 새 구성원 볼륨을 추가할 수 있습니다. 새 구성원 볼륨을 추가할 때 구성원 볼륨에 대한 용량도 예약해야 합니다. 
 ---
-= 스냅샷 정합성 보장 그룹에 구성원 볼륨을 추가합니다
+= SANtricity System Manager에서 스냅샷 일관성 그룹에 멤버 볼륨 추가
 :allow-uri-read: 
 :experimental: 
 :icons: font

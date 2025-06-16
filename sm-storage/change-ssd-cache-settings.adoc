@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, ssd, cache, settings 
 summary: SSD Cache의 이름을 편집하고 해당 상태, 최대 및 현재 용량, Drive Security 및 Data Assurance 상태, 관련 볼륨 및 드라이브를 확인할 수 있습니다. 
 ---
-= SSD 캐시 설정을 변경합니다
+= SANtricity System Manager에서 SSD 캐시 설정 변경
 :allow-uri-read: 
 :experimental: 
 :icons: font

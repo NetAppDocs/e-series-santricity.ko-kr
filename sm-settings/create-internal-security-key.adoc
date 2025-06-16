@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, internal, security, key, 
 summary: 드라이브 보안 기능을 사용하려면 스토리지 어레이에서 컨트롤러와 보안 가능 드라이브에서 공유하는 내부 보안 키를 생성해야 합니다. 내부 키는 컨트롤러의 영구 메모리에 유지됩니다. 
 ---
-= 내부 보안 키를 생성합니다
+= SANtricity System Manager에서 내부 보안 키 생성
 :allow-uri-read: 
 :experimental: 
 :icons: font

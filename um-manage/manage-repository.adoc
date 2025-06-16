@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, manage, software, repository 
 summary: 소프트웨어 리포지토리는 웹 서비스 프록시와 연결된 모든 소프트웨어 파일을 나열합니다. 
 ---
-= 소프트웨어 저장소를 관리합니다
+= Unified Manager에서 SANtricity 소프트웨어 저장소 관리
 :allow-uri-read: 
 :experimental: 
 :icons: font

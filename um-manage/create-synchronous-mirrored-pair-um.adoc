@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, create, synchronous, mirrored, pair 
 summary: 동기식 미러링을 구성하려면 로컬 스토리지의 기본 볼륨과 원격 스토리지의 보조 볼륨을 포함하는 미러링된 쌍을 생성합니다. 
 ---
-= 동기식 미러링 쌍을 생성합니다
+= SANtricity Unified Manager에서 동기식 미러링 쌍을 생성합니다.
 :allow-uri-read: 
 :experimental: 
 :icons: font

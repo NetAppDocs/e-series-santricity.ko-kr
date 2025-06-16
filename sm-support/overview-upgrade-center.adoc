@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, upgrade, center 
 summary: Upgrade Center를 사용하여 최신 소프트웨어 및 펌웨어를 다운로드하고 스토리지 어레이를 업그레이드하여 최신 기능 및 버그 수정을 확인하십시오. 
 ---
-= 업그레이드 센터 개요
+= SANtricity 소프트웨어 업그레이드에 대해 알아봅니다
 :allow-uri-read: 
 :experimental: 
 :icons: font
