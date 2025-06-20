@@ -1,0 +1,129 @@
+---
+permalink: sm-settings/faq-nvme-protocol.html 
+sidebar: sidebar 
+keywords:  
+summary: 이 FAQ는 질문에 대한 간단한 답변을 찾는 경우에 도움이 될 수 있습니다. 
+---
+= SANtricity System Manager를 위한 NVMe 프로토콜 FAQ
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이 FAQ는 질문에 대한 간단한 답변을 찾는 경우에 도움이 될 수 있습니다.
+
+
+
+== NVMe over Fabrics 통계를 어떻게 해석합니까?
+
+NVMe over Fabrics 통계 보기 대화 상자에는 NVMe 하위 시스템과 RDMA 인터페이스에 대한 통계가 표시됩니다. 모든 통계는 읽기 전용이며 설정할 수 없습니다.
+
+* * NVMe 하위 시스템 통계 * -- NVMe 컨트롤러 및 해당 대기열에 대한 통계를 표시합니다. NVMe 컨트롤러는 스토리지 배열의 네임스페이스와 호스트 간의 액세스 경로를 제공합니다. 연결 실패, 재설정 및 종료 같은 항목에 대한 NVMe 하위 시스템 통계를 검토할 수 있습니다. 이러한 통계에 대한 자세한 내용을 보려면 * 표 제목에 대한 범례 보기 * 를 클릭하십시오.
+* RDMA 인터페이스 통계 * -- RDMA 인터페이스의 모든 NVMe over Fabrics 포트에 대한 통계를 제공하며, 여기에는 각 스위치 포트에 연결된 성능 통계 및 링크 오류 정보가 포함됩니다. 이 탭은 NVMe over Fabrics 포트를 사용할 수 있을 때만 나타납니다. 통계에 대한 자세한 내용을 보려면 * 표 제목에 대한 범례 보기 * 를 클릭합니다.
+
+
+각 통계를 원시 통계 또는 기준 통계로 볼 수 있습니다. 원시 통계는 컨트롤러가 시작된 이후 수집된 모든 통계입니다. 기준 통계는 기준 시간을 설정한 후 수집된 시점 통계입니다.
+
+
+
+== InfiniBand를 통해 NVMe를 구성하거나 진단하려면 어떻게 해야 합니까?
+
+다음 표에는 InfiniBand 세션을 구성하고 관리하는 데 사용할 수 있는 SANtricity System Manager 기능이 나열되어 있습니다.
+
+[NOTE]
+====
+NVMe over InfiniBand 설정은 스토리지 어레이 컨트롤러에 NVMe over InfiniBand 포트가 포함된 경우에만 사용할 수 있습니다.
+
+====
+[cols="35h,~"]
+|===
+| 조치 | 위치 
+
+
+ a| 
+InfiniBand 포트를 통해 NVMe를 구성합니다
+ a| 
+. 하드웨어 * 를 선택합니다.
+. 컨트롤러 및 구성 요소 * 탭을 선택합니다.
+. 컨트롤러를 선택합니다.
+. Configure NVMe over InfiniBand ports * 를 선택합니다.
+
+
+또는
+
+. 설정 [시스템] 메뉴를 선택합니다.
+. 아래로 스크롤하여 * NVMe over InfiniBand settings * 로 이동한 다음 * Configure NVMe over InfiniBand Ports * 를 선택합니다.
+
+
+
+
+ a| 
+InfiniBand를 통한 NVMe 통계 보기
+ a| 
+. 설정 [시스템] 메뉴를 선택합니다.
+. 아래로 스크롤하여 * NVMe over InfiniBand settings * 를 선택한 다음 * View NVMe over Fabrics Statistics * 를 선택합니다.
+
+
+|===
+
+
+== NVMe over RoCE를 구성 또는 진단하려면 어떻게 해야 합니까?
+
+하드웨어 및 설정 페이지에서 NVMe over RoCE를 구성 및 관리할 수 있습니다.
+
+[NOTE]
+====
+NVMe over RoCE 설정은 스토리지 어레이의 컨트롤러에 NVMe over RoCE 포트가 포함된 경우에만 사용할 수 있습니다.
+
+====
+[cols="35h,~"]
+|===
+| 조치 | 위치 
+
+
+ a| 
+NVMe over RoCE 포트를 구성합니다
+ a| 
+. 하드웨어 * 를 선택합니다.
+. 컨트롤러 및 구성 요소 * 탭을 선택합니다.
+. 컨트롤러를 선택합니다.
+. RoCE 포트를 통한 NVMe 구성 * 을 선택합니다.
+
+
+또는
+
+. 설정 [시스템] 메뉴를 선택합니다.
+. 아래로 * NVMe over RoCE 설정 * 으로 스크롤한 다음 * Configure NVMe over RoCE Ports * 를 선택합니다.
+
+
+
+
+ a| 
+NVMe over Fabrics 통계 보기
+ a| 
+. 설정 [시스템] 메뉴를 선택합니다.
+. 아래로 * NVMe over RoCE 설정 * 으로 스크롤한 다음 * NVMe over Fabrics 통계 보기 * 를 선택합니다.
+
+
+|===
+
+
+== 하나의 물리적 포트에 대해 두 개의 IP 주소가 있는 이유는 무엇입니까?
+
+EF600 스토리지 어레이에는 2개의 HIC, 즉 외부 스토리지와 내부 HIC를 각각 하나씩 포함할 수 있습니다.
+
+이 구성에서는 외부 HIC를 내부 보조 HIC에 연결합니다. 외부 HIC에서 액세스할 수 있는 각 물리적 포트에는 내부 HIC에서 연결된 가상 포트가 있습니다.
+
+최대 200GB 성능을 얻으려면 호스트가 각 포트에 연결을 설정할 수 있도록 물리적 포트와 가상 포트 모두에 대해 고유한 IP 주소를 할당해야 합니다. IP 주소를 가상 포트에 할당하지 않으면 HIC는 약 절반 수준의 속도로 실행됩니다.
+
+
+
+== 물리적 포트 하나에 대해 두 개의 매개 변수 세트가 있는 이유는 무엇입니까?
+
+EF600 스토리지 어레이에는 2개의 HIC, 즉 외부 스토리지와 내부 HIC를 각각 하나씩 포함할 수 있습니다.
+
+이 구성에서는 외부 HIC를 내부 보조 HIC에 연결합니다. 외부 HIC에서 액세스할 수 있는 각 물리적 포트에는 내부 HIC에서 연결된 가상 포트가 있습니다.
+
+최대 200GB 성능을 얻으려면 호스트가 각 포트에 대한 연결을 설정할 수 있도록 물리적 포트와 가상 포트 모두에 대해 매개 변수를 할당해야 합니다. 가상 포트에 매개 변수를 할당하지 않으면 HIC는 약 절반 수준의 속도로 실행됩니다.

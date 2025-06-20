@@ -332,7 +332,6 @@
   <block id="a6c4aa53de15f85413261c13ee0e36bf" category="list-text">* AutoSupport OnDemand 및 원격 진단 디스패치 *</block>
   <block id="9bfa3639bc53d9fb06b3d5a34dd361ba" category="summary">스토리지 배열의 각 구성 요소에 대한 스토리지 배열 프로파일 및 펌웨어 버전을 볼 수 있습니다.</block>
   <block id="c4ce7d01b79eaee9292daa129a642307" category="paragraph">스토리지 배열의 각 구성 요소에 대한 스토리지 배열 프로파일 및 펌웨어 버전을 볼 수 있습니다.</block>
-  <block id="4abeb578b363f44144000527bdaabd0d" category="summary">컨트롤러의 소프트웨어 및 펌웨어를 업그레이드하기 전에 이러한 항목을 숙지하십시오.</block>
   <block id="5c7e6b00e34ca5a9745761f8b63dd9f3" category="doc">SANtricity OS 소프트웨어를 업그레이드하기 전에 알아야 할 내용은 무엇입니까?</block>
   <block id="335d86aaca8c114cdd7c918669e77b31" category="paragraph">컨트롤러의 소프트웨어 및 펌웨어를 업그레이드하기 전에 이러한 항목을 숙지하십시오.</block>
   <block id="00d0f215b8edbde21b482165efb63f25" category="list-text">문서 및 "readme.txt" 파일을 읽었으며 업그레이드를 수행하기로 결정했습니다.</block>
@@ -359,7 +358,6 @@
   <block id="73c40dbedb58622a5addb484bcb2b74f" category="list-text">AutoSupport 디스패치 예약 * 을 선택합니다.</block>
   <block id="3c5e6b5527da0fa55b93f5dd6c1ee2f7" category="paragraph">AutoSupport 디스패치 예약 마법사가 나타납니다.</block>
   <block id="8afcf107cdd07f6a765c949ecd297794" category="list-text">마법사의 단계를 따릅니다.</block>
-  <block id="ba3213bbbf9e5128613954ca4db4e5ee" category="summary">상태 이미지는 기술 지원 부서에서 컨트롤러 문제를 진단하는 데 사용할 수 있는 컨트롤러 프로세서 메모리의 원시 데이터 덤프입니다.</block>
   <block id="4e3f3d52a16affbf4b062a79c89574da" category="doc">건강 이미지란 무엇입니까?</block>
   <block id="793d79923fdf757cef5c422780f3772b" category="paragraph">상태 이미지는 기술 지원 부서에서 컨트롤러 문제를 진단하는 데 사용할 수 있는 컨트롤러 프로세서 메모리의 원시 데이터 덤프입니다.</block>
   <block id="ce263fa58d4fdb3ad71f24d93430faf6" category="paragraph">펌웨어는 특정 오류를 감지하면 자동으로 상태 이미지를 생성합니다. 특정 문제 해결 시나리오에서 기술 지원 부서에서는 사용자가 상태 이미지 파일을 검색하여 해당 파일로 보내도록 요청할 수 있습니다.</block>
@@ -504,7 +502,6 @@
   <block id="91dbe600e65db881ab696db75fb0c577" category="summary">AutoSupport 기능 및 수동 지원 데이터 수집 기능은 고객 지원 번들에서 데이터를 수집하는 방법을 제공하여 기술 지원 팀의 원격 문제 해결 및 문제 분석을 지원합니다.</block>
   <block id="0c0abab82c0a4d319b8e472ca9976625" category="doc">어떤 데이터를 수집하고 있습니까?</block>
   <block id="8d1df5e3923cb2221d6d97c979f4a6a9" category="paragraph">고객 지원 번들은 스토리지 어레이에 대한 모든 유형의 정보를 압축된 단일 파일로 수집합니다. 수집되는 정보에는 물리적 구성, 논리적 구성, 버전 정보, 이벤트, 로그 파일, 성능 데이터입니다. 이 정보는 기술 지원 부서에서 스토리지 어레이 관련 문제를 해결하는 데 사용됩니다.</block>
-  <block id="068ea21c39695d9df18e79ea4abf66e1" category="summary">iSCSI 세션은 비동기 미러 관계의 호스트 또는 원격 스토리지 시스템에서 발생할 수 있습니다. 다음 표에서는 이러한 iSCSI 세션을 구성 및 관리하는 데 사용할 수 있는 System Manager 기능을 보여 줍니다.</block>
   <block id="c31a63fbfe62247245f55d6b792ad9e1" category="doc">iSCSI를 구성하거나 진단하려면 어떻게 해야 합니까?</block>
   <block id="0d97aebcf5431f90d47b2257e5c9ad96" category="paragraph">iSCSI 설정은 스토리지 배열이 iSCSI를 지원하는 경우에만 사용할 수 있습니다.</block>
   <block id="28f21ae88e9953ac3d80686cfb49832b" category="section-title">iSCSI를 구성합니다</block>
@@ -820,7 +817,6 @@
   <block id="8c455a82b904ae8cb2ac4f38aa62b51c" category="list-text"><block ref="8c455a82b904ae8cb2ac4f38aa62b51c" category="inline-link-macro-rx"></block></block>
   <block id="c8b683caf010ac698a90dd897620ec5a" category="inline-link-macro">성능 데이터를 해석합니다</block>
   <block id="c08474664a89e996c5ba900acd208685" category="list-text"><block ref="c08474664a89e996c5ba900acd208685" category="inline-link-macro-rx"></block></block>
-  <block id="ef7ae095d51a83215900fcb4d6a8da70" category="summary">CPU 그래프는 각 컨트롤러(컨트롤러 A 및 컨트롤러 B)에 대한 처리 용량 통계를 표시합니다. CPU는 중앙 처리 장치의 약어입니다. 홈 페이지에서 이 그래프는 스토리지 배열에 대한 통계를 표시합니다. 성능 타일의 Physical View 탭에서 이 그래프는 스토리지 배열 및 드라이브에 대한 통계를 표시합니다.</block>
   <block id="9af8e70c2152ca5e60b42c567ce33fa9" category="doc">CPU 그래프는 무엇을 표시합니까?</block>
   <block id="0df991de7620dc5a14fb4b20b2af6425" category="paragraph">CPU 그래프는 각 컨트롤러(컨트롤러 A 및 컨트롤러 B)에 대한 처리 용량 통계를 표시합니다. CPU는 _ 중앙 처리 장치 _ 의 약어입니다. 홈 페이지에서 이 그래프는 스토리지 배열에 대한 통계를 표시합니다. 성능 타일의 Physical View 탭에서 이 그래프는 스토리지 배열 및 드라이브에 대한 통계를 표시합니다.</block>
   <block id="9c34bb79f49d9e803ab6b7dbbd4dfc48" category="paragraph">CPU 그래프는 스토리지의 작업에 사용되는 CPU 처리 용량의 백분율을 보여 줍니다. 외부 I/O가 발생하지 않는 경우에도 스토리지 운영 체제가 백그라운드 작업 및 모니터링을 수행할 수 있으므로 CPU 활용률이 0이 아닐 수 있습니다. 그래프의 한 지점 위로 커서를 가져가면 해당 시점에 사용되는 처리 기능의 백분율을 볼 수 있습니다.</block>
@@ -1107,7 +1103,6 @@
   <block id="8d63b58086a957abb733872e91b25917" category="list-text">풀 또는 볼륨 그룹에 모든 DA(Data Assurance) 가능 드라이브가 포함되어 있고 풀 또는 볼륨 그룹에 하나 이상의 DA 지원 볼륨이 있는 경우, DA를 사용할 수 없는 드라이브는 사용할 수 없으므로 해당 풀 또는 볼륨 그룹에 추가할 수 없습니다. 그러나 풀 또는 볼륨 그룹에 DA 지원 볼륨이 없는 경우 DA를 사용할 수 없는 드라이브를 해당 풀 또는 볼륨 그룹에 추가할 수 있습니다. 이러한 드라이브를 혼합하려는 경우 DA 지원 볼륨을 생성할 수 없습니다.</block>
   <block id="26fc92dce88a2f2b7f6d311212b712a2" category="paragraph">새 드라이브를 추가하거나 풀 또는 볼륨 그룹을 삭제하여 스토리지 시스템에서 용량을 늘릴 수 있습니다.</block>
   <block id="821c127bf32c0d6d510d581384bfdc89" category="summary">원격 스토리지 기능에 대한 가져오기를 구성할 때 블록 크기, 용량 또는 볼륨 가용성 때문에 일부 볼륨이 대상 후보 목록에 나타나지 않을 수 있습니다.</block>
-  <block id="d4538d3e9457b3332037137becb531c2" category="doc">대상 어레이에 내 볼륨이 모두 표시되지 않는 이유는 무엇입니까?</block>
   <block id="d57fac41eaeaf7a84370871910e0f6d2" category="paragraph">목록에 표시하려면 볼륨 후보:</block>
   <block id="69cc506297892e5a506e7d183cf03227" category="list-text">원격 볼륨과 같거나 큰 용량입니다.</block>
   <block id="b9152e2a19a205f565f107c733485374" category="list-text">원격 볼륨과 동일한 블록 크기</block>
@@ -1508,9 +1503,7 @@
   <block id="4acd7b5d7792ddea4992339cc611b8fa" category="doc">볼륨 그룹 내보내기/가져오기</block>
   <block id="e518bc03dbcd1762ba4d30c8c6626427" category="paragraph">내보내기/가져오기 기능은 SANtricity 시스템 관리자 사용자 인터페이스에서 지원되지 않습니다. 볼륨 그룹을 다른 스토리지 어레이로 내보내기/가져오려면 CLI(Command Line Interface)를 사용해야 합니다.</block>
   <block id="3bfd2179043341e09a4fc1cfd720d6ff" category="summary">이 워크로드는 CLI(Command Line Interface)를 사용하여 생성되거나 다른 스토리지 어레이에서 마이그레이션(가져오기/내보내기)된 볼륨 그룹으로 구성됩니다. 따라서 이 워크로드의 볼륨은 애플리케이션별 워크로드와 연결되지 않으므로 워크로드를 삭제할 수 없습니다.</block>
-  <block id="91d388ab2a6ac649e3e39aa1f5535eef" category="doc">선택한 워크로드를 삭제할 수 없는 이유는 무엇입니까?</block>
   <block id="3cedad73b5b33c8b0c2b8d5beeed5264" category="summary">사용 가능한 모든 용량에 볼륨을 생성한 경우 보존 용량을 늘릴 수 없습니다.</block>
-  <block id="87b59aa4fc1f0d0f5aac88efb29545be" category="doc">보존 용량을 늘릴 수 없는 이유는 무엇입니까?</block>
   <block id="71396049ff539200dbba1007ca0cbc94" category="paragraph">Preservation capacity는 잠재적 드라이브 장애를 지원하기 위해 풀에 예약된 용량(드라이브 수)입니다. 풀이 생성되면 시스템은 풀의 드라이브 수에 따라 기본 보존 용량을 자동으로 예약합니다. 사용 가능한 모든 용량에 볼륨을 생성한 경우 드라이브를 추가하거나 볼륨을 삭제하여 풀에 용량을 추가하지 않으면 보존 용량을 늘릴 수 없습니다.</block>
   <block id="dc5cedd32cc74ed1dd3f0b48fe2065c3" category="paragraph">풀 및 볼륨 그룹 * 에서 보존 용량을 변경할 수 있습니다. 편집할 풀을 선택합니다. 설정 보기/편집 * 을 클릭한 다음 * 설정 * 탭을 선택합니다.</block>
   <block id="5f1d6366c7ffd99ff1b7c5f05e692914" category="paragraph">보존 용량은 풀의 드라이브에 실제 보존 용량이 분산되어 있더라도 여러 드라이브로 지정됩니다.</block>
@@ -1661,7 +1654,6 @@
   <block id="579111952277df3df9fa742ea446a46e" category="paragraph">새로 생성된 볼륨을 초기화해야 합니다. 시스템은 두 가지 모드(즉시 사용 가능한 형식(iaf) 백그라운드 초기화 프로세스 또는 오프라인 프로세스) 중 하나를 사용하여 이러한 모드를 초기화할 수 있습니다.</block>
   <block id="b1c4b88d281bea242ba9cbb2fc92f27f" category="paragraph">볼륨을 호스트에 매핑하면 해당 그룹의 초기화 볼륨이 백그라운드 초기화로 강제로 전환됩니다. 이 백그라운드 초기화 프로세스를 사용하면 동시 호스트 입출력이 허용되므로 시간이 오래 걸릴 수 있습니다.</block>
   <block id="4eca01072b181a01596e3bbd4352155a" category="paragraph">볼륨 그룹의 볼륨 중 어느 것도 매핑되지 않은 경우 오프라인 초기화가 수행됩니다. 오프라인 프로세스는 백그라운드 프로세스보다 훨씬 빠릅니다.</block>
-  <block id="0c6710fd70e8f6dfb7dc7c5ef665fd39" category="summary">볼륨을 생성하는 동안 작업 부하 사용에 대한 정보를 묻는 메시지가 표시됩니다. 시스템에서는 이 정보를 사용하여 최적의 볼륨 구성을 생성합니다. 이 구성은 필요에 따라 편집할 수 있습니다. 선택적으로 볼륨 생성 순서에서 이 단계를 건너뛸 수 있습니다.</block>
   <block id="b5a3b95a88ff3f89275ca18c4736d4b8" category="doc">선택한 워크로드가 볼륨 생성에 어떤 영향을 미칩니까?</block>
   <block id="313e2c8f533507666d0259a50f56b9d4" category="paragraph">볼륨 생성 중에 워크로드 사용에 대한 정보를 묻는 메시지가 표시됩니다. 시스템에서는 이 정보를 사용하여 최적의 볼륨 구성을 생성합니다. 이 구성은 필요에 따라 편집할 수 있습니다. 선택적으로 볼륨 생성 순서에서 이 단계를 건너뛸 수 있습니다.</block>
   <block id="ab699fec90fd6cda5e110bb5189e9178" category="paragraph">워크로드는 애플리케이션을 지원하는 스토리지 객체입니다. 애플리케이션별로 하나 이상의 워크로드 또는 인스턴스를 정의할 수 있습니다. 일부 애플리케이션의 경우 시스템에서 기본 볼륨 특성이 비슷한 볼륨을 포함하도록 워크로드를 구성합니다. 이러한 볼륨 특성은 워크로드가 지원하는 애플리케이션 유형에 따라 최적화됩니다. 예를 들어, Microsoft SQL Server 애플리케이션을 지원하는 워크로드를 생성한 다음 해당 워크로드에 대한 볼륨을 생성하는 경우 기본 볼륨 특성은 Microsoft SQL Server를 지원하도록 최적화되어 있습니다.</block>
@@ -1672,7 +1664,6 @@
   <block id="9e58bf91c4db2768afe12a38561fb7ee" category="list-text">VMware ESXi ™ (가상 머신 파일 시스템과 함께 사용할 볼륨용)</block>
   <block id="978ec6001b2172ad0515b162a6b92721" category="paragraph">볼륨 추가/편집 대화 상자를 사용하여 권장 볼륨 구성을 검토하고 시스템 권장 볼륨 및 특성을 편집, 추가 또는 삭제할 수 있습니다.</block>
   <block id="2f80ce597e2c0c00e53a627a39a89400" category="list-text">* 기타 * (또는 특정 볼륨 생성을 지원하지 않는 애플리케이션) -- 다른 워크로드는 볼륨 구성을 사용하며, 특정 애플리케이션과 연결되지 않은 워크로드를 생성하려는 경우 또는 스토리지 어레이에서 사용하려는 애플리케이션에 대한 내장 최적화가 없는 경우 수동으로 지정해야 합니다. 볼륨 추가/편집 대화 상자를 사용하여 볼륨 구성을 수동으로 지정해야 합니다.</block>
-  <block id="bbe3b633d8eb778210704db7ffbfa4f0" category="summary">용량 알림은 풀에 드라이브를 추가할 시점을 나타냅니다. 스토리지 배열 작업을 성공적으로 수행하려면 풀에 충분한 가용 용량이 필요합니다. 풀의 사용 가능한 용량이 지정된 백분율에 도달하거나 이를 초과할 경우 알림을 보내도록 System Manager를 구성하여 이러한 작업이 중단되지 않도록 할 수 있습니다.</block>
   <block id="b66879679e0a456d131df0dfbdb9fb95" category="doc">용량 알림이 중요한 이유는 무엇입니까?</block>
   <block id="36b833228459c54e9caad4c4ebad3dad" category="paragraph">풀 자동 구성 * 옵션 또는 * 풀 생성 * 옵션을 사용하여 풀을 생성할 때 이 비율을 설정합니다. 자동 옵션을 선택하면 기본 설정에 따라 알림 수신 시기를 자동으로 결정합니다. 풀을 수동으로 생성하기로 선택한 경우 알림 알림 설정을 확인하거나, 원하는 경우 기본 설정을 적용할 수 있습니다. 이 설정은 나중에 메뉴에서 설정 [알림]을 조정할 수 있습니다.</block>
   <block id="2e7fdb8bc40f6a8c60ac3763b5af0b1d" category="paragraph">풀의 사용 가능한 용량이 지정된 비율에 도달하면 알림 구성에 지정된 방법을 사용하여 알림 알림이 전송됩니다.</block>
@@ -1766,8 +1757,6 @@
   <block id="3e5cc3257f1985b382415a4fab7c65d9" category="list-text">Uncommon Tasks * 를 선택한 다음 * Enable resource provisioning * 또는 * Disable resource provisioning * 을 선택합니다.</block>
   <block id="057fd6d85219203435ea065ff7eeca02" category="list-text">대화 상자에서 작업을 확인합니다.</block>
   <block id="a12dd8ae911fabfd99caece66bd2bab2" category="admonition">* DULBE * 를 다시 활성화한 경우 백그라운드 작업이 완료된 후 호스트를 재부팅하여 DULBE 구성 변경 사항을 탐지한 다음 모든 파일 시스템을 다시 마운트해야 할 수 있습니다.</block>
-  <block id="13681cec74a14e3099d5f047f880fe52" category="summary">DA 지원 기본 볼륨이 있는 스냅샷 볼륨은 DA(Data Assurance) 기능이 지원되지 않는 호스트에 할당할 수 없습니다. DA를 사용할 수 없는 호스트에 스냅샷 볼륨을 할당하기 전에 기본 볼륨에서 DA를 비활성화해야 합니다.'</block>
-  <block id="1940b3e4d69d728f35065944d4986514" category="doc">내 볼륨, 호스트 또는 호스트 클러스터가 모두 표시되지 않는 이유는 무엇입니까?</block>
   <block id="f956e41235aa6de0ef7cf1901fa9a994" category="paragraph">DA 지원 기본 볼륨이 있는 스냅샷 볼륨은 DA(Data Assurance) 기능이 지원되지 않는 호스트에 할당할 수 없습니다. DA를 사용할 수 없는 호스트에 스냅샷 볼륨을 할당하기 전에 기본 볼륨에서 DA를 비활성화해야 합니다.</block>
   <block id="92fc66f9534d94b4859793638454d6ee" category="paragraph">스냅샷 볼륨을 할당할 호스트에 대한 다음 지침을 고려하십시오.</block>
   <block id="934321fee1dda599a0c218c9b94c7e4e" category="list-text">DA를 사용할 수 없는 입출력 인터페이스를 통해 스토리지 시스템에 접속된 호스트의 경우 DA를 사용할 수 없습니다.</block>
@@ -1863,7 +1852,6 @@
   <block id="da2f488d54ebbc0f82f7d3a45c729f04" category="list-text">대화 상자의 텍스트를 검토하고 작업을 확인합니다.</block>
   <block id="bc4936c78429e0f85dfa04f979250b01" category="paragraph">이 드라이브는 이제 핫 스페어임을 나타내는 분홍색으로 하드웨어 페이지에 표시됩니다.</block>
   <block id="0573d9ce089aa1db49a5c1452140a569" category="paragraph">RAID 1, RAID 5 또는 RAID 6 볼륨 그룹 내의 드라이브에 장애가 발생하면 컨트롤러는 자동으로 중복 데이터를 사용하여 오류가 발생한 드라이브에서 핫 스페어로 데이터를 재구성합니다.</block>
-  <block id="e3745a2a50cbf1b7fb00b47442215710" category="summary">EF300 및 EF600 시스템의 경우 볼륨을 설정하여 512바이트 또는 4KiB 블록 크기('벡터 크기'라고도 함)를 지원할 수 있습니다. 볼륨을 생성하는 동안 올바른 값을 설정해야 합니다. 가능한 경우 시스템은 적절한 기본값을 제안합니다.</block>
   <block id="fb5754cb7d8aec1ca725e7242d365730" category="doc">호스트 블록 크기 요구 사항에 대해 알아야 할 내용은 무엇입니까?</block>
   <block id="e5e425d8ab1cbef0e34a067f0d88d470" category="paragraph">EF300 및 EF600 시스템의 경우 512바이트 또는 4KiB 블록 크기("섹터 크기"라고도 함)를 지원하도록 볼륨을 설정할 수 있습니다. 볼륨을 생성하는 동안 올바른 값을 설정해야 합니다. 가능한 경우 시스템은 적절한 기본값을 제안합니다.</block>
   <block id="f4aa667b118a0a334c4fa467de995fc8" category="paragraph">볼륨 블록 크기를 설정하기 전에 다음 제한 사항 및 지침을 읽으십시오.</block>
@@ -1998,7 +1986,6 @@
   <block id="e681a3b45989b468533c4b90ee960bf9" category="paragraph">해당 없음</block>
   <block id="22d03e4758985a5a5d12b6ba4e387311" category="paragraph">풀 또는 볼륨 그룹에서 드라이브가 이미 장애가 발생한 경우에는 쉘프/드로어 손실 보호가 유지되지 않습니다. 이 경우, 드라이브 쉘프 또는 드로어에 액세스하지 못하게 되고 결과적으로 풀 또는 볼륨 그룹의 다른 드라이브가 데이터 손실을 유발합니다.</block>
   <block id="726550ac9f3a3c80815ec14c73720e62" category="summary">예약된 용량을 늘리기 위해 사용한 양으로만 줄일 수 있습니다. 구성원 볼륨에 대해 예약된 용량은 추가된 역순으로 제거할 수 있습니다.</block>
-  <block id="a30ad4433e63d5f3d62023d4c6a44eef" category="doc">감량할 다른 금액을 선택할 수 없는 이유는 무엇입니까?</block>
   <block id="54880ee7dd93a5e304efe90ee14790cf" category="paragraph">다음 조건 중 하나가 존재할 경우 스토리지 객체에 대한 예약 용량을 줄일 수 없습니다.</block>
   <block id="34210320456ed09a6b7ab3fd7cd515d2" category="list-text">스토리지 객체가 미러링된 페어 볼륨인 경우</block>
   <block id="df7cb77dac6de30904215f9c98b0ee50" category="list-text">스토리지 객체에 예약된 용량에 대해 하나의 볼륨만 포함된 경우 스토리지 객체에는 예약된 용량을 위한 볼륨이 2개 이상 있어야 합니다.</block>
@@ -2262,7 +2249,6 @@
   <block id="d8b1db89e135bdbc13b725e8d595018b" category="paragraph">애플리케이션 워크로드 생성 대화 상자가 나타납니다.</block>
   <block id="c587f872ee4cedc5f46714cc4a3af851" category="list-text">드롭다운 목록을 사용하여 워크로드를 생성할 애플리케이션 유형을 선택한 다음 워크로드 이름을 입력합니다.</block>
   <block id="c6f5742708364491211254845c51e364" category="paragraph">생성한 워크로드에 스토리지 용량을 추가할 준비가 되었습니다. 볼륨 생성 * 옵션을 사용하여 응용 프로그램에 대해 하나 이상의 볼륨을 생성하고 각 볼륨에 특정 양의 용량을 할당할 수 있습니다.</block>
-  <block id="1bf2df1e11004707e4b12d626138d3e1" category="summary">System Manager는 풀에서 제거할 수 있는 드라이브 수에 대한 제한을 설정합니다.</block>
   <block id="dc0cac4fc3fe8b65f61e8ceff382e740" category="doc">풀에서 제거할 수 있는 드라이브 수에 제한이 있습니까?</block>
   <block id="7dbebcef358c2bbdbe834522ce3e1c62" category="list-text">풀의 남은 드라이브에 데이터가 재분배될 때 제거된 드라이브의 데이터를 포함할 여유 용량이 충분하지 않으면 드라이브를 제거할 수 없습니다.</block>
   <block id="913831c401c62c45e925dfafa5eb7b3c" category="list-text">한 번에 최대 60개의 드라이브를 제거할 수 있습니다. 60개 이상의 드라이브를 선택하면 드라이브 제거 옵션이 비활성화됩니다. 60개 이상의 드라이브를 제거해야 하는 경우 드라이브 제거 작업을 반복합니다.</block>
@@ -2280,7 +2266,6 @@
   <block id="dbcdd670d3898db57d1e0ec2779c6fe2" category="list-text">스냅샷 볼륨에 대한 설정을 적절히 수락하거나 지정한 다음 * 마침 * 을 선택하여 스냅샷 볼륨을 변환합니다.</block>
   <block id="c116e4cd3509742bd600cdb3e070db3e" category="paragraph">스냅샷 볼륨에 대한 예약된 용량이 지정된 임계값을 초과하면 예약된 용량을 늘리거나 불필요한 객체를 삭제할 수 있는 알림이 시스템에 전송됩니다.</block>
   <block id="7268cb410294effa0119ff2325fdb4e1" category="summary">볼륨을 이동할 수 없는 풀 또는 볼륨 그룹이 목록에 표시되지 않습니다.</block>
-  <block id="947a640f864857e2aadd36576eb50dd7" category="doc">내 풀 및/또는 볼륨 그룹이 모두 표시되지 않는 이유는 무엇입니까?</block>
   <block id="7840c3770de62c2567d5278bd0c6c7f2" category="paragraph">풀 또는 볼륨 그룹은 다음과 같은 이유로 적합하지 않습니다.</block>
   <block id="766dcd4dd0eb0d198d9b6bf6f1cd4d55" category="list-text">풀 또는 볼륨 그룹 풀의 DA(Data Assurance) 기능이 일치하지 않습니다.</block>
   <block id="18747fc1783ea0c8be337cee42135fc8" category="list-text">풀 또는 볼륨 그룹이 최적화되지 않은 상태입니다.</block>
@@ -2513,7 +2498,6 @@
   <block id="0427c1ca9e66629018bc1d6fa5ff6417" category="list-text">스냅샷 볼륨 또는 스냅샷 정합성 보장 그룹 스냅샷 볼륨 매개 변수는 이전에 비활성화된 볼륨 매개 변수와 동일하게 유지됩니다.</block>
   <block id="6896e6ca3e93c9dff70ec981ac73d86b" category="list-text">스냅샷 볼륨 또는 스냅샷 정합성 보장 그룹 스냅샷 볼륨의 원래 이름을 유지합니다.</block>
   <block id="95ddff89f7e76cf544c140d3f049b138" category="summary">CLI(Command Line Interface)를 사용하여 볼륨을 생성했거나 다른 스토리지 어레이에서 마이그레이션(가져오기/내보내기)한 경우 볼륨은 워크로드에 연결되지 않습니다.</block>
-  <block id="7589dd9416261212740c49b4796da6dc" category="doc">이러한 볼륨이 워크로드와 관련이 없는 이유는 무엇입니까?</block>
   <block id="ad680ef054ae9c24e26f464447c727bc" category="summary">스냅샷 정합성 보장 그룹은 여러 볼륨에서 동시에 스냅샷 이미지를 생성하려는 경우에 생성됩니다.</block>
   <block id="0812ae221b625e1b60c1dcf2e54e93f9" category="doc">스냅샷 정합성 보장 그룹을 생성하는 이유는 무엇입니까?</block>
   <block id="77213d4c9f32e500a181f1b66278d8d8" category="paragraph">예를 들어, 복구를 위해 일관성을 유지해야 하는 여러 볼륨으로 구성된 데이터베이스의 경우 모든 볼륨의 조정된 스냅샷을 수집하여 전체 데이터베이스를 복원하는 데 사용하려면 스냅샷 정합성 보장 그룹이 필요합니다.</block>
@@ -2609,7 +2593,6 @@
   <block id="24b6bceb168a0ddb2cf25241783ddf1d" category="paragraph">다음 경우에 알림: (경고 임계값)</block>
   <block id="ca8835a1cc4339de05fe2c0e92464d5a" category="paragraph">씬 볼륨이 할당된 용량 제한에 근접할 때 시스템에서 알림을 생성하도록 하려면 확인란을 선택합니다. 이 알림은 홈 페이지의 알림 영역으로 전송됩니다. 이 임계값은 볼륨에서 보고된 용량 크기의 백분율입니다.</block>
   <block id="a7f1a3b7c091f0b1860cb0371affd5b6" category="paragraph">경고 임계값 경고 알림을 비활성화하려면 이 확인란의 선택을 취소합니다.</block>
-  <block id="d5099898b83b97d11acb716788257093" category="summary">스토리지 배열에 연결된 iSCSI 호스트에서 CHAP(Challenge Handshake Authentication Protocol) 인증을 설정하는 경우 각 iSCSI 호스트에 대해 해당 초기자 CHAP 암호를 다시 입력해야 합니다.</block>
   <block id="ecc4042eed7652f76dd879b570b57e11" category="doc">CHAP 암호를 생성하려면 어떻게 해야 합니까?</block>
   <block id="17e37321365996a91a4f11718b601987" category="paragraph">스토리지 배열에 연결된 iSCSI 호스트에서 CHAP(Challenge Handshake Authentication Protocol) 인증을 설정하는 경우 각 iSCSI 호스트에 대해 해당 초기자 CHAP 암호를 다시 입력해야 합니다.</block>
   <block id="3e9a4afaef61b4b0b728e7809d2fe707" category="paragraph">이렇게 하려면 호스트 생성 작업의 일부로 또는 설정 보기/편집 옵션을 통해 System Manager를 사용할 수 있습니다.</block>
@@ -3958,9 +3941,7 @@
   <block id="6645e0ebb53d4b6e68be7936af3a8039" category="paragraph">AutoSupport</block>
   <block id="9436a2a20c8f8554799cfa7493891181" category="paragraph">스토리지 시스템 하드웨어에는 스토리지 어레이, 컨트롤러 및 드라이브가 포함됩니다.</block>
   <block id="f741797da5e817b0054ef9c0eaf6e202" category="paragraph">개체는 논리적 또는 물리적 스토리지 구성 요소입니다. 논리적 객체에는 볼륨 그룹, 풀 및 볼륨이 포함됩니다. 물리적 객체에는 스토리지 어레이, 어레이 컨트롤러, 호스트 및 드라이브가 포함됩니다.</block>
-  <block id="646754995935d94c046a920e98aed63b" category="summary">System Manager는 이러한 브라우저 버전을 지원합니다.</block>
   <block id="a260cf8ad6a1291b0978385144000e3c" category="doc">지원되는 브라우저는 무엇입니까?</block>
-  <block id="8dec1efe38001f4587b49af677d444ac" category="summary">키보드만 사용하여 System Manager를 탐색할 수 있습니다.</block>
   <block id="f44c2e0b9af76e9f2722f52a08c25e93" category="doc">키보드 바로 가기는 무엇입니까?</block>
   <block id="ae9a8db5f7710f133e0083741b19cfe0" category="section-title">전체 탐색</block>
   <block id="89fd3695e7d8c39822cbec979aa00be3" category="cell">바로 가기 키</block>
@@ -4009,7 +3990,6 @@
   <block id="8417d057d3b11e2b4066c9ed49c5d09d" category="paragraph">제어/명령+종료</block>
   <block id="c35d713def8372dd160b0ae180ceadb9" category="paragraph">선택 없이 날짜 선택을 닫습니다.</block>
   <block id="013ec032d3460d4be4431c6ab1f8f224" category="paragraph">Esc를 누릅니다</block>
-  <block id="a4001dd61d7d9d8ea94055a6907f80f9" category="summary">다음 도움말 항목에서 사용 가능한 표시 옵션에 대한 정보를 찾을 수 있습니다.</block>
   <block id="d8a6ba9a5ef05e84deee23f14a28ab46" category="doc">디스플레이 기본 설정에 대한 자세한 정보는 어디에서 찾을 수 있습니까?</block>
   <block id="dae44576c7b1e063ed5da830d3a4f9f9" category="paragraph">사용 가능한 표시 옵션에 대한 정보를 찾으려면</block>
   <block id="313d3ca857aa69d9e4d7383aa98504b6" category="inline-link-macro">용량 값의 기본 단위를 설정합니다</block>
@@ -4085,11 +4065,8 @@
   <block id="cd580062773964aabd2ab607e90c3879" category="paragraph">드라이브 지우기</block>
   <block id="974bdee2f58c358dff43f3629257cd84" category="paragraph">원격 스토리지 가져오기</block>
   <block id="42ae25231906c83927831e0ef7c317ac" category="list-text">연결을 끊습니다</block>
-  <block id="38fdb2afc81bf942bd8dcf4208c5c967" category="summary">AutoSupport 제공 방법에 대한 구성 작업에 액세스하려면 지원 &gt; 지원 센터 로 이동한 다음 AutoSupport 탭을 클릭합니다.</block>
   <block id="6d145ddbb4b39d9e20b73518a03bfc4f" category="doc">AutoSupport에 대한 전달 방법을 구성하려면 어떻게 합니까?</block>
   <block id="cf5b6a8826dfd986bff2c61c9d14df01" category="paragraph">AutoSupport 제공 방법에 대한 구성 작업에 액세스하려면 지원 [지원 센터] 메뉴로 이동한 다음 * AutoSupport * 탭을 클릭합니다.</block>
-  <block id="96830edba2b0d20286d9e38c88f41f0d" category="summary">하드웨어 확인 대화 상자에 모든 하드웨어 구성 요소가 표시되지 않으면 드라이브 쉘프가 올바로 연결되지 않았거나 스토리지 어레이에 호환되지 않는 쉘프가 설치되어 있는 것일 수 있습니다.</block>
-  <block id="7a3b89af3b52c55d1f98c18d0f91e932" category="doc">내 하드웨어 구성 요소가 모두 표시되지 않으면 어떻게 합니까?</block>
   <block id="9446f92493638ff7ef1aefbdc315bdba" category="paragraph">하드웨어 확인 대화 상자에 모든 하드웨어 구성 요소가 표시되지 않으면 드라이브 쉘프가 올바로 연결되지 않았거나 스토리지 어레이에 호환되지 않는 쉘프가 설치되어 있는 것일 수 있습니다.</block>
   <block id="b372dad273bfadf640e39fc6f3e8aff4" category="paragraph">모든 드라이브 쉘프가 올바로 연결되었는지 확인합니다. 어떤 드라이브 쉘프가 호환되는지 확실하지 않은 경우 기술 지원 팀에 문의하십시오.</block>
   <block id="b3e03781499b79199f562eb4ac600854" category="summary">기본 인터페이스의 스토리지 계층 구조는 스토리지 배열에 의해 관리되는 다양한 하드웨어 구성 요소 및 스토리지 개체에 대한 조직화된 보기를 제공합니다.</block>
@@ -4142,7 +4119,6 @@
   <block id="b44cc8f2227561bd5c9166d7540d3bf7" category="list-text"><block ref="b44cc8f2227561bd5c9166d7540d3bf7" category="inline-link-macro-rx"></block></block>
   <block id="b47240c91c3c71e6f24291515a38e27e" category="inline-link-macro">암호를 변경합니다</block>
   <block id="41b4037cc65a5c02499addb588e46a37" category="list-text"><block ref="41b4037cc65a5c02499addb588e46a37" category="inline-link-macro-rx"></block></block>
-  <block id="0cf92f39ed774e6e03907495e7d22aae" category="doc">모든 호스트가 표시되지 않으면 어떻게 합니까?</block>
   <block id="7cb5c9b7004163f1a52b20165ecce689" category="summary">Recovery Guru는 System Manager의 구성 요소로, 스토리지 배열 문제를 진단하고 문제 해결을 위한 복구 절차를 권장합니다.</block>
   <block id="097aa9373d1177a905ff25237ef92e64" category="doc">Recovery Guru를 사용하여 문제를 해결합니다</block>
   <block id="021f1bb83b28d41e3ee27b42fcb94b13" category="list-text">창 상단의 * Recover from_n_problems * 링크를 클릭합니다.</block>
@@ -4159,7 +4135,6 @@
   <block id="e08bea33d06f32222715e3fdc7fa8842" category="summary">네트워크의 일부 애플리케이션(예: SQL Server 또는 Exchange)에서 해당 애플리케이션에 맞게 스토리지를 최적화하는 워크로드를 정의할 수 있습니다.</block>
   <block id="6404d6af6f191a945c98c6e22bb8a302" category="doc">워크로드란?</block>
   <block id="0f00e158c95683733d5268cd23a15139" category="paragraph">볼륨을 생성하는 동안 시스템에서 워크로드 사용에 대한 질문에 답하라는 메시지를 표시합니다. 예를 들어 Microsoft Exchange용 볼륨을 만드는 경우 필요한 메일박스 수, 평균 메일박스 용량 요구 사항, 원하는 데이터베이스 복제본 수를 묻는 메시지가 표시됩니다. 시스템에서는 이 정보를 사용하여 최적의 볼륨 구성을 생성합니다. 이 구성은 필요에 따라 편집할 수 있습니다.</block>
-  <block id="4343a245fb510b33d199f2e5fae7a540" category="summary">애플리케이션을 식별할 경우 System Manager는 애플리케이션 유형에 따라 스토리지를 최적화하는 볼륨 구성을 자동으로 권장합니다.</block>
   <block id="c56a19e88f72c77c4ab3e3911e485975" category="doc">애플리케이션을 식별하면 스토리지 어레이를 관리하는 데 어떤 도움이 됩니까?</block>
   <block id="e8d880726c1e775bd5008cff6e09ad34" category="paragraph">애플리케이션별로 볼륨을 최적화하면 데이터 스토리지 운영 효율성을 높일 수 있습니다. 볼륨 구성에는 I/O 유형, 세그먼트 크기, 컨트롤러 소유권, 읽기 및 쓰기 캐시 같은 특성이 포함됩니다. 또한 애플리케이션 및 워크로드별로 성능 데이터를 보고 지연 시간, IOPS, MiB/s와 관련 워크로드를 평가할 수 있습니다.</block>
   <block id="720fa4ee2f7b9beaa1e33c121c9216e8" category="summary">System Manager는 용량 값을 기비바이트(GiB) 또는 테비바이트(TiB) 단위로 표시할 수 있습니다.</block>
@@ -4218,7 +4193,6 @@
   <block id="45cd485cdbe2710a251414286fe4b24b" category="paragraph">자체 서명된 인증서는 해당 엔터티의 소유자에 의해 유효성이 검사됩니다. 이 데이터 파일에는 개인 키가 포함되어 있으며 HTTPS 연결을 통해 서버와 클라이언트 간에 암호화된 형식으로 데이터가 전송됩니다. 문자와 숫자로 구성된 디지털 서명도 포함되어 있습니다. 자체 서명된 인증서는 CA 서명 인증서와 동일한 신뢰 체인을 사용하지 않으므로 테스트 환경에서 가장 많이 사용됩니다. "사전 설치된" 인증서라고도 합니다.</block>
   <block id="da60f79907700d2e72e415264e4c359f" category="paragraph">서버 인증서</block>
   <block id="7d2ec4b7897de79a42594fe0b806fedf" category="paragraph">서버 인증서는 인증서 체인의 맨 아래에 있습니다. 웹 사이트 또는 기타 장치와 같은 특정 엔터티를 식별합니다. 스토리지 시스템의 각 컨트롤러에는 별도의 서버 인증서가 필요합니다.</block>
-  <block id="3356c7ecaf79b816577caeabeb922c52" category="summary">다음 표에는 InfiniBand 세션을 통해 iSER을 구성 및 관리하는 데 사용할 수 있는 System Manager 기능이 나와 있습니다.</block>
   <block id="cbe7bc079476646f06b8968551839760" category="doc">InfiniBand를 통해 iSER을 구성하거나 진단하려면 어떻게 해야 합니까?</block>
   <block id="34e1ef42c23e055b03535998dc9a10ea" category="paragraph">InfiniBand를 통한 iSER 설정은 스토리지 어레이의 컨트롤러에 InfiniBand 호스트 관리 포트를 통한 iSER이 포함된 경우에만 사용할 수 있습니다.</block>
   <block id="2bb0ddaccd7b20c12f4ac0ca303c3645" category="paragraph">InfiniBand 포트를 통해 iSER 구성</block>
@@ -4333,7 +4307,6 @@
   <block id="43d98acc1f21987fc8fb29231b237901" category="list-text">다른 커뮤니티 추가 * 를 선택합니다.</block>
   <block id="5e4cda4efb19475c15e558484ccd344c" category="list-text">새 커뮤니티 이름을 입력한 다음 * 저장 * 을 클릭합니다.</block>
   <block id="b043d095facd375f83cfb984bc617519" category="paragraph">새 커뮤니티 이름이 Alerts 페이지의 SNMP 탭에 나타납니다.</block>
-  <block id="02b62fe21218b105202354e3ea442287" category="summary">EF600 스토리지 어레이에는 2개의 HIC, 즉 외부 스토리지와 내부 HIC가 포함될 수 있습니다.</block>
   <block id="2e82a1559209519df8d86c81aa9d6198" category="doc">물리적 포트 하나에 대해 두 개의 매개 변수 세트가 있는 이유는 무엇입니까?</block>
   <block id="efae713b5876ddd9d5278ed17ac910d8" category="paragraph">EF600 스토리지 어레이에는 2개의 HIC, 즉 외부 스토리지와 내부 HIC를 각각 하나씩 포함할 수 있습니다.</block>
   <block id="8db062752d20414202ee8dcfe8b79167" category="paragraph">이 구성에서는 외부 HIC를 내부 보조 HIC에 연결합니다. 외부 HIC에서 액세스할 수 있는 각 물리적 포트에는 내부 HIC에서 연결된 가상 포트가 있습니다.</block>
@@ -4979,8 +4952,6 @@
   <block id="31f7661c9d292dbdf3fe50fc1b901b4c" category="paragraph">DCBX PFC 상태</block>
   <block id="944a7b1c0168a6d53cf9a53188e63035" category="paragraph">특정 포트의 우선 순위 기반 흐름 제어(PFC) 상태입니다. 이 값은 사용 또는 사용 안 함으로 설정됩니다.</block>
   <block id="c8a0ab123e3cad5a7b689f89639753e6" category="admonition">상태 캡처 파일에서 추가 DCBX TLV 통계를 찾을 수 있습니다.</block>
-  <block id="ad7b6f0b788abb4027a97020a34740d3" category="summary">System Manager에 로그인할 때 오류가 발생하면 다음과 같은 가능한 원인을 검토하십시오.</block>
-  <block id="b6026ee3aca4cc03c6a1bf51a326a2d1" category="doc">로그인할 수 없는 이유는 무엇입니까?</block>
   <block id="b9197487d195b0270141242d84cef938" category="paragraph">다음 이유 중 하나로 System Manager에 로그인 오류가 발생할 수 있습니다.</block>
   <block id="d1ac1dfa34b7d51990947002ee6adb2d" category="list-text">잘못된 사용자 이름 또는 암호를 입력했습니다.</block>
   <block id="7c5ba619c861a80ef986b7207b06fe08" category="list-text">권한이 부족합니다.</block>
@@ -5373,7 +5344,6 @@
   <block id="079ca23dfe46ca9964db968e31f50d58" category="paragraph">시스템에서 Red Hat Enterprise Linux 6 또는 SUSE Linux Enterprise Server 11을 실행하는 경우 기술 지원 부서에 문의하십시오.</block>
   <block id="21004bc9953099033e5395c4fc593d98" category="list-text">'/etc/multipath.conf 파일'을 업데이트하고 구성합니다.</block>
   <block id="b21eb279fc105b8614fd3cf19e7fee68" category="list-text">해당 벤더 및 제품에 대해 "Stain_Attached_device_handler"와 "Detect_prio"가 모두 "yes"로 설정되어 있는지 확인하거나 기본 설정을 사용하십시오.</block>
-  <block id="e6f9c55029196b7648834c36ed0e3472" category="summary">System Manager에 표시되는 타임 스탬프가 관리 클라이언트(브라우저를 통해 System Manager에 액세스하는 컴퓨터)에 표시되는 타임 스탬프와 정렬되지 않은 경우 스토리지 어레이에서 컨트롤러 클록을 수동으로 동기화해야 합니다. 이 작업은 System Manager에서 NTP(네트워크 시간 프로토콜)가 활성화되지 않은 경우에만 필요합니다.</block>
   <block id="d0e1c48d259a397068da011bc9e48355" category="doc">스토리지 배열 클록은 언제 동기화해야 합니까?</block>
   <block id="f9a315def8f285bce635c80c1bf7c96d" category="paragraph">시계를 수동으로 동기화하는 대신 NTP 서버를 사용하는 것이 좋습니다. NTP는 SNTP(Simple Network Time Protocol)를 사용하여 외부 서버와 시계를 자동으로 동기화합니다.</block>
   <block id="f7c2a6279f30ed31e705988dae3b0a7a" category="paragraph">시스템 페이지에서 사용할 수 있는 스토리지 배열 시계 동기화 대화 상자에서 동기화 상태를 확인할 수 있습니다. 대화 상자에 표시된 시간이 일치하지 않으면 동기화를 실행합니다. 이 대화 상자를 주기적으로 볼 수 있습니다. 이 대화 상자는 컨트롤러 시계의 시간 디스플레이가 서로 분리되어 더 이상 동기화되지 않았음을 나타냅니다.</block>
@@ -5395,7 +5365,6 @@
   <block id="9e98d98388e5e090ae8059025905090d" category="summary">보안 키 정보가 손실되고 백업이 없는 경우, 보안 지원 드라이브를 재배치하거나 컨트롤러를 업그레이드할 때 데이터가 손실될 수 있습니다. 드라이브에서 데이터를 잠금 해제하려면 보안 키가 필요합니다.</block>
   <block id="8f325c9d4a8f4fb18367ff5b96e3ca31" category="doc">보안 키 정보를 기록하는 것이 중요한 이유는 무엇입니까?</block>
   <block id="3e6a61893d1333f5d128659f56bee74d" category="paragraph">보안 키 식별자, 연결된 암호 구문 및 보안 키 파일이 저장된 로컬 호스트의 위치를 기록해야 합니다.</block>
-  <block id="f2ebc677a5b447998da1a046adcc46f0" category="summary">스토리지 시스템의 컨트롤러는 캐시를 블록으로 구성합니다. 블록 크기는 8, 16, 32KiB가 될 수 있는 메모리 청크입니다. 스토리지 시스템의 모든 볼륨이 동일한 캐시 공간을 공유하기 때문에 볼륨에 캐시 블록 크기가 하나만 있을 수 있습니다.</block>
   <block id="16fa5803900906142586eefc2643c7e8" category="doc">캐시 블록 크기란 무엇입니까?</block>
   <block id="e49b598ec0d819934f021980302ed36e" category="paragraph">스토리지 시스템의 컨트롤러는 캐시를 "블록"으로 구성합니다. 이는 8, 16, 32KiB 크기의 메모리 청크입니다. 스토리지 시스템의 모든 볼륨이 동일한 캐시 공간을 공유하기 때문에 볼륨에 캐시 블록 크기가 하나만 있을 수 있습니다.</block>
   <block id="3a60a217f8b5d35351731337da2590da" category="paragraph">애플리케이션은 스토리지 성능에 영향을 미칠 수 있는 다양한 블록 크기를 사용합니다. 기본적으로 System Manager의 블록 크기는 32KiB이지만 값을 8, 16, 32KiB로 설정할 수 있습니다. 파일 시스템 또는 데이터베이스 애플리케이션에 적합한 크기는 더 작습니다. 크기가 클수록 대용량 데이터 전송, 순차 I/O 또는 멀티미디어와 같은 고대역폭이 필요한 응용 프로그램에 적합합니다.</block>
@@ -5434,7 +5403,6 @@
   <block id="7c5ee15e4160328ac534662fe8dca0f5" category="list-text">프로토콜을 보안 TLS 프로토콜(UDP 또는 TCP)으로 변경한 경우 * 신뢰할 수 있는 인증서 가져오기 * 를 클릭하여 CA 인증서를 업로드합니다.</block>
   <block id="770dce1cc3b932ae22d1e055da6efb57" category="list-text">스토리지 배열과의 새 연결을 테스트하려면 * Test All * 을 선택합니다.</block>
   <block id="0a81e8f050a6c392eeb7e801c574d17a" category="paragraph">구성 후 모든 새 감사 로그가 syslog 서버로 전송됩니다. 이전 로그는 전송되지 않습니다.</block>
-  <block id="a8e2e2e6f94a627dfb39ec0a4930c961" category="summary">드라이브 설정 창에는 드라이브 보안 속성에 대한 정보가 포함되어 있습니다. 읽기/쓰기 액세스 가능은 드라이브의 데이터가 잠겨 있는지 여부를 표시하는 속성 중 하나입니다.</block>
   <block id="acd4d22fedd48d49e5eaf65df648efcf" category="doc">읽기/쓰기 접근성이란 무엇입니까?</block>
   <block id="08e4cde4dec18bcf34720085b135053b" category="paragraph">드라이브 설정 창에는 드라이브 보안 속성에 대한 정보가 포함되어 있습니다. "읽기/쓰기 액세스 가능"은 드라이브의 데이터가 잠겨 있는지 여부를 표시하는 속성 중 하나입니다.</block>
   <block id="5d0ace8d3a4aed739aa36c5cfff181ca" category="paragraph">드라이브 보안 속성을 보려면 하드웨어 페이지로 이동합니다. 드라이브를 선택하고 * 설정 보기 * 를 클릭한 다음 * 추가 설정 표시 * 를 클릭합니다. 드라이브의 잠금이 해제될 때 페이지 하단에서 읽기/쓰기 액세스 가능 속성 값은 * 예 * 입니다. 읽기/쓰기 액세스 가능 속성 값은 드라이브가 잠겨 있을 때 * 아니오, 유효하지 않은 보안 키 * 입니다. 보안 키를 가져와 보안 드라이브의 잠금을 해제할 수 있습니다(설정 [시스템 &gt; 보안 드라이브 잠금 해제] 메뉴로 이동).</block>
@@ -5593,7 +5561,6 @@
   <block id="c218ac303723dc9e5238aefa1b3a7ff7" category="summary">기본 호스트 운영 체제 변경 설정을 사용하여 스토리지 어레이 레벨에서 기본 호스트 유형을 변경합니다. 일반적으로 호스트를 스토리지 어레이에 접속하거나 추가 호스트를 접속할 때 기본 호스트 유형을 변경합니다.</block>
   <block id="f13b8836ca590f08dc665390028349e3" category="list-text">아래로 스크롤하여 * 추가 설정 * 을 찾은 다음 * 기본 호스트 운영 체제 유형 변경 * 을 클릭합니다.</block>
   <block id="ea158c98dbcda1af17cc1edde6ce9882" category="list-text">기본값으로 사용할 호스트 운영 체제 유형을 선택합니다.</block>
-  <block id="621f5a5f95be39f6dfd96721467576f1" category="summary">캐시에 기록되지 않은 데이터의 양이 특정 수준에 도달하면 컨트롤러는 캐시된 데이터를 드라이브에 주기적으로 씁니다. 이 쓰기 프로세스를 플러싱이라고 합니다.</block>
   <block id="2913e0bdf47a84de45d1801f60bd03ec" category="doc">캐시 플러싱이란 무엇입니까?</block>
   <block id="995e13919b56bf032eea1b80b032776e" category="paragraph">캐시에 기록되지 않은 데이터의 양이 특정 수준에 도달하면 컨트롤러는 캐시된 데이터를 드라이브에 주기적으로 씁니다. 이 쓰기 프로세스를 "플러시"라고 합니다.</block>
   <block id="b722587f8397c4f92f14a10a2d19a73d" category="paragraph">컨트롤러는 캐시 플러싱에 두 가지 알고리즘(요구 기반 및 사용 기간 기반)을 사용합니다. 컨트롤러는 캐시된 데이터의 양이 캐시 플러시 임계값 아래로 떨어질 때까지 수요 기반 알고리즘을 사용합니다. 기본적으로 플러시는 캐시의 80%가 사용 중일 때 시작됩니다.</block>
@@ -5661,7 +5628,6 @@
   <block id="109aa3a3a3d05949e97d84d0b42bb0ca" category="list-text">찾아보기 * 단추를 클릭하여 먼저 루트 및 중간 인증서 파일을 선택한 다음 컨트롤러의 각 서버 인증서를 선택합니다. 루트 파일과 중간 파일은 두 컨트롤러 모두에 대해 동일합니다. 서버 인증서만 각 컨트롤러에 대해 고유합니다. 외부 도구에서 CSR을 생성한 경우 CSR과 함께 생성된 개인 키 파일도 가져와야 합니다.</block>
   <block id="5b65c7f3e78be7ecbb752287c80522ff" category="paragraph">파일 이름이 대화 상자에 표시됩니다.</block>
   <block id="8b37291827ebe2e6f281d76aa03af478" category="paragraph">세션이 자동으로 종료됩니다. 인증서를 적용하려면 다시 로그인해야 합니다. 다시 로그인하면 새 CA 서명 인증서가 세션에 사용됩니다.</block>
-  <block id="6f0a8cf9a1855b3b4a97c825f0dc2353" category="summary">관리 인터페이스 전환 또는 SAML 인증 방법 사용과 같이 System Manager에서 특정 변경 작업을 수행할 경우 일부 외부 도구와 기능의 사용이 제한될 수 있습니다.</block>
   <block id="6c447bc20946705a74ecd7374bbfb3d9" category="doc">이 변경의 영향을 받을 수 있는 외부 관리 도구는 무엇입니까?</block>
   <block id="f54dbfa752935857fdfec4346eb4879a" category="section-title">관리 인터페이스</block>
   <block id="d4b335926e3028e39907d1a8db8d868b" category="paragraph">레거시 관리 인터페이스 설정이 활성화되어 있지 않으면 SANtricity SMI-S Provider 또는 OnCommand Insight(OCI)와 같은 기존 관리 인터페이스(기호)와 직접 통신하는 도구가 작동하지 않습니다. 또한 이 설정이 비활성화되어 있으면 레거시 CLI 명령을 사용하거나 미러링 작업을 수행할 수 없습니다.</block>
@@ -5680,7 +5646,6 @@
   <block id="c0d224a4fed485c51514cc07cc810891" category="list-text">로컬 사용자 암호에 대해 최소 암호 길이를 설정하지 않은 경우 선택한 사용자가 스토리지 배열에 액세스하기 위해 암호를 입력하도록 확인란을 선택한 다음 선택한 사용자의 새 암호를 입력할 수 있습니다.</block>
   <block id="582cfc64006cc5e7b3b25ffe837b384c" category="list-text">로컬 관리자 암호를 입력한 다음 * 변경 * 을 클릭합니다.</block>
   <block id="8f67454616784ed58a0ed5a40e3b22e9" category="paragraph">사용자가 현재 로그인한 경우 암호 변경으로 인해 사용자의 활성 세션이 종료됩니다.</block>
-  <block id="a6f7affe4dc5be0cadf5dc1e51b4de98" category="summary">다음 표에는 InfiniBand를 통해 NVMe를 구성하고 관리하는 데 사용할 수 있는 System Manager 기능이 나와 있습니다.</block>
   <block id="f579a5c2bbaa968b2ae0227f6d61ee8b" category="doc">InfiniBand를 통해 NVMe를 구성하거나 진단하려면 어떻게 해야 합니까?</block>
   <block id="f354dc8aa2d80d21ecf46a214b9dc749" category="paragraph">NVMe over InfiniBand 설정은 스토리지 어레이 컨트롤러에 NVMe over InfiniBand 포트가 포함된 경우에만 사용할 수 있습니다.</block>
   <block id="a03fb9ed3e23d41ff2ce19057c3e8d50" category="list-text">Configure NVMe over InfiniBand ports * 를 선택합니다.</block>
@@ -5797,7 +5762,6 @@
   <block id="cbf670d81fafbb8fa880baa729d7866b" category="list-text">메뉴: [Alerts](경고) 설정 을 선택합니다.</block>
   <block id="ab9def0af719c7b8ed09ed8862c29272" category="list-text">새 커뮤니티 이름을 입력한 다음 * 저장 * 을 클릭합니다. 커뮤니티 이름은 인쇄 가능한 ASCII 문자만 포함할 수 있습니다.</block>
   <block id="828a1a17714ff7fbe66b286e64f2e8e2" category="paragraph">Alerts 페이지의 SNMP 탭에 업데이트된 커뮤니티 이름이 표시됩니다.</block>
-  <block id="911b263427c2a3d45b55258250b4f85d" category="summary">System Manager를 사용하면 인증서 해지 목록(CRL)을 업로드하는 대신 OCSP(온라인 인증서 상태 프로토콜) 서버를 사용하여 해지된 인증서를 확인할 수 있습니다.</block>
   <block id="e1338191b3f39c31a394336c2fb52f36" category="doc">인증서 해지 확인에 대해 알아야 할 사항은 무엇입니까?</block>
   <block id="fb43529f07beddec07e39c4b3a09bd7c" category="paragraph">해지된 인증서는 더 이상 신뢰할 수 없습니다. 인증서를 잘못 발급했거나 개인 키가 손상되었거나 식별된 엔터티가 정책 요구 사항을 준수하지 않은 경우와 같이 여러 가지 이유로 인증서가 해지될 수 있습니다.</block>
   <block id="0fb970899dcd3fadfd680340b731758b" category="paragraph">시스템 관리자에서 OCSP 서버에 대한 연결을 설정한 후 스토리지 어레이는 AutoSupport 서버, EKMS(외부 키 관리 서버), LDAPS(Lightweight Directory Access Protocol over SSL) 서버 또는 Syslog 서버에 연결할 때마다 해지 확인을 수행합니다. 스토리지 배열은 이러한 서버의 인증서가 해지되지 않았는지 확인하기 위해 유효성을 검사합니다. 그런 다음 서버는 해당 인증서에 대해 "양호", "취소됨" 또는 "알 수 없음" 값을 반환합니다. 인증서가 해지되었거나 어레이가 OCSP 서버에 연결할 수 없는 경우 연결이 거부됩니다.</block>
@@ -6065,7 +6029,6 @@
   <block id="2418af550cb63dc05a2e61b1e1914d6a" category="list-text">핫 스페어 할당 또는 할당 취소</block>
   <block id="82c2216ff8483a5753f647df799d5573" category="list-text">드라이브를 지웁니다.</block>
   <block id="bbe66c4be17769c6d4513643761ffdc8" category="summary">서버를 수정하거나 업그레이드할 때마다 DHCP 서버를 새로 고치고, 현재 스토리지 어레이와 사용할 스토리지 배열에 관련된 DHCP 정보가 변경되었습니다.</block>
-  <block id="94788b711f7e65635e443787fd7a4d64" category="doc">DHCP 서버에서 포트 구성 또는 iSNS 서버를 언제 새로 고쳐야 합니까?</block>
   <block id="9b0798ee6300bf2c7b2901a68b97fe16" category="paragraph">특히 DHCP 서버가 다른 주소를 할당할 것이라는 사실을 알고 있을 때 DHCP 서버에서 포트 구성 또는 iSNS 서버를 새로 고칩니다.</block>
   <block id="ed5f3843db7d9e3eef32391affc01b48" category="paragraph">포트 구성을 새로 고치면 해당 포트의 모든 iSCSI 연결이 손상될 수 있습니다.</block>
   <block id="a3e48a58e140d82f16be4f08bc7cda9e" category="summary">기본적으로 컨트롤러는 두 네트워크 포트에서 DHCP가 활성화된 상태로 제공됩니다. 고정 IP 주소를 할당하거나, 기본 고정 IP 주소를 사용하거나, DHCP 할당 IP 주소를 사용할 수 있습니다. IPv6 상태 비저장 자동 구성을 사용할 수도 있습니다.</block>
@@ -6622,12 +6585,9 @@
   <block id="e292f5857d049f6cadc79561b997df69" category="paragraph">다중 경로 드라이버로 복원된 기본 경로를 검색하는 데 최대 10분이 걸릴 수 있습니다.</block>
   <block id="b8fcbf83107c708efa791bdefc4d5b14" category="paragraph">각 볼륨에 대한 I/O 요청이 수신되면 이 컨트롤러가 원래 소유했던 볼륨이 자동으로 컨트롤러로 다시 이동됩니다. 경우에 따라 * redistribute volumes * 명령을 사용하여 볼륨을 수동으로 재배포해야 할 수도 있습니다.</block>
   <block id="6173d078b9110f3bc6b143913e3eb5c3" category="summary">네트워크 구성의 기본 방법은 DHCP(Dynamic Host Configuration Protocol)입니다. 네트워크에 DHCP 서버가 없는 경우 항상 이 옵션을 사용하십시오.</block>
-  <block id="8bc7a4f0cccf7a456c1c5e4160d10f9a" category="doc">DHCP 또는 수동 구성 중 어떤 것을 선택합니까?</block>
-  <block id="71c3af242ccaa8ae2337b0f30267ab9c" category="summary">대역외 관리를 사용하는 경우 각 컨트롤러의 IP(인터넷 프로토콜) 주소, 서브네트워크 마스크(서브넷 마스크) 및 게이트웨이 등의 네트워크 구성을 설정해야 합니다.</block>
   <block id="2f7ce553a41c640f56c7844a348637c6" category="doc">컨트롤러 네트워크 구성을 변경해야 하는 이유는 무엇입니까?</block>
   <block id="5e835244a570835c8ccafca9cbc311c0" category="paragraph">대역외 관리를 사용하는 경우 각 컨트롤러의 네트워크 구성(IP(인터넷 프로토콜) 주소, 서브네트워크 마스크(서브넷 마스크) 및 게이트웨이)을 설정해야 합니다.</block>
   <block id="c9c710b8643a9328d401dbe32e5382d0" category="paragraph">DHCP(Dynamic Host Configuration Protocol) 서버를 사용하여 네트워크 구성을 설정할 수 있습니다. DHCP 서버를 사용하지 않는 경우 네트워크 구성을 수동으로 입력해야 합니다.</block>
-  <block id="89e384381ed0570ab577beaf9c2e601b" category="summary">최적화되지 않은 모드의 스토리지 시스템은 잘못된 시스템 구성 상태로 인해 발생합니다. 이 상태에도 불구하고 기존 볼륨에 대한 정상적인 I/O 액세스가 완벽하게 지원되지만 System Manager에서는 일부 작업을 금지합니다.</block>
   <block id="574d0bc88edf7298a47d4aa1e588a886" category="doc">스토리지 시스템이 최적화되지 않은 모드인 이유는 무엇입니까?</block>
   <block id="4daa9d5961d8e3a7d375183df715a565" category="paragraph">다음 이유 중 하나로 스토리지 시스템이 잘못된 시스템 구성으로 전환될 수 있습니다.</block>
   <block id="87db37c136e3231b71d5b7b9a2777a60" category="list-text">컨트롤러가 규정 준수 범위를 벗어났을 수 있습니다. 이는 잘못된 SMID(Submodel ID) 코드를 가지고 있거나 프리미엄 기능 제한을 초과했기 때문일 수 있습니다.</block>
@@ -6696,7 +6656,6 @@
   <block id="7b9ce18ef057f72de83e1ebbee094643" category="paragraph">운영 볼륨, 보조 볼륨 또는 미러 예약 용량에 장애가 발생하여 비동기식 미러링 작업이 정상적으로 작동하지 않습니다.</block>
   <block id="af437ac3df15f94bfea509017c51f1aa" category="paragraph">분리된 미러링된 쌍 볼륨은 두 스토리지 어레이와 미러 구성의 두 측면 간에 통신이 복구되면 감지되며 미러 매개 변수가 조정됩니다.</block>
   <block id="02450c956f6e4f0ee6eb09e6d2e2940b" category="paragraph">미러 정합성 보장 그룹이 시스템 일시 중단 상태이므로 미러링된 페어가 중지 상태입니다.</block>
-  <block id="b3fd593fc883dfb95bb20995275cb9a2" category="summary">예약된 용량은 일반적으로 스냅샷 작업을 위한 기본 볼륨의 40%와 비동기식 미러링 작업을 위한 기본 볼륨의 20%입니다. 일반적으로 이 용량이면 충분합니다.</block>
   <block id="9e5663f73d80960408415d0ced12887a" category="doc">이 비율을 변경하는 이유는 무엇입니까?</block>
   <block id="fe1327f33625d09259d474174d0735ed" category="paragraph">예약된 용량은 일반적으로 스냅샷 작업을 위한 기본 볼륨의 40%와 비동기식 미러링 작업을 위한 기본 볼륨의 20%입니다.</block>
   <block id="7ef46edfdc71263097118ce1f1a8a2c2" category="paragraph">일반적으로 이 용량이면 충분합니다. 필요한 용량은 기본 볼륨에 대한 I/O 쓰기의 빈도 및 크기와 스토리지 오브젝트의 복사 서비스 작업을 사용할 기간에 따라 달라집니다.</block>
@@ -6719,7 +6678,6 @@
   <block id="84b8f6a301b359842aa2361f6749354b" category="list-text">** 원격 복구 지점** – System Manager가 원격 스토리지 배열의 복구 지점 데이터가 정의된 시간 제한보다 오래되었음을 나타내는 경고를 보낸 후 시간 제한을 설정합니다. 이전 업데이트 종료에서 시간 제한을 정의합니다.</block>
   <block id="3f5765f676e00ae9e68055c88a7402d2" category="list-text">** 예약된 용량 임계값** – 예약된 용량 임계값에 근접한 알림을 System Manager에서 보내는 예약 용량 양을 정의합니다. 남은 용량 대비 임계값을 정의합니다.</block>
   <block id="d388a5a56fc0f21659f7e385913b7385" category="paragraph">System Manager는 미러 정합성 보장 그룹의 모든 미러링된 쌍에 대한 동기화 설정을 변경합니다.</block>
-  <block id="b47b71858322e411094e44ec1a37135c" category="summary">Unified Manager 인터페이스에서 미러링된 쌍을 구성한 다음 System Manager에서 쌍을 관리합니다.</block>
   <block id="65377e804f196feceee3ad92b112155f" category="doc">동기식 미러링 - 미러링된 쌍을 만들기 전에 알아야 할 것은 무엇입니까?</block>
   <block id="00e8b06da64441679d15d4f0ec472c62" category="paragraph">대칭 복사 쌍을 만들기 전에 다음 지침을 따릅니다.</block>
   <block id="974faf4582be88d5166f32c03cc6e7c8" category="list-text">두 개의 스토리지 어레이가 있어야 합니다.</block>
@@ -6741,8 +6699,6 @@
   <block id="e6eee9d75412719ac4162bfeb0bae72e" category="paragraph">로컬 스토리지 배열이 원격 스토리지 배열과 통신할 수 없는 경우 역할 변경이 요청될 때 시스템에 스토리지 배열에 연결할 수 없음 대화 상자가 표시되지만 원격 스토리지 배열에 연결할 수 없습니다. 예 * 를 클릭하여 역할 변경을 강제 적용합니다.</block>
   <block id="f13bfae77b9e3fa6ae100d6085b12771" category="paragraph">System Manager에서 다음 작업을 수행합니다.</block>
   <block id="33dd1e24349af0b8ee7d623742e70d5a" category="list-text">미러링된 쌍의 연결된 볼륨에 연결할 수 있으면 볼륨 간의 역할이 변경됩니다. System Manager는 미러링된 쌍의 보조 볼륨을 기본 역할로 상향 이동하거나 미러링 쌍의 기본 볼륨을 보조 역할로 하향 이동합니다(선택에 따라 다름).</block>
-  <block id="09aa31a04bb22f0e3a974409e4760569" category="summary">미러링은 Unified Manager 인터페이스에서 구성합니다.</block>
-  <block id="1f886fa10f9979df037b0e533f029308" category="doc">선택한 미러링 기능에 액세스할 수 없는 이유는 무엇입니까?</block>
   <block id="bf28bf2251d42b0426dd4f0ec93a91cd" category="paragraph">두 어레이 간에 미러링을 설정하고 구성하려면 다음을 확인하십시오.</block>
   <block id="f7fa64ef9537f8a03850d1c113c23923" category="list-text">웹 서비스 프록시 서비스가 실행되고 있어야 합니다. (Unified Manager는 웹 서비스 프록시와 함께 호스트 시스템에 설치됩니다.)</block>
   <block id="262d5c4ea8c35a3f2e6e65685f833785" category="list-text">Unified Manager는 HTTPS 연결을 통해 로컬 호스트에서 실행되고 있어야 합니다.</block>
@@ -6791,7 +6747,6 @@
   <block id="1e25cceb69d635cc8209010eaf1067e3" category="list-text">* 선택 사항: * System Manager에서 후속 데이터 전송을 다시 예약하거나 수동으로 수행할 수 있습니다. 운영 볼륨에서 2차 볼륨으로 새 블록과 변경된 블록만 전송합니다.</block>
   <block id="fc77b013c096ad100da05dcf6981f28b" category="paragraph">비동기식 복제는 정기적으로 수행되므로 시스템에서 변경된 블록을 통합하고 네트워크 대역폭을 보존할 수 있습니다. 쓰기 처리량과 쓰기 지연 시간에 미치는 영향은 미미합니다.</block>
   <block id="9a40e4909c217e4f4c325f3a320ac93a" category="summary">비동기식 미러링 쌍의 보조 볼륨을 생성하면 비동기식 미러링 쌍의 적합한 풀 및 볼륨 그룹 목록이 표시됩니다. 사용할 수 없는 풀 또는 볼륨 그룹은 해당 목록에 표시되지 않습니다.</block>
-  <block id="15f94db58250536332ae255a199d8cc3" category="doc">내 풀 및 볼륨 그룹이 모두 표시되지 않는 이유는 무엇입니까?</block>
   <block id="c55e0fc2f650b6c29bee97d6d925791c" category="paragraph">풀 또는 볼륨 그룹은 다음과 같은 이유로 적합하지 않을 수 있습니다.</block>
   <block id="38c3daa178b71dd0ef1047cd80837346" category="list-text">풀 또는 볼륨 그룹의 보안 기능이 일치하지 않습니다.</block>
   <block id="cdb782ab256ef3f2668dbe0a875bf251" category="summary">동기화 우선 순위는 시스템 성능과 관련하여 동기화 작업에 할당되는 처리 시간을 정의합니다.</block>
@@ -6865,7 +6820,6 @@
   <block id="a5f1724da2375d10d5b700c9a4e1b4c9" category="paragraph">경우에 따라 원격 쓰기가 보조 볼륨에 기록되기 전에 컨트롤러 재설정 또는 스토리지 어레이 전원 사이클에 의해 중단될 수 있습니다. 이 경우 컨트롤러는 미러링된 쌍의 전체 동기화를 수행할 필요가 없습니다.</block>
   <block id="ef7c0136fda8298ef70bc3f610d1faed" category="paragraph">컨트롤러 재설정 중에 원격 쓰기가 중단되면 기본 측의 새 컨트롤러 소유자는 기본 컨트롤러 소유자의 예약된 용량 볼륨에 있는 로그 파일에 저장된 정보를 읽습니다. 그런 다음 새 컨트롤러 소유자가 영향 받은 데이터 블록을 기본 볼륨에서 보조 볼륨으로 복사하여 미러링된 볼륨을 완전히 동기화할 필요가 없습니다.</block>
   <block id="1866ca64bf91acf982f0825105cd98a1" category="summary">예약 용량은 4GiB의 증분으로 늘릴 수 있습니다.</block>
-  <block id="5e79bfcdaf2980a36b13dea84317bc33" category="doc">요청한 용량으로 예약된 용량을 늘릴 수 없는 이유는 무엇입니까?</block>
   <block id="ce83ffa7dc75c0de0405ab5e24abcecf" category="paragraph">비동기식 미러링 작업의 경우 예약된 용량은 일반적으로 기본 볼륨의 20%입니다. 기본 볼륨에 많은 변경이 있을 것으로 예상되거나 스토리지 오브젝트의 복사 서비스 작업 예상 수명이 매우 길 경우 더 높은 비율을 사용하십시오.</block>
   <block id="9b82b2833fcb1841064ceba7e4c4a845" category="summary">일반적으로 미러링된 쌍에 대한 예약된 용량이 가득 차고 있다는 경고가 나타나면 예약된 용량을 늘려야 합니다. 예약 용량은 8GiB의 증분으로 늘릴 수 있습니다.</block>
   <block id="8ae525b549c567cd3fda0ba8a3890d67" category="doc">미러링된 쌍 볼륨에서 예약된 용량을 증가시키기 전에 무엇을 알아야 합니까?</block>
@@ -6986,8 +6940,6 @@
   <block id="9c1e5a0d898296dcc1c8ff70f8a25cff" category="list-text">먼저 로컬 스토리지의 미러 정합성 보장 그룹을 삭제한 다음 원격 스토리지의 미러 정합성 보장 그룹을 삭제합니다.</block>
   <block id="b9d1ca30f010ae5367a9e3dba49d0414" category="list-text">미러 정합성 보장 그룹 테이블에서 미러 정합성 보장 그룹을 제거합니다.</block>
   <block id="85f7d422d4e4be8f81ad54bed0f8d0ce" category="paragraph">경우에 따라 미러 정합성 보장 그룹이 로컬 스토리지 시스템에서 성공적으로 삭제되었지만 통신 오류로 인해 미러 정합성 보장 그룹이 원격 스토리지 시스템에서 삭제되지 않는 경우가 있습니다. 이 경우 원격 스토리지 시스템에 액세스하여 해당 미러 정합성 보장 그룹을 삭제해야 합니다.</block>
-  <block id="6dfc033921a7d8d6b90bc5145f989f1e" category="summary">iSCSI 포트의 IP 주소가 변경되고 로컬 스토리지 배열이 원격 스토리지 배열과 통신할 수 없을 때 원격 스토리지 배열의 IP 주소를 업데이트합니다.</block>
-  <block id="6f04c9a202bb634f610d093a0d5d0495" category="doc">원격 스토리지 어레이의 IP 주소를 업데이트하는 이유는 무엇입니까?</block>
   <block id="4eb18d2e1000f44c1aa7bf303324ef52" category="paragraph">iSCSI 포트의 IP 주소가 변경되고 로컬 스토리지 배열이 원격 스토리지 배열과 통신할 수 없을 때 원격 스토리지 배열의 IP 주소를 업데이트합니다.</block>
   <block id="fd6fd032baf66907fa006af6877faa89" category="paragraph">iSCSI 접속과 비동기 미러링 관계를 설정할 때 로컬 및 원격 스토리지 배열은 비동기 미러링 구성에서 원격 스토리지 배열의 IP 주소에 대한 레코드를 저장합니다. iSCSI 포트의 IP 주소가 변경되면 해당 포트를 사용하려는 원격 스토리지 어레이에 통신 오류가 발생합니다.</block>
   <block id="d7e48014036e048990b33b96292bcc91" category="paragraph">IP 주소가 변경된 스토리지 배열은 iSCSI 연결을 통해 미러링하도록 구성된 미러 정합성 보장 그룹과 연결된 각 원격 스토리지 배열에 메시지를 보냅니다. 이 메시지를 수신하는 스토리지 어레이는 원격 대상 IP 주소를 자동으로 업데이트합니다.</block>
@@ -7061,7 +7013,6 @@
   <block id="851aa6e23b0323e905fc4b18b1ac93ad" category="list-text">이제 비동기 미러링 통신 전용으로 사용되는 컨트롤러의 HBA 호스트 채널이 호스트 읽기 및 쓰기 요청을 수락할 수 있습니다.</block>
   <block id="f61b34655c89283503c961e53e47178a" category="list-text">이 스토리지 배열의 어느 볼륨도 운영 볼륨 또는 보조 볼륨으로 미러 관계에 참여할 수 없습니다.</block>
   <block id="7b35335a6eefe537ec49adb2a524da1e" category="summary">원격 스토리지 어레이에서 보조 볼륨을 선택할 경우 목록에 해당 미러링된 쌍에 대해 적합한 볼륨이 모두 표시됩니다.</block>
-  <block id="d58e89d803ae3ca8b3fded751d8dac3f" category="doc">비동기 미러링 - 원격 스토리지 배열의 모든 볼륨을 볼 수 없는 이유는 무엇입니까?</block>
   <block id="20f1ebedc229b82bc1ca089db22f742e" category="paragraph">사용할 수 없는 볼륨은 해당 목록에 표시되지 않습니다. 볼륨은 다음과 같은 이유로 적합하지 않을 수 있습니다.</block>
   <block id="da6c861252922d5dba9aca194ca15178" category="list-text">볼륨이 최적이 아닙니다.</block>
   <block id="4e30fb2503bfbf3dbe8e11d9e48208d0" category="list-text">볼륨이 이미 미러링 관계에 있습니다.</block>
@@ -7081,7 +7032,6 @@
   <block id="3636b9fe2c9d12c05e8f6d081984ef71" category="list-text">선택한 미러 정합성 보장 그룹 내의 모든 미러링된 쌍에서 데이터의 재동기화를 시작합니다.</block>
   <block id="99e4c2d5cb84c6dc00d6f12bdfee23ca" category="list-text">로컬 스토리지 시스템에서 원격 스토리지 시스템으로 수정된 데이터를 업데이트합니다.</block>
   <block id="50fd10ff08567255543d64e6fdfd287a" category="summary">미러링된 쌍의 기본 볼륨을 선택하면 목록에 모든 적격 볼륨이 표시됩니다.</block>
-  <block id="d651b1b5dea76bd9febe498feca9d0aa" category="doc">비동기식 미러링 - 모든 볼륨이 표시되지 않는 이유는 무엇입니까?</block>
   <block id="6e6d3781c3d5e89dac9c7a5286567157" category="paragraph">사용할 수 없는 볼륨은 해당 목록에 표시되지 않습니다. 볼륨은 다음과 같은 이유로 적합하지 않을 수 있습니다.</block>
   <block id="e162c795f41b2f54f4cc4318a9da4a18" category="list-text">씬 볼륨의 경우 자동 확장이 활성화되어야 합니다.</block>
   <block id="7f29556c75106b05f3d2b4179dcc2406" category="summary">SANtricity System Manager로 관리할 수 없는 기존 스토리지 어레이에서 운영 볼륨을 생성한 경우, System Manager로 이 어레이에 2차 볼륨을 생성할 수 있습니다.</block>
@@ -7149,7 +7099,6 @@
   <block id="11b0de4b478927556d7181ae8cb63a63" category="list-text">테스트할 미러링 쌍을 선택한 다음 * 통신 테스트 * 를 선택합니다.</block>
   <block id="488faf1796cf425a0749bd67b69aaeeb" category="list-text">Results(결과) 창에 표시된 정보를 검토하고 필요한 경우 표시된 수정 조치를 따릅니다.</block>
   <block id="328718c90d988fb5ec16ef6a5c12f32a" category="paragraph">통신 테스트가 실패하면 미러링된 쌍 간의 통신이 복원될 때까지 이 대화 상자를 닫은 후에도 테스트가 계속 실행됩니다.</block>
-  <block id="76c6cdf244623c861eb1e9b45de9f68d" category="doc">동기 미러링 - 내 볼륨을 모두 볼 수 없는 이유는 무엇입니까?</block>
   <block id="996b3bbba1205dd996b175afc6573b9c" category="paragraph">사용할 수 없는 볼륨은 해당 목록에 표시되지 않습니다. 볼륨은 다음과 같은 이유로 적합하지 않을 수 있습니다.</block>
   <block id="991e25bd7d0d856f1cbe33745a8858c0" category="list-text">볼륨은 스냅샷 볼륨 또는 씬 볼륨과 같은 비표준 볼륨입니다.</block>
   <block id="4c3e3eeae093b41fea312df07943a896" category="summary">동기식 미러링 쌍의 상태는 운영 볼륨과 보조 볼륨의 데이터가 동기화되었는지 여부를 나타냅니다. 미러 상태는 미러링된 쌍에 있는 볼륨의 구성 요소 상태와 무관합니다.</block>
@@ -7202,7 +7151,6 @@
   <block id="e9f4d06ac1b68bbf0025e53cb0a0d47c" category="list-text">동기화가 미러링된 쌍에서 수동으로 일시 중단됩니다</block>
   <block id="7782187a2d5e2cdc939698c13e7a75be" category="section-title">분리된 미러링 쌍</block>
   <block id="26777ce8c704996442046f566567fcb0" category="paragraph">구성원 볼륨이 한 쪽(기본 측 또는 보조 측)에서 제거되었지만 다른 쪽에는 제거되지 않은 경우 분리된 미러링된 쌍 볼륨이 존재합니다.</block>
-  <block id="3495d24d327284018c764d189eb19ebe" category="doc">동기 미러링 - 원격 스토리지 어레이의 모든 볼륨이 표시되지 않는 이유는 무엇입니까?</block>
   <block id="00488bd7829540f62dd4bd6dfe0f675b" category="summary">통신 링크를 테스트하여 로컬 스토리지 시스템과 미러 정합성 보장 그룹에 연결된 원격 스토리지 시스템 간의 통신 문제를 진단할 수 있습니다.</block>
   <block id="e68fe7f4465c0b23ebfd3e9388a30c38" category="paragraph">테스트할 미러 정합성 보장 그룹이 로컬 및 원격 스토리지 시스템에 있어야 합니다.</block>
   <block id="4e8203c0bd1e1113b52a2a0fb197d539" category="paragraph">다음 네 가지 테스트를 실행할 수 있습니다.</block>
@@ -7243,7 +7191,6 @@
   <block id="7531a334d220ea22508e384739133ef8" category="list-text"><block ref="7531a334d220ea22508e384739133ef8" category="inline-link-macro-rx"></block></block>
   <block id="42d0992879784d7e513c56623504d02c" category="inline-link-macro">동기식 미러링 쌍을 생성합니다</block>
   <block id="923106106376cef736ef776f6214dfe6" category="list-text"><block ref="923106106376cef736ef776f6214dfe6" category="inline-link-macro-rx"></block></block>
-  <block id="082027bfe4130225fed98f419dcfcbee" category="doc">내 볼륨이 모두 표시되지 않는 이유는 무엇입니까?</block>
   <block id="d6a2f3fb02a6b5a0805cb96861b2ad88" category="list-text">동기식 미러링의 경우 미러링된 쌍의 운영 볼륨과 2차 볼륨이 표준 볼륨이어야 합니다. 씬 볼륨 또는 스냅샷 볼륨일 수 없습니다.</block>
   <block id="d003fc64a90ec0d2d96a3a9a15d536f4" category="list-text">비동기식 미러링의 경우 씬 볼륨에 자동 확장이 설정되어 있어야 합니다.</block>
   <block id="0adbb67cce78097bd133a392388a4ea0" category="summary">한 스토리지 어레이에서 다른 스토리지 어레이로 스토리지 구성을 가져올 수 있습니다. 이 배치 작업은 네트워크에서 여러 어레이를 구성해야 하는 시간을 절약합니다.</block>
@@ -7512,7 +7459,6 @@
   <block id="f20f6d487c692f545d0e34b3f99face7" category="list-text">* 자체 서명된 인증서 *</block>
   <block id="f052a72434f6bc613c169fc96093903a" category="paragraph">자체 서명된 인증서도 사용할 수 있습니다. 관리자가 서명된 인증서를 가져오지 않고 어레이를 검색하려고 하면 Unified Manager에 관리자가 자체 서명된 인증서를 수락할 수 있는 오류 대화 상자가 표시됩니다. 스토리지 시스템의 자체 서명된 인증서가 신뢰할 수 있는 것으로 표시되고 스토리지 시스템이 Unified Manager에 추가됩니다.</block>
   <block id="5e83f689355fdec866c155c6fe9b323e" category="paragraph">스토리지 배열에 대한 연결을 신뢰하지 않는 경우, Unified Manager에 스토리지 배열을 추가하기 전에 * Cancel * 을 선택하고 스토리지 배열의 보안 인증서 전략을 확인합니다.</block>
-  <block id="7f82bc53f199e7918cc64b78504c2064" category="doc">원격 스토리지 어레이에 볼륨이 모두 표시되지 않는 이유는 무엇입니까?</block>
   <block id="8802aac967f31435c584318c847b8f96" category="paragraph">사용할 수 없는 볼륨은 해당 목록에 표시되지 않습니다. 볼륨은 다음과 같은 이유로 적합하지 않을 수 있습니다.</block>
   <block id="1e7a9162b9eda403f57543b169ec7c36" category="list-text">볼륨은 스냅샷 볼륨과 같이 비표준 볼륨입니다.</block>
   <block id="08a038d98290bf4f3a988b5b930953b6" category="list-text">비동기식 미러링의 경우 운영 볼륨과 2차 볼륨 간의 씬 볼륨 특성이 일치하지 않습니다.</block>
@@ -7718,7 +7664,6 @@
   <block id="d675ef77cef523879bf46cc81f50b333" category="paragraph">Unified Manager는 다음 작업을 수행합니다.</block>
   <block id="0dafb34640f1fa9f320c7bf5aed1a0f2" category="admonition">미러링되는 볼륨이 씬 볼륨인 경우 초기 동기화 중에 프로비저닝된 블록(보고된 용량이 아닌 할당된 용량)만 보조 볼륨으로 전송됩니다. 이렇게 하면 초기 동기화를 완료하기 위해 전송해야 하는 데이터의 양이 줄어듭니다.</block>
   <block id="44be7be255dacc165bc883399e8ce540" category="summary">설정 가져오기 작업 중에 일부 스토리지 배열을 대상 선택 대화 상자에서 사용하지 못할 수 있습니다.</block>
-  <block id="2ec3d7bda9724dc0164af9b927fdbc28" category="doc">내 스토리지 어레이가 모두 보이지 않는 이유는 무엇입니까?</block>
   <block id="509271c8c60b258f298994cb7ca8944c" category="paragraph">다음과 같은 이유로 스토리지 어레이가 나타나지 않을 수 있습니다.</block>
   <block id="c91bcce3104eb156b3cd15ae07870a24" category="list-text">펌웨어 버전이 8.50 미만입니다.</block>
   <block id="d42c8b73b3ccc12638f610f2623a0c09" category="list-text">스토리지 배열이 오프라인입니다.</block>
@@ -8040,9 +7985,6 @@
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">개요</block>
   <block id="be4486cc26282ba3c22a297f83977dbe" category="sidebar">지원되는 브라우저 및 OS</block>
-  <block id="483a5da192f46e3cfe8391d3ef234fc4" category="sidebar">FAQ 를 참조하십시오</block>
-  <block id="3023481996e16c0dd27c1aeeab45a6c4" category="sidebar">내 하드웨어 구성 요소가 모두 표시되지 않으면 어떻게 합니까?</block>
-  <block id="4f77fb4cfa40635f17d21979b6692c01" category="sidebar">모든 호스트가 표시되지 않으면 어떻게 합니까?</block>
   <block id="93af28c8ab635f0e7d402547ab0c929d" category="sidebar">기본 인터페이스</block>
   <block id="fc78fae55edd9650c6455e58681d3aae" category="sidebar">성능 데이터를 봅니다</block>
   <block id="76cf11d4db12b1a45f4d62797b620d5e" category="sidebar">인터페이스 설정을 관리합니다</block>
@@ -8069,8 +8011,6 @@
   <block id="775b7856e9d6f75f853357d7ff4ad166" category="sidebar">스냅샷 볼륨의 용량을 변경합니다</block>
   <block id="167bf1069d8793030ffca242b297158f" category="sidebar">용량 정합성 보장 그룹 구성원 볼륨을 변경합니다</block>
   <block id="ab0c882e76928fd51f394b7b8f148e5f" category="sidebar">미러링된 쌍 볼륨의 용량 설정을 변경합니다</block>
-  <block id="d863817ffe646208af65e3a3e7270ce6" category="sidebar">보존 용량을 늘릴 수 없는 이유는 무엇입니까?</block>
-  <block id="4c3ca9b61e82061eb67e30fc2e8f47f4" category="sidebar">감량할 다른 금액을 선택할 수 없는 이유는 무엇입니까?</block>
   <block id="d9e19492064b37fdbc6a3d0c3537588a" category="sidebar">볼륨 및 워크로드</block>
   <block id="8c49ce915d4f8928c912addef222bcf5" category="sidebar">데이터 무결성 및 데이터 보안</block>
   <block id="464608dc32f11d61980f0e0673d96128" category="sidebar">볼륨에 대한 용량입니다</block>
@@ -8085,9 +8025,6 @@
   <block id="88f1d0e5fdeb268f6b87119dfcc27f8a" category="sidebar">작업 유형</block>
   <block id="31ef3dfd1e101bf5cf328ec387a10820" category="sidebar">볼륨 복사</block>
   <block id="41b4e5d916e26c9e0d32ceff6fd589ed" category="sidebar">운영 관리</block>
-  <block id="0c54aa2356b1ba19bf4386215c1829f9" category="sidebar">이러한 볼륨이 워크로드와 관련이 없는 이유는 무엇입니까?</block>
-  <block id="c2573d03e7d109e27aea5c826f85d422" category="sidebar">선택한 워크로드를 삭제할 수 없는 이유는 무엇입니까?</block>
-  <block id="b9f14f06f609b90bb993424923055760" category="sidebar">내 풀 및/또는 볼륨 그룹이 모두 표시되지 않는 이유는 무엇입니까?</block>
   <block id="c6707458876d290c703ac763778d44a0" category="sidebar">호스트 및 호스트 클러스터</block>
   <block id="cf9a49f1bff1d19decdde49cdbdae169" category="sidebar">볼륨이 할당되는 방법입니다</block>
   <block id="b58847c8b7694663db21c4d392c57994" category="sidebar">호스트 액세스를 구성합니다</block>
@@ -8108,7 +8045,6 @@
   <block id="d96ab2599a9195c08b8737eafd4a8124" category="sidebar">구성원 볼륨을 제거합니다</block>
   <block id="170fad9f4be46ada31f8a718075ed709" category="sidebar">스냅샷 볼륨 관리</block>
   <block id="2895ed1d66f9333c01622c7a7d6718eb" category="sidebar">스냅샷 볼륨의 볼륨 설정을 변경합니다</block>
-  <block id="fe82cef3fafe389abaff7e7b8c1c8945" category="sidebar">내 볼륨, 호스트 또는 호스트 클러스터가 모두 표시되지 않는 이유는 무엇입니까?</block>
   <block id="3b63cdc3399c713b7de8016c91a99548" category="sidebar">미러링</block>
   <block id="de3ae7d3b7cb2b60fdd43283060e9bf8" category="sidebar">비동기 개념</block>
   <block id="24f47cdbe9ddba774a7cc53e51d9032e" category="sidebar">워크플로우</block>
@@ -8130,21 +8066,9 @@
   <block id="54d6c04f64489f12de29a89b83cec315" category="sidebar">미러링을 비활성화합니다</block>
   <block id="190233503c975b7bb1f4c8a3f12aba9d" category="sidebar">비동기식 미러링을 비활성화합니다</block>
   <block id="fa7433b43d36d2536077feb9de6b7d42" category="sidebar">동기식 미러링을 비활성화합니다</block>
-  <block id="193ce2ae6dab7d8dddd7670ffaffe748" category="sidebar">Async FAQ를 참조하십시오</block>
-  <block id="2b2aa633a1528095db126f6bb4133c10" category="sidebar">선택한 미러링 기능에 액세스할 수 없는 이유는 무엇입니까?</block>
-  <block id="cb0fd874d43f58b1962d457f8982a032" category="sidebar">요청한 용량으로 예약된 용량을 늘릴 수 없는 이유는 무엇입니까?</block>
-  <block id="126f364ce23072dbb9d2813556631beb" category="sidebar">내 풀 및 볼륨 그룹이 모두 표시되지 않는 이유는 무엇입니까?</block>
-  <block id="cad9ea95efebc08a02e3d69cfba88444" category="sidebar">비동기식 미러링 - 모든 볼륨이 표시되지 않는 이유는 무엇입니까?</block>
-  <block id="67a0bff1354ca5f23241168ff1af4cd1" category="sidebar">비동기 미러링 - 원격 스토리지 배열의 모든 볼륨을 볼 수 없는 이유는 무엇입니까?</block>
-  <block id="a0a778322fcd1480ce0a97557c0bc92c" category="sidebar">원격 스토리지 어레이의 IP 주소를 업데이트하는 이유는 무엇입니까?</block>
-  <block id="009b56b468834c1fb339ca6fd6e64425" category="sidebar">동기화 FAQ</block>
-  <block id="1ee329323d69a8ee4fb262351ae2bb47" category="sidebar">동기식 미러링과 비동기식 미러링의 차이점은 무엇입니까?</block>
-  <block id="7948b47687c25969b744a950d4151812" category="sidebar">동기 미러링 - 내 볼륨을 모두 볼 수 없는 이유는 무엇입니까?</block>
-  <block id="389d3a8b3a5730bc57f7f4d0b4d48716" category="sidebar">동기 미러링 - 원격 스토리지 어레이의 모든 볼륨이 표시되지 않는 이유는 무엇입니까?</block>
   <block id="c7c7a6a5641f33e348244f9c43010e16" category="sidebar">피처 요구 사항</block>
   <block id="551705bacc367306569170afabb0a315" category="sidebar">볼륨 요구 사항</block>
   <block id="85ecd630da2e3481551a9ee213eb40fe" category="sidebar">원격 스토리지 관리</block>
-  <block id="2f20f508a18f461954c8d3933827bcb7" category="sidebar">대상 어레이에 내 볼륨이 모두 표시되지 않는 이유는 무엇입니까?</block>
   <block id="34df2039718349f1b8c838bff98ae8fa" category="sidebar">하드웨어 구성 요소</block>
   <block id="56fed02afa343607f2a7395908bc7b80" category="sidebar">쉘프 구성요소 관리</block>
   <block id="ce5355093ef60f32420434b5e225c42c" category="sidebar">컨트롤러 관리</block>
@@ -8153,13 +8077,7 @@
   <block id="8bd00e89826dbd3fcf80ca108d7a008d" category="sidebar">드라이브 관리</block>
   <block id="14d1c0c1fae5f4b4b38ac991e0042905" category="sidebar">드라이브 보기를 제한합니다</block>
   <block id="2e2a47fe25c4d9ffccde0d65c889b8ea" category="sidebar">핫 스페어 관리</block>
-  <block id="1e43379f3c402667b130d9a559cbe0a3" category="sidebar">쉘프 FAQ</block>
-  <block id="94edff9f76656b0aa64f11d10564bbec" category="sidebar">컨트롤러 FAQ</block>
-  <block id="985daafeefad88644262898a6ba85dfd" category="sidebar">DHCP 또는 수동 구성 중 어떤 것을 선택합니까?</block>
   <block id="757b19acb02bcb72f8fbe9a7b9c92bb1" category="sidebar">포트 구성을 언제 새로 고침해야 합니까?</block>
-  <block id="4a4afac381fa72747a54ec753304470e" category="sidebar">iSCSI FAQ</block>
-  <block id="09ced3685690518398f597bd647eab6c" category="sidebar">NVMe FAQ를 참조하십시오</block>
-  <block id="d1cc2aa09499f8deaf22b2dc39e8d219" category="sidebar">드라이브 FAQ</block>
   <block id="388e3dfbbe5846b66146f413ab694755" category="sidebar">이메일 알림을 관리합니다</block>
   <block id="3990901575d796b02953233d3202f8bb" category="sidebar">메일 서버 및 수신자를 구성합니다</block>
   <block id="48d5d00e65f9a1cc7aff26da6a5c5c0a" category="sidebar">이메일 주소를 편집합니다</block>
@@ -8194,7 +8112,6 @@
   <block id="3b59007922517b5519c2947e72212587" category="sidebar">디렉토리 서비스를 사용합니다</block>
   <block id="dc4efa2585d1662804b20a74b4acc7a4" category="sidebar">SAML을 사용합니다</block>
   <block id="8377583907b5858273c3fcf855ae2800" category="sidebar">syslog를 관리합니다</block>
-  <block id="4db7a3bf8dbbf2993ed6610cb2fb4fe0" category="sidebar">로그인할 수 없는 이유는 무엇입니까?</block>
   <block id="ab70a9bf5b25c1b7ecd7244eef9bf625" category="sidebar">인증서를 사용합니다</block>
   <block id="573efefcaa393f8bfd3572c46a082bf8" category="sidebar">가져온 인증서 정보를 봅니다</block>
   <block id="085f430b0f579d2ec7d45759dea27e67" category="sidebar">인증 서버에 CA 서명 인증서를 사용합니다</block>
@@ -8211,7 +8128,6 @@
   <block id="a0a3f20685c328a00474bb00b7d35fd5" category="sidebar">뷰에서 배열을 제거합니다</block>
   <block id="15fc53829e4c837f62e15647e031089c" category="sidebar">설정을 가져옵니다</block>
   <block id="360bd2c3afed58c551a15d240c5d8ae4" category="sidebar">일괄 가져오기를 사용합니다</block>
-  <block id="c662a0230db643f7b489f1a5fd4c7738" category="sidebar">내 스토리지 어레이가 모두 보이지 않는 이유는 무엇입니까?</block>
   <block id="7fa2f2323087b4b331f294a3e571ac48" category="sidebar">스토리지 그룹</block>
   <block id="5004fa93538efdf6507cbefc3275b79e" category="sidebar">그룹을 구성합니다</block>
   <block id="07a90270ebf66da177e03281873bb626" category="sidebar">그룹에서 어레이를 제거합니다</block>
@@ -8219,8 +8135,6 @@
   <block id="70056e37f8376098bb31cd0e5570d51b" category="sidebar">그룹 이름을 바꿉니다</block>
   <block id="240f9686efc9548a1d556d924c143924" category="sidebar">업그레이드</block>
   <block id="ecaa37294fe56af2542fb9595f4d7c00" category="sidebar">미러링을 구성합니다</block>
-  <block id="a4228446d8c9251ebd134b25ea2f2a9d" category="sidebar">내 볼륨이 모두 표시되지 않는 이유는 무엇입니까?</block>
-  <block id="4a8aaebc73b69b1dce072d72f2645856" category="sidebar">원격 스토리지 어레이에 볼륨이 모두 표시되지 않는 이유는 무엇입니까?</block>
   <block id="bc864bcc140c5518082e93d37b396baf" category="sidebar">관리 호스트 인증서를 사용합니다</block>
   <block id="0e695c0c9242624f235546e43dde2e16" category="sidebar">스토리지 인증서를 사용합니다</block>
   <block id="951d3fc54a28f9f46798897467d96a5b" category="sidebar">인증서를 관리합니다</block>
@@ -8626,7 +8540,6 @@
   <block id="c1ef781eafa3554e3ab8e8623b4e5a71" category="paragraph">EF600/EF600C 또는 EF300/EF300C 스토리지 시스템에서는 동기식 미러링을 사용할 수 없습니다.</block>
   <block id="5a7b6df104eae510976ebef6d294bbc2" category="paragraph">이 기능은 EF600/EF600C 또는 EF300/EF300C 스토리지 시스템의 동기식 미러링에는 사용할 수 없습니다.</block>
   <block id="b9e88ad6836c4f5d794f382de8f1f2c9" category="admonition">현재 EF300C 또는 EF600C 스토리지 어레이에서는 DULBE가 지원되지 않습니다.</block>
-  <block id="4b8add2dc8ff6506b02ecbd9ce368929" category="summary">리소스 프로비저닝은 EF300, EF300C, EF600 및 EF600C 스토리지 어레이에서 제공되는 기능으로, 백그라운드 초기화 프로세스 없이 볼륨을 즉시 사용할 수 있도록 지원합니다.</block>
   <block id="90992e53bcf79cefee988e4147be01b6" category="paragraph">E4000, EF600/EF600C 또는 EF300/EF300C 스토리지 시스템에서는 액세스 볼륨을 사용한 대역 내 관리를 사용할 수 없습니다.</block>
   <block id="16ebf1283fdb23275c2211d15a82e2cd" category="list-text">EF600/EF600C 또는 EF300/EF300C 스토리지 시스템에서는 씬 볼륨을 사용할 수 없습니다.</block>
   <block id="1ac9fe85275ed11ba0a95e5559f5af80" category="paragraph">드로어 손실 보호가 사용 가능한지 여부를 표시합니다. 이 보호 기능은 드로어가 포함된 드라이브 쉘프를 사용하는 경우에만 제공됩니다. 드로어 손실 방지 기능은 드라이브 쉘프의 단일 드로어에서 전체 통신 장애가 발생할 경우 볼륨 그룹의 볼륨에 있는 데이터에 액세스할 수 있도록 보장합니다.</block>
@@ -9050,4 +8963,75 @@
   <block id="a10a0fef1a8b50d16443976fedae1e16" category="section-title">버전 11.90R3의 새로운 기능</block>
   <block id="c78544d43a065eb825edb9e16bf0e9ad" category="paragraph">IOM12C 및 DCM3에 대한 SANtricity OS 지원</block>
   <block id="94d90ce4793f949687897ec062d97b9c" category="paragraph">컨트롤러 펌웨어 11.90R3 이상에서 IOM12C 및 DCM3 SAS-3 셸프를 지원합니다. IOM12C 및 DCM3 셸프는 IOM12B 및 DCM2 셸프를 대체합니다.</block>
+  <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">이 FAQ는 질문에 대한 간단한 답변을 찾는 경우에 도움이 될 수 있습니다.</block>
+  <block id="5453a26dc9b68778117a8311e75f8fbe" category="doc">SANtricity System Manager용 스토리지 컨트롤러 FAQ</block>
+  <block id="d51277c947b0f0f0862c6f10192a1cc0" category="section-title">DHCP와 수동 구성 중 무엇을 선택해야 합니까?</block>
+  <block id="ad76bfb46a270b4305ffd6738882677c" category="doc">SANtricity System Manager를 위한 보관 선반 FAQ</block>
+  <block id="19b5339279f2639b668d0bbe4f8b70a0" category="doc">SANtricity System Manager에 대한 관리 인터페이스 FAQ</block>
+  <block id="8587ba2a3667d610eb60afc44dad1723" category="doc">SANtricity System Manager를 위한 스토리지 시스템 설정 FAQ</block>
+  <block id="a8d4770377b5b26815bf4624787b5cd2" category="section-title">모든 하드웨어 구성 요소가 보이지 않으면 어떻게 되나요?</block>
+  <block id="93553c3f530e96d0430861eab073fd9f" category="section-title">모든 호스트를 볼 수 없다면 어떻게 해야 하나요?</block>
+  <block id="ec650621f1b4e4a52be9f5b5b3aa032e" category="doc">SANtricity System Manager에 대한 비동기 미러링 FAQ</block>
+  <block id="9f823e5a9e8f9ed671d7256745222141" category="section-title">선택한 미러링 기능에 왜 액세스할 수 없나요?</block>
+  <block id="056a12680d6f0ea9fbc5b9cd0dcbbbc5" category="section-title">요청한 양만큼 예약된 용량을 늘릴 수 없는 이유는 무엇인가요?</block>
+  <block id="627802c3caee37379a9c399ab704765d" category="section-title">왜 내 풀과 볼륨 그룹이 모두 보이지 않나요?</block>
+  <block id="c61a1154889025d1e7a947414ac8a162" category="section-title">비동기 미러링 - 왜 모든 볼륨이 보이지 않나요?</block>
+  <block id="a7d50b4837966a5a224cf9d31b8f4a86" category="section-title">비동기 미러링 - 원격 스토리지 어레이의 모든 볼륨이 표시되지 않는 이유는 무엇입니까?</block>
+  <block id="2aea594a4c81b0946e1265a4de81a100" category="section-title">원격 스토리지 어레이의 IP 주소를 업데이트해야 하는 이유는 무엇입니까?</block>
+  <block id="e49efc0cfc4c7b160fd4cdfba13d0678" category="doc">SANtricity System Manager에 대한 동기화 미러링 FAQ</block>
+  <block id="3cf88cf8f3807ba93b6284bc7f35241d" category="section-title">동기식 미러링 - 왜 모든 볼륨이 보이지 않나요?</block>
+  <block id="127409013236f2ee4d2fedecdfdf9696" category="section-title">동기식 미러링 - 원격 스토리지 어레이의 모든 볼륨이 표시되지 않는 이유는 무엇입니까?</block>
+  <block id="474e6194420a15da8f116ca1d03c1089" category="doc">SANtricity 소프트웨어의 캐시 설정 및 성능에 대해 알아보세요</block>
+  <block id="07a19ca9ce814c05660c931367a1daec" category="doc">SANtricity System Manager에 대한 CA 서명 및 자체 서명 인증서 FAQ</block>
+  <block id="07898edb5d614ff7156be4ecdb0b0a5f" category="doc">SANtricity System Manager를 위한 iSCSI 프로토콜 FAQ</block>
+  <block id="3da657434c2b0361e0108af6bf025792" category="doc">SANtricity System Manager를 위한 NVMe 프로토콜 FAQ</block>
+  <block id="8a75fb951da264587a6600ccf7d93fea" category="doc">SANtricity System Manager를 위한 스토리지 드라이브 보안 FAQ</block>
+  <block id="7e2b30503c6c69f7a65b4e868fd7b1d7" category="doc">SANtricity System Manager에 대한 스토리지 시스템 알림 FAQ</block>
+  <block id="fe7c1bb53377d143fbbd6019354e2c03" category="doc">SANtricity System Manager에 대한 사용자 액세스 관리 FAQ</block>
+  <block id="0307aefebec2be18a5e72767abfab6ea" category="section-title">왜 로그인할 수 없나요?</block>
+  <block id="8eb7d61e639ed5ef84ecef34c3ef9a90" category="doc">SANtricity System Manager의 기본 볼륨, 예약 용량 및 스냅샷 그룹에 대해 알아보세요.</block>
+  <block id="93ff2ee6ca3ebff76b39eee6c837a05c" category="doc">SANtricity System Manager에 대한 풀 및 볼륨 그룹 FAQ</block>
+  <block id="95480a662f5c9e477922a7a2b403bb11" category="section-title">왜 보존 용량을 늘릴 수 없나요?</block>
+  <block id="e162d80660b94f1ba0e8a0ed9b5db00c" category="section-title">왜 감소시킬 금액을 더 선택할 수 없나요?</block>
+  <block id="e28db378e03cfeaba6b656dc0456b190" category="doc">SANtricity System Manager에 대한 원격 스토리지 FAQ</block>
+  <block id="24ad5296fefcace9e0149956fd904cf2" category="section-title">대상 어레이에서 모든 볼륨이 보이지 않는 이유는 무엇입니까?</block>
+  <block id="5fcdf917efa28e8116867e315322b0e1" category="doc">SANtricity System Manager에 대한 스냅샷 FAQ</block>
+  <block id="2ba6fbda3398bad4861f032c2009b0d3" category="section-title">볼륨, 호스트 또는 호스트 클러스터가 모두 표시되지 않는 이유는 무엇입니까?</block>
+  <block id="9421c472440f982cec67bc525c3c00a6" category="doc">SANtricity System Manager에 대한 스토리지 어레이 설정 FAQ</block>
+  <block id="28f98bb6051d213c5956bab8fa693f88" category="doc">SANtricity System Manager를 위한 스토리지 드라이브 FAQ</block>
+  <block id="570b09742a6d84e577f1d00cdf68e38b" category="doc">SANtricity System Manager에 대한 호스트 시스템 및 호스트 클러스터 FAQ</block>
+  <block id="4538489334cc71ec5bc63f18418b8b5f" category="doc">SANtricity System Manager의 볼륨 및 작업 부하 FAQ</block>
+  <block id="38457c0d7698b046b04ff29966984237" category="section-title">이러한 볼륨이 작업 부하와 연결되지 않는 이유는 무엇입니까?</block>
+  <block id="38134686fcc012c564ba793d762895ce" category="section-title">선택한 작업 부하를 삭제할 수 없는 이유는 무엇입니까?</block>
+  <block id="73158d5edc74cd6d3fceaaadb9c001b6" category="section-title">왜 내 풀 및/또는 볼륨 그룹이 모두 보이지 않나요?</block>
+  <block id="9e5fa4fee4e2e323cc46591b9c569f80" category="doc">SANtricity System Manager에 대한 AutoSupport FAQ</block>
+  <block id="17b506511a9d92bc797c9a616e848618" category="doc">SANtricity Unified Manager에 대한 사용자 액세스 관리 FAQ</block>
+  <block id="46bbf70058c38d16be148ec731c4e2ff" category="doc">SANtricity Unified Manager에 대한 가져오기 설정 FAQ</block>
+  <block id="9265078167e4a547bcd07baa0fcd2c28" category="section-title">내 스토리지 배열이 모두 보이지 않는 이유는 무엇인가요?</block>
+  <block id="e4dd224c723eab5d0e1fc1ba66660335" category="doc">SANtricity Unified Manager에 대한 스토리지 미러링 FAQ</block>
+  <block id="a09f907840e3debc354b7bf16928d0a9" category="section-title">왜 내 모든 볼륨이 보이지 않나요?</block>
+  <block id="59811ac2b31c7c14c4f6c5a0fe557df0" category="section-title">원격 스토리지 배열의 모든 볼륨이 표시되지 않는 이유는 무엇입니까?</block>
+  <block id="6aa27cc5d4cf944c8ace1bc2cb4b986d" category="doc">SANtricity Unified Manager에서 디렉터리 서비스 설정 가져오기</block>
+  <block id="af12fbdbeeb22bd98af40e694f9dbeed" category="sidebar">스토리지 시스템 설정 FAQ</block>
+  <block id="e880fbedb2e8a12c7abef7ffeecb5c8a" category="sidebar">관리 인터페이스 FAQ</block>
+  <block id="85f37ae864bd5c5fb734f986c131ea41" category="sidebar">풀 및 볼륨 그룹 FAQ</block>
+  <block id="c12ad1150304879fdf3619ff461b010f" category="sidebar">볼륨 및 작업 부하 FAQ</block>
+  <block id="e3f88e92f689c60cd6dd33d9bdf1781f" category="sidebar">호스트 시스템 및 호스트 클러스터 FAQ</block>
+  <block id="7b79c68474c127986d80027dea958b67" category="sidebar">스냅샷 FAQ</block>
+  <block id="f3c1090e458eacb45d91144e5e8843dc" category="sidebar">비동기 미러링 FAQ</block>
+  <block id="e812bdafa8421a172fa5f89167c98d11" category="sidebar">동기화 미러링 FAQ</block>
+  <block id="764c366408531519068ab72822b9d70b" category="sidebar">원격 저장소 FAQ</block>
+  <block id="f5500aa15342ea488f2a3948a19f8a86" category="sidebar">보관 선반 FAQ</block>
+  <block id="efaedbc5c0388f05f894ade9a9b051be" category="sidebar">스토리지 컨트롤러 FAQ입니다</block>
+  <block id="423cac0d8ecb8cbe666a15aa9d177028" category="sidebar">iSCSI 프로토콜 FAQ</block>
+  <block id="57a622d8a0a7d13e86e3514bb3b4e9ea" category="sidebar">NVMe 프로토콜 FAQ</block>
+  <block id="7848d82d7d98c22e1395a7e63f5fab9b" category="sidebar">저장 드라이브 FAQ</block>
+  <block id="dab141492d4f7a76f831015c28747d7e" category="sidebar">스토리지 시스템 알림 FAQ</block>
+  <block id="4da5cbb04d7ab418ddaf55ae50d07680" category="sidebar">스토리지 어레이 설정 FAQ</block>
+  <block id="f39e9ea930d05db1a69c96b879497b38" category="sidebar">저장 드라이브 보안 FAQ</block>
+  <block id="fe28cf5dc2afdedb53feb43fe61499e7" category="sidebar">사용자 접근 관리 FAQ</block>
+  <block id="2a2d5026981871719d2bae7c3420cf9e" category="sidebar">인증서 FAQ</block>
+  <block id="f9e9bc191db345171d0de707013016a3" category="sidebar">AutoSupport FAQ</block>
+  <block id="3af089d2853adca01b3ba738ac9987ff" category="sidebar">가져오기 설정 FAQ</block>
+  <block id="e35e805c872d89cfd87942f59e41eb2d" category="sidebar">스토리지 미러링 FAQ</block>
 </blocks>

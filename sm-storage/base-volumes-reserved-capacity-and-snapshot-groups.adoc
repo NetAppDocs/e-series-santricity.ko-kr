@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, base volumes, reserved capacity, snapshot groups 
 summary: 스냅샷 기능은 기본 볼륨, 예약된 용량 및 스냅샷 그룹을 사용합니다. 
 ---
-= 기본 볼륨, 예약 용량 및 스냅샷 그룹
+= SANtricity System Manager의 기본 볼륨, 예약 용량 및 스냅샷 그룹에 대해 알아보세요.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

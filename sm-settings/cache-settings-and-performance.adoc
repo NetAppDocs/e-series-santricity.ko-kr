@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, cache, settings, performance, 
 summary: 캐시 메모리는 드라이브 미디어보다 액세스 시간이 빠른 컨트롤러의 임시 휘발성 저장 영역입니다. 
 ---
-= 캐시 설정 및 성능
+= SANtricity 소프트웨어의 캐시 설정 및 성능에 대해 알아보세요
 :allow-uri-read: 
 :experimental: 
 :icons: font
