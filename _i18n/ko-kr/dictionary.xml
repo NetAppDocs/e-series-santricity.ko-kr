@@ -9034,4 +9034,5 @@
   <block id="f9e9bc191db345171d0de707013016a3" category="sidebar">AutoSupport FAQ</block>
   <block id="3af089d2853adca01b3ba738ac9987ff" category="sidebar">가져오기 설정 FAQ</block>
   <block id="e35e805c872d89cfd87942f59e41eb2d" category="sidebar">스토리지 미러링 FAQ</block>
+  <block id="ded92516be8a7fa425e1814e7ca1ea4e" category="paragraph">E4000은 iSCSI 프로토콜을 사용하는 동안 비동기 미러링을 지원하지 않습니다.</block>
 </blocks>
