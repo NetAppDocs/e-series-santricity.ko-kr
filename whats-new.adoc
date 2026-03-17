@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: whats new, new features, SANtricity 12.0 
+keywords: whats new, new features, SANtricity 12.00 
 summary: SANtricity OS의 새로운 기능 
 ---
-= SANtricity OS 12.0의 새로운 기능
+= SANtricity OS 12.00의 새로운 기능
 :allow-uri-read: 
 :experimental: 
 :icons: font
@@ -12,14 +12,14 @@ summary: SANtricity OS의 새로운 기능
 
 
 [role="lead"]
-다음 표는 SANtricity System Manager 12.0의 새로운 기능을 설명합니다.
+다음 표는 SANtricity System Manager 12.00의 새로운 기능을 설명합니다.
 
 
 
-== 버전 12.0의 새로운 기능
+== 버전 12.00의 새로운 기능
 
 
-NOTE: SANtricity OS 12.0 릴리스는 새로운 EF80 및 EF50 올플래시 스토리지 시스템과만 호환됩니다. SANtricity OS 11.9 이하 버전을 사용 중인 경우 link:known-issues.html["알려진 문제"]에서 이전 릴리스의 새로운 기능 목록을 참조하십시오.
+NOTE: SANtricity OS 12.00 릴리스는 새로운 EF80 및 EF50 올플래시 스토리지 시스템과만 호환됩니다. SANtricity OS 11.9 이하 버전을 사용 중인 경우 link:known-issues.html["알려진 문제"]에서 이전 릴리스의 새로운 기능 목록을 참조하십시오.
 
 [cols="35h,~"]
 |===
@@ -41,7 +41,7 @@ SANtricity System Manager를 위한 새로운 사용자 인터페이스
 새로운 EF80 및 EF50 컨트롤러를 위해 SANtricity System Manager 사용자 인터페이스가 더욱 현대적인 모습과 느낌을 제공하도록 재설계되었습니다. 새로운 인터페이스는 왼쪽 패널 탐색 기능과 관리 작업을 간소화하기 위한 향상된 사용 편의성을 포함합니다.
 
 
-NOTE: 새로운 사용자 인터페이스는 현재 SANtricity 12.0 릴리스가 포함된 EF80 및 EF50 스토리지 시스템에서만 사용할 수 있습니다. SANtricity 11.9 이하 버전을 사용 중인 경우 link:https://docs.netapp.com/us-en/e-series-santricity-119/system-manager/index.html["SANtricity 시스템 관리자 11.9"]에서 기존 사용자 인터페이스 사용에 대한 지침을 참조하십시오.
+NOTE: 새로운 사용자 인터페이스는 현재 SANtricity 12.00 릴리스가 포함된 EF80 및 EF50 스토리지 시스템에서만 사용할 수 있습니다. SANtricity 11.9 이하 버전을 사용 중인 경우 link:https://docs.netapp.com/us-en/e-series-santricity-119/system-manager/index.html["SANtricity 시스템 관리자 11.9"]에서 기존 사용자 인터페이스 사용에 대한 지침을 참조하십시오.
 
 
 

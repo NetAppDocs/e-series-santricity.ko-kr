@@ -8085,7 +8085,6 @@
   <block id="e8b164999d03a57227fb0dc4e31b1f9a" category="list-text"><block ref="e8b164999d03a57227fb0dc4e31b1f9a" category="inline-link-rx"></block></block>
   <block id="7a2b27b2d95b2db288029dec9f945c50" category="inline-link">11.90 릴리스 정보</block>
   <block id="a780d55204be966b795f04cc4bf22137" category="list-text"><block ref="a780d55204be966b795f04cc4bf22137" category="inline-link-rx"></block></block>
-  <block id="5e40a8e83b3a3f822534bef7faa8799b" category="paragraph"><block ref="5e40a8e83b3a3f822534bef7faa8799b" category="inline-link-rx"></block></block>
   <block id="01e0b2ba5ead95d64e3071a148f7dc95" category="paragraph"><block ref="9736d9f6dc9242e38869944fa056dfab" category="inline-image-macro-rx" type="image"></block> * 성능 *</block>
   <block id="730eaa798c5f8a877db1f1518847a4e4" category="paragraph"><block ref="7671c6425a04efd849fb29c1bc3d6f15" category="inline-image-macro-rx" type="image"></block> * 스토리지 *</block>
   <block id="21a1e68164f738b8be1dae11d5a694b3" category="inline-image-macro">데이터 보호</block>
@@ -8726,8 +8725,6 @@
   <block id="9da88b3d41fc062b2fe1a843a0e9c3f6" category="admonition">E4000 컨트롤러는 iSCSI 미러링을 지원하지 않습니다.</block>
   <block id="da4fb5c6e93e74d3df8527599fa62642" category="paragraph">120</block>
   <block id="c74d97b01eae257e44aa9d5bade97baf" category="paragraph">16</block>
-  <block id="3b4608a173577ff11cb5a970a95a9116" category="inline-link">12.0 릴리스 노트</block>
-  <block id="3140eb9f268fa80dd4b189e0d7e0986b" category="list-text"><block ref="3140eb9f268fa80dd4b189e0d7e0986b" category="inline-link-rx"></block></block>
   <block id="fd2794987891340c24fff2fa599efaee" category="admonition">EF80, EF50, EF600/EF600C 및 EF300/EF300C 스토리지 어레이는 동기식 미러링 또는 씬 볼륨을 지원하지 않습니다.</block>
   <block id="ccdf92355b0aaee2a2280755e8b08e7c" category="paragraph">Unified Manager는 도메인 전체를 관리하는 데 사용되는 웹 기반 소프트웨어입니다. 중앙 집중식 보기에서 EF80, EF50, E4000, E2800, EF280, EF300, E5700, EF570, EF600, EF300C, EF600C와 같은 모든 최신 E-Series 및 EF-Series 어레이의 상태를 확인할 수 있습니다. 또한 선택한 스토리지 어레이에 대해 일괄 작업을 수행할 수 있습니다.</block>
   <block id="82c50740e9777a0b839701b8603354cb" category="paragraph">8.x(SP10), 9.x(SP6, SP7), 10.x(GA, SP1)/64비트</block>
@@ -8738,7 +8735,6 @@
   <block id="e663db07e118a870f470c797797eabdc" category="list-text"><block ref="26eb25b14d930f9d5f59b2c50798a9a4" prefix=" " category="inline-code"></block>를 입력하여 작업을 확인한 다음 *드라이브 지우기*를 클릭하십시오.</block>
   <block id="a37442aae2fdec96cb5238a1da614975" category="paragraph">삭제 작업은 몇 분에서 몇 시간까지 소요될 수 있습니다. menu:Storage[Operations in Progress]에서 상태를 확인할 수 있습니다. 삭제 작업이 완료되면 해당 드라이브는 다른 볼륨 그룹이나 디스크 풀, 또는 다른 스토리지 어레이에서 사용할 수 있습니다.</block>
   <block id="dcfabf77926c61707b0aec26409327ca" category="paragraph">DULBE(Deallocated or Unwritten Logical Block Error)는 NVMe 드라이브의 옵션으로, EF80, EF50, EF300/EF300C 또는 EF600/EF600C 스토리지 시스템에서 리소스 프로비저닝 볼륨을 지원할 수 있도록 합니다.</block>
-  <block id="38833d44319a29abce252a75db2a1f8b" category="doc">SANtricity System Manager 12.0</block>
   <block id="8200990c6066d1d9a57e817228d442ed" category="paragraph">할당 해제 또는 미기록 논리 블록 오류(DULBE) 옵션이 활성화(예)되었는지 또는 비활성화(아니요)되었는지를 나타냅니다. DULBE는 NVMe 드라이브의 옵션으로, EF80, EF50, EF300 또는 EF600 스토리지 시스템에서 리소스 프로비저닝 볼륨을 지원할 수 있도록 합니다.</block>
   <block id="80c4081de557a7ea6b138514f14e41c8" category="paragraph">지연 시간 그래프는 볼륨, 볼륨 그룹, 풀, 애플리케이션 및 워크로드에 대한 지연 시간 통계를 밀리초(ms) 단위로 제공합니다. 이 그래프는 논리적 보기, 물리적 보기 및 애플리케이션 및 워크로드 보기 탭에 나타납니다.</block>
   <block id="301220bfd980824d7e894be673f80491" category="paragraph">IOPS 그래프는 초당 입출력 작업에 대한 통계를 표시합니다. 홈 페이지에서는 스토리지 어레이에 대한 통계가 표시됩니다. 성능 페이지의 논리적 보기, 물리적 보기, 애플리케이션 및 워크로드 보기 탭에서는 스토리지 어레이, 볼륨, 볼륨 그룹, 풀, 애플리케이션 및 워크로드에 대한 통계가 표시됩니다.</block>
@@ -9083,26 +9079,30 @@
   <block id="0c577323ad91a9214ccf927630b8f24e" category="paragraph">동기식 미러링은 EF80, EF50, EF600/EF600C 또는 EF300/EF300C 스토리지 시스템에서 사용할 수 없습니다.</block>
   <block id="d789ee5d8d5244777090beeda7a82875" category="list-text">상태 점검이 완료되면 각 행 오른쪽에 있는 줄임표(...)를 클릭하여 자세한 정보를 확인하고 다른 작업을 수행할 수 있습니다.</block>
   <block id="b3e39c045e7dc1da6b72058620f83a78" category="paragraph">EF80, EF50, EF600/EF600C 또는 EF300/EF300C 스토리지 시스템에서는 동기식 미러링을 사용할 수 없습니다.</block>
-  <block id="a1a85e20a47be8d7fe53c0f34789b4c7" category="doc">SANtricity OS 12.0의 새로운 기능</block>
-  <block id="0f6926308b07eb7aa9e7a13247779ca5" category="paragraph">다음 표는 SANtricity System Manager 12.0의 새로운 기능을 설명합니다.</block>
-  <block id="5de3bf25939bdfa37414108f0d590980" category="section-title">버전 12.0의 새로운 기능</block>
-  <block id="fe676a4357a919795437a65bc3508ba2" category="admonition">SANtricity OS 12.0 릴리스는 새로운 EF80 및 EF50 올플래시 스토리지 시스템과만 호환됩니다. SANtricity OS 11.9 이하 버전을 사용 중인 경우 <block ref="82c2070aff35641805f15c612a69d897" category="inline-link-macro-rx"></block>에서 이전 릴리스의 새로운 기능 목록을 참조하십시오.</block>
   <block id="bf183e9df2b499bf43a8c68e4fec9235" category="paragraph">새로운 스토리지 시스템 모델 – EF80 및 EF50 올플래시 스토리지 시스템</block>
   <block id="786003cdc863f3aad3e6d8b6bfb3da10" category="paragraph">SANtricity System Manager를 위한 새로운 사용자 인터페이스</block>
   <block id="22b06c9a9c11b263cfc8b70ea106720b" category="paragraph">새로운 EF80 및 EF50 컨트롤러를 위해 SANtricity System Manager 사용자 인터페이스가 더욱 현대적인 모습과 느낌을 제공하도록 재설계되었습니다. 새로운 인터페이스는 왼쪽 패널 탐색 기능과 관리 작업을 간소화하기 위한 향상된 사용 편의성을 포함합니다.</block>
-  <block id="522e7d53ef8c9a652990f42224faa7e2" category="admonition">새로운 사용자 인터페이스는 현재 SANtricity 12.0 릴리스가 포함된 EF80 및 EF50 스토리지 시스템에서만 사용할 수 있습니다. SANtricity 11.9 이하 버전을 사용 중인 경우 <block ref="43003ed506c29a30f2fa5dc168e291cb" category="inline-link-macro-rx"></block>에서 기존 사용자 인터페이스 사용에 대한 지침을 참조하십시오.</block>
   <block id="33c4e4a69bd4b16424ffdb3de34b0af4" category="paragraph">서버 인증서의 SAN(Subject Alternative Names)에는 이제 문자, 숫자 및 하이픈 문자만 허용됩니다</block>
   <block id="817a0c8fef1c872c585c0d94e85a802a" category="paragraph">SANtricity System Manager 또는 Unified Manager에서 서버 인증서를 생성하거나 편집할 때 Subject Alternative Names(SAN) 필드에는 이제 문자, 숫자 및 하이픈 문자만 허용됩니다. 이러한 변경 사항은 보안을 강화하고 SSL/TLS 인증서에 대한 업계 표준과의 호환성을 보장합니다.</block>
   <block id="98fb326bd031cfdd062648c1e4359ef9" category="paragraph">이제 SSD 및 NVMe 기반 시스템에서 Dynamic Disk Pool 세그먼트 크기의 기본값이 32K로 설정됩니다.</block>
   <block id="1970e3f7efbd3974c3dc8ec9d2745647" category="paragraph">SSD 및 NVMe 기반 시스템의 Dynamic Disk Pool에서 기본 세그먼트 크기가 32K로 변경되었습니다. 이전에는 이러한 시스템에서 Dynamic Disk Pool의 기본 세그먼트 크기가 128K로 고정되어 있었습니다. 이번 변경으로 소규모 및 대규모 I/O 작업이 혼합된 워크로드의 성능이 최적화되었습니다.</block>
   <block id="acc2a3dd457f3b89ae3e07ece78ae970" category="paragraph">SANtricity System Manager에서 스크립트 편집기를 사용할 수 있습니다</block>
   <block id="96326b5520f644337f2b9f27c4b4e238" category="paragraph">SANtricity System Manager에 새로운 스크립트 편집기가 추가되었습니다. 스크립트 편집기를 사용하면 스크립트 파일을 생성 또는 편집하고, 스토리지 관리 스테이션의 로컬 디스크에 저장하거나, 디스크에서 스크립트 파일을 불러올 수 있습니다. 스크립트 편집기는 스토리지 시스템 관리를 위한 구문 검사 및 명령 실행 기능을 제공합니다. 자세한 내용은 <block ref="7511cf8ef97831a0432bb6966b2afe45" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
-  <block id="a35eccd872ba8e614629dbb155eab989" category="sidebar">SANtricity 소프트웨어 12.0을 사용하면 데이터 분석, 비디오 감시, 백업 및 복구를 포함한 대용량 워크로드 애플리케이션에 대해 E-Series 하이브리드 플래시 및 EF-Series 올플래시 어레이의 최대 성능 및 활용률을 달성할 수 있습니다.</block>
-  <block id="a18560d6b67741b585690f916908df13" category="sidebar">SANtricity 소프트웨어 12.0 문서</block>
-  <block id="32c395ac29352ecc8c0d3bb542c45265" category="sidebar">SANtricity System Manager 12.0을 사용한 단일 어레이 관리</block>
   <block id="cbeeed737f5afb09d1505cf179e9c1f8" category="sidebar">SANtricity Unified Manager 8을 사용한 다중 어레이 관리</block>
-  <block id="2352bcb087671319b99c6ee8bf6be16b" category="sidebar">SANtricity 소프트웨어 12.0 문서</block>
   <block id="523d8e1940fe8fd7921104a2b1aa3b24" category="sidebar">스크립트 편집기 사용</block>
   <block id="7270f12c0a303f4c7f8c806c946d0faf" category="paragraph">이번 릴리스에서는 EF80 및 EF50 올 NVMe 플래시 스토리지 시스템이 새롭게 출시되었습니다. EF80 및 EF50은 컨트롤러당 24개의 NVMe SSD 드라이브와 컨트롤러 간 미러링 카드를 지원합니다. 지원되는 NVMe over Fabrics 호스트 인터페이스는 EF80의 경우 NVMe over RoCE, NVMe over IB, NVMe over FC이며, EF50의 경우 NVMe over FC입니다. 두 시스템 모두 지원되는 SCSI 인터페이스는 Fibre Channel입니다. EF50은 컨트롤러당 최대 2개의 호스트 인터페이스 카드를 지원하고, EF80은 컨트롤러당 최대 3개의 호스트 인터페이스 카드를 지원합니다.</block>
   <block id="685ec10705743526f323aaeb2e8abdb9" category="paragraph">30TB 또는 60TB 크기의 고용량 NVMe SSD 드라이브도 EF80 및 EF50에서 지원됩니다. EF80 및 EF50은 어레이에 30TB 또는 60TB 드라이브가 장착된 경우에만 Dynamic Disk Pool을 사용할 수 있습니다.</block>
+  <block id="e866b10ba89d5ee2fe179d93f938430c" category="inline-link">12.00 릴리스 노트</block>
+  <block id="15df5baea5d41e42b8be265c67488ea8" category="list-text"><block ref="15df5baea5d41e42b8be265c67488ea8" category="inline-link-rx"></block></block>
+  <block id="c9f4c41100461402ef108c1e6ccc6adf" category="paragraph"><block ref="c9f4c41100461402ef108c1e6ccc6adf" category="inline-link-rx"></block></block>
+  <block id="dcf1521fe2188852a3d1ae5493b83c24" category="doc">SANtricity System Manager 12.00</block>
+  <block id="b9e4ac9c6566befa2eace1a2f5e1c0e9" category="doc">SANtricity OS 12.00의 새로운 기능</block>
+  <block id="ae8ef432f09f0cc2743b6f647e8b7391" category="paragraph">다음 표는 SANtricity System Manager 12.00의 새로운 기능을 설명합니다.</block>
+  <block id="d37b8d3a8d7d50a2d15245479531c53d" category="section-title">버전 12.00의 새로운 기능</block>
+  <block id="22df7e56856f8d8f8a1db64219f4f7a9" category="admonition">SANtricity OS 12.00 릴리스는 새로운 EF80 및 EF50 올플래시 스토리지 시스템과만 호환됩니다. SANtricity OS 11.9 이하 버전을 사용 중인 경우 <block ref="82c2070aff35641805f15c612a69d897" category="inline-link-macro-rx"></block>에서 이전 릴리스의 새로운 기능 목록을 참조하십시오.</block>
+  <block id="34eb0a9cd2b702531a67dae4540bdd52" category="admonition">새로운 사용자 인터페이스는 현재 SANtricity 12.00 릴리스가 포함된 EF80 및 EF50 스토리지 시스템에서만 사용할 수 있습니다. SANtricity 11.9 이하 버전을 사용 중인 경우 <block ref="43003ed506c29a30f2fa5dc168e291cb" category="inline-link-macro-rx"></block>에서 기존 사용자 인터페이스 사용에 대한 지침을 참조하십시오.</block>
+  <block id="579aadc4c26cc865ba493de4c39a2dbf" category="sidebar">SANtricity 소프트웨어 12.00을 사용하면 데이터 분석, 비디오 감시, 백업 및 복구를 포함한 대용량 워크로드 애플리케이션에 대해 E-Series 하이브리드 플래시 및 EF-Series 올플래시 어레이의 최대 성능 및 활용률을 달성할 수 있습니다.</block>
+  <block id="4304224086372505f40ff85886d04942" category="sidebar">SANtricity 소프트웨어 12.00 문서</block>
+  <block id="9dfc00eb4df11a45ce48523995f27cd5" category="sidebar">SANtricity System Manager 12.00을 사용한 단일 어레이 관리</block>
+  <block id="ec5103775143b601241e8ddefaff5a2f" category="sidebar">SANtricity 소프트웨어 12.00 문서</block>
 </blocks>
