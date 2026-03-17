@@ -1,11 +1,11 @@
 ---
 indexpage:
-  title: SANtricity 소프트웨어 11.9 설명서
+  title: SANtricity 소프트웨어 12.0 문서
   summary: SANtricity 시스템 관리자 및 유니파이드 관리자
   keywords: santricity, all-flash arrays, heavy workload applications, video surveillance,
     data analytics
-  lead: SANtricity 소프트웨어 11.9을 사용하면 데이터 분석, 비디오 감시, 백업 및 복구처럼 부하가 많이 걸리는 워크로드 애플리케이션에서
-    E-Series 하이브리드 플래시 및 EF-Series All-Flash 어레이의 성능과 활용률을 최대화할 수 있습니다.
+  lead: SANtricity 소프트웨어 12.0을 사용하면 데이터 분석, 비디오 감시, 백업 및 복구를 포함한 대용량 워크로드 애플리케이션에
+    대해 E-Series 하이브리드 플래시 및 EF-Series 올플래시 어레이의 최대 성능 및 활용률을 달성할 수 있습니다.
   tiles:
   - title: 시작하십시오
     links:
@@ -42,9 +42,9 @@ indexpage:
   - title: SE용
     links:
     - title: E-Series/EF-Series 기술 교육(로그인 필요)
-      url: https://fieldportal.netapp.com/content/199944
+      url: https://fieldportal.netapp.com/s/article/E-Series-and-EF-Series-SE-Technical-Training
     - title: EF300 개요 및 기술 세부 정보(로그인 필요)
-      url: https://fieldportal.netapp.com/content/1417672
+      url: https://fieldportal.netapp.com/s/article/eseries-ef300-se-presentation-1704449366156
     - title: NetApp Fusion(로그인 필요)
       url: https://fusion.netapp.com/
   - title: 도구 및 지원

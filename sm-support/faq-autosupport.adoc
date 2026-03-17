@@ -179,7 +179,7 @@ AutoSupport 기능은 기술 지원에 AutoSupport 디스패치를 전달하기 
 
 ====
 .단계
-. 지원 [지원 센터 > AutoSupport] 탭을 선택합니다.
+. 왼쪽 패널에서 메뉴:지원[지원 센터 > AutoSupport] 탭을 선택하세요.
 . AutoSupport 제공 방법 구성 * 을 선택합니다.
 +
 디스패치 제공 방법이 나열된 대화 상자가 나타납니다.

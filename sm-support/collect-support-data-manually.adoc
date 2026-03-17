@@ -30,7 +30,7 @@ AutoSupport 기능이 활성화된 경우 * AutoSupport * 탭으로 이동하여
 
 ====
 .단계
-. 지원 [지원 센터 > 진단] 탭을 선택합니다.
+. 왼쪽 패널에서 menu:Support[Support Center > Diagnostics] 탭을 선택합니다.
 . 지원 데이터 수집 * 을 선택합니다.
 . 수집 * 을 클릭합니다.
 +

@@ -229,7 +229,7 @@ DA(Data Assurance)는 데이터를 컨트롤러를 통해 드라이브로 전송
  a| 
 DULBE
  a| 
-DULBE(Deallocated or UnWritten Logical Block Error)는 EF300 또는 EF600 스토리지 어레이가 리소스 프로비저닝된 볼륨을 지원할 수 있도록 하는 NVMe 드라이브의 옵션입니다.
+DULBE(Deallocated or Unwritten Logical Block Error)는 NVMe 드라이브의 옵션으로, EF80, EF50, EF300/EF300C 또는 EF600/EF600C 스토리지 시스템에서 리소스 프로비저닝 볼륨을 지원할 수 있도록 합니다.
 
 
 

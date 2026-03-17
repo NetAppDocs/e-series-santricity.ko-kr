@@ -21,7 +21,7 @@ summary: '감사 로그 아카이빙에 사용되는 syslog 서버의 설정을 
 
 
 .단계
-. 메뉴: 설정 [Access Management](액세스 관리)를 선택합니다.
+. 왼쪽 패널에서 menu:Settings[Access Management]를 선택합니다.
 . 감사 로그 탭에서 * Syslog 서버 구성 * 을 선택합니다.
 +
 구성된 syslog 서버가 페이지에 표시됩니다.

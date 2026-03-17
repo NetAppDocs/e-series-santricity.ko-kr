@@ -19,8 +19,8 @@ SSD Cache의 통계(예: 읽기, 쓰기, 캐시 적중, 캐시 할당 백분율)
 통계를 검토 및 해석할 때는 통계의 조합을 통해 일부 해석이 파생된다는 점을 염두에 두십시오.
 
 .단계
-. 스토리지 [풀 및 볼륨 그룹] 메뉴를 선택합니다.
-. 통계를 보려는 SSD Cache를 선택하고 메뉴: 자세히 [SSD Cache 통계 보기]를 클릭합니다.
+. 왼쪽 패널에서 menu:Storage[Pools and volume groups]를 선택합니다.
+. 통계를 보려는 SSD Cache를 선택한 다음 menu:ellipsis icon[View statistics]를 클릭합니다.
 +
 SSD Cache 통계 보기 대화 상자가 나타나고 선택한 SSD 캐시에 대한 공칭 통계가 표시됩니다.
 

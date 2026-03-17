@@ -25,7 +25,7 @@ NVMe over InfiniBand 설정 및 기능은 스토리지 어레이 컨트롤러에
 
 ====
 .단계
-. 설정 [시스템] 메뉴를 선택합니다.
+. 왼쪽 패널에서 menu:Settings[System]를 선택합니다.
 . InfiniBand를 통한 NVMe 설정 * 에서 * InfiniBand 포트를 통한 NVMe 구성 * 을 선택합니다.
 . 구성할 NVMe over InfiniBand 포트가 있는 컨트롤러를 선택합니다. 다음 * 을 클릭합니다.
 . 드롭다운 목록에서 구성할 HIC 포트를 선택한 다음 IP 주소를 입력합니다.

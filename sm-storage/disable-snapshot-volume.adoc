@@ -30,7 +30,7 @@ summary: 스냅샷 정합성 보장 그룹이 더 이상 필요하지 않거나 
 
 ====
 .단계
-. 스토리지 [스냅샷] 메뉴를 선택합니다.
+. 왼쪽 패널에서 menu:Storage[Snapshots]를 선택합니다.
 . Snapshot Volumes * 탭을 선택합니다.
 +
 System Manager는 스토리지 배열에 연결된 모든 스냅샷 볼륨을 표시합니다.

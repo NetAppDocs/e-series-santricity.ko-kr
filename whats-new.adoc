@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: whats new, new features, SANtricity 11.90 
+keywords: whats new, new features, SANtricity 12.0 
 summary: SANtricity OS의 새로운 기능 
 ---
-= SANtricity OS 11.90의 새로운 기능
+= SANtricity OS 12.0의 새로운 기능
 :allow-uri-read: 
 :experimental: 
 :icons: font
@@ -12,23 +12,14 @@ summary: SANtricity OS의 새로운 기능
 
 
 [role="lead"]
-다음 표에서는 SANtricity System Manager 11.9의 새로운 기능에 대해 설명합니다.
+다음 표는 SANtricity System Manager 12.0의 새로운 기능을 설명합니다.
 
 
 
-== 버전 11.90R5의 새로운 기능
-
-이 버전에는 버그 수정 사항만 포함되어 있으며 새로운 기능은 추가되지 않았습니다. 이 릴리스의 변경 사항에 대한 자세한 내용은 E-Series SANtricity OS 11.90R5 README를 참조하십시오.
+== 버전 12.0의 새로운 기능
 
 
-
-== 버전 11.90R4의 새로운 기능
-
-이 버전에는 사소한 변경 사항만 포함되어 있으며 새로운 기능은 없습니다. 이 릴리스의 변경 사항에 대한 자세한 내용은 E-Series SANtricity OS 11.90R4 README를 참조하십시오.
-
-
-
-== 버전 11.90R3의 새로운 기능
+NOTE: SANtricity OS 12.0 릴리스는 새로운 EF80 및 EF50 올플래시 스토리지 시스템과만 호환됩니다. SANtricity OS 11.9 이하 버전을 사용 중인 경우 link:known-issues.html["알려진 문제"]에서 이전 릴리스의 새로운 기능 목록을 참조하십시오.
 
 [cols="35h,~"]
 |===
@@ -36,79 +27,41 @@ summary: SANtricity OS의 새로운 기능
 
 
  a| 
-IOM12C 및 DCM3에 대한 SANtricity OS 지원
+새로운 스토리지 시스템 모델 – EF80 및 EF50 올플래시 스토리지 시스템
  a| 
-컨트롤러 펌웨어 11.90R3 이상에서 IOM12C 및 DCM3 SAS-3 셸프를 지원합니다. IOM12C 및 DCM3 셸프는 IOM12B 및 DCM2 셸프를 대체합니다.
+이번 릴리스에서는 EF80 및 EF50 올 NVMe 플래시 스토리지 시스템이 새롭게 출시되었습니다. EF80 및 EF50은 컨트롤러당 24개의 NVMe SSD 드라이브와 하나의 호스트 인터페이스 카드(HIC)를 지원합니다. 지원되는 NVMe over Fabrics 호스트 인터페이스에는 EF80의 경우 NVMe over RoCE 및 NVMe over IB가, EF50의 경우 NVMe over FC가 포함됩니다. 지원되는 SCSI 인터페이스에는 Fibre Channel이 포함됩니다.
 
-|===
-
-
-== 버전 11.90R2의 새로운 기능
-
-이 버전에는 사소한 변경 사항만 포함되어 있고 새로운 기능은 없습니다. 이 릴리스의 변경 사항에 대한 자세한 내용은 을 https://library.netapp.com/ecm/ecm_download_file/ECMLP3334464["E-Series 11.90 릴리즈 노트"^]참조하십시오.
-
-
-
-== 버전 11.90R1의 새로운 기능
-
-[cols="35h,~"]
-|===
-| 새로운 기능 | 설명 
-
-
- a| 
-새로운 스토리지 시스템 모델 - EF300C 및 EF600C
- a| 
-이 릴리즈에는 EF300C 및 EF600C All-Flash NVMe 스토리지 시스템이 도입되었습니다. EF300C 및 EF600C는 기존 EF300 및 EF600 스토리지 시스템의 고용량 플래시 버전입니다. EF300C 및 EF600C에서는 30TB 또는 60TB 크기의 대용량 NVMe SSD 드라이브가 지원됩니다. EF300C/EF600C는 레거시 RAID 지원 없이 동적 디스크 풀용으로 호환됩니다.
+EF80 및 EF30은 30TB 또는 60TB 용량의 고용량 NVMe SSD 드라이브도 지원합니다. EF80 및 EF30은 기존 RAID를 지원하지 않고 Dynamic Disk Pool 사용과만 호환됩니다.
 
 
 
  a| 
-EF4000에서 12Gb SAS 인터페이스 지원
+SANtricity System Manager를 위한 새로운 사용자 인터페이스
  a| 
-E4000 컨트롤러는 이제 12Gb SAS 호스트 인터페이스 카드를 지원합니다.
-
-|===
+새로운 EF80 및 EF50 컨트롤러를 위해 SANtricity System Manager 사용자 인터페이스가 더욱 현대적인 모습과 느낌을 제공하도록 재설계되었습니다. 새로운 인터페이스는 왼쪽 패널 탐색 기능과 관리 작업을 간소화하기 위한 향상된 사용 편의성을 포함합니다.
 
 
-== 버전 11.90의 새로운 기능
-
-[cols="35h,~"]
-|===
-| 새로운 기능 | 설명 
-
-
- a| 
-새로운 스토리지 시스템 모델 – E4000
- a| 
-이 릴리스에는 E4000 저비용 스토리지 시스템이 도입되었습니다. E4000은 12개 및 60개의 드라이브와 컨트롤러당 단일 HIC(호스트 인터페이스 카드)를 지원합니다. 초기 릴리즈의 경우 지원되는 호스트 인터페이스 카드에는 iSCSI 및 Fibre Channel이 포함됩니다. E4000 스토리지 시스템 및 기타 E-Series 스토리지 시스템은 Unified Manager에서 보고 관리할 수 있습니다.
+NOTE: 새로운 사용자 인터페이스는 현재 SANtricity 12.0 릴리스가 포함된 EF80 및 EF50 스토리지 시스템에서만 사용할 수 있습니다. SANtricity 11.9 이하 버전을 사용 중인 경우 link:https://docs.netapp.com/us-en/e-series-santricity-119/system-manager/index.html["SANtricity 시스템 관리자 11.9"]에서 기존 사용자 인터페이스 사용에 대한 지침을 참조하십시오.
 
 
 
  a| 
-Dynamic Disk Pool의 향상된 용량
+서버 인증서의 SAN(Subject Alternative Names)에는 이제 문자, 숫자 및 하이픈 문자만 허용됩니다
  a| 
-풀 내의 각 개별 드라이브의 용량이 23TB를 초과할 경우 DDP(동적 디스크 풀)의 용량이 12PB로 증가했습니다. 개별 드라이브 용량 크기가 23TB 미만인 경우 DDP 용량은 6PB입니다.
-
-
-
- a| 
-기본 미디어 스캔 설정이 증가했습니다
- a| 
-기본 미디어 스캔 속도가 120일로 증가했습니다.
+SANtricity System Manager 또는 Unified Manager에서 서버 인증서를 생성하거나 편집할 때 Subject Alternative Names(SAN) 필드에는 이제 문자, 숫자 및 하이픈 문자만 허용됩니다. 이러한 변경 사항은 보안을 강화하고 SSL/TLS 인증서에 대한 업계 표준과의 호환성을 보장합니다.
 
 
 
  a| 
-이제 외부 키 관리에 대해 개인 키를 사용할 수 있습니다
+이제 SSD 및 NVMe 기반 시스템에서 Dynamic Disk Pool 세그먼트 크기의 기본값이 32K로 설정됩니다.
  a| 
-개인 및 공개 키 쌍을 통해 외부에서 생성된 CSR(인증서 서명 요청) 파일은 이제 System Manager를 통해 가져올 수 있습니다.
+SSD 및 NVMe 기반 시스템의 Dynamic Disk Pool에서 기본 세그먼트 크기가 32K로 변경되었습니다. 이전에는 이러한 시스템에서 Dynamic Disk Pool의 기본 세그먼트 크기가 128K로 고정되어 있었습니다. 이번 변경으로 소규모 및 대규모 I/O 작업이 혼합된 워크로드의 성능이 최적화되었습니다.
 
 
 
  a| 
-웹 서비스에서 로그인 잠금 기능을 사용할 수 있습니다
+SANtricity System Manager에서 스크립트 편집기를 사용할 수 있습니다
  a| 
-REST API를 통해서만 구성할 수 있는 새로운 로그인 잠금 설정은 임베디드 및 프록시 웹 서비스에 사용할 수 있습니다.
+SANtricity System Manager에 새로운 스크립트 편집기가 추가되었습니다. 스크립트 편집기를 사용하면 스크립트 파일을 생성 또는 편집하고, 스토리지 관리 스테이션의 로컬 디스크에 저장하거나, 디스크에서 스크립트 파일을 불러올 수 있습니다. 스크립트 편집기는 스토리지 시스템 관리를 위한 구문 검사 및 명령 실행 기능을 제공합니다. 자세한 내용은 link:sm-support/use-script-editor.html["스크립트 편집기 사용"^]을 참조하십시오.
 
 |===

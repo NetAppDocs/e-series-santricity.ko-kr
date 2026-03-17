@@ -45,7 +45,7 @@ SAML 인증 구성은 다단계 절차입니다.
 IDP 연결 정보를 스토리지 어레이에 제공하기 위해 IDP 메타데이터를 Unified Manager로 가져옵니다. IDP 시스템은 인증 요청을 올바른 URL로 리디렉션하고 받은 응답을 검증하려면 이 메타데이터가 필요합니다.
 
 .단계
-. 메뉴: 설정 [Access Management](액세스 관리)를 선택합니다.
+. 왼쪽 패널에서 menu:Settings[Access Management]를 선택합니다.
 . SAML * 탭을 선택합니다.
 +
 구성 단계의 개요가 페이지에 표시됩니다.

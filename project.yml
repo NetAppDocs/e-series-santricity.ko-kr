@@ -8,16 +8,16 @@ settings:
     harmony_enabled: false
   rss_page: whats-new.html
   versions:
-  - version-number: '11.9'
+  - version-number: '12.0'
     url: "/e-series-santricity"
+  - version-number: '11.9'
+    url: "/e-series-santricity-119"
   - version-number: '11.8'
     url: "/e-series-santricity-118"
-  - version-number: '11.7'
-    url: "/e-series-santricity-117"
   langs: ko-kr,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,zh-cn,zh-tw
 sidebar:
   entries:
-  - title: SANtricity 소프트웨어 11.9 문서
+  - title: SANtricity 소프트웨어 12.0 문서
     url: "/index.html"
   - title: 릴리스 정보
     entries:
@@ -290,6 +290,8 @@ sidebar:
           url: "/sm-storage/change-the-settings-for-a-host-cluster.html"
         - title: 호스트의 호스트 포트 식별자를 변경합니다
           url: "/sm-storage/change-host-port-identifiers-for-a-host.html"
+        - title: 호스트 I/O 모듈 프로토콜 변경
+          url: "/sm-storage/io-module-change-protocol.html"
       - title: 호스트 시스템 및 호스트 클러스터 FAQ
         url: "/sm-storage/faq-systems-clusters.html"
     - title: 스냅샷 수
@@ -692,8 +694,6 @@ sidebar:
           url: "/sm-settings/change-cache-settings-for-storage-array.html"
         - title: 자동 로드 밸런싱을 설정합니다
           url: "/sm-settings/set-automatic-load-balancing.html"
-        - title: 레거시 관리 인터페이스를 활성화 또는 비활성화합니다
-          url: "/sm-settings/enable-or-disable-legacy-management-interface.html"
       - title: 애드온 기능을 구성합니다
         entries:
         - title: 애드온 기능의 작동 방식
@@ -914,6 +914,8 @@ sidebar:
           url: "/sm-support/upgrade-drive-firmware.html"
         - title: 가능한 소프트웨어 및 펌웨어 업그레이드 오류를 검토합니다
           url: "/sm-support/review-the-possible-software-and-firmware-upgrade-errors.html"
+      - title: 스크립트 편집기 사용
+        url: "/sm-support/use-script-editor.html"
       - title: AutoSupport FAQ
         url: "/sm-support/faq-autosupport.html"
   - title: SANtricity 유니파이드 관리자

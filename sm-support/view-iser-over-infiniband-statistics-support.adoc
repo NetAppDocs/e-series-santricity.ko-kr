@@ -24,7 +24,7 @@ System Manager는 InfiniBand 통계를 통해 다음과 같은 유형의 iSER을
 각 통계를 원시 통계 또는 기준 통계로 볼 수 있습니다. 원시 통계는 컨트롤러가 시작된 이후 수집된 모든 통계입니다. 기준 통계는 기준 시간을 설정한 후 수집된 시점 통계입니다.
 
 .단계
-. 지원 [지원 센터 > 진단] 탭을 선택합니다.
+. 왼쪽 패널에서 menu:Support[Support Center > Diagnostics] 탭을 선택합니다.
 . InfiniBand 통계 * 를 통해 iSER 보기 * 를 선택합니다.
 . 탭을 클릭하여 다양한 통계 집합을 봅니다.
 . 기준선을 설정하려면 * Set new baseline * 을 클릭합니다.

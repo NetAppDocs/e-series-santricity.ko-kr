@@ -28,7 +28,7 @@ summary: 이전에 해제한 스냅샷 볼륨 또는 스냅샷 정합성 보장 
 
 ====
 .단계
-. 스토리지 [스냅샷] 메뉴를 선택합니다.
+. 왼쪽 패널에서 menu:Storage[Snapshots]를 선택합니다.
 . Snapshot Volumes * 탭을 선택합니다.
 +
 Snapshot Volumes 테이블이 나타나고 스토리지 어레이와 연결된 모든 스냅샷 볼륨이 표시됩니다.

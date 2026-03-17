@@ -29,7 +29,7 @@ summary: 두 개 이상의 호스트에서 동일한 볼륨에 대한 I/O 액세
 
 
 .단계
-. 스토리지 [호스트] 메뉴를 선택합니다.
+. 왼쪽 패널에서 menu:Storage[Hosts]를 선택합니다.
 . 메뉴 선택: Create [Host Cluster](호스트 클러스터 생성)를 선택합니다.
 +
 Create Host Cluster 대화상자가 나타납니다.

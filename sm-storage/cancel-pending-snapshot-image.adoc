@@ -22,8 +22,8 @@ summary: 대기 중인 스냅샷 이미지가 완료되기 전에 취소할 수 
 
 
 .단계
-. 스토리지 [풀 및 볼륨 그룹] 메뉴를 선택합니다.
+. 왼쪽 패널에서 menu:Storage[Pools and volume groups]를 선택합니다.
 . 예약된 용량 * 탭을 클릭합니다.
-. 보류 중인 스냅샷 이미지를 취소할 스냅샷 그룹을 선택한 다음, 메뉴를 클릭합니다: Uncommon Tasks [Cancel pending snapshot image].
+. 보류 중인 스냅샷 이미지를 취소하려는 스냅샷 그룹을 선택한 다음 menu:ellipsis icon[Cancel pending snapshot image]을 클릭합니다.
 . 보류 중인 스냅샷 이미지를 취소하려면 * 예 * 를 클릭합니다.
 

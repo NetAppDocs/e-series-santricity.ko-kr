@@ -41,8 +41,11 @@ Recovery Guru에서 지시하고 기술 지원의 지침에 따라 볼륨 중복
 
 ====
 .단계
-. 스토리지 [풀 및 볼륨 그룹] 메뉴를 선택합니다.
-. Uncommon Tasks [Check volume redundancy] 메뉴를 선택합니다.
+
+NOTE: 볼륨 이중화 확인 기능은 현재 Legacy System Manager 인터페이스의 작업에만 사용할 수 있습니다.
+
+. 왼쪽 패널에서 menu:Storage[Pools and volume groups]를 선택합니다.
+. 확인하려는 풀 또는 볼륨 그룹에 대해 menu:줄임표 아이콘[볼륨 이중화 확인]을 클릭합니다.
 +
 Check Redundancy 대화상자가 나타납니다.
 

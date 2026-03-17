@@ -37,7 +37,7 @@ CA 서명 인증서를 사용하는 것은 3단계 절차입니다.
 
 ====
 .단계
-. 설정 [인증서] 메뉴를 선택합니다.
+. 왼쪽 패널에서 menu:Settings[Certificates]를 선택합니다.
 . Array Management(어레이 관리) 탭에서 * Complete CSR * 을 선택합니다.
 +
 [NOTE]
@@ -114,7 +114,7 @@ CA(인증 기관)에서 서명된 인증서를 받은 후 컨트롤러의 파일
 
 
 .단계
-. 메뉴 선택: 설정 [인증서]
+. 왼쪽 패널에서 menu:Settings[Certificates]를 선택합니다
 . Array Management 탭에서 * Import * 를 선택합니다.
 +
 인증서 파일을 가져올 수 있는 대화 상자가 열립니다.
