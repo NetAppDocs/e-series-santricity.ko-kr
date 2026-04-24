@@ -21,7 +21,7 @@ summary: 일반적인 스토리지 설정 및 추가 기능에 대해 System Man
 배열 설정에는 다음이 포함됩니다.
 
 * link:cache-settings-and-performance.html["캐시 설정 및 성능"]
-* link:automatic-load-balancing-overview.html"["자동 로드 밸런싱"]
+* link:automatic-load-balancing-overview.html["자동 로드 밸런싱"]
 * link:how-add-on-features-work.html["애드온 기능"]
 * link:overview-drive-security.html["드라이브 보안"]
 

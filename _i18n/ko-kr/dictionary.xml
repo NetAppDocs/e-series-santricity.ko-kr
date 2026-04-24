@@ -5545,7 +5545,6 @@
   <block id="92a98c57d8dff609da2fceddaeac27a4" category="paragraph">배열 설정에는 다음이 포함됩니다.</block>
   <block id="9f6081850e27326c653ce13711fd1f40" category="list-text"><block ref="9f6081850e27326c653ce13711fd1f40" category="inline-link-macro-rx"></block></block>
   <block id="590d98531a06e067582f8f395c25ea9d" category="inline-link-macro">자동 로드 밸런싱</block>
-  <block id="3d92225d2ee8c33ffe2c15361da54d2f" category="list-text"><block ref="3d92225d2ee8c33ffe2c15361da54d2f" category="inline-link-macro-rx"></block></block>
   <block id="b07d4a5fc9bdc2d9e09fffa5409bbab4" category="inline-link-macro">애드온 기능</block>
   <block id="d9c3b504b15a55277f52a60d4aa86148" category="list-text"><block ref="d9c3b504b15a55277f52a60d4aa86148" category="inline-link-macro-rx"></block></block>
   <block id="919e659946b3b7994ecf9004d9cea4f8" category="inline-link-macro">드라이브 보안</block>
@@ -9107,4 +9106,5 @@
   <block id="a35eccd872ba8e614629dbb155eab989" category="sidebar">SANtricity 소프트웨어 12.0을 사용하면 데이터 분석, 비디오 감시, 백업 및 복구를 포함한 대용량 워크로드 애플리케이션에 대해 E-Series 하이브리드 플래시 및 EF-Series 올플래시 어레이의 최대 성능 및 활용률을 달성할 수 있습니다.</block>
   <block id="a18560d6b67741b585690f916908df13" category="sidebar">SANtricity 소프트웨어 12.0 문서</block>
   <block id="32c395ac29352ecc8c0d3bb542c45265" category="sidebar">SANtricity System Manager 12.0을 사용한 단일 어레이 관리</block>
+  <block id="bc7dec44af17b73eb800d426c3a75c9f" category="list-text"><block ref="bc7dec44af17b73eb800d426c3a75c9f" category="inline-link-macro-rx"></block></block>
 </blocks>
