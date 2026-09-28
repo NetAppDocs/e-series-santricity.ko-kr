@@ -15,6 +15,7 @@ summary: 비동기 미러링 기능은 로컬 스토리지 어레이와 원격 �
 
 
 
+[[what-is-asynchronous-mirroring]]
 == 비동기식 미러링이란 무엇입니까?
 
 _Asynchronous Mirroring_ 는 특정 시점에 기본 볼륨의 상태를 캡처하고 마지막 이미지 캡처 이후 변경된 데이터만 복사합니다. 운영 사이트를 즉시 업데이트할 수 있으며 대역폭이 허용할 경우 보조 사이트를 업데이트할 수 있습니다. 네트워크 리소스를 사용할 수 있게 되면 정보가 캐시되어 나중에 전송됩니다.
@@ -32,6 +33,7 @@ _Asynchronous Mirroring_ 는 특정 시점에 기본 볼륨의 상태를 캡처�
 
 
 
+[[how-do-i-configure-asynchronous-mirroring]]
 == 비동기식 미러링을 구성하려면 어떻게 합니까?
 
 Unified Manager 인터페이스를 사용하여 어레이 간 초기 미러링 구성을 수행해야 합니다. 구성이 완료되면 System Manager에서 미러링된 쌍과 일관성 그룹을 관리할 수 있습니다.
@@ -45,6 +47,7 @@ Unified Manager 인터페이스를 사용하여 어레이 간 초기 미러링 �
 
 
 
+[[related-information]]
 == 관련 정보
 
 비동기 미러링과 관련된 개념에 대해 자세히 알아보십시오.

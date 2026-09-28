@@ -23,7 +23,7 @@ summary: 로컬 및 원격 스토리지 시스템에서 비동기식 미러링�
 비동기식 미러링을 비활성화하면 로컬 및 원격 스토리지 시스템에서 미러 작업이 수행되지 않습니다.
 
 .단계
-. 왼쪽 패널에서 menu:Storage[Asynchronous Mirroring]를 선택합니다.
+. 왼쪽 패널에서 menu:Mirroring[Asynchronous mirror consistency groups]을 선택합니다.
 . Uncommon Tasks[Deactivate] 메뉴를 선택합니다.
 +
 확인 메시지가 표시됩니다.

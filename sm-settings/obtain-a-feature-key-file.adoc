@@ -23,8 +23,8 @@ summary: 스토리지 어레이에서 프리미엄 기능 또는 기능 팩을 �
 
 
 .단계
-. System Manager에서 섀시 일련 번호를 찾아 기록합니다. 왼쪽 패널에서 menu:Support[Support Center]로 이동하여 *상위 스토리지 어레이 속성 보기*로 스크롤하여 섀시 일련 번호를 확인합니다.
-. System Manager에서 Feature Enable Identifier를 찾습니다. 왼쪽 패널에서 menu:Settings[System]으로 이동한 다음 아래로 스크롤하여 *Add-ons*를 찾습니다. *Feature Enable Identifier*를 찾습니다. Feature Enable Identifier의 번호를 기록합니다.
+. System Manager에서 섀시 일련 번호를 찾아 기록해 두십시오. 왼쪽 패널에서 menu:Support[Support center]로 이동한 다음 아래로 스크롤하여 *View top storage array properties*를 클릭하면 섀시 일련 번호를 확인할 수 있습니다.
+. System Manager에서 기능 활성화 식별자를 찾습니다. 왼쪽 패널에서 *시스템*을 선택한 다음 아래로 스크롤하여 *부가 기능*으로 이동합니다. *기능 활성화 식별자*를 찾습니다. 기능 활성화 식별자의 번호를 기록합니다.
 . 기능 활성화를 위한 코드를 찾아 기록합니다. 기능 팩의 경우 이 코드는 변환을 수행하기 위한 적절한 지침에 나와 있습니다.
 +
 프리미엄 기능의 경우 지원 사이트에서 다음과 같이 활성화 코드에 액세스할 수 있습니다.

@@ -30,6 +30,7 @@ summary: 성능 페이지에는 여러 주요 영역에서 스토리지 어레�
 
 
 
+[[characteristics-of-performance-data-formats]]
 == 성능 데이터 형식의 특성
 
 [cols="1a,1a,1a,1a,1a"]
@@ -93,6 +94,7 @@ CSV(쉼표로 구분된 값) 파일
 |===
 
 
+[[guidelines-for-viewing-performance-data]]
 == 성능 데이터 보기 지침
 
 * 성능 데이터 수집은 항상 켜져 있습니다. 이 기능을 해제하는 옵션은 없습니다.

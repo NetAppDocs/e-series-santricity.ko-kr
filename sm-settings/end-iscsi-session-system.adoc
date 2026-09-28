@@ -22,8 +22,8 @@ summary: 더 이상 필요하지 않은 iSCSI 세션을 종료할 수 있습니�
 
 
 .단계
-. 왼쪽 패널에서 menu:Settings[System]를 선택합니다.
-. *iSCSI 설정*에서 *iSCSI 세션 보기/종료*를 선택합니다.
+. 왼쪽 패널에서 *System*을 선택합니다.
+. *iSCSI 설정*에서 *iSCSI 세션 보기/종료*를 선택하십시오.
 +
 현재 iSCSI 세션 목록이 나타납니다.
 

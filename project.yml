@@ -8,7 +8,7 @@ settings:
     harmony_enabled: false
   rss_page: whats-new.html
   versions:
-  - version-number: 12.0x
+  - version-number: 12.1x
     url: "/e-series-santricity"
   - version-number: 11.9x
     url: "/e-series-santricity-119"
@@ -17,7 +17,7 @@ settings:
   langs: ko-kr,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,zh-cn,zh-tw
 sidebar:
   entries:
-  - title: SANtricity 소프트웨어 12.00 문서
+  - title: SANtricity 소프트웨어 12.10 문서
     url: "/index.html"
   - title: 릴리스 정보
     entries:
@@ -506,8 +506,6 @@ sidebar:
           url: "/sm-hardware/view-hardware-components.html"
         - title: 부품 상태를 표시하거나 숨깁니다
           url: "/sm-hardware/show-or-hide-component-status.html"
-        - title: 전면과 후면 보기 사이를 전환합니다
-          url: "/sm-hardware/switch-between-front-and-back-views.html"
         - title: 쉘프의 보기 순서를 변경합니다
           url: "/sm-hardware/change-view-order-of-shelves.html"
         - title: 선반 로케이터 조명을 켭니다

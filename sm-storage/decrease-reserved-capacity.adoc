@@ -2,7 +2,7 @@
 permalink: sm-storage/decrease-reserved-capacity.html 
 sidebar: sidebar 
 keywords: SANtricity, System Manager, E-Series, decrease, reserved, capacity 
-summary: 용량 감소 옵션을 사용하면 스냅샷 그룹, 스냅샷 볼륨 및 정합성 보장 그룹 구성원 볼륨과 같은 스토리지 객체에 대해 예약된 용량을 줄일 수 있습니다. 예약된 용량을 늘리는 데 사용한 양으로만 감소시킬 수 있습니다. 
+summary: 용량 감소 옵션을 사용하여 다음 스토리지 객체의 예약 용량을 줄일 수 있습니다. 스냅샷 그룹, 스냅샷 볼륨 및 일관성 그룹 멤버 볼륨. 예약 용량은 증가시킨 용량만큼만 줄일 수 있습니다. 
 ---
 = SANtricity System Manager에서 예약된 용량 감소
 :allow-uri-read: 
@@ -29,8 +29,7 @@ summary: 용량 감소 옵션을 사용하면 스냅샷 그룹, 스냅샷 볼륨
 
 
 .단계
-. 왼쪽 패널에서 menu:Storage[Pools and volume groups]를 선택합니다.
-. 예약된 용량 * 탭을 클릭합니다.
+. 왼쪽 패널에서 메뉴:Storage[Reserved capacity]를 선택합니다.
 . 예약된 용량을 줄이려는 스토리지 객체를 선택한 다음 menu:ellipsis icon[Decrease Capacity]를 클릭합니다.
 +
 예약 용량 감소 페이지가 나타납니다.

@@ -18,6 +18,7 @@ summary: 원격 스토리지 기능을 사용하면 원격 스토리지 시스�
 
 
 
+[[hardware-setup]]
 == 하드웨어 설정
 
 다음 워크플로를 사용하여 하드웨어 연결을 준비합니다.
@@ -31,7 +32,7 @@ NOTE: SANtricity 원격 저장소 볼륨은 현재 E4000 시스템에서 지원�
 
 . 각 컨트롤러에 원격 스토리지 시스템에 대한 iSCSI 연결이 있는지 확인합니다. 이 연결을 통해 로컬 E-Series 시스템은 원격 시스템에서 호스트로 설정할 수 있는 iSCSI 이니시에이터 역할을 합니다.
 . 가져오기 작업을 위한 대상 볼륨을 생성합니다. 볼륨에 원격 스토리지 시스템의 소스 볼륨과 같거나 큰 용량이 있고 블록 크기가 일치하며 매핑되지 않았는지 확인합니다. 을 참조하십시오 link:create-volumes.html["볼륨 생성"].
-. System Manager 인터페이스에서 로컬 E-Series 시스템에 대한 IQN(iSCSI Qualified Name)을 수집합니다. IQN은 나중에 로컬 E-Series 시스템을 원격 스토리지 시스템의 호스트로 설정하는 데 사용됩니다. System Manager에서 메뉴: 설정 [시스템 > iSCSI 설정 > 대상 IQN] 으로 이동합니다.
+. 로컬 E-Series 시스템의 System Manager 인터페이스에서 iSCSI 적격 이름(IQN)을 가져옵니다. 이 IQN은 나중에 로컬 E-Series 시스템을 원격 스토리지 시스템의 호스트로 설정하는 데 사용됩니다. System Manager에서 다음 경로로 이동합니다. menu:System[iSCSI settings > Target IQN].
 
 
 원격 스토리지 시스템에서 다음을 수행합니다.
@@ -55,6 +56,7 @@ NOTE: SANtricity 원격 저장소 볼륨은 현재 E4000 시스템에서 지원�
 
 
 
+[[system-manager-setup]]
 == System Manager 설정
 
 다음 워크플로우를 사용하여 가져올 원격 스토리지 객체를 생성합니다.

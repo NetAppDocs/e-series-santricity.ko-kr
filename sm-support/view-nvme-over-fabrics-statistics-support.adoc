@@ -24,7 +24,7 @@ System Manager에는 이러한 유형의 NVMe over Fabrics 통계가 표시됩�
 각 통계를 원시 통계 또는 기준 통계로 볼 수 있습니다. 원시 통계는 컨트롤러가 시작된 이후 수집된 모든 통계입니다. 기준 통계는 기준 시간을 설정한 후 수집된 시점 통계입니다.
 
 .단계
-. 왼쪽 패널에서 menu:Support[Support Center > Diagnostics] 탭을 선택합니다.
+. 왼쪽 패널에서 메뉴:Support[Diagnostics]를 선택합니다.
 . View NVMe over Fabrics Statistics * 를 선택합니다.
 . 기준선을 설정하려면 * Set new baseline * 을 클릭합니다.
 +

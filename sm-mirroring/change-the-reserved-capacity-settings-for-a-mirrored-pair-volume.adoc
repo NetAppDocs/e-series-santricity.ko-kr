@@ -15,9 +15,8 @@ summary: 미러링된 쌍 볼륨에 대한 설정을 변경하여 미러링된 �
 미러링된 페어 볼륨의 설정을 변경하여 미러링된 페어 볼륨의 예약된 용량이 거의 꽉 찼을 때 SANtricity 시스템 관리자가 알림 메시지를 보내는 백분율 지점을 조정할 수 있습니다.
 
 .단계
-. 왼쪽 패널에서 menu:Storage[Pools and volume groups]를 선택합니다.
-. Reserved Capacity * 탭을 선택합니다.
-. 편집할 미러링된 쌍 볼륨을 선택한 다음 menu:ellipsis icon[Edit Settings]을 클릭합니다.
+. 왼쪽 패널에서 메뉴:Storage[Reserved capacity]를 선택합니다.
+. 편집할 미러링된 쌍의 볼륨을 선택한 다음 메뉴:점 세 개 아이콘[설정 편집]을 클릭합니다.
 +
 Mirrored Pair Volume Reserved Capacity Settings(미러링된 볼륨 예비 용량 설정) 대화 상자가 나타납니다.
 

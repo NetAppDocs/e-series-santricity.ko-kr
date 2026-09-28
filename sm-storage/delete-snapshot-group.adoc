@@ -18,8 +18,7 @@ summary: 스냅샷 그룹은 해당 데이터를 영구적으로 삭제하고 �
 스냅샷 그룹이 삭제되면 그룹의 모든 스냅샷 이미지도 삭제됩니다.
 
 .단계
-. 왼쪽 패널에서 menu:Storage[Pools and volume groups]를 선택합니다.
-. 예약된 용량 * 탭을 클릭합니다.
+. 왼쪽 패널에서 메뉴:Storage[Reserved capacity]를 선택합니다.
 . 삭제하려는 스냅샷 그룹을 선택한 다음 menu:ellipsis icon[Delete]를 클릭합니다.
 +
 스냅샷 그룹 삭제 확인 대화 상자가 나타납니다.

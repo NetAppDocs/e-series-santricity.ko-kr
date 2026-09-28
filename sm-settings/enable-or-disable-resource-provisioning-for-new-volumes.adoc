@@ -2,7 +2,7 @@
 permalink: sm-settings/enable-or-disable-resource-provisioning-for-new-volumes.html 
 sidebar: sidebar 
 keywords: SANtricity, System Manager, E-Series, enable, disable, resource, provisioning, 
-summary: 이전에 리소스 프로비저닝의 기본 기능을 해제한 경우 설정 으로 이동하여 새로 생성한 모든 SSD 볼륨 그룹 또는 풀에 대해 다시 설정할 수 있습니다. 설정을 다시 비활성화할 수도 있습니다. 
+summary: 이전에 리소스 프로비저닝에 대한 기본 기능을 비활성화한 경우, 시스템으로 이동하여 새로 생성하는 모든 SSD 볼륨 그룹 또는 풀에 대해 해당 기능을 다시 활성화할 수 있습니다. 또한 설정을 다시 비활성화할 수도 있습니다. 
 ---
 = SANtricity System Manager에서 새 볼륨 그룹 또는 풀에 대한 리소스 프로비저닝을 활성화하거나 비활성화합니다.
 :allow-uri-read: 
@@ -28,7 +28,7 @@ NOTE: 기본적으로 드라이브가 DULBE를 지원하는 시스템에서 리�
 새 볼륨 그룹 또는 풀에 대해 리소스 프로비저닝을 다시 설정하면 새로 생성한 볼륨 그룹 및 풀만 영향을 받습니다. 리소스 프로비저닝이 설정된 기존 볼륨 그룹 및 풀은 변경되지 않습니다.
 
 .단계
-. 왼쪽 패널에서 menu:Settings[System]를 선택합니다.
+. 왼쪽 패널에서 *System*을 선택합니다.
 . 아래로 스크롤하여 * 추가 설정 * 을 찾은 다음 * 리소스 프로비저닝된 볼륨 * 사용/사용 안 함 을 클릭합니다.
 +
 설정 설명은 리소스 프로비저닝이 현재 활성화되어 있는지 여부를 나타냅니다.

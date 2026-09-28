@@ -15,6 +15,7 @@ summary: '스냅샷 기능은 COW(Copy-on-Write) 기술을 사용하여 스냅�
 
 
 
+[[how-snapshot-images-are-used]]
 == 스냅샷 이미지 사용 방법
 
 스냅샷 이미지는 특정 시점에 캡처된 볼륨 내용의 논리적 읽기 전용 복사본입니다. 스냅샷을 사용하여 데이터 손실을 방지할 수 있습니다.
@@ -23,6 +24,7 @@ summary: '스냅샷 기능은 COW(Copy-on-Write) 기술을 사용하여 스냅�
 
 
 
+[[snapshot-creation]]
 == 스냅샷 생성
 
 스냅샷이 생성될 때 스냅샷 기능은 다음과 같이 이미지 데이터를 저장합니다.
@@ -42,6 +44,7 @@ image::../media/sam1130-dwg-snapshots-cow-overview.gif[스냅샷 개요]
 
 
 
+[[snapshot-restoration]]
 == 스냅샷 복원
 
 데이터를 기본 볼륨으로 복원하려면 스냅샷 볼륨 또는 스냅샷 이미지를 사용할 수 있습니다.

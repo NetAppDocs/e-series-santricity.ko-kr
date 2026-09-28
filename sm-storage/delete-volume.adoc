@@ -47,7 +47,7 @@ summary: 일반적으로 볼륨이 잘못된 매개 변수 또는 용량으로 �
 ====
 .단계
 . 왼쪽 패널에서 menu:Storage[Volumes]를 선택합니다.
-. 삭제하려는 볼륨을 선택한 다음 menu:ellipsis icon[Delete]를 클릭합니다.
+. 삭제하려는 볼륨을 찾은 다음 메뉴:ellipsis icon[삭제]를 클릭합니다.
 +
 Delete Volumes(볼륨 삭제) 대화 상자가 나타납니다.
 

@@ -22,6 +22,7 @@ summary: 키 관리 서버와 스토리지 어레이 컨트롤러 간의 보안 
 
 
 
+[[step-1-complete-and-submit-csr-for-authentication-with-a-key-management-server]]
 == 1단계: 키 관리 서버를 사용하여 인증을 위해 CSR을 작성하여 제출합니다
 
 먼저 CSR(인증서 서명 요청) 파일을 생성한 다음 CSR을 사용하여 키 관리 서버에서 신뢰할 수 있는 CA(인증 기관)로부터 서명된 클라이언트 인증서를 요청해야 합니다. 다운로드한 CSR 파일을 사용하여 키 관리 서버에서 클라이언트 인증서를 생성하고 다운로드할 수도 있습니다. 클라이언트 인증서는 스토리지 어레이 컨트롤러의 유효성을 검사하므로 키 관리 서버가 KMIP(Key Management Interoperability Protocol) 요청을 신뢰할 수 있습니다.
@@ -30,8 +31,7 @@ summary: 키 관리 서버와 스토리지 어레이 컨트롤러 간의 보안 
 NOTE: 개인 및 공개 키 쌍을 통해 외부에서 생성된 CSR 파일은 외부 보안 키 만들기 대화 상자를 통해 가져올 수 있습니다. 외부에서 생성된 CSR 파일을 가져오는 방법에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/e-series-santricity/sm-settings/use-ca-signed-certificates-for-authentication-with-a-key-management-server.html#step-2-import-certificates-for-the-key-management-server["2단계: 키 관리 서버의 인증서를 가져옵니다"].
 
 .단계
-. 왼쪽 패널에서 menu:Settings[Certificates]를 선택합니다.
-. 키 관리 탭에서 * CSR 완료 * 를 선택합니다.
+. 왼쪽 패널에서 메뉴:인증서[키 관리 인증서]를 선택한 다음 *CSR 완료*를 선택합니다.
 . 다음 정보를 입력합니다.
 +
 ** * 공통 이름 * -- 클라이언트를 식별하는 이름입니다. 일반적으로 클라이언트 인증서 명명 규칙에 대한 KMS 서버의 요구 사항과 공통 이름에 있는 항목을 일치시키는 것이 좋습니다. 공통 이름은 일반적으로 KMS가 핸드셰이크 중에 클라이언트의 인증서가 표시될 때 이를 식별하는 데 도움이 됩니다.
@@ -56,6 +56,7 @@ NOTE: 일반적으로 키 관리 서버에는 자체 CA로 기능하므로 서�
 
 
 
+[[step-2-import-certificates-for-the-key-management-server]]
 == 2단계: 키 관리 서버의 인증서를 가져옵니다
 
 다음 단계에서는 스토리지 어레이와 키 관리 서버 간에 인증을 위한 인증서를 가져옵니다. 인증서 유형에는 두 가지가 있습니다. 클라이언트 인증서는 스토리지 시스템의 컨트롤러를 검증하는 반면 키 관리 서버 인증서는 서버를 검증합니다. 컨트롤러의 클라이언트 인증서 파일과 키 관리 서버의 서버 인증서 파일을 모두 로드해야 합니다.
@@ -72,8 +73,7 @@ NOTE: 일반적으로 키 관리 서버에는 자체 CA로 기능하므로 서�
 
 
 .단계
-. 왼쪽 패널에서 menu:Settings[Certificates]를 선택합니다.
-. 키 관리 탭에서 * 가져오기 * 를 선택합니다.
+. 왼쪽 패널에서 menu:Certificates[Key management certificates]를 선택한 다음 *Import*를 선택합니다.
 +
 인증서 파일을 가져올 수 있는 대화 상자가 열립니다.
 

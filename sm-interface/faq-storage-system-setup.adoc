@@ -16,6 +16,7 @@ summary: 이 FAQ는 질문에 대한 간단한 답변을 찾는 경우에 도움
 
 
 
+[[what-if-i-dont-see-all-of-my-hardware-components]]
 == 모든 하드웨어 구성 요소가 보이지 않으면 어떻게 되나요?
 
 하드웨어 확인 대화 상자에 모든 하드웨어 구성 요소가 표시되지 않으면 드라이브 쉘프가 올바로 연결되지 않았거나 스토리지 어레이에 호환되지 않는 쉘프가 설치되어 있는 것일 수 있습니다.
@@ -24,6 +25,7 @@ summary: 이 FAQ는 질문에 대한 간단한 답변을 찾는 경우에 도움
 
 
 
+[[what-if-i-dont-see-all-of-my-hosts]]
 == 모든 호스트를 볼 수 없다면 어떻게 해야 하나요?
 
 연결된 호스트가 표시되지 않으면 자동 감지에 실패했거나, 호스트가 잘못 연결되었거나, 현재 접속된 호스트가 없는 것입니다.
@@ -36,12 +38,14 @@ summary: 이 FAQ는 질문에 대한 간단한 답변을 찾는 경우에 도움
 
 
 
+[[how-does-identifying-applications-help-me-manage-my-storage-array]]
 == 애플리케이션을 식별하면 스토리지 어레이를 관리하는 데 어떤 도움이 됩니까?
 
 애플리케이션별 및 워크로드별 성능 데이터를 확인하여 애플리케이션과 관련 워크로드의 지연 시간, IOPS 및 MiB/s를 평가하고 성능을 최적화할 수 있습니다. I/O 유형, 세그먼트 크기, 컨트롤러 소유권, 읽기/쓰기 캐시와 같은 특성은 볼륨 구성에 포함됩니다.
 
 
 
+[[what-is-a-workload]]
 == 워크로드란?
 
 네트워크의 일부 애플리케이션(예: SQL Server 또는 Exchange)에서 해당 애플리케이션에 맞게 스토리지를 최적화하는 워크로드를 정의할 수 있습니다.
@@ -52,14 +56,16 @@ summary: 이 FAQ는 질문에 대한 간단한 답변을 찾는 경우에 도움
 
 
 
+[[how-do-i-configure-the-delivery-method-for-autosupport]]
 == AutoSupport에 대한 전달 방법을 구성하려면 어떻게 합니까?
 
-AutoSupport 제공 방법에 대한 구성 작업에 액세스하려면 지원 [지원 센터] 메뉴로 이동한 다음 * AutoSupport * 탭을 클릭합니다.
+AutoSupport 전송 방법의 구성 작업에 액세스하려면 menu:Support[AutoSupport](으)로 이동하십시오.
 
 지원되는 프로토콜은 HTTPS 및 SMTP입니다.
 
 
 
+[[how-do-i-know-if-i-should-accept-the-recommended-pool-configuration]]
 == 권장 풀 구성을 수락해야 하는지 어떻게 알 수 있습니까?
 
 권장 풀 구성을 수락할지 여부는 몇 가지 요소에 따라 달라집니다.
@@ -75,6 +81,7 @@ AutoSupport 제공 방법에 대한 구성 작업에 액세스하려면 지원 [
 
 
 
+[[santricity-system-manager-has-not-detected-any-hosts-what-do-i-do]]
 == SANtricity 시스템 관리자가 호스트를 감지하지 못했습니다. 어떻게 해야 합니까?
 
 연결된 호스트가 표시되지 않으면 자동 감지에 실패했거나, 호스트가 잘못 연결되었거나, 현재 접속된 호스트가 없는 것입니다.

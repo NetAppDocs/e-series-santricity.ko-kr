@@ -20,6 +20,7 @@ EF80, EF50, EF600/EF600C 또는 EF300/EF300C 스토리지 시스템에서는 동
 ====
 
 
+[[types-of-mirroring]]
 == 미러링 유형
 
 SANtricity 애플리케이션에는 두 가지 유형의 미러링, 즉 비동기식과 동기식이 있습니다.
@@ -30,6 +31,7 @@ SANtricity 애플리케이션에는 두 가지 유형의 미러링, 즉 비동�
 
 
 
+[[differences-between-mirroring-types]]
 == 미러링 유형의 차이점
 
 다음 표에서는 두 미러링 유형의 주요 차이점을 설명합니다.

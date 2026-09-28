@@ -23,14 +23,14 @@ SANtricity System Manager에서 시간 초과를 구성하여 지정된 시간 �
 
 ====
 .단계
-. 왼쪽 패널에서 menu:Settings[System]를 선택합니다.
+. 왼쪽 패널에서 *System*을 선택합니다.
 . 일반 섹션에서 * 세션 제한 시간 활성화/비활성화 * 를 선택합니다.
 +
 Enable/Disable Session Timeout(세션 시간 제한 활성화/비활성화) 대화 상자가 열립니다.
 
 . 스피너 컨트롤을 사용하여 시간을 분 단위로 늘리거나 줄입니다.
 +
-System Manager에 대해 설정할 수 있는 최소 시간 초과는 15분입니다.
+System Manager에 설정할 수 있는 최소 시간 제한은 10분입니다.
 
 +
 [NOTE]

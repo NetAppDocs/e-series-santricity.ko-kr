@@ -18,7 +18,7 @@ summary: '스토리지 어레이에서 동기 미러링 기능을 비활성화�
 모든 동기식 미러 관계를 삭제해야 합니다. 미러링된 모든 쌍이 스토리지 배열에서 삭제되었는지 확인합니다.
 
 .단계
-. 왼쪽 패널에서 menu:Storage[Synchronous Mirroring]를 선택합니다.
+. 왼쪽 패널에서 menu:Mirroring[Synchronous mirroring]을 선택합니다.
 . Uncommon Tasks[Deactivate] 메뉴를 선택합니다.
 +
 확인 메시지가 표시됩니다.

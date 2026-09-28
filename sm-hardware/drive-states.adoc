@@ -15,6 +15,7 @@ SANtricity System Manager에서 드라이브의 다양한 상태를 보고합니
 
 
 
+[[accessibility-states]]
 == 액세스 가능성 상태
 
 [cols="25h,~"]
@@ -63,6 +64,7 @@ SANtricity System Manager에서 드라이브의 다양한 상태를 보고합니
 |===
 
 
+[[role-states]]
 == 역할 상태
 
 [cols="25h,~"]
@@ -78,14 +80,14 @@ SANtricity System Manager에서 드라이브의 다양한 상태를 보고합니
 
 
  a| 
-사용 중인 핫 스페어
+핫 스페어 사용 중
  a| 
 현재 드라이브가 장애가 발생한 드라이브를 대체하는 데 사용되고 있습니다. 핫 스페어는 풀이 아닌 볼륨 그룹에서만 사용됩니다.
 
 
 
  a| 
-대기 핫 스페어
+핫 스페어 스탠바이
  a| 
 장애가 발생한 드라이브를 교체할 준비가 되었습니다. 핫 스페어는 풀이 아닌 볼륨 그룹에서만 사용됩니다.
 
@@ -99,6 +101,7 @@ SANtricity System Manager에서 드라이브의 다양한 상태를 보고합니
 |===
 
 
+[[availability-states]]
 == 가용성 상태입니다
 
 [cols="25h,~"]

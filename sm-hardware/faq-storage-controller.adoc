@@ -16,6 +16,7 @@ summary: 이 FAQ는 질문에 대한 간단한 답변을 찾는 경우에 도움
 
 
 
+[[what-is-auto-negotiation]]
 == 자동 협상이란 무엇입니까?
 
 자동 협상은 네트워크 인터페이스가 다른 네트워크 인터페이스와 자체 연결 매개변수(속도 및 이중 모드)를 자동으로 조정하는 기능입니다.
@@ -29,6 +30,7 @@ summary: 이 FAQ는 질문에 대한 간단한 답변을 찾는 경우에 도움
 ====
 
 
+[[what-is-ipv6-stateless-address-auto-configuration]]
 == IPv6 상태 비저장 주소 자동 구성이란 무엇입니까?
 
 상태 비저장 자동 구성을 사용하는 경우 호스트는 서버에서 주소 및 기타 구성 정보를 얻지 못합니다.
@@ -49,12 +51,14 @@ IPv6의 상태 비저장 자동 구성은 링크 로컬 주소, 멀티캐스팅 
 
 
 
+[[which-do-i-choose-dhcp-or-manual-configuration]]
 == DHCP와 수동 구성 중 무엇을 선택해야 합니까?
 
 네트워크 구성의 기본 방법은 DHCP(Dynamic Host Configuration Protocol)입니다. 네트워크에 DHCP 서버가 없는 경우 항상 이 옵션을 사용하십시오.
 
 
 
+[[what-is-a-dhcp-server]]
 == DHCP 서버란 무엇입니까?
 
 DHCP(Dynamic Host Configuration Protocol)는 IP(인터넷 프로토콜) 주소 할당 작업을 자동화하는 프로토콜입니다.
@@ -65,6 +69,7 @@ DHCP를 사용하지 않으면 네트워크 관리자가 이러한 IP 주소를 
 
 
 
+[[how-do-i-configure-my-dhcp-server]]
 == DHCP 서버를 어떻게 구성합니까?
 
 스토리지 배열의 컨트롤러에 대해 고정 IP(인터넷 프로토콜) 주소를 사용하려면 DHCP(동적 호스트 구성 프로토콜) 서버를 구성해야 합니다.
@@ -75,6 +80,7 @@ DHCP 서버가 할당하는 IP 주소는 일반적으로 동적이며 임대 기
 
 
 
+[[why-do-i-need-to-change-the-controller-network-configuration]]
 == 컨트롤러 네트워크 구성을 변경해야 하는 이유는 무엇입니까?
 
 대역외 관리를 사용하는 경우 각 컨트롤러의 네트워크 구성(IP(인터넷 프로토콜) 주소, 서브네트워크 마스크(서브넷 마스크) 및 게이트웨이)을 설정해야 합니다.
@@ -83,6 +89,7 @@ DHCP(Dynamic Host Configuration Protocol) 서버를 사용하여 네트워크 �
 
 
 
+[[where-do-i-get-the-network-configuration]]
 == 네트워크 구성은 어디에서 얻을 수 있습니까?
 
 네트워크 관리자로부터 IP(인터넷 프로토콜) 주소, 서브네트워크 마스크(서브넷 마스크) 및 게이트웨이 정보를 얻을 수 있습니다.
@@ -91,6 +98,7 @@ DHCP(Dynamic Host Configuration Protocol) 서버를 사용하여 네트워크 �
 
 
 
+[[what-are-icmp-ping-responses]]
 == ICMP ping 응답이란?
 
 ICMP(Internet Control Message Protocol)는 TCP/IP 제품군의 프로토콜 중 하나입니다.
@@ -99,6 +107,7 @@ ICMP 에코 요청과 ICMP 에코 응답 메시지는 주로 핑 메시지라고
 
 
 
+[[when-should-i-refresh-the-port-configuration]]
 == 포트 구성을 언제 새로 고침해야 합니까?
 
 서버를 수정하거나 업그레이드할 때마다 DHCP 서버를 새로 고치고, 현재 스토리지 어레이와 사용할 스토리지 배열에 관련된 DHCP 정보가 변경되었습니다.
@@ -112,6 +121,7 @@ ICMP 에코 요청과 ICMP 에코 응답 메시지는 주로 핑 메시지라고
 ====
 
 
+[[what-should-i-do-after-configuring-the-management-ports]]
 == 관리 포트를 구성한 후에는 어떻게 해야 합니까?
 
 스토리지 어레이의 IP 주소를 변경한 경우 SANtricity Unified Manager에서 글로벌 어레이 보기를 업데이트할 수 있습니다.
@@ -122,6 +132,7 @@ SANtricity 저장소 관리자를 계속 사용하는 경우 EMW(엔터프라이
 
 
 
+[[why-is-the-storage-system-in-non-optimal-mode]]
 == 스토리지 시스템이 최적화되지 않은 모드인 이유는 무엇입니까?
 
 최적화되지 않은 모드의 스토리지 시스템은 잘못된 시스템 구성 상태로 인해 발생합니다. 이러한 상태에도 불구하고 기존 볼륨에 대한 일반 I/O 액세스는 완벽하게 지원되지만 SANtricity System Manager에서는 일부 작업을 금지합니다.

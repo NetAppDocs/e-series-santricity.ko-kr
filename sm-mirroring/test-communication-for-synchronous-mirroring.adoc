@@ -22,7 +22,7 @@ summary: 로컬 스토리지 어레이와 원격 스토리지 시스템 간의 �
 
 
 .단계
-. 왼쪽 패널에서 menu:Storage[Synchronous Mirroring]을 선택합니다.
+. 왼쪽 패널에서 menu:Mirroring[Synchronous mirroring]을 선택합니다.
 . 테스트할 미러링 쌍을 선택한 다음 * 통신 테스트 * 를 선택합니다.
 . Results(결과) 창에 표시된 정보를 검토하고 필요한 경우 표시된 수정 조치를 따릅니다.
 +

@@ -15,6 +15,7 @@ summary: 액세스 관리를 사용하여 SANtricity Unified Manager에서 사�
 
 
 
+[[configuration-workflow]]
 == 구성 워크플로우
 
 Access Management 구성은 다음과 같이 작동합니다.
@@ -47,6 +48,7 @@ Access Management 구성은 다음과 같이 작동합니다.
 
 
 
+[[functions-available-in-unified-manager]]
 == 기능은 Unified Manager에서 사용할 수 있습니다
 
 기능에 대한 액세스는 사용자가 할당한 역할에 따라 달라집니다. 여기에는 다음이 포함됩니다.

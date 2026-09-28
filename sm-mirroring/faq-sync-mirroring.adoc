@@ -16,6 +16,7 @@ summary: 이 FAQ는 질문에 대한 간단한 답변을 찾는 경우에 도움
 
 
 
+[[how-does-asynchronous-mirroring-differ-from-synchronous-mirroring]]
 == 비동기식 미러링은 동기식 미러링과 어떻게 다릅니까?
 
 비동기 미러링 기능은 동기 미러링 기능과 다릅니다. 한 가지 중요한 방법은 특정 시점의 소스 볼륨 상태를 캡처하고 마지막 이미지 캡처 이후 변경된 데이터만 복사하는 것입니다.
@@ -112,6 +113,7 @@ summary: 이 FAQ는 질문에 대한 간단한 답변을 찾는 경우에 도움
 |===
 
 
+[[synchronous-mirroring-why-dont-i-see-all-my-volumes]]
 == 동기식 미러링 - 왜 모든 볼륨이 보이지 않나요?
 
 미러링된 쌍의 기본 볼륨을 선택하면 목록에 모든 적격 볼륨이 표시됩니다.
@@ -125,6 +127,7 @@ summary: 이 FAQ는 질문에 대한 간단한 답변을 찾는 경우에 도움
 
 
 
+[[synchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array]]
 == 동기식 미러링 - 원격 스토리지 어레이의 모든 볼륨이 표시되지 않는 이유는 무엇입니까?
 
 원격 스토리지 어레이에서 보조 볼륨을 선택할 경우 목록에 해당 미러링된 쌍에 대해 적합한 볼륨이 모두 표시됩니다.
@@ -144,6 +147,7 @@ summary: 이 FAQ는 질문에 대한 간단한 답변을 찾는 경우에 도움
 
 
 
+[[synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair]]
 == 동기식 미러링 - 미러링된 쌍을 만들기 전에 알아야 할 것은 무엇입니까?
 
 SANtricity Unified Manager 인터페이스에서 미러링된 쌍을 구성한 다음, SANtricity System Manager에서 쌍을 관리합니다.
@@ -163,6 +167,7 @@ SANtricity Unified Manager 인터페이스에서 미러링된 쌍을 구성한 �
 
 
 
+[[what-impact-does-synchronization-priority-have-on-synchronization-rates]]
 == 동기화 우선 순위가 동기화 속도에 어떤 영향을 미칩니까?
 
 동기화 우선 순위는 시스템 성능과 관련하여 동기화 작업에 할당되는 처리 시간을 정의합니다.
@@ -224,6 +229,7 @@ SANtricity Unified Manager 인터페이스에서 미러링된 쌍을 구성한 �
 
 
 
+[[why-is-it-recommended-to-use-a-manual-synchronization-policy]]
 == 수동 동기화 정책을 사용하는 것이 권장되는 이유는 무엇입니까?
 
 수동 재동기화는 재동기화 프로세스를 관리하여 데이터를 복구할 수 있는 최적의 기회를 제공하기 때문에 권장됩니다.

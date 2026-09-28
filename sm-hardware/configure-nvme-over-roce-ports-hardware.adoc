@@ -19,11 +19,7 @@ summary: '컨트롤러에 NVMe over RoCE(RDMA over Converged Ethernet)에 대한
 
 
 .단계
-. 왼쪽 패널에서 *하드웨어*를 선택합니다.
-. 그래픽에 드라이브가 표시되면 * Controllers & Components * 탭을 클릭하십시오.
-+
-그래픽이 변경되어 드라이브 대신 컨트롤러가 표시됩니다.
-
+. 왼쪽 패널에서 menu:Hardware[Controllers and components]를 선택합니다.
 . 구성할 NVMe over RoCE 포트가 있는 컨트롤러를 클릭합니다.
 +
 컨트롤러의 상황에 맞는 메뉴가 나타납니다.

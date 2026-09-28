@@ -23,7 +23,7 @@ summary: 이름 및 RAID 레벨을 포함하여 볼륨 그룹의 설정을 편�
 
 .단계
 . 왼쪽 패널에서 menu:Storage[Pools and volume groups]를 선택합니다.
-. 편집하려는 볼륨 그룹을 선택한 다음 menu:ellipsis icon[Edit Settings]을 클릭합니다.
+. 편집하려는 볼륨 그룹을 찾은 다음 메뉴:ellipsis icon[설정 편집]을 클릭합니다.
 +
 볼륨 그룹 설정 편집 창이 나타납니다.
 

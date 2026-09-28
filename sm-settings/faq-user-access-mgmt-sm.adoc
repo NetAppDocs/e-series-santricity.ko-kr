@@ -16,6 +16,7 @@ summary: 이 FAQ는 질문에 대한 간단한 답변을 찾는 경우에 도움
 
 
 
+[[why-cant-i-log-in]]
 == 왜 로그인할 수 없나요?
 
 SANtricity 시스템 관리자에 로그인하려고 할 때 오류가 발생하면 가능한 원인을 검토하십시오.
@@ -26,7 +27,7 @@ SANtricity 시스템 관리자에 로그인하려고 할 때 오류가 발생하
 * 권한이 부족합니다.
 * 디렉토리 서버(구성된 경우)를 사용할 수 없습니다. 이 경우 로컬 사용자 역할로 로그인을 시도하십시오.
 * 여러 번 로그인을 시도했으나 실패하여 잠금 모드가 시작되었습니다. 다시 로그인하려면 10분 정도 기다립니다.
-* 잠금 조건이 트리거되었고 감사 로그가 꽉 찼을 수 있습니다. Access Management(액세스 관리)로 이동하여 감사 로그에서 이전 이벤트를 삭제합니다.
+* 잠금 조건이 발생하여 감사 로그가 가득 찼을 수 있습니다. 모니터링 > 감사 로그로 이동하여 감사 로그에서 오래된 이벤트를 삭제하십시오.
 * SAML 인증이 활성화되었습니다. 로그인하려면 브라우저를 새로 고치십시오.
 
 
@@ -39,6 +40,7 @@ SANtricity 시스템 관리자에 로그인하려고 할 때 오류가 발생하
 
 
 
+[[what-do-i-need-to-know-before-adding-a-directory-server]]
 == 디렉토리 서버를 추가하기 전에 알아야 할 사항은 무엇입니까?
 
 Access Management에서 디렉터리 서버를 추가하기 전에 다음 요구 사항을 충족하는지 확인합니다.
@@ -50,6 +52,7 @@ Access Management에서 디렉터리 서버를 추가하기 전에 다음 요구
 
 
 
+[[what-do-i-need-to-know-about-mapping-to-storage-array-roles]]
 == 스토리지 어레이 역할에 매핑하는 방법에 대해 알아야 할 내용은 무엇입니까?
 
 그룹을 역할에 매핑하기 전에 다음 지침을 검토하십시오.
@@ -64,6 +67,7 @@ Access Management에서 디렉터리 서버를 추가하기 전에 다음 요구
 
 
 
+[[directory-services]]
 === 디렉터리 서비스
 
 LDAP(Lightweight Directory Access Protocol) 서버 및 디렉터리 서비스를 사용하는 경우 다음 사항을 확인하십시오.
@@ -80,6 +84,7 @@ LDAP(Lightweight Directory Access Protocol) 서버 및 디렉터리 서비스를
 
 
 
+[[saml]]
 === SAML
 
 스토리지 어레이에 포함된 SAML(Security Assertion Markup Language) 기능을 사용하는 경우 다음 사항을 확인하십시오.
@@ -97,12 +102,14 @@ LDAP(Lightweight Directory Access Protocol) 서버 및 디렉터리 서비스를
 
 
 
+[[which-external-management-tools-may-be-affected-by-this-change]]
 == 이 변경의 영향을 받을 수 있는 외부 관리 도구는 무엇입니까?
 
 관리 인터페이스 전환이나 인증 방법을 위해 SAML을 사용하는 등 SANtricity System Manager에서 특정 변경 사항을 적용하면 일부 외부 툴과 기능의 사용이 제한될 수 있습니다.
 
 
 
+[[management-interface]]
 === 관리 인터페이스
 
 레거시 관리 인터페이스 설정이 활성화되어 있지 않으면 SANtricity SMI-S Provider 또는 OnCommand Insight(OCI)와 같은 기존 관리 인터페이스(기호)와 직접 통신하는 도구가 작동하지 않습니다. 또한 이 설정이 비활성화되어 있으면 레거시 CLI 명령을 사용하거나 미러링 작업을 수행할 수 없습니다.
@@ -111,6 +118,7 @@ LDAP(Lightweight Directory Access Protocol) 서버 및 디렉터리 서비스를
 
 
 
+[[saml-authentication]]
 === SAML 인증
 
 SAML이 활성화되면 다음 클라이언트가 스토리지 서비스 및 리소스에 액세스할 수 없습니다.
@@ -127,12 +135,14 @@ SAML이 활성화되면 다음 클라이언트가 스토리지 서비스 및 리
 
 
 
+[[what-do-i-need-to-know-before-configuring-and-enabling-saml]]
 == SAML을 구성 및 활성화하기 전에 알아야 할 내용은 무엇입니까?
 
 인증을 위해 SAML(Security Assertion Markup Language) 기능을 구성 및 활성화하기 전에 다음 요구 사항을 충족하고 SAML 제한 사항을 이해해야 합니다.
 
 
 
+[[requirements]]
 === 요구 사항
 
 시작하기 전에 다음 사항을 확인하십시오.
@@ -147,6 +157,7 @@ SAML이 활성화되면 다음 클라이언트가 스토리지 서비스 및 리
 
 
 
+[[restrictions]]
 === 제한 사항
 
 위의 요구 사항 외에 다음과 같은 제한 사항을 이해해야 합니다.
@@ -168,6 +179,7 @@ SAML이 활성화되면 다음 클라이언트가 스토리지 서비스 및 리
 
 
 
+[[what-types-of-events-are-recorded-in-the-audit-log]]
 == 감사 로그에 기록되는 이벤트 유형은 무엇입니까?
 
 감사 로그는 수정 이벤트 또는 수정 이벤트와 읽기 전용 이벤트를 모두 기록할 수 있습니다.
@@ -180,6 +192,7 @@ SAML이 활성화되면 다음 클라이언트가 스토리지 서비스 및 리
 
 
 
+[[what-do-i-need-to-know-before-configuring-a-syslog-server]]
 == syslog 서버를 구성하기 전에 알아야 할 내용은 무엇입니까?
 
 외부 syslog 서버에 감사 로그를 보관할 수 있습니다.
@@ -195,8 +208,9 @@ syslog 서버를 구성하기 전에 다음 지침을 염두에 두십시오.
 
 
 
+[[the-syslog-server-is-no-longer-receiving-audit-logs-what-do-i-do]]
 == syslog 서버가 더 이상 감사 로그를 수신하지 않습니다. 어떻게 해야 합니까?
 
 TLS 프로토콜을 사용하여 syslog 서버를 구성한 경우 어떤 이유로든 인증서가 유효하지 않으면 서버에서 메시지를 수신할 수 없습니다. 유효하지 않은 인증서에 대한 오류 메시지가 감사 로그에 게시됩니다.
 
-이 문제를 해결하려면 먼저 syslog 서버의 인증서를 수정해야 합니다. 유효한 인증서 체인이 배치되면 설정 [감사 로그 > Syslog 서버 구성 > 모두 테스트] 메뉴로 이동합니다.
+이 문제를 해결하려면 먼저 syslog 서버의 인증서를 수정해야 합니다. 유효한 인증서 체인이 설정되면 메뉴에서 모니터링[감사 로그 > Syslog 서버 구성 > 모두 테스트]를 선택하십시오.

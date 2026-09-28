@@ -25,7 +25,7 @@ AutoSupport를 켜면 상태 이미지가 기술 지원 부서에 자동으로 �
 
 ====
 .단계
-. 왼쪽 패널에서 menu:Support[Support Center > Diagnostics] 탭을 선택합니다.
+. 왼쪽 패널에서 메뉴:Support[Diagnostics]를 선택합니다.
 . 상태 이미지 검색 * 을 선택합니다.
 +
 파일을 다운로드하기 전에 세부 정보 섹션에서 상태 이미지의 크기를 확인할 수 있습니다.

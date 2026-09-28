@@ -19,11 +19,7 @@ summary: 컨트롤러에 InfiniBand 포트를 통한 iSER이 포함된 경우 �
 
 
 .단계
-. 왼쪽 패널에서 *하드웨어*를 선택합니다.
-. 그래픽에 드라이브가 표시되면 * Controllers & Components * 탭을 클릭하십시오.
-+
-그래픽이 변경되어 드라이브 대신 컨트롤러가 표시됩니다.
-
+. 왼쪽 패널에서 menu:Hardware[Controllers and components]를 선택합니다.
 . 구성하려는 InfiniBand 포트를 통해 iSER이 있는 컨트롤러를 클릭합니다.
 +
 컨트롤러의 상황에 맞는 메뉴가 나타납니다.
@@ -33,6 +29,6 @@ summary: 컨트롤러에 InfiniBand 포트를 통한 iSER이 포함된 경우 �
 InfiniBand 포트를 통해 iSER 구성 대화 상자가 열립니다.
 
 . 드롭다운 목록에서 구성할 HIC 포트를 선택한 다음 호스트의 IP 주소를 입력합니다.
-. 구성 * 을 클릭합니다.
+. 저장 * 을 클릭합니다.
 . 구성을 완료한 다음 * Yes * 를 클릭하여 iSER을 InfiniBand 포트로 재설정합니다.
 

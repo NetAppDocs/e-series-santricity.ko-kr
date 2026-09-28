@@ -23,6 +23,7 @@ summary: 자동 로드 밸런싱은 시간이 지남에 따라 로드 변화에 
 
 
 
+[[enabling-and-disabling-automatic-load-balancing]]
 == 자동 로드 밸런싱 활성화 및 비활성화
 
 자동 로드 밸런싱은 모든 스토리지 어레이에서 기본적으로 활성화됩니다.
@@ -35,6 +36,7 @@ summary: 자동 로드 밸런싱은 시간이 지남에 따라 로드 변화에 
 
 
 
+[[host-types-that-support-the-automatic-load-balancing-feature]]
 == 자동 로드 밸런싱 기능을 지원하는 호스트 유형입니다
 
 스토리지 어레이 레벨에서 자동 로드 밸런싱이 활성화되어 있더라도 호스트 또는 호스트 클러스터에 대해 선택하는 호스트 유형은 이 기능의 작동 방식에 직접적인 영향을 미칩니다.
@@ -82,6 +84,7 @@ VMW_SATP_ALUA 스토리지 어레이 유형 플러그인을 사용하는 NMP(Nat
 
 
 
+[[verifying-os-compatibility-with-the-automatic-load-balancing-feature]]
 == 자동 로드 밸런싱 기능과 OS 호환성을 확인합니다
 
 새(또는 기존) 시스템을 설정하기 전에 자동 로드 밸런싱 기능과 OS 호환성을 확인하십시오.

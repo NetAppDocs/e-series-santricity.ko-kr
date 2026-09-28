@@ -15,6 +15,7 @@ summary: 알림, AutoSupport 및 디렉토리 서비스를 비롯한 스토리�
 
 
 
+[[what-settings-can-be-imported]]
 == 가져올 수 있는 설정은 무엇입니까?
 
 알림 방법, AutoSupport 구성, 디렉토리 서비스 구성, 스토리지 구성(예: 볼륨 그룹 및 풀) 및 시스템 설정(예: 자동 로드 밸런싱)을 가져올 수 있습니다.
@@ -27,6 +28,7 @@ summary: 알림, AutoSupport 및 디렉토리 서비스를 비롯한 스토리�
 
 
 
+[[how-do-i-perform-a-batch-import]]
 == 일괄 불러오기는 어떻게 수행합니까?
 
 소스로 사용할 스토리지 배열에서 System Manager를 열고 원하는 설정을 구성합니다. 그런 다음 Unified Manager에서 관리 페이지로 이동하여 설정을 하나 이상의 어레이로 가져옵니다.

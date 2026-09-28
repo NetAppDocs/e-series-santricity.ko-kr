@@ -15,6 +15,7 @@ summary: 액세스 관리는 SANtricity Unified Manager에서 사용자 인증�
 
 
 
+[[what-authentication-methods-are-available]]
 == 어떤 인증 방법을 사용할 수 있습니까?
 
 다음과 같은 인증 방법을 사용할 수 있습니다.
@@ -34,6 +35,7 @@ summary: 액세스 관리는 SANtricity Unified Manager에서 사용자 인증�
 
 
 
+[[how-do-i-configure-access-management]]
 == 액세스 관리를 구성하려면 어떻게 합니까?
 
 SANtricity 소프트웨어는 로컬 사용자 역할을 사용하도록 사전 구성되어 있습니다. LDAP를 사용하려면 액세스 관리 페이지에서 LDAP를 구성할 수 있습니다.

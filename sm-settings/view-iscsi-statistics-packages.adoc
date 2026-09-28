@@ -28,7 +28,7 @@ System Manager는 이러한 유형의 iSCSI 통계를 표시합니다. 모든 �
 각 통계를 원시 통계 또는 기준 통계로 볼 수 있습니다. 원시 통계는 컨트롤러가 시작된 이후 수집된 모든 통계입니다. 기준 통계는 기준 시간을 설정한 후 수집된 시점 통계입니다.
 
 .단계
-. 왼쪽 패널에서 menu:Settings[System]를 선택합니다.
+. 왼쪽 패널에서 *System*을 선택합니다.
 . *iSCSI 통계 보기*를 선택합니다.
 . 탭을 클릭하여 다양한 통계 집합을 봅니다.
 . * 선택 사항: * 기준선을 설정하려면 * 새 기준선 설정 * 을 클릭합니다.
@@ -41,6 +41,7 @@ System Manager는 이러한 유형의 iSCSI 통계를 표시합니다. 모든 �
 
 
 
+[[mac-transmit-and-mac-receive-statistics]]
 == MAC 전송 및 MAC 수신 통계
 
 이더넷 MAC 통계를 선택하면 수신 및 전송 통계가 모두 나타납니다. 각 통계를 원시 통계 또는 기준 통계로 볼 수 있습니다.
@@ -273,6 +274,7 @@ CSE
 ====
 
 
+[[ethernet-tcpip-statistics]]
 == 이더넷 TCP/IP 통계
 
 이더넷 TCP/IP 통계를 선택하면 TCP 및 IP 통계가 모두 나타납니다. 각 통계를 원시 통계 또는 기준 통계로 볼 수 있습니다.
@@ -463,6 +465,7 @@ DRE - TOC
 ====
 
 
+[[iscsi-target-statistics-and-local-initiator-statistics]]
 == iSCSI 타겟 통계 및 로컬 이니시에이터 통계
 
 Target(프로토콜) 통계 또는 Local initiator(프로토콜) 통계를 선택하면 iSCSI 통계가 표시됩니다. 각 통계를 원시 통계 또는 기준 통계로 볼 수 있습니다.
@@ -547,6 +550,7 @@ uct
 ====
 
 
+[[dcbx-operational-state-statistics]]
 == DCBX 작업 상태 통계
 
 DCBX(Data Center Bridging Exchange) Operational State Statistics(DCBX) 를 선택하면 DCBX 통계가 나타납니다.
@@ -606,6 +610,7 @@ NOTE: 상태 캡처 파일에서 추가 DCBX 작업 상태 통계를 찾을 수 
 
 
 
+[[lldp-tlv-statistics]]
 == LLDP TLV 통계
 
 LLDP(Link Layer Discovery Protocol) TLV(Type Length Value) 통계 를 선택하면 두 가지 통계 세트가 나타납니다. 하나는 로컬 장치에, 다른 하나는 원격 장치에 대해 표시됩니다. 로컬 장치가 컨트롤러를 참조합니다. 원격 장치는 컨트롤러가 연결된 피어 장치(일반적으로 스위치)를 나타냅니다.
@@ -665,6 +670,7 @@ NOTE: 상태 캡처 파일에서 추가 LLDP TLV 통계를 찾을 수 있습니�
 
 
 
+[[dcbx-tlv-statistics]]
 == DCBX TLV 통계입니다
 
 데이터 센터 브리징 교환(DCBX) 유형 길이 값(TLV) 통계를 선택하면 다음 통계가 나타납니다.

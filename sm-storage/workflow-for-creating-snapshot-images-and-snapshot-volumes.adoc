@@ -15,12 +15,14 @@ SANtricity 시스템 관리자에서 다음 단계를 수행하여 스냅샷 이
 
 
 
+[[workflow-for-creating-snapshot-images]]
 == 스냅샷 이미지 생성 워크플로
 
 image::../media/sam1130-flw-snapshots-create-ss-images.gif[스냅샷 이미지 생성 워크플로]
 
 
 
+[[workflow-for-creating-snapshot-volumes]]
 == 스냅샷 볼륨 생성 워크플로우입니다
 
 image::../media/sam1130-flw-snapshots-create-ss-volumes.gif[스냅샷 볼륨 생성 워크플로우]

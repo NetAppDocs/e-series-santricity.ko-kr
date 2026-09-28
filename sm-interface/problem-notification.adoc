@@ -15,6 +15,7 @@ SANtricity System Manager에서는 아이콘과 여러 가지 다른 방법을 �
 
 
 
+[[icons]]
 == 아이콘
 
 System Manager에서는 이러한 아이콘을 사용하여 스토리지 배열 및 해당 구성 요소의 상태를 표시합니다.
@@ -59,6 +60,7 @@ System Manager는 이러한 아이콘을 다양한 위치에 표시합니다.
 
 
 
+[[alerts-and-leds]]
 == 경고 및 LED
 
 또한 System Manager에서는 다른 방법으로 문제를 통지합니다.

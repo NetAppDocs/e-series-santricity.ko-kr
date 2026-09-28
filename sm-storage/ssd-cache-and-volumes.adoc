@@ -15,6 +15,7 @@ summary: '읽기 전용 성능을 개선하기 위해 SSD Cache에 볼륨을 추
 
 
 
+[[volumes]]
 == 볼륨
 
 간단한 볼륨 I/O 메커니즘을 사용하여 데이터를 SSD Cache로 이동하거나 SSD Cache에서 이동할 수 있습니다. 데이터를 SSD에 캐싱하고 저장한 후에는 SSD Cache에서 해당 데이터의 후속 읽기가 수행되므로 HDD 볼륨에 액세스할 필요가 없습니다.
@@ -34,6 +35,7 @@ SSD Cache는 컨트롤러의 동적 DRAM(Random Access Memory)의 기본 캐시�
 ====
 
 
+[[drive-security-feature]]
 == 드라이브 보안 기능
 
 또한 Drive Security(보안 활성화)를 사용하는 볼륨에서 SSD Cache를 사용하려면 볼륨과 SSD Cache의 드라이브 보안 기능이 일치해야 합니다. 일치하지 않으면 볼륨이 보안 활성화되지 않습니다.

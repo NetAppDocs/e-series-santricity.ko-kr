@@ -27,7 +27,7 @@ summary: 통신 링크를 테스트하여 로컬 스토리지 시스템과 미�
 
 
 .단계
-. 왼쪽 패널에서 menu:Storage[Asynchronous Mirroring]를 선택합니다.
+. 왼쪽 패널에서 menu:Mirroring[Asynchronous mirror consistency groups]을 선택합니다.
 . 미러 정합성 보장 그룹 * 탭을 선택한 다음 테스트할 미러 정합성 보장 그룹을 선택합니다.
 . 통신 테스트 * 를 선택합니다.
 +
