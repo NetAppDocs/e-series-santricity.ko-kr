@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, reset, management, certificates 
 summary: 관리 인증서를 공장 자체 서명된 원래 상태로 되돌릴 수 있습니다. 
 ---
-= 관리 인증서를 재설정합니다
+= SANtricity Unified Manager에서 관리 인증서를 재설정합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

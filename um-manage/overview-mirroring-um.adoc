@@ -40,7 +40,7 @@ Unified Manager에서 비동기식 또는 동기식 미러링을 구성한 다�
 
 자세한 내용:
 
-* link:mirroring-configuration-workflow.html["미러링 구성 워크플로우"]
+* link:mirroring-configuration-workflow.html["미러링 구성 워크플로"]
 * link:requirements-for-using-mirroring.html["미러링 사용에 대한 요구사항"]
 * link:create-asynchronous-mirrored-pair-um.html["비동기 미러링 쌍을 생성합니다"]
 * link:create-synchronous-mirrored-pair-um.html["동기식 미러링 쌍을 생성합니다"]

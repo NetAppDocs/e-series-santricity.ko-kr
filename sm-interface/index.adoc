@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: santricity, system, manager, 
 summary: SANtricity System Manager 12.10 
 ---
-= SANtricity System Manager 12.10
+= SANtricity System Manager에 대해 알아보십시오.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

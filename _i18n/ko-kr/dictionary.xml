@@ -4662,7 +4662,6 @@
   <block id="93cdbb6011f5cec110b51da4f7da2c61" category="doc">등록을 위해 iSNS 서버를 사용하면 어떻게 됩니까?</block>
   <block id="9f70d94a69fea670e92e1e022dfe9511" category="paragraph">이 등록을 통해 iSNS 서버에 컨트롤러의 IQN(iSCSI Qualified Name) 및 포트 정보를 제공하고 이니시에이터(iSCSI 호스트)와 타겟(컨트롤러) 간의 쿼리를 허용합니다.</block>
   <block id="eb7ac2ae06e4c6929aed5e3ea8735078" category="summary">System Manager를 사용하여 CSR(인증서 서명 요청)을 생성하고 인증서를 가져오고 기존 인증서를 관리할 수 있습니다.</block>
-  <block id="6b719500a46be35ef104e70ead2e14cb" category="doc">인증서 개요</block>
   <block id="48175419b6d2c9a5a87011f6ccb110a4" category="section-title">인증서란 무엇입니까?</block>
   <block id="a8dcfbdd9061e0fab3b633f081422a43" category="paragraph">_Certificates_는 인터넷 보안 통신을 위해 웹 사이트 및 서버와 같은 온라인 엔터티를 식별하는 디지털 파일입니다. 인증서 유형에는 두 가지가 있습니다. CA(인증 기관)에서 _signed certificate_를 검증하고, 타사 대신 엔터티의 소유자가 _self-signed certificate_를 확인합니다.</block>
   <block id="4a3f946a5d672e0a36f3e78716d815a7" category="list-text"><block ref="4a3f946a5d672e0a36f3e78716d815a7" category="inline-link-macro-rx"></block></block>
@@ -6622,8 +6621,6 @@
   <block id="187d6c7dc064b2e1160460f09ec5d938" category="list-text"><block ref="187d6c7dc064b2e1160460f09ec5d938" category="inline-link-macro-rx"></block></block>
   <block id="58f350d490d06ade1ed3a46f76fe29e5" category="section-title">미러링을 구성하려면 어떻게 합니까?</block>
   <block id="034207a5b0689b9750ad865f17fd2dfe" category="paragraph">Unified Manager에서 비동기식 또는 동기식 미러링을 구성한 다음 System Manager를 사용하여 동기화를 관리합니다.</block>
-  <block id="457c34efc7526192d414539f64c241d3" category="inline-link-macro">미러링 구성 워크플로우</block>
-  <block id="a2c2ab24785ab98435f81f6f49001ec8" category="list-text"><block ref="a2c2ab24785ab98435f81f6f49001ec8" category="inline-link-macro-rx"></block></block>
   <block id="cabd111bd64f2c0b495508e181e87cbb" category="inline-link-macro">미러링 사용에 대한 요구사항</block>
   <block id="769e5cef8b7a04539aae3ab7eaffda22" category="list-text"><block ref="769e5cef8b7a04539aae3ab7eaffda22" category="inline-link-macro-rx"></block></block>
   <block id="a247edbf826158f534b2a1bac52db6d0" category="inline-link-macro">비동기 미러링 쌍을 생성합니다</block>
@@ -6854,9 +6851,7 @@
   <block id="1ce28fccbd059af9ebab85e5f644e942" category="section-title">가져올 수 있는 설정은 무엇입니까?</block>
   <block id="c60d96f37d31d58ac863067912c7f98b" category="paragraph">알림 방법, AutoSupport 구성, 디렉토리 서비스 구성, 스토리지 구성(예: 볼륨 그룹 및 풀) 및 시스템 설정(예: 자동 로드 밸런싱)을 가져올 수 있습니다.</block>
   <block id="1c99c00fd0cee61a1217e8a4d3a2f2f3" category="inline-link-macro">가져오기 설정 작동 방식</block>
-  <block id="1eaf4936c48bc1f30cb16af32c820a59" category="list-text"><block ref="1eaf4936c48bc1f30cb16af32c820a59" category="inline-link-macro-rx"></block></block>
   <block id="619fa8d14b30418e24e34ef456564a85" category="inline-link-macro">스토리지 구성 복제 요구 사항</block>
-  <block id="1388708b1c1631e745e1497782d0a4a5" category="list-text"><block ref="1388708b1c1631e745e1497782d0a4a5" category="inline-link-macro-rx"></block></block>
   <block id="379b94d4679423b71b3ad5d1f504f684" category="section-title">일괄 불러오기는 어떻게 수행합니까?</block>
   <block id="70c7166b154a445fe10a136db28a586f" category="paragraph">소스로 사용할 스토리지 배열에서 System Manager를 열고 원하는 설정을 구성합니다. 그런 다음 Unified Manager에서 관리 페이지로 이동하여 설정을 하나 이상의 어레이로 가져옵니다.</block>
   <block id="475bd5337d6b7fa83c682f24d8d33a33" category="inline-link-macro">알림 설정을 가져옵니다</block>
@@ -6923,14 +6918,11 @@
   <block id="a308cde70025b17fe6c5cd5adaa155f3" category="list-text"><block ref="a308cde70025b17fe6c5cd5adaa155f3" category="inline-link-macro-rx"></block></block>
   <block id="66172aeb0189d32ce06409dfd99ccf26" category="list-text"><block ref="66172aeb0189d32ce06409dfd99ccf26" category="inline-link-macro-rx"></block></block>
   <block id="c65d34dff50813b34b5065dfaf00ba86" category="inline-link-macro">단일 스토리지를 검색합니다</block>
-  <block id="e4030f71404621b473962d90bbbdc87b" category="list-text"><block ref="e4030f71404621b473962d90bbbdc87b" category="inline-link-macro-rx"></block></block>
   <block id="57e45bf5f6e12e521722b45f43d3afd0" category="section-title">어레이를 어떻게 관리해야 합니까?</block>
   <block id="7d3d0712e2714dbbe8d4647363a274ab" category="paragraph">어레이를 검색하고 나면 * Manage - All * 페이지로 이동합니다. 이 페이지에서는 네트워크에서 검색된 스토리지 배열의 목록을 스크롤하고, 해당 상태를 보고, 단일 배열 또는 어레이 그룹에서 작업을 수행할 수 있습니다.</block>
   <block id="b11298094a50528300b64d339010858f" category="paragraph">단일 어레이를 관리하려면 어레이를 선택하고 System Manager를 열 수 있습니다.</block>
   <block id="a64eb96db49578879ca2e4e10dcf4a50" category="list-text"><block ref="a64eb96db49578879ca2e4e10dcf4a50" category="inline-link-macro-rx"></block></block>
   <block id="2eb9615072a762fcf9887eef0a0a2560" category="list-text"><block ref="2eb9615072a762fcf9887eef0a0a2560" category="inline-link-macro-rx"></block></block>
-  <block id="234804df6b8c83d56d3d447cbd1e7fe3" category="inline-link-macro">스토리지 배열 상태를 봅니다</block>
-  <block id="ed3b298a5696d78a02facae953c788ad" category="list-text"><block ref="ed3b298a5696d78a02facae953c788ad" category="inline-link-macro-rx"></block></block>
   <block id="c6ada984d7ca1711de042f34ca89ba6f" category="summary">단일 스토리지 배열 추가/검색 옵션을 사용하여 조직의 네트워크에 단일 스토리지 배열을 수동으로 검색하고 추가합니다.</block>
   <block id="5e86bcd5309e2c4febb4a8a41a078b13" category="paragraph">단일 스토리지 배열 추가/검색 옵션을 사용하여 조직의 네트워크에 단일 스토리지 배열을 수동으로 검색하고 추가합니다.</block>
   <block id="b851020c009e66a17568b3384c3adb49" category="list-text">Discover a single storage array * 라디오 버튼을 선택합니다.</block>
@@ -7913,36 +7905,27 @@
   <block id="0961bfa4d0f83cb13b7f923407264db9" category="paragraph">SAML을 사용할 때마다 JSON Web Token 인증을 통해 연결이 제한되는 스토리지 시스템 기능은 다음과 같습니다.</block>
   <block id="afd690b4a6f8f723237e406e691e1994" category="doc">SANtricity 소프트웨어에 대해 알아보십시오</block>
   <block id="55efb1bea2303063bea2fdc03480bf5d" category="doc">SANtricity 소프트웨어 브라우저 및 운영 체제 지원</block>
-  <block id="e696b5c8159d83bd1e0c9466e8dc6569" category="doc">SANtricity System Manager에서 원격 로그인(SSH) 구성</block>
   <block id="791192eba5e6ba25fcb3f4d4787bdd42" category="doc">SANtricity System Manager에서 핫 스페어 할당</block>
   <block id="2a179d4ca17916b1724afc04dabd8796" category="doc">SANtricity System Manager에서 쉘프 ID 변경</block>
   <block id="3efe7542ac804d872e4cb32668bdcd0b" category="doc">SANtricity System Manager에서 선반 보기 순서 변경</block>
   <block id="0f25f1493e996ca8c9fe406f75014e5b" category="doc">SANtricity System Manager에서 DNS 서버 주소 구성</block>
   <block id="6fec971fb5688583e3ae938ea6635252" category="doc">SANtricity System Manager에서 iSCSI 포트 구성</block>
   <block id="647bd57aa89ba480c449b7af20bcdb4b" category="doc">SANtricity System Manager에서 InfiniBand 포트를 통해 iSER 구성</block>
-  <block id="818b0e2fc3aea06067d74bb4f780f6b9" category="doc">SANtricity System Manager에서 관리 포트 구성</block>
   <block id="942b826e8bf81247277dd17294833adb" category="doc">SANtricity System Manager에서 NTP 서버 주소 구성</block>
   <block id="ed71508096ddf105f7a66756aaa909a1" category="doc">SANtricity System Manager에서 NVMe over InfiniBand 포트 구성</block>
   <block id="139a4bc3ba2ed00c3628e46a02eaec8e" category="doc">SANtricity System Manager에서 NVMe over RoCE 포트 구성</block>
-  <block id="a5b238fa2c3059fafa096070c01245a3" category="doc">E-시리즈 컨트롤러의 IP 주소 할당에 대해 알아보세요</block>
   <block id="84e1a7e377374cd578c829ac734ca1b1" category="doc">SANtricity System Manager의 컨트롤러 상태에 대해 알아보세요</block>
   <block id="3e4ca6f5f42e0015e4c9dfee09a5dcc0" category="doc">SANtricity System Manager의 드라이브 상태에 대해 알아보세요</block>
   <block id="0ff6204b4922a614f054cf74d19b5033" category="doc">SANtricity System Manager에서 드라이브 지우기</block>
   <block id="4a14bf0b2df804251e27c193a6a0765f" category="doc">SANtricity 시스템 관리자에서 수동으로 드라이브 실패</block>
-  <block id="4e93b8b944e5c04bea9b9d1730a25d24" category="doc">SANtricity System Manager 하드웨어 페이지 및 구성 요소</block>
-  <block id="4dc44f8dbe6ad59382a81af1f307e488" category="doc">SANtricity 소프트웨어에서 사용되는 하드웨어 용어에 대해 알아보세요</block>
   <block id="acaa93f0c47521f4f2f9398239806b48" category="doc">SANtricity System Manager의 핫 스페어 드라이브에 대해 알아보세요</block>
-  <block id="a4db80cf14327a39f06d517d526b499b" category="doc">SANtricity System Manager에서 드라이브 초기화(포맷)</block>
   <block id="f59aa10f5efd30da7726822e94f66de3" category="doc">SANtricity System Manager에서 드라이브 보기 필터링</block>
   <block id="3d1cf52a63b21d443e1cf92f6943bea9" category="doc">SANtricity System Manager에서 하드웨어 구성 요소를 보고 관리합니다.</block>
-  <block id="bc002fb1c00b485cb67eb27376711964" category="doc">SANtricity System Manager에서 컨트롤러를 서비스 모드로 전환합니다.</block>
   <block id="baa8f21cf13b83a225b1c7853c8625cb" category="doc">SANtricity System Manager에서 컨트롤러를 오프라인으로 전환</block>
   <block id="d2f436ef9eb00d0e92e11a9d418eadc8" category="doc">SANtricity System Manager에서 컨트롤러를 온라인으로 전환</block>
   <block id="c3b7a3c7230a12b101d55060d1570cca" category="doc">SANtricity System Manager에서 드라이브를 수동으로 재구성</block>
   <block id="569a85590c4c73a17007b1bde319b3b8" category="doc">SANtricity System Manager에서 드라이브를 논리적으로 교체</block>
-  <block id="625d3b8a8a0203cf44e0f6efaf6a34ea" category="doc">SANtricity System Manager에서 컨트롤러 재설정(재부팅)</block>
   <block id="e51433051a984f5e19002bc90747281b" category="doc">SANtricity System Manager에서 구성 요소 상태 표시 또는 숨기기</block>
-  <block id="4e9beac4b22e622f0d3183b6f9575a00" category="doc">SANtricity System Manager에서 SSD(Solid State Disk)에 대해 알아보세요</block>
   <block id="fbcb1ff48c181cd2172f9bbafd85feef" category="doc">SANtricity 시스템 관리자에서 드라이브 위치 표시등 켜기</block>
   <block id="2efbaccdd317d40351cbd3b0078ba4e5" category="doc">SANtricity System Manager에서 선반 위치 표시등 켜기</block>
   <block id="27524250c330c0c3b3e4d14953ab61ba" category="doc">SANtricity System Manager에서 핫 스페어 할당 해제</block>
@@ -7952,59 +7935,33 @@
   <block id="019cd8fdd410c8e21ac8e48aa82391f2" category="doc">SANtricity System Manager에서 드라이브 상태 및 설정 보기</block>
   <block id="c524d0a4d62606457b777ef541ea9347" category="doc">SANtricity System Manager에서 하드웨어 구성 요소 보기</block>
   <block id="9e9cedf03a8665e4bad051e08cd66766" category="doc">SANtricity System Manager에서 선반 구성 요소 상태 및 설정 보기</block>
-  <block id="69985995523c2d426b66408d7daed125" category="doc">SANtricity System Manager에서 암호 보호 관리</block>
-  <block id="5c32253d600042425394ed5980d9be38" category="doc">진행 중인 SANtricity System Manager 작업에 대해 알아보세요.</block>
   <block id="58a34f657d81d7edfbaed6401bb0f515" category="doc">SANtricity System Manager 인터페이스에 대해 알아보세요</block>
   <block id="33e2da76f04b079e476aa9cac594b266" category="doc">SANtricity System Manager 문제 알림에 대해 알아보세요</block>
-  <block id="84c667f2d1e6dc3b9cfc907f53006d6b" category="doc">SANtricity System Manager Recovery Guru를 사용하여 문제에서 복구</block>
   <block id="547886ecd6f44d1e94d51c7a824cdf5c" category="doc">SANtricity System Manager에서 성능 그래프의 기본 시간 프레임을 설정합니다.</block>
   <block id="32fc217fc1fed4d84d398e41c515b71d" category="doc">SANtricity System Manager에서 용량 값의 기본 단위를 설정합니다.</block>
   <block id="427aa43b9cdc2defe80f26a9b8201921" category="doc">SANtricity System Manager 설치 마법사에 대해 알아보세요</block>
-  <block id="cdc0f9266381611530583b5dbc95a241" category="doc">SANtricity System Manager에서 진행 중인 작업을 보고 조치하세요.</block>
-  <block id="da92aaa9d58d31bf3512ac56ae148a38" category="doc">SANtricity System Manager에서 스토리지 계층 보기</block>
-  <block id="f9b276c09a9e51a75340fb1dfc3ed5b3" category="doc">SANtricity System Manager에서 비동기 미러 상태 보기</block>
-  <block id="b20236a95c5f1bc7346a4ac7f1eebdd7" category="doc">SANtricity 소프트웨어의 비동기 미러링 용어에 대해 알아보세요</block>
-  <block id="27c9d2020a7ee9c9a172785caee2aa42" category="doc">SANtricity System Manager에서 미러 일관성 그룹 역할을 기본 또는 보조로 변경합니다.</block>
-  <block id="17823d78ef73f722cb5ec83d77a0f31e" category="doc">SANtricity System Manager에서 미러링된 쌍의 볼륨 간 역할 변경</block>
-  <block id="e344db326042f633dec679fb389ca0e4" category="doc">SANtricity System Manager에서 미러 일관성 그룹에 대한 동기화 설정 변경</block>
-  <block id="b571c7942921f56e38dc2234119600d8" category="doc">SANtricity System Manager에서 미러링된 쌍에 대한 동기화 설정 변경</block>
   <block id="af90f6617180555848d0d0edc437d6e1" category="doc">SANtricity System Manager에서 미러링된 쌍 볼륨에 대한 예약된 용량 설정 변경</block>
-  <block id="b052df0a73bcccc6ed7511b3380c1c60" category="doc">SANtricity System Manager에서 레거시 시스템에 생성된 기본 볼륨에 대한 미러링된 쌍을 완료합니다.</block>
   <block id="5e5c7541af958458f1ac268b6712c5b5" category="doc">SANtricity System Manager에서 비동기 미러링 비활성화</block>
   <block id="b92bbd05d370531c1aa6532c3519f954" category="doc">SANtricity System Manager에서 동기식 미러링 비활성화</block>
   <block id="2ce490e8da130e3ad278fad4b8eee537" category="doc">SANtricity System Manager에서 미러 일관성 그룹 삭제</block>
   <block id="81b2556e4fd871f9ea682e69a232b804" category="doc">SANtricity System Manager에서 비동기 미러링이 작동하는 방식</block>
   <block id="e9d5efeaff5fce51394bba9ee3af6eac" category="doc">SANtricity System Manager에서 동기식 미러링이 작동하는 방식</block>
   <block id="026ccf050237d46deb2637acd910f852" category="doc">SANtricity System Manager에서 예약된 용량 늘리기</block>
-  <block id="b2cce2e99d90dba951300d4a07acdb14" category="doc">SANtricity 소프트웨어의 비동기 미러링에 대해 알아보세요</block>
-  <block id="0f972a72bd5aee334d59e1b29c5fab31" category="doc">SANtricity 소프트웨어의 동기식 미러링에 대해 알아보세요</block>
-  <block id="7926a1ac9382d00cfc6590c0c80ef6be" category="doc">SANtricity System Manager에서 미러 일관성 그룹을 수동으로 다시 동기화합니다.</block>
   <block id="f1c3f1483418f4843025c78102b16af4" category="doc">SANtricity System Manager에서 비동기 미러 관계 제거</block>
   <block id="288e2c16d3025c5aeb7ddfdcf7e12576" category="doc">SANtricity System Manager에서 동기식 미러 관계 제거</block>
   <block id="7c24c58ebddc7ce4f60ae6f4686a8cc1" category="doc">SANtricity 소프트웨어에서 비동기 미러링을 사용하기 위한 요구 사항</block>
   <block id="2d0b5b4cae00ca0b94335defe5fc08fe" category="doc">SANtricity 소프트웨어에서 동기식 미러링을 사용하기 위한 요구 사항</block>
-  <block id="842e6d9c2ca7e55947da010574d7e7c1" category="doc">SANtricity 소프트웨어에서 미러 일관성 그룹 역할 변경</block>
   <block id="0d1b357841241bc8e28cae55f9a67ffd" category="doc">SANtricity 소프트웨어에서 미러링된 쌍의 볼륨 역할 변경에 대해 알아보세요.</block>
-  <block id="cc26556700cde643f7a4998ca0976a84" category="doc">SANtricity System Manager에서 미러링된 쌍에 대한 동기화 일시 중지 및 재개</block>
-  <block id="792c6be07e358d94fe968a169f79db04" category="doc">SANtricity System Manager에서 미러 일관성 그룹에 대한 동기화를 일시 중지하거나 다시 시작합니다.</block>
-  <block id="9212fc74e3a656c3e279ca35e552e4b8" category="doc">SANtricity System Manager의 동기식 미러링 상태에 대해 알아보세요.</block>
-  <block id="4f8462d7e51cbebb3142f0e3ef3307d5" category="doc">SANtricity 소프트웨어의 동기식 미러링 용어에 대해 알아보세요</block>
   <block id="43a0f9d96717dc640a9f5807452d5629" category="doc">SANtricity System Manager의 미러 일관성 그룹에 대한 테스트 통신</block>
   <block id="440e769d8cd1305095a160989cbe81dc" category="doc">SANtricity System Manager에서 동기식 미러링을 위한 테스트 통신</block>
   <block id="515576da6c365e178e990e12007bd60f" category="doc">SANtricity System Manager에서 원격 스토리지 어레이 IP 주소 업데이트</block>
   <block id="8d7b05b34155e2c1e475071247cd76bf" category="doc">SANtricity System Manager에서 미러 일관성 그룹 간의 동기화되지 않은 데이터 양을 확인합니다.</block>
   <block id="2362f7bbc535b1dc6072c22c675c861e" category="doc">SANtricity 소프트웨어의 비동기 미러링에서 볼륨 소유권에 대해 알아보세요.</block>
   <block id="91eafc3e8b902bfe2e658f3494dadf73" category="doc">SANtricity 소프트웨어의 동기식 미러링에서 볼륨 소유권에 대해 알아보세요.</block>
-  <block id="8a5d4160ce799475585f4a484b087ea4" category="doc">SANtricity 소프트웨어에서 볼륨을 비동기적으로 미러링합니다.</block>
-  <block id="6269a17f543c70330eed460dfbeb80cf" category="doc">SANtricity 소프트웨어에서 볼륨을 동기식으로 미러링합니다.</block>
   <block id="a8fbfce67e03a9242f79c779433628dd" category="doc">SANtricity 소프트웨어의 액세스 관리 용어에 대해 알아보세요</block>
   <block id="7e99fcc276ed873dd7e2a3253d7cb578" category="doc">SANtricity System Manager에서 액세스 토큰 생성</block>
   <block id="bfb6bcf04fa0010ea3a31baca8a4c547" category="doc">SANtricity System Manager에서 액세스 토큰 설정 편집</block>
   <block id="a8e01fd75b10b5cf4680125403fa6462" category="doc">SANtricity System Manager에서 액세스 토큰 취소</block>
-  <block id="98e180b1b51e3a769b6b400a853b4fee" category="doc">액세스 토큰과 SANtricity 소프트웨어에 대해 알아보세요</block>
-  <block id="12ef56ab57abceebe446bc84df46db66" category="doc">SANtricity System Manager에서 디렉토리 서비스를 사용하여 액세스 관리 구성</block>
-  <block id="651d31373dfaa6016c9970348683a4e2" category="doc">SANtricity System Manager에서 로컬 사용자 역할로 액세스 관리 구성</block>
-  <block id="f89df32ddf89eeb4831e3ce927641b0d" category="doc">SANtricity System Manager에서 SAML을 사용하여 액세스 관리 구성</block>
   <block id="f385220cdc8e60569df92b9d7eabb4c8" category="doc">SANtricity System Manager에서 알림에 대한 이메일 주소 추가</block>
   <block id="9f2b00c7fbe58a2fc27cd5892bd6e8e1" category="doc">SANtricity System Manager에서 SNMPv2c 트랩에 대한 커뮤니티 추가</block>
   <block id="2996b5d1f418841877ba521f22a1ac71" category="doc">SANtricity System Manager에 LDAP 디렉토리 서버 추가</block>
@@ -8041,7 +7998,6 @@
   <block id="45537ac2660f470d89198d9cced18fe9" category="doc">SANtricity System Manager에서 경고에 대한 syslog 서버 삭제</block>
   <block id="4e6256ca8c4fa71022d3eaeee97b3b8c" category="doc">SANtricity System Manager에서 트랩 대상 삭제</block>
   <block id="f619b095ff69ee2e39492981fab79a75" category="doc">SANtricity System Manager에서 신뢰할 수 있는 인증서 삭제</block>
-  <block id="a51e02ec23d44482ee35f52a6cee39df" category="doc">SANtricity 명령줄 인터페이스(CLI) 다운로드</block>
   <block id="2f525b8539b39a67b470766447ab5bca" category="doc">SANtricity 소프트웨어의 드라이브 보안 용어에 대해 알아보세요</block>
   <block id="ccef233b8aa60591e10f80e9a07fa49b" category="doc">SANtricity System Manager에서 알림에 대한 이메일 주소 편집</block>
   <block id="1f3d1096e329e5b75789b8b8e9ea9a0d" category="doc">SANtricity System Manager에서 SNMPv2c 트랩에 대한 커뮤니티 편집</block>
@@ -8053,11 +8009,8 @@
   <block id="a8119e85bf377d3c639c56a0a32f52ba" category="doc">SANtricity System Manager에서 경고에 대한 syslog 서버 편집</block>
   <block id="fd73f1b2be5817f542818738ca756ac3" category="doc">SANtricity System Manager에서 SNMPv3 트랩에 대한 사용자 설정 편집</block>
   <block id="cd6772c520ae61b2688e50ac62b1a1d2" category="doc">SANtricity System Manager에서 인증서 해지 확인 활성화</block>
-  <block id="6dc937bc5628a4386cadff95dc13abbf" category="doc">SANtricity System Manager에서 기능 팩 활성화</block>
   <block id="a6e39f09e3f79f9b3c4efeca18492765" category="doc">SANtricity System Manager에서 iSCSI 검색 설정 활성화</block>
-  <block id="10aff6802167a5ac9452c8b14db4242c" category="doc">SANtricity System Manager에서 새 볼륨 그룹 또는 풀에 대한 리소스 프로비저닝을 활성화하거나 비활성화합니다.</block>
   <block id="0abacd1ccd573c3fe9da6489ccb14a34" category="doc">SANtricity System Manager에서 프리미엄 기능 활성화</block>
-  <block id="d58c9e6d59208ed869a5a6027d70f7f1" category="doc">SANtricity System Manager에서 iSCSI 세션 종료</block>
   <block id="6f498623a1b6cc1d1ed3a98feb04e6c4" category="doc">SANtricity System Manager에서 키 관리 서버 인증서 내보내기</block>
   <block id="94637ab9cad9908845d1b9eb4a7a3f5b" category="doc">SANtricity System Manager에서 SAML 서비스 공급자 파일 내보내기</block>
   <block id="ee5e02e3e6430426582311b05aa6660c" category="doc">SANtricity System Manager에서 액세스 관리가 작동하는 방식</block>
@@ -8066,7 +8019,6 @@
   <block id="2d08c425e5df039556cb7f8b1cf9b3ff" category="doc">SANtricity System Manager에서 인증서가 작동하는 방식</block>
   <block id="27bdf3ead650486aebb952ecf83b0f4a" category="doc">SANtricity System Manager에서 보안 키 관리가 작동하는 방식</block>
   <block id="0127eb4ceb8184bc8788f2f8e705e869" category="doc">SANtricity System Manager에서 드라이브 보안 기능이 작동하는 방식</block>
-  <block id="a0deb44d63d5f738f7550059d305633f" category="doc">SANtricity System Manager에서 클라이언트로 작동할 때 컨트롤러에 대한 인증서 가져오기</block>
   <block id="acb821d135d279a55a79fc28435f0e27" category="doc">SANtricity System Manager에서 세션 시간 초과 관리</block>
   <block id="5f822c60893c9bb2c258abe33195c314" category="doc">NVMe 및 SANtricity 소프트웨어에 대해 알아보세요</block>
   <block id="90e38527b9b59d98d9e61a2e9b208145" category="doc">SANtricity System Manager에서 기능 키 파일을 가져옵니다.</block>
@@ -8074,23 +8026,17 @@
   <block id="e7d845895b4a8391f704543dddac2b30" category="doc">SANtricity System Manager의 알림에 대해 알아보세요</block>
   <block id="4e0705446c75aaa8c722d01477add263" category="doc">SANtricity System Manager의 인증서에 대해 알아보세요</block>
   <block id="2cacee96f6e579cecc30bd9716d2b304" category="doc">SANtricity System Manager의 드라이브 보안에 대해 알아보세요</block>
-  <block id="ae48cd923fae951bb620af759c7d55b2" category="doc">SANtricity System Manager의 설정 개요에 대해 알아보세요.</block>
-  <block id="18edfcf681469261c28a2bea1990ea7c" category="doc">SANtricity System Manager에서 매핑된 역할에 대한 권한에 대해 알아보세요.</block>
   <block id="fbf1a8e12861c428c9880acfae54cb14" category="doc">SANtricity System Manager에서 SNMPv2c 트랩에 대한 커뮤니티 제거</block>
-  <block id="f4e6a2ce83fceea85080a8b1da16b11b" category="doc">SANtricity System Manager에서 디렉토리 서버 제거</block>
   <block id="0e0b711e14d848611081dd0c7c5bfd84" category="doc">SANtricity System Manager에서 SNMPv3 트랩에 대한 사용자 제거</block>
   <block id="c93553d53b7594a2f55ac551dee2a7cd" category="doc">SANtricity System Manager에서 관리 인증서 재설정</block>
   <block id="22df0766fabfc3aa8c477941ae92c9d1" category="doc">SANtricity System Manager에서 스토리지 어레이 구성 저장</block>
   <block id="9250977b6fc74e450587fba1db99f008" category="doc">SANtricity System Manager에서 자동 부하 분산 설정</block>
   <block id="4e70ce522d6b7b255672b9f2b7f05e54" category="doc">SANtricity System Manager에서 호스트 연결 보고 설정</block>
-  <block id="00777c3320e115287926e31250ef4795" category="doc">SANtricity System Manager에서 외부 키 관리에서 내부 키 관리로 전환</block>
   <block id="6920c227f5515cf38df838a7fe711fbb" category="doc">SANtricity System Manager에서 스토리지 어레이 클럭 동기화</block>
   <block id="d39867f534eecef2c702a868fff1675b" category="doc">SANtricity System Manager에서 스토리지 어레이 로케이터 표시등 켜기</block>
   <block id="64b2495c2fe314d34754523613020356" category="doc">SANtricity System Manager에서 외부 키 관리를 사용할 때 드라이브 잠금 해제</block>
   <block id="390e79029af21ff41137881f05857435" category="doc">SANtricity System Manager에서 내부 키 관리를 사용할 때 드라이브 잠금 해제</block>
-  <block id="dab3bfe38b7f2554e1401a2ef31824e9" category="doc">SANtricity System Manager에서 키 관리 서버 인증을 위해 CA 서명 인증서 사용</block>
   <block id="bdae02098d2024cc99f583c8528a34e0" category="doc">SANtricity System Manager의 컨트롤러에 CA 서명 인증서 사용</block>
-  <block id="ac84474de686243b90bb777f8ce6e019" category="doc">SANtricity System Manager에서 보안 키 검증</block>
   <block id="838be43bb8157a4382de7c0df9a5848e" category="doc">SANtricity System Manager에서 감사 로그 활동 보기</block>
   <block id="39362ae8f84d6584f46edbb1ea9c559a" category="doc">SANtricity System Manager에서 가져온 인증서 정보 보기</block>
   <block id="aff17649c80932061abc5a42b1abbe5f" category="doc">SANtricity System Manager에서 iSCSI 세션 보기</block>
@@ -8102,14 +8048,9 @@
   <block id="7ae0437fb66cb1d11d9ba880d1855d4c" category="doc">SANtricity System Manager에서 볼륨에 수행할 수 있는 작업</block>
   <block id="ba8875d55ed38186f452f0779c05022c" category="doc">SANtricity System Manager에서 스냅샷 일정 활성화 및 일시 중지</block>
   <block id="12646556c051d8afb3253ce36273ad1c" category="doc">SANtricity System Manager에서 풀 또는 볼륨 그룹에 용량 추가</block>
-  <block id="c5a40eee53e3a6a046bdea74e93f749f" category="doc">SANtricity System Manager에서 스냅샷 일관성 그룹에 멤버 볼륨 추가</block>
   <block id="c82d281f4a42668c59b407c5439f7041" category="doc">SANtricity System Manager에서 작업 부하에 볼륨 추가</block>
   <block id="346683dc1d86ee2232d45a02874e70f6" category="doc">SANtricity System Manager에서 호스트에 볼륨 할당</block>
-  <block id="509488a264daaa2f4c25a1fa7afa1f46" category="doc">SANtricity System Manager에서 자동 풀 생성과 수동 풀 생성에 대해 알아보세요.</block>
   <block id="80764ae4bac51ce96a179980b0272cd5" category="doc">SANtricity System Manager에서 보류 중인 스냅샷 이미지 취소</block>
-  <block id="a5f504929c631626bde694e07e40402f" category="doc">SANtricity System Manager에서 스냅샷 이미지 롤백 취소</block>
-  <block id="f6451e9b8258e70783f6678ce4a78412" category="doc">SANtricity System Manager에서 볼륨에 대한 용량이 할당되는 방식</block>
-  <block id="a22bf3ba1965f4018179bbe16740c08b" category="doc">SANtricity 소프트웨어의 용량 용어에 대해 알아보세요</block>
   <block id="9e7606366310838bc01463b6e40b71cf" category="doc">SANtricity System Manager에서 씬 볼륨에 할당된 용량 제한 변경</block>
   <block id="ba7d755ec0c4f655c206cd6915083206" category="doc">SANtricity System Manager에서 볼륨의 캐시 설정 변경</block>
   <block id="876346aa2afb1152de2f75b929ce9a97" category="doc">SANtricity System Manager에서 풀의 구성 설정 변경</block>
@@ -8118,7 +8059,6 @@
   <block id="9d0eef6ca8a369214dae3893a569a26d" category="doc">SANtricity System Manager에서 호스트의 호스트 포트 식별자 변경</block>
   <block id="976d5b100c8bb46a978d025d54df9db7" category="doc">SANtricity System Manager에서 볼륨의 미디어 스캔 설정 변경</block>
   <block id="32106203ac6ae6e19b181aff1dbd5ed2" category="doc">SANtricity System Manager에서 볼륨 설정 변경</block>
-  <block id="d93ede7c0a9199ba535682cd36adfd6b" category="doc">SANtricity System Manager에서 SSD 캐시 설정 변경</block>
   <block id="322aaec0ca97fbcb9472361aaa86b9bb" category="doc">SANtricity System Manager에서 일관성 그룹 멤버 볼륨에 대한 예약된 용량 설정 변경</block>
   <block id="2129449eac2f1abcf7571dadc500ed44" category="doc">SANtricity System Manager에서 스냅샷 그룹의 예약된 용량 설정 변경</block>
   <block id="1a58763a2cba36bf2c96c197a7468796" category="doc">SANtricity System Manager에서 스냅샷 볼륨에 대한 예약된 용량 설정 변경</block>
@@ -8126,12 +8066,9 @@
   <block id="8a7e1ef4bbc2211e7f5a82552f991017" category="doc">SANtricity System Manager에서 호스트 설정 변경</block>
   <block id="027bd5c8f9103029b8be80e9fbb4c8f8" category="doc">SANtricity System Manager에서 스냅샷 일관성 그룹에 대한 설정 변경</block>
   <block id="02c61f2208b07fccaf99cf3021683fca" category="doc">SANtricity System Manager에서 스냅샷 일정에 대한 설정 변경</block>
-  <block id="2d7b65b82c1f0b9693bcaec90915566b" category="doc">SANtricity System Manager에서 스냅샷 볼륨의 볼륨 설정 변경</block>
   <block id="2bbf6db559a55a9597ef3a1331156b4b" category="doc">SANtricity System Manager에서 작업 부하 설정 변경</block>
   <block id="7b593eeadba9048e035e5e95858a4f3f" category="doc">SANtricity System Manager에서 볼륨 중복성 확인</block>
-  <block id="0097a0f3241434bae78043e2c521dcb5" category="doc">SANtricity 소프트웨어에서 두꺼운 볼륨과 얇은 볼륨에 대해 알아보세요</block>
   <block id="9483c72f80e16ad2a8994ff6242b6fbf" category="doc">SANtricity System Manager에서 볼륨 그룹의 여유 용량 통합</block>
-  <block id="cebf235e245ac1727a4fb08543606201" category="doc">SANtricity System Manager에서 스냅샷 볼륨을 읽기-쓰기 모드로 변환</block>
   <block id="94e367453c588ed2953d8cdaf12bd179" category="doc">SANtricity System Manager에서 스냅샷 볼륨 복사</block>
   <block id="e28693570486edcbf19eae6d1bf4e000" category="doc">SANtricity System Manager에서 볼륨 복사에 대해 알아보세요</block>
   <block id="cb4d76dfabd71388f81783d1f6683914" category="doc">SANtricity System Manager에서 볼륨 복사</block>
@@ -8142,12 +8079,9 @@
   <block id="385f418e214bdb6723032ee80bc9d225" category="doc">SANtricity System Manager에서 스냅샷 일관성 그룹 생성</block>
   <block id="96f6bbb92838490ba4cfd5e4fdb34676" category="doc">SANtricity System Manager에서 스냅샷 이미지 생성</block>
   <block id="092ce361ed9559ba823bac0c5c8c97be" category="doc">SANtricity System Manager에서 스냅샷 볼륨을 생성합니다.</block>
-  <block id="eb3abb20820606d928fae99a14f6f642" category="doc">SANtricity System Manager에서 SSD 캐시 만들기</block>
   <block id="241d4844735147be96e18c62745d0aba" category="doc">SANtricity System Manager에서 볼륨 그룹 생성</block>
   <block id="d70d3c3654f0dc1516e419e794c4e634" category="doc">SANtricity System Manager에서 볼륨 생성</block>
   <block id="ee8139e7a79d1303ae381079df78417a" category="doc">SANtricity System Manager에서 워크로드 생성</block>
-  <block id="9e8f2d62c9dcd77c3af552f4dc422803" category="doc">SANtricity 소프트웨어의 볼륨에 대한 데이터 무결성 및 데이터 보안에 대해 알아보세요.</block>
-  <block id="a972ddc2555e0c0f6f4250942ecf95ce" category="doc">SANtricity 소프트웨어의 풀 및 볼륨 그룹에 대해 알아보세요</block>
   <block id="37e9db9b7a1415532978e5e59b0e1792" category="doc">SANtricity System Manager에서 예약된 용량 감소</block>
   <block id="0f065244a3565fda62f0c2976c388d92" category="doc">SANtricity System Manager에서 호스트 또는 호스트 클러스터 삭제</block>
   <block id="c5c9cf2ee2dcd4d87d04772b62b322f4" category="doc">SANtricity System Manager에서 풀 또는 볼륨 그룹 삭제</block>
@@ -8157,50 +8091,30 @@
   <block id="bed6e6ab9580560abff8902133b2d790" category="doc">SANtricity System Manager에서 스냅샷 일정 삭제</block>
   <block id="bb911c27080e432d25f5cd8fb82c2f19" category="doc">SANtricity System Manager에서 스냅샷 볼륨 삭제</block>
   <block id="699d3c8de2c6b58221acff3442153e07" category="doc">SANtricity System Manager에서 볼륨 삭제</block>
-  <block id="eb78bb0efa13b98850811f7037ae0248" category="doc">SANtricity System Manager에서 기존 볼륨 그룹 및 풀에 대한 리소스 프로비저닝을 활성화하거나 비활성화합니다.</block>
   <block id="1c92a73211bcb188f3b5f2030d1a25ec" category="doc">SANtricity System Manager에서 스냅샷 볼륨 비활성화</block>
   <block id="acca3d436b0bbe84c91c35c048a92083" category="doc">SANtricity System Manager에서 풀 또는 볼륨 그룹에 대한 보안 활성화</block>
-  <block id="fbca024c709800ed9d79d8d98711710e" category="doc">SANtricity CLI에서 볼륨 그룹 내보내기/가져오기</block>
-  <block id="784971b82053a9ec4e8b050ed269b12e" category="doc">SANtricity 소프트웨어의 호스트 용어에 대해 알아보세요</block>
   <block id="e262c7061ccf9614b315a45f2b000f9e" category="doc">SANtricity 소프트웨어에서 예약된 용량이 작동하는 방식</block>
   <block id="9266af538e0dac8d3b6cac89f8d44f98" category="doc">SANtricity 소프트웨어에서 스냅샷 스토리지가 작동하는 방식</block>
   <block id="3238be27f78645ac1292e42c24181394" category="doc">SANtricity 소프트웨어에서 SSD 캐시가 작동하는 방식</block>
-  <block id="c5e2b4d9edd295e4401e7a8af50e8885" category="doc">SANtricity 소프트웨어에서 볼륨이 호스트 및 호스트 클러스터에 할당되는 방식</block>
   <block id="2cf3377f31335a0a3de5985e36ada500" category="doc">SANtricity 소프트웨어에서 볼륨이 작동하는 방식</block>
-  <block id="b5737f8b0357274da1616dd64fdf26d9" category="doc">SANtricity 소프트웨어에서 워크로드가 작동하는 방식</block>
   <block id="f9ab1379c579b2393b9bf8aba288559d" category="doc">SANtricity System Manager에서 볼륨 용량 늘리기</block>
   <block id="fe02b7fc1c3f72ac227996fa4fd0227a" category="doc">SANtricity System Manager에서 볼륨 초기화</block>
-  <block id="9d4b81d6353945511bba44b53f060178" category="doc">SANtricity System Manager에서 성능 데이터 해석</block>
-  <block id="b8f664f5fc973a8d1f414e6e339615b0" category="doc">SANtricity System Manager에서 애플리케이션 및 작업 부하 관리</block>
   <block id="ad45b02bb613f89a36807319b8b1c991" category="doc">SANtricity System Manager에서 수동 호스트 생성에 대해 알아보세요.</block>
-  <block id="341c80e43a8a914f71a2e7ad4a5f7fda" category="doc">SANtricity 소프트웨어의 최대 LUN 수에 대해 알아보세요</block>
   <block id="5910120f88b026d84ccb959f3e061afb" category="doc">SANtricity System Manager에서 씬 볼륨 모니터링</block>
   <block id="dd0d36753dad2d9b708f3e0143f81e15" category="doc">SANtricity 소프트웨어의 호스트 및 호스트 클러스터에 대해 알아보세요</block>
-  <block id="84606dd9cabb3b19867d6f645fd8c8a8" category="doc">SANtricity System Manager의 성능 개요에 대해 알아보세요</block>
   <block id="6153428cf786fb4d7b2d14144b207d2d" category="doc">SANtricity System Manager의 풀 및 볼륨 그룹에 대해 알아보세요.</block>
   <block id="31599231d5b8254d0d62975d0cdbf117" category="doc">SANtricity System Manager의 원격 저장소 기능에 대해 알아보세요</block>
   <block id="c208bf91e8a0df25bb7b48152e8204a5" category="doc">SANtricity System Manager의 스냅샷에 대해 알아보세요</block>
   <block id="b5a3371dc2d8a29f4873f495b92d247a" category="doc">SANtricity System Manager의 볼륨 및 작업 부하에 대해 알아보세요.</block>
-  <block id="731e43a989aca6062649b6099aea7cd9" category="doc">SANtricity System Manager의 성능 그래프와 지침에 대해 알아보세요.</block>
-  <block id="d3c3d5c671cfe29f288d108c475d0cea" category="doc">SANtricity 소프트웨어의 성능 용어에 대해 알아보세요</block>
   <block id="e47dd25f85e15805b5f310c947b42bca" category="doc">SANtricity System Manager에서 스냅샷 볼륨을 다시 생성합니다.</block>
   <block id="70474cf06dc73d58a01a97006cd687ed" category="doc">SANtricity System Manager에서 볼륨 재분배</block>
-  <block id="1f5cc0774a4c5896a1fb25c090efb928" category="doc">SANtricity System Manager에서 풀 또는 SSD 캐시의 용량 제거</block>
-  <block id="da30c6e6de44aadac9f61229e5115658" category="doc">SANtricity System Manager에서 스냅샷 일관성 그룹에서 멤버 볼륨 제거</block>
   <block id="f2db3cbe9a176b268ceff67072def08d" category="doc">SANtricity System Manager의 스냅샷에 대한 요구 사항 및 지침</block>
   <block id="532efc960c239d58c30eb4d8254f3ac4" category="doc">SANtricity System Manager에서 스냅샷 이미지 롤백 재개</block>
-  <block id="83e9ff341dfee574c32441ab8b662616" category="doc">SANtricity 소프트웨어에서 원격 스토리지가 작동하는 방식</block>
   <block id="e6ac89d8f6549854ff238879c90d974e" category="doc">SANtricity System Manager에서 원격 스토리지 가져오기</block>
   <block id="a5a3cec422c98a6055cafd0fbb1884d1" category="doc">SANtricity System Manager에서 원격 스토리지 가져오기 진행 상황 관리</block>
-  <block id="7f5129743a0f50bc41a8c9a062a8bab5" category="doc">SANtricity System Manager에서 원격 저장소에 대한 연결 설정 수정</block>
-  <block id="2e2d253f7cd81ceb6bcba438c519b2ee" category="doc">SANtricity 소프트웨어의 원격 저장소 기능 요구 사항에 대해 알아보세요.</block>
-  <block id="f7776c2d857931b11f315d9f567809aa" category="doc">SANtricity 소프트웨어의 원격 저장소 볼륨 요구 사항에 대해 알아보세요.</block>
   <block id="fccbb682788c68809a3443edfb4277e8" category="doc">SANtricity System Manager에서 원격 저장소 개체 제거</block>
-  <block id="9bbd2c41600fb135b12ce4e029570cb3" category="doc">SANtricity 소프트웨어의 원격 저장소 용어에 대해 알아보세요</block>
   <block id="9995bb9afc99d41ab721f7f8cd86534a" category="doc">SANtricity System Manager에서 스냅샷 이미지 예약</block>
   <block id="c0b569d8ce87ac810947f22fb4605077" category="doc">SANtricity 소프트웨어의 스냅샷 롤백에 대해 알아보세요</block>
-  <block id="f8e23923415fcce5a7cdcdc2257e6d85" category="doc">SANtricity System Manager의 스냅샷 일정 및 스냅샷 일관성 그룹에 대해 알아보세요.</block>
-  <block id="b69d32f5fb8ab10915adbba619c0017e" category="doc">SANtricity 소프트웨어의 스냅샷 용어에 대해 알아보세요</block>
   <block id="d1ed0fc7b9cdd69553d3bb787eec62b7" category="doc">SANtricity 소프트웨어의 스냅샷 볼륨에 대해 알아보세요</block>
   <block id="6e9294ea12dc5399b02d69ef241e9fa9" category="doc">SANtricity 소프트웨어의 SSD 캐시 및 볼륨에 대해 알아보세요</block>
   <block id="5d33e25c1d367155f7d3cae11424abaa" category="doc">SANtricity 소프트웨어의 SSD 캐시 제한 사항에 대해 알아보세요</block>
@@ -8208,21 +8122,13 @@
   <block id="d598aebdbf681a329fb0199bc184638c" category="doc">SANtricity System Manager에서 스냅샷 일관성 그룹 멤버 볼륨에 대한 스냅샷 이미지 롤백을 시작합니다.</block>
   <block id="f148978799622908e86625a1be990510" category="doc">SANtricity System Manager에서 볼륨 복사 작업에 대한 조치를 취하세요.</block>
   <block id="21a1be4e8d1df5431436d38683ed51b8" category="doc">SANtricity 소프트웨어에서 씬 볼륨 모니터링에 대해 알아보세요</block>
-  <block id="70bac6cb7596a1c5682c0b4051f0160e" category="doc">SANtricity 시스템 관리자에서 풀, 볼륨 그룹 또는 SSD 캐시의 로케이터 표시등 켜기</block>
   <block id="fa7759509da8c7c79ae9fb63775d856a" category="doc">SANtricity 소프트웨어에서 볼륨 복사 작업 유형에 대해 알아보세요.</block>
   <block id="d6e8360b2cb0d8e3e14484b82709a35a" category="doc">SANtricity System Manager에서 볼륨 할당 해제</block>
   <block id="83fc0ebc2ad61a3e97ce59f4fb9047f9" category="doc">SANtricity System Manager에서 표 형식의 성능 데이터를 보고 저장합니다.</block>
   <block id="797fb1139409c1127dd559f83c0bbe6b" category="doc">SANtricity System Manager에서 그래픽 성능 데이터 보기</block>
   <block id="84d5b685a37be079a60f4b95f43b316a" category="doc">SANtricity System Manager에서 스냅샷 이미지 설정 보기</block>
   <block id="9b6b546777e9f0c4bf77147600a53b2b" category="doc">SANtricity System Manager에서 SSD 캐시 통계 보기</block>
-  <block id="150d59a7387353231504faf7bf859a37" category="doc">SANtricity 소프트웨어의 볼륨 용어에 대해 알아보세요</block>
-  <block id="03d6e8dbe8844e33147500a449a64865" category="doc">SANtricity System Manager에서 복사 서비스 사용</block>
-  <block id="b39156053f03ed44af37d8f2f50fb255" category="doc">SANtricity System Manager에서 호스트 생성 및 볼륨 할당이 작동하는 방식</block>
-  <block id="718da838e465d1abdbb88f3d4afe63d1" category="doc">SANtricity System Manager에서 스냅샷 이미지 및 스냅샷 볼륨을 생성하는 방법</block>
-  <block id="9d122974ba94e0669b60b1256ad34bfd" category="doc">SANtricity System Manager에서 볼륨 생성이 작동하는 방식</block>
   <block id="2a6f1c9883df4f32f0e0cce228054d30" category="doc">SANtricity System Manager에서 컨트롤러 소프트웨어 및 펌웨어 활성화</block>
-  <block id="dcc654c03fdd53146e27ae86d2a8d251" category="doc">E-Series용 AutoSupport에 대해 알아보세요</block>
-  <block id="9e2da9890d81f2a3a0fd3c5aa502bbc2" category="doc">SANtricity 소프트웨어에서 복구 모드 지우기</block>
   <block id="cad307494928a47597a4d3f3f22e0549" category="doc">SANtricity System Manager에서 구성 데이터 수집</block>
   <block id="4d610ec1d8da57ef3d3cb976ca9964e6" category="doc">SANtricity System Manager에서 I/O 경로 통계 수집</block>
   <block id="3031fc1b7e95f47d5b6e408a1fe1da82" category="doc">SANtricity System Manager에서 수동으로 지원 데이터 수집</block>
@@ -8231,14 +8137,9 @@
   <block id="ceb37a3d20b732f1e9e18a021af8b44d" category="doc">SANtricity System Manager에서 AutoSupport 유지 관리 창 활성화</block>
   <block id="e6293a2da1040683d4c217a73bcaded8" category="doc">SANtricity System Manager에서 AutoSupport 기능 활성화 또는 비활성화</block>
   <block id="03445e0c39174a97cf2215c8d7b43557" category="doc">SANtricity System Manager에서 iSCSI 세션 종료</block>
-  <block id="2ef1bc8a31b44790bfa2373dac614173" category="doc">SANtricity 소프트웨어의 이벤트 로그에 대해 알아보세요</block>
-  <block id="2c3df2acde9fe7176be03c82187c5d37" category="doc">SANtricity System Manager에서 지원 받기</block>
-  <block id="6c247fdcaa3825d5dc1ae46f09e8ee20" category="doc">SANtricity 소프트웨어 업그레이드에 대해 알아봅니다</block>
   <block id="1df40413268ea802e8842361f2930e29" category="doc">SANtricity System Manager에서 드라이브 포트를 다시 활성화합니다.</block>
-  <block id="7463122a32a40f3e04176a4eb5ff44c2" category="doc">SANtricity System Manager에서 상태 이미지 검색</block>
   <block id="f030d9e0f32f240f816b1c3efb5a9eb0" category="doc">SANtricity System Manager에서 복구 지원 파일 검색</block>
   <block id="a4004de8d3a6553f6f7b5a30da919b92" category="doc">SANtricity System Manager에서 추적 버퍼 검색</block>
-  <block id="44a6cbe3df16b1a1e8d0858832567f21" category="doc">SANtricity 소프트웨어 및 펌웨어 업그레이드 오류에 대해 알아보세요</block>
   <block id="0da414b6db8ea25737e4addb928b7678" category="doc">SANtricity System Manager에서 AutoSupport 디스패치 일정 예약</block>
   <block id="f11e0d8e9c3ee108d5252105d6b3d146" category="doc">SANtricity System Manager에서 AutoSupport 디스패치 보내기</block>
   <block id="34b42367166dc58389323853b131ce17" category="doc">SANtricity System Manager에서 스토리지 어레이 상태에 대한 복구 작업 수행</block>
@@ -8248,22 +8149,17 @@
   <block id="22fa42db986406a5c66610591a3e22dd" category="doc">SANtricity System Manager에서 AutoSupport 상태 보기</block>
   <block id="8b33eabd8c76e2ac31fa5f17bd0e4fff" category="doc">SANtricity System Manager의 이벤트 로그를 사용하여 이벤트 보기</block>
   <block id="aa3d88e1e49082ff6c7c1cca8a8eac5d" category="doc">SANtricity System Manager에서 소프트웨어 및 펌웨어 인벤토리 보기</block>
-  <block id="664d03b3e0f7be60fce96082fc9602bd" category="doc">SANtricity System Manager에서 스토리지 어레이 정보 보기</block>
   <block id="526671aab5a269160910a134da3e3986" category="doc">SANtricity System Manager에서 스토리지 어레이 프로필 보기</block>
   <block id="f1ff77b3a9e0132d7bc42edd71e852cd" category="doc">SANtricity System Manager에서 읽을 수 없는 섹터 로그 보기</block>
-  <block id="599923004690b0c1117d7b708d7321cb" category="doc">SANtricity System Manager에서 AutoSupport 구성</block>
   <block id="3cd4b94b1c1fffe404c8c018c1791943" category="doc">SANtricity Unified Manager의 관리자 암호 보호에 대해 알아보세요</block>
   <block id="464b12e0772bcfed1c42bfa46f879dca" category="doc">SANtricity Unified Manager에서 관리자 비밀번호 변경</block>
   <block id="3438015d59c89bd0f7e2cad7ee17b809" category="doc">SANtricity Unified Manager에서 스토리지 어레이 암호 변경</block>
   <block id="1204125f1034038b68d1105bbee4cd9a" category="doc">SANtricity Unified Manager에서 세션 시간 초과 관리</block>
   <block id="a54710832ee5a423064fca5395cf9042" category="doc">SANtricity Unified Manager에 대해 알아보세요</block>
   <block id="d8dd5de41b5b3a9fcb4c3b7a0881087b" category="doc">SANtricity Unified Manager에 지원되는 브라우저</block>
-  <block id="d851bcacf6cd800c089a36d64d74a181" category="doc">SANtricity Unified Manager 액세스 관리 용어에 대해 알아보세요</block>
   <block id="c130faf5f75c80684c1dcc31ac0d6406" category="doc">SANtricity Unified Manager의 디렉토리 서비스를 통한 액세스 관리</block>
   <block id="82a7b453e318f7a3bdf4692ba422e535" category="doc">SANtricity Unified Manager의 로컬 사용자 역할을 통한 액세스 관리</block>
   <block id="24656b3bd6cf5e93077f7198a4d813e8" category="doc">SANtricity Unified Manager에서 SAML을 사용한 액세스 관리</block>
-  <block id="955cd4a17806922c8ca0dd3c53f0e180" category="doc">SANtricity Unified Manager에 디렉토리 서버 추가</block>
-  <block id="678fed422fa391c5a10436bb093756a0" category="doc">SANtricity Unified Manager의 인증서 용어에 대해 알아보세요</block>
   <block id="61127992be34b32f41d73f18997a8364" category="doc">SANtricity Unified Manager에서 로컬 사용자 암호 설정 변경</block>
   <block id="f7423e9d4df8d8e9084556e1c1ff38d9" category="doc">SANtricity Unified Manager에서 로컬 사용자 프로필의 암호 변경</block>
   <block id="63476dfab5a207f15f6c7bc98ba041c7" category="doc">SANtricity Unified Manager에서 SAML 역할 매핑 변경</block>
@@ -8284,8 +8180,6 @@
   <block id="c3d5dfbb534fb862e47732fe36583be8" category="doc">SANtricity Unified Manager에서 동기식 미러링 쌍을 생성합니다.</block>
   <block id="b8721ad259aeca37ccbc3dc6adcbab4f" category="doc">SANtricity Unified Manager에서 스토리지 어레이 그룹 삭제</block>
   <block id="d64eea73e524455b96174c2f6402dc79" category="doc">SANtricity Unified Manager에서 여러 스토리지 어레이를 검색하세요</block>
-  <block id="200b55ecf44e01b07228d86f14ac18a0" category="doc">SANtricity Unified Manager에서 단일 어레이를 검색하세요</block>
-  <block id="fc93d33343fdfc3c73cfca172ffd6ebf" category="doc">SANtricity Unified Manager에서 여러 스토리지 어레이를 구성하는 방법에 대해 알아보세요.</block>
   <block id="af25a8f324b7dbf97f90f90c3c71a997" category="doc">SANtricity Unified Manager에서 알림 설정 가져오기</block>
   <block id="29d52818815ba6dd7c7a7c74d86c558a" category="doc">SANtricity Unified Manager에서 AutoSupport 설정 가져오기</block>
   <block id="eb3fd545a78e3ee552c4a85ea9ea5aa0" category="doc">SANtricity Unified Manager에서 스토리지 구성 설정 가져오기</block>
@@ -8293,22 +8187,15 @@
   <block id="0a853dc1023f2caadb8bfa27e8ad1273" category="doc">Unified Manager에서 SANtricity System Manager에 액세스하는 방법에 대해 알아보세요.</block>
   <block id="88f73e2cd5f762edce7e3e3d70975b13" category="doc">SANtricity Unified Manager에서 개별 스토리지 어레이 관리</block>
   <block id="0397a3a58d5821945f8530d856fc1c18" category="doc">Unified Manager에서 SANtricity 소프트웨어 저장소 관리</block>
-  <block id="dab3ba4d78fb907a2b857b70cff46835" category="doc">미러 SANtricity 구성 워크플로</block>
   <block id="3c093e9fa11cb83fdb4558d0ecf2443c" category="doc">SANtricity 미러링에 대해 알아보세요</block>
-  <block id="3b359f38e087517c0d02b105333d690f" category="doc">SANtricity Unified Manager의 미러링 용어에 대해 알아보세요</block>
-  <block id="273afb9794fcb75bd1b190680990764e" category="doc">SANtricity Unified Manager에서 스토리지 어레이 설정 가져오기에 대해 알아보세요.</block>
-  <block id="782dea5f0e7d506c6ba4bafc90640252" category="doc">SANtricity Unified Manager의 그룹 개요에 대해 알아보세요.</block>
   <block id="746efcb7e933a3cf8db78361deec9a15" category="doc">SANtricity Unified Manager의 미러링에 대해 알아보세요</block>
   <block id="97a8edd259940a20fd1ace7cf0af3dfc" category="doc">SANtricity Unified Manager에서의 검색에 대해 알아보세요</block>
   <block id="3a486a444a7e994002a2a326de7c9715" category="doc">SANtricity Unified Manager의 업그레이드 센터에 대해 알아보세요</block>
   <block id="5abc1d0156d65f17f8756eb333623b9a" category="doc">SANtricity Unified Manager에서 사전 업그레이드 상태 점검 수행</block>
   <block id="f79baa1058b14f4b32dc00bdc8d2ceda" category="doc">SANtricity Unified Manager에서 그룹에서 스토리지 어레이 제거</block>
   <block id="d63d0c7dfdc8a7552901436cde5658ab" category="doc">SANtricity Unified Manager에서 스토리지 어레이 그룹 이름 바꾸기</block>
-  <block id="a79c2f9262b82d53fa0ea61bc945844c" category="doc">SANtricity Unified Manager에서 스토리지 어레이 구성을 복제하기 위한 요구 사항</block>
   <block id="fe015c845a17ffd8b3ccded4f1c7ec14" category="doc">SANtricity Unified Manager에서 미러링을 사용하기 위한 요구 사항</block>
   <block id="ce0f43f0cff59f79cef9d24182d1c24b" category="doc">SANtricity Unified Manager의 스토리지 어레이 그룹에 대해 알아보세요.</block>
-  <block id="76dc6c9aa3960fe34656b2f144f48c06" category="doc">SANtricity Unified Manager에서 스토리지 어레이 상태 보기</block>
-  <block id="9da51a1302e75e343632d510bb4cc161" category="doc">SANtricity Unified Manager를 사용하여 여러 스토리지 어레이를 업그레이드하는 방법에 대해 알아보세요.</block>
   <block id="de782f8cc63656476de5f5cd91b93ecb" category="doc">SANtricity 운영 체제 업그레이드</block>
   <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">이 FAQ는 질문에 대한 간단한 답변을 찾는 경우에 도움이 될 수 있습니다.</block>
   <block id="5453a26dc9b68778117a8311e75f8fbe" category="doc">SANtricity System Manager용 스토리지 컨트롤러 FAQ</block>
@@ -8318,14 +8205,12 @@
   <block id="8587ba2a3667d610eb60afc44dad1723" category="doc">SANtricity System Manager를 위한 스토리지 시스템 설정 FAQ</block>
   <block id="a8d4770377b5b26815bf4624787b5cd2" category="section-title">모든 하드웨어 구성 요소가 보이지 않으면 어떻게 되나요?</block>
   <block id="93553c3f530e96d0430861eab073fd9f" category="section-title">모든 호스트를 볼 수 없다면 어떻게 해야 하나요?</block>
-  <block id="ec650621f1b4e4a52be9f5b5b3aa032e" category="doc">SANtricity System Manager에 대한 비동기 미러링 FAQ</block>
   <block id="9f823e5a9e8f9ed671d7256745222141" category="section-title">선택한 미러링 기능에 왜 액세스할 수 없나요?</block>
   <block id="056a12680d6f0ea9fbc5b9cd0dcbbbc5" category="section-title">요청한 양만큼 예약된 용량을 늘릴 수 없는 이유는 무엇인가요?</block>
   <block id="627802c3caee37379a9c399ab704765d" category="section-title">왜 내 풀과 볼륨 그룹이 모두 보이지 않나요?</block>
   <block id="c61a1154889025d1e7a947414ac8a162" category="section-title">비동기 미러링 - 왜 모든 볼륨이 보이지 않나요?</block>
   <block id="a7d50b4837966a5a224cf9d31b8f4a86" category="section-title">비동기 미러링 - 원격 스토리지 어레이의 모든 볼륨이 표시되지 않는 이유는 무엇입니까?</block>
   <block id="2aea594a4c81b0946e1265a4de81a100" category="section-title">원격 스토리지 어레이의 IP 주소를 업데이트해야 하는 이유는 무엇입니까?</block>
-  <block id="e49efc0cfc4c7b160fd4cdfba13d0678" category="doc">SANtricity System Manager에 대한 동기화 미러링 FAQ</block>
   <block id="3cf88cf8f3807ba93b6284bc7f35241d" category="section-title">동기식 미러링 - 왜 모든 볼륨이 보이지 않나요?</block>
   <block id="127409013236f2ee4d2fedecdfdf9696" category="section-title">동기식 미러링 - 원격 스토리지 어레이의 모든 볼륨이 표시되지 않는 이유는 무엇입니까?</block>
   <block id="474e6194420a15da8f116ca1d03c1089" category="doc">SANtricity 소프트웨어의 캐시 설정 및 성능에 대해 알아보세요</block>
@@ -8336,7 +8221,6 @@
   <block id="7e2b30503c6c69f7a65b4e868fd7b1d7" category="doc">SANtricity System Manager에 대한 스토리지 시스템 알림 FAQ</block>
   <block id="fe7c1bb53377d143fbbd6019354e2c03" category="doc">SANtricity System Manager에 대한 사용자 액세스 관리 FAQ</block>
   <block id="0307aefebec2be18a5e72767abfab6ea" category="section-title">왜 로그인할 수 없나요?</block>
-  <block id="8eb7d61e639ed5ef84ecef34c3ef9a90" category="doc">SANtricity System Manager의 기본 볼륨, 예약 용량 및 스냅샷 그룹에 대해 알아보세요.</block>
   <block id="93ff2ee6ca3ebff76b39eee6c837a05c" category="doc">SANtricity System Manager에 대한 풀 및 볼륨 그룹 FAQ</block>
   <block id="95480a662f5c9e477922a7a2b403bb11" category="section-title">왜 보존 용량을 늘릴 수 없나요?</block>
   <block id="e162d80660b94f1ba0e8a0ed9b5db00c" category="section-title">왜 감소시킬 금액을 더 선택할 수 없나요?</block>
@@ -8606,7 +8490,6 @@
   <block id="54b0914d7277874ccba08c2f0982e40a" category="list-text">편집할 호스트 또는 호스트 클러스터를 선택한 다음 menu:ellipsis icon[Unassign Volumes]을 클릭합니다.</block>
   <block id="9415f4231725ae1029831bddfc847283" category="list-text">통계를 보려는 SSD Cache를 선택한 다음 menu:ellipsis icon[View statistics]를 클릭합니다.</block>
   <block id="65855161982c3e6064d4126321631754" category="summary">스크립트 편집기를 사용하여 스크립트 파일을 생성 또는 편집하고, 스크립트 파일을 스토리지 관리 스테이션의 로컬 디스크에 저장하거나, 디스크에서 스크립트 파일을 로드할 수 있습니다.</block>
-  <block id="286df7907589603c59edb63682f9667f" category="doc">스크립트 편집기 사용</block>
   <block id="787b189c9aa2a8d06969b4eed3b50187" category="paragraph">스크립트 편집기는 스토리지 시스템과 통신하여 스크립트 구문 검사 및 명령 실행을 가능하게 합니다. 스크립트 편집기에 입력된 스크립트 명령은 일반적으로 스토리지 시스템에서 실행됩니다.</block>
   <block id="516fab9f4dbf4646911f17b48642be9a" category="paragraph">스크립트 편집기는 창에 두 가지 보기를 제공합니다.</block>
   <block id="f15c02c42d186760efd6295d63804b0e" category="list-text">편집기 창 – 스크립트 명령을 입력하거나 편집할 수 있는 영역을 제공합니다.</block>
@@ -8664,7 +8547,6 @@
   <block id="1b6db931b3901060f9bce4c85c4a34cc" category="paragraph">다음 출력 창에 결과 오류가 표시됩니다. 스토리지 시스템이 응답하지 않는 상태였기 때문에 명령을 보낼 수 없었습니다.</block>
   <block id="4bd6b0da16174697589aad42880c9338" category="admonition">스토리지 어레이와의 통신 실패를 포함한 특정 실행 오류는 항상 스크립트 실행을 중단시킵니다. 이러한 경우에는<block ref="6a81d15ce4f19001b944098a1cf27c05" prefix=" " category="inline-code"></block> 구문을 사용하더라도 실행이 중지됩니다.</block>
   <block id="09444e28574d4688dfa88a3173185f23" category="paragraph">스크립트를 실행한 후 출력 창을 검토하여 성공 또는 오류를 확인하십시오.</block>
-  <block id="12552cabe7cc02a88100da5f5c4c0b2d" category="summary">SANtricity Unified Manager 8</block>
   <block id="b7daa67e940ded0a69f505694ca9bdcb" category="paragraph">네트워크에서 스토리지 어레이를 검색하고, 어레이용 SANtricity System Manager를 실행하고, 하나의 어레이에서 여러 어레이로 설정을 가져오고, 어레이 그룹을 관리할 수 있습니다. 어레이 이름 옆의 확인란을 선택하면 설정 가져오기 및 어레이 그룹 생성과 같은 작업을 수행할 수 있습니다. 각 행 끝에 있는 줄임표를 클릭하면 어레이 이름 변경과 같은 단일 어레이에 대한 작업을 위한 인라인 메뉴가 나타납니다.</block>
   <block id="f95817b2bc0b41d0e6a92b658b3204e4" category="list-text">페이지에서 인증서를 선택한 다음 행 끝에 있는 줄임표를 클릭합니다.</block>
   <block id="2bcb50ee17148fb9fd0603f1ac802486" category="list-text">인증서에 대한 자세한 정보를 보려면 해당 행을 선택하고 행 끝에 있는 줄임표를 선택한 다음 *View* 또는 *Export*를 클릭하십시오.</block>
@@ -8679,7 +8561,6 @@
   <block id="98fb326bd031cfdd062648c1e4359ef9" category="paragraph">이제 SSD 및 NVMe 기반 시스템에서 Dynamic Disk Pool 세그먼트 크기의 기본값이 32K로 설정됩니다.</block>
   <block id="1970e3f7efbd3974c3dc8ec9d2745647" category="paragraph">SSD 및 NVMe 기반 시스템의 Dynamic Disk Pool에서 기본 세그먼트 크기가 32K로 변경되었습니다. 이전에는 이러한 시스템에서 Dynamic Disk Pool의 기본 세그먼트 크기가 128K로 고정되어 있었습니다. 이번 변경으로 소규모 및 대규모 I/O 작업이 혼합된 워크로드의 성능이 최적화되었습니다.</block>
   <block id="acc2a3dd457f3b89ae3e07ece78ae970" category="paragraph">SANtricity System Manager에서 스크립트 편집기를 사용할 수 있습니다</block>
-  <block id="96326b5520f644337f2b9f27c4b4e238" category="paragraph">SANtricity System Manager에 새로운 스크립트 편집기가 추가되었습니다. 스크립트 편집기를 사용하면 스크립트 파일을 생성 또는 편집하고, 스토리지 관리 스테이션의 로컬 디스크에 저장하거나, 디스크에서 스크립트 파일을 불러올 수 있습니다. 스크립트 편집기는 스토리지 시스템 관리를 위한 구문 검사 및 명령 실행 기능을 제공합니다. 자세한 내용은 <block ref="7511cf8ef97831a0432bb6966b2afe45" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="cbeeed737f5afb09d1505cf179e9c1f8" category="sidebar">SANtricity Unified Manager 8을 사용한 다중 어레이 관리</block>
   <block id="523d8e1940fe8fd7921104a2b1aa3b24" category="sidebar">스크립트 편집기 사용</block>
   <block id="7270f12c0a303f4c7f8c806c946d0faf" category="paragraph">이번 릴리스에서는 EF80 및 EF50 올 NVMe 플래시 스토리지 시스템이 새롭게 출시되었습니다. EF80 및 EF50은 컨트롤러당 24개의 NVMe SSD 드라이브와 컨트롤러 간 미러링 카드를 지원합니다. 지원되는 NVMe over Fabrics 호스트 인터페이스는 EF80의 경우 NVMe over RoCE, NVMe over IB, NVMe over FC이며, EF50의 경우 NVMe over FC입니다. 두 시스템 모두 지원되는 SCSI 인터페이스는 Fibre Channel입니다. EF50은 컨트롤러당 최대 2개의 호스트 인터페이스 카드를 지원하고, EF80은 컨트롤러당 최대 3개의 호스트 인터페이스 카드를 지원합니다.</block>
@@ -8834,7 +8715,6 @@
   <block id="ad50d726052bde88bc90a7de8b261c70" category="paragraph">대상 주소가 더 이상 SNMP 경고 페이지에 나타나지 않습니다.</block>
   <block id="a5a495c8a76d23e49998cffbbe024cf6" category="list-text">왼쪽 패널에서 menu:Certificates[Trusted certificates]를 선택합니다.</block>
   <block id="3e3e9f6a06a2df6dafb81e09e0790519" category="list-text">*부가 기능*에서 *명령줄 인터페이스 다운로드*를 선택합니다.</block>
-  <block id="e952784922289283b3df3c1933d68928" category="admonition">동일한 스토리지 어레이 내에서 FDE 드라이브와 FIPS 드라이브를 혼합하여 사용하는 것은 지원되지 않습니다. 시스템의 모든 보안 지원 드라이브는 동일한 유형이어야 합니다.</block>
   <block id="52755546a2563cd647b18d3a1f892a9b" category="paragraph">수정하려는 이메일 주소는 이메일 알림 페이지에 정의되어 있어야 합니다.</block>
   <block id="5d6a25f66bc362e734370bc21a11b8cf" category="paragraph">이메일 알림 페이지에는 업데이트된 이메일 주소가 표시됩니다.</block>
   <block id="d3ebec6e93349cf953efd5a7c741ba17" category="paragraph">SNMP 알림 페이지에 업데이트된 커뮤니티 이름이 표시됩니다.</block>
@@ -9118,4 +8998,139 @@
   <block id="9058b34022122c78e9a4a4d9c48a5b78" category="sidebar">SANtricity 소프트웨어 12.10 문서</block>
   <block id="484059fb06cc5d8441498bee89fda7f0" category="sidebar">SANtricity System Manager 12.10을 사용한 단일 어레이 관리</block>
   <block id="1f83597d32022fe75587024ad625d4e2" category="sidebar">SANtricity 소프트웨어 12.10 문서</block>
+  <block id="134432d9b45ecd0bcdd7b7c60bd89da4" category="doc">SANtricity System Manager에서 원격 로그인을 구성합니다</block>
+  <block id="6f2c8150d0541f6d3d80fd1a169388e7" category="doc">SANtricity System Manager에서 관리 포트를 구성합니다.</block>
+  <block id="927b4dde35df16413982ab0976a77c09" category="doc">SANtricity System Manager에서 IP 주소 할당에 대해 알아보십시오.</block>
+  <block id="5adae37ff25d36c6049a940a86676ee1" category="doc">SANtricity System Manager의 하드웨어 페이지에 대해 알아보십시오.</block>
+  <block id="61a3838bcd7ac35c7c9ce40cc761200e" category="doc">SANtricity System Manager에서 사용되는 하드웨어 용어에 대해 알아보십시오.</block>
+  <block id="70d924eca8845b61b1cdd970867f402d" category="doc">SANtricity System Manager의 하드웨어 구성 요소</block>
+  <block id="6607ffaeb29ed452100e0c7be07cfd1b" category="doc">SANtricity System Manager에서 드라이브를 초기화하고 포맷합니다.</block>
+  <block id="cd7ee85ab0133b77bee2a0af986ef781" category="doc">SANtricity System Manager를 사용하여 컨트롤러를 서비스 모드로 전환하십시오</block>
+  <block id="dd3ed70dcea5a4d788ac339495ccfaec" category="doc">SANtricity System Manager에서 컨트롤러 재설정</block>
+  <block id="c6d38bd42c7753a502dbfcc3e64a4e68" category="doc">SANtricity System Manager에서 솔리드 스테이트 디스크에 대해 알아보십시오.</block>
+  <block id="2a23eef8c145213f4060c0554e5e6b7b" category="doc">SANtricity System Manager의 암호 보호에 대해 알아보십시오.</block>
+  <block id="cd232f63ed0f060fa350ea1b26df4363" category="doc">SANtricity System Manager에 대해 알아보십시오.</block>
+  <block id="a9735a04dc71a7db46a174ac8ccda166" category="doc">SANtricity System Manager 진행 중인 작업 페이지</block>
+  <block id="084874d5f181b81b23ffbd59e3d4a668" category="doc">SANtricity System Manager에서 Recovery Guru를 사용하여 문제에서 복구하십시오.</block>
+  <block id="921c144f48ef3893455fcdb6decb4ba0" category="doc">SANtricity System Manager의 진행 중인 작업을 확인하고 조치하십시오.</block>
+  <block id="ba6f63b2cab2a580f8dd18519f0edbd7" category="doc">SANtricity System Manager의 스토리지 계층 구조</block>
+  <block id="5888e1873e32110f9f832a166fc0f6b6" category="doc">SANtricity System Manager의 비동기 미러 상태</block>
+  <block id="f098bcbdba1a541d53b204f22655fefa" category="doc">SANtricity 소프트웨어의 비동기 미러링 용어</block>
+  <block id="8f8561ca1fde03428626df6a44e63942" category="doc">SANtricity System Manager에서 미러 일관성 그룹 역할을 변경합니다</block>
+  <block id="2378ab2eda4ec14e25f5b46cd1c7559c" category="doc">SANtricity System Manager의 미러링된 쌍에서 볼륨 역할을 변경합니다.</block>
+  <block id="55be868d2ebe435e831bab0a220aa3b0" category="doc">SANtricity System Manager에서 미러 일관성 그룹 동기화 설정을 변경합니다.</block>
+  <block id="8055d362c1c525a7880f1859b9d441ac" category="doc">SANtricity System Manager에서 미러링된 쌍 동기화 설정을 변경합니다</block>
+  <block id="4637b68ca7ff918b4e4bf5ac658d2547" category="doc">SANtricity System Manager에서 미러링된 페어 볼륨의 예약 용량 설정을 변경합니다.</block>
+  <block id="0a19af6efe6a2a449d9dcd507afb17ea" category="doc">SANtricity System Manager에서 기존 기본 볼륨에 대한 미러링 쌍을 완료하십시오.</block>
+  <block id="ad5437cc669ff0015f8db812b4a4edbf" category="doc">SANtricity System Manager용 비동기 미러링 FAQ</block>
+  <block id="678dcb8b934bcfee6023f4387ecc5edc" category="doc">SANtricity System Manager용 동기식 미러링 FAQ</block>
+  <block id="27dd2829274cb731d86fdfff738a32aa" category="doc">SANtricity System Manager의 미러링에 대해 알아보십시오.</block>
+  <block id="ede0c36dbf5f30fc169cec99857a1440" category="doc">SANtricity System Manager의 비동기 미러링에 대해 알아보십시오.</block>
+  <block id="7a6d62a7461954e464c86505d6a8c7d4" category="doc">SANtricity System Manager의 동기식 미러링에 대해 알아보십시오.</block>
+  <block id="191e76d66a912905e157f9225d8e3186" category="doc">SANtricity System Manager에서 미러 일관성 그룹을 수동으로 다시 동기화합니다.</block>
+  <block id="2025435a1266219220e858696a963e70" category="doc">SANtricity 소프트웨어에서 미러 일관성 그룹 역할 변경이 작동하는 방식</block>
+  <block id="d107764a4f14ba79357c932a2e8fe251" category="doc">SANtricity System Manager에서 미러링된 쌍 동기화를 일시 중지하거나 다시 시작합니다.</block>
+  <block id="5158ed7e99a63d68a703740e281ca5b3" category="doc">SANtricity System Manager에서 미러 일관성 그룹 동기화를 일시 중지하거나 다시 시작합니다</block>
+  <block id="2b1f465833d7101e5ea6946c576c9590" category="doc">SANtricity System Manager의 동기식 미러링 상태</block>
+  <block id="af47f4e1076312f48bf60c1509779628" category="doc">SANtricity 소프트웨어의 동기식 미러링 용어</block>
+  <block id="ca68d7f80a0ebedb5b7bd3b981f01410" category="doc">SANtricity 소프트웨어의 비동기 미러링 워크플로우</block>
+  <block id="8954c73d912d880bf588530889efb774" category="doc">SANtricity 소프트웨어용 동기식 미러링 워크플로</block>
+  <block id="556d06cd51a88ddf44ea0610f7d83950" category="doc">SANtricity System Manager의 액세스 토큰에 대해 알아보십시오.</block>
+  <block id="68eb179a14037e17ab457b9bdc0dee21" category="doc">SANtricity System Manager의 디렉터리 서비스를 이용한 액세스 관리</block>
+  <block id="b71dd4c1e9beff6bd6d4c63728b656bd" category="doc">SANtricity System Manager에서 로컬 사용자 역할을 사용한 액세스 관리</block>
+  <block id="9f61df96f208c62b0160a6ea16391412" category="doc">SANtricity System Manager에서 SAML을 사용한 액세스 관리</block>
+  <block id="c7d61109369977053daf9c88d1108e8e" category="doc">SANtricity 명령줄 인터페이스를 다운로드하십시오</block>
+  <block id="95a98b3c6e0c5954da4c7e8b96a3ac5a" category="doc">SANtricity System Manager에서 기능 팩을 활성화합니다</block>
+  <block id="464f8a9d64784984a543eae9182df875" category="doc">SANtricity System Manager에서 리소스 프로비저닝을 활성화 또는 비활성화합니다.</block>
+  <block id="1fd0a1d54f4bd06351fb76e8eca332ad" category="doc">SANtricity System Manager에서 클라이언트 컨트롤러용 신뢰할 수 있는 인증서를 가져옵니다</block>
+  <block id="a934f0d06ea2342378e1380857519549" category="doc">SANtricity System Manager의 설정에 대해 알아보십시오.</block>
+  <block id="1ccffe90f1de4d408d38bf20da51c899" category="doc">SANtricity System Manager에서 매핑된 역할에 대한 권한</block>
+  <block id="039788d1864b684f87346f59bfa4d739" category="doc">SANtricity System Manager에서 디렉터리 서버 제거</block>
+  <block id="3453a28d38c4cafd145716ec592d395d" category="doc">SANtricity System Manager에서 내부 키 관리로 전환합니다</block>
+  <block id="b470a793f075a7fcfcfc9659dc234c58" category="doc">SANtricity System Manager에서 키 관리 서버 인증에 CA 서명 인증서를 사용하십시오.</block>
+  <block id="1331920238f82433bb6db7793528c5ea" category="doc">SANtricity System Manager에서 보안 키를 검증하십시오.</block>
+  <block id="d2a1754e8e06bfe5612c3beea7f405ff" category="doc">SANtricity System Manager에서 스냅샷 일관성 그룹에 볼륨을 추가합니다</block>
+  <block id="0e69962765f06e747fa32fbef5ca2dfa" category="doc">SANtricity System Manager에서 자동 풀 생성과 수동 풀 생성 비교</block>
+  <block id="02b225176109d9c377facad88362e99a" category="doc">SANtricity System Manager의 기본 볼륨, 예약 용량 및 스냅샷 그룹</block>
+  <block id="d192a83ef8925f54fdcf0c16c0e7b299" category="doc">SANtricity System Manager에서 스냅샷 이미지 롤백을 취소합니다</block>
+  <block id="7e918b0d2faea692d326e3756220b310" category="doc">SANtricity System Manager가 볼륨에 용량을 할당하는 방법</block>
+  <block id="f54321e06c768597eebe0dcc72e489c0" category="doc">SANtricity System Manager의 용량 관련 용어</block>
+  <block id="32a3b11ed3463df61dc16477437d8a24" category="doc">SANtricity System Manager에서 SSD 캐시 설정을 변경하십시오</block>
+  <block id="56192af025cdf48a354c62c853f30e54" category="doc">SANtricity System Manager에서 스냅샷 볼륨 설정을 변경합니다.</block>
+  <block id="fab94fed7dca6dc66cfc6ab1f0f5c05e" category="doc">SANtricity System Manager의 Thick 볼륨 및 Thin 볼륨</block>
+  <block id="3d2c4b5356c5b86167b6a15f009e24e5" category="doc">SANtricity System Manager에서 스냅샷 볼륨을 읽기/쓰기 모드로 변환합니다</block>
+  <block id="9083ead8449c448c781abfe6b54610f4" category="doc">SANtricity System Manager에서 SSD 캐시를 생성합니다</block>
+  <block id="b5b04b6393f18dbf0e62bd2b4dd834a8" category="doc">SANtricity System Manager 볼륨의 데이터 무결성 및 보안에 대해 알아보십시오.</block>
+  <block id="3c54e1c53a0dc4c38d81725a8da18c12" category="doc">SANtricity System Manager에서 기존 볼륨에 대한 리소스 프로비저닝을 활성화 또는 비활성화합니다</block>
+  <block id="00c222b3c27caa065f2548538948419d" category="doc">SANtricity CLI를 사용한 볼륨 그룹 내보내기 및 가져오기</block>
+  <block id="60515e9f325b01561c9a2ed474128036" category="doc">SANtricity 소프트웨어의 호스트 용어</block>
+  <block id="7c2e93916c4a983be9790eb66bf04cf6" category="doc">SANtricity System Manager가 호스트 및 호스트 클러스터에 볼륨을 할당하는 방법</block>
+  <block id="c5f2b72a092ee991678a3b63fb135375" category="doc">SANtricity System Manager에서 워크로드가 작동하는 방식</block>
+  <block id="bfddbb4a8974ff568ad18a38fda4dfc1" category="doc">SANtricity System Manager의 성능 지표 및 그 영향</block>
+  <block id="eee1145d1428056283f791bad1763d47" category="doc">SANtricity System Manager에서 호스트 I/O 모듈 프로토콜을 변경하십시오.</block>
+  <block id="6bedb5cbd20ea6f758277a771f0d9619" category="doc">SANtricity System Manager의 애플리케이션 및 워크로드</block>
+  <block id="24cc6fafa46a4c4c80d12d135f962c9b" category="doc">SANtricity System Manager의 최대 LUN 개수에 대해 알아보십시오.</block>
+  <block id="b89ee3f3429b4e7847dbed9539b56934" category="doc">SANtricity System Manager의 성능 모니터링에 대해 알아보십시오.</block>
+  <block id="d819f2c17c60edea453d123633ebd19c" category="doc">SANtricity System Manager의 성능 그래프 및 지침</block>
+  <block id="ecb13a670ce0aca336bd52c59d8f9a27" category="doc">SANtricity 소프트웨어의 성능 용어</block>
+  <block id="fa147213586cc32c79ffab9d58b400ed" category="doc">SANtricity System Manager에서 풀 또는 SSD 캐시의 용량을 제거합니다.</block>
+  <block id="a2bd31be59cb17391b08f73dc83aae2b" category="doc">SANtricity System Manager에서 스냅샷 일관성 그룹의 볼륨을 제거합니다</block>
+  <block id="5cd5c8220f13f98d2fe6b292135e29ae" category="doc">SANtricity System Manager에서 원격 스토리지가 작동하는 방식</block>
+  <block id="8bfc191572da98279c6c9c0513469753" category="doc">SANtricity System Manager에서 원격 스토리지 연결 설정을 수정합니다.</block>
+  <block id="ca288818744ef5728748d41b6c613b9d" category="doc">SANtricity 소프트웨어의 원격 스토리지 기능 요구 사항</block>
+  <block id="a243a7b5acda9122ef1699d6d1dc6103" category="doc">SANtricity 소프트웨어의 원격 스토리지 볼륨 요구 사항</block>
+  <block id="fe755a1a0856a898707f25e7afd31925" category="doc">SANtricity 소프트웨어의 원격 스토리지 용어</block>
+  <block id="ddb40ea2e71917899406465ddab6b266" category="doc">SANtricity System Manager에서 스냅샷 일정 및 일관성 그룹에 대해 알아보십시오.</block>
+  <block id="29e61858c276e79b0402d85b037c18a7" category="doc">SANtricity 소프트웨어의 스냅샷 용어</block>
+  <block id="e2ebe859b5713ea8bb2f4a44408b9309" category="doc">SANtricity System Manager에서 풀, 볼륨 그룹 또는 SSD 캐시에 대한 위치 표시등을 켜십시오.</block>
+  <block id="776f5784462b72c4d773b46e42ad192f" category="doc">SANtricity System Manager의 볼륨 용어</block>
+  <block id="6cffc95c43f10dad2ccd290c79c89cf2" category="doc">SANtricity System Manager의 복사 서비스에 대해 알아보십시오.</block>
+  <block id="4a7b7b8c4bd59cf364756c6ed8442f82" category="doc">SANtricity System Manager의 호스트 생성 및 볼륨 할당 워크플로</block>
+  <block id="76d433aabf7d2457b9020c23d5e36443" category="doc">SANtricity System Manager에서의 스냅샷 이미지 및 스냅샷 볼륨 생성 워크플로</block>
+  <block id="cb957be371f4decf5b339d4cc8a4121b" category="doc">SANtricity System Manager의 볼륨 생성 워크플로</block>
+  <block id="fa4a43d6200d6d180038f666f189f163" category="doc">SANtricity System Manager의 AutoSupport에 대해 알아보십시오.</block>
+  <block id="c76bd70d7abee16e78ad80f656dec63f" category="doc">SANtricity System Manager에서 복구 모드 해제</block>
+  <block id="27fd826d33043052db377eea34000de6" category="doc">SANtricity System Manager 지원</block>
+  <block id="f731c4e3b43815425b588e377f8b8bc1" category="doc">SANtricity System Manager의 이벤트 로그에 대해 알아보십시오.</block>
+  <block id="87f3ce8d204b0e323026384d3bd0d9aa" category="doc">SANtricity System Manager의 지원에 대해 알아보십시오.</block>
+  <block id="d6f46d0217af5fd0a99ad24839f9525f" category="doc">SANtricity System Manager를 사용한 업그레이드에 대해 알아보십시오.</block>
+  <block id="2a94eba180a711a184d2fd7931e69678" category="doc">SANtricity System Manager에서 상태 이미지를 검색합니다</block>
+  <block id="e06497835b2b7382a8895553a3db5d8b" category="doc">SANtricity System Manager의 소프트웨어 및 펌웨어 업그레이드 오류</block>
+  <block id="d3befcf90191b6f16d3a22220a61e39b" category="doc">SANtricity System Manager의 스크립트 편집기를 사용하십시오.</block>
+  <block id="655af2da0ba012c2c8a9a88cb897b759" category="doc">SANtricity System Manager의 스토리지 어레이 정보</block>
+  <block id="e68263bc0480a6d1e0655715e366dabc" category="doc">SANtricity System Manager용 AutoSupport 구성 워크플로</block>
+  <block id="f30f830df378d2c8989c81556f2c4764" category="summary">SANtricity Unified Manager 관리에 대해 알아보기</block>
+  <block id="47f0413cb20bb8e14a5ffff0eaadaa09" category="doc">SANtricity Unified Manager의 액세스 관리 용어</block>
+  <block id="4757289a5855c9f1c7db68000325786c" category="doc">SANtricity Unified Manager에서 디렉터리 서버를 추가합니다</block>
+  <block id="6b5418b89a39f915692d8e34cfd942a6" category="doc">SANtricity Unified Manager의 인증서 용어</block>
+  <block id="9637827307b29627dc2238af9725a5d6" category="doc">SANtricity Unified Manager의 인증서 관리에 대해 알아보기</block>
+  <block id="a7ecf1553995da3d2743c22262c37124" category="doc">SANtricity Unified Manager 인증서에 대해 알아보십시오</block>
+  <block id="b5f1b67c06b7b544f96a6bbdad051ccb" category="doc">SANtricity Unified Manager에서 매핑된 역할에 대한 권한</block>
+  <block id="5a209d7dbfa459b30592ced09cdeec87" category="doc">SANtricity Unified Manager에서 디렉터리 서버 제거</block>
+  <block id="9d2c2b0302cfbfb3c67b05135a735b12" category="doc">SANtricity Unified Manager에서 관리 인증서를 재설정합니다</block>
+  <block id="5bf7980117541c59631c0a16238f41ae" category="doc">SANtricity Unified Manager에서 신뢰할 수 없는 인증서 문제를 해결하십시오</block>
+  <block id="05c5f1fcfe8cc31fab357e37d4775802" category="doc">SANtricity Unified Manager에 CA 서명 인증서를 사용하십시오.</block>
+  <block id="c1007a9b27f844c6cfb5b9721fc0d3d7" category="doc">SANtricity Unified Manager에서 인증서 보기</block>
+  <block id="9fa5838c036e41275620f4416d7f3ccc" category="doc">SANtricity Unified Manager에서 로컬 사용자 역할 보기</block>
+  <block id="481a1eb5d00f26554de764845060834c" category="doc">SANtricity Unified Manager에서 단일 스토리지 어레이 검색</block>
+  <block id="477e7370a4b5379f602b1304b1cf7e15" category="doc">SANtricity Unified Manager에서 가져오기 설정 기능이 작동하는 방식</block>
+  <block id="579042bf24fd7fde9d7627d9ecf70af7" category="doc">SANtricity Unified Manager의 미러링 구성 워크플로</block>
+  <block id="e878e800e48b5fa2852ca7f54fb327e7" category="doc">SANtricity Unified Manager의 미러링 용어</block>
+  <block id="29da77c52eafcba541581a388cd664a9" category="doc">SANtricity Unified Manager에서 설정 가져오기에 대해 알아보십시오.</block>
+  <block id="e2fdda3387120d1171ee4244ec5b44ce" category="inline-link-macro">설정 가져오기 기능 작동 방식</block>
+  <block id="03f5ec10608e982c1558044d901b338b" category="list-text"><block ref="03f5ec10608e982c1558044d901b338b" category="inline-link-macro-rx"></block></block>
+  <block id="310a91e54737c4ae8df21da5af91b19f" category="inline-link-macro">스토리지 구성 복제 요구 사항</block>
+  <block id="5319c9afb1aeefc2270bda11ebaf9791" category="list-text"><block ref="5319c9afb1aeefc2270bda11ebaf9791" category="inline-link-macro-rx"></block></block>
+  <block id="53e23b1768e32229c0ee10904e25f9c7" category="doc">SANtricity Unified Manager의 어레이 그룹에 대해 알아보십시오</block>
+  <block id="62fa16231fa8e76394efd72b5b3c2e66" category="inline-link-macro">미러링 구성 워크플로</block>
+  <block id="17371bd83c772c10f3243d7e49b98b70" category="list-text"><block ref="17371bd83c772c10f3243d7e49b98b70" category="inline-link-macro-rx"></block></block>
+  <block id="a0506609f1afca5d8ba269ec071ce896" category="inline-link-macro">단일 스토리지 어레이 검색</block>
+  <block id="90a265ac1f01d3273097d6ed7a2e35cb" category="list-text"><block ref="90a265ac1f01d3273097d6ed7a2e35cb" category="inline-link-macro-rx"></block></block>
+  <block id="2b3d2d1b872ee0e8f27ff39b8e81bd98" category="list-text"><block ref="2b3d2d1b872ee0e8f27ff39b8e81bd98" category="inline-link-macro-rx"></block></block>
+  <block id="1dbfa2854295a031cae67e2c27b8d7f7" category="doc">SANtricity Unified Manager의 스토리지 구성 복제 요구 사항</block>
+  <block id="63b0ef9396e6fdd1ebe4ed0ac96a0b88" category="doc">SANtricity Unified Manager의 스토리지 어레이 상태</block>
+  <block id="3e3ab97da43f9cbbde4f710dc1523d3a" category="doc">SANtricity Unified Manager를 사용하여 스토리지 어레이를 업그레이드하는 방법에 대해 알아보세요.</block>
+  <block id="712baff1701c605dfc39f4e5da7d934e" category="section-title">버전 12.10R1의 새로운 기능</block>
+  <block id="9bee6f4318d6dc6bfd57ef5376da8437" category="paragraph">이 버전에는 사소한 변경 사항만 포함되어 있으며 새로운 기능은 없습니다. 이 릴리스의 변경 사항에 대한 자세한 내용은 E-Series SANtricity OS 12.10R1 README를 참조하십시오.</block>
+  <block id="534d737e3b11a0c1ecc6be448beff492" category="paragraph">SANtricity System Manager에 새로운 스크립트 편집기가 추가되었습니다. 스크립트 편집기를 사용하면 스크립트 파일을 생성 또는 편집하고, 스토리지 관리 스테이션의 로컬 디스크에 저장하거나, 디스크에서 스크립트 파일을 불러올 수 있습니다. 스크립트 편집기는 스토리지 시스템 관리를 위한 구문 검사 및 명령 실행 기능을 제공합니다. 자세한 내용은 <block ref="c89b24f343925323abf5bc404bade770" category="inline-link-macro-rx"></block>를 참조하십시오.</block>
 </blocks>

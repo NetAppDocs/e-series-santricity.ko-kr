@@ -24,7 +24,7 @@ summary: 스토리지 리소스를 관리하려면 먼저 네트워크에서 스
 
 * link:considerations-for-discovering-arrays.html["스토리지 검색 시 고려 사항"]
 * link:discover-multiple-arrays.html["여러 스토리지 시스템을 검색합니다"]
-* link:discover-single-array.html["단일 스토리지를 검색합니다"]
+* link:discover-single-array.html["단일 스토리지 어레이 검색"]
 
 
 
@@ -40,5 +40,5 @@ summary: 스토리지 리소스를 관리하려면 먼저 네트워크에서 스
 
 * link:launch-considerations.html["System Manager 액세스에 대한 고려 사항"]
 * link:launch-system-manager.html["개별 스토리지 어레이를 관리합니다"]
-* link:storage-array-status.html["스토리지 배열 상태를 봅니다"]
+* link:storage-array-status.html["스토리지 배열 상태입니다"]
 

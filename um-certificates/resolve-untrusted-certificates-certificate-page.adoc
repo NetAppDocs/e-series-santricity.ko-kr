@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, resolve, untrusted, certificates 
 summary: 신뢰할 수 없는 인증서는 스토리지 어레이에서 SANtricity Unified Manager에 대한 보안 연결을 설정하려고 시도하지만 연결이 보안으로 확인하지 못할 때 발생합니다. 
 ---
-= 신뢰할 수 없는 인증서를 확인합니다
+= SANtricity Unified Manager에서 신뢰할 수 없는 인증서 문제를 해결하십시오
 :allow-uri-read: 
 :experimental: 
 :icons: font

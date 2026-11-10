@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, ca-signed, certificates 
 summary: Unified Manager를 호스팅하는 관리 시스템에 안전하게 액세스하기 위해 CA 서명 인증서를 받아서 가져올 수 있습니다. 
 ---
-= 관리 시스템에 CA 서명 인증서를 사용합니다
+= SANtricity Unified Manager에 CA 서명 인증서를 사용하십시오.
 :allow-uri-read: 
 :experimental: 
 :icons: font
