@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  
 summary:  
 ---
-= SANtricity Unified Manager의 인증서 관리에 대해 알아보기
+= SANtricity Unified Manager 8
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

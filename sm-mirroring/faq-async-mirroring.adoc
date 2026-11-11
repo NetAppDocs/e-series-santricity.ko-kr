@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  
 summary: 이 FAQ는 질문에 대한 간단한 답변을 찾는 경우에 도움이 될 수 있습니다. 
 ---
-= SANtricity System Manager용 비동기 미러링 FAQ
+= SANtricity System Manager의 비동기 미러링 FAQ
 :allow-uri-read: 
 :experimental: 
 :icons: font

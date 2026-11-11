@@ -2,9 +2,9 @@
 permalink: um-admin/index.html 
 sidebar: sidebar 
 keywords: santricity, unified, manager 8 
-summary: SANtricity Unified Manager 관리에 대해 알아보기 
+summary: SANtricity Unified Manager 8 
 ---
-= SANtricity Unified Manager 관리에 대해 알아보기
+= SANtricity Unified Manager 8
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
